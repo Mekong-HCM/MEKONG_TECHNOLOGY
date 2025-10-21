@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mekong Technology - Presentation System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .header h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+        }
+
+        .header p {
+            font-size: 1.3rem;
+            color: #b3c5d7;
+            margin-bottom: 0.5rem;
+        }
+
+        .header .project-info {
+            font-size: 1.1rem;
+            color: #FFD700;
+            margin-top: 1.5rem;
+        }
+
+        .versions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .version-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            padding: 2.5rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+
+        .version-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(255, 215, 0, 0.3);
+            border-color: #FFD700;
+        }
+
+        .version-card .badge {
+            display: inline-block;
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            color: #1e3c72;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .version-card h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #64FFDA;
+        }
+
+        .version-card .duration {
+            font-size: 1rem;
+            color: #FFD700;
+            margin-bottom: 1.5rem;
+            font-weight: 500;
+        }
+
+        .version-card .description {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #b3c5d7;
+            margin-bottom: 1.5rem;
+        }
+
+        .version-card .features {
+            list-style: none;
+            margin-bottom: 1.5rem;
+        }
+
+        .version-card .features li {
+            font-size: 0.95rem;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            color: #ffffff;
+        }
+
+        .version-card .features li:last-child {
+            border-bottom: none;
+        }
+
+        .version-card .features li::before {
+            content: "✓ ";
+            color: #4CAF50;
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+
+        .version-card .btn {
+            display: inline-block;
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            color: #1e3c72;
+            padding: 0.8rem 2rem;
+            border-radius: 30px;
+            font-weight: 600;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: none;
+            font-size: 1rem;
+            width: 100%;
+        }
+
+        .version-card:hover .btn {
+            transform: scale(1.05);
+            box-shadow: 0 5px 20px rgba(255, 215, 0, 0.5);
+        }
+
+        .features-grid {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 15px;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        .features-grid h3 {
+            text-align: center;
+            font-size: 1.8rem;
+            color: #64FFDA;
+            margin-bottom: 2rem;
+        }
+
+        .features-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .feature-item {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid #FFD700;
+        }
+
+        .feature-item h4 {
+            color: #FFD700;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .feature-item p {
+            color: #b3c5d7;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .keyboard-shortcuts {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 15px;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+
+        .keyboard-shortcuts h3 {
+            text-align: center;
+            font-size: 1.5rem;
+            color: #82B1FF;
+            margin-bottom: 1.5rem;
+        }
+
+        .shortcuts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1rem;
+        }
+
+        .shortcut-item {
+            display: flex;
+            align-items: center;
+            padding: 0.8rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+        }
+
+        .shortcut-key {
+            background: #1e3c72;
+            color: #FFD700;
+            padding: 0.3rem 0.8rem;
+            border-radius: 5px;
+            font-family: monospace;
+            font-weight: 600;
+            margin-right: 1rem;
+            min-width: 60px;
+            text-align: center;
+        }
+
+        .shortcut-desc {
+            color: #b3c5d7;
+            font-size: 0.9rem;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            color: #b3c5d7;
+        }
+
+        .footer p {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer a {
+            color: #FFD700;
+            text-decoration: none;
+            border-bottom: 1px solid #FFD700;
+        }
+
+        .footer a:hover {
+            color: #FFA500;
+            border-bottom-color: #FFA500;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.5rem;
+            }
+
+            .header p {
+                font-size: 1.1rem;
+            }
+
+            .versions-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .version-card h2 {
+                font-size: 1.6rem;
+            }
+
+            .features-list,
+            .shortcuts-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>MEKONG TECHNOLOGY</h1>
+            <p>Hệ thống Presentation chuyên nghiệp</p>
+            <p>Dự án sản xuất IoT Gateway, Robot AMR/AGV, OHT</p>
+            <div class="project-info">
+                <p>Khu Công nghệ cao TP.HCM | Vốn đầu tư: 20 triệu USD | 2025-2035</p>
+            </div>
+        </div>
+
+        <!-- Versions Selection -->
+        <div class="versions-grid">
+            <!-- Executive Version -->
+            <a href="Presentation/executive.html" class="version-card">
+                <span class="badge">KHUYẾN NGHỊ</span>
+                <h2>Executive Presentation</h2>
+                <div class="duration">⏱️ 25-30 phút | 21 slides</div>
+                <p class="description">
+                    Quick pitch cho investor, partners, và Ban Quản lý KCNC. 
+                    Tập trung vào highlights quan trọng nhất.
+                </p>
+                <ul class="features">
+                    <li>Tổng quan thị trường & cơ hội</li>
+                    <li>7 dòng sản phẩm công nghệ cao</li>
+                    <li>Phân tích tài chính 10 năm</li>
+                    <li>3 kịch bản NPV/IRR</li>
+                    <li>Năng lực đội ngũ C-level</li>
+                    <li>Tác động KT-XH-MT</li>
+                </ul>
+                <button class="btn">Mở Executive Version →</button>
+            </a>
+
+            <!-- Full Version -->
+            <a href="Presentation/full.html" class="version-card">
+                <span class="badge">CHI TIẾT</span>
+                <h2>Full Presentation</h2>
+                <div class="duration">⏱️ 60-75 phút | ~70 slides</div>
+                <p class="description">
+                    Detailed presentation với đầy đủ technical details, 
+                    phù hợp cho due diligence và review kỹ thuật.
+                </p>
+                <ul class="features">
+                    <li>10 sections chi tiết</li>
+                    <li>SWOT + Porter's 5 Forces</li>
+                    <li>Technology roadmap TRL</li>
+                    <li>QA/QC process (AOI/ICT/Burn-in)</li>
+                    <li>Cơ cấu tổ chức R&D</li>
+                    <li>Timeline & Milestones</li>
+                </ul>
+                <button class="btn">Mở Full Version →</button>
+            </a>
+        </div>
+
+        <!-- Interactive Features -->
+        <div class="features-grid">
+            <h3>Tính năng tương tác Reveal.js</h3>
+            <div class="features-list">
+                <div class="feature-item">
+                    <h4>Overview Mode</h4>
+                    <p>Nhấn phím <strong>O</strong> để xem bird's eye view của tất cả slides</p>
+                </div>
+                <div class="feature-item">
+                    <h4>Speaker Notes</h4>
+                    <p>Nhấn phím <strong>S</strong> để mở window riêng với notes, timer, và preview</p>
+                </div>
+                <div class="feature-item">
+                    <h4>Search</h4>
+                    <p>Nhấn <strong>Ctrl+Shift+F</strong> để tìm kiếm nội dung trong slides</p>
+                </div>
+                <div class="feature-item">
+                    <h4>PDF Export</h4>
+                    <p>Thêm <strong>?print-pdf</strong> vào URL để export ra PDF chất lượng cao</p>
+                </div>
+                <div class="feature-item">
+                    <h4>Zoom</h4>
+                    <p>Nhấn <strong>Alt+Click</strong> để zoom vào vùng cụ thể trên slide</p>
+                </div>
+                <div class="feature-item">
+                    <h4>Help</h4>
+                    <p>Nhấn phím <strong>?</strong> để xem tất cả keyboard shortcuts</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Keyboard Shortcuts -->
+        <div class="keyboard-shortcuts">
+            <h3>Phím tắt quan trọng</h3>
+            <div class="shortcuts-grid">
+                <div class="shortcut-item">
+                    <span class="shortcut-key">→ / Space</span>
+                    <span class="shortcut-desc">Slide tiếp theo</span>
+                </div>
+                <div class="shortcut-item">
+                    <span class="shortcut-key">← / ⇧+Space</span>
+                    <span class="shortcut-desc">Slide trước</span>
+                </div>
+                <div class="shortcut-item">
+                    <span class="shortcut-key">O</span>
+                    <span class="shortcut-desc">Overview mode</span>
+                </div>
+                <div class="shortcut-item">
+                    <span class="shortcut-key">S</span>
+                    <span class="shortcut-desc">Speaker notes</span>
+                </div>
+                <div class="shortcut-item">
+                    <span class="shortcut-key">F</span>
+                    <span class="shortcut-desc">Fullscreen</span>
+                </div>
+                <div class="shortcut-item">
+                    <span class="shortcut-key">ESC</span>
+                    <span class="shortcut-desc">Exit overview/fullscreen</span>
+                </div>
+                <div class="shortcut-item">
+                    <span class="shortcut-key">Home</span>
+                    <span class="shortcut-desc">Slide đầu tiên</span>
+                </div>
+                <div class="shortcut-item">
+                    <span class="shortcut-key">End</span>
+                    <span class="shortcut-desc">Slide cuối cùng</span>
+                </div>
+                <div class="shortcut-item">
+                    <span class="shortcut-key">?</span>
+                    <span class="shortcut-desc">Show help</span>
+                </div>
+                <div class="shortcut-item">
+                    <span class="shortcut-key">Alt+Click</span>
+                    <span class="shortcut-desc">Zoom in/out</span>
+                </div>
+                <div class="shortcut-item">
+                    <span class="shortcut-key">B / .</span>
+                    <span class="shortcut-desc">Pause (blank screen)</span>
+                </div>
+                <div class="shortcut-item">
+                    <span class="shortcut-key">Ctrl+⇧+F</span>
+                    <span class="shortcut-desc">Search slides</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p><strong>Công ty TNHH Mekong Technology</strong></p>
+            <p>Khu Công nghệ cao TP.HCM | <a href="mailto:contact@mekongtech.vn">contact@mekongtech.vn</a></p>
+            <p style="margin-top: 1rem;">Built with <a href="https://revealjs.com/" target="_blank">Reveal.js</a> | Version 1.0 | October 2025</p>
+            <p style="margin-top: 1rem; font-size: 0.9rem;">
+                Xem <a href="Presentation/README.md">README.md</a> để biết hướng dẫn sử dụng chi tiết
+            </p>
+        </div>
+    </div>
+</body>
+</html>
