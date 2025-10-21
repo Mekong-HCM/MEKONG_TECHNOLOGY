@@ -22,19 +22,62 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script> -->
     
     <style>
+        /* Global font size increase */
+        .reveal {
+            font-size: 1.4rem !important;
+        }
+        
+        .reveal h1 {
+            font-size: 3.5rem !important;
+        }
+        
+        .reveal h2 {
+            font-size: 2.8rem !important;
+        }
+        
+        .reveal h3 {
+            font-size: 2.2rem !important;
+        }
+        
+        .reveal h4 {
+            font-size: 1.8rem !important;
+        }
+        
+        .reveal p {
+            font-size: 1.3rem !important;
+            line-height: 1.6 !important;
+        }
+        
+        .reveal li {
+            font-size: 1.2rem !important;
+            line-height: 1.5 !important;
+        }
+        
+        .reveal table {
+            font-size: 1.1rem !important;
+        }
+        
+        .reveal th {
+            font-size: 1.2rem !important;
+        }
+        
+        .reveal td {
+            font-size: 1.1rem !important;
+        }
+        
         /* Additional styles for product showcase */
         .product-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 1.5rem;
-            margin: 1.5rem 0;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.8rem;
+            margin: 2rem 0;
         }
         
         .product-card {
             background: rgba(255, 255, 255, 0.05);
             border: 1px solid rgba(255, 255, 255, 0.15);
             border-radius: 12px;
-            padding: 1rem;
+            padding: 1.5rem;
             transition: all 0.3s ease;
         }
         
@@ -46,29 +89,48 @@
         
         .product-card img {
             width: 100%;
-            height: 180px;
+            height: 200px;
             object-fit: cover;
             border-radius: 8px;
-            margin-bottom: 0.8rem;
+            margin-bottom: 1rem;
         }
         
         .product-card h4 {
-            font-size: 1.1rem;
-            margin-bottom: 0.5rem;
+            font-size: 1.4rem !important;
+            margin-bottom: 0.8rem;
             color: #FFD700;
         }
         
         .product-card .price {
-            font-size: 1.3rem;
+            font-size: 1.6rem !important;
             font-weight: 700;
             color: #64FFDA;
-            margin: 0.5rem 0;
+            margin: 0.8rem 0;
         }
         
         .product-card .specs {
-            font-size: 0.85rem;
+            font-size: 1.1rem !important;
             color: #b3c5d7;
-            line-height: 1.4;
+            line-height: 1.5;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .reveal {
+                font-size: 1.2rem !important;
+            }
+            
+            .reveal h1 {
+                font-size: 2.8rem !important;
+            }
+            
+            .reveal h2 {
+                font-size: 2.2rem !important;
+            }
+            
+            .reveal h3 {
+                font-size: 1.8rem !important;
+            }
         }
     </style>
 </head>
@@ -82,15 +144,25 @@
             
             <!-- Slide 1: Cover -->
             <section class="cover-slide">
-                <h1>MEKONG TECHNOLOGY</h1>
-                <p class="subtitle">Dự án sản xuất IoT Gateway, Robot AMR/AGV, OHT<br>phục vụ chuyển đổi số doanh nghiệp</p>
-                <div class="project-info">
-                    <p><strong>Trình bày tại: Khu Công nghệ cao TP.HCM</strong></p>
-                    <p>Vốn đầu tư: <span class="highlight">20 triệu USD</span></p>
-                    <p>Thời gian: 2025-2075 (50 năm)</p>
-                    <p>Giai đoạn phân tích: 2025-2035 (10 năm)</p>
+                <div style="display: flex; align-items: center; justify-content: space-between; height: 100vh;">
+                    <div style="flex: 1; padding-right: 2rem;">
+                        <h1 style="font-size: 4.5rem; margin-bottom: 1.5rem;">MEKONG TECHNOLOGY</h1>
+                        <p class="subtitle" style="font-size: 1.8rem; line-height: 1.4; margin-bottom: 2rem;">Dự án sản xuất IoT Gateway, Robot AMR/AGV, OHT<br>phục vụ chuyển đổi số doanh nghiệp</p>
+                        <div class="project-info" style="font-size: 1.3rem; line-height: 1.6;">
+                            <p><strong>Trình bày tại: Khu Công nghệ cao TP.HCM</strong></p>
+                            <p>Vốn đầu tư: <span class="highlight">20 triệu USD</span></p>
+                            <p>Thời gian: 2025-2075 (50 năm)</p>
+                            <p>Giai đoạn phân tích: 2025-2035 (10 năm)</p>
+                        </div>
+                        <p class="text-muted" style="margin-top: 2rem; font-size: 1.1rem;">Full Detailed Presentation | Tháng 10 năm 2025 | Version 1.0</p>
+                    </div>
+                    <div style="flex: 1; text-align: center;">
+                        <img src="../MODEL BASIC MEKONG FACTORY.jpg" alt="Mekong Technology Factory - Nhà máy thông minh với hệ thống năng lượng mặt trời" 
+                             style="max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 15px 40px rgba(0,0,0,0.4); border: 3px solid rgba(255, 215, 0, 0.3);">
+                        <p style="margin-top: 1rem; font-size: 1.1rem; color: #FFD700; font-weight: 600;">MEKONG SMART FACTORY</p>
+                        <p style="font-size: 0.9rem; color: #b3c5d7;">Nhà máy thông minh với hệ thống năng lượng mặt trời</p>
+                    </div>
                 </div>
-                <p class="text-muted" style="margin-top: 2rem;">Full Detailed Presentation | Tháng 10 năm 2025 | Version 1.0</p>
             </section>
 
             <!-- Slide 2: Agenda -->
