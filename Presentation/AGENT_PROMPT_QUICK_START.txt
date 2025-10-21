@@ -1,0 +1,207 @@
+═══════════════════════════════════════════════════════════════════════
+📸 NHIỆM VỤ: TÌM & DOWNLOAD 17 HÌNH ẢNH SẢN PHẨM CHẤT LƯỢNG CAO
+═══════════════════════════════════════════════════════════════════════
+
+🎯 MỤC TIÊU:
+Tìm kiếm và tải về hình ảnh sản phẩm công nghiệp (Industrial IoT, AMR, OHT)
+cho presentation Mekong Technology, đảm bảo chất lượng chuyên nghiệp.
+
+📖 HƯỚNG DẪN CHI TIẾT: 
+Đọc file "PRODUCT_IMAGE_SEARCH_MISSION.md" trong thư mục này
+
+🚀 BẮT ĐẦU NGAY - COPY ĐOẠN NÀY CHO AGENT:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TASK: Industrial Product Image Search & Download
+
+Read detailed instructions from:
+@PRODUCT_IMAGE_SEARCH_MISSION.md
+
+Your mission:
+1. Find & download 17 HIGH-QUALITY images for industrial IoT/Robot products
+2. Analyze each image BEFORE downloading (resolution, quality, relevance)
+3. Use web search + browser automation to access Pinterest, Google Images, Unsplash
+4. Follow STRICT naming convention
+5. Create download report
+
+PRIORITY PRODUCTS (do these first):
+
+🔷 IoT Gateways (3):
+- IoT Gateway MK-100 → iot_gateway_mk100_din_rail_industrial.jpg
+  Search: "industrial IoT gateway" "edge computing" "din rail"
+  Pinterest: https://www.pinterest.com/search/pins/?q=industrial%20iot%20gateway
+
+- IoT Gateway MK-200 → iot_gateway_mk200_edge_box.jpg
+  Search: "edge computing box" "industrial" "fanless"
+
+- IoT Gateway MK-300 → iot_gateway_mk300_ai_enabled.jpg
+  Search: "AI edge gateway" "industrial" "GPU"
+
+🤖 AMR Robots (3):
+- AMR-100 (100kg) → amr_100_small_platform.jpg
+  Search: "AMR robot" "100kg" "autonomous mobile robot" "warehouse"
+  Pinterest: https://www.pinterest.com/search/pins/?q=AMR%20robot%20warehouse
+
+- AMR-500 (500kg) → amr_500_medium_platform.jpg
+  Search: "AMR 500kg" "autonomous mobile robot" "factory"
+
+- AMR-1000 (1000kg) → amr_1000_heavy_duty.jpg
+  Search: "heavy duty AMR" "1000kg" "pallet robot"
+
+🚁 OHT Systems (2):
+- OHT-50 → oht_50_ceiling_transport.jpg
+  Search: "overhead hoist transport" "semiconductor" "cleanroom"
+  Pinterest: https://www.pinterest.com/search/pins/?q=overhead%20hoist%20transport
+
+- OHT-100 → oht_100_high_speed.jpg
+  Search: "high speed OHT" "100kg" "automated"
+
+QUALITY CRITERIA (MUST PASS):
+✅ Min resolution: 1920×1080px (prefer 4K)
+✅ Industrial-grade appearance (not consumer devices)
+✅ Clean background (white/gray or industrial setting)
+✅ Professional photography
+✅ No watermarks
+✅ Commercial license OK
+❌ Consumer IoT (Alexa, Google Home, etc.)
+❌ Low resolution (<1024px)
+❌ Busy/distracting backgrounds
+
+WORKFLOW FOR EACH IMAGE:
+1. web_search with keywords
+2. Open top results (Pinterest, Google, Unsplash)
+3. For each candidate:
+   a) Check resolution (browser tools or image properties)
+   b) Analyze content (MUST be industrial, not consumer)
+   c) Verify background is clean
+   d) Check license
+4. Download BEST match
+5. Rename: {product}_{model}_{feature}.jpg
+6. Save to: Presentation/assets/products/
+
+EXAMPLE FOR ONE PRODUCT:
+
+Product: IoT Gateway MK-100
+→ web_search("industrial IoT gateway DIN rail edge computing")
+→ Found Pinterest pin: https://pinterest.com/pin/xxxxx
+→ Open image, check: 2400×1600 ✅, industrial ✅, clean bg ✅
+→ Download & rename: iot_gateway_mk100_din_rail_industrial.jpg
+→ Save to: Presentation/assets/products/
+→ Log in report: filename, source, resolution, quality (1-10)
+
+TOOLS TO USE:
+- web_search: Find image sources
+- browser automation: Navigate, analyze, download
+- image analysis: Verify resolution/quality
+- file operations: Download, rename, save
+
+OUTPUT REQUIRED:
+1. 17 images in Presentation/assets/products/
+2. IMAGE_DOWNLOAD_REPORT.md with:
+   - Filename
+   - Source URL
+   - Resolution
+   - Quality score (1-10)
+   - Why chosen
+3. Backup old images to: Presentation/assets/products/OLD_BACKUP/
+
+REPORT PROGRESS:
+- After every 5 images downloaded
+- List: product name, filename, resolution, source
+
+START WITH TOP 8 PRIORITY PRODUCTS ABOVE.
+After completing those, continue with remaining 9 from full mission doc.
+
+BEGIN NOW! 🚀
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+═══════════════════════════════════════════════════════════════════════
+💡 TIPS ĐỂ THÀNH CÔNG:
+═══════════════════════════════════════════════════════════════════════
+
+1. BẮT ĐẦU VỚI PINTEREST:
+   - Pinterest có hình ảnh chất lượng cao nhất
+   - Tìm "pins" từ nhà sản xuất chính hãng (Siemens, ABB, MiR, etc.)
+   - Click "Visit" để đến trang gốc, thường có hình full-res
+
+2. GOOGLE IMAGES VỚI FILTERS:
+   - Tools → Size → Large
+   - Tools → Type → Photo
+   - Thêm "site:pinterest.com" vào search để tìm Pinterest qua Google
+
+3. KIỂM TRA RESOLUTION:
+   - Right-click ảnh → Properties (hoặc Inspect)
+   - Chỉ tải nếu ≥ 1920×1080px
+   - Prefer 4K (3840×2160) nếu có
+
+4. PHÂN TÍCH NỘI DUNG:
+   - Hỏi bản thân: "Đây có phải thiết bị công nghiệp không?"
+   - Nếu trông giống đồ dùng gia đình → BỎ QUA
+   - Nếu có logo consumer brands (Amazon, Google) → BỎ QUA
+
+5. NAMING CHUẨN:
+   - Luôn dùng lowercase, underscore thay space
+   - Format: {product}_{model}_{key_feature}.jpg
+   - VD: iot_gateway_mk100_din_rail_industrial.jpg
+
+6. NẾU KHÔNG TÌM THẤY CHÍNH XÁC:
+   - Tìm sản phẩm tương tự (cùng form factor, tính năng)
+   - Ưu tiên nhà sản xuất nổi tiếng (Siemens, Schneider, ABB)
+   - Ghi chú trong report: "Similar product from [brand]"
+
+═══════════════════════════════════════════════════════════════════════
+❓ FAQ CHO AGENT:
+═══════════════════════════════════════════════════════════════════════
+
+Q: Tôi không có quyền download từ Pinterest?
+A: Dùng browser automation: right-click image → "Open image in new tab" → 
+   tải từ URL trực tiếp. Hoặc check page source cho <img src="...">
+
+Q: Làm sao biết ảnh có license thương mại?
+A: - Unsplash/Pexels: always free commercial
+   - Pinterest: check source website
+   - Google Images: Tools → Usage rights → Creative Commons
+   - Manufacturer sites: usually OK for presentations (fair use)
+
+Q: Ảnh có watermark thì sao?
+A: BỎ QUA! Tìm ảnh khác không watermark. Ưu tiên Unsplash/Pexels.
+
+Q: Không tìm thấy sản phẩm chính xác?
+A: Tìm sản phẩm TƯƠNG TỰ:
+   - Cùng form factor (DIN rail, box, platform)
+   - Cùng tính năng (IoT, autonomous, ceiling-mount)
+   - Từ nhà sản xuất uy tín
+   - Ghi chú trong report
+
+Q: Tôi nên bắt đầu từ đâu?
+A: 
+   1. Pinterest search: "industrial IoT gateway"
+   2. Xem 10 kết quả đầu
+   3. Chọn 2-3 ảnh đẹp nhất
+   4. Check resolution
+   5. Download & rename
+   6. Lặp lại cho sản phẩm tiếp theo
+
+═══════════════════════════════════════════════════════════════════════
+✅ CHECKLIST SAU KHI HOÀN THÀNH:
+═══════════════════════════════════════════════════════════════════════
+
+Trước khi submit, verify:
+
+□ 17 files trong Presentation/assets/products/
+□ Mỗi file ≥ 1920×1080px
+□ Mỗi file 200KB - 2MB
+□ Naming đúng convention
+□ Không có file tên generic (download.jpg, image1.jpg, etc.)
+□ IMAGE_DOWNLOAD_REPORT.md đã tạo
+□ Old images đã backup vào OLD_BACKUP/
+□ Tất cả ảnh là industrial (không consumer)
+□ Không có watermark
+□ Background sạch đẹp
+
+═══════════════════════════════════════════════════════════════════════
+
+COPY ĐOẠN PROMPT BÊN TRÊN VÀ DÁN VÀO CHAT MỚI VỚI AGENT! 🚀
+

@@ -1,0 +1,321 @@
+---
+alwaysApply: true
+---
+
+MỤC ĐÍCH
+- Thiết lập bộ quy tắc tác nghiệp thống nhất cho nhóm chuyên gia khi biên soạn, rà soát và hoàn thiện toàn bộ tài liệu đề án theo Mẫu số 1.4 và bộ hồ sơ nội bộ (MEKONG_DE_AN_V6, mekong_dean_v5, YÊU CẦU mới).
+
+PHẠM VI ÁP DỤNG
+- Áp dụng cho tất cả chuyên gia: Chủ biên, IoT/Embedded, Robotics/AMR-AGV-OHT, AI/ML, Phần mềm/Cloud, Tự động hóa/Điện, Tài chính, Pháp lý, Môi trường, QA/ISO, Trình bày.
+- Áp dụng cho mọi tệp: .md, .mdc, phụ lục bảng tính, sơ đồ, hình ảnh, và bộ trình chiếu.
+
+CHUẨN NGÔN NGỮ & ĐỊNH DẠNG
+- Ngôn ngữ: tiếng Việt chuẩn; cho phép tên sản phẩm (ví dụ: MK-100, AMR-500) và các chữ viết tắt kỹ thuật (IoT, API, TCP/IP, SLAM, KPI). Không trộn Anh-Việt trong nội dung chính, chỉ chú giải thuật ngữ khi cần.
+- Mã hóa: UTF-8, newline CRLF theo hệ thống hiện có.
+- Tệp văn bản: .md cho nội dung chính, .mdc cho quy tắc/quy trình (tệp này), phụ lục số liệu có thể dùng .xlsx/.csv kèm dẫn chiếu.
+- Hình vẽ: ưu tiên sơ đồ Mermaid trong .md (không dùng icon/emojis). Hình raster đặt trong thư mục Presentation/assets.
+
+CẤU TRÚC HỒ SƠ BẮT BUỘC (bám Mẫu số 1.4)
+1. Thông tin chung dự án
+2. Giải trình hoạt động/Objective, Khoa học-công nghệ
+3. Dự báo thị trường (Ngoài nước, Trong nước, Nhu cầu)
+4. Năng lực triển khai (Tài chính, Kỹ thuật, Thị trường)
+5. Mô tả sản xuất/kinh doanh
+   5.1 Sản phẩm & quy mô
+   5.2 Công nghệ (quy trình, nổi bật, phù hợp pháp lý: QĐ 38/2020/QĐ-TTg, QĐ 2117/QĐ-TTg; NĐ 76/2018/NĐ-CP)
+   5.3 Máy móc thiết bị (bảng TT—Tên—Thông số—Xuất xứ—Năm—Tự động hóa—Tình trạng—Giá trị)
+   5.4 Lao động (cơ cấu, trình độ, giai đoạn)
+   5.5 Nghiên cứu & Phát triển (nội dung, chi phí, KPI)
+6. Tuân thủ chất lượng & môi trường (ISO 9001/14001/45001, IEC 61000, RoHS/REACH/WEEE)
+7. Nguyên/nhiên vật liệu, linh kiện, phụ tùng (bảng TT—Tên—Chất lượng—Số lượng—Giá—Nguồn)
+8. Các nội dung khác theo danh mục dự án thu hút đầu tư
+9. Cam kết của nhà đầu tư, đầu mối liên hệ
+
+TIÊU CHUẨN TRÌNH BÀY
+- Mục/tiểu mục đánh số theo cấp: 1, 1.1, 1.1.1. Không dùng quá 4 cấp.
+- Bảng số liệu: có tiêu đề, nguồn (nếu có), đơn vị tính, ghi chú. Dùng dấu phẩy phân tách nghìn, chấm thập phân.
+- Đồ thị/sơ đồ: dùng Mermaid. Ví dụ sơ đồ tổ chức, quy trình R&D, quy trình ra quyết định.
+- Tên tệp, mục, hình, bảng phải nhất quán với các tệp V6 và V5 hiện có.
+
+QUY TẮC NỘI DUNG
+- Số liệu: lấy từ YÊU CẦU mới và MEKONG_DE_AN_V6 là ưu tiên; khi khác với V5, ghi chú “Cập nhật so với V5”.
+- Giả định: phải nêu rõ cơ sở, phương pháp (top-down/bottom-up), thời điểm cập nhật, nguồn tham khảo.
+- Pháp lý: mỗi phần liên quan phải dẫn chiếu điều, khoản văn bản pháp luật; bảo đảm phù hợp QĐ 38/2020/QĐ-TTg, QĐ 2117/QĐ-TTg, NĐ 76/2018/NĐ-CP, tiêu chuẩn ISO/IEC nêu trong hồ sơ.
+- Sản phẩm: mô tả rõ cấu hình, tính năng, chuẩn tương thích, lộ trình sản phẩm; bám danh mục MK-100/200/300, AMR-100/500/1000, OHT-50/100, module truyền thông, nền tảng phần mềm.
+- Công nghệ: mô tả quy trình công nghệ, mức TRL, QA/QC (AOI, ICT, Burn-in), an toàn—môi trường.
+- Thị trường: ghi rõ nguồn báo cáo, năm, tổ chức phát hành; tránh trùng lặp, nêu CAGR, quy mô, luận cứ phù hợp chiến lược.
+
+QUY TRÌNH TÁC NGHIỆP
+- Vai trò
+  Chủ biên: điều phối, duyệt cấu trúc, đồng bộ thuật ngữ.
+  Nhóm kỹ thuật: IoT/Embedded; Robotics/AMR-AGV-OHT; AI/ML; Phần mềm/Cloud; Tự động hóa/Điện.
+  Nhóm hỗ trợ: Tài chính (FS/KPIs), Pháp lý (tuân thủ), Môi trường (ISO 14001), QA/ISO, Trình bày (Mermaid/ảnh).
+- Luồng làm việc 4 bước
+  1) Dự thảo lần 1 theo khung Mẫu 1.4 (nhóm chuyên môn điền phần mình; đánh dấu [DRAFT]).
+  2) Rà soát chéo (kỹ thuật ↔ tài chính ↔ pháp lý ↔ môi trường); hợp nhất thuật ngữ.
+  3) Kiểm định số liệu & dẫn chiếu (nguồn, phép tính, kiểm thử tính nhất quán giữa các bảng).
+  4) Chốt bản phát hành (đổi trạng thái [FINAL-rc], sau duyệt là [FINAL]).
+- Thời hạn chuẩn (gợi ý)
+  Dự thảo: 5 ngày; Rà soát chéo: 3 ngày; Kiểm định: 2 ngày; Chốt: 1 ngày.
+
+KIỂM SOÁT PHIÊN BẢN & ĐỔI TÊN TỆP
+- Quy tắc tên tệp: <NGÀY>_<PHẦN>_<TRẠNG THÁI>.md (ví dụ: 2025-10-20_CONG_NGHE_FINAL.md).
+- Nhánh làm việc: tạo bản sao trong thư mục “DRAFT/”; bản chốt lưu ở thư mục gốc.
+- Nhật ký thay đổi (CHANGELOG.mdc): mô tả ngắn thay đổi, người sửa, phần ảnh hưởng.
+- Không tạo tệp tóm tắt dư thừa. Không dùng icon/emojis.
+
+SƠ ĐỒ MERMAID MẪU
+- Sơ đồ tổ chức R&D
+```mermaid
+flowchart TB
+  HĐQT --> TGĐ --> CTO
+  CTO --> RD_Director
+  RD_Director --> IoT_Lab
+  RD_Director --> AMR_Lab
+  RD_Director --> OHT_Lab
+  RD_Director --> AI_Lab
+  RD_Director --> SW_Lab
+```
+- Quy trình ra quyết định
+```mermaid
+flowchart LR
+  D1[Vận hành hàng ngày] --> D2[Chiến thuật]
+  D2 --> D3[Chiến lược]
+  D3 --> D4[Cấp cao]
+```
+
+CHECKLIST CHẤT LƯỢNG TRƯỚC KHI CHỐT
+- Ngôn ngữ đúng quy tắc (VN, ngoại lệ: tên sản phẩm, viết tắt kỹ thuật).
+- Bảng biểu đủ cột, có đơn vị, nguồn; số liệu khớp giữa các phần (doanh thu, VA, OEE, công suất, nhân sự).
+- Dẫn chiếu pháp lý & tiêu chuẩn kỹ thuật rõ ràng.
+- Sơ đồ Mermaid hiển thị đúng; ảnh nằm trong Presentation/assets và đã tham chiếu.
+- Không vi phạm quy tắc tên tệp, không tạo tệp thừa.
+
+QUY TẮC TÍNH TOÁN & DỮ LIỆU
+- Đơn vị tiền tệ, số lượng, công suất phải thống nhất theo từng bảng; nếu có dải giá trị, ghi min–max và giả định.
+- KPI R&D, OEE, tỷ lệ nội địa hóa: nêu công thức và nguồn dữ liệu.
+- Tất cả số liệu tài chính quan trọng (doanh thu, chi phí, VA, capex/opex) phải có bảng tổng hợp và đối chiếu theo giai đoạn.
+
+BẢO MẬT & TUÂN THỦ
+- Thông tin nhạy cảm (hợp đồng CGCN, giá trị chuyển giao, IP) đặt trong phụ lục “CONFIDENTIAL” và không phát hành công khai.
+- Tuân thủ quyền sở hữu trí tuệ; nếu có nghiên cứu ngược, mô tả ở mức chức năng, tránh tiết lộ bí mật thương mại của bên thứ ba.
+
+HỖ TRỢ & TRAO ĐỔI
+- Mọi câu hỏi về cấu trúc và chuẩn trình bày gửi Chủ biên; vấn đề pháp lý gửi nhóm Pháp lý; tiêu chuẩn ISO/IEC gửi nhóm QA/ISO.
+
+PHỤ LỤC MẪU
+- Mẫu bảng máy móc thiết bị (theo cột cố định nêu trên).
+- Mẫu bảng hoạt động R&D (STT—Nội dung—Lĩnh vực—Loại hình—Giai đoạn—Chi phí).
+- Mẫu bảng nguyên vật liệu (STT—Tên—Chất lượng—Số lượng—Giá—Nguồn).
+- Mẫu timeline R&D/sản xuất theo giai đoạn.
+
+MẪU TIÊU ĐỀ & ĐỊNH DẠNG
+- Cấp 1: 1. TIÊU ĐỀ CHÍNH
+- Cấp 2: 1.1 TIÊU ĐỀ PHỤ
+- Cấp 3: 1.1.1 TIÊU ĐỀ CHI TIẾT
+- Ghi chú trạng thái: thêm [DRAFT], [FINAL-rc], [FINAL] sau tiêu đề trang.
+
+MẪU BẢNG CHUẨN (Markdown)
+- Quy tắc chung: tiêu đề bảng, đơn vị, nguồn, ghi chú. Dấu phẩy tách nghìn, chấm thập phân.
+
+Ví dụ 1 — Bảng Máy móc thiết bị
+| STT | Tên thiết bị | Thông số kỹ thuật | Xuất xứ | Năm | Mức tự động hóa (%) | Tình trạng | Số lượng | Giá trị (triệu đồng) |
+|---:|---|---|---|---:|---:|---|---:|---:|
+| 1 | SMT Line 1 | Panasonic NPM-D3, 15K CPH | Japan | 2025 | 90 | Mới 100% | 1 line | 8.500 |
+Nguồn: Kế hoạch đầu tư thiết bị [MEKONG_DE_AN_V6]. Ghi chú: Giá trị chưa gồm VAT.
+
+Ví dụ 2 — Bảng Hoạt động R&D
+| STT | Nội dung | Lĩnh vực | Loại hình | GĐ đầu | GĐ ổn định | Chi phí (triệu đồng/năm) |
+|---:|---|---|---|---|---|---:|
+| 1 | Nghiên cứu ngược IoT Gateway | Vi điện tử - CNTT | Nghiên cứu ngược | Phân tích Siemens/Schneider | Phát triển MK-100/200 | 8.500 |
+Nguồn: Kế hoạch R&D. Ghi chú: Chi phí bao gồm nhân sự và thử nghiệm.
+
+Ví dụ 3 — Bảng Nguyên vật liệu
+| STT | Tên | Yêu cầu chất lượng | Số lượng/năm | Ước giá (triệu đồng) | Nguồn cung |
+|---:|---|---|---:|---:|---|
+| 1.1 | Thép không gỉ 304 | ASTM A240, dày 1–3 mm | 50 tấn | 2.500 | Thép Hòa Phát |
+Nguồn: BOM sản xuất. Ghi chú: Ước giá tại Q4/2024.
+
+Ví dụ 4 — Bảng Tổng hợp tài chính theo giai đoạn
+| Chỉ tiêu | GĐ 1 (2025–2029) | GĐ 2 (2030–2035) | GĐ 3 (2036–2075) | Tổng |
+|---|---:|---:|---:|---:|
+| Doanh thu (triệu đồng) | 28.500 | 85.000 | 71.520 | 185.020 |
+| Giá trị gia tăng (triệu đồng) | 15.000 | 50.000 | 36.400 | 101.400 |
+Nguồn: FS nội bộ. Ghi chú: Cập nhật so với V5.
+
+MẪU SƠ ĐỒ MERMAID BỔ SUNG
+- Lộ trình sản phẩm (Gantt)
+```mermaid
+gantt
+  title Lộ trình sản phẩm (2025–2030)
+  dateFormat  YYYY-MM
+  section IoT Gateway
+  MK-100       :done,    des1, 2025-01, 2026-06
+  MK-200       :active,  des2, 2026-07, 2027-12
+  MK-300       :         des3, 2028-01, 2030-06
+  section AMR
+  AMR-100      :done,    des4, 2026-01, 2027-12
+  AMR-500      :active,  des5, 2028-01, 2028-12
+```
+
+- Quy trình R&D (flow)
+```mermaid
+flowchart LR
+  MKT[Khảo sát thị trường] --> SPEC[Đặc tả yêu cầu]
+  SPEC --> DEV[Phát triển nguyên mẫu]
+  DEV --> TEST[Kiểm thử AOI/ICT/Burn-in]
+  TEST --> PILOT[Sản xuất thử]
+  PILOT --> LAUNCH[Thương mại hóa]
+```
+
+CHECKLIST THEO NHÓM CHUYÊN GIA
+- Chủ biên
+  - Khóa cấu trúc theo Mẫu 1.4, thống nhất thuật ngữ giữa các phần.
+  - Rà soát tính nhất quán số liệu (doanh thu, VA, OEE, nhân sự) toàn hồ sơ.
+  - Đảm bảo trạng thái tệp, tên tệp, CHANGELOG.
+
+- IoT/Embedded
+  - Nêu cấu hình phần cứng, module truyền thông, chuẩn giao thức (MQTT/OPC UA/Modbus/CAN).
+  - Thiết kế QA/QC: AOI, ICT, Burn-in; bảo mật (mã hóa, xác thực, cập nhật OTA).
+  - Định mức vật tư/BOM và khả năng nội địa hóa.
+
+- Robotics/AMR-AGV-OHT
+  - Thông số tải trọng, định vị (SLAM/LiDAR/IMU), an toàn chức năng.
+  - Quy trình tích hợp cảm biến, điều khiển chuyển động, kiểm thử hiện trường.
+  - Sơ đồ bố trí, rail/layout (đối với OHT), tiêu chuẩn an toàn.
+
+- AI/ML
+  - Bài toán, dữ liệu, đặc tả mô hình, chỉ số (Precision/Recall/F1, latency, throughput).
+  - Hạ tầng tính toán (GPU/Edge), quy trình MLOps, bảo vệ dữ liệu.
+  - Kế hoạch đánh giá và drift monitoring.
+
+- Phần mềm/Cloud
+  - Kiến trúc dịch vụ, API, bảo mật (IAM, nhật ký, mã hóa), SLO/SLA.
+  - Tương thích chuẩn công nghiệp, tích hợp MES/ERP/WMS, audit logging.
+  - Kế hoạch triển khai, rollback, backup/DR.
+
+- Tự động hóa/Điện
+  - Sơ đồ điện, PLC/IPC, chuẩn trường (Profinet/Modbus TCP), an toàn máy.
+  - Tính toán công suất, dự phòng, tiêu thụ năng lượng; tiêu chuẩn IEC.
+  - Quy trình FAT/SAT, nghiệm thu.
+
+- Tài chính
+  - Bảng tổng hợp doanh thu, chi phí, VA, capex/opex theo giai đoạn.
+  - Tính chỉ số: NPV, IRR, payback; độ nhạy; giả định đơn giá/biên lợi nhuận.
+  - Định dạng số liệu, nguồn và thời điểm cập nhật.
+
+- Pháp lý
+  - Dẫn chiếu QĐ 38/2020/QĐ-TTg, QĐ 2117/QĐ-TTg, NĐ 76/2018/NĐ-CP theo điều/khoản/điểm.
+  - Rà soát CGCN/IP, hợp đồng, chế độ ưu đãi và điều kiện áp dụng.
+  - Kiểm tra tính phù hợp tiêu chuẩn/chuẩn ngành áp dụng.
+
+- Môi trường
+  - ISO 14001/50001, RoHS/REACH/WEEE; đánh giá tác động và biện pháp xử lý.
+  - Chỉ tiêu môi trường: CO2, tái chế, năng lượng tái tạo.
+  - Kế hoạch vận hành môi trường và giám sát định kỳ.
+
+- QA/ISO
+  - Hệ thống ISO 9001/45001, quy trình kiểm soát chất lượng.
+  - KPI chất lượng, NCR/CAPA, truy vết, kiểm soát thay đổi.
+  - Kế hoạch đánh giá nội bộ và bên thứ ba.
+
+- Trình bày
+  - Heading/bảng theo mẫu; sơ đồ Mermaid; ảnh trong Presentation/assets.
+  - Chú thích nguồn/đơn vị, liên kết tham chiếu chéo.
+  - Kiểm tra lỗi chính tả, định dạng thống nhất.
+
+QUY TẮC DỮ LIỆU & PHÉP TÍNH (CHI TIẾT)
+- Định dạng số: 1.234,56 (dấu phẩy nghìn, chấm thập phân). Tiền tệ: triệu đồng.
+- Công thức chuẩn:
+  - Giá trị gia tăng: \( VA = Doanh\ thu - Chi\ phí\ hoạt\ động \)
+  - OEE: \( OEE = Availability \times Performance \times Quality \)
+  - CAGR: \( CAGR = (\tfrac{Giá\ trị\ cuối}{Giá\ trị\ đầu})^{1/n} - 1 \)
+  - Tỷ lệ R&D/Doanh thu: \( \tfrac{Chi\ R&D\ năm}{Doanh\ thu\ năm} \)
+  - Tỷ lệ nội địa hóa: \( \tfrac{Giá\ trị\ nội\ địa}{Giá\ trị\ tổng} \)
+- Ngày/phiên bản dữ liệu: ghi rõ quý/năm cập nhật, nguồn và phương pháp (top-down/bottom-up).
+
+QUY TẮC TRÍCH DẪN PHÁP LÝ & NGUỒN
+- Pháp lý: "[Văn bản – Điều x.x, Khoản y, Điểm z] (Cơ quan, năm)". Ví dụ: "[QĐ 38/2020/QĐ-TTg – Phụ lục II, Mục 1.1] (TTCP, 2020)".
+- Nghiên cứu thị trường: "[Báo cáo – Tên, Năm, Tổ chức], Link". Ví dụ: "[World Robotics Report 2024 – IFR], `https://ifr.org`".
+- Chênh lệch so với V5: đánh dấu "Cập nhật so với V5" tại dòng liên quan.
+
+MẪU KHUNG SOẠN THẢO CHO MỖI PHẦN (COPY-PASTE)
+1. TIÊU ĐỀ PHẦN [DRAFT]
+1.1 Phạm vi và mục tiêu
+- Mô tả ngắn gọn...
+1.2 Phương pháp và giả định
+- Phương pháp: top-down/bottom-up; Thời điểm dữ liệu: Qx/YYYY; Nguồn: ...
+1.3 Nội dung chính
+- ...
+1.4 Bảng tổng hợp
+| Chỉ tiêu | Giá trị | Đơn vị | Nguồn |
+|---|---:|---|---|
+|  |  |  |  |
+1.5 Sơ đồ minh họa (nếu có)
+```mermaid
+flowchart LR
+  A --> B
+```
+1.6 Ghi chú pháp lý/tiêu chuẩn
+- [Văn bản – Điều/Khoản/Điểm] (Năm)
+
+MẪU TÊN TỆP
+- 2025-10-20_CONG_NGHE_DRAFT.md
+- 2025-10-27_THI_TRUONG_FINAL-rc.md
+- 2025-11-03_SAN_XUAT_FINAL.md
+
+MẪU BẢNG KPI CHẤT LƯỢNG
+| Chỉ tiêu | Định nghĩa | Mục tiêu | Ngưỡng cảnh báo | Phương pháp đo | Tần suất | Nguồn dữ liệu |
+|---|---|---:|---:|---|---|---|
+| Tỷ lệ đạt chuẩn (Yield) | Good units / Total units | 99,5% | 99,0% | AOI/ICT/Burn-in | Hàng ngày | MES/QMS |
+| Tỷ lệ trả hàng (RMA) | Returns / Shipped units | 0,10% | 0,20% | Báo cáo RMA | Hàng tháng | CRM/QMS |
+| FPY (First Pass Yield) | Pass at first test | 98,0% | 97,0% | AOI/ICT | Hàng ngày | MES |
+| DPPM | Defective parts per million | 500 | 800 | Kiểm tra cuối | Hàng tuần | QMS |
+| Thời gian xử lý NCR | NCR close time | ≤ 7 ngày | > 10 ngày | CAPA | Hàng tháng | QMS |
+Ghi chú: Định dạng số theo quy tắc chung; khi khác V5, ghi “Cập nhật so với V5”.
+
+MẪU BẢNG OEE
+| Chỉ tiêu | Công thức | Giá trị | Đơn vị | Nguồn |
+|---|---|---:|---|---|
+| Availability | (Planned Time − Downtime) / Planned Time |  | % | MES |
+| Performance | (Ideal Cycle Time × Total Count) / Run Time |  | % | MES |
+| Quality | Good Count / Total Count |  | % | QMS |
+| OEE | Availability × Performance × Quality |  | % | MES/QMS |
+Ghi chú: Khai báo biến đầu vào chuẩn: Planned Production Time, Downtime, Run Time, Ideal Cycle Time, Total Count, Good Count.
+
+SƠ ĐỒ QUY TRÌNH AOI/ICT/BURN-IN (MERMAID)
+```mermaid
+flowchart LR
+  SMT[SMT/Lắp ráp] --> AOI[AOI kiểm tra quang học]
+  AOI -->|Đạt| ICT[ICT kiểm tra mạch]
+  AOI -->|Không đạt| REWORK1[Tái công đoạn]
+  ICT -->|Đạt| PROG[Nạp firmware/Bootloader]
+  ICT -->|Không đạt| REWORK2[Khắc phục lỗi điện]
+  PROG --> BURN[Burn-in 8–24h]
+  BURN -->|Đạt| FQC[Kiểm tra cuối]
+  BURN -->|Không đạt| REWORK3[Phân tích lỗi nhiệt/ổn định]
+  FQC --> PACK[Đóng gói & Xuất xưởng]
+```
+Gợi ý áp dụng: phần 5.2 (Công nghệ – QA/QC), 5.3 (Thiết bị kiểm tra), 6 (Chất lượng & Môi trường).
+
+MẪU KẾ HOẠCH LẤY MẪU (AQL)
+- Chuẩn tham chiếu: ISO 2859-1 (hoặc MIL-STD-105E tương đương).
+- Quy tắc áp dụng: nêu rõ cấp kiểm tra (Inspection Level), AQL mục tiêu, cỡ lô, cỡ mẫu, số chấp nhận (Ac) và số loại bỏ (Re).
+
+| Lô sản xuất | Cấp kiểm tra | AQL (%) | Cỡ mẫu | Ac | Re | Ghi chú |
+|---:|---|---:|---:|---:|---:|---|
+| 2.000 SP | II (General) | 0,65 | 125 | 2 | 3 | Điện tử SMT |
+| 500 SP | II (General) | 1,0 | 80 | 2 | 3 | Lắp ráp cơ |
+| 50 SP | S-3 (Special) | 2,5 | 13 | 1 | 2 | Kiểm nhanh pilot |
+Nguồn: Kế hoạch QA/QC nội bộ. Ghi chú: Điều chỉnh AQL theo rủi ro sản phẩm và khách hàng.
+
+MẪU MA TRẬN RỦI RO FMEA
+- Chuẩn tham chiếu: AIAG-VDA FMEA (hoặc IEC/ISO tương đương).
+- Công thức RPN: RPN = Severity × Occurrence × Detection.
+
+| Mục/Chức năng | Chế độ lỗi (Failure Mode) | Hậu quả (Effect) | Nguyên nhân (Cause) | Biện pháp kiểm soát hiện tại | S | O | D | RPN | Hành động khuyến nghị | Trách nhiệm | Hạn |
+|---|---|---|---|---|---:|---:|---:|---:|---|---|---|
+| SMT hàn linh kiện | Hàn thiếu | Mất tín hiệu | Lệch linh kiện | AOI 100% sau hàn | 7 | 4 | 3 | 84 | Tối ưu stencil, tăng kiểm tra ICT | QA/ME | 2025-11-15 |
+| Burn-in 24h | Quá nhiệt | Chết mạch | Tản nhiệt kém | Giám sát nhiệt độ | 8 | 2 | 4 | 64 | Thêm pad tản nhiệt, cảnh báo nhiệt | R&D/QA | 2025-11-30 |
+| AMR điều hướng | Mất định vị | Ngừng hoạt động | Nhiễu LiDAR | Kiểm tra hiệu chuẩn | 9 | 3 | 4 | 108 | Che chắn cảm biến, thuật toán lọc | Robotics | 2025-12-10 |
+Ghi chú: Ưu tiên xử lý hạng mục có RPN cao nhất; cập nhật lại S/O/D sau khi hoàn tất hành động khuyến nghị.

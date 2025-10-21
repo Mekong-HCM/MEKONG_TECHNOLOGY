@@ -1,0 +1,493 @@
+/**
+ * Mekong Technology - Corporate/Professional Theme for Reveal.js
+ * Designed for high-stakes presentations to HCMC High-Tech Park Management Board
+ */
+
+/* Google Fonts - Inter for professional look */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  /* Color Palette */
+  --color-primary: #1e3c72;
+  --color-primary-light: #2a5298;
+  --color-accent-gold: #FFD700;
+  --color-accent-orange: #FFA500;
+  --color-text-light: #ffffff;
+  --color-text-muted: #b3c5d7;
+  --color-success: #4CAF50;
+  --color-warning: #FF9800;
+  --color-danger: #F44336;
+  --color-info: #2196F3;
+  
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+}
+
+/* Global Reveal.js overrides */
+.reveal {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--color-text-light);
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+/* Background */
+.reveal .slides > section {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+  padding: 2rem 3rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Typography Hierarchy */
+.reveal h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: var(--spacing-lg);
+  background: linear-gradient(45deg, var(--color-accent-gold), var(--color-accent-orange));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: none;
+  letter-spacing: -0.02em;
+}
+
+.reveal h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: var(--spacing-md);
+  color: #64FFDA;
+  text-transform: none;
+}
+
+.reveal h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: var(--spacing-sm);
+  color: #82B1FF;
+  text-transform: none;
+}
+
+.reveal h4 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: var(--spacing-sm);
+  color: #A5D6A7;
+  text-transform: none;
+}
+
+/* Paragraph and text */
+.reveal p {
+  margin-bottom: var(--spacing-sm);
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+.reveal p.lead {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--color-accent-gold);
+  margin-bottom: var(--spacing-md);
+}
+
+/* Lists */
+.reveal ul, .reveal ol {
+  margin: var(--spacing-sm) 0;
+  padding-left: 2rem;
+}
+
+.reveal ul li, .reveal ol li {
+  margin-bottom: var(--spacing-xs);
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+.reveal ul ul, .reveal ol ol {
+  margin-top: var(--spacing-xs);
+  font-size: 0.95rem;
+}
+
+/* Strong emphasis */
+.reveal strong, .reveal b {
+  color: var(--color-accent-gold);
+  font-weight: 600;
+}
+
+.reveal em {
+  color: var(--color-accent-orange);
+  font-style: italic;
+}
+
+/* Code (if needed) */
+.reveal code {
+  font-family: 'Courier New', monospace;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+/* Links */
+.reveal a {
+  color: var(--color-accent-gold);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-accent-gold);
+  transition: all 0.3s ease;
+}
+
+.reveal a:hover {
+  color: var(--color-accent-orange);
+  border-bottom-color: var(--color-accent-orange);
+}
+
+/* Tables */
+.reveal table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: var(--spacing-md) 0;
+  font-size: 0.9rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.reveal table thead {
+  background: rgba(255, 215, 0, 0.15);
+}
+
+.reveal table th {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: var(--color-accent-gold);
+  border-bottom: 2px solid rgba(255, 215, 0, 0.3);
+}
+
+.reveal table td {
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.reveal table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.reveal table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Numeric cells - right align */
+.reveal table td:last-child,
+.reveal table th:last-child {
+  text-align: right;
+}
+
+/* Blockquotes */
+.reveal blockquote {
+  background: rgba(255, 215, 0, 0.1);
+  border-left: 4px solid var(--color-accent-gold);
+  padding: var(--spacing-md);
+  margin: var(--spacing-md) 0;
+  font-style: italic;
+  color: var(--color-text-muted);
+}
+
+/* Images */
+.reveal img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Utility Classes */
+.reveal .highlight {
+  background: rgba(255, 215, 0, 0.2);
+  padding: 0.2em 0.5em;
+  border-radius: 4px;
+  color: var(--color-accent-gold);
+  font-weight: 600;
+}
+
+.reveal .text-center {
+  text-align: center;
+}
+
+.reveal .text-right {
+  text-align: right;
+}
+
+.reveal .text-muted {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.reveal .text-small {
+  font-size: 0.85rem;
+}
+
+.reveal .text-large {
+  font-size: 1.3rem;
+}
+
+/* Metric Boxes */
+.reveal .metric-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-md);
+  margin: var(--spacing-md) 0;
+}
+
+.reveal .metric-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: var(--spacing-md);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reveal .metric-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(255, 215, 0, 0.2);
+}
+
+.reveal .metric-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #64FFDA;
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+.reveal .metric-label {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  display: block;
+}
+
+/* Two Column Layout */
+.reveal .two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-lg);
+  align-items: start;
+}
+
+.reveal .three-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: var(--spacing-md);
+  align-items: start;
+}
+
+/* Content Box with border */
+.reveal .content-box {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: var(--spacing-md);
+  margin: var(--spacing-sm) 0;
+}
+
+.reveal .content-box.success {
+  border-color: var(--color-success);
+  background: rgba(76, 175, 80, 0.1);
+}
+
+.reveal .content-box.warning {
+  border-color: var(--color-warning);
+  background: rgba(255, 152, 0, 0.1);
+}
+
+.reveal .content-box.info {
+  border-color: var(--color-info);
+  background: rgba(33, 150, 243, 0.1);
+}
+
+/* Slide Header with border */
+.reveal .slide-header {
+  width: 100%;
+  padding-bottom: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+  border-bottom: 3px solid var(--color-accent-gold);
+}
+
+/* Progress Bar */
+.reveal .progress {
+  background: rgba(255, 255, 255, 0.2);
+  height: 4px;
+}
+
+.reveal .progress span {
+  background: linear-gradient(90deg, var(--color-accent-gold), var(--color-accent-orange));
+}
+
+/* Controls */
+.reveal .controls {
+  color: var(--color-accent-gold);
+}
+
+.reveal .controls button {
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.reveal .controls button:hover {
+  opacity: 1;
+}
+
+/* Slide Number */
+.reveal .slide-number {
+  background: rgba(0, 0, 0, 0.4);
+  color: var(--color-accent-gold);
+  font-size: 0.8rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 4px;
+}
+
+/* Cover Slide Specific */
+.reveal .cover-slide {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.reveal .cover-slide h1 {
+  font-size: 3.5rem;
+  margin-bottom: var(--spacing-xl);
+}
+
+.reveal .cover-slide .subtitle {
+  font-size: 1.5rem;
+  color: var(--color-text-muted);
+  margin-bottom: var(--spacing-md);
+}
+
+.reveal .cover-slide .project-info {
+  font-size: 1.1rem;
+  color: var(--color-accent-gold);
+  margin-top: var(--spacing-lg);
+}
+
+/* Section Divider Slides */
+.reveal .section-divider {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, #0f2847 0%, var(--color-primary) 100%);
+}
+
+.reveal .section-divider h2 {
+  font-size: 3rem;
+  margin-bottom: var(--spacing-md);
+}
+
+.reveal .section-divider p {
+  font-size: 1.3rem;
+  color: var(--color-text-muted);
+}
+
+/* Chart Container */
+.reveal .chart-container {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: var(--spacing-md);
+  margin: var(--spacing-md) 0;
+}
+
+.reveal .chart-container canvas {
+  max-height: 400px;
+}
+
+/* Fragment Animations */
+.reveal .fragment.highlight-current-blue {
+  opacity: 1;
+}
+
+.reveal .fragment.highlight-current-blue.current-fragment {
+  color: #64FFDA;
+  font-weight: 600;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .reveal {
+    font-size: 16px;
+  }
+  
+  .reveal h1 {
+    font-size: 2rem;
+  }
+  
+  .reveal h2 {
+    font-size: 1.6rem;
+  }
+  
+  .reveal h3 {
+    font-size: 1.3rem;
+  }
+  
+  .reveal .two-columns,
+  .reveal .three-columns {
+    grid-template-columns: 1fr;
+  }
+  
+  .reveal .metric-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Print/PDF Export Styles */
+@media print {
+  .reveal {
+    background: white;
+    color: black;
+  }
+  
+  .reveal h1, .reveal h2, .reveal h3 {
+    color: var(--color-primary);
+    -webkit-text-fill-color: var(--color-primary);
+  }
+  
+  .reveal .slides > section {
+    background: white;
+    page-break-after: always;
+  }
+  
+  .reveal .metric-box {
+    border: 2px solid var(--color-primary);
+  }
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reveal .animate-in {
+  animation: fadeInUp 0.6s ease-out;
+}
+
