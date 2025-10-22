@@ -45,6 +45,43 @@
             height: 1080px !important;
             padding: 40px !important;
             box-sizing: border-box;
+            overflow: hidden;
+        }
+        
+        /* Ensure content fits within slide boundaries */
+        .reveal .slides section * {
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+        
+        /* Fix for cover slide */
+        .cover-slide {
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+        }
+        
+        /* Override inline styles to ensure proper fitting */
+        .reveal .slides section div[style*="font-size"] {
+            font-size: inherit !important;
+        }
+        
+        .reveal .slides section img[style*="max-width"] {
+            max-width: 100% !important;
+        }
+        
+        /* Ensure all content fits within slide boundaries */
+        .reveal .slides section .two-columns {
+            display: grid !important;
+            grid-template-columns: 1fr 1fr !important;
+            gap: 2rem !important;
+            max-height: 900px !important;
+            overflow: hidden !important;
+        }
+        
+        .reveal .slides section .product-grid {
+            max-height: 800px !important;
+            overflow-y: auto !important;
         }
         
         .reveal h1 {
@@ -445,7 +482,7 @@
             
             <!-- Slide 1: Cover -->
             <section class="cover-slide">
-                <div style="display: flex; align-items: center; justify-content: space-between; height: 100vh;">
+                <div style="display: flex; align-items: center; justify-content: space-between; height: 1000px;">
                     <div style="flex: 1; padding-right: 2rem;">
                         <h1 style="font-size: 4.5rem; margin-bottom: 1.5rem;">MEKONG TECHNOLOGY</h1>
                         <p class="subtitle" style="font-size: 1.8rem; line-height: 1.4; margin-bottom: 2rem;">Dự án sản xuất IoT Gateway, Robot AMR/AGV, OHT<br>phục vụ chuyển đổi số doanh nghiệp</p>
