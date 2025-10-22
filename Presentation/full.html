@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1920, height=1080, initial-scale=1.0, user-scalable=no">
     <title>Mekong Technology - Full Detailed Presentation</title>
     
     <!-- Reveal.js Core -->
@@ -22,9 +22,29 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script> -->
     
     <style>
-        /* Global font size increase */
+        /* Optimize for 1920x1080 resolution */
+        html, body {
+            width: 1920px !important;
+            height: 1080px !important;
+            overflow: hidden;
+        }
+        
         .reveal {
+            width: 1920px !important;
+            height: 1080px !important;
             font-size: 1.4rem !important;
+        }
+        
+        .reveal .slides {
+            width: 1920px !important;
+            height: 1080px !important;
+        }
+        
+        .reveal .slides section {
+            width: 1920px !important;
+            height: 1080px !important;
+            padding: 40px !important;
+            box-sizing: border-box;
         }
         
         .reveal h1 {

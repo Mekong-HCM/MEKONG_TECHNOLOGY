@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1920, height=1080, initial-scale=1.0, user-scalable=no">
     <title>Mekong Technology - Executive Presentation</title>
     
     <!-- Reveal.js Core -->
@@ -20,6 +20,105 @@
     
     <!-- Mermaid -->
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
+    
+    <style>
+        /* Optimize for 1920x1080 resolution */
+        html, body {
+            width: 1920px !important;
+            height: 1080px !important;
+            overflow: hidden;
+        }
+        
+        .reveal {
+            width: 1920px !important;
+            height: 1080px !important;
+            font-size: 1.4rem !important;
+        }
+        
+        .reveal .slides {
+            width: 1920px !important;
+            height: 1080px !important;
+        }
+        
+        .reveal .slides section {
+            width: 1920px !important;
+            height: 1080px !important;
+            padding: 40px !important;
+            box-sizing: border-box;
+        }
+        
+        /* Global font size increase */
+        .reveal h1 {
+            font-size: 3.5rem !important;
+        }
+        
+        .reveal h2 {
+            font-size: 2.8rem !important;
+        }
+        
+        .reveal h3 {
+            font-size: 2.2rem !important;
+        }
+        
+        .reveal h4 {
+            font-size: 1.8rem !important;
+        }
+        
+        .reveal p {
+            font-size: 1.3rem !important;
+            line-height: 1.6 !important;
+        }
+        
+        .reveal li {
+            font-size: 1.2rem !important;
+            line-height: 1.5 !important;
+        }
+        
+        .reveal table {
+            font-size: 1.1rem !important;
+        }
+        
+        .reveal th {
+            font-size: 1.2rem !important;
+        }
+        
+        .reveal td {
+            font-size: 1.1rem !important;
+        }
+        
+        /* Responsive adjustments for 1920x1080 */
+        @media (max-width: 1920px) {
+            .reveal {
+                font-size: 1.2rem !important;
+            }
+            
+            .reveal h1 {
+                font-size: 3.0rem !important;
+            }
+            
+            .reveal h2 {
+                font-size: 2.4rem !important;
+            }
+            
+            .reveal h3 {
+                font-size: 1.9rem !important;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .reveal {
+                font-size: 1.0rem !important;
+            }
+            
+            .reveal h1 {
+                font-size: 2.5rem !important;
+            }
+            
+            .reveal h2 {
+                font-size: 2.0rem !important;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="reveal">
