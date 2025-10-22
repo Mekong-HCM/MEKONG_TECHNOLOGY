@@ -1903,53 +1903,80 @@
                 <div class="slide-header">
                     <h2>Sản phẩm 5-7: Modules, Sensors & Platform</h2>
                 </div>
-                <div class="product-grid" style="grid-template-columns: repeat(3, 1fr); gap: 1rem; max-height: 70vh; overflow: hidden;">
-                    <div class="product-card" style="height: auto; max-height: 65vh; overflow: hidden;">
-                        <img src="assets/products/iot_controller_plc_style_din_rail.jpg" alt="IoT Modules" style="max-height: 120px; object-fit: cover;">
-                        <h4>5. Module IoT</h4>
-                        <p class="price">30-120 USD</p>
-                        <p class="specs" style="font-size: 0.75rem; line-height: 1.2;">
-                            <strong>Các loại module:</strong><br/>
-                            • RS485/Modbus RTU (30 USD)<br/>
-                            • CAN bus (45 USD)<br/>
-                            • Profinet/EtherCAT (80 USD)<br/>
-                            • LoRaWAN/NB-IoT (60 USD)<br/>
-                            • Wi-Fi/BLE module (35 USD)<br/>
-                            <strong>DT:</strong> 9,78 triệu USD (8%)
-                        </p>
+                
+                <!-- Layout 2 rows: 2 products top, 1 product + strategy bottom -->
+                <div style="display: grid; grid-template-rows: 1fr 1fr; gap: 1.5rem; height: 75vh;">
+                    
+                    <!-- Row 1: 2 products side by side -->
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                        <div class="product-card" style="padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);">
+                            <img src="assets/products/iot_controller_plc_style_din_rail.jpg" alt="IoT Modules" style="width: 100%; max-height: 140px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+                            <h4 style="color: #FFD700; margin-bottom: 0.5rem;">5. Module IoT</h4>
+                            <p class="price" style="color: #FF9800; font-weight: bold; margin-bottom: 0.8rem;">30-120 USD</p>
+                            <div style="font-size: 0.85rem; line-height: 1.3;">
+                                <strong style="color: #e8eaf6;">Các loại module:</strong><br/>
+                                • RS485/Modbus RTU (30 USD)<br/>
+                                • CAN bus (45 USD)<br/>
+                                • Profinet/EtherCAT (80 USD)<br/>
+                                • LoRaWAN/NB-IoT (60 USD)<br/>
+                                • Wi-Fi/BLE module (35 USD)<br/>
+                                <div style="margin-top: 0.8rem; padding: 0.5rem; background: rgba(255, 215, 0, 0.1); border-radius: 6px;">
+                                    <strong style="color: #FFD700;">DT:</strong> 9,78 triệu USD (8%)
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="product-card" style="padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);">
+                            <img src="assets/products/iot_device_medium_1.jpg" alt="IoT Sensors" style="width: 100%; max-height: 140px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+                            <h4 style="color: #FFD700; margin-bottom: 0.5rem;">6. Cảm biến IoT</h4>
+                            <p class="price" style="color: #FF9800; font-weight: bold; margin-bottom: 0.8rem;">50-300 USD</p>
+                            <div style="font-size: 0.85rem; line-height: 1.3;">
+                                <strong style="color: #e8eaf6;">Các loại cảm biến:</strong><br/>
+                                • Nhiệt độ/Độ ẩm (50 USD)<br/>
+                                • Áp suất/Lưu lượng (120 USD)<br/>
+                                • Rung động/Âm thanh (150 USD)<br/>
+                                • Khí gas/CO2 (180 USD)<br/>
+                                • Năng lượng/Công suất (200 USD)<br/>
+                                <div style="margin-top: 0.8rem; padding: 0.5rem; background: rgba(255, 215, 0, 0.1); border-radius: 6px;">
+                                    <strong style="color: #FFD700;">DT:</strong> 5,87 triệu USD (5%)
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="product-card" style="height: auto; max-height: 65vh; overflow: hidden;">
-                        <img src="assets/products/iot_device_medium_1.jpg" alt="IoT Sensors" style="max-height: 120px; object-fit: cover;">
-                        <h4>6. Cảm biến IoT</h4>
-                        <p class="price">50-300 USD</p>
-                        <p class="specs" style="font-size: 0.75rem; line-height: 1.2;">
-                            <strong>Các loại cảm biến:</strong><br/>
-                            • Nhiệt độ/Độ ẩm (50 USD)<br/>
-                            • Áp suất/Lưu lượng (120 USD)<br/>
-                            • Rung động/Âm thanh (150 USD)<br/>
-                            • Khí gas/CO2 (180 USD)<br/>
-                            • Năng lượng/Công suất (200 USD)<br/>
-                            <strong>DT:</strong> 5,87 triệu USD (5%)
-                        </p>
+                    
+                    <!-- Row 2: 1 product + strategy -->
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                        <div class="product-card" style="padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);">
+                            <img src="assets/products/iot_device_medium_2.jpg" alt="MekongOS Platform" style="width: 100%; max-height: 140px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+                            <h4 style="color: #FFD700; margin-bottom: 0.5rem;">7. MekongOS Platform</h4>
+                            <p class="price" style="color: #FF9800; font-weight: bold; margin-bottom: 0.8rem;">50-800 USD/tháng</p>
+                            <div style="font-size: 0.85rem; line-height: 1.3;">
+                                <strong style="color: #e8eaf6;">Gói dịch vụ SaaS:</strong><br/>
+                                • Lite: 50 USD/tháng (10 devices)<br/>
+                                • Pro: 200 USD/tháng (50 devices)<br/>
+                                • Enterprise: 800 USD/tháng (unlimited)<br/>
+                                • Dashboard, Analytics, AI insights<br/>
+                                • Mobile app iOS/Android<br/>
+                                <div style="margin-top: 0.8rem; padding: 0.5rem; background: rgba(255, 215, 0, 0.1); border-radius: 6px;">
+                                    <strong style="color: #FFD700;">DT:</strong> 3,91 triệu USD (3%)
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div style="padding: 1rem; background: rgba(33, 150, 243, 0.1); border-radius: 12px; border: 1px solid rgba(33, 150, 243, 0.3);">
+                            <h4 style="color: #2196F3; margin-bottom: 1rem; font-size: 1.1rem;">Chiến lược Ecosystem & Recurring Revenue</h4>
+                            <div style="font-size: 0.9rem; line-height: 1.4;">
+                                <div style="margin-bottom: 1rem;">
+                                    <strong style="color: #e8eaf6;">Cross-sell & Up-sell:</strong><br/>
+                                    <span style="color: #b3c5d7;">IoT Gateway → Modules + Sensors → AMR/AGV → Platform SaaS</span>
+                                </div>
+                                <div style="padding: 0.8rem; background: rgba(255, 215, 0, 0.1); border-radius: 8px;">
+                                    <strong style="color: #FFD700;">ARPU tăng 2-3x:</strong><br/>
+                                    <span style="color: #b3c5d7;">Từ 25K USD (chỉ gateway) lên 60-80K USD (full solution)</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="product-card" style="height: auto; max-height: 65vh; overflow: hidden;">
-                        <img src="assets/products/iot_device_medium_2.jpg" alt="MekongOS Platform" style="max-height: 120px; object-fit: cover;">
-                        <h4>7. MekongOS Platform</h4>
-                        <p class="price">50-800 USD/tháng</p>
-                        <p class="specs" style="font-size: 0.75rem; line-height: 1.2;">
-                            <strong>Gói dịch vụ SaaS:</strong><br/>
-                            • Lite: 50 USD/tháng (10 devices)<br/>
-                            • Pro: 200 USD/tháng (50 devices)<br/>
-                            • Enterprise: 800 USD/tháng (unlimited)<br/>
-                            • Dashboard, Analytics, AI insights<br/>
-                            • Mobile app iOS/Android<br/>
-                            <strong>DT:</strong> 3,91 triệu USD (3%)
-                        </p>
-                    </div>
-                </div>
-                <div class="content-box info" style="margin-top: 1rem; font-size: 0.8rem; max-height: 15vh; overflow: hidden;">
-                    <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">Chiến lược Ecosystem & Recurring Revenue</h4>
-                    <p style="margin: 0; line-height: 1.3;"><strong>Cross-sell & Up-sell:</strong> IoT Gateway → Modules + Sensors → AMR/AGV → Platform SaaS (recurring). <strong>ARPU tăng 2-3x</strong> từ 25K lên 60-80K USD.</p>
                 </div>
             </section>
 
