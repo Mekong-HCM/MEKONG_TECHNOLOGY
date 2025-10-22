@@ -132,6 +132,287 @@
                 font-size: 1.8rem !important;
             }
         }
+        
+        /* New styles for improved slide 23 */
+        .products-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .product-section {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            border: 1px solid #dee2e6;
+        }
+        
+        .product-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid #007bff;
+        }
+        
+        .product-header h3 {
+            color: #007bff;
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+        
+        .product-badge {
+            background: linear-gradient(45deg, #007bff, #0056b3);
+            color: white;
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        
+        .product-badge.unique {
+            background: linear-gradient(45deg, #ff6b35, #f7931e);
+        }
+        
+        .product-showcase {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .product-image-container {
+            position: relative;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        .product-main-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        
+        .product-main-image:hover {
+            transform: scale(1.05);
+        }
+        
+        .image-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0,0,0,0.8));
+            color: white;
+            padding: 1rem;
+            font-weight: 600;
+        }
+        
+        .product-title h4 {
+            color: #333;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .price-range {
+            background: linear-gradient(45deg, #28a745, #20c997);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            font-weight: 600;
+            font-size: 1rem;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        
+        .specifications h5 {
+            color: #495057;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #dee2e6;
+            padding-bottom: 0.5rem;
+        }
+        
+        .spec-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0.5rem;
+        }
+        
+        .spec-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem;
+            background: white;
+            border-radius: 6px;
+            border-left: 3px solid #007bff;
+        }
+        
+        .spec-label {
+            font-weight: 600;
+            color: #495057;
+            font-size: 0.9rem;
+        }
+        
+        .spec-value {
+            color: #007bff;
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+        
+        .comparison-box {
+            background: white;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+            border: 1px solid #dee2e6;
+        }
+        
+        .comparison-box h5 {
+            color: #495057;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        
+        .comparison-table {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 0.5rem;
+        }
+        
+        .comparison-row {
+            display: contents;
+        }
+        
+        .comparison-cell {
+            padding: 0.8rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            text-align: center;
+        }
+        
+        .comparison-row.header .comparison-cell {
+            background: #007bff;
+            color: white;
+            font-weight: 600;
+        }
+        
+        .comparison-cell.agv {
+            background: #e3f2fd;
+            color: #1976d2;
+        }
+        
+        .comparison-cell.amr {
+            background: #f3e5f5;
+            color: #7b1fa2;
+        }
+        
+        .unique-features {
+            background: linear-gradient(135deg, #fff3cd, #ffeaa7);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+            border-left: 4px solid #ffc107;
+        }
+        
+        .unique-features h5 {
+            color: #856404;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+        
+        .feature-list {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0.8rem;
+        }
+        
+        .feature-item {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 0.5rem;
+            background: white;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .feature-icon {
+            font-size: 1.2rem;
+        }
+        
+        .feature-text {
+            color: #495057;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        
+        .slide-counter {
+            background: rgba(0,123,255,0.1);
+            color: #007bff;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        
+        .slide-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 2px solid #dee2e6;
+        }
+        
+        .revenue-summary h4 {
+            color: #28a745;
+            font-size: 1.1rem;
+            margin: 0;
+        }
+        
+        .slide-navigation {
+            display: flex;
+            gap: 1rem;
+        }
+        
+        .nav-btn {
+            background: linear-gradient(45deg, #007bff, #0056b3);
+            color: white;
+            border: none;
+            padding: 0.6rem 1.2rem;
+            border-radius: 25px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,123,255,0.3);
+        }
+        
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .products-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .product-showcase {
+                grid-template-columns: 1fr;
+            }
+            
+            .slide-footer {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -157,8 +438,9 @@
                         <p class="text-muted" style="margin-top: 2rem; font-size: 1.1rem;">Full Detailed Presentation | Tháng 10 năm 2025 | Version 1.0</p>
                     </div>
                     <div style="flex: 1; text-align: center;">
-                        <img src="../MODEL BASIC MEKONG FACTORY.jpg" alt="Mekong Technology Factory - Nhà máy thông minh với hệ thống năng lượng mặt trời" 
-                             style="max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 15px 40px rgba(0,0,0,0.4); border: 3px solid rgba(255, 215, 0, 0.3);">
+                        <img src="assets/MODEL_BASIC_MEKONG_FACTORY.jpg" alt="Mekong Technology Factory - Nhà máy thông minh với hệ thống năng lượng mặt trời" 
+                             style="max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 15px 40px rgba(0,0,0,0.4); border: 3px solid rgba(255, 215, 0, 0.3);"
+                             onerror="this.src='assets/MODEL_BASIC_MEKONG_FACTORY.jpg'">
                         <p style="margin-top: 1rem; font-size: 1.1rem; color: #FFD700; font-weight: 600;">MEKONG SMART FACTORY</p>
                         <p style="font-size: 0.9rem; color: #b3c5d7;">Nhà máy thông minh với hệ thống năng lượng mặt trời</p>
                     </div>
@@ -1814,88 +2096,194 @@
             </section>
 
             <!-- Slide 23: Product 3-4 - AGV & OHT -->
-            <section>
+            <section id="slide-23">
                 <div class="slide-header">
                     <h2>Sản phẩm 3-4: AGV và OHT (Overhead Hoist Transfer)</h2>
+                    <div class="slide-counter">Slide 23/32</div>
                 </div>
-                <div class="two-columns">
-                    <div>
-                        <h3>AGV (Automated Guided Vehicle)</h3>
-                        <div class="product-card">
-                            <img src="assets/products/agv_500_laser_guided_reflector.jpg" alt="AGV Series">
-                            <h4>AGV-200/500/1000</h4>
-                            <p class="price">20.000-45.000 USD</p>
-                            <p class="specs">
-                                <strong>Specs chung:</strong><br/>
-                                • Dẫn đường: Laser/Magnetic tape/Vision<br/>
-                                • Tải trọng: 200kg-1000kg<br/>
-                                • Tốc độ: 0,8-1,2 m/s<br/>
-                                • Độ chính xác: ±15mm<br/>
-                                • Pin Li-ion (6-10h)<br/>
-                                • TRL 7-8 (2028-2029)
-                            </p>
+                
+                <div class="products-container">
+                    <!-- AGV Section -->
+                    <div class="product-section">
+                        <div class="product-header">
+                            <h3>AGV (Automated Guided Vehicle)</h3>
+                            <div class="product-badge">Logistics Automation</div>
                         </div>
-                        <div class="content-box" style="font-size: 0.85rem;">
-                            <h4>So sánh AGV vs AMR</h4>
-                            <table style="font-size: 0.8rem;">
-                                <tr>
-                                    <th>Tiêu chí</th>
-                                    <th>AGV</th>
-                                    <th>AMR</th>
-                                </tr>
-                                <tr>
-                                    <td>Định vị</td>
-                                    <td>Laser/Mag tape</td>
-                                    <td>SLAM/AI</td>
-                                </tr>
-                                <tr>
-                                    <td>Linh hoạt</td>
-                                    <td>Thấp (tuyến cố định)</td>
-                                    <td>Cao (tự điều chỉnh)</td>
-                                </tr>
-                                <tr>
-                                    <td>Giá</td>
-                                    <td>Thấp hơn 20-30%</td>
-                                    <td>Cao hơn</td>
-                                </tr>
-                                <tr>
-                                    <td>Ứng dụng</td>
-                                    <td>Môi trường lặp lại</td>
-                                    <td>Môi trường phức tạp</td>
-                                </tr>
-                            </table>
+                        
+                        <div class="product-showcase">
+                            <div class="product-image-container">
+                                <img src="assets/products/agv_500_laser_guided_reflector.jpg" 
+                                     alt="AGV-500 Laser Guided Vehicle" 
+                                     class="product-main-image"
+                                     onerror="this.src='assets/products/agv_200_magnetic_guided_tape.jpg'">
+                                <div class="image-overlay">
+                                    <span class="product-model">AGV-500</span>
+                                </div>
+                            </div>
+                            
+                            <div class="product-details">
+                                <div class="product-title">
+                                    <h4>AGV Series: 200/500/1000</h4>
+                                    <div class="price-range">20.000 - 45.000 USD</div>
+                                </div>
+                                
+                                <div class="specifications">
+                                    <h5>Thông số kỹ thuật</h5>
+                                    <div class="spec-grid">
+                                        <div class="spec-item">
+                                            <span class="spec-label">Dẫn đường:</span>
+                                            <span class="spec-value">Laser/Magnetic/Vision</span>
+                                        </div>
+                                        <div class="spec-item">
+                                            <span class="spec-label">Tải trọng:</span>
+                                            <span class="spec-value">200kg - 1000kg</span>
+                                        </div>
+                                        <div class="spec-item">
+                                            <span class="spec-label">Tốc độ:</span>
+                                            <span class="spec-value">0,8 - 1,2 m/s</span>
+                                        </div>
+                                        <div class="spec-item">
+                                            <span class="spec-label">Độ chính xác:</span>
+                                            <span class="spec-value">±15mm</span>
+                                        </div>
+                                        <div class="spec-item">
+                                            <span class="spec-label">Thời gian hoạt động:</span>
+                                            <span class="spec-value">6-10 giờ</span>
+                                        </div>
+                                        <div class="spec-item">
+                                            <span class="spec-label">TRL:</span>
+                                            <span class="spec-value">7-8 (2028-2029)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="comparison-box">
+                            <h5>So sánh AGV vs AMR</h5>
+                            <div class="comparison-table">
+                                <div class="comparison-row header">
+                                    <div class="comparison-cell">Tiêu chí</div>
+                                    <div class="comparison-cell agv">AGV</div>
+                                    <div class="comparison-cell amr">AMR</div>
+                                </div>
+                                <div class="comparison-row">
+                                    <div class="comparison-cell">Định vị</div>
+                                    <div class="comparison-cell agv">Laser/Mag tape</div>
+                                    <div class="comparison-cell amr">SLAM/AI</div>
+                                </div>
+                                <div class="comparison-row">
+                                    <div class="comparison-cell">Linh hoạt</div>
+                                    <div class="comparison-cell agv">Thấp (tuyến cố định)</div>
+                                    <div class="comparison-cell amr">Cao (tự điều chỉnh)</div>
+                                </div>
+                                <div class="comparison-row">
+                                    <div class="comparison-cell">Giá thành</div>
+                                    <div class="comparison-cell agv">Thấp hơn 20-30%</div>
+                                    <div class="comparison-cell amr">Cao hơn</div>
+                                </div>
+                                <div class="comparison-row">
+                                    <div class="comparison-cell">Ứng dụng</div>
+                                    <div class="comparison-cell agv">Môi trường lặp lại</div>
+                                    <div class="comparison-cell amr">Môi trường phức tạp</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <h3>OHT (Overhead Hoist Transfer)</h3>
-                        <div class="product-card">
-                            <img src="assets/products/oht_50_ceiling_transport_cleanroom.jpg" alt="OHT Concept">
-                            <h4>OHT-50/100/200</h4>
-                            <p class="price">50.000-150.000 USD</p>
-                            <p class="specs">
-                                <strong>Specs chung:</strong><br/>
-                                • Tải trọng: 50kg-200kg<br/>
-                                • Vận chuyển trên cao (overhead rail)<br/>
-                                • Tốc độ: 60-120 m/min<br/>
-                                • 4 axes motion control<br/>
-                                • Clean room compatible (ISO 5-7)<br/>
-                                • TRL 7-8 (2028-2029)
-                            </p>
+                    
+                    <!-- OHT Section -->
+                    <div class="product-section">
+                        <div class="product-header">
+                            <h3>OHT (Overhead Hoist Transfer)</h3>
+                            <div class="product-badge unique">Sản phẩm độc đáo</div>
                         </div>
-                        <div class="content-box warning" style="font-size: 0.85rem;">
-                            <h4>Sản phẩm độc đáo!</h4>
-                            <p>OHT là <strong>sản phẩm niche</strong> ít đối thủ tại VN:</p>
-                            <ul>
-                                <li>Ứng dụng: Dược phẩm, Nhà hàng, Bệnh viện</li>
-                                <li>Lợi thế: Không chiếm diện tích sàn</li>
-                                <li>Giá cao: 50K-150K USD/unit</li>
-                                <li>Doanh thu: 15,65 triệu USD (13%)</li>
-                                <li>Nội địa hóa: 70-80%</li>
-                            </ul>
+                        
+                        <div class="product-showcase">
+                            <div class="product-image-container">
+                                <img src="assets/products/oht_50_ceiling_transport_cleanroom.jpg" 
+                                     alt="OHT-50 Ceiling Transport System" 
+                                     class="product-main-image"
+                                     onerror="this.src='assets/products/OHT.png'">
+                                <div class="image-overlay">
+                                    <span class="product-model">OHT-50</span>
+                                </div>
+                            </div>
+                            
+                            <div class="product-details">
+                                <div class="product-title">
+                                    <h4>OHT Series: 50/100/200</h4>
+                                    <div class="price-range">50.000 - 150.000 USD</div>
+                                </div>
+                                
+                                <div class="specifications">
+                                    <h5>Thông số kỹ thuật</h5>
+                                    <div class="spec-grid">
+                                        <div class="spec-item">
+                                            <span class="spec-label">Tải trọng:</span>
+                                            <span class="spec-value">50kg - 200kg</span>
+                                        </div>
+                                        <div class="spec-item">
+                                            <span class="spec-label">Vận chuyển:</span>
+                                            <span class="spec-value">Overhead rail</span>
+                                        </div>
+                                        <div class="spec-item">
+                                            <span class="spec-label">Tốc độ:</span>
+                                            <span class="spec-value">60-120 m/min</span>
+                                        </div>
+                                        <div class="spec-item">
+                                            <span class="spec-label">Điều khiển:</span>
+                                            <span class="spec-value">4 axes motion</span>
+                                        </div>
+                                        <div class="spec-item">
+                                            <span class="spec-label">Clean room:</span>
+                                            <span class="spec-value">ISO 5-7</span>
+                                        </div>
+                                        <div class="spec-item">
+                                            <span class="spec-label">TRL:</span>
+                                            <span class="spec-value">7-8 (2028-2029)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="unique-features">
+                            <h5>🌟 Sản phẩm niche - ít đối thủ tại VN</h5>
+                            <div class="feature-list">
+                                <div class="feature-item">
+                                    <span class="feature-icon">🏥</span>
+                                    <span class="feature-text">Ứng dụng: Dược phẩm, Nhà hàng, Bệnh viện</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">📐</span>
+                                    <span class="feature-text">Lợi thế: Không chiếm diện tích sàn</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">💰</span>
+                                    <span class="feature-text">Giá cao: 50K-150K USD/unit</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">📊</span>
+                                    <span class="feature-text">Doanh thu: 15,65 triệu USD (13%)</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">🇻🇳</span>
+                                    <span class="feature-text">Nội địa hóa: 70-80%</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <p class="text-center text-small text-muted">Tổng doanh thu AGV + OHT: 31,3 triệu USD (26% tổng doanh thu)</p>
+                
+                <div class="slide-footer">
+                    <div class="revenue-summary">
+                        <h4>Tổng doanh thu AGV + OHT: 31,3 triệu USD (26% tổng doanh thu)</h4>
+                    </div>
+                    <div class="slide-navigation">
+                        <button onclick="previousSlide()" class="nav-btn prev">← Trước</button>
+                        <button onclick="nextSlide()" class="nav-btn next">Tiếp →</button>
+                    </div>
+                </div>
             </section>
 
             <!-- Slide 24: Products 5-7 - Modules, Sensors, Platform -->
@@ -2083,7 +2471,8 @@
                 </div>
                 <div class="two-columns">
                     <div>
-                        <img src="MODEL BASIC MEKONG FACTORY.jpg" alt="Mekong Factory Layout" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+                        <img src="assets/MODEL_BASIC_MEKONG_FACTORY.jpg" alt="Mekong Factory Layout" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);"
+                             onerror="this.src='assets/MODEL_BASIC_MEKONG_FACTORY.jpg'">
                     </div>
                     <div>
                         <h3>Quy mô nhà máy</h3>
@@ -4478,5 +4867,49 @@ gantt
     
     <!-- Custom reveal config -->
     <script src="js/reveal-config.js"></script>
+    
+    <!-- Custom navigation script -->
+    <script>
+        let currentSlide = 0;
+        const totalSlides = 32;
+        
+        function nextSlide() {
+            if (currentSlide < totalSlides - 1) {
+                currentSlide++;
+                document.getElementById('slide-' + currentSlide)?.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+        
+        function previousSlide() {
+            if (currentSlide > 0) {
+                currentSlide--;
+                document.getElementById('slide-' + currentSlide)?.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+        
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowRight' || e.key === ' ') {
+                e.preventDefault();
+                nextSlide();
+            } else if (e.key === 'ArrowLeft') {
+                e.preventDefault();
+                previousSlide();
+            }
+        });
+        
+        // Update slide counter
+        function updateSlideCounter() {
+            const counters = document.querySelectorAll('.slide-counter');
+            counters.forEach(counter => {
+                counter.textContent = `Slide ${currentSlide + 1}/${totalSlides}`;
+            });
+        }
+        
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            updateSlideCounter();
+        });
+    </script>
 </body>
 </html>
