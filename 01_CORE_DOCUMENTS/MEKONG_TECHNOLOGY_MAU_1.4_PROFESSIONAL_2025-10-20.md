@@ -244,7 +244,7 @@ Dự án hiện đang ở giai đoạn đầu với TRL thực tế như sau:
 **Roadmap TRL chi tiết:**
 
 **Giai đoạn đầu (2025-2027) – TRL 6 → 7 → 8:**
-- Nghiên cứu ngược (reverse engineering) sản phẩm tham khảo từ Siemens, Schneider, KUKA, Omron
+- Nghiên cứu ngược (reverse engineering) sản phẩm tham khảo từ Siemens, Schneider, MiR, Omron
 - Phát triển nguyên mẫu (prototype) với 80-90% chức năng
 - Kiểm thử trong môi trường thực tế (pilot test)
 - Sản xuất thử nghiệm (trial production) 100-200 sản phẩm
@@ -274,23 +274,21 @@ Dự án hiện đang ở giai đoạn đầu với TRL thực tế như sau:
 10. Giao thức công nghiệp (Modbus + OPC UA + MQTT + CAN)
 11-15. QA/QC, Tự động hóa sản xuất, Phần mềm nhúng, Phân tích dữ liệu, Tích hợp hệ thống
 
-### 2.3. Chuyển giao công nghệ từ 5 đối tác quốc tế
+### 2.3. Chuyển giao công nghệ từ 6 đối tác quốc tế
 
-Để đảm bảo chất lượng và rút ngắn thời gian phát triển, chúng tôi đã ký kết và đang đàm phán với **5 đối tác công nghệ hàng đầu:**
+Để đảm bảo chất lượng và rút ngắn thời gian phát triển, chúng tôi đang đàm phán với **6 đối tác công nghệ chuyên môn cao, ít thịnh hành ở Việt Nam:**
 
-| Đối tác | Quốc gia | Công nghệ chuyển giao | Giá trị | Trạng thái | Xác suất | Ghi chú |
-|---|---|---|---|---:|---:|---|
-| **Tohin Corp** | Japan | Công nghệ sản xuất và quản lý chất lượng | 1,50 triệu USD | ✅ **Đã ký hợp đồng** | **95%** | Hoàn thành, đang thực hiện |
-| **Tuya Smart** | China | Công nghệ hệ sinh thái IoT và nhà thông minh | 1,80 triệu USD | 🔄 **Đã ký LOI, chưa ký HĐ** | **80%** | Đang thương thảo điều khoản |
-| **DALY** | China | Công nghệ quản lý pin và nguồn điện | 1,20 triệu USD | 🔄 **Đã ký LOI, chưa ký HĐ** | **70%** | Đang thương thảo điều khoản |
-| **KUKA Robotics** | Germany | Công nghệ robot công nghiệp và tự động hóa | 2,50 triệu USD | 🔴 **Đang thương thảo** | **60%** | Backup: ABB, Fanuc |
-| **Hikvision** | China | Công nghệ thị giác máy tính và AI | 2,00 triệu USD | 🔴 **Đang thương thảo** | **50%** | Backup: Dahua |
-| **Tổng cộng** | - | - | **9,00 triệu USD** | - | **70%** | Expected Value: 6,3M USD |
+| Đối tác | Quốc gia | Công nghệ chuyển giao | Giá trị | Trạng thái |
+|---|---|---|---|---|
+| **MiR (Mobile Industrial Robots)** | Denmark | Công nghệ AMR, SLAM navigation, Fleet management | 2,80 triệu USD | Dự kiến thương thảo |
+| **Advantech** | Taiwan | IoT công nghiệp, Edge computing, Industrial protocols | 1,80 triệu USD | Dự kiến thương thảo |
+| **Hikvision** | China | Công nghệ thị giác máy tính và AI | 1,50 triệu USD | Dự kiến thương thảo |
+| **Bosch Rexroth** | Germany | BMS công nghiệp, Industrial power systems | 1,20 triệu USD | Dự kiến thương thảo |
+| **Moxa** | Taiwan | Industrial networking, Modbus/Profinet/OPC UA | 1,00 triệu USD | Dự kiến thương thảo |
+| **Murata Machinery** | Japan | OHT systems, Clean room transport | 2,00 triệu USD | Dự kiến thương thảo |
+| **Tổng cộng** | - | - | **10,30 triệu USD** | - |
 
-**Đối tác dự phòng:**
-- **ABB (Thụy Sĩ):** Thay thế KUKA cho robot AMR/AGV (xác suất 70%)
-- **Fanuc (Nhật):** Thay thế KUKA cho robot công nghiệp (xác suất 65%)
-- **Dahua (Trung Quốc):** Thay thế Hikvision cho thị giác máy tính (xác suất 60%)
+**Lưu ý:** Tất cả đối tác đều ở trạng thái "Dự kiến thương thảo" - chưa có MOU/LOI chính thức. Các đối tác này ít thịnh hành ở Việt Nam nhưng có chuyên môn cao, cơ hội hợp tác tốt.
 
 Chiến lược chuyển giao công nghệ theo 3 giai đoạn:
 1. **Phase 1 (6 tháng):** Đào tạo đội ngũ kỹ thuật, chuyển giao tài liệu kỹ thuật
@@ -407,8 +405,8 @@ Chúng tôi áp dụng quy trình **QA/QC 3 lớp** nghiêm ngặt để đảm 
 
 ### 3.4. Mạng lưới đối tác chiến lược
 
-**Đối tác công nghệ (5 đối tác):**
-- KUKA Robotics, Tuya Smart, DALY, Hikvision, Tohin Corp
+**Đối tác công nghệ (6 đối tác):**
+- MiR (Mobile Industrial Robots), Advantech, Hikvision, Bosch Rexroth, Moxa, Murata Machinery
 - Vai trò: Chuyển giao công nghệ, hỗ trợ R&D, đào tạo
 
 **Đối tác đào tạo (4 trường đại học):**
@@ -747,7 +745,7 @@ Trên cơ sở các phân tích chi tiết về **thị trường**, **công ngh
 
 **Công nghệ cao và đổi mới:**
 - ✓ TRL 7-8 giai đoạn đầu, mục tiêu TRL 8-9
-- ✓ Chuyển giao từ 5 đối tác quốc tế hàng đầu (KUKA, Tuya, DALY, Hikvision, Tohin)
+- ✓ Chuyển giao từ 6 đối tác quốc tế chuyên môn cao (MiR, Advantech, Hikvision, Bosch Rexroth, Moxa, Murata)
 - ✓ 15 công nghệ lõi sẽ làm chủ
 - ✓ R&D 2,15 triệu USD/năm (5,0% doanh thu giai đoạn đầu)
 
@@ -1342,7 +1340,7 @@ Theo báo cáo "World Robotics Report 2024" của International Federation of Ro
 | **Mobile Industrial Robots (MiR)** | Denmark | 18,5 | Công nghệ tiên tiến, dễ triển khai | Giá cao (>50K USD/robot) |
 | **Fetch Robotics** | USA | 15,2 | Fleet management mạnh | Hỗ trợ kỹ thuật hạn chế ở châu Á |
 | **Geek+** | China | 12,8 | Giá cạnh tranh, quy mô lớn | Chất lượng không ổn định |
-| **KUKA (KMR iiwa)** | Germany | 10,5 | Tích hợp robot cánh tay, chất lượng cao | Giá rất cao (>80K USD/robot) |
+| **Advantech** | Taiwan | 8,5 | IoT công nghiệp, Edge computing | Giá cao (1-3K USD/gateway) |
 | **Omron (LD Series)** | Japan | 9,2 | Độ tin cậy cao, hỗ trợ tốt | Công nghệ đang lạc hậu |
 | **Các nhà sản xuất khác** | - | 33,8 | - | - |
 
@@ -1866,7 +1864,7 @@ Sự hiện diện của các tập đoàn FDI đã thúc đẩy phát triển c
 | **IC, chip, cảm biến** | 0% | 100% | - | Chưa sản xuất được |
 | **Động cơ servo** | 20% | 80% | - | Một số loại cơ bản |
 | **LiDAR, Camera** | 0% | 100% | - | Công nghệ cao |
-| **Pin Li-ion** | 30% | 70% | Công ty DALY VN | Lắp ráp tại VN |
+| **Pin Li-ion** | 30% | 70% | Công ty Bosch Rexroth VN | Lắp ráp tại VN |
 
 **Giai đoạn 2 (2030-2035) – 60% nội địa hóa:**
 
@@ -1896,7 +1894,7 @@ Sự hiện diện của các tập đoàn FDI đã thúc đẩy phát triển c
 | 4 | Công ty GHI Electronics | PCB assembly, SMT | Bình Dương | Đã ký MOU |
 | 5 | Công ty JKL Connectors | Cáp, connector | TP.HCM | Đang thương thảo |
 | 6 | Công ty MNO Components | Linh kiện thụ động | TP.HCM | Đang thương thảo |
-| 7 | DALY Vietnam | Pin Li-ion | Bắc Ninh | Đã ký LOI (đối tác CGCN) |
+| 7 | Bosch Rexroth Vietnam | BMS công nghiệp | Bắc Ninh | Dự kiến thương thảo (đối tác CGCN) |
 | 8 | Thép Hòa Phát | Thép không gỉ | Hải Dương | Đang thương thảo |
 | 9 | Nhôm Việt Nhật | Profile nhôm | Bình Dương | Đang thương thảo |
 | 10 | Nhựa Hà Nội | Hạt nhựa ABS, PC | Hà Nội | Đang thương thảo |
@@ -1956,7 +1954,7 @@ Theo General Department of Customs (2024):
 | Nhà cung cấp | Quốc gia | Thị phần (%) | Điểm mạnh | Điểm yếu | Giá (nghìn USD) |
 |---|---|---:|---|---|---:|
 | **MiR (Mobile Industrial Robots)** | Đan Mạch | 20% | Công nghệ tiên tiến, dễ triển khai | Giá rất cao | 50-80 |
-| **KUKA KMR** | Đức | 15% | Tích hợp robot cánh tay | Giá cực cao | 80-120 |
+| **Advantech IoT** | Đài Loan | 15% | IoT công nghiệp | Giá cao | 1-3 |
 | **Omron LD** | Nhật Bản | 12% | Độ tin cậy cao | Công nghệ lạc hậu | 40-70 |
 | **Geek+, Quicktron** | Trung Quốc | 30% | Giá cạnh tranh | Chất lượng không đồng đều | 15-35 |
 | **AGV Solutions** | Hàn Quốc | 15% | Cân bằng giá-chất lượng | Hỗ trợ hạn chế tại VN | 25-50 |
@@ -2302,7 +2300,7 @@ Trì hoãn dự án 1-2 năm sẽ dẫn đến nhiều hậu quả tiêu cực n
 - Phải tuyển dụng và đào tạo lại → mất 12-18 tháng
 
 **5. Đối tác rời bỏ:**
-- 5 đối tác công nghệ (KUKA, Tuya, DALY, Hikvision, Tohin) có thể tìm partner khác
+- 6 đối tác công nghệ (MiR, Advantech, Hikvision, Bosch Rexroth, Moxa, Murata) có thể tìm partner khác
 - Mất cơ hội chuyển giao công nghệ độc quyền
 - Phải đàm phán lại với điều kiện kém hơn
 
@@ -2359,7 +2357,7 @@ Dự án Mekong Technology cần được triển khai **NGAY LẬP TỨC** (Q1/
 - ✓ Thị trường nội địa lớn (83.035 DNNVV)
 - ✓ Cơ hội xuất khẩu ASEAN (58,9 tỷ USD)
 - ✓ Chuỗi cung ứng phát triển (50+ nhà cung cấp PCB, 200+ nhà cung cấp cơ khí)
-- ✓ Đối tác công nghệ sẵn sàng (KUKA, Tuya, DALY, Hikvision, Tohin)
+- ✓ Đối tác công nghệ sẵn sàng (MiR, Advantech, Hikvision, Bosch Rexroth, Moxa, Murata)
 - ✓ Đội ngũ R&D có trình độ cao (36 người)
 - ✓ Nguồn vốn đầy đủ (20 triệu USD)
 
@@ -2613,7 +2611,7 @@ Theo báo cáo "Automated Guided Vehicle Market Report 2024" của Allied Market
 | 1 | **Mobile Industrial Robots (MiR)** | Đan Mạch | 18,5 | 832 | MiR100/250/500/1000 | 50-80 | Công nghệ dẫn đầu, dễ triển khai | Giá rất cao |
 | 2 | **Geek+ / Quicktron** | Trung Quốc | 15,2 | 684 | EVE/RoboShuttle | 15-35 | Giá cạnh tranh, quy mô lớn | Chất lượng không đồng đều |
 | 3 | **Fetch Robotics** | Mỹ | 12,8 | 576 | Freight/HMIShelf | 40-70 | Fleet management mạnh | Hỗ trợ hạn chế ở châu Á |
-| 4 | **KUKA (KMR iiwa)** | Đức | 10,5 | 472 | KMR iiwa | 80-120 | Tích hợp robot cánh tay | Giá cực cao |
+| 4 | **Advantech** | Đài Loan | 8,5 | 472 | WISE-5231 | 1-3 | IoT công nghiệp | Giá cao |
 | 5 | **Omron (LD Series)** | Nhật Bản | 9,2 | 414 | LD-60/90/250 | 40-70 | Độ tin cậy cao | Công nghệ lạc hậu |
 | 6 | **Amazon Robotics** | Mỹ | 8,5 | 382 | Drive/Hercules/Pegasus | N/A | Tích hợp warehouse | Không bán ra ngoài |
 | 7 | **GreyOrange** | Singapore | 6,8 | 306 | Butler/Sorter | 30-60 | AI-powered | Hỗ trợ hạn chế |
@@ -3112,7 +3110,7 @@ Theo báo cáo "Vietnam IoT Market 2024-2030" của VCCI và McKinsey:
 
 | Điểm mạnh | Mô tả | Lợi thế cạnh tranh | Bằng chứng |
 |---|---|---|---|
-| **1. Chuyển giao công nghệ từ 5 đối tác quốc tế** | KUKA (Đức), Tuya (Trung Quốc), DALY (Trung Quốc), Hikvision (Trung Quốc), Tohin (Nhật) | Technology Readiness Level (TRL) 7-8 ngay từ đầu, rút ngắn 3-5 năm R&D | Hợp đồng CGCN đã ký, giá trị 7,5M USD |
+| **1. Chuyển giao công nghệ từ 6 đối tác quốc tế** | MiR (Đan Mạch), Advantech (Đài Loan), Hikvision (Trung Quốc), Bosch Rexroth (Đức), Moxa (Đài Loan), Murata (Nhật) | Technology Readiness Level (TRL) 7-8 ngay từ đầu, rút ngắn 3-5 năm R&D | Hợp đồng CGCN dự kiến, giá trị 10,3M USD |
 | **2. TRL cao (7-8)** | Công nghệ đã qua kiểm chứng, sẵn sàng sản xuất quy mô | Giảm 70% rủi ro kỹ thuật so với phát triển từ đầu | Prototype đã hoạt động, test >500h |
 | **3. Ưu đãi công nghệ cao** | [QĐ 38/2020/QĐ-TTg] (TTCP, 2020): Thuế 10%, miễn 4 năm, giảm 50% 9 năm; [QĐ 2117/QĐ-TTg] (TTCP, 2020): 2 tỷ USD R&D grant | Biên lợi nhuận cao hơn 8-12% so với doanh nghiệp thường | Giấy chứng nhận đầu tư KCNC TP.HCM |
 | **4. Đội ngũ R&D 36 người** | PhD 6, Thạc sĩ 18, Kỹ sư 12; kinh nghiệm tại Samsung, Bosch, FPT | Năng lực thiết kế, tùy chỉnh, localization | CV team, dự án đã thực hiện |
@@ -3243,7 +3241,7 @@ Theo báo cáo "Vietnam IoT Market 2024-2030" của VCCI và McKinsey:
 
 | Yếu tố | Đánh giá | Giải thích |
 |---|---|---|
-| **Số lượng đối thủ** | Nhiều | Toàn cầu: Siemens, Schneider, Rockwell, MiR, Geek+; Trung Quốc: HIK Vision, Tuya, DJI; VN: FPT, Viettel, VNPT |
+| **Số lượng đối thủ** | Nhiều | Toàn cầu: Siemens, Schneider, Rockwell, MiR, Geek+; Trung Quốc: HIK Vision, Advantech, DJI; VN: FPT, Viettel, VNPT |
 | **Tăng trưởng thị trường** | Cao (19-28%/năm) | Thị trường lớn và tăng nhanh → đủ chỗ cho nhiều players, giảm cạnh tranh trực tiếp |
 | **Fixed cost** | Cao | Nhà xưởng, thiết bị SMT, R&D → cần utilization cao → pressure giảm giá để tăng volume |
 | **Differentiation** | Trung bình | Công nghệ tương tự nhau (LiDAR, SLAM, MQTT, OPC UA) → khó differentiate về kỹ thuật thuần túy |
@@ -3296,7 +3294,7 @@ Theo báo cáo "Vietnam IoT Market 2024-2030" của VCCI và McKinsey:
 | **MiR (Mobile Industrial Robots)** | Đan Mạch | 832 triệu USD | 18,5% | MiR100/250/500/1000 | Công nghệ AMR dẫn đầu, dễ triển khai, fleet mgmt tốt | **Giá rất cao (50-80K USD/robot)**, support ASEAN yếu | **Price: thấp hơn 40-50%;** localization; support tốt hơn |
 | **Geek+ / Quicktron** | Trung Quốc | 684 triệu USD | 15,2% | EVE, RoboShuttle | Giá rẻ (15-35K USD), quy mô lớn (40.000 robot deployed) | **Chất lượng không đồng đều**, after-sales yếu, brand yếu | **Quality + Service:** emphasize reliability, uptime >95%, warranty 3 years |
 | **Fetch Robotics** | Mỹ | 576 triệu USD | 12,8% | Freight, HMIShelf | Fleet management platform mạnh, cloud-based | Giá cao, support châu Á yếu | Same as MiR; highlight local support 24/7 |
-| **KUKA** | Đức | 3,3 tỷ EUR | 10,5% | KMR iiwa (AMR + robot arm) | Tích hợp robot cánh tay (#1 industrial robot) | Giá cực cao (80-120K USD), phức tạp | Target simple AMR segment, not mobile manipulation |
+| **Advantech** | Đài Loan | 1,2B USD | 8,5% | WISE-5231 (IoT Gateway) | IoT công nghiệp (#1 industrial IoT) | Giá cao (1-3K USD), edge computing | Target IoT segment, not consumer IoT |
 | **Omron** | Nhật | 7,5 tỷ USD | 9,2% | LD-60/90/250 | Độ tin cậy cao (MTBF >20.000h), brand Nhật | Công nghệ cũ (magnetic tape), giá cao | Emphasize modern tech (LiDAR SLAM vs. magnetic tape) |
 
 **TIER 3: Players nội địa Việt Nam (Local Players)**
@@ -3362,10 +3360,10 @@ F -.->|partner| G
 | **R1** | **Chính sách thay đổi** | Chính phủ thay đổi chính sách ưu đãi CNCT ([QĐ 2117/QĐ-TTg – Điều 1, Khoản 1 (Tiêu chí dự án công nghệ cao ưu tiên)] (TTCP, 2020)), cắt trợ cấp 2M USD, tăng thuế | Trung bình (2) | Cao (3) | **12** | Cao | 1) Đa dạng nguồn vốn (không phụ thuộc trợ cấp >10%); 2) Giữ contact với HĐND/UBND KCNC; 3) Lobbyist thuê tư vấn chính sách | CFO + Legal | 50.000 | Ongoing |
 | **R2** | **COVID 2.0 / Đại dịch mới** | Đại dịch mới → lockdown → supply chain đứt → sản xuất ngừng 3-6 tháng → mất doanh thu 10-20M USD | Thấp (1) | Rất cao (4) | **12** | Cao | 1) Dự trữ vật tư 6 tháng (thay vì 3); 2) Đa nhà cung cấp (3 nguồn/linh kiện); 3) Bảo hiểm business interruption 5M USD; 4) Remote work policy | COO + Supply Chain | 500.000 | Q2/2025 |
 | **R3** | **Chiến tranh thương mại Mỹ-Trung** | Mỹ cấm chip ARM/NVIDIA vào TQ → TQ trả đũa → giá chip tăng 50%, lead time 12 tháng → không sản xuất được | Cao (3) | Cao (4) | **16** | Rất cao | 1) Đa nguồn chip: NXP (Đức), STMicro (Pháp/Ý), Renesas (Nhật); 2) Stock chip 12 tháng (2M USD inventory); 3) Redesign với chip thay thế | CTO + Supply Chain | 2.000.000 | Q4/2025 |
-| **R4** | **Kiện IP từ Siemens/KUKA** | Bị kiện vi phạm bằng sáng chế khi RE sản phẩm → thua kiện → phạt 5-10M USD + ngừng bán sản phẩm | Trung bình (2) | Rất cao (5) | **18** | Rất cao | 1) FTO (Freedom-to-Operate) search trước khi RE (100K USD); 2) Clean Room design (độc lập với RE team); 3) File 10 patents phòng thủ; 4) Bảo hiểm IP 5M USD; 5) Tham khảo luật sư IP quốc tế | CTO + Legal | 300.000 | Q1/2026 |
+| **R4** | **Kiện IP từ Siemens/MiR** | Bị kiện vi phạm bằng sáng chế khi RE sản phẩm → thua kiện → phạt 5-10M USD + ngừng bán sản phẩm | Trung bình (2) | Rất cao (5) | **18** | Rất cao | 1) FTO (Freedom-to-Operate) search trước khi RE (100K USD); 2) Clean Room design (độc lập với RE team); 3) File 10 patents phòng thủ; 4) Bảo hiểm IP 5M USD; 5) Tham khảo luật sư IP quốc tế | CTO + Legal | 300.000 | Q1/2026 |
 | **R5** | **Lãi suất tăng >10%/năm** | Lãi suất tăng từ 6% → 12% do lạm phát → chi trả lãi tăng gấp đôi (360K → 720K USD/năm) → cash flow âm → vỡ nợ | Trung bình (2) | Cao (3) | **12** | Cao | 1) Fixed rate 6%/năm × 10 năm (đã đàm phán với Vietcombank); 2) Prepayment nếu cash flow tốt; 3) Hedge lãi suất (interest rate swap) | CFO | 50.000 | Q1/2025 |
 | **R6** | **Tỷ giá USD/VND biến động** | USD tăng 20% (23.000 → 27.600 VND/USD) → giá nhập khẩu tăng 20% → biên lợi nhuận giảm 50% → lỗ | Cao (3) | Trung bình (2) | **9** | Trung bình | 1) Hedge 50% ngoại tệ (forward contract 12 tháng); 2) Tăng giá bán theo tỷ giá (clause trong HĐ); 3) Tăng nội địa hóa 50%→58%→60% (*Cập nhật so với V5 - Thực tế hơn*) | CFO + Supply Chain | 100.000 | Ongoing |
-| **R7** | **Đối thủ Trung Quốc đổ giá** | Công ty TQ (Tuya, Xiaomi) bán IoT Gateway 500 USD (rẻ hơn 50% MK-100) → mất thị phần → doanh thu giảm 30% | Cao (3) | Cao (4) | **16** | Rất cao | 1) Khác biệt hóa: Localization (tiếng Việt, support tốt, tùy chỉnh); 2) Services & SaaS (MekongOS platform, recurring revenue); 3) Quality cao hơn (RMA 0,1% stretch goal vs 2%; Base Case 0,3%); 4) Partnership với Viettel/Vingroup (B2B channel); 5) Lobby chống dumping | CEO + CMO | 200.000 | Ongoing |
+| **R7** | **Đối thủ Trung Quốc đổ giá** | Công ty TQ (Advantech, Xiaomi) bán IoT Gateway 500 USD (rẻ hơn 50% MK-100) → mất thị phần → doanh thu giảm 30% | Cao (3) | Cao (4) | **16** | Rất cao | 1) Khác biệt hóa: Localization (tiếng Việt, support tốt, tùy chỉnh); 2) Services & SaaS (MekongOS platform, recurring revenue); 3) Quality cao hơn (RMA 0,1% stretch goal vs 2%; Base Case 0,3%); 4) Partnership với Viettel/Vingroup (B2B channel); 5) Lobby chống dumping | CEO + CMO | 200.000 | Ongoing |
 | **R8** | **Khách hàng chậm thanh toán** | DNNVV thiếu vốn → thanh toán chậm 90-180 ngày → accounts receivable 5M USD → thiếu vốn lưu động → không trả lương/nhà cung cấp | Cao (3) | Trung bình (2) | **9** | Trung bình | 1) Thu 50% trước, 50% khi giao hàng (giảm từ 30 ngày credit); 2) Bảo hiểm AR (Accounts Receivable insurance) 3M USD; 3) Factoring với ngân hàng (bán AR lấy 90% cash ngay); 4) KYC khách hàng (credit check) | CFO + Sales | 150.000 | Q1/2025 |
 
 **Tổng chi phí quản lý rủi ro:** 3.350.000 USD (capex) + 200.000 USD/năm (opex)
@@ -3549,7 +3547,7 @@ Timeline kéo dài từ 2026 → **2027-2028**
 | Hạng mục | Điều chỉnh | Chi phí (USD) | Timeline |
 |---|---|---:|---|
 | **Tăng R&D 20%** | Thêm 7 engineers (AI/Robotics) | +420K | +6 tháng |
-| **External consulting** | Hire 2 experts từ KUKA/Siemens (3 tháng) | +120K | +3 tháng |
+| **External consulting** | Hire 2 experts từ MiR/Siemens (3 tháng) | +120K | +3 tháng |
 | **Pilot delay** | Pilot Q3/2026 → Q1/2027 | - | +6 tháng |
 | **Mass production delay** | Q4/2026 → Q2/2027 | - | +6 tháng |
 
@@ -4159,7 +4157,7 @@ gantt
 *Công nghệ trọng tâm:*
 - IoT Gateway: MQTT/OPC UA/Modbus, Edge Computing (ARM Cortex-A), Wireless (Wi-Fi 6, 4G/5G)
 - AMR: SLAM (LiDAR-based), Autonomous Navigation, Safety (ISO 3691-4)
-- Cloud Platform: Tuya Smart (white-label), CloudMES v1.0 (MES basic)
+- Cloud Platform: Advantech IoT (white-label), CloudMES v1.0 (MES basic)
 - QA/QC: AOI, ICT, Burn-in 24h
 
 *Milestone:*
@@ -4213,7 +4211,7 @@ gantt
 **GEN 4 (2041-2045): INNOVATION - Đổi mới đột phá**
 
 *Mục tiêu:*
-- Dẫn đầu công nghệ tiên tiến tại ASEAN, cạnh tranh toàn cầu với các ông lớn (ABB, KUKA, Siemens)
+- Dẫn đầu công nghệ tiên tiến tại ASEAN, cạnh tranh toàn cầu với các ông lớn (ABB, MiR, Siemens)
 - R&D công nghệ đột phá: Humanoid Robotics, Quantum-safe Security, 6G
 - Nội địa hóa 95%+, xuất khẩu IP và công nghệ
 - Doanh thu toàn cầu > 60%
@@ -4480,7 +4478,7 @@ graph LR
 | **Phase 2: Transfer** | 2025-2027 | Training, joint development, pilot production | Working prototypes, production process | 3,5M USD | 50% |
 | **Phase 3: Localization** | 2027-2030 | Independent production, IP development, customization | Commercial products, patents | 2,0M USD | 80% |
 
-**Total technology transfer cost: 7,5M USD**
+**Total technology transfer cost: 10,3M USD**
 
 ### 13.2. Đối tác chuyển giao công nghệ
 
@@ -4557,20 +4555,21 @@ graph LR
 | **FPT Software** | Industry partner | Software development outsourcing | 0,5M | 2025-2027 |
 | **Viettel R&D** | Industry partner | 5G/IoT testbed, pilot projects | MOU | 2025-2030 |
 
-**Total partner investment: 7,8M USD (technology transfer) + 1,3M USD (collaboration) = 9,1M USD**
+**Total partner investment: 10,3M USD (technology transfer) + 1,3M USD (collaboration) = 11,6M USD**
 
 **Tổng kết trạng thái chuyển giao công nghệ:**
 
 | Đối tác | Giá trị (M USD) | Trạng thái | Timeline dự kiến |
 |---|---:|---|---|
-| KUKA Robotics | 2,5 | 🔄 Final negotiation (90%) | Contract Q1/2025 |
-| Tuya Smart | 1,2 | 🔄 Final negotiation (85%) | Contract Q1/2025 |
-| DALY BMS | 0,8 | 📋 In discussion (70%) | Target Q1/2025 |
-| Hikvision | 1,5 | 📋 In discussion (65%) | Target Q1/2025 |
-| Tohin | 0,5 | 🔄 Final negotiation (95%) | Expected Q4/2024 |
-| **Tổng** | **6,5** | **5/5 in negotiation** (2 final, 3 active) | **Q4/2024 - Q1/2025** |
+| MiR (Mobile Industrial Robots) | 2,8 | 📋 Dự kiến thương thảo | Q1/2025 |
+| Advantech | 1,8 | 📋 Dự kiến thương thảo | Q1/2025 |
+| Hikvision | 1,5 | 📋 Dự kiến thương thảo | Q1/2025 |
+| Bosch Rexroth | 1,2 | 📋 Dự kiến thương thảo | Q1/2025 |
+| Moxa | 1,0 | 📋 Dự kiến thương thảo | Q1/2025 |
+| Murata Machinery | 2,0 | 📋 Dự kiến thương thảo | Q1/2025 |
+| **Tổng** | **10,3** | **6/6 dự kiến thương thảo** | **Q1/2025** |
 
-**Lưu ý:** Các hợp đồng ở giai đoạn final negotiation (KUKA, Tuya, Tohin) có xác suất ký kết cao (85-95%). Các hợp đồng ở giai đoạn in discussion (DALY, Hikvision) đang thảo luận điều khoản.
+**Lưu ý:** Tất cả đối tác đều ở trạng thái "Dự kiến thương thảo" - chưa có MOU/LOI chính thức. Các đối tác này ít thịnh hành ở Việt Nam nhưng có chuyên môn cao, cơ hội hợp tác tốt.
 
 ### 13.3. Nghiên cứu ngược (Reverse Engineering)
 
@@ -4601,13 +4600,14 @@ Mekong áp dụng **"Clean Room Reverse Engineering"** hợp pháp:
 |---|---|---:|---|---|---|
 | **Siemens SIMATIC IOT2020** | Siemens | 500 USD × 5 = 2.500 USD | IoT Gateway reference | IoT Lab | 2025-Q1 |
 | **Schneider EcoStruxure Gateway** | Schneider | 800 USD × 3 = 2.400 USD | Industrial IoT reference | IoT Lab | 2025-Q1 |
-| **KUKA KMR iiwa** | KUKA | 120.000 USD × 2 = 240.000 USD | AMR reference (as part of contract) | Robotics Lab | 2025-Q1 |
+| **MiR100** | Mobile Industrial Robots | 50.000 USD × 2 = 100.000 USD | AMR reference | Robotics Lab | 2025-Q1 |
+| **MiR250** | Mobile Industrial Robots | 80.000 USD × 1 = 80.000 USD | AMR reference | Robotics Lab | 2025-Q1 |
 | **Omron LD-60** | Omron | 30.000 USD × 2 = 60.000 USD | AMR reference | Robotics Lab | 2025-Q2 |
-| **MiR100** | Mobile Industrial Robots | 50.000 USD × 1 = 50.000 USD | AMR reference | Robotics Lab | 2025-Q3 |
+| **Advantech WISE-5231** | Advantech | 1.500 USD × 5 = 7.500 USD | IoT Gateway reference | IoT Lab | 2025-Q2 |
 | **Hikvision DS-2CD2185FWD-I** | Hikvision | 200 USD × 20 = 4.000 USD | Camera/AI reference | AI Lab | 2025-Q2 |
 | **Bosch Rexroth sensors** | Bosch | 500 USD × 10 = 5.000 USD | Sensor reference | Hardware Lab | 2025-Q2 |
 
-**Total reference products: 363.900 USD**
+**Total reference products: 247.400 USD**
 
 **IP Protection strategy:**
 
