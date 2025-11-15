@@ -8,7 +8,13 @@
     <!-- Reveal.js Core -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/theme/black.css">
-    
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
     <!-- Custom Theme -->
     <link rel="stylesheet" href="css/theme-corporate.css">
     
@@ -473,55 +479,65 @@
                 <p class="text-small text-muted" style="color: #B0BEC5; font-size: 0.85rem; margin-top: 1rem; text-align: center;">Doanh thu 10 năm (2025-2035), chưa bao gồm giai đoạn 3</p>
             </section>
 
-            <!-- Slide 6b: Product Portfolio với hình ảnh -->
+            <!-- Slide 6b1: Product Portfolio với hình ảnh -->
             <section>
                 <div class="slide-header">
                     <h2 style="font-size: 1.8rem; font-weight: 600; color: #90CAF9; margin-bottom: 1.5rem;">Portfolio Sản phẩm</h2>
                 </div>
-                <div class="product-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem; margin: 2rem 0;">
+                <div class="product-grid !pt-2.5" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem">
                     <!-- Sản phẩm 1: IoT Gateway (46% doanh thu - ưu tiên cao) -->
-                    <div class="product-card" style="padding: 1.5rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(100, 181, 246, 0.3); border-radius: 12px; position: relative;">
+                    <div class="product-card" style="padding: 0.5rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(100, 181, 246, 0.3); border-radius: 12px; position: relative;">
                         <div style="position: absolute; top: -10px; right: 10px; background: #64B5F6; color: #000; padding: 4px 8px; border-radius: 4px; font-size: 0.7rem; font-weight: 600;">#1</div>
-                        <img src="assets/products/iot_gateway_mk100_din_rail_industrial.jpg" alt="IoT Gateway" style="width: 100%; max-height: 160px; object-fit: cover; object-position: center; border-radius: 8px; margin-bottom: 1rem; border: 1px solid rgba(100, 181, 246, 0.2); box-shadow: 0 4px 12px rgba(100, 181, 246, 0.2);">
+                        <img src="assets/products/iot_gateway_mk100_din_rail_industrial.jpg" alt="IoT Gateway" style="width: 100%; max-height: 400px; object-fit: cover; object-position: center; border-radius: 8px; margin-bottom: 1rem; border: 1px solid rgba(100, 181, 246, 0.2); box-shadow: 0 4px 12px rgba(100, 181, 246, 0.2);">
                         <h4 style="font-size: 1.1rem; margin: 0.8rem 0; font-weight: 600; color: #e8eaf6;">IoT Gateway MK Series</h4>
                         <p style="font-size: 0.9rem; margin: 0; color: #e0e0e0; font-weight: 500;">800 - 5.000 USD</p>
-                        <p style="font-size: 0.8rem; color: #64B5F6; margin-top: 0.5rem; font-weight: 600;">46% doanh thu</p>
+                        <p class="!mb-0" style="font-size: 0.8rem; color: #64B5F6; margin-top: 0.5rem; font-weight: 600;">46% doanh thu</p>
                     </div>
                     
                     <!-- Sản phẩm 2: AMR Robot (24% doanh thu - ưu tiên trung bình) -->
-                    <div class="product-card" style="padding: 1.5rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(76, 175, 80, 0.3); border-radius: 12px; position: relative;">
+                    <div class="product-card" style="padding: 0.5rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(76, 175, 80, 0.3); border-radius: 12px; position: relative;">
                         <div style="position: absolute; top: -10px; right: 10px; background: #4CAF50; color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 0.7rem; font-weight: 600;">#2</div>
-                        <img src="assets/products/amr_100_small_platform_lidar.jpg" alt="AMR Robot" style="width: 100%; max-height: 160px; object-fit: cover; object-position: center; border-radius: 8px; margin-bottom: 1rem; border: 1px solid rgba(76, 175, 80, 0.2); box-shadow: 0 4px 12px rgba(76, 175, 80, 0.2);">
+                        <img src="assets/products/amr_100_small_platform_lidar.jpg" alt="AMR Robot" style="width: 100%; max-height: 400px; object-fit: cover; object-position: center; border-radius: 8px; margin-bottom: 1rem; border: 1px solid rgba(76, 175, 80, 0.2); box-shadow: 0 4px 12px rgba(76, 175, 80, 0.2);">
                         <h4 style="font-size: 1.1rem; margin: 0.8rem 0; font-weight: 600; color: #e8eaf6;">AMR Robot</h4>
                         <p style="font-size: 0.9rem; margin: 0; color: #e0e0e0; font-weight: 500;">25.000 - 80.000 USD</p>
-                        <p style="font-size: 0.8rem; color: #4CAF50; margin-top: 0.5rem; font-weight: 600;">24% doanh thu</p>
+                        <p class="!mb-0" style="font-size: 0.8rem; color: #4CAF50; margin-top: 0.5rem; font-weight: 600;">24% doanh thu</p>
                     </div>
                     
                     <!-- Sản phẩm 3: AGV Series (13% doanh thu - ưu tiên thấp) -->
-                    <div class="product-card" style="padding: 1.5rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(255, 152, 0, 0.3); border-radius: 12px; position: relative;">
+                    <div class="product-card" style="padding: 0.5rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(255, 152, 0, 0.3); border-radius: 12px; position: relative;">
                         <div style="position: absolute; top: -10px; right: 10px; background: #FF9800; color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 0.7rem; font-weight: 600;">#3</div>
-                        <img src="assets/products/agv_500_laser_guided_reflector.jpg" alt="AGV" style="width: 100%; max-height: 160px; object-fit: cover; object-position: center; border-radius: 8px; margin-bottom: 1rem; border: 1px solid rgba(255, 152, 0, 0.2); box-shadow: 0 4px 12px rgba(255, 152, 0, 0.2);">
+                        <img src="assets/products/agv_500_laser_guided_reflector.jpg" alt="AGV" style="width: 100%; max-height: 400px; object-fit: cover; object-position: center; border-radius: 8px; margin-bottom: 1rem; border: 1px solid rgba(255, 152, 0, 0.2); box-shadow: 0 4px 12px rgba(255, 152, 0, 0.2);">
                         <h4 style="font-size: 1.1rem; margin: 0.8rem 0; font-weight: 600; color: #e8eaf6;">AGV Series</h4>
                         <p style="font-size: 0.9rem; margin: 0; color: #e0e0e0; font-weight: 500;">20.000 - 45.000 USD</p>
-                        <p style="font-size: 0.8rem; color: #FF9800; margin-top: 0.5rem; font-weight: 600;">13% doanh thu</p>
+                        <p class="!mb-0" style="font-size: 0.8rem; color: #FF9800; margin-top: 0.5rem; font-weight: 600;">13% doanh thu</p>
                     </div>
-                    <div class="product-card" style="padding: 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px;">
-                        <img src="assets/products/oht_50_ceiling_transport_cleanroom.jpg" alt="OHT" style="width: 100%; max-height: 180px; object-fit: cover; object-position: center; border-radius: 8px; margin-bottom: 0.8rem; border: 1px solid rgba(255,255,255,0.2); box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+                </div>
+                <p class="text-small text-muted" style="color: #B0BEC5; font-size: 0.85rem; margin-top: 1.5rem; text-align: center; padding: 1rem; background: rgba(100, 181, 246, 0.1); border-radius: 8px; border: 1px solid rgba(100, 181, 246, 0.2);">✅ Nghiên cứu ngược công nghệ quốc tế | ✅ TRL 7→8→9 | ✅ Nội địa hóa 80%</p>
+            </section>
+
+            <!-- Slide 6b2: Product Portfolio với hình ảnh -->
+            <section>
+                <div class="slide-header">
+                    <h2 style="font-size: 1.8rem; font-weight: 600; color: #90CAF9; margin-bottom: 1.5rem;">Portfolio Sản phẩm</h2>
+                </div>
+                <div class="product-grid !pt-2.5" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem">
+                    <div class="product-card" style="padding: 0.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px;">
+                        <img src="assets/products/oht_50_ceiling_transport_cleanroom.jpg" alt="OHT" style="width: 100%; max-height: 400px; object-fit: cover; object-position: center; border-radius: 8px; margin-bottom: 0.8rem; border: 1px solid rgba(255,255,255,0.2); box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
                         <h4 style="font-size: 1.1rem; margin: 0.8rem 0; font-weight: 600; color: #e8eaf6;">OHT System</h4>
                         <p style="font-size: 0.9rem; margin: 0; color: #e0e0e0;">50.000 - 150.000 USD</p>
-                        <p style="font-size: 0.8rem; color: #90CAF9; margin-top: 0.5rem;">13% doanh thu</p>
+                        <p class="!mb-0" style="font-size: 0.8rem; color: #90CAF9; margin-top: 0.5rem;">13% doanh thu</p>
                     </div>
-                    <div class="product-card" style="padding: 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px;">
-                        <img src="assets/products/iot_controller_plc_style_din_rail.jpg" alt="IoT Modules" style="width: 100%; max-height: 180px; object-fit: cover; object-position: center; border-radius: 8px; margin-bottom: 0.8rem; border: 1px solid rgba(255,255,255,0.2); box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+                    <div class="product-card" style="padding: 0.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px;">
+                        <img src="assets/products/iot_controller_plc_style_din_rail.jpg" alt="IoT Modules" style="width: 100%; max-height: 400px; object-fit: cover; object-position: center; border-radius: 8px; margin-bottom: 0.8rem; border: 1px solid rgba(255,255,255,0.2); box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
                         <h4 style="font-size: 1.1rem; margin: 0.8rem 0; font-weight: 600; color: #e8eaf6;">Module IoT & Sensors</h4>
                         <p style="font-size: 0.9rem; margin: 0; color: #e0e0e0;">30 - 300 USD</p>
-                        <p style="font-size: 0.8rem; color: #90CAF9; margin-top: 0.5rem;">13% doanh thu</p>
+                        <p class="!mb-0" style="font-size: 0.8rem; color: #90CAF9; margin-top: 0.5rem;">13% doanh thu</p>
                     </div>
-                    <div class="product-card" style="padding: 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px;">
-                        <img src="assets/products/service_robot_waiter_hospitality.jpg" alt="Service Robot" style="width: 100%; max-height: 180px; object-fit: cover; object-position: center; border-radius: 8px; margin-bottom: 0.8rem; border: 1px solid rgba(255,255,255,0.2); box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+                    <div class="product-card" style="padding: 0.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px;">
+                        <img src="assets/products/service_robot_waiter_hospitality.jpg" alt="Service Robot" style="width: 100%; max-height: 400px; object-fit: cover; object-position: center; border-radius: 8px; margin-bottom: 0.8rem; border: 1px solid rgba(255,255,255,0.2); box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
                         <h4 style="font-size: 1.1rem; margin: 0.8rem 0; font-weight: 600; color: #e8eaf6;">Platform & Services</h4>
                         <p style="font-size: 0.9rem; margin: 0; color: #e0e0e0;">50 - 800 USD/tháng</p>
-                        <p style="font-size: 0.8rem; color: #90CAF9; margin-top: 0.5rem;">3% doanh thu</p>
+                        <p class="!mb-0" style="font-size: 0.8rem; color: #90CAF9; margin-top: 0.5rem;">3% doanh thu</p>
                     </div>
                 </div>
                 <p class="text-small text-muted" style="color: #B0BEC5; font-size: 0.85rem; margin-top: 1.5rem; text-align: center; padding: 1rem; background: rgba(100, 181, 246, 0.1); border-radius: 8px; border: 1px solid rgba(100, 181, 246, 0.2);">✅ Nghiên cứu ngược công nghệ quốc tế | ✅ TRL 7→8→9 | ✅ Nội địa hóa 80%</p>
@@ -548,7 +564,7 @@
                     <tbody>
                         <tr style="background: rgba(76, 175, 80, 0.2); border-bottom: 1px solid rgba(255,255,255,0.08);">
                             <td style="padding: 0.8rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.08);"><strong>MK-100</strong></td>
-                            <td colspan="2" style="padding: 0.8rem 1rem; background: #4CAF50; color: #fff; text-align: center; border-bottom: 1px solid rgba(255,255,255,0.08);">TRL 6→7 ✓</td>
+                            <td colspan="2" style="padding: 0.8rem 1rem; background: #4CAF50; color: #fff; text-align: center; border-bottom: 1px solid rgba(255,255,255,0.08);">TRL 6→7<i class="fa-solid fa-check ml-2"></i></td>
                             <td style="padding: 0.8rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.08);"></td>
                             <td style="padding: 0.8rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.08);"></td>
                             <td style="padding: 0.8rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.08);"></td>
@@ -558,7 +574,7 @@
                         <tr style="background: rgba(255, 215, 0, 0.15); border-bottom: 1px solid rgba(255,255,255,0.08);">
                             <td style="padding: 0.8rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.08);"><strong>MK-200</strong></td>
                             <td style="padding: 0.8rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.08);"></td>
-                            <td colspan="2" style="padding: 0.8rem 1rem; background: #FFD700; color: #000; text-align: center; border-bottom: 1px solid rgba(255,255,255,0.08);">TRL 7→8 ⚙</td>
+                            <td colspan="2" style="padding: 0.8rem 1rem; background: #FFD700; color: #000; text-align: center; border-bottom: 1px solid rgba(255,255,255,0.08);">TRL 7→8<i class="fa-solid fa-gear ml-2"></i></td>
                             <td style="padding: 0.8rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.08);"></td>
                             <td style="padding: 0.8rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.08);"></td>
                             <td style="padding: 0.8rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.08);"></td>
@@ -569,13 +585,13 @@
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td colspan="3" style="background: rgba(100, 255, 218, 0.3); text-align: center;">TRL 8→9</td>
+                            <td colspan="3" style="background: rgba(100, 255, 218, 0.3); text-align: center;">TRL 8→9<i class="fa-solid fa-clipboard-list ml-2"></i></td>
                             <td>TRL 9</td>
                         </tr>
                         <tr style="background: rgba(76, 175, 80, 0.2);">
                             <td><strong>AMR-100</strong></td>
                             <td></td>
-                            <td colspan="2" style="background: #4CAF50; color: #fff; text-align: center;">TRL 6→7 ✓</td>
+                            <td colspan="2" style="background: #4CAF50; color: #fff; text-align: center;">TRL 6→7<i class="fa-solid fa-check ml-2"></i></td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -586,7 +602,7 @@
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td colspan="1" style="background: #FFD700; color: #000; text-align: center;">TRL 7→8 ⚙</td>
+                            <td colspan="1" style="background: #FFD700; color: #000; text-align: center;">TRL 7→8<i class="fa-solid fa-gear ml-2"></i></td>
                             <td></td>
                             <td></td>
                             <td>TRL 8</td>
@@ -597,13 +613,13 @@
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td colspan="2" style="background: rgba(100, 255, 218, 0.3); text-align: center;">TRL 8→9</td>
+                            <td colspan="2" style="background: rgba(100, 255, 218, 0.3); text-align: center;">TRL 8→9<i class="fa-solid fa-clipboard-list ml-2"></i></td>
                             <td>TRL 9</td>
                         </tr>
                         <tr>
                             <td><strong>OHT-50</strong></td>
                             <td></td>
-                            <td colspan="2" style="background: rgba(100, 255, 218, 0.3); text-align: center;">TRL 5→7</td>
+                            <td colspan="2" style="background: rgba(100, 255, 218, 0.3); text-align: center;">TRL 5→7<i class="fa-solid fa-clipboard-list ml-2"></i></td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -614,15 +630,22 @@
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td colspan="2" style="background: rgba(100, 255, 218, 0.3); text-align: center;">TRL 7→8</td>
+                            <td colspan="2" style="background: rgba(100, 255, 218, 0.3); text-align: center;">TRL 7→8<i class="fa-solid fa-clipboard-list ml-2"></i></td>
                             <td></td>
                             <td>TRL 8</td>
                         </tr>
                     </tbody>
                 </table>
                 <p style="text-align: center; margin-top: 1rem; font-size: 0.9rem; color: #90CAF9; padding: 1rem; background: rgba(100, 181, 246, 0.1); border-radius: 8px; border: 1px solid rgba(100, 181, 246, 0.2);">
-                    <strong>✓</strong> Hoàn thành | <strong>⚙</strong> Đang triển khai | Trống: Kế hoạch tương lai
+                    <i class="fa-solid fa-check"></i> Hoàn thành | <i class="fa-solid fa-gear"></i> Đang triển khai | <i class="fa-solid fa-clipboard-list"></i> Kế hoạch tương lai
                 </p>
+            </section>
+
+            <!-- Slide 7: Technology Roadmap -->
+            <section>
+                <div class="slide-header">
+                    <h2 style="font-size: 1.8rem; font-weight: 600; color: #90CAF9; margin-bottom: 1.5rem;">Lộ trình công nghệ TRL 6 → 7 → 8 → 9</h2>
+                </div>
                 <div class="two-columns" style="margin-top: 2rem;">
                     <div class="content-box" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.15); padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem;">
                         <h4 style="color: #90CAF9; font-size: 1.2rem; font-weight: 600; margin-bottom: 1rem;">Giai đoạn đầu (2025-2027)</h4>
@@ -812,7 +835,7 @@
                 <div class="slide-header">
                     <h2 style="font-size: 1.8rem; font-weight: 600; color: #90CAF9; margin-bottom: 1.5rem;">Phân tích TAM / SAM / SOM</h2>
                 </div>
-                <div class="two-columns">
+                <div class="two-columns pt-4">
                     <div>
                         <div style="display: flex; flex-direction: column; gap: 1rem;">
                             <div style="background: linear-gradient(135deg, #1a2332, #2d3e50); padding: 1.5rem; border-radius: 10px; border: 2px solid #64B5F6; position: relative;">
@@ -1423,56 +1446,57 @@
                 <div class="slide-header">
                     <h2>Cấu trúc tổ chức R&D</h2>
                 </div>
-                <div style="background: rgba(255,255,255,0.05); padding: 2rem; border-radius: 10px; border: 1px solid rgba(255,255,255,0.15);">
+                <div style="background: rgba(255,255,255,0.05); padding: 1rem; border-radius: 10px; border: 1px solid rgba(255,255,255,0.15);">
                     <div style="display: flex; flex-direction: column; align-items: center; gap: 1.5rem;">
                         <!-- Board Level -->
                         <div style="background: rgba(255, 215, 0, 0.2); padding: 1rem 2rem; border-radius: 8px; border: 2px solid #FFD700;">
-                            <h3 style="color: #FFD700; font-size: 1.2rem; font-weight: 600; margin: 0; text-align: center;">Hội đồng Quản trị</h3>
+                            <h3 class="!mb-0" style="color: #FFD700; font-size: 1.2rem; font-weight: 600; margin: 0; text-align: center;">Hội đồng Quản trị</h3>
                         </div>
                         
                         <!-- CEO Level -->
                         <div style="background: rgba(100, 255, 218, 0.2); padding: 1rem 2rem; border-radius: 8px; border: 2px solid #64FFDA;">
-                            <h3 style="color: #64FFDA; font-size: 1.2rem; font-weight: 600; margin: 0; text-align: center;">Tổng Giám đốc</h3>
+                            <h3 class="!mb-0" style="color: #64FFDA; font-size: 1.2rem; font-weight: 600; margin: 0; text-align: center;">Tổng Giám đốc</h3>
                         </div>
                         
                         <!-- CTO Level -->
                         <div style="background: rgba(100, 255, 218, 0.2); padding: 1rem 2rem; border-radius: 8px; border: 2px solid #64FFDA;">
-                            <h3 style="color: #64FFDA; font-size: 1.2rem; font-weight: 600; margin: 0; text-align: center;">CTO - Chief Technology Officer</h3>
+                            <h3 class="!mb-0" style="color: #64FFDA; font-size: 1.2rem; font-weight: 600; margin: 0; text-align: center;">CTO - Chief Technology Officer</h3>
                         </div>
                         
                         <!-- R&D Director -->
-                        <div style="background: rgba(0, 191, 165, 0.2); padding: 1rem 2rem; border-radius: 8px; border: 2px solid #00BFA5;">
-                            <h3 style="color: #00BFA5; font-size: 1.2rem; font-weight: 600; margin: 0; text-align: center;">R&D Director<br/><span style="font-size: 0.9rem; color: #B0BEC5;">36 engineers</span></h3>
+                        <div class="flex flex-col items-center" style="background: rgba(0, 191, 165, 0.2); padding: 1rem 2rem; border-radius: 8px; border: 2px solid #00BFA5;">
+                            <h3 class="!mb-0" style="color: #00BFA5; font-size: 1.2rem; font-weight: 600; margin: 0; text-align: center;">R&D Director</h3>
+                            <span style="font-size: 0.9rem; color: #B0BEC5;">36 engineers</span>
                         </div>
                         
                         <!-- Labs Grid -->
-                        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; width: 100%; max-width: 800px;">
+                        <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 1rem;">
                             <div style="background: rgba(129, 199, 132, 0.2); padding: 1rem; border-radius: 8px; border: 2px solid #81C784; text-align: center;">
-                                <h4 style="color: #81C784; font-size: 1rem; font-weight: 600; margin: 0 0 0.5rem 0;">IoT Lab</h4>
+                                <h4 class="!mb-0" style="color: #81C784; font-size: 1rem; font-weight: 600;">IoT Lab</h4>
                                 <p style="color: #B0BEC5; font-size: 0.85rem; margin: 0;">8 engineers</p>
                                 <p style="color: #E0E0E0; font-size: 0.8rem; margin: 0.3rem 0 0 0;">PCB, Embedded, Edge AI</p>
                             </div>
                             
                             <div style="background: rgba(129, 199, 132, 0.2); padding: 1rem; border-radius: 8px; border: 2px solid #81C784; text-align: center;">
-                                <h4 style="color: #81C784; font-size: 1rem; font-weight: 600; margin: 0 0 0.5rem 0;">AMR Lab</h4>
+                                <h4 class="!mb-0" style="color: #81C784; font-size: 1rem; font-weight: 600;">AMR Lab</h4>
                                 <p style="color: #B0BEC5; font-size: 0.85rem; margin: 0;">10 engineers</p>
                                 <p style="color: #E0E0E0; font-size: 0.8rem; margin: 0.3rem 0 0 0;">Mechanical, SLAM, Navigation</p>
                             </div>
                             
                             <div style="background: rgba(129, 199, 132, 0.2); padding: 1rem; border-radius: 8px; border: 2px solid #81C784; text-align: center;">
-                                <h4 style="color: #81C784; font-size: 1rem; font-weight: 600; margin: 0 0 0.5rem 0;">AI Lab</h4>
+                                <h4 class="!mb-0" style="color: #81C784; font-size: 1rem; font-weight: 600;">AI Lab</h4>
                                 <p style="color: #B0BEC5; font-size: 0.85rem; margin: 0;">8 engineers</p>
                                 <p style="color: #E0E0E0; font-size: 0.8rem; margin: 0.3rem 0 0 0;">Computer Vision, ML/DL</p>
                             </div>
                             
                             <div style="background: rgba(129, 199, 132, 0.2); padding: 1rem; border-radius: 8px; border: 2px solid #81C784; text-align: center;">
-                                <h4 style="color: #81C784; font-size: 1rem; font-weight: 600; margin: 0 0 0.5rem 0;">Software Lab</h4>
+                                <h4 class="!mb-0" style="color: #81C784; font-size: 1rem; font-weight: 600;">Software Lab</h4>
                                 <p style="color: #B0BEC5; font-size: 0.85rem; margin: 0;">6 engineers</p>
                                 <p style="color: #E0E0E0; font-size: 0.8rem; margin: 0.3rem 0 0 0;">Cloud, Mobile, API</p>
                             </div>
                             
                             <div style="background: rgba(129, 199, 132, 0.2); padding: 1rem; border-radius: 8px; border: 2px solid #81C784; text-align: center;">
-                                <h4 style="color: #81C784; font-size: 1rem; font-weight: 600; margin: 0 0 0.5rem 0;">QA Lab</h4>
+                                <h4 class="!mb-0" style="color: #81C784; font-size: 1rem; font-weight: 600;">QA Lab</h4>
                                 <p style="color: #B0BEC5; font-size: 0.85rem; margin: 0;">4 engineers</p>
                                 <p style="color: #E0E0E0; font-size: 0.8rem; margin: 0.3rem 0 0 0;">AOI, ICT, Burn-in</p>
                             </div>
@@ -1544,7 +1568,7 @@
                         </div>
                     </div>
                 </div>
-                <p class="text-small text-muted" style="margin-top: 1rem;">⏱️ Timeline: 18-24 tháng từ concept đến mass production | ✅ QA/QC: AOI 100%, ICT 100%, Burn-in 8-24h</p>
+                <p class="text-small text-muted" style="margin-top: 1rem;">Timeline: 18-24 tháng từ concept đến mass production | QA/QC: AOI 100%, ICT 100%, Burn-in 8-24h</p>
             </section>
 
             <!-- Slide 19: Impact -->
@@ -1662,8 +1686,8 @@
 
             <!-- Slide 21: Thank You & Contact -->
             <section class="cover-slide">
-                <h1>CẢM ƠN QUÝ VỊ!</h1>
-                <p class="subtitle" style="margin-bottom: 3rem;">"Đầu tư vào Mekong Technology = Đầu tư vào tương lai công nghiệp Việt Nam"</p>
+                <h1 class="!mb-0">CẢM ƠN QUÝ VỊ!</h1>
+                <p class="subtitle" style="margin-bottom: 1.5rem;">"Đầu tư vào Mekong Technology = Đầu tư vào tương lai công nghiệp Việt Nam"</p>
                 <div class="content-box" style="max-width: 600px; margin: 0 auto; text-align: left;">
                     <h3>Thông tin liên hệ</h3>
                     <p><strong>Công ty TNHH Mekong Technology</strong></p>
