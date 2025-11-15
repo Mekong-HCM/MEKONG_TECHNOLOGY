@@ -18,7 +18,7 @@
   --color-warning: #FF9800;
   --color-danger: #F44336;
   --color-info: #2196F3;
-  
+
   /* Spacing */
   --spacing-xs: 0.5rem;
   --spacing-sm: 1rem;
@@ -40,7 +40,7 @@
 }
 
 /* Background */
-.reveal .slides > section {
+.reveal .slides>section {
   background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
   padding: 2rem 3rem;
   height: 100vh;
@@ -105,24 +105,28 @@
 }
 
 /* Lists */
-.reveal ul, .reveal ol {
+.reveal ul,
+.reveal ol {
   margin: var(--spacing-sm) 0;
   padding-left: 2rem;
 }
 
-.reveal ul li, .reveal ol li {
+.reveal ul li,
+.reveal ol li {
   margin-bottom: var(--spacing-xs);
   line-height: 1.6;
   font-size: 1.05rem;
 }
 
-.reveal ul ul, .reveal ol ol {
+.reveal ul ul,
+.reveal ol ol {
   margin-top: var(--spacing-xs);
   font-size: 0.95rem;
 }
 
 /* Strong emphasis */
-.reveal strong, .reveal b {
+.reveal strong,
+.reveal b {
   color: var(--color-accent-gold);
   font-weight: 600;
 }
@@ -301,7 +305,7 @@
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 10px;
-  padding: var(--spacing-md);
+  padding: var(--spacing-xs);
   margin: var(--spacing-sm) 0;
 }
 
@@ -430,24 +434,24 @@
   .reveal {
     font-size: 16px;
   }
-  
+
   .reveal h1 {
     font-size: 2rem;
   }
-  
+
   .reveal h2 {
     font-size: 1.6rem;
   }
-  
+
   .reveal h3 {
     font-size: 1.3rem;
   }
-  
+
   .reveal .two-columns,
   .reveal .three-columns {
     grid-template-columns: 1fr;
   }
-  
+
   .reveal .metric-grid {
     grid-template-columns: 1fr;
   }
@@ -459,17 +463,19 @@
     background: white;
     color: black;
   }
-  
-  .reveal h1, .reveal h2, .reveal h3 {
+
+  .reveal h1,
+  .reveal h2,
+  .reveal h3 {
     color: var(--color-primary);
     -webkit-text-fill-color: var(--color-primary);
   }
-  
-  .reveal .slides > section {
+
+  .reveal .slides>section {
     background: white;
     page-break-after: always;
   }
-  
+
   .reveal .metric-box {
     border: 2px solid var(--color-primary);
   }
@@ -481,6 +487,7 @@
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -490,4 +497,3 @@
 .reveal .animate-in {
   animation: fadeInUp 0.6s ease-out;
 }
-

@@ -1,0 +1,284 @@
+:root {
+    --primary: #FFA500;
+    --primary-light: #FFD700;
+    --secondary: #64FFDA;
+    --foreground: #B3C5D7;
+    --background: #1E3C72;
+    --background-light: #2A5298;
+    --success: #4CAF50;
+    --border: #FFFFFF33;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, var(--background) 0%, var(--background-light) 100%);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.header h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    background: linear-gradient(45deg, var(--primary-light), var(--primary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1rem;
+}
+
+.header p {
+    font-size: 1.3rem;
+    color: var(--foreground);
+    margin-bottom: 0.5rem;
+}
+
+.header .project-info {
+    font-size: 1.1rem;
+    color: var(--primary-light);
+    margin-top: 1.5rem;
+}
+
+.versions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.version-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 2px solid var(--border);
+    border-radius: 20px;
+    padding: 2.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.version-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 20px 40px rgba(255, 215, 0, 0.3);
+    border-color: var(--primary-light);
+}
+
+.version-card .badge {
+    display: inline-block;
+    background: linear-gradient(45deg, var(--primary-light), var(--primary));
+    color: var(--background);
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.version-card h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--secondary);
+}
+
+.version-card .duration {
+    font-size: 1rem;
+    color: var(--primary-light);
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.version-card .description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--foreground);
+    margin-bottom: 1.5rem;
+}
+
+.version-card .features {
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+.version-card .features li {
+    font-size: 0.95rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+.version-card .features li:last-child {
+    border-bottom: none;
+}
+
+.version-card .features li::before {
+    color: #4CAF50;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.version-card .btn {
+    display: inline-block;
+    background: linear-gradient(45deg, var(--primary-light), var(--primary));
+    color: var(--background);
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: none;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.version-card:hover .btn {
+    box-shadow: 0 5px 20px rgba(255, 215, 0, 0.5);
+}
+
+.features-grid {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border);
+    border-radius: 15px;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.features-grid h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--secondary);
+    margin-bottom: 2rem;
+}
+
+.features-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.feature-item {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    border-radius: 10px;
+    border-left: 4px solid var(--primary-light);
+}
+
+.feature-item h4 {
+    color: var(--primary-light);
+    margin-bottom: 0.5rem;
+}
+
+.feature-item p {
+    color: var(--foreground);
+    line-height: 1.5;
+}
+
+.keyboard-shortcuts {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border);
+    border-radius: 15px;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.keyboard-shortcuts h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--secondary);
+    margin-bottom: 2rem;
+}
+
+.shortcuts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+}
+
+.shortcut-item {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+}
+
+.shortcut-key {
+    background: var(--background);
+    color: var(--primary-light);
+    padding: 0.3rem 0.8rem;
+    border-radius: 5px;
+    font-family: monospace;
+    font-weight: 600;
+    margin-right: 1rem;
+    min-width: 60px;
+    text-align: center;
+}
+
+.shortcut-desc {
+    color: var(--foreground);
+}
+
+.footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    color: var(--foreground);
+}
+
+.footer p {
+    margin-bottom: 0.5rem;
+}
+
+.footer a {
+    color: var(--primary-light);
+    text-decoration: none;
+    border-bottom: 1px solid var(--primary-light);
+}
+
+.footer a:hover {
+    color: var(--primary);
+    border-bottom-color: var(--primary);
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2.5rem;
+    }
+
+    .header p {
+        font-size: 1.1rem;
+    }
+
+    .versions-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .version-card h2 {
+        font-size: 1.6rem;
+    }
+
+    .features-list,
+    .shortcuts-grid {
+        grid-template-columns: 1fr;
+    }
+}

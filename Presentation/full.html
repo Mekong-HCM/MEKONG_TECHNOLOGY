@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1920, height=1080, initial-scale=1.0, user-scalable=no">
     <title>Mekong Technology - Full Detailed Presentation</title>
-    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- Reveal.js Core -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/theme/black.css">
-    
     <!-- Custom Theme -->
     <link rel="stylesheet" href="css/theme-corporate.css">
     
@@ -85,7 +87,7 @@
         }
         
         .reveal .slides section .product-grid {
-            max-height: 800px !important;
+            /* max-height: 400px !important; */
             overflow-y: auto !important;
         }
         
@@ -159,12 +161,6 @@
             transition: all 0.3s ease;
         }
         
-        .product-card:hover {
-            transform: translateY(-5px);
-            border-color: #FFD700;
-            box-shadow: 0 10px 30px rgba(255, 215, 0, 0.3);
-        }
-        
         .product-card img {
             width: 100%;
             height: 200px;
@@ -180,10 +176,7 @@
         }
         
         .product-card .price {
-            font-size: 1.6rem !important;
-            font-weight: 700;
-            color: #64FFDA;
-            margin: 0.8rem 0;
+            color: #FFD700;
         }
         
         .product-card .specs {
@@ -220,11 +213,9 @@
         }
         
         .product-section {
-            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.15);
             padding: 1.5rem;
             box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-            border: 1px solid #dee2e6;
         }
         
         .product-header {
@@ -274,10 +265,6 @@
             height: 200px;
             object-fit: cover;
             transition: transform 0.3s ease;
-        }
-        
-        .product-main-image:hover {
-            transform: scale(1.05);
         }
         
         .image-overlay {
@@ -519,7 +506,7 @@
                         <img src="assets/MODEL_BASIC_MEKONG_FACTORY.jpg" alt="Mekong Technology Factory - Nhà máy thông minh với hệ thống năng lượng mặt trời" 
                              style="max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 15px 40px rgba(0,0,0,0.4); border: 3px solid rgba(255, 215, 0, 0.3);"
                              onerror="this.src='assets/MODEL_BASIC_MEKONG_FACTORY.jpg'">
-                        <p style="margin-top: 1rem; font-size: 1.1rem; color: #FFD700; font-weight: 600;">MEKONG SMART FACTORY</p>
+                        <p style="margin-top: 1rem; font-size: 1.1rem; color: #FFD700; font-weight: 600;">MEKONG TECHNOLOGY</p>
                         <p style="font-size: 0.9rem; color: #b3c5d7;">Nhà máy thông minh với hệ thống năng lượng mặt trời</p>
                     </div>
                 </div>
@@ -1205,7 +1192,7 @@
                 <p class="text-small text-muted">Nguồn: Vietnam ICT Market Report 2024, IDC Vietnam, Tổng cục Thống kê</p>
             </section>
 
-            <!-- Slide 11: Market Gap Analysis -->
+            <!-- Slide 11.1: Market Gap Analysis -->
             <section>
                 <div class="slide-header">
                     <h2>Phân tích khoảng trống thị trường</h2>
@@ -1263,6 +1250,13 @@
                             </tr>
                         </tbody>
                     </table>
+                </div>
+            </section>
+
+            <!-- Slide 11.2: Market Gap Analysis -->
+            <section>
+                <div class="slide-header">
+                    <h2>Phân tích khoảng trống thị trường</h2>
                 </div>
                 <div class="two-columns">
                     <div>
@@ -1380,8 +1374,8 @@
                 <div class="two-columns" style="font-size: 0.8rem;">
                     <div>
                         <div class="content-box success">
-                            <h4>STRENGTHS (Điểm mạnh)</h4>
-                            <ul style="font-size: 0.85rem;">
+                            <h4 class="!mb-0 !font-semibold">STRENGTHS (Điểm mạnh)</h4>
+                            <ul class="!my-0" style="font-size: 0.85rem;">
                                 <li><strong>CGCN 9M USD</strong> từ 5 đối tác quốc tế</li>
                                 <li><strong>TRL 7-8</strong> cao hơn đối thủ nội địa</li>
                                 <li><strong>R&D 36 engineers</strong> (6 PhD, 18 Master)</li>
@@ -1393,8 +1387,8 @@
                             </ul>
                         </div>
                         <div class="content-box warning">
-                            <h4>WEAKNESSES (Điểm yếu)</h4>
-                            <ul style="font-size: 0.85rem;">
+                            <h4 class="!mb-0 !text-[#FF9800] !font-semibold">WEAKNESSES (Điểm yếu)</h4>
+                            <ul class="!my-0" style="font-size: 0.85rem;">
                                 <li><strong>Thương hiệu mới:</strong> Chưa có case study</li>
                                 <li><strong>Phụ thuộc nhập 40-50%:</strong> Chip, sensor</li>
                                 <li><strong>Quy mô nhỏ:</strong> vs Siemens 100+ tỷ USD</li>
@@ -1406,8 +1400,8 @@
                     </div>
                     <div>
                         <div class="content-box info">
-                            <h4>OPPORTUNITIES (Cơ hội)</h4>
-                            <ul style="font-size: 0.85rem;">
+                            <h4 class="!mb-0 !text-[#2196F3] !font-semibold">OPPORTUNITIES (Cơ hội)</h4>
+                            <ul class="!my-0" style="font-size: 0.85rem;">
                                 <li><strong>IoT VN 26,2%/năm</strong> - Nhanh nhất ASEAN</li>
                                 <li><strong>QĐ 38/2020, QĐ 2117:</strong> Ưu đãi mạnh</li>
                                 <li><strong>83.035 DNNVV</strong> cần CĐS ngay</li>
@@ -1418,9 +1412,9 @@
                                 <li><strong>VC funding:</strong> 60+ tỷ USD ASEAN</li>
                             </ul>
                         </div>
-                        <div class="content-box" style="border-color: #F44336;">
-                            <h4>THREATS (Nguy cơ)</h4>
-                            <ul style="font-size: 0.85rem;">
+                        <div class="content-box" style="border-color: #F44336; background: rgba(244, 67, 54, 0.1) !important;">
+                            <h4 class="!mb-0 !text-[#F44336] !font-semibold">THREATS (Nguy cơ)</h4>
+                            <ul class="!my-0" style="font-size: 0.85rem;">
                                 <li><strong>Cạnh tranh TQ:</strong> Geek+, Quicktron giá rẻ 40-60%</li>
                                 <li><strong>Ông lớn:</strong> Siemens, Schneider (18,5%, 15,2% thị phần)</li>
                                 <li><strong>Tỷ giá USD/VND</strong> biến động ±10%</li>
@@ -1499,64 +1493,64 @@
                             <th>Siemens/Schneider</th>
                             <th>Đối thủ nội địa</th>
                             <th>Mekong Technology</th>
-                        </tr>
+                        </tr>   
                     </thead>
                     <tbody>
                         <tr>
                             <td><strong>1. Giá cả</strong></td>
                             <td>20%</td>
-                            <td style="color: #F44336;">❌ Cao (+30-50%)</td>
-                            <td style="color: #4CAF50;">✅ Rẻ (-20%)</td>
-                            <td style="color: #4CAF50;"><strong>✅ Cạnh tranh (-25%)</strong></td>
+                            <td style="color: #F44336;"><i class="fa-solid fa-xmark"></i> Cao (+30-50%)</td>
+                            <td style="color: #4CAF50;"><i class="fa-solid fa-check"></i> Rẻ (-20%)</td>
+                            <td style="color: #4CAF50;"><strong><i class="fa-solid fa-check"></i> Cạnh tranh (-25%)</strong></td>
                         </tr>
                         <tr>
                             <td><strong>2. Chất lượng</strong></td>
                             <td>20%</td>
-                            <td style="color: #4CAF50;">✅ Xuất sắc (9/10)</td>
-                            <td style="color: #F44336;">❌ Trung bình (5/10)</td>
-                            <td style="color: #4CAF50;"><strong>✅ Tốt (7-8/10)</strong></td>
+                            <td style="color: #4CAF50;"><i class="fa-solid fa-check"></i> Xuất sắc (9/10)</td>
+                            <td style="color: #F44336;"><i class="fa-solid fa-xmark"></i> Trung bình (5/10)</td>
+                            <td style="color: #4CAF50;"><strong><i class="fa-solid fa-check"></i> Tốt (7-8/10)</strong></td>
                         </tr>
                         <tr>
                             <td><strong>3. TRL</strong></td>
                             <td>15%</td>
-                            <td style="color: #4CAF50;">✅ TRL 9</td>
-                            <td style="color: #F44336;">❌ TRL 4-5</td>
-                            <td style="color: #4CAF50;"><strong>✅ TRL 7-8 (→9)</strong></td>
+                            <td style="color: #4CAF50;"><i class="fa-solid fa-check"></i> TRL 9</td>
+                            <td style="color: #F44336;"><i class="fa-solid fa-xmark"></i> TRL 4-5</td>
+                            <td style="color: #4CAF50;"><strong><i class="fa-solid fa-check"></i> TRL 7-8 (→9)</strong></td>
                         </tr>
                         <tr>
                             <td><strong>4. Giao hàng</strong></td>
                             <td>10%</td>
-                            <td style="color: #F44336;">❌ 3-6 tháng</td>
-                            <td style="color: #4CAF50;">✅ 2-4 tuần</td>
-                            <td style="color: #4CAF50;"><strong>✅ 2-4 tuần</strong></td>
+                            <td style="color: #F44336;"><i class="fa-solid fa-xmark"></i> 3-6 tháng</td>
+                            <td style="color: #4CAF50;"><i class="fa-solid fa-check"></i> 2-4 tuần</td>
+                            <td style="color: #4CAF50;"><strong><i class="fa-solid fa-check"></i> 2-4 tuần</strong></td>
                         </tr>
                         <tr>
                             <td><strong>5. Tùy chỉnh</strong></td>
                             <td>15%</td>
-                            <td style="color: #F44336;">❌ Không linh hoạt</td>
-                            <td style="color: #4CAF50;">✅ Linh hoạt</td>
-                            <td style="color: #4CAF50;"><strong>✅ Rất linh hoạt</strong></td>
+                            <td style="color: #F44336;"><i class="fa-solid fa-xmark"></i> Không linh hoạt</td>
+                            <td style="color: #4CAF50;"><i class="fa-solid fa-check"></i> Linh hoạt</td>
+                            <td style="color: #4CAF50;"><strong><i class="fa-solid fa-check"></i> Rất linh hoạt</strong></td>
                         </tr>
                         <tr>
                             <td><strong>6. Hỗ trợ</strong></td>
                             <td>10%</td>
-                            <td style="color: #F44336;">❌ Hạn chế</td>
-                            <td style="color: #FF9800;">⚠️ Trung bình</td>
-                            <td style="color: #4CAF50;"><strong>✅ 24/7 tiếng Việt</strong></td>
+                            <td style="color: #F44336;"><i class="fa-solid fa-xmark"></i> Hạn chế</td>
+                            <td style="color: #FF9800;"><i class="fa-solid fa-triangle-exclamation"></i> Trung bình</td>
+                            <td style="color: #4CAF50;"><strong><i class="fa-solid fa-check"></i> 24/7 tiếng Việt</strong></td>
                         </tr>
                         <tr>
                             <td><strong>7. Nội địa hóa</strong></td>
                             <td>5%</td>
-                            <td style="color: #F44336;">❌ 10-20%</td>
-                            <td style="color: #4CAF50;">✅ 60-70%</td>
-                            <td style="color: #4CAF50;"><strong>✅ 50-60%</strong></td>
+                            <td style="color: #F44336;"><i class="fa-solid fa-xmark"></i> 10-20%</td>
+                            <td style="color: #4CAF50;"><i class="fa-solid fa-check"></i> 60-70%</td>
+                            <td style="color: #4CAF50;"><strong><i class="fa-solid fa-check"></i> 50-60%</strong></td>
                         </tr>
                         <tr>
                             <td><strong>8. Brand</strong></td>
                             <td>5%</td>
-                            <td style="color: #4CAF50;">✅ Mạnh</td>
-                            <td style="color: #F44336;">❌ Yếu</td>
-                            <td style="color: #FF9800;"><strong>⚠️ Đang xây dựng</strong></td>
+                            <td style="color: #4CAF50;"><i class="fa-solid fa-check"></i> Mạnh</td>
+                            <td style="color: #F44336;"><i class="fa-solid fa-xmark"></i> Yếu</td>
+                            <td style="color: #FF9800;"><strong><i class="fa-solid fa-triangle-exclamation"></i> Đang xây dựng</strong></td>
                         </tr>
                         <tr style="background: rgba(255, 215, 0, 0.15);">
                             <td><strong>Tổng điểm</strong></td>
@@ -1572,7 +1566,7 @@
                 </div>
             </section>
 
-            <!-- Slide 16: First-Mover Advantage -->
+            <!-- Slide 16.1: First-Mover Advantage -->
             <section>
                 <div class="slide-header">
                     <h2>Lợi thế người đi trước - Cửa sổ cơ hội 2025-2027</h2>
@@ -1593,16 +1587,16 @@
                     <tbody>
                         <tr style="background: rgba(76, 175, 80, 0.2);">
                             <td><strong>Mekong Technology</strong></td>
-                            <td>✓ Khởi động dự án</td>
-                            <td>⚙ Phát triển sản phẩm</td>
-                            <td style="background: rgba(255, 215, 0, 0.3);"><strong>⭐ Ra mắt sản phẩm</strong></td>
+                            <td>Khởi động dự án</td>
+                            <td>Phát triển sản phẩm</td>
+                            <td style="background: rgba(255, 215, 0, 0.3);"><strong>Ra mắt sản phẩm</strong></td>
                             <td>Chiếm thị phần</td>
                         </tr>
                         <tr>
                             <td><strong>Đối thủ quốc tế</strong></td>
                             <td>Schneider mở rộng</td>
                             <td>Siemens R&D center</td>
-                            <td style="background: rgba(244, 67, 54, 0.2);"><strong>🚨 Cạnh tranh tăng</strong></td>
+                            <td style="background: rgba(244, 67, 54, 0.2);"><strong>Cạnh tranh tăng</strong></td>
                             <td>Tăng đầu tư VN</td>
                         </tr>
                         <tr>
@@ -1613,7 +1607,14 @@
                         </tr>
                     </tbody>
                 </table>
-                <p style="text-align: center; margin-top: 1rem; font-size: 0.9rem; color: #FFD700;"><strong>⏰ Cửa sổ vàng: 2025-2027</strong> | Sau đó cạnh tranh tăng gấp đôi!</p>
+                <p style="text-align: center; margin-top: 1rem; font-size: 0.9rem; color: #FFD700;"><strong>Thời gian vàng: 2025-2027</strong> | Sau đó cạnh tranh tăng gấp đôi!</p>
+            </section>
+
+            <!-- Slide 16.2: First-Mover Advantage -->
+            <section>
+                <div class="slide-header">
+                    <h2>Lợi thế người đi trước - Cửa sổ cơ hội 2025-2027</h2>
+                </div>
                 <div class="two-columns">
                     <div>
                         <h3>6 lợi thế First-Mover</h3>
@@ -1659,7 +1660,7 @@
                 <div class="slide-header">
                     <h2>Phân tích TAM / SAM / SOM</h2>
                 </div>
-                <div class="two-columns">
+                <div class="two-columns !py-3">
                     <div>
                         <div style="display: flex; flex-direction: column; gap: 1rem;">
                             <div style="background: linear-gradient(135deg, #1e3c72, #2a5298); padding: 1.5rem; border-radius: 10px; border: 3px solid #FFD700; position: relative;">
@@ -1760,15 +1761,15 @@
                 <div class="slide-header">
                     <h2>Tầm nhìn và chiến lược công nghệ</h2>
                 </div>
-                <div class="content-box" style="border-color: #FFD700; border-width: 3px; margin-bottom: 1.5rem;">
+                <div class="content-box" style="border-color: #FFD700; border-width: 3px; margin-bottom: 1rem;">
                     <h3 class="text-center" style="color: #FFD700;">Tầm nhìn 2030</h3>
-                    <p class="text-center" style="font-size: 1.3rem;">"Trở thành nhà sản xuất IoT Gateway và Robot hàng đầu Việt Nam, top 3 ASEAN về công nghệ và chất lượng, với 15.000 sản phẩm/năm phục vụ 5.000+ khách hàng"</p>
+                    <p class="text-center !my-0" style="font-size: 1.3rem;">"Trở thành nhà sản xuất IoT Gateway và Robot hàng đầu Việt Nam, top 3 ASEAN về công nghệ và chất lượng, với 15.000 sản phẩm/năm phục vụ 5.000+ khách hàng"</p>
                 </div>
+                <h3 class="!mb-0 !text-3xl">3 trụ cột chiến lược</h3>
                 <div class="two-columns">
                     <div>
-                        <h3>3 trụ cột chiến lược</h3>
                         <div class="content-box success">
-                            <h4>1. Công nghệ cao TRL 7-8-9</h4>
+                            <h4 class="!mb-0">1. Công nghệ cao TRL 7-8-9</h4>
                             <ul style="font-size: 0.9rem;">
                                 <li>Không bắt đầu từ 0, dựa trên công nghệ đã chứng minh</li>
                                 <li>GĐ1: TRL 7-8 (Field test, Pilot production)</li>
@@ -1777,7 +1778,7 @@
                             </ul>
                         </div>
                         <div class="content-box info">
-                            <h4>2. Chuyển giao công nghệ quốc tế</h4>
+                            <h4 class="!mb-0">2. Chuyển giao công nghệ quốc tế</h4>
                             <ul style="font-size: 0.9rem;">
                                 <li>6 đối tác: MiR, Advantech, Hikvision, Bosch Rexroth, Moxa, Murata Machinery</li>
                                 <li>Giá trị: 10,3M USD</li>
@@ -1788,7 +1789,7 @@
                     </div>
                     <div>
                         <div class="content-box warning">
-                            <h4>3. Nội địa hóa sâu 50% → 60%</h4>
+                            <h4 class="!mb-0"   >3. Nội địa hóa sâu 50% → 60%</h4>
                             <ul style="font-size: 0.9rem;">
                                 <li>GĐ1: 50% (Thép, nhôm, PCB, vỏ máy)</li>
                                 <li>GĐ2: 58% (+ Động cơ servo, cảm biến)</li>
@@ -1796,23 +1797,23 @@
                                 <li>Lợi ích: -25% chi phí, giao hàng 2-4 tuần, linh hoạt</li>
                             </ul>
                         </div>
-                        <h3 style="margin-top: 1rem;">15 Công nghệ lõi</h3>
-                        <ol style="font-size: 0.85rem; columns: 2;">
-                            <li>IoT Gateway (ARM + Edge AI)</li>
-                            <li>Sensor fusion (LiDAR + Camera)</li>
-                            <li>SLAM navigation</li>
-                            <li>AI/ML (Computer Vision)</li>
-                            <li>Cloud Platform (IoT Analytics)</li>
-                            <li>Security (End-to-end encryption)</li>
-                            <li>Power management (Smart battery)</li>
-                            <li>5G/6G communication</li>
-                            <li>Robot motion control</li>
-                            <li>Industrial protocols (OPC UA)</li>
-                            <li>QA/QC (AOI/ICT/Burn-in)</li>
-                            <li>Factory automation</li>
-                            <li>Embedded firmware</li>
-                            <li>Data analytics</li>
-                            <li>System integration</li>
+                        <h3 class="!text-3xl !mt-4 !mb-0">15 Công nghệ lõi</h3>
+                        <ol class="!columns-3 !gap-2">
+                            <li class="!mb-1">IoT Gateway (ARM + Edge AI)</li>
+                            <li class="!mb-1">Sensor fusion (LiDAR + Camera)</li>
+                            <li class="!mb-1">SLAM navigation</li>
+                            <li class="!mb-1">AI/ML (Computer Vision)</li>
+                            <li class="!mb-1">Cloud Platform (IoT Analytics)</li>
+                            <li class="!mb-1">Security (End-to-end encryption)</li>
+                            <li class="!mb-1">Power management (Smart battery)</li>
+                            <li class="!mb-1">5G/6G communication</li>
+                            <li class="!mb-1">Robot motion control</li>
+                            <li class="!mb-1">Industrial protocols (OPC UA)</li>
+                            <li class="!mb-1">QA/QC (AOI/ICT/Burn-in)</li>
+                            <li class="!mb-1">Factory automation</li>
+                            <li class="!mb-1">Embedded firmware</li>
+                            <li class="!mb-1">Data analytics</li>
+                            <li class="!mb-1">System integration</li>
                         </ol>
                     </div>
                 </div>
@@ -1823,10 +1824,10 @@
                 <div class="slide-header">
                     <h2>Lộ trình TRL 6 → 7 → 8 → 9</h2>
                 </div>
-                <table style="font-size: 0.75rem; margin-bottom: 1.5rem;">
+                <table class="!mb-0 !mt-0">
                     <thead>
                         <tr style="background: rgba(255, 215, 0, 0.2);">
-                            <th colspan="7" style="text-align: center; padding: 0.8rem;">Lộ trình công nghệ và sản phẩm (2025-2030)</th>
+                            <th class="!text-lg" colspan="7" style="text-align: center; padding: 0.8rem;">Lộ trình công nghệ và sản phẩm (2025-2030)</th>
                         </tr>
                         <tr>
                             <th>Sản phẩm</th>
@@ -1841,61 +1842,61 @@
                     <tbody>
                         <tr style="background: rgba(76, 175, 80, 0.15);"><td colspan="7" style="text-align: center; font-weight: bold; background: rgba(30, 60, 114, 0.3); color: #FFD700;">IoT Gateway MK Series</td></tr>
                         <tr>
-                            <td><strong>MK-100</strong> TRL 6→8</td>
-                            <td colspan="2" style="background: #4CAF50; color: #fff; text-align: center;">✓ Done</td>
+                            <td class="!py-2"><strong>MK-100</strong> TRL 6→8</td>
+                            <td class="!py-2" colspan="2" style="background: #4CAF50; color: #fff; text-align: center;">Done</td>
                             <td></td><td></td><td></td><td></td>
                         </tr>
                         <tr>
-                            <td><strong>MK-200</strong> TRL 7→8</td>
+                            <td class="!py-2"><strong>MK-200</strong> TRL 7→8</td>
                             <td></td>
-                            <td colspan="2" style="background: #FFD700; color: #000; text-align: center;">⚙ Active</td>
+                            <td class="!py-2" colspan="2" style="background: #FFD700; color: #000; text-align: center;">Active</td>
                             <td></td><td></td><td></td>
                         </tr>
                         <tr>
-                            <td><strong>MK-300</strong> TRL 8→9</td>
+                            <td class="!py-2"><strong>MK-300</strong> TRL 8→9</td>
                             <td></td><td></td><td></td>
-                            <td colspan="3" style="background: rgba(100, 255, 218, 0.3); text-align: center;">Planned</td>
+                            <td class="!py-2" colspan="3" style="background: rgba(100, 255, 218, 0.3); text-align: center;">Planned</td>
                         </tr>
                         <tr style="background: rgba(76, 175, 80, 0.15);"><td colspan="7" style="text-align: center; font-weight: bold; background: rgba(30, 60, 114, 0.3); color: #64FFDA;">Robot AMR</td></tr>
                         <tr>
-                            <td><strong>AMR-100</strong> TRL 6→8</td>
+                            <td class="!py-2"><strong>AMR-100</strong> TRL 6→8</td>
                             <td></td>
-                            <td colspan="2" style="background: #4CAF50; color: #fff; text-align: center;">✓ Done</td>
+                            <td class="!py-2" colspan="2" style="background: #4CAF50; color: #fff; text-align: center;">Done</td>
                             <td></td><td></td><td></td>
                         </tr>
                         <tr>
-                            <td><strong>AMR-500</strong> TRL 7→8</td>
+                            <td class="!py-2"><strong>AMR-500</strong> TRL 7→8</td>
                             <td></td><td></td><td></td>
-                            <td colspan="1" style="background: #FFD700; color: #000; text-align: center;">⚙ Active</td>
+                            <td class="!py-2" colspan="1" style="background: #FFD700; color: #000; text-align: center;">Active</td>
                             <td></td><td></td>
                         </tr>
                         <tr>
-                            <td><strong>AMR-1000</strong> TRL 8→9</td>
+                            <td class="!py-2"><strong>AMR-1000</strong> TRL 8→9</td>
                             <td></td><td></td><td></td><td></td>
-                            <td colspan="2" style="background: rgba(100, 255, 218, 0.3); text-align: center;">Planned</td>
+                            <td class="!py-2" colspan="2" style="background: rgba(100, 255, 218, 0.3); text-align: center;">Planned</td>
                         </tr>
                         <tr style="background: rgba(76, 175, 80, 0.15);"><td colspan="7" style="text-align: center; font-weight: bold; background: rgba(30, 60, 114, 0.3); color: #FF9800;">Robot AGV & OHT</td></tr>
                         <tr>
-                            <td><strong>AGV-200</strong> TRL 6→7</td>
+                            <td class="!py-2"><strong>AGV-200</strong> TRL 6→7</td>
                             <td></td><td></td>
-                            <td colspan="2" style="background: rgba(100, 255, 218, 0.3); text-align: center;">Planned</td>
+                            <td class="!py-2" colspan="2" style="background: rgba(100, 255, 218, 0.3); text-align: center;">Planned</td>
                             <td></td><td></td>
                         </tr>
                         <tr>
-                            <td><strong>OHT-50</strong> TRL 5→7</td>
+                            <td class="!py-2"><strong>OHT-50</strong> TRL 5→7</td>
                             <td></td>
-                            <td colspan="2" style="background: rgba(100, 255, 218, 0.3); text-align: center;">Planned</td>
+                            <td class="!py-2" colspan="2" style="background: rgba(100, 255, 218, 0.3); text-align: center;">Planned</td>
                             <td></td><td></td><td></td>
                         </tr>
                         <tr>
-                            <td><strong>OHT-100</strong> TRL 7→8</td>
+                            <td class="!py-2"><strong>OHT-100</strong> TRL 7→8</td>
                             <td></td><td></td><td></td>
-                            <td colspan="2" style="background: rgba(100, 255, 218, 0.3); text-align: center;">Planned</td>
+                            <td class="!py-2" colspan="2" style="background: rgba(100, 255, 218, 0.3); text-align: center;">Planned</td>
                             <td></td>
                         </tr>
                     </tbody>
                 </table>
-                <table style="font-size: 0.75rem;">
+                <table class="!mb-0">
                     <thead>
                         <tr>
                             <th>Giai đoạn</th>
@@ -1929,9 +1930,6 @@
                         </tr>
                     </tbody>
                 </table>
-                <div class="content-box warning" style="margin-top: 1rem; font-size: 0.9rem;">
-                    <p><strong>Lưu ý TRL hiện tại (Q4/2024):</strong> MK-100 TRL 6 (prototype lab test) | AMR-100 TRL 5-6 (mechanical prototype) | OHT-50 TRL 4-5 (conceptual design). Timeline đạt TRL 8-9: Q4/2026 - Q1/2027 sau pilot production và field test.</p>
-                </div>
             </section>
 
             <!-- Slide 20: 7 Product Lines Overview -->
@@ -2033,13 +2031,13 @@
                 <div class="slide-header">
                     <h2>Sản phẩm 1: IoT Gateway MK Series</h2>
                 </div>
-                <div class="product-grid">
-                    <div class="product-card">
-                        <img src="assets/products/iot_gateway_mk100_din_rail_industrial.jpg" alt="MK-100 Basic Gateway">
-                        <h4>MK-100 Basic</h4>
-                        <p class="price">800-1.200 USD</p>
-                        <p class="specs">
-                            <strong>Specs:</strong><br/>
+                <div class="product-grid !mt-0">
+                    <div class="product-card !p-4">
+                        <img class="!mt-0" src="assets/products/iot_gateway_mk100_din_rail_industrial.jpg" alt="MK-100 Basic Gateway">
+                        <h4 class="!mb-2 !font-medium">Model: MK-100 Basic</h4>
+                        <p class="price !text-lg !font-medium !my-0">Price: 800-1.200 USD</p>
+                        <strong class="text-base">Specs:</strong><br/>
+                        <p class="specs !text-base !my-0 columns-2">
                             • ARM Cortex-A55 Quad-core<br/>
                             • 4GB RAM, 32GB Storage<br/>
                             • Wi-Fi 5, Ethernet Gigabit<br/>
@@ -2048,12 +2046,12 @@
                             • TRL 8 (2026)
                         </p>
                     </div>
-                    <div class="product-card">
-                        <img src="assets/products/iot_gateway_mk200_edge_box.jpg" alt="MK-200 Pro Gateway">
-                        <h4>MK-200 Pro</h4>
-                        <p class="price">2.000-3.500 USD</p>
-                        <p class="specs">
-                            <strong>Specs:</strong><br/>
+                    <div class="product-card !p-4">
+                        <img class="!mt-0" src="assets/products/iot_gateway_mk200_edge_box.jpg" alt="MK-200 Pro Gateway">
+                        <h4 class="!mb-2 !font-medium">Model: MK-200 Pro</h4>
+                        <p class="price !text-lg !font-medium !my-0">Price: 2.000-3.500 USD</p>
+                        <strong class="text-base">Specs:</strong><br/>
+                        <p class="specs !text-base !my-0 columns-2">
                             • ARM Cortex-A78 Octa-core<br/>
                             • 8GB RAM, 128GB Storage<br/>
                             • Wi-Fi 6, 5G optional<br/>
@@ -2062,12 +2060,12 @@
                             • TRL 8 (2027)
                         </p>
                     </div>
-                    <div class="product-card">
-                        <img src="assets/products/iot_gateway_mk300_ai_enabled.jpg" alt="MK-300 Enterprise">
-                        <h4>MK-300 Enterprise</h4>
-                        <p class="price">4.000-5.000 USD</p>
-                        <p class="specs">
-                            <strong>Specs:</strong><br/>
+                    <div class="product-card !p-4">
+                        <img class="!mt-0" src="assets/products/iot_gateway_mk300_ai_enabled.jpg" alt="MK-300 Enterprise">
+                        <h4 class="!mb-2 !font-medium">Model: MK-300 Enterprise</h4>
+                        <p class="price !text-lg !font-medium !my-0">Price: 4.000-5.000 USD</p>
+                        <strong class="text-base">Specs:</strong><br/>
+                        <p class="specs !text-base !my-0 columns-2">
                             • ARM Cortex-A78AE (Safety)<br/>
                             • 16GB RAM, 256GB SSD<br/>
                             • 5G, Wi-Fi 6E, Redundant Ethernet<br/>
@@ -2077,20 +2075,20 @@
                         </p>
                     </div>
                 </div>
-                <div class="two-columns" style="margin-top: 1.5rem; font-size: 0.85rem;">
-                    <div class="content-box">
-                        <h4>Tính năng chính</h4>
-                        <ul>
+                <div class="two-columns !my-0">
+                    <div class="content-box !my-0">
+                        <h4 class="!my-0">Tính năng chính</h4>
+                        <ul class="!my-0">
                             <li>Kết nối đa giao thức (MQTT, OPC UA, Modbus, CAN)</li>
                             <li>Edge AI cho predictive maintenance</li>
                             <li>Bảo mật end-to-end (TLS 1.3, X.509)</li>
                             <li>OTA firmware update</li>
                             <li>Quản lý tập trung qua MekongOS</li>
                         </ul>
-                    </div>
-                    <div class="content-box success">
-                        <h4>Ứng dụng & Khách hàng</h4>
-                        <ul>
+                    </div>     
+                    <div class="content-box success !my-0">
+                        <h4 class="!my-0">Ứng dụng & Khách hàng</h4>
+                        <ul class="!my-0">
                             <li>DNNVV sản xuất (850 KH GĐ1)</li>
                             <li>Doanh nghiệp FDI (200 KH GĐ1)</li>
                             <li>Smart factory, Logistics, Năng lượng</li>
@@ -2105,13 +2103,13 @@
                 <div class="slide-header">
                     <h2>Sản phẩm 2: Robot AMR (Autonomous Mobile Robot)</h2>
                 </div>
-                <div class="product-grid">
-                    <div class="product-card">
-                        <img src="assets/products/amr_100_small_platform_lidar.jpg" alt="AMR-100">
-                        <h4>AMR-100</h4>
-                        <p class="price">25.000-35.000 USD</p>
-                        <p class="specs">
-                            <strong>Specs:</strong><br/>
+                <div class="product-grid !mt-0">
+                    <div class="product-card !p-4">
+                        <img class="!mt-0" src="assets/products/amr_100_small_platform_lidar.jpg" alt="AMR-100">
+                        <h4 class="!mb-2 !font-medium">Model: AMR-100</h4>
+                        <p class="price !text-lg !font-medium !my-0">Price: 25.000-35.000 USD</p>
+                        <strong class="text-base">Specs:</strong><br/>
+                        <p class="specs !text-base !my-0 columns-2">
                             • Tải trọng: 100kg<br/>
                             • LiDAR 2D, SLAM navigation<br/>
                             • Tốc độ: 1,5 m/s<br/>
@@ -2120,12 +2118,12 @@
                             • TRL 8 (2027)
                         </p>
                     </div>
-                    <div class="product-card">
-                        <img src="assets/products/amr_500_medium_platform_warehouse.jpg" alt="AMR-500">
-                        <h4>AMR-500</h4>
-                        <p class="price">45.000-60.000 USD</p>
-                        <p class="specs">
-                            <strong>Specs:</strong><br/>
+                    <div class="product-card !p-4">
+                        <img class="!mt-0" src="assets/products/amr_500_medium_platform_warehouse.jpg" alt="AMR-500">
+                        <h4 class="!mb-2 !font-medium">Model: AMR-500</h4>
+                        <p class="price !text-lg !font-medium !my-0">Price: 45.000-60.000 USD</p>
+                        <strong class="text-base">Specs:</strong><br/>
+                        <p class="specs !text-base !my-0 columns-2">
                             • Tải trọng: 500kg<br/>
                             • LiDAR 3D, Multi-sensor fusion<br/>
                             • AI navigation, obstacle avoidance<br/>
@@ -2134,12 +2132,12 @@
                             • TRL 8 (2028)
                         </p>
                     </div>
-                    <div class="product-card">
-                        <img src="assets/products/amr_1000_heavy_duty_pallet.jpg" alt="AMR-1000">
-                        <h4>AMR-1000</h4>
-                        <p class="price">70.000-80.000 USD</p>
-                        <p class="specs">
-                            <strong>Specs:</strong><br/>
+                    <div class="product-card !p-4">
+                        <img class="!mt-0" src="assets/products/amr_1000_heavy_duty_pallet.jpg" alt="AMR-1000">
+                        <h4 class="!mb-2 !font-medium">Model: AMR-1000</h4>
+                        <p class="price !text-lg !font-medium !my-0">Price: 70.000-80.000 USD</p>
+                        <strong class="text-base">Specs:</strong><br/>
+                        <p class="specs !text-base !my-0 columns-2">
                             • Tải trọng: 1000kg<br/>
                             • LiDAR 3D + Camera 360° + IMU<br/>
                             • Advanced AI, Fleet management<br/>
@@ -2149,10 +2147,10 @@
                         </p>
                     </div>
                 </div>
-                <div class="two-columns" style="margin-top: 1.5rem; font-size: 0.85rem;">
-                    <div class="content-box">
-                        <h4>Công nghệ lõi</h4>
-                        <ul>
+                <div class="two-columns !my-0">
+                    <div class="content-box !my-0">
+                        <h4 class="!my-0">Công nghệ lõi</h4>
+                        <ul class="!my-0">
                             <li>SLAM 2D/3D (Simultaneous Localization & Mapping)</li>
                             <li>Sensor Fusion (LiDAR + Camera + IMU + Ultrasonic)</li>
                             <li>AI Path Planning & Collision Avoidance</li>
@@ -2160,9 +2158,9 @@
                             <li>Safety: Emergency stop, Laser scanner, Bumper</li>
                         </ul>
                     </div>
-                    <div class="content-box success">
-                        <h4>Ứng dụng chính</h4>
-                        <ul>
+                    <div class="content-box success !my-0">
+                        <h4 class="!my-0">Ứng dụng chính</h4>
+                        <ul class="!my-0">
                             <li>Logistics & Warehouse (picking, sorting)</li>
                             <li>Manufacturing (vận chuyển nguyên liệu)</li>
                             <li>E-commerce fulfillment centers</li>
@@ -2177,22 +2175,21 @@
             <section id="slide-23">
                 <div class="slide-header">
                     <h2>Sản phẩm 3-4: AGV và OHT (Overhead Hoist Transfer)</h2>
-                    <div class="slide-counter">Slide 23/32</div>
                 </div>
                 
-                <div class="products-container">
+                <div class="products-container !my-0">
                     <!-- AGV Section -->
-                    <div class="product-section">
-                        <div class="product-header">
-                            <h3>AGV (Automated Guided Vehicle)</h3>
+                    <div class="product-section border border-gray-300 rounded-lg !p-3">
+                        <div class="product-header !py-0 !mb-3">
+                            <h3 class="!my-0">AGV (Automated Guided Vehicle)</h3>
                             <div class="product-badge">Logistics Automation</div>
                         </div>
                         
-                        <div class="product-showcase">
+                        <div class="product-showcase !mb-2">
                             <div class="product-image-container">
                                 <img src="assets/products/agv_500_laser_guided_reflector.jpg" 
                                      alt="AGV-500 Laser Guided Vehicle" 
-                                     class="product-main-image"
+                                     class="product-main-image !h-[320px] !my-0"
                                      onerror="this.src='assets/products/agv_200_magnetic_guided_tape.jpg'">
                                 <div class="image-overlay">
                                     <span class="product-model">AGV-500</span>
@@ -2201,44 +2198,32 @@
                             
                             <div class="product-details">
                                 <div class="product-title">
-                                    <h4>AGV Series: 200/500/1000</h4>
-                                    <div class="price-range">20.000 - 45.000 USD</div>
+                                    <h4 class="!my-0 !text-white !font-bold">AGV Series: 200/500/1000</h4>
+                                    <p class="text-[#FFD700] !text-lg !font-medium !mt-0">Price: 20.000 - 45.000 USD</p>
                                 </div>
                                 
                                 <div class="specifications">
-                                    <h5>Thông số kỹ thuật</h5>
-                                    <div class="spec-grid">
-                                        <div class="spec-item">
+                                    <h5 class="!text-white">Thông số kỹ thuật</h5>
+                                    <div class="spec-item !grid !grid-cols-2 !gap-2">
                                             <span class="spec-label">Dẫn đường:</span>
                                             <span class="spec-value">Laser/Magnetic/Vision</span>
-                                        </div>
-                                        <div class="spec-item">
                                             <span class="spec-label">Tải trọng:</span>
                                             <span class="spec-value">200kg - 1000kg</span>
-                                        </div>
-                                        <div class="spec-item">
                                             <span class="spec-label">Tốc độ:</span>
                                             <span class="spec-value">0,8 - 1,2 m/s</span>
-                                        </div>
-                                        <div class="spec-item">
                                             <span class="spec-label">Độ chính xác:</span>
                                             <span class="spec-value">±15mm</span>
-                                        </div>
-                                        <div class="spec-item">
                                             <span class="spec-label">Thời gian hoạt động:</span>
                                             <span class="spec-value">6-10 giờ</span>
-                                        </div>
-                                        <div class="spec-item">
                                             <span class="spec-label">TRL:</span>
                                             <span class="spec-value">7-8 (2028-2029)</span>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         
-                        <div class="comparison-box">
-                            <h5>So sánh AGV vs AMR</h5>
+                        <div class="comparison-box !bg-opacity-95 !my-0">
+                            <h5 class="!mb-2">So sánh AGV vs AMR</h5>
                             <div class="comparison-table">
                                 <div class="comparison-row header">
                                     <div class="comparison-cell">Tiêu chí</div>
@@ -2246,22 +2231,22 @@
                                     <div class="comparison-cell amr">AMR</div>
                                 </div>
                                 <div class="comparison-row">
-                                    <div class="comparison-cell">Định vị</div>
+                                    <div class="comparison-cell bg-orange-300 !bg-opacity-5">Định vị</div>
                                     <div class="comparison-cell agv">Laser/Mag tape</div>
                                     <div class="comparison-cell amr">SLAM/AI</div>
                                 </div>
                                 <div class="comparison-row">
-                                    <div class="comparison-cell">Linh hoạt</div>
+                                    <div class="comparison-cell bg-orange-300 !bg-opacity-5">Linh hoạt</div>
                                     <div class="comparison-cell agv">Thấp (tuyến cố định)</div>
                                     <div class="comparison-cell amr">Cao (tự điều chỉnh)</div>
                                 </div>
                                 <div class="comparison-row">
-                                    <div class="comparison-cell">Giá thành</div>
+                                    <div class="comparison-cell bg-orange-300 !bg-opacity-5">Giá thành</div>
                                     <div class="comparison-cell agv">Thấp hơn 20-30%</div>
                                     <div class="comparison-cell amr">Cao hơn</div>
                                 </div>
                                 <div class="comparison-row">
-                                    <div class="comparison-cell">Ứng dụng</div>
+                                    <div class="comparison-cell bg-orange-300 !bg-opacity-5">Ứng dụng</div>
                                     <div class="comparison-cell agv">Môi trường lặp lại</div>
                                     <div class="comparison-cell amr">Môi trường phức tạp</div>
                                 </div>
@@ -2270,17 +2255,17 @@
                     </div>
                     
                     <!-- OHT Section -->
-                    <div class="product-section">
-                        <div class="product-header">
-                            <h3>OHT (Overhead Hoist Transfer)</h3>
+                    <div class="product-section border border-gray-300 rounded-lg !p-3">
+                        <div class="product-header !py-0 !mb-3">
+                            <h3 class="!my-0">OHT (Overhead Hoist Transfer)</h3>
                             <div class="product-badge unique">Sản phẩm độc đáo</div>
                         </div>
                         
-                        <div class="product-showcase">
+                        <div class="product-showcase !mb-2">
                             <div class="product-image-container">
                                 <img src="assets/products/oht_50_ceiling_transport_cleanroom.jpg" 
                                      alt="OHT-50 Ceiling Transport System" 
-                                     class="product-main-image"
+                                     class="product-main-image  !h-[320px] !my-0"
                                      onerror="this.src='assets/products/OHT.png'">
                                 <div class="image-overlay">
                                     <span class="product-model">OHT-50</span>
@@ -2289,82 +2274,61 @@
                             
                             <div class="product-details">
                                 <div class="product-title">
-                                    <h4>OHT Series: 50/100/200</h4>
-                                    <div class="price-range">50.000 - 150.000 USD</div>
+                                    <h4 class="!my-0 !text-white !font-bold">OHT Series: 50/100/200</h4>
+                                    <p class="text-[#FFD700] !text-lg !font-medium !mt-0">Price: 50.000 - 150.000 USD</p>
                                 </div>
                                 
                                 <div class="specifications">
-                                    <h5>Thông số kỹ thuật</h5>
-                                    <div class="spec-grid">
-                                        <div class="spec-item">
-                                            <span class="spec-label">Tải trọng:</span>
-                                            <span class="spec-value">50kg - 200kg</span>
-                                        </div>
-                                        <div class="spec-item">
-                                            <span class="spec-label">Vận chuyển:</span>
-                                            <span class="spec-value">Overhead rail</span>
-                                        </div>
-                                        <div class="spec-item">
-                                            <span class="spec-label">Tốc độ:</span>
-                                            <span class="spec-value">60-120 m/min</span>
-                                        </div>
-                                        <div class="spec-item">
-                                            <span class="spec-label">Điều khiển:</span>
-                                            <span class="spec-value">4 axes motion</span>
-                                        </div>
-                                        <div class="spec-item">
-                                            <span class="spec-label">Clean room:</span>
-                                            <span class="spec-value">ISO 5-7</span>
-                                        </div>
-                                        <div class="spec-item">
-                                            <span class="spec-label">TRL:</span>
-                                            <span class="spec-value">7-8 (2028-2029)</span>
-                                        </div>
+                                    <h5 class="!text-white">Thông số kỹ thuật</h5>
+                                    <div class="spec-item !grid !grid-cols-2 !gap-2">
+                                        <span class="spec-label">Tải trọng:</span>
+                                        <span class="spec-value">50kg - 200kg</span>
+                                        <span class="spec-label">Vận chuyển:</span>
+                                        <span class="spec-value">Overhead rail</span>
+                                        <span class="spec-label">Tốc độ:</span>
+                                        <span class="spec-value">60-120 m/min</span>
+                                        <span class="spec-label">Điều khiển:</span>
+                                        <span class="spec-value">4 axes motion</span>
+                                        <span class="spec-label">Clean room:</span>
+                                        <span class="spec-value">ISO 5-7</span>
+                                        <span class="spec-label">TRL:</span>
+                                        <span class="spec-value">7-8 (2028-2029)</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         
-                        <div class="unique-features">
-                            <h5>🌟 Sản phẩm niche - ít đối thủ tại VN</h5>
+                        <div class="unique-features !my-0">
+                            <h5>Sản phẩm niche - ít đối thủ tại VN</h5>
                             <div class="feature-list">
                                 <div class="feature-item">
-                                    <span class="feature-icon">🏥</span>
-                                    <span class="feature-text">Ứng dụng: Dược phẩm, Nhà hàng, Bệnh viện</span>
+                                    <span class="feature-text !text-base">Ứng dụng: Dược phẩm, Nhà hàng, Bệnh viện</span>
                                 </div>
                                 <div class="feature-item">
-                                    <span class="feature-icon">📐</span>
-                                    <span class="feature-text">Lợi thế: Không chiếm diện tích sàn</span>
+                                    <span class="feature-text !text-base">Lợi thế: Không chiếm diện tích sàn</span>
                                 </div>
                                 <div class="feature-item">
-                                    <span class="feature-icon">💰</span>
-                                    <span class="feature-text">Giá cao: 50K-150K USD/unit</span>
+                                    <span class="feature-text !text-base">Giá cao: 50K-150K USD/unit</span>
                                 </div>
                                 <div class="feature-item">
-                                    <span class="feature-icon">📊</span>
-                                    <span class="feature-text">Doanh thu: 15,65 triệu USD (13%)</span>
+                                    <span class="feature-text !text-base">Doanh thu: 15,65 triệu USD (13%)</span>
                                 </div>
                                 <div class="feature-item">
-                                    <span class="feature-icon">🇻🇳</span>
-                                    <span class="feature-text">Nội địa hóa: 70-80%</span>
+                                    <span class="feature-text !text-base">Nội địa hóa: 70-80%</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 
-                <div class="slide-footer">
+                <div class="slide-footer !mt-3">
                     <div class="revenue-summary">
                         <h4>Tổng doanh thu AGV + OHT: 31,3 triệu USD (26% tổng doanh thu)</h4>
-                    </div>
-                    <div class="slide-navigation">
-                        <button onclick="previousSlide()" class="nav-btn prev">← Trước</button>
-                        <button onclick="nextSlide()" class="nav-btn next">Tiếp →</button>
                     </div>
                 </div>
             </section>
 
-            <!-- Slide 24: Products 5-7 - Modules, Sensors, Platform -->
+            <!-- Slide 24.1: Products 5-7 - Modules, Sensors, Platform -->
             <section>
                 <div class="slide-header">
                     <h2>Sản phẩm 5-7: Modules, Sensors & Platform</h2>
@@ -2376,10 +2340,10 @@
                     <!-- Row 1: 2 products side by side -->
                     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
                         <div class="product-card" style="padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);">
-                            <img src="assets/products/iot_controller_plc_style_din_rail.jpg" alt="IoT Modules" style="width: 100%; max-height: 140px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+                            <img class="!h-96 !mt-0" src="assets/products/iot_controller_plc_style_din_rail.jpg" alt="IoT Modules" style="width: 100%; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
                             <h4 style="color: #FFD700; margin-bottom: 0.5rem;">5. Module IoT</h4>
-                            <p class="price" style="color: #FF9800; font-weight: bold; margin-bottom: 0.8rem;">30-120 USD</p>
-                            <div style="font-size: 0.85rem; line-height: 1.3;">
+                            <p class="price !text-lg !font-medium !mt-0"> Price: 30-120 USD</p>
+                            <div class="!text-lg">
                                 <strong style="color: #e8eaf6;">Các loại module:</strong><br/>
                                 • RS485/Modbus RTU (30 USD)<br/>
                                 • CAN bus (45 USD)<br/>
@@ -2393,10 +2357,10 @@
                         </div>
                         
                         <div class="product-card" style="padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);">
-                            <img src="assets/products/iot_device_medium_1.jpg" alt="IoT Sensors" style="width: 100%; max-height: 140px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+                            <img class="!h-96 !mt-0" src="assets/products/iot_device_medium_1.jpg" alt="IoT Sensors" style="width: 100%; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
                             <h4 style="color: #FFD700; margin-bottom: 0.5rem;">6. Cảm biến IoT</h4>
-                            <p class="price" style="color: #FF9800; font-weight: bold; margin-bottom: 0.8rem;">50-300 USD</p>
-                            <div style="font-size: 0.85rem; line-height: 1.3;">
+                            <p class="price !text-lg !font-medium !mt-0"> Price: 50-300 USD</p>
+                            <div class="!text-lg">
                                 <strong style="color: #e8eaf6;">Các loại cảm biến:</strong><br/>
                                 • Nhiệt độ/Độ ẩm (50 USD)<br/>
                                 • Áp suất/Lưu lượng (120 USD)<br/>
@@ -2409,14 +2373,25 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </section>
+
+            <!-- Slide 24.2: Products 5-7 - Modules, Sensors, Platform -->
+            <section>
+                <div class="slide-header">
+                    <h2>Sản phẩm 5-7: Modules, Sensors & Platform</h2>
+                </div>
+                
+                <!-- Layout 2 rows: 2 products top, 1 product + strategy bottom -->
+                <div style="display: grid; grid-template-rows: 1fr 1fr; gap: 1.5rem; height: 75vh;">
                     
                     <!-- Row 2: 1 product + strategy -->
                     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
                         <div class="product-card" style="padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);">
-                            <img src="assets/products/iot_device_medium_2.jpg" alt="MekongOS Platform" style="width: 100%; max-height: 140px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+                            <img class="!h-96 !mt-0" src="assets/products/iot_device_medium_2.jpg" alt="MekongOS Platform" style="width: 100%; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
                             <h4 style="color: #FFD700; margin-bottom: 0.5rem;">7. MekongOS Platform</h4>
-                            <p class="price" style="color: #FF9800; font-weight: bold; margin-bottom: 0.8rem;">50-800 USD/tháng</p>
-                            <div style="font-size: 0.85rem; line-height: 1.3;">
+                            <p class="price !text-lg !font-medium !mt-0"> Price: 50-800 USD/tháng</p>
+                            <div class="!text-lg">
                                 <strong style="color: #e8eaf6;">Gói dịch vụ SaaS:</strong><br/>
                                 • Lite: 50 USD/tháng (10 devices)<br/>
                                 • Pro: 200 USD/tháng (50 devices)<br/>
@@ -2885,22 +2860,22 @@
                 <div class="slide-header">
                     <h2>Section 5: Tổng quan tài chính 10 năm</h2>
                 </div>
-                <div class="metrics-grid">
+                <div class="metrics-grid columns-2 !gap-2">
                     <div class="metric-card highlight">
                         <div class="metric-value">119,7 triệu USD</div>
-                        <div class="metric-label">Tổng doanh thu 10 năm</div>
+                        <div class="metric-label !text-lg">Tổng doanh thu 10 năm</div>
                     </div>
-                    <div class="metric-card">
+                    <div class="metric-card highlight !bg-transparent">
                         <div class="metric-value">59,9 triệu USD</div>
-                        <div class="metric-label">Tổng giá trị gia tăng (VA)</div>
+                        <div class="metric-label !text-lg">Tổng giá trị gia tăng (VA)</div>
                     </div>
-                    <div class="metric-card">
+                    <div class="metric-card highlight !bg-transparent">
                         <div class="metric-value">28,4%</div>
-                        <div class="metric-label">IRR (Internal Rate of Return)</div>
+                        <div class="metric-label !text-lg">IRR (Internal Rate of Return)</div>
                     </div>
-                    <div class="metric-card">
+                    <div class="metric-card highlight !bg-transparent">
                         <div class="metric-value">4,8 năm</div>
-                        <div class="metric-label">Payback Period</div>
+                        <div class="metric-label !text-lg">Payback Period</div>
                     </div>
                 </div>
                 <table style="font-size: 0.7rem; margin-top: 1.5rem;">
@@ -3134,9 +3109,9 @@
                         </tr>
                     </tbody>
                 </table>
-                <div class="content-box success" style="margin-top: 1rem; font-size: 0.9rem;">
+                <!-- <div class="content-box success" style="margin-top: 1rem; font-size: 0.9rem;">
                     <p><strong>Insight:</strong> IoT Gateway là anchor product (46% doanh thu) giúp acquire customers → Up-sell AMR/AGV (37% tổng) → Platform SaaS (3%, recurring revenue tăng dần). ARPU tăng từ 25K USD (gateway only) → 60-80K USD (full solution).</p>
-                </div>
+                </div> -->
             </section>
 
             <!-- Slide 32: CAPEX & OPEX Breakdown -->
@@ -3258,22 +3233,22 @@
                 <div class="slide-header">
                     <h2>Phân tích NPV & IRR (Discount rate 12%)</h2>
                 </div>
-                <div class="metrics-grid" style="margin-bottom: 1.5rem;">
+                <div class="metrics-grid columns-2 !gap-2 !mb-0" style="margin-bottom: 1.5rem;">
                     <div class="metric-card highlight">
                         <div class="metric-value">+18,7 triệu USD</div>
-                        <div class="metric-label">NPV @ 12%</div>
+                        <div class="metric-label !text-lg">NPV @ 12%</div>
                     </div>
-                    <div class="metric-card">
+                    <div class="metric-card highlight !bg-transparent">
                         <div class="metric-value">28,4%</div>
-                        <div class="metric-label">IRR (Internal Rate of Return)</div>
+                        <div class="metric-label !text-lg">IRR (Internal Rate of Return)</div>
                     </div>
-                    <div class="metric-card">
+                    <div class="metric-card highlight !bg-transparent">
                         <div class="metric-value">2,37</div>
-                        <div class="metric-label">PI (Profitability Index)</div>
+                        <div class="metric-label !text-lg">PI (Profitability Index)</div>
                     </div>
-                    <div class="metric-card">
+                    <div class="metric-card highlight !bg-transparent">
                         <div class="metric-value">4,8 năm</div>
-                        <div class="metric-label">Payback Period</div>
+                        <div class="metric-label !text-lg">Payback Period</div>
                     </div>
                 </div>
                 <table style="font-size: 0.7rem;">
@@ -3516,7 +3491,14 @@
                             </tr>
                         </tbody>
                     </table>
-                    <p style="text-align: center; margin-top: 1rem; font-size: 0.9rem; color: #64FFDA;"><strong>Breakeven Point:</strong> Q3/2027 khi Doanh thu vượt Tổng chi phí</p>
+                    <p class="!mb-0" style="text-align: center; margin-top: 1rem; font-size: 0.9rem; color: #64FFDA;"><strong>Breakeven Point:</strong> Q3/2027 khi Doanh thu vượt Tổng chi phí</p>
+                </div>
+            </section>
+
+            <!-- Slide 35: Break-even Analysis -->
+            <section>
+                <div class="slide-header">
+                    <h2>Phân tích hòa vốn (Break-even)</h2>
                 </div>
                 <table style="font-size: 0.75rem; margin-top: 1rem;">
                     <thead>
@@ -4039,14 +4021,14 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <div class="metrics-grid" style="grid-template-columns: 1fr 1fr; margin-top: 1rem;">
-                            <div class="metric-card">
-                                <div class="metric-value">60</div>
-                                <div class="metric-label">R&D Engineers</div>
+                        <div class="metrics-grid !columns-2 !mt-4">
+                            <div class="metric-card space-y-2">
+                                <div class="metric-value text-green-500 text-xl font-semibold">60</div>
+                                <div class="metric-label !text-2xl font-semibold">R&D Engineers</div>
                             </div>
-                            <div class="metric-card">
-                                <div class="metric-value">85%</div>
-                                <div class="metric-label">Thạc sĩ+</div>
+                            <div class="metric-card space-y-2">
+                                <div class="metric-value text-green-500 text-xl font-semibold">85%</div>
+                                <div class="metric-label !text-2xl font-semibold">Thạc sĩ+</div>
                             </div>
                         </div>
                     </div>
@@ -4688,7 +4670,7 @@ gantt
                 </div>
                 <div class="content-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; font-size: 0.9rem;">
                     <div class="content-box highlight">
-                        <h3>💰 Tài chính hấp dẫn</h3>
+                        <h3>Tài chính hấp dẫn</h3>
                         <ul>
                             <li><strong>NPV +18,7M USD @ 12%</strong> → Dự án khả thi</li>
                             <li><strong>IRR 28,4%</strong> > WACC 12% → ROI cao</li>
@@ -4697,7 +4679,7 @@ gantt
                         </ul>
                     </div>
                     <div class="content-box">
-                        <h3>🎯 Thị trường lớn & tăng trưởng</h3>
+                        <h3>Thị trường lớn & tăng trưởng</h3>
                         <ul>
                             <li><strong>TAM 15,6 tỷ USD</strong> (IoT + AMR toàn cầu)</li>
                             <li><strong>SAM 468M USD</strong> (Việt Nam 2025-2035)</li>
@@ -4706,7 +4688,7 @@ gantt
                         </ul>
                     </div>
                     <div class="content-box success">
-                        <h3>🚀 Công nghệ tiên tiến & CGCN</h3>
+                        <h3>Công nghệ tiên tiến & CGCN</h3>
                         <ul>
                             <li><strong>10,3M USD CGCN</strong> từ MiR, Advantech, Hikvision, Bosch Rexroth, Moxa, Murata Machinery</li>
                             <li><strong>TRL 8-9</strong> đạt Q4/2026-Q1/2027</li>
@@ -4715,7 +4697,7 @@ gantt
                         </ul>
                     </div>
                     <div class="content-box info">
-                        <h3>🏆 Đội ngũ & Năng lực</h3>
+                        <h3>Đội ngũ & Năng lực</h3>
                         <ul>
                             <li><strong>4 C-levels</strong> kinh nghiệm Siemens, ABB, Samsung, Vingroup</li>
                             <li><strong>5 labs R&D</strong> chuyên sâu (IoT, AMR, OHT, AI, SW)</li>
@@ -4732,7 +4714,7 @@ gantt
                     <h2>Tại sao BÂY GIỜ là thời điểm vàng?</h2>
                 </div>
                 <div class="content-box warning" style="font-size: 1rem; margin-bottom: 1.5rem;">
-                    <h3 style="text-align: center; color: #FFD700;">🕒 Cửa sổ cơ hội 3-5 năm (2025-2029)</h3>
+                    <h3 style="text-align: center; color: #FFD700;">Cửa sổ cơ hội 3-5 năm (2025-2029)</h3>
                 </div>
                 <table style="font-size: 0.8rem;">
                     <thead>
@@ -4791,37 +4773,37 @@ gantt
                         <div style="position: absolute; top: -15px; left: 10px; background: #FF9800; color: #fff; padding: 5px 15px; border-radius: 50%; font-weight: bold; font-size: 1.1rem;">1</div>
                         <div style="margin-top: 0.5rem; font-weight: bold; font-size: 0.95rem;">Phê duyệt dự án</div>
                         <div style="font-size: 0.8rem; margin-top: 0.5rem;">Ban Quản lý KCNC TPHCM</div>
-                        <div style="font-size: 0.75rem; margin-top: 0.3rem; font-weight: bold; color: #2a5298;">⏰ T1/2025</div>
+                        <div style="font-size: 0.75rem; margin-top: 0.3rem; font-weight: bold; color: #2a5298;">T1/2025</div>
                     </div>
                     <div style="background: #64FFDA; color: #000; padding: 1.5rem; border-radius: 8px; border: 2px solid #4CAF50; position: relative;">
                         <div style="position: absolute; top: -15px; left: 10px; background: #4CAF50; color: #fff; padding: 5px 15px; border-radius: 50%; font-weight: bold; font-size: 1.1rem;">2</div>
                         <div style="margin-top: 0.5rem; font-weight: bold; font-size: 0.95rem;">Ký hợp đồng thuê đất</div>
                         <div style="font-size: 0.8rem; margin-top: 0.5rem;">15.000 m² tại SHTP</div>
-                        <div style="font-size: 0.75rem; margin-top: 0.3rem; font-weight: bold; color: #2a5298;">⏰ T2/2025</div>
+                        <div style="font-size: 0.75rem; margin-top: 0.3rem; font-weight: bold; color: #2a5298;">T2/2025</div>
                     </div>
                     <div style="background: #2196F3; color: #fff; padding: 1.5rem; border-radius: 8px; border: 2px solid #64FFDA; position: relative;">
                         <div style="position: absolute; top: -15px; left: 10px; background: #FFD700; color: #000; padding: 5px 15px; border-radius: 50%; font-weight: bold; font-size: 1.1rem;">3</div>
                         <div style="margin-top: 0.5rem; font-weight: bold; font-size: 0.95rem;">Hoàn tất funding</div>
                         <div style="font-size: 0.8rem; margin-top: 0.5rem;">18M USD equity + 12M USD debt</div>
-                        <div style="font-size: 0.75rem; margin-top: 0.3rem; font-weight: bold; color: #FFD700;">⏰ T3/2025</div>
+                        <div style="font-size: 0.75rem; margin-top: 0.3rem; font-weight: bold; color: #FFD700;">T3/2025</div>
                     </div>
                     <div style="background: #4CAF50; color: #fff; padding: 1.5rem; border-radius: 8px; border: 2px solid #64FFDA; position: relative;">
                         <div style="position: absolute; top: -15px; left: 10px; background: #FF9800; color: #fff; padding: 5px 15px; border-radius: 50%; font-weight: bold; font-size: 1.1rem;">4</div>
                         <div style="margin-top: 0.5rem; font-weight: bold; font-size: 0.95rem;">Ký CGCN với 5 đối tác</div>
                         <div style="font-size: 0.8rem; margin-top: 0.5rem;">MiR, Advantech, Hikvision, Bosch Rexroth, Moxa, Murata Machinery</div>
-                        <div style="font-size: 0.75rem; margin-top: 0.3rem; font-weight: bold; color: #FFD700;">⏰ T4/2025</div>
+                        <div style="font-size: 0.75rem; margin-top: 0.3rem; font-weight: bold; color: #FFD700;">T4/2025</div>
                     </div>
                     <div style="background: #FF9800; color: #000; padding: 1.5rem; border-radius: 8px; border: 2px solid #FFD700; position: relative;">
                         <div style="position: absolute; top: -15px; left: 10px; background: #F44336; color: #fff; padding: 5px 15px; border-radius: 50%; font-weight: bold; font-size: 1.1rem;">5</div>
                         <div style="margin-top: 0.5rem; font-weight: bold; font-size: 0.95rem;">Khởi công nhà xưởng</div>
                         <div style="font-size: 0.8rem; margin-top: 0.5rem;">Groundbreaking ceremony</div>
-                        <div style="font-size: 0.75rem; margin-top: 0.3rem; font-weight: bold; color: #2a5298;">⏰ T6/2025</div>
+                        <div style="font-size: 0.75rem; margin-top: 0.3rem; font-weight: bold; color: #2a5298;">T6/2025</div>
                     </div>
                     <div style="background: #F44336; color: #fff; padding: 1.5rem; border-radius: 8px; border: 2px solid #FF9800; position: relative;">
                         <div style="position: absolute; top: -15px; left: 10px; background: #4CAF50; color: #fff; padding: 5px 15px; border-radius: 50%; font-weight: bold; font-size: 1.1rem;">6</div>
                         <div style="margin-top: 0.5rem; font-weight: bold; font-size: 0.95rem;">Pilot production</div>
                         <div style="font-size: 0.8rem; margin-top: 0.5rem;">100-200 units MK-100</div>
-                        <div style="font-size: 0.75rem; margin-top: 0.3rem; font-weight: bold; color: #FFD700;">⏰ T9/2026</div>
+                        <div style="font-size: 0.75rem; margin-top: 0.3rem; font-weight: bold; color: #FFD700;">T9/2026</div>
                     </div>
                 </div>
                 <div class="two-columns" style="margin-top: 1.5rem; font-size: 0.9rem;">
@@ -4898,19 +4880,19 @@ gantt
                         <h3 style="color: #FFD700; margin-bottom: 1.5rem;">THÔNG TIN LIÊN HỆ</h3>
                         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; text-align: left; font-size: 1.1rem;">
                             <div>
-                                <p style="color: #64FFDA; margin-bottom: 0.5rem;"><strong>📧 Email:</strong></p>
+                                <p style="color: #64FFDA; margin-bottom: 0.5rem;"><strong>Email:</strong></p>
                                 <p style="color: #fff;">info@mekong-tech.vn</p>
                             </div>
                             <div>
-                                <p style="color: #64FFDA; margin-bottom: 0.5rem;"><strong>📱 Hotline:</strong></p>
+                                <p style="color: #64FFDA; margin-bottom: 0.5rem;"><strong>Hotline:</strong></p>
                                 <p style="color: #fff;">+84 28 3xxx xxxx</p>
                             </div>
                             <div>
-                                <p style="color: #64FFDA; margin-bottom: 0.5rem;"><strong>🏢 Địa chỉ:</strong></p>
+                                <p style="color: #64FFDA; margin-bottom: 0.5rem;"><strong>Địa chỉ:</strong></p>
                                 <p style="color: #fff;">Saigon Hi-Tech Park, Q.9, TP.HCM</p>
                             </div>
                             <div>
-                                <p style="color: #64FFDA; margin-bottom: 0.5rem;"><strong>🌐 Website:</strong></p>
+                                <p style="color: #64FFDA; margin-bottom: 0.5rem;"><strong>Website:</strong></p>
                                 <p style="color: #fff;">www.mekong-tech.vn</p>
                             </div>
                         </div>
