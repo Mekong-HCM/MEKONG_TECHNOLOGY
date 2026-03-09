@@ -1,0 +1,13 @@
+graph TB
+    EVN1["EVN 22kV<br/>Feed 1"] --> TXA1["TX-A1<br/>2.500 kVA<br/>22/0,4kV"]
+    EVN2["EVN 22kV<br/>Feed 2 — Future/Backup"] --> TXA2["TX-A2<br/>2.500 kVA<br/>22/0,4kV"]
+    GEN1["Generator 1<br/>2.500 kVA"] --> ATSA
+    GEN2["Generator 2<br/>2.500 kVA"] --> ATSB
+    TXA1 --> ATSA["ATS-A<br/>Path A"]
+    TXA2 --> ATSB["ATS-B<br/>Path B"]
+    ATSA --> UPSA["UPS-A<br/>2x1000 kVA<br/>LiFePO4 15 min"]
+    ATSB --> UPSB["UPS-B<br/>2x1000 kVA<br/>LiFePO4 15 min"]
+    UPSA --> PDUA["PDU-A<br/>Per rack Metered"]
+    UPSB --> PDUB["PDU-B<br/>Per rack Metered"]
+    PDUA --> IT["IT Hardware<br/>Dual-corded servers"]
+    PDUB --> IT

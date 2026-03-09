@@ -1,0 +1,30 @@
+graph TB
+    subgraph ERP["ERP — SAP/Odoo"]
+        FIN["Finance"] --> MES_CONN["MES Interface"]
+        MES_CONN --> PROC["Procurement"]
+    end
+
+    FIN -->|"Work Order / BOM"| PO
+
+    subgraph MES["MES Platform"]
+        PO["Production Order"]
+        SCH["Scheduling"]
+        OEE["Real-time OEE"]
+        SPC["Quality — SPC"]
+        TRACE["Traceability"]
+        ESOP["eSOP / eWI"]
+    end
+
+    PO --> PROTO
+    PO --> SECS
+
+    subgraph CNC_GRP["CNC Machines"]
+        PROTO["MTConnect / OPC-UA"]
+        M28["28 machines"]
+    end
+
+    subgraph SMT_GRP["SMT Line"]
+        SECS["SECS/GEM"]
+        AOI["AOI data"]
+        SMT_TR["Traceability"]
+    end

@@ -1,0 +1,29 @@
+graph TB
+    subgraph MekongOS["MekongOS IoT Cloud — Chạy trên MACC Khối A"]
+        subgraph APP["Tầng Ứng dụng"]
+            A1["Dashboard Analytics<br/>Web + Mobile"]
+            A2["AI Predictive<br/>Maintenance"]
+            A3["Digital Twin"]
+            A4["Fleet Management<br/>AMR/AGV/OHT"]
+            A5["Report &<br/>Alert Engine"]
+        end
+        subgraph PROC["Tầng Xử lý"]
+            P1["Stream Processing<br/>Kafka + Flink"]
+            P2["AI/ML Engine<br/>TensorFlow/PyTorch"]
+            P3["Rule Engine<br/>Node-RED Compatible"]
+            P4["Data Lake<br/>MinIO S3"]
+        end
+        subgraph CONN["Tầng Kết nối"]
+            C1["MQTT Broker<br/>EMQX Cluster"]
+            C2["OPC UA<br/>Server/Client"]
+            C3["Modbus<br/>Gateway"]
+            C4["REST/gRPC<br/>API Gateway"]
+            C5["EtherCAT /<br/>PROFINET Bridge"]
+        end
+        subgraph DEV["Tầng Thiết bị"]
+            D1["MK-200 / MK-300<br/>IoT Gateway"]
+            D2["AMR/AGV/OHT<br/>Robot Fleet"]
+            D3["Cảm biến bên thứ 3<br/>Siemens, Omron, Keyence"]
+        end
+    end
+    DEV --> CONN --> PROC --> APP

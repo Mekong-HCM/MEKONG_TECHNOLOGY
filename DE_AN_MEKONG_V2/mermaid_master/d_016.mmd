@@ -1,0 +1,12 @@
+graph TB
+    subgraph HALL["Server Hall 1 Phase 1 — 600 m²"]
+        RA["Row A — 20 rack"] --- RD["Row D — 20 rack"]
+        RB["Row B — 20 rack"] --- RE["Row E — 20 rack"]
+        RC["Row C — 20 rack"] --- RF["Row F — 20 rack"]
+    end
+    subgraph SUPPORT["Khu hỗ trợ"]
+        NOC["NOC 50 m²"]
+        STG["Staging 80 m²"]
+        MMR["Meet-me Room 30 m²"]
+    end
+    RA --- NOC

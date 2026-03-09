@@ -1,0 +1,10 @@
+graph LR
+    NT1["Nước thải<br/>sinh hoạt"] --> EQ["Bể điều hòa<br/>Equalization"]
+    NT2["Nước thải ZA<br/>coolant"] --> OIL["Bể tách dầu<br/>+ Lọc sơ cấp"]
+    EQ --> SBR["Bể SBR<br/>Sequential Batch Reactor"]
+    OIL --> DAF["Bể phản ứng<br/>hóa học DAF"]
+    SBR --> SETTLE["Bể lắng thứ cấp"]
+    DAF --> UV["Bể khử trùng UV"]
+    SETTLE --> UV
+    UV --> QCVN["ĐẠT QCVN 40:2011<br/>Cột A"]
+    QCVN --> REUSE["TÁI SỬ DỤNG<br/>tưới cây, toilet"]

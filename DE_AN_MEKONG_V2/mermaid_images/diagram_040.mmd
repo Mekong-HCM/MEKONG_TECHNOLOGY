@@ -1,0 +1,11 @@
+graph TB
+    EVN["EVN 22kV<br/>KCNC Feeder"] --> TX1["TX-1<br/>2.500 kVA<br/>22/0,4 kV"]
+    EVN --> TX2["TX-2<br/>2.500 kVA<br/>22/0,4 kV"]
+    TX1 --> MDB1["MDB-1 Main DB<br/>Normal"]
+    TX2 --> MDB2["MDB-2 Main DB<br/>Reserve"]
+    MDB1 ---|"Bus-tie N/O"| MDB2
+    MDB1 --> SMA["Sub-MDB Khối A — FIRE<br/>UPS 2N → PDU → Racks"]
+    MDB1 --> SMB["Sub-MDB Khối B — ZA<br/>ZA DB + MCC 25 máy"]
+    MDB1 --> SMC["Sub-MDB Khối C — SMT<br/>SMT DB + MCC CR + Robot"]
+    MDB2 --> EP["Emerg. Panel — PCCC<br/>Fire Pump + Emergency Lighting"]
+    MDB2 --> SOL["Solar Inverter 500kWp<br/>Behind Meter"]

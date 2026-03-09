@@ -1,0 +1,35 @@
+graph TD
+    RCV["Receiving"] --> IQC["IQC"] --> RMS["Raw Material Store"]
+    RMS --> PROG["Programming<br/>CAD/CAM Room"]
+    PROG -->|"NC Program + Tool List"| TOOL["Tool Crib<br/>Zoller setup + ToolBOSS"]
+    TOOL -->|"Preset tools + fixtures"| ZA
+
+    subgraph CNC["CNC MACHINING"]
+        ZA["Zone A — 5-axis"]
+        ZB["Zone B — 3-axis"]
+        ZC["Zone C — Turning"]
+        ZE["EDM Area"]
+    end
+
+    ZA --> D1
+
+    subgraph DEB["DEBURRING / CLEANING"]
+        D1["Manual deburr"]
+        D2["Ultrasonic cleaning"]
+        D3["Anti-rust coating"]
+    end
+
+    D1 --> Q1
+
+    subgraph QA["QA/QC LAB"]
+        Q1["CMM measurement"]
+        Q2["3D scanning"]
+        Q3["Surface roughness"]
+        Q4["Visual inspection"]
+        Q5["Dimensional report"]
+    end
+
+    Q1 --> PASS["PASS"]
+    Q1 --> REJ["REJECT"]
+    PASS --> PACK["Packing<br/>Shipping"]
+    REJ --> REWORK["Rework /<br/>Scrap"]

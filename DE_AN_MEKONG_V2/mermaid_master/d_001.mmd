@@ -1,0 +1,33 @@
+flowchart TD
+    subgraph BU1["Trụ cột 1 — IoT/Robot"]
+        A1[IoT Gateway<br/>MK-200/300]
+        A2[Robot AMR/AGV<br/>500-1000 kg]
+        A3[MekongOS<br/>IoT Platform]
+    end
+
+    subgraph BU2["Trụ cột 2 — CNC/MPMC"]
+        B1[CNC 5 trục<br/>28 máy]
+        B2[QA/QC Lab<br/>CMM Hexagon]
+        B3[Chứng nhận<br/>IATF + AS9100]
+    end
+
+    subgraph BU3["Trụ cột 3 — DC/MACC"]
+        C1[Datacenter<br/>Tier III, 100 Racks]
+        C2[GPU Compute<br/>NVIDIA DGX H100]
+        C3[IoT Cloud<br/>MekongOS SaaS]
+    end
+
+    B1 -->|Khung/vỏ Robot| A2
+    C2 -->|Huấn luyện AI SLAM| A2
+    A3 -->|Giám sát hiệu suất| B1
+    C3 -->|Hosting MekongOS| A3
+    B3 -->|Cross-sell FDI| C1
+    A1 -->|Dữ liệu IoT| C3
+
+    FDI["Khách hàng FDI<br/>Samsung, Intel,<br/>Bosch, VinFast"]
+    KCNC["Hệ sinh thái KCNC<br/>IC Design, AI Startup,<br/>R&D Labs"]
+
+    B1 -->|Gia công linh kiện| FDI
+    C1 -->|Cho thuê Rack| KCNC
+    C2 -->|GPU cho AI training| KCNC
+    A1 -->|Thiết bị IoT| FDI

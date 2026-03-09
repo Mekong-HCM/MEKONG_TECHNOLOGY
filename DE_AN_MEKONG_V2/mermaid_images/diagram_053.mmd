@@ -1,0 +1,13 @@
+graph TB
+    INET["INTERNET<br/>Multi-homed 2+ ISP"] --> CORE["Core Router<br/>2x Cisco/Juniper BGP AS#<br/>2x 100GbE"]
+    ISO9 --> FW["Firewall Cluster<br/>2x HA"]
+    ISO9 --> DDOS["DDoS Scrubber"]
+    ISO9 --> LB["Load Balancer<br/>Optional"]
+    FW --> DIST["Distribution Switches<br/>2x 10/25GbE spine"]
+    DDOS --> DIST
+    LB --> DIST
+    DIST --> RA["Row A ToR SW<br/>10GbE"]
+    DIST --> RB["Row B ToR<br/>10GbE"]
+    DIST --> RC["Row C ToR SW<br/>10GbE"]
+    DIST --> RD["Row D ToR SW<br/>10GbE"]
+    DIST --> GPUZ["GPU Zone<br/>100GbE"]

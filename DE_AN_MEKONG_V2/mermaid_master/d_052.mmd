@@ -1,0 +1,23 @@
+graph TB
+    DIR["CNC BU Director<br/>1 nguoi, Y1"] --> PROD["Production Manager<br/>1, Y1"]
+    DIR --> QUAL["Quality Manager<br/>1, Y1"]
+    DIR --> ENGM["Engineering Manager<br/>1, Y1"]
+    DIR --> SALM["Sales Manager<br/>1, Y2"]
+
+    PROD --> SL["Shop Lead 2, Y1"]
+    SL --> OP5["CNC Op. 5-axis 6, Y1"]
+    SL --> OP3["CNC Op. 3-axis 4, Y1"]
+    SL --> OPT["Tien Op. 2, Y1"]
+
+    QUAL --> QCI["QC Insp. 2, Y1"]
+    QCI --> CMMO["CMM Op. 1, Y1"]
+    QCI --> DOC["Doc Ctrl 1, Y2"]
+
+    ENGM --> CAD["CAD/CAM Prog 3, Y1"]
+    CAD --> PEG["Process Engineer 2, Y2"]
+    PEG --> MT["Maint. Tech 2, Y1"]
+    MT --> TM["Tool Mgr 1, Y2"]
+
+    SALM --> AM["Account Mgr 2, Y2"]
+    AM --> EST["Estimator 1, Y2"]
+    EST --> CS["Customer Service 1, Y3"]

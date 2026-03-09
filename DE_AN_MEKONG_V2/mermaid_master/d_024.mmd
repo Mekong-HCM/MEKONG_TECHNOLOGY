@@ -1,0 +1,12 @@
+graph TB
+    EVN["EVN 22kV<br/>2 nguồn độc lập"] --> ATS["ATS 1<br/>Auto Transfer Switch"]
+    ATS --> MDB1["MDB 1<br/>Utility"]
+    ATS --> MDB2["MDB 2<br/>Utility 2"]
+    ATS --> MDB_G["MDB-Gen<br/>Backup"]
+    GEN["GenSet<br/>2×2.500 kVA"] --> MDB_G
+    MDB1 --> UPS1A["UPS 1A<br/>1.000 kVA<br/>LiFePO4 15 min"]
+    MDB2 --> UPS1B["UPS 1B<br/>1.000 kVA<br/>LiFePO4 15 min"]
+    UPS1A --> STSA["STS Feed A"]
+    UPS1B --> STSB["STS Feed B"]
+    STSA --> PDU["Rack-level PDU 2N<br/>Rack 1...Rack 100<br/>Metered + Switched"]
+    STSB --> PDU

@@ -1,0 +1,8 @@
+graph TB
+    WAN["INTERNET / WAN<br/>FPT + VNPT + Viettel<br/>Multi-homing"] --> MMR["Meet-Me Room<br/>2 × FW Palo Alto / Fortinet"]
+    MMR --> CS1["Core Switch 1<br/>Cisco Nexus 93180YC-FX3<br/>100GbE"]
+    MMR --> CS2["Core Switch 2<br/>Cisco Nexus 93180YC-FX3<br/>100GbE"]
+    CS1 -->|VPC| CS2
+    CS1 --> ToR1["ToR Zone 1<br/>Nexus 93108TC-FX3<br/>Racks 1-50"]
+    CS1 --> ToR2["ToR Zone 2<br/>Nexus 93108TC-FX3<br/>Racks 51-100"]
+    CS2 --> ToRM["ToR Mgmt<br/>NOC/DCIM<br/>+ BMC/IPMI"]

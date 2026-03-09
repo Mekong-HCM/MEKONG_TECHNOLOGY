@@ -1,0 +1,14 @@
+graph TB
+    subgraph PLATFORM["MekongOS Cloud Platform — Hosted on MACC DC"]
+            DM["Device Mgmt<br/>Registry, Provision<br/>OTA, Groups, Firmware"]
+            DP["Data Pipeline<br/>MQTT Broker, Kafka<br/>TimeSeries DB InfluxDB"]
+            AE["Analytics Engine<br/>Rule Engine, ML/AI<br/>Predict, Anomaly"]
+            APP["Application Layer<br/>Dashboard, Alerting<br/>Reporting, API Gateway<br/>Mobile App, Integration"]
+
+            SEC["Security<br/>IAM/RBAC, mTLS<br/>Audit Log, Encrypt"]
+            FM["Fleet Manager<br/>Robot Dispatch<br/>Traffic Control"]
+            DT["Digital Twin<br/>3D Model, Simulate<br/>What-if, KPI View"]
+            MKT["Marketplace<br/>Widget Store<br/>Connector Store<br/>Template Market, Partner SDK"]
+
+        INFRA["Infrastructure: K8s on MACC DC<br/>DB: PostgreSQL + InfluxDB + Redis + MinIO<br/>Message: EMQX MQTT + Apache Kafka + gRPC"]
+    end

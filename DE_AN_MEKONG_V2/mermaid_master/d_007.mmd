@@ -1,0 +1,17 @@
+flowchart LR
+    subgraph Upstream
+        A[Nguyên liệu thô<br/>Thép, Nhôm, Titan]
+        B[Nhà cung cấp phôi<br/>Billet / Bar / Block]
+    end
+    subgraph MidStream["Mid-Stream (Mekong)"]
+        C[Nhận RFQ + NDA]
+        D[CAD/CAM<br/>Programming]
+        E[CNC Machining<br/>3/4/5-axis]
+        F[Post-processing<br/>Heat treat, Coating]
+        G[QC / CMM<br/>Inspection]
+    end
+    subgraph Downstream
+        H[Giao hàng<br/>Logistics]
+        I[Lắp ráp tại KH<br/>Assembly]
+    end
+    A --> B --> C --> D --> E --> F --> G --> H --> I

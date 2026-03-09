@@ -1,0 +1,35 @@
+graph TB
+    subgraph Edge["Edge Layer (On-premise)"]
+        MK200[MK-200 Gateway]
+        MK300[MK-300 5G Hub]
+        AMR[AMR-100 Robot]
+        MK500[MK-500 Edge AI]
+    end
+  
+    subgraph Cloud["MekongOS Cloud (Mekong DC)"]
+        MQTT[MQTT Broker<br/>EMQX Cluster]
+        TS[Time-Series DB<br/>InfluxDB / TimescaleDB]
+        API[RESTful API<br/>Node.js / Go]
+        AI[AI Engine<br/>TensorFlow Serving]
+        Dashboard[Dashboard<br/>React + Grafana]
+        Fleet[Fleet Manager<br/>for AMR-100]
+    end
+  
+    subgraph Integration["Integration Layer"]
+        ERP[ERP Connector<br/>SAP / Oracle]
+        SCADA[SCADA Bridge<br/>OPC-UA]
+        BI[BI Analytics<br/>Power BI / Metabase]
+    end
+  
+    O1 --> MQTT
+    MK300 --> MQTT
+    AMR --> Fleet
+    MK500 --> AI
+    MQTT --> TS
+    TS --> API
+    API --> Dashboard
+    API --> FIN
+    API --> SCADA
+    AI --> API
+    Fleet --> API
+    API --> BI

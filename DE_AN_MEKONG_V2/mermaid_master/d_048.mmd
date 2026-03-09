@@ -1,0 +1,16 @@
+graph TB
+    INPUT["INPUT 150 m3/ngay quota"] --> PROC["NUOC PROCESS<br/>~120 m3/ngay"]
+    INPUT --> SH["NUOC SINH HOAT<br/>~15 m3/ngay"]
+    PROC --> CT2["Cooling Tower<br/>80 m3/d"]
+    PROC --> CNC2["CNC Coolant<br/>20 m3/d"]
+    PROC --> SMT2["SMT Process<br/>10 m3/d"]
+    SH --> SAN["Sanitary<br/>15 m3/d"]
+    CT2 -->|"Evap 60 m3"| EVAP["Bay hoi"]
+    CT2 -->|"Blowdown 20 m3"| XLNT["XLNT"]
+    CNC2 -->|"ZLD 95% — 19 m3 recovered"| RCY["Recycled"]
+    CNC2 -->|"Solid 1 m3"| WASTE["Chat thai ran"]
+    SMT2 -->|"Recycle 80% = 8 m3"| RCY
+    SMT2 -->|"XLNT 2 m3"| XLNT
+    SAN -->|"XLNT 15 m3"| XLNT
+
+    SUMMARY["TONG: Input 135 | Evap 60 | Thai 37 | Recycled 27 | Losses 10"]

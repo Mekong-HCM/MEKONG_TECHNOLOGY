@@ -1,0 +1,29 @@
+graph TB
+    subgraph PLANT["XUONG CNC 4.000 m2 — MAT BANG TONG THE"]
+
+            MAT["NGUYEN LIEU KHO<br/>200 m2"]
+            RD["Receiving Dock"]
+            SD["SHIPPING DOCK"]
+            A1["DMU65 x4<br/>DMU85 x2<br/>DMU100 x1"]
+            A2["a51nx x3<br/>HMC 4-axis"]
+            B1["DVF5000 x3<br/>DVF6500 x2"]
+            B2["DNM650 x6<br/>3-axis"]
+            C1["Puma 2600SY x3<br/>Puma 3100LY x2"]
+            E1["Sodick ALC600G"]
+            E2["Mitsubishi MV1200R"]
+            CMM2["CMM Room 80 m2<br/>20 +/- 0,5 C"]
+            GOM["GOM ATOS 3D Scan<br/>40 m2"]
+            GAUGE["Surface / Hardness<br/>Gauges"]
+            TC["TOOL CRIB 80 m2<br/>Zoller + ToolBOSS x2"]
+            CAD["CAD/CAM ROOM 60 m2<br/>20 workstations"]
+            CL["Cleaning"] --> AR["Anti-rust Coating"] --> PK["Packing"]
+        SHOW["CUSTOMER SHOWROOM<br/>40 m2 — Glass wall"]
+    end
+    MAT -->|"Material Flow West to East"| A1
+    A1 --> B1 --> C1
+    A1 --> E1
+    C1 --> CL
+    E1 --> CL
+    A1 --> CMM2
+    B1 --> CMM2
+    CL --> SD

@@ -1,0 +1,5 @@
+graph TB
+    CT["COOLING TOWER<br/>4 Cell N+1<br/>Evaporative + Free Cooling"] -->|"Condenser Water 32/37°C"| CP["CHILLER SHOW<br/>3 x 500 kW<br/>Water-cooled N+1"]
+    CP -->|"Chilled Water 7/12°C"| SPLIT{" "}
+    SPLIT --> Z1["ZONE 1 — Colo<br/>In-Row CRAH<br/>+ Rear-Door HEX"]
+    SPLIT --> Z2["ZONE 2 — AI/HPC<br/>CDU Liquid Cooling<br/>+ Rear-Door HEX<br/>Direct-to-Chip"]

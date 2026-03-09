@@ -1,0 +1,35 @@
+graph TD
+    subgraph INPUT["NGUON NUOC THAI"]
+        KA["Khoi A — DC<br/>Blowdown 5-10 m3/ngay"]
+        KB["Khoi B — CNC<br/>NT SX 10-16 m3/ngay"]
+        KC["Khoi C — SMT<br/>NT SX 1,8 m3/ngay"]
+    end
+
+    KA --> TH["Trung hoa pH"]
+    TH --> CHUNG
+
+    KB --> ZLD
+
+    subgraph ZLD["HE THONG ZLD RIENG — Khoi B"]
+        OWS["Oil-Water Separator"] --> CR["Cr VI Reduction<br/>Na2SO3"]
+        CR --> KEO["Keo tu<br/>PAC + FeCl3"]
+        KEO --> LANG["Lang + Filter Press"]
+        LANG -->|"Bun KLN"| CTNH1["CTNH"]
+        LANG --> UF["UF Ultrafiltration"]
+        UF --> RO["RO Reverse Osmosis"]
+        RO --> EVAP["Evaporator co dac"]
+        EVAP -->|"Brine"| CTNH2["CTNH"]
+    end
+
+    RO -->|"Nuoc RO — TAI SU DUNG 95%"| REUSE["Tai su dung"]
+
+    KC --> CHUNG
+
+    subgraph CHUNG["XLNT CHUNG — 40 m3/ngay"]
+        BDH["Be dieu hoa 10 m3"] --> SBR["SBR Aerobic 20 m3"]
+        SBR --> LANG2["Lang 8 m3"]
+        LANG2 --> LOC["Loc cat 5 m3/h"]
+        LOC --> KHU["Khu trung UV + Chlorine"]
+    end
+
+    KHU --> XA["Xa he thong KCNC<br/>DAT QCVN 40 Cot A"]
