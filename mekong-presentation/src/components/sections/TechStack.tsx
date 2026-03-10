@@ -15,8 +15,8 @@ export function TechStack() {
         <SectionLayout id="tech-stack">
             <div ref={ref}>
                 <motion.div initial={{ opacity: 0, y: 30 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6 }}>
-                    <h2 className="section-title text-white">Kien truc <span className="gradient-text">Cong nghe</span></h2>
-                    <p className="section-subtitle">5 tang — Tu ARM Cortex den MekongOS Cloud Platform</p>
+                    <h2 className="section-title text-white">Kiến trúc <span className="gradient-text">Công nghệ</span></h2>
+                    <p className="section-subtitle">5 tầng — Từ ARM Cortex đến MekongOS Cloud Platform</p>
                 </motion.div>
 
                 <div className="space-y-3">
@@ -53,7 +53,7 @@ export function TechStack() {
                 <motion.div initial={{ opacity: 0 }} animate={isInView ? { opacity: 1 } : {}} transition={{ delay: 0.5, duration: 0.5 }}
                     className="mt-4 text-center text-[10px] text-gray-500"
                 >
-                    13 giao thuc cong nghiep — Tuong thich 16 san pham — ROS2 ready
+                    13 giao thức công nghiệp — Tương thích 16 sản phẩm — ROS2 ready
                 </motion.div>
             </div>
         </SectionLayout>

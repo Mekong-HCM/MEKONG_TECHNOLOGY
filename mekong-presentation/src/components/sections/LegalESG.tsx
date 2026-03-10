@@ -36,7 +36,7 @@ export function LegalESG() {
                                 </div>
                             ))}
                         </div>
-                        <div className="mt-3 text-xs text-gray-500 text-center">Tong {legal.totalPermits} giay phep · Chi phi ~{legal.legalCost}</div>
+                        <div className="mt-3 text-xs text-gray-500 text-center">Tổng {legal.totalPermits} giấy phép · Chi phí ~{legal.legalCost}</div>
                         </GlassCard>
                     </motion.div>
 
@@ -66,7 +66,7 @@ export function LegalESG() {
                 {/* ESG Feature Image */}
                 <motion.div initial={{ opacity: 0, y: 20 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5, delay: 0.35 }} className="mb-8">
                     <GlassCard className="p-3 overflow-hidden max-w-2xl mx-auto">
-                        <OptimizedImage {...images['esg-01']} placeholderLabel="Solar Rooftop — Nha may" placeholderColor="#76FF03" />
+                        <OptimizedImage {...images['esg-01']} placeholderLabel="Mái pin năng lượng mặt trời" placeholderColor="#76FF03" />
                     </GlassCard>
                 </motion.div>
 

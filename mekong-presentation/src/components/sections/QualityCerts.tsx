@@ -12,8 +12,8 @@ export function QualityCerts() {
         <SectionLayout id="quality">
             <div ref={ref}>
                 <motion.div initial={{ opacity: 0, y: 30 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6 }}>
-                    <h2 className="section-title text-white">Chung nhan <span className="gradient-text">Chat luong & Tieu chuan</span></h2>
-                    <p className="section-subtitle">Lo trinh chung nhan 3 nam — Tu ISO 9001 den AS9100D (dau tien tai VN)</p>
+                    <h2 className="section-title text-white">Chứng nhận <span className="gradient-text">Chất lượng & Tiêu chuẩn</span></h2>
+                    <p className="section-subtitle">Lộ trình chứng nhận 3 năm — Từ ISO 9001 đến AS9100D (đầu tiên tại VN)</p>
                 </motion.div>
 
                 {/* AS9100 Highlight */}
@@ -25,7 +25,7 @@ export function QualityCerts() {
                             <Award size={20} className="text-red-400 mt-0.5 flex-shrink-0" />
                             <div>
                                 <p className="text-sm font-bold text-white">{as9100Note}</p>
-                                <p className="text-[10px] text-gray-400 mt-1">AS9100 Rev D — Tieu chuan hang khong vu tru quoc te</p>
+                                <p className="text-[10px] text-gray-400 mt-1">AS9100 Rev D — Tiêu chuẩn hàng không vũ trụ quốc tế</p>
                             </div>
                         </div>
                     </GlassCard>
@@ -63,8 +63,8 @@ export function QualityCerts() {
                             {[
                                 { label: 'Uptime', value: dcTierIII.uptime, color: 'text-green-400' },
                                 { label: 'Max downtime', value: dcTierIII.maxDowntime, color: 'text-yellow-400' },
-                                { label: 'Tieu chuan', value: dcTierIII.standard, color: 'text-blue-400' },
-                                { label: 'Du phong', value: dcTierIII.redundancy, color: 'text-neon-magenta' },
+                                { label: 'Tiêu chuẩn', value: dcTierIII.standard, color: 'text-blue-400' },
+                                { label: 'Dự phòng', value: dcTierIII.redundancy, color: 'text-neon-magenta' },
                             ].map((item, i) => (
                                 <div key={i} className="p-2 rounded-lg bg-white/5">
                                     <div className={`text-sm font-bold ${item.color}`}>{item.value}</div>

@@ -84,7 +84,7 @@ export function FinancialOverview() {
                                 </thead>
                                 <tbody>
                                     <tr className="border-b border-white/5">
-                                        <td className="py-2 text-gray-300">DT Luy ke 15Y</td>
+                                        <td className="py-2 text-gray-300">DT Lũy kế 15Y</td>
                                         {financials.scenarios.map((s, i) => <td key={i} className="text-right py-2 text-white font-semibold">{s.revenue15Y}M</td>)}
                                     </tr>
                                     <tr className="border-b border-white/5">
@@ -96,7 +96,7 @@ export function FinancialOverview() {
                                         {financials.scenarios.map((s, i) => <td key={i} className="text-right py-2 text-white font-semibold">{s.irr50}%</td>)}
                                     </tr>
                                     <tr className="border-b border-white/5">
-                                        <td className="py-2 text-gray-300">Payback</td>
+                                        <td className="py-2 text-gray-300">Hoàn vốn</td>
                                         {financials.scenarios.map((s, i) => <td key={i} className="text-right py-2 text-white font-semibold">{s.payback}Y</td>)}
                                     </tr>
                                     <tr>
@@ -122,7 +122,7 @@ export function FinancialOverview() {
                                 <XAxis type="number" tick={{ fill: '#999', fontSize: 10 }} axisLine={false} tickLine={false} domain={[-8, 8]} />
                                 <YAxis type="category" dataKey="name" tick={{ fill: '#ccc', fontSize: 11 }} axisLine={false} tickLine={false} width={70} />
                                 <Tooltip
-                                    contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '11px' }}
+                                    contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '11px', color: '#fff' }}
                                 />
                                 <Bar dataKey="negative" name="Giảm 20%" stackId="a" fill="#E040FB" radius={[6, 0, 0, 6]} barSize={18} />
                                 <Bar dataKey="positive" name="Tăng 20%" stackId="a" fill="#00E5FF" radius={[0, 6, 6, 0]} barSize={18} />
@@ -140,11 +140,11 @@ export function FinancialOverview() {
                     className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3"
                 >
                     {[
-                        { label: 'CAPEX Tong', value: '47,50M', color: '#FF9100' },
-                        { label: 'Breakeven', value: 'Y8-Y9', color: '#76FF03' },
+                        { label: 'CAPEX Tổng', value: '47,50M', color: '#FF9100' },
+                        { label: 'Hòa vốn', value: 'Y8-Y9', color: '#76FF03' },
                         { label: 'DSCR Min', value: '4,91x', color: '#00E5FF' },
                         { label: 'Monte Carlo P(NPV>0)', value: '65%', color: '#E040FB' },
-                        { label: 'DT Luy ke 15Y', value: '~165M', color: '#00E5FF' },
+                        { label: 'DT Lũy kế 15Y', value: '~165M', color: '#00E5FF' },
                         { label: 'Equity IRR', value: '~18,5%', color: '#FF9100' },
                     ].map((item, i) => (
                         <GlassCard key={i} className="p-4 text-center">
@@ -162,11 +162,11 @@ export function FinancialOverview() {
                     className="mt-8"
                 >
                     <GlassCard className="p-6">
-                        <h4 className="text-lg font-semibold text-white mb-4">Hoa von theo Tru cot (Cumulative P&L)</h4>
+                        <h4 className="text-lg font-semibold text-white mb-4">Hòa vốn theo Trụ cột (Lãi/Lỗ Lũy kế)</h4>
                         <div className="grid sm:grid-cols-3 gap-4">
                             {[
                                 { bu: 'IoT & Robotics', breakeven: 'Y7', capex: '3,07M', peakLoss: '-1,2M', color: '#00E5FF' },
-                                { bu: 'CNC Sieu Chinh Xac', breakeven: 'Y10', capex: '13,25M', peakLoss: '-5,8M', color: '#E040FB' },
+                                { bu: 'CNC Siêu Chính Xác', breakeven: 'Y10', capex: '13,25M', peakLoss: '-5,8M', color: '#E040FB' },
                                 { bu: 'Datacenter & AI', breakeven: 'Y14', capex: '11,92M', peakLoss: '-8,1M', color: '#76FF03' },
                             ].map((item, i) => (
                                 <div key={i} className="relative p-4 rounded-xl bg-white/[0.03] border border-white/5 overflow-hidden">
@@ -174,8 +174,8 @@ export function FinancialOverview() {
                                     <div className="text-sm font-bold mb-3" style={{ color: item.color }}>{item.bu}</div>
                                     <div className="space-y-1.5 text-xs">
                                         <div className="flex justify-between"><span className="text-gray-400">CAPEX</span><span className="text-white font-semibold">{item.capex} USD</span></div>
-                                        <div className="flex justify-between"><span className="text-gray-400">Peak cum. loss</span><span className="text-red-400 font-semibold">{item.peakLoss}</span></div>
-                                        <div className="flex justify-between"><span className="text-gray-400">Hoa von</span><span className="font-bold" style={{ color: item.color }}>{item.breakeven}</span></div>
+                                        <div className="flex justify-between"><span className="text-gray-400">Đỉnh lỗ lũy kế</span><span className="text-red-400 font-semibold">{item.peakLoss}</span></div>
+                                        <div className="flex justify-between"><span className="text-gray-400">Hòa vốn</span><span className="font-bold" style={{ color: item.color }}>{item.breakeven}</span></div>
                                     </div>
                                 </div>
                             ))}

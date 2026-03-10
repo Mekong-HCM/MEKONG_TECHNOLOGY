@@ -9,14 +9,14 @@ import { KPICard } from '../ui/KPICard';
 
 const pieData = [
     { name: 'Vốn CSH', value: financials.capex.equity, color: '#00E5FF' },
-    { name: 'Vay NH', value: financials.capex.debt, color: '#E040FB' },
+    { name: 'Vay NH (từ Y10)', value: financials.capex.debt, color: '#E040FB' },
 ];
 
 const kpis = [
-    { label: 'Doanh thu Nam Y10', value: financials.kpis.revenueY10, suffix: 'M USD', color: '#00E5FF' },
-    { label: 'Doanh thu Nam Y15', value: financials.kpis.revenueY15, suffix: 'M USD', color: '#4dd2ff' },
+    { label: 'Doanh thu Năm Y10', value: financials.kpis.revenueY10, suffix: 'M USD', color: '#00E5FF' },
+    { label: 'Doanh thu Năm Y15', value: financials.kpis.revenueY15, suffix: 'M USD', color: '#4dd2ff' },
     { label: 'NPV (50Y, WACC 12%)', value: financials.kpis.npv50, suffix: 'M USD', color: '#76FF03' },
-    { label: 'IRR Du an (50Y)', value: financials.kpis.irr50, suffix: '%', color: '#E040FB' },
+    { label: 'IRR Dự án (50Y)', value: financials.kpis.irr50, suffix: '%', color: '#E040FB' },
     { label: 'Equity IRR (Leveraged)', value: 18.5, suffix: '%', color: '#FF9100' },
     { label: 'DSCR Min (YC: >1,3x)', value: financials.kpis.dscrMin, suffix: 'x', color: '#00E5FF' },
 ];
@@ -34,7 +34,7 @@ export function ExecutiveSummary() {
                 >
                     <h2 className="section-title text-white">Tóm tắt <span className="gradient-text">Điều hành</span></h2>
                     <p className="section-subtitle">
-                        Du an ha tang cong nghe tich hop 47,50M USD — 3 tru cot cong huong — tu chu von 100% trong 10 nam dau.
+                        Dự án hạ tầng công nghệ tích hợp 47,50M USD — 3 trụ cột cộng hưởng — tự chủ vốn 100% trong 10 năm đầu.
                     </p>
                 </motion.div>
 
@@ -42,7 +42,7 @@ export function ExecutiveSummary() {
                 <div className="grid md:grid-cols-3 gap-6 mb-12">
                     {[
                         { title: 'IoT & Robotics', desc: 'Gateway MK-200/300, Robot AMR, MekongOS Platform', color: '#00E5FF', Icon: Cpu },
-                        { title: 'CNC Sieu Chinh Xac', desc: '28 may DMG MORI 5 truc, AS9100, Aerospace Grade', color: '#E040FB', Icon: Cog },
+                        { title: 'CNC Siêu Chính Xác', desc: '28 máy DMG MORI 5 trục, AS9100, Aerospace Grade', color: '#E040FB', Icon: Cog },
                         { title: 'Datacenter & AI', desc: 'Tier III, 100 Rack, GPU-as-a-Service, PUE 1,32', color: '#76FF03', Icon: Server },
                     ].map((pillar, i) => (
                         <motion.div
@@ -92,7 +92,7 @@ export function ExecutiveSummary() {
                                     ))}
                                 </Pie>
                                 <Tooltip
-                                    contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '12px' }}
+                                    contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '12px', color: '#fff' }}
                                     formatter={(value: number) => [`${value}M USD`, '']}
                                 />
                             </PieChart>
@@ -119,14 +119,14 @@ export function ExecutiveSummary() {
                     <GlassCard className="p-6" accentColor="#76FF03">
                         <h4 className="text-sm font-bold text-white mb-4 flex items-center gap-2">
                             <Landmark size={16} className="text-green-400" />
-                            Loi ich cho KCNC TP.HCM
+                            Lợi ích cho KCNC TP.HCM
                         </h4>
                         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
                             {[
-                                { Icon: Users, label: '300+ viec lam chat luong', desc: 'Luong 25-45K USD/nam, dao tao tai cho', color: '#00E5FF' },
-                                { Icon: GraduationCap, label: 'Chuyen giao cong nghe', desc: 'Hop tac DH Bach Khoa, RMIT, chuyen gia Nhat/Duc', color: '#E040FB' },
-                                { Icon: Banknote, label: 'Dong gop thue va phi', desc: 'Phi thue dat + thue TNDN sau uu dai', color: '#76FF03' },
-                                { Icon: Cpu, label: 'Chuoi cung ung noi dia', desc: 'Nha cung cap phu tro, dich vu ky thuat tai KCNC', color: '#FF9100' },
+                                { Icon: Users, label: '300+ việc làm chất lượng', desc: 'Lương 25-45K USD/năm, đào tạo tại chỗ', color: '#00E5FF' },
+                                { Icon: GraduationCap, label: 'Chuyển giao công nghệ', desc: 'Hợp tác ĐH Bách Khoa, RMIT, chuyên gia Nhật/Đức', color: '#E040FB' },
+                                { Icon: Banknote, label: 'Đóng góp thuế và phí', desc: 'Phí thuê đất + thuế TNDN sau ưu đãi', color: '#76FF03' },
+                                { Icon: Cpu, label: 'Chuỗi cung ứng nội địa', desc: 'Nhà cung cấp phụ trợ, dịch vụ kỹ thuật tại KCNC', color: '#FF9100' },
                             ].map((b, i) => (
                                 <div key={i} className="flex items-start gap-3">
                                     <b.Icon size={18} style={{ color: b.color }} className="flex-shrink-0 mt-0.5" />

@@ -45,7 +45,7 @@ html {
 }
 
 body {
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: 'Be Vietnam Pro', 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
   background-color: var(--dark-bg);
   color: #e0e0e0;
   -webkit-font-smoothing: antialiased;

@@ -13,7 +13,7 @@ export function HeroSection() {
                     src={images['loc-01'].src}
                     alt={images['loc-01'].alt}
                     lazy={false}
-                    placeholderLabel="KCNC TP.HCM — Aerial View"
+                    placeholderLabel="KCNC TP.Hồ Chí Minh — Ảnh vệ tinh"
                     placeholderColor="#00E5FF"
                     aspectRatio="auto"
                     className="w-full h-full object-cover"
@@ -79,10 +79,10 @@ export function HeroSection() {
                     className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12 max-w-3xl mx-auto"
                 >
                     {[
-                        { value: '47,50M', label: 'USD Dau tu', Icon: DollarSign, color: '#00E5FF' },
-                        { value: '3', label: 'Tru cot', Icon: Layers, color: '#E040FB' },
+                        { value: '47,50M', label: 'USD Đầu tư', Icon: DollarSign, color: '#00E5FF' },
+                        { value: '3', label: 'Trụ cột', Icon: Layers, color: '#E040FB' },
                         { value: '1 ha', label: 'KCNC HCM', Icon: MapPin, color: '#76FF03' },
-                        { value: '300', label: 'Viec lam CNC', Icon: Users, color: '#FF9100' },
+                        { value: '300', label: 'Việc làm CNC', Icon: Users, color: '#FF9100' },
                     ].map((stat, i) => (
                         <GlassCard key={i} className="p-4">
                             <stat.Icon size={24} style={{ color: stat.color }} className="mb-1" />

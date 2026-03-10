@@ -2,31 +2,31 @@ import type { LegalData } from '../types';
 
 export const legal: LegalData = {
     permits: [
-        { name: 'IRC dieu chinh', agency: 'BQL KCNC', time: '15-25 ngay', status: 'Chuan bi' },
-        { name: 'DTM', agency: 'So TNMT', time: '30-45 ngay', status: 'Dang soan' },
-        { name: 'Tham duyet PCCC', agency: 'PC07', time: '20-30 ngay', status: 'Sau TK' },
-        { name: 'GP Xay dung', agency: 'BQL KCNC', time: '15-20 ngay', status: 'Ho so TK' },
-        { name: 'GP Vien thong', agency: 'Cuc VT', time: '20-30 ngay', status: 'Cho' },
-        { name: 'ISO 27001', agency: 'TUV/BSI', time: '6-12 thang', status: 'Y2' },
+        { name: 'IRC điều chỉnh', agency: 'BQL KCNC', time: '15-25 ngày', status: 'Chuẩn bị' },
+        { name: 'ĐTM', agency: 'Sở TNMT', time: '30-45 ngày', status: 'Đang soạn' },
+        { name: 'Thẩm duyệt PCCC', agency: 'PC07', time: '20-30 ngày', status: 'Sau TK' },
+        { name: 'GP Xây dựng', agency: 'BQL KCNC', time: '15-20 ngày', status: 'Hồ sơ TK' },
+        { name: 'GP Viễn thông', agency: 'Cục VT', time: '20-30 ngày', status: 'Chờ' },
+        { name: 'ISO 27001', agency: 'TUV/BSI', time: '6-12 tháng', status: 'Y2' },
     ],
     esg: [
         {
             title: 'Environment',
             color: '#76FF03',
             iconName: 'Leaf',
-            items: ['ZLD — 0 m\u00B3 xa thai', 'PUE < 1,35', 'Solar 500 kWp', 'Tai che >= 80%'],
+            items: ['ZLD — 0 m\u00B3 xả thải', 'PUE < 1,35', 'Pin mặt trời 500 kWp', 'Tái chế >= 80%'],
         },
         {
             title: 'Social',
             color: '#00E5FF',
             iconName: 'Users',
-            items: ['300 viec lam chat luong', '>= 40h dao tao/nam', 'Zero fatality', 'Hoc bong DH Bach Khoa'],
+            items: ['300 việc làm chất lượng', '>= 40h đào tạo/năm', 'Zero fatality', 'Học bổng ĐH Bách Khoa'],
         },
         {
             title: 'Governance',
             color: '#E040FB',
             iconName: 'Shield',
-            items: ['Kiem toan Big 4', 'Anti-bribery policy', 'Da dang >20% nu', 'Whistle-blower line'],
+            items: ['Kiểm toán Big 4', 'Anti-bribery policy', 'Đa dạng >20% nữ', 'Whistle-blower line'],
         },
     ],
     certPath: [

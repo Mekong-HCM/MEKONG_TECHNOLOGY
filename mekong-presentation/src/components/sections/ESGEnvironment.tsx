@@ -9,20 +9,20 @@ export function ESGEnvironment() {
     const { ref, isInView } = useInView(0.15);
 
     const highlights = [
-        { icon: Sun, label: 'Solar', value: esgMetrics.solar.capacity, sub: esgMetrics.solar.annual, color: '#f59e0b' },
-        { icon: Droplets, label: 'ZLD', value: esgMetrics.zld.status, sub: `Xa thai: ${esgMetrics.zld.discharge}`, color: '#3b82f6' },
+        { icon: Sun, label: 'Điện mặt trời', value: esgMetrics.solar.capacity, sub: esgMetrics.solar.annual, color: '#f59e0b' },
+        { icon: Droplets, label: 'ZLD', value: esgMetrics.zld.status, sub: `Xả thải: ${esgMetrics.zld.discharge}`, color: '#3b82f6' },
         { icon: Wind, label: 'PUE', value: esgMetrics.pue.design, sub: `vs VN avg ${esgMetrics.pue.vnAvg}`, color: '#06b6d4' },
-        { icon: Recycle, label: 'Waste Recycle', value: esgMetrics.waste.recycleTarget, sub: `CNC chips ${esgMetrics.waste.cncChips}`, color: '#22c55e' },
+        { icon: Recycle, label: 'Tái chế rác thải', value: esgMetrics.waste.recycleTarget, sub: `CNC chips ${esgMetrics.waste.cncChips}`, color: '#22c55e' },
         { icon: Leaf, label: 'GHG', value: esgMetrics.ghg.reduction, sub: esgMetrics.ghg.committed, color: '#76FF03' },
-        { icon: Droplets, label: 'Nuoc tai su dung', value: esgMetrics.water.recycleTarget, sub: 'RO condensate + cooling', color: '#8b5cf6' },
+        { icon: Droplets, label: 'Nước tái sử dụng', value: esgMetrics.water.recycleTarget, sub: 'RO condensate + cooling', color: '#8b5cf6' },
     ];
 
     return (
         <SectionLayout id="esg-env">
             <div ref={ref}>
                 <motion.div initial={{ opacity: 0, y: 30 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6 }}>
-                    <h2 className="section-title text-white">ESG & <span className="gradient-text">Moi truong</span></h2>
-                    <p className="section-subtitle">ZLD — Solar 2 MWp — GHG {esgMetrics.ghg.reduction} — Lo trinh Net-Zero</p>
+                    <h2 className="section-title text-white">ESG & <span className="gradient-text">Môi trường</span></h2>
+                    <p className="section-subtitle">ZLD — Điện mặt trời 2 MWp — GHG {esgMetrics.ghg.reduction} — Lộ trình Net-Zero</p>
                 </motion.div>
 
                 {/* KPI Cards */}
@@ -43,7 +43,7 @@ export function ESGEnvironment() {
                 <motion.div initial={{ opacity: 0, y: 20 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ delay: 0.35, duration: 0.5 }}>
                     <GlassCard className="p-4">
                         <h3 className="text-sm font-bold text-white mb-3 flex items-center gap-2">
-                            <Leaf size={14} className="text-green-400" /> Lo trinh giam phat thai GHG
+                            <Leaf size={14} className="text-green-400" /> Lộ trình giảm phát thải GHG
                         </h3>
                         <div className="flex items-center justify-between gap-2">
                             {esgMetrics.ghgRoadmap.map((step, i) => (
@@ -66,11 +66,11 @@ export function ESGEnvironment() {
                         </div>
                         <div className="mt-3 grid grid-cols-2 gap-2 text-[10px]">
                             <div className="p-2 rounded bg-white/5">
-                                <span className="text-gray-400">Baseline: </span>
+                                <span className="text-gray-400">Mức cơ sở: </span>
                                 <span className="text-white font-bold">{esgMetrics.ghg.baseline}</span>
                             </div>
                             <div className="p-2 rounded bg-white/5">
-                                <span className="text-gray-400">Target: </span>
+                                <span className="text-gray-400">Mục tiêu: </span>
                                 <span className="text-green-400 font-bold">{esgMetrics.ghg.target}</span>
                             </div>
                         </div>

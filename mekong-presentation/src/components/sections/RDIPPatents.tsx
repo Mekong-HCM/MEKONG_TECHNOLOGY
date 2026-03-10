@@ -22,8 +22,8 @@ export function RDIPPatents() {
                     <span className="inline-block px-3 py-1 rounded-full text-[10px] font-medium uppercase tracking-widest border border-yellow-400/30 text-yellow-400/80 bg-yellow-400/5 mb-4">
                         R&D 3/3
                     </span>
-                    <h2 className="section-title text-white">So huu Tri tue & <span className="gradient-text">Hop tac Cong nghe</span></h2>
-                    <p className="section-subtitle">20-25 bang sang che muc tieu 10 nam — Hop tac voi 6 doi tac quoc te va trong nuoc</p>
+                    <h2 className="section-title text-white">Sở hữu Trí tuệ & <span className="gradient-text">Hợp tác Công nghệ</span></h2>
+                    <p className="section-subtitle">20-25 bằng sáng chế mục tiêu 10 năm — Hợp tác với 6 đối tác quốc tế và trong nước</p>
                 </motion.div>
 
                 <div className="grid md:grid-cols-2 gap-4 mb-6">
@@ -32,7 +32,7 @@ export function RDIPPatents() {
                         <GlassCard className="p-5 h-full">
                             <h4 className="text-sm font-bold text-white mb-4 flex items-center gap-2">
                                 <FileText size={16} className="text-yellow-400" />
-                                Muc tieu So huu Tri tue
+                                Mục tiêu Sở hữu Trí tuệ
                             </h4>
                             <div className="space-y-3">
                                 {ipTargets.map((ip, i) => (
@@ -41,18 +41,18 @@ export function RDIPPatents() {
                                         <div className="flex gap-4">
                                             <div className="text-center">
                                                 <div className="text-sm font-bold text-neon-cyan">{ip.fiveYear}</div>
-                                                <div className="text-[9px] text-gray-500">5 nam</div>
+                                                <div className="text-[9px] text-gray-500">5 năm</div>
                                             </div>
                                             <div className="text-center">
                                                 <div className="text-sm font-bold text-neon-magenta">{ip.tenYear}</div>
-                                                <div className="text-[9px] text-gray-500">10 nam</div>
+                                                <div className="text-[9px] text-gray-500">10 năm</div>
                                             </div>
                                         </div>
                                     </div>
                                 ))}
                             </div>
                             <div className="mt-4 p-3 rounded-lg bg-yellow-400/5 border border-yellow-400/10">
-                                <div className="text-xs text-yellow-400/80">IP la rao can canh tranh ben vung — Doi thu can 3-5 nam de sao chep</div>
+                                <div className="text-xs text-yellow-400/80">IP là rào cản cạnh tranh bền vững — Đối thủ cần 3-5 năm để sao chép</div>
                             </div>
                         </GlassCard>
                     </motion.div>
@@ -62,7 +62,7 @@ export function RDIPPatents() {
                         <GlassCard className="p-5 h-full">
                             <h4 className="text-sm font-bold text-white mb-4 flex items-center gap-2">
                                 <Handshake size={16} className="text-neon-cyan" />
-                                Doi tac Chuyen giao Cong nghe
+                                Đối tác Chuyển giao Công nghệ
                             </h4>
                             <div className="space-y-2">
                                 {partnerships.map((p, i) => {

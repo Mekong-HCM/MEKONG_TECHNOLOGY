@@ -12,8 +12,8 @@ export function CompetitiveAnalysis() {
         <SectionLayout id="competitive">
             <div ref={ref}>
                 <motion.div initial={{ opacity: 0, y: 30 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6 }}>
-                    <h2 className="section-title text-white">Phan tich <span className="gradient-text">Canh tranh</span></h2>
-                    <p className="section-subtitle">Rao can gia nhap ben vung (MOAT) — Doi thu can ≥100M USD va 5 nam de sao chep</p>
+                    <h2 className="section-title text-white">Phân tích <span className="gradient-text">Cạnh tranh</span></h2>
+                    <p className="section-subtitle">Rào cản gia nhập bền vững (MOAT) — Đối thủ cần ≥100M USD và 5 năm để sao chép</p>
                 </motion.div>
 
                 {/* Competitor table */}
@@ -21,16 +21,16 @@ export function CompetitiveAnalysis() {
                     <GlassCard className="p-4 mb-6 overflow-x-auto">
                         <div className="flex items-center gap-2 mb-3">
                             <Swords size={16} className="text-neon-magenta" />
-                            <h4 className="text-sm font-bold text-white">So sanh doi thu</h4>
+                            <h4 className="text-sm font-bold text-white">So sánh đối thủ</h4>
                         </div>
                         <table className="w-full text-xs">
                             <thead>
                                 <tr className="border-b border-white/10">
-                                    <th className="text-left py-2 px-2 text-gray-400">Doi thu</th>
+                                    <th className="text-left py-2 px-2 text-gray-400">Đối thủ</th>
                                     <th className="text-right py-2 px-2 text-gray-400">IoT</th>
                                     <th className="text-right py-2 px-2 text-gray-400">Robot</th>
-                                    <th className="text-left py-2 px-2 text-gray-400">Diem manh</th>
-                                    <th className="text-left py-2 px-2 text-gray-400">Diem yeu</th>
+                                    <th className="text-left py-2 px-2 text-gray-400">Điểm mạnh</th>
+                                    <th className="text-left py-2 px-2 text-gray-400">Điểm yếu</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -53,7 +53,7 @@ export function CompetitiveAnalysis() {
                     <motion.div initial={{ opacity: 0, x: -20 }} animate={isInView ? { opacity: 1, x: 0 } : {}} transition={{ delay: 0.2, duration: 0.5 }}>
                         <GlassCard className="p-5 h-full">
                             <h4 className="text-sm font-bold text-white mb-3 flex items-center gap-2">
-                                <Shield size={16} className="text-neon-cyan" /> Loi the Mekong
+                                <Shield size={16} className="text-neon-cyan" /> Lợi thế Mekong
                             </h4>
                             <div className="space-y-3">
                                 {mekongAdvantages.map((adv, i) => (
@@ -76,7 +76,7 @@ export function CompetitiveAnalysis() {
                     <motion.div initial={{ opacity: 0, x: 20 }} animate={isInView ? { opacity: 1, x: 0 } : {}} transition={{ delay: 0.25, duration: 0.5 }}>
                         <GlassCard className="p-5 h-full">
                             <h4 className="text-sm font-bold text-white mb-3 flex items-center gap-2">
-                                <Lock size={16} className="text-yellow-400" /> Rao can MOAT
+                                <Lock size={16} className="text-yellow-400" /> Rào cản MOAT
                             </h4>
                             <div className="space-y-2">
                                 {moatLayers.map((m, i) => (

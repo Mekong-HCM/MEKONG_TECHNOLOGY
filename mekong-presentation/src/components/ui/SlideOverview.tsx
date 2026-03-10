@@ -91,7 +91,7 @@ export function SlideOverview({ isOpen, slides, currentSlide, onGoTo, onClose }:
                         </div>
 
                         <div className="mt-4 text-center text-[10px] text-gray-600">
-                            Bam vao slide de chuyen · Nhan ESC hoac G de dong
+                            Bấm vào slide để chuyển · Nhấn ESC hoặc G để đóng
                         </div>
                     </motion.div>
                 </motion.div>

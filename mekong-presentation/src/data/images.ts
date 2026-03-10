@@ -20,8 +20,8 @@ export const images: Record<string, ImageAsset> = {
     'cnc-03': { id: 'cnc-03', src: '/images/cnc/cnc-03-titanium-machining.jpg', alt: 'Gia cong titanium 5-axis chinh xac', category: 'cnc', color: '#E040FB', width: 600, height: 400 },
 
     // IoT
-    'iot-01': { id: 'iot-01', src: '/images/iot/iot-01-edge-gateway.jpg', alt: 'Industrial IoT edge gateway', category: 'iot', color: '#00E5FF', width: 600, height: 400 },
-    'iot-03': { id: 'iot-03', src: '/images/iot/iot-03-amr-robot.jpg', alt: 'AMR robot tu hanh trong nha kho', category: 'iot', color: '#00E5FF', width: 800, height: 500 },
+    'iot-01': { id: 'iot-01', src: '/images/iot/iot-01-edge-gateway.png', alt: 'Industrial IoT edge gateway', category: 'iot', color: '#00E5FF', width: 1200, height: 800 },
+    'iot-03': { id: 'iot-03', src: '/images/iot/iot-03-amr-robot.png', alt: 'AMR robot tu hanh trong nha kho', category: 'iot', color: '#00E5FF', width: 800, height: 500 },
 
     // Datacenter
     'dc-01': { id: 'dc-01', src: '/images/dc/dc-01-server-racks.jpg', alt: 'Server rack rows — datacenter', category: 'dc', color: '#76FF03', width: 1200, height: 600 },
@@ -30,4 +30,7 @@ export const images: Record<string, ImageAsset> = {
 
     // Location
     'loc-01': { id: 'loc-01', src: '/images/location/loc-01-kcnc-aerial.jpg', alt: 'Anh ve tinh KCNC TP.HCM', category: 'location', color: '#00E5FF', width: 1200, height: 800 },
+
+    // ESG
+    'esg-01': { id: 'esg-01', src: '/images/esg/esg-01-solar-rooftop.jpg', alt: 'Mái pin năng lượng mặt trời nhà máy', category: 'esg', color: '#76FF03', width: 1200, height: 600 },
 };

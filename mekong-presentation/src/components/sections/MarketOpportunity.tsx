@@ -64,13 +64,13 @@ export function MarketOpportunity() {
                         transition={{ duration: 0.6, delay: 0.3 }}
                     >
                         <GlassCard className="p-6 h-full">
-                        <h4 className="text-lg font-semibold text-white mb-6">Thi truong Viet Nam 2028</h4>
+                        <h4 className="text-lg font-semibold text-white mb-6">Thị trường Việt Nam 2028</h4>
                         <ResponsiveContainer width="100%" height={250}>
                             <BarChart data={vnData} layout="vertical" margin={{ left: 10 }}>
                                 <XAxis type="number" tick={{ fill: '#999', fontSize: 11 }} axisLine={false} tickLine={false} unit="B" />
                                 <YAxis type="category" dataKey="name" tick={{ fill: '#ccc', fontSize: 12 }} axisLine={false} tickLine={false} width={80} />
                                 <Tooltip
-                                    contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '12px' }}
+                                    contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '12px', color: '#fff' }}
                                     formatter={(v: number) => [`${v} B USD`]}
                                     cursor={{ fill: 'rgba(255,255,255,0.03)' }}
                                 />
@@ -91,13 +91,13 @@ export function MarketOpportunity() {
                         transition={{ duration: 0.6, delay: 0.4 }}
                     >
                         <GlassCard className="p-6 h-full">
-                        <h4 className="text-lg font-semibold text-white mb-6">Phan tich SWOT</h4>
+                        <h4 className="text-lg font-semibold text-white mb-6">Phân tích SWOT</h4>
                         <div className="grid grid-cols-2 gap-3">
                             {[
-                                { title: 'Strengths', items: market.swot.strengths.slice(0, 3), color: '#76FF03', bg: 'rgba(118,255,3,0.08)' },
-                                { title: 'Weaknesses', items: market.swot.weaknesses.slice(0, 3), color: '#FF9100', bg: 'rgba(255,145,0,0.08)' },
-                                { title: 'Opportunities', items: market.swot.opportunities.slice(0, 3), color: '#00E5FF', bg: 'rgba(0,229,255,0.08)' },
-                                { title: 'Threats', items: market.swot.threats.slice(0, 3), color: '#E040FB', bg: 'rgba(224,64,251,0.08)' },
+                                { title: 'Điểm mạnh', items: market.swot.strengths.slice(0, 3), color: '#76FF03', bg: 'rgba(118,255,3,0.08)' },
+                                { title: 'Điểm yếu', items: market.swot.weaknesses.slice(0, 3), color: '#FF9100', bg: 'rgba(255,145,0,0.08)' },
+                                { title: 'Cơ hội', items: market.swot.opportunities.slice(0, 3), color: '#00E5FF', bg: 'rgba(0,229,255,0.08)' },
+                                { title: 'Thách thức', items: market.swot.threats.slice(0, 3), color: '#E040FB', bg: 'rgba(224,64,251,0.08)' },
                             ].map((quad, i) => (
                                 <div key={i} className="rounded-xl p-3" style={{ background: quad.bg, border: `1px solid ${quad.color}20` }}>
                                     <h5 className="text-xs font-bold uppercase tracking-wider mb-2" style={{ color: quad.color }}>{quad.title}</h5>
@@ -120,20 +120,20 @@ export function MarketOpportunity() {
                     transition={{ duration: 0.6, delay: 0.5 }}
                 >
                     <GlassCard className="p-6">
-                        <h4 className="text-lg font-semibold text-white mb-2">Dinh vi Canh tranh — Do phuc tap vs. Quy mo</h4>
-                        <p className="text-xs text-gray-400 mb-4">Mekong chiem vi tri &quot;High Complexity, Niche Volume&quot; — it canh tranh truc tiep</p>
+                        <h4 className="text-lg font-semibold text-white mb-2">Định vị Cạnh tranh — Độ phức tạp vs. Quy mô</h4>
+                        <p className="text-xs text-gray-400 mb-4">Mekong chiếm vị trí &quot;High Complexity, Niche Volume&quot; — ít cạnh tranh trực tiếp</p>
                         <ResponsiveContainer width="100%" height={280}>
                             <ScatterChart margin={{ top: 10, right: 20, bottom: 20, left: 10 }}>
                                 <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.05)" />
-                                <XAxis type="number" dataKey="volume" name="Quy mo san xuat" domain={[0, 10]} tick={{ fill: '#999', fontSize: 10 }} axisLine={false} tickLine={false} label={{ value: 'Quy mo san xuat', position: 'bottom', fill: '#666', fontSize: 11 }} />
-                                <YAxis type="number" dataKey="complexity" name="Do phuc tap" domain={[0, 10]} tick={{ fill: '#999', fontSize: 10 }} axisLine={false} tickLine={false} label={{ value: 'Do phuc tap', angle: -90, position: 'insideLeft', fill: '#666', fontSize: 11 }} />
+                                <XAxis type="number" dataKey="volume" name="Quy mô sản xuất" domain={[0, 10]} tick={{ fill: '#999', fontSize: 10 }} axisLine={false} tickLine={false} label={{ value: 'Quy mô sản xuất', position: 'bottom', fill: '#666', fontSize: 11 }} />
+                                <YAxis type="number" dataKey="complexity" name="Độ phức tạp" domain={[0, 10]} tick={{ fill: '#999', fontSize: 10 }} axisLine={false} tickLine={false} label={{ value: 'Độ phức tạp', angle: -90, position: 'insideLeft', fill: '#666', fontSize: 11 }} />
                                 <ZAxis range={[120, 120]} />
                                 <Tooltip
-                                    contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '11px' }}
+                                    contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '11px', color: '#fff' }}
                                     formatter={(value: number, name: string) => [value, name]}
                                     labelFormatter={() => ''}
                                 />
-                                <Scatter name="Doi thu" data={market.positioning.competitors} fill="#666">
+                                <Scatter name="Đối thủ" data={market.positioning.competitors} fill="#666">
                                     {market.positioning.competitors.map((_, i) => (
                                         <Cell key={i} fill={['#888', '#888', '#aaa', '#aaa', '#777'][i]} />
                                     ))}

@@ -13,10 +13,10 @@ export function ProductOHT() {
             <div ref={ref}>
                 <motion.div initial={{ opacity: 0, y: 30 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6 }}>
                     <span className="inline-block px-3 py-1 rounded-full text-[10px] font-medium uppercase tracking-widest border border-neon-cyan/30 text-neon-cyan/80 bg-neon-cyan/5 mb-4">
-                        San Pham 3/3
+                        Sản Phẩm 3/3
                     </span>
                     <h2 className="section-title text-white">OHT-100 & <span className="gradient-text">MekongOS Platform</span></h2>
-                    <p className="section-subtitle">Robot OHT cho semiconductor fab + Nen tang IoT Cloud quan ly toan bo he sinh thai</p>
+                    <p className="section-subtitle">Robot OHT cho semiconductor fab + Nền tảng IoT Cloud quản lý toàn bộ hệ sinh thái</p>
                 </motion.div>
 
                 <div className="grid md:grid-cols-2 gap-4 mb-6">
@@ -87,7 +87,7 @@ export function ProductOHT() {
                     <GlassCard className="p-5">
                         <h4 className="text-sm font-bold text-white mb-3 flex items-center gap-2">
                             <Globe size={16} className="text-neon-cyan" />
-                            He sinh thai 5 lop — 21 san pham
+                            Hệ sinh thái 5 lớp — 21 sản phẩm
                         </h4>
                         <div className="space-y-1.5">
                             {ecosystemLayers.map((layer, i) => (

@@ -16,7 +16,7 @@ export const timeline: TimelineData = {
             period: 'Y2-Y5 (2027-2030)',
             budget: '8.50M',
             color: '#4dd2ff',
-            items: ['Kết cấu 3 tầng', 'MEP cơ bản', 'Solar PV 500 kWp', 'IoT Lab fit-out'],
+            items: ['Kết cấu 3 tầng', 'MEP cơ bản', 'Pin mặt trời 500 kWp', 'IoT Lab fit-out'],
         },
         {
             id: 'P2',

@@ -12,8 +12,8 @@ export function RiskAnalysis() {
         <SectionLayout id="risk">
             <div ref={ref}>
                 <motion.div initial={{ opacity: 0, y: 30 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6 }}>
-                    <h2 className="section-title text-white">Phan tich <span className="gradient-text">Rui ro & Monte Carlo</span></h2>
-                    <p className="section-subtitle">P(NPV&gt;0) = {monteCarlo.pNPVPositive} — {monteCarlo.iterations} mo phong — 4 kich ban</p>
+                    <h2 className="section-title text-white">Phân tích <span className="gradient-text">Rủi ro & Monte Carlo</span></h2>
+                    <p className="section-subtitle">P(NPV&gt;0) = {monteCarlo.pNPVPositive} — {monteCarlo.iterations} mô phỏng — 4 kịch bản</p>
                 </motion.div>
 
                 {/* Monte Carlo KPIs */}
@@ -35,10 +35,10 @@ export function RiskAnalysis() {
                 {/* Percentile Table */}
                 <motion.div initial={{ opacity: 0, y: 20 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ delay: 0.15, duration: 0.5 }}>
                     <GlassCard className="p-3 mb-4 overflow-x-auto">
-                        <h3 className="text-xs font-bold text-white mb-2 flex items-center gap-2"><BarChart3 size={12} className="text-neon-cyan" /> Phan vi Monte Carlo</h3>
+                        <h3 className="text-xs font-bold text-white mb-2 flex items-center gap-2"><BarChart3 size={12} className="text-neon-cyan" /> Phân vị Monte Carlo</h3>
                         <table className="w-full text-[10px]">
                             <thead><tr className="text-gray-400 border-b border-white/10">
-                                <th className="text-left py-1">Chi so</th>
+                                <th className="text-left py-1">Chỉ số</th>
                                 <th className="text-center py-1 text-red-400">P10</th>
                                 <th className="text-center py-1 text-yellow-400">P25</th>
                                 <th className="text-center py-1 text-green-400">P50</th>
@@ -68,7 +68,7 @@ export function RiskAnalysis() {
                     {scenarioAnalysis.map((s, i) => (
                         <GlassCard key={i} className="p-3 text-center" accentColor={s.color}>
                             <div className="text-[10px] font-bold" style={{ color: s.color }}>{s.scenario}</div>
-                            <div className="text-[9px] text-gray-400 mb-1">Xac suat: {s.prob}</div>
+                            <div className="text-[9px] text-gray-400 mb-1">Xác suất: {s.prob}</div>
                             <div className="space-y-1 text-[9px]">
                                 <div><span className="text-gray-400">Rev 15Y:</span> <span className="text-white font-bold">{s.revenue15Y}M</span></div>
                                 <div><span className="text-gray-400">NPV:</span> <span className="text-white font-bold">{s.npv50Y}M</span></div>
@@ -81,13 +81,13 @@ export function RiskAnalysis() {
                 {/* Top Risks */}
                 <motion.div initial={{ opacity: 0, y: 20 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ delay: 0.3, duration: 0.5 }}>
                     <GlassCard className="p-3 overflow-x-auto">
-                        <h3 className="text-xs font-bold text-white mb-2 flex items-center gap-2"><ShieldAlert size={12} className="text-red-400" /> Top 5 rui ro</h3>
+                        <h3 className="text-xs font-bold text-white mb-2 flex items-center gap-2"><ShieldAlert size={12} className="text-red-400" /> Top 5 rủi ro</h3>
                         <table className="w-full text-[10px]">
                             <thead><tr className="text-gray-400 border-b border-white/10">
                                 <th className="text-left py-1">ID</th>
-                                <th className="text-left py-1">Rui ro</th>
-                                <th className="text-center py-1">Diem</th>
-                                <th className="text-left py-1">Giam thieu</th>
+                                <th className="text-left py-1">Rủi ro</th>
+                                <th className="text-center py-1">Điểm</th>
+                                <th className="text-left py-1">Giảm thiểu</th>
                             </tr></thead>
                             <tbody>
                                 {topRisks.slice(0, 5).map((r, i) => (

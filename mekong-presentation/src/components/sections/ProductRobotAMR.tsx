@@ -21,10 +21,10 @@ export function ProductRobotAMR() {
             <div ref={ref}>
                 <motion.div initial={{ opacity: 0, y: 30 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6 }}>
                     <span className="inline-block px-3 py-1 rounded-full text-[10px] font-medium uppercase tracking-widest border border-neon-cyan/30 text-neon-cyan/80 bg-neon-cyan/5 mb-4">
-                        San Pham 2/3
+                        Sản Phẩm 2/3
                     </span>
                     <h2 className="section-title text-white">Robot <span className="gradient-text">AMR / AGV</span></h2>
-                    <p className="section-subtitle">Robot tu hanh cho nha may va kho van — LiDAR 3D, AI SLAM, Fleet Management tich hop</p>
+                    <p className="section-subtitle">Robot tự hành cho nhà máy và kho vận — LiDAR 3D, AI SLAM, Fleet Management tích hợp</p>
                 </motion.div>
 
                 {/* Robot selector */}
@@ -82,15 +82,15 @@ export function ProductRobotAMR() {
 
                         {/* Summary / Comparison */}
                         <GlassCard className="p-5">
-                            <h4 className="text-sm font-bold text-white mb-3">Tong quan san xuat</h4>
+                            <h4 className="text-sm font-bold text-white mb-3">Tổng quan sản xuất</h4>
                             <div className="space-y-3">
                                 <div className="p-3 rounded-xl bg-white/[0.03] border border-white/5 text-center">
                                     <div className="text-2xl font-extrabold text-neon-cyan">200</div>
-                                    <div className="text-[10px] text-gray-400">AMR bo/nam</div>
+                                    <div className="text-[10px] text-gray-400">AMR bộ/năm</div>
                                 </div>
                                 <div className="p-3 rounded-xl bg-white/[0.03] border border-white/5 text-center">
                                     <div className="text-2xl font-extrabold text-neon-magenta">100</div>
-                                    <div className="text-[10px] text-gray-400">AGV bo/nam</div>
+                                    <div className="text-[10px] text-gray-400">AGV bộ/năm</div>
                                 </div>
                                 <div className="p-3 rounded-xl bg-white/[0.03] border border-white/5 text-center">
                                     <div className="text-lg font-extrabold text-green-400">35-40%</div>
@@ -98,7 +98,7 @@ export function ProductRobotAMR() {
                                 </div>
                             </div>
                             <div className="mt-3 text-[10px] text-gray-500">
-                                Thay the MiR, Fetch Robotics, KUKA, Omron — gia re 20-30%
+                                Thay thế MiR, Fetch Robotics, KUKA, Omron — giá rẻ 20-30%
                             </div>
                         </GlassCard>
                     </div>

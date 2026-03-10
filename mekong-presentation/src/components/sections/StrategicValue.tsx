@@ -9,12 +9,12 @@ import { GlassCard } from '../ui/GlassCard';
 const colors = ['#00E5FF', '#4dd2ff', '#E040FB', '#76FF03', '#FF9100', '#00bfff', '#E040FB'];
 
 const methodologyNotes: Record<string, string> = {
-    'NPV (50Y, Base)': 'DCF 50 nam, WACC 12%, terminal value = 0',
-    'Brand & IP': 'SaaS multiple 3-5x + IP licensing + chung nhan quoc te (AS9100, IATF)',
-    'Ecosystem synergy': 'Gia tri cong huong 3 BU: CNC dung GPU cho CAM, DC phuc vu IoT analytics',
-    'Tax incentives': 'Mien TNDN 4 nam + giam 50% 9 nam. Gia tri hien tai theo luat KCNC [C]',
-    'Strategic location': 'Vi tri KCNC TP.HCM, gia thue thap hon 40% so voi KCN ngoai [B]',
-    'Human capital': 'Pool 300 nhan su, ESOP 3%, gia tri dao tao luy ke [C]',
+    'NPV (50Y, Base)': 'DCF 50 năm, WACC 12%, terminal value = 0',
+    'Brand & IP': 'SaaS multiple 3-5x + IP licensing + chứng nhận quốc tế (AS9100, IATF)',
+    'Ecosystem synergy': 'Giá trị cộng hưởng 3 BU: CNC dùng GPU cho CAM, DC phục vụ IoT analytics',
+    'Tax incentives': 'Miễn TNDN 4 năm + giảm 50% 9 năm. Giá trị hiện tại theo luật KCNC [C]',
+    'Strategic location': 'Vị trí KCNC TP.HCM, giá thuê thấp hơn 40% so với KCN ngoài [B]',
+    'Human capital': 'Pool 300 nhân sự, ESOP 3%, giá trị đào tạo lũy kế [C]',
     'ESG premium': 'PUE 1,32 + ZLD + Zero-fatality → valuation premium 5-10% [B]',
 };
 
@@ -34,13 +34,13 @@ export function StrategicValue() {
                     {/* Waterfall Chart */}
                     <motion.div initial={{ opacity: 0, x: -30 }} animate={isInView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.6, delay: 0.2 }}>
                         <GlassCard className="p-6 h-full">
-                        <h4 className="text-lg font-semibold text-white mb-4">Thanh phan Gia tri (M USD)</h4>
+                        <h4 className="text-lg font-semibold text-white mb-4">Thành phần Giá trị (M USD)</h4>
                         <ResponsiveContainer width="100%" height={300}>
                             <BarChart data={financials.strategicBreakdown} margin={{ left: 0 }}>
                                 <XAxis dataKey="name" tick={{ fill: '#999', fontSize: 9 }} axisLine={false} tickLine={false} angle={-25} textAnchor="end" height={60} />
                                 <YAxis tick={{ fill: '#999', fontSize: 10 }} axisLine={false} tickLine={false} />
                                 <Tooltip
-                                    contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '11px' }}
+                                    contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '11px', color: '#fff' }}
                                     formatter={(v: number, name: string, props: { payload?: { name?: string } }) => {
                                         const note = props.payload?.name ? methodologyNotes[props.payload.name] : '';
                                         return [`${v}M USD${note ? ' — ' + note : ''}`, ''];
@@ -55,7 +55,7 @@ export function StrategicValue() {
                         </ResponsiveContainer>
                         <div className="mt-3 p-3 rounded-lg bg-white/[0.02] border border-white/5">
                             <div className="flex items-center gap-1.5 text-xs text-gray-400 mb-2">
-                                <Info size={12} /> Phuong phap dinh gia
+                                <Info size={12} /> Phương pháp định giá
                             </div>
                             <div className="grid sm:grid-cols-2 gap-x-4 gap-y-1">
                                 {financials.strategicBreakdown.map((item, i) => (
@@ -111,16 +111,16 @@ export function StrategicValue() {
                     className="mt-8"
                 >
                     <GlassCard className="p-6">
-                        <h4 className="text-lg font-semibold text-white mb-4">Chien luoc Thoai von & Dinh gia So sanh</h4>
+                        <h4 className="text-lg font-semibold text-white mb-4">Chiến lược Thoái vốn & Định giá So sánh</h4>
                         <div className="grid lg:grid-cols-2 gap-6">
                             {/* Exit paths */}
                             <div>
-                                <h5 className="text-sm font-bold text-gray-300 mb-3">Lo trinh Thoai von (Y15+)</h5>
+                                <h5 className="text-sm font-bold text-gray-300 mb-3">Lộ trình Thoái vốn (Y15+)</h5>
                                 <div className="space-y-3">
                                     {[
-                                        { path: 'M&A boi Strategic Buyer', target: 'Foxconn, Jabil, NDK Group', ev: '120-160M USD', multiple: '12-18x EBITDA', color: '#00E5FF' },
-                                        { path: 'Ban co phan cho PE Fund', target: 'KKR, Warburg, VinaCapital PE', ev: '80-120M USD', multiple: '8-12x EBITDA', color: '#E040FB' },
-                                        { path: 'IPO tren HOSE/HNX', target: 'Niem yet cong khai', ev: '150-200M+ USD', multiple: '15-20x EBITDA', color: '#76FF03' },
+                                        { path: 'M&A bởi Strategic Buyer', target: 'Foxconn, Jabil, NDK Group', ev: '120-160M USD', multiple: '12-18x EBITDA', color: '#00E5FF' },
+                                        { path: 'Bán cổ phần cho PE Fund', target: 'KKR, Warburg, VinaCapital PE', ev: '80-120M USD', multiple: '8-12x EBITDA', color: '#E040FB' },
+                                        { path: 'IPO trên HOSE/HNX', target: 'Niêm yết công khai', ev: '150-200M+ USD', multiple: '15-20x EBITDA', color: '#76FF03' },
                                     ].map((exit, i) => (
                                         <div key={i} className="p-3 rounded-lg bg-white/[0.03] border border-white/5">
                                             <div className="flex items-center justify-between mb-1">
@@ -135,14 +135,14 @@ export function StrategicValue() {
 
                             {/* Comparable companies */}
                             <div>
-                                <h5 className="text-sm font-bold text-gray-300 mb-3">Cong ty So sanh (EV/EBITDA)</h5>
+                                <h5 className="text-sm font-bold text-gray-300 mb-3">Công ty So sánh (EV/EBITDA)</h5>
                                 <div className="overflow-x-auto">
                                     <table className="w-full text-xs">
                                         <thead>
                                             <tr className="border-b border-white/10">
-                                                <th className="text-left py-1.5 text-gray-400">Cong ty</th>
+                                                <th className="text-left py-1.5 text-gray-400">Công ty</th>
                                                 <th className="text-right py-1.5 text-gray-400">EV/EBITDA</th>
-                                                <th className="text-right py-1.5 text-gray-400">Nganh</th>
+                                                <th className="text-right py-1.5 text-gray-400">Ngành</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -151,7 +151,7 @@ export function StrategicValue() {
                                                 { name: 'Equinix (APAC)', multiple: '22,5x', sector: 'Datacenter' },
                                                 { name: 'FPT Corp.', multiple: '18,3x', sector: 'Tech VN' },
                                                 { name: 'CMC Corp.', multiple: '14,1x', sector: 'DC/Cloud VN' },
-                                                { name: 'Median nganh', multiple: '15x', sector: 'Blended' },
+                                                { name: 'Median ngành', multiple: '15x', sector: 'Blended' },
                                             ].map((comp, i) => (
                                                 <tr key={i} className={`border-b border-white/5 ${i === 4 ? 'font-bold' : ''}`}>
                                                     <td className="py-1.5 text-gray-300">{comp.name}</td>

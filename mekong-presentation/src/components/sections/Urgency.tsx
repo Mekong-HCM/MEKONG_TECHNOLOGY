@@ -12,8 +12,8 @@ export function Urgency() {
         <SectionLayout id="urgency">
             <div ref={ref}>
                 <motion.div initial={{ opacity: 0, y: 30 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6 }}>
-                    <h2 className="section-title text-white">Tinh cap thiet <span className="gradient-text">& Khoang trong thi truong</span></h2>
-                    <p className="section-subtitle">83.035 DNNVV can IoT — Viet Nam chua co nha may CNC dat AS9100</p>
+                    <h2 className="section-title text-white">Tính cấp thiết <span className="gradient-text">& Khoảng trống thị trường</span></h2>
+                    <p className="section-subtitle">83.035 DNNVV cần IoT — Việt Nam chưa có nhà máy CNC đạt AS9100</p>
                 </motion.div>
 
                 {/* KPIs */}
@@ -40,15 +40,15 @@ export function Urgency() {
                 <motion.div initial={{ opacity: 0, y: 20 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ delay: 0.2, duration: 0.5 }}>
                     <GlassCard className="p-4 mb-4 overflow-x-auto">
                         <h3 className="text-sm font-bold text-white mb-2 flex items-center gap-2">
-                            <AlertTriangle size={14} className="text-yellow-400" /> Khoang trong thi truong mien Nam VN
+                            <AlertTriangle size={14} className="text-yellow-400" /> Khoảng trống thị trường miền Nam VN
                         </h3>
                         <table className="w-full text-xs">
                             <thead><tr className="text-gray-400 border-b border-white/10">
-                                <th className="text-left py-1.5">Tieu chi</th>
+                                <th className="text-left py-1.5">Tiêu chí</th>
                                 <th className="text-center py-1.5">Cung</th>
-                                <th className="text-center py-1.5">Cau</th>
+                                <th className="text-center py-1.5">Cầu</th>
                                 <th className="text-center py-1.5">Gap</th>
-                                <th className="text-center py-1.5">Trang thai</th>
+                                <th className="text-center py-1.5">Trạng thái</th>
                             </tr></thead>
                             <tbody>
                                 {marketGaps.map((g, i) => (
@@ -58,7 +58,7 @@ export function Urgency() {
                                         <td className="text-center text-gray-400">{g.demand}</td>
                                         <td className="text-center font-bold text-neon-cyan">{g.gap}</td>
                                         <td className="text-center">
-                                            <span className={`px-1.5 py-0.5 rounded text-[9px] font-bold ${g.status === 'Chua co' ? 'bg-red-500/20 text-red-400' : 'bg-yellow-500/20 text-yellow-400'}`}>
+                                            <span className={`px-1.5 py-0.5 rounded text-[9px] font-bold ${g.status === 'Chưa có' ? 'bg-red-500/20 text-red-400' : 'bg-yellow-500/20 text-yellow-400'}`}>
                                                 {g.status}
                                             </span>
                                         </td>

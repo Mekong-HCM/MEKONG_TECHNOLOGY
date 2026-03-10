@@ -35,13 +35,13 @@ export function TeamOrganization() {
                             <BarChart data={headcountData} margin={{ left: 0 }}>
                                 <XAxis dataKey="phase" tick={{ fill: '#999', fontSize: 10 }} axisLine={false} tickLine={false} />
                                 <YAxis tick={{ fill: '#999', fontSize: 10 }} axisLine={false} tickLine={false} />
-                                <Tooltip contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '11px' }} />
+                                <Tooltip contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '11px', color: '#fff' }} />
                                 <Legend iconType="circle" wrapperStyle={{ fontSize: '10px' }} />
                                 <Bar dataKey="IoT" stackId="a" fill="#00E5FF" radius={[0, 0, 0, 0]} barSize={30} />
                                 <Bar dataKey="CNC" stackId="a" fill="#E040FB" />
                                 <Bar dataKey="DC" stackId="a" fill="#76FF03" />
                                 <Bar dataKey="R&D" stackId="a" fill="#FF9100" />
-                                <Bar dataKey="Other" stackId="a" fill="#555" radius={[4, 4, 0, 0]} />
+                                <Bar dataKey="Other" stackId="a" fill="#CFD8DC" radius={[4, 4, 0, 0]} />
                             </BarChart>
                         </ResponsiveContainer>
                         </GlassCard>
@@ -73,7 +73,7 @@ export function TeamOrganization() {
                 <div className="grid md:grid-cols-2 gap-6">
                     <motion.div initial={{ opacity: 0, y: 20 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5, delay: 0.4 }}>
                         <GlassCard className="p-5 h-full">
-                        <h4 className="text-base font-bold text-white mb-3 flex items-center gap-2"><Globe2 size={16} className="text-neon-cyan" /> Chuyen gia Quoc te</h4>
+                        <h4 className="text-base font-bold text-white mb-3 flex items-center gap-2"><Globe2 size={16} className="text-neon-cyan" /> Chuyên gia Quốc tế</h4>
                         <div className="space-y-2">
                             {team.experts.map((exp, i) => (
                                 <div key={i} className="flex items-center justify-between py-2 border-b border-white/5 last:border-0">

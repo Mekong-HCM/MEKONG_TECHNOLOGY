@@ -25,37 +25,37 @@ export interface ExportRing {
 }
 
 export const competitors: Competitor[] = [
-    { name: 'Siemens', iotShare: '18,5%', robotShare: '15,2%', strength: 'Cong nghe cao, thuong hieu manh', weakness: 'Gia cao, thoi gian giao hang dai' },
-    { name: 'Schneider Electric', iotShare: '15,2%', robotShare: '12,8%', strength: 'He sinh thai hoan chinh', weakness: 'Khong tuy chinh, ho tro han che' },
-    { name: 'Rockwell Automation', iotShare: '12,8%', robotShare: '10,5%', strength: 'Chuyen sau tu dong hoa', weakness: 'Phu thuoc nhap khau' },
-    { name: 'Nha SX noi dia', iotShare: '25,6%', robotShare: '30,2%', strength: 'Gia canh tranh, ho tro tot', weakness: 'Quy mo nho, chat luong thap' },
+    { name: 'Siemens', iotShare: '18,5%', robotShare: '15,2%', strength: 'Công nghệ cao, thương hiệu mạnh', weakness: 'Giá cao, thời gian giao hàng dài' },
+    { name: 'Schneider Electric', iotShare: '15,2%', robotShare: '12,8%', strength: 'Hệ sinh thái hoàn chỉnh', weakness: 'Không tuỳ chỉnh, hỗ trợ hạn chế' },
+    { name: 'Rockwell Automation', iotShare: '12,8%', robotShare: '10,5%', strength: 'Chuyên sâu tự động hoá', weakness: 'Phụ thuộc nhập khẩu' },
+    { name: 'Nhà SX nội địa', iotShare: '25,6%', robotShare: '30,2%', strength: 'Giá cạnh tranh, hỗ trợ tốt', weakness: 'Quy mô nhỏ, chất lượng thấp' },
 ];
 
 export const mekongAdvantages = [
-    { metric: 'Gia san pham', value: 'Re hon 20-30%', description: 'so voi nhap khau tu Siemens, Schneider' },
-    { metric: 'Giao hang', value: '1-2 thang', description: 'vs 3-6 thang cho nhap khau' },
-    { metric: 'Ho tro ky thuat', value: '24/7', description: 'Tieng Viet, on-site, tuy chinh linh hoat' },
-    { metric: 'Noi dia hoa', value: '50-70%', description: 'linh kien — giam phu thuoc nhap khau' },
+    { metric: 'Giá sản phẩm', value: 'Rẻ hơn 20-30%', description: 'so với nhập khẩu từ Siemens, Schneider' },
+    { metric: 'Giao hàng', value: '1-2 tháng', description: 'vs 3-6 tháng chờ nhập khẩu' },
+    { metric: 'Hỗ trợ kỹ thuật', value: '24/7', description: 'Tiếng Việt, on-site, tuỳ chỉnh linh hoạt' },
+    { metric: 'Nội địa hoá', value: '50-70%', description: 'linh kiện — giảm phụ thuộc nhập khẩu' },
 ];
 
 export const moatLayers: MOATLayer[] = [
-    { layer: 'Vi tri KCNC', description: '1 ha, 3 tang, GFA 21.000 m2 — khong con dat trong', timeToReplicate: 'Khong the sao chep', color: '#FF5252' },
-    { layer: 'Chung nhan IATF + AS9100', description: '2-3 nam + 350-530K USD chi phi', timeToReplicate: '3-4 nam', color: '#FF6D00' },
-    { layer: 'He sinh thai 3 B.U.', description: 'IoT + CNC + DC tich hop tai cho', timeToReplicate: '4-5 nam + >100M USD', color: '#FFD600' },
-    { layer: 'Quan he FDI', description: 'Hop dong CNC 3-5 nam', timeToReplicate: '2-3 nam', color: '#76FF03' },
-    { layer: 'Tier III DC', description: 'Uptime Institute certified', timeToReplicate: '2-3 nam', color: '#00E5FF' },
-    { layer: 'MekongOS Platform', description: 'IoT Cloud IP tu phat trien', timeToReplicate: '3-5 nam', color: '#E040FB' },
+    { layer: 'Vị trí KCNC', description: '1 ha, 3 tầng, GFA 21.000 m² — không còn đất trống', timeToReplicate: 'Không thể sao chép', color: '#FF5252' },
+    { layer: 'Chứng nhận IATF + AS9100', description: '2-3 năm + 350-530K USD chi phí', timeToReplicate: '3-4 năm', color: '#FF6D00' },
+    { layer: 'Hệ sinh thái 3 B.U.', description: 'IoT + CNC + DC tích hợp tại chỗ', timeToReplicate: '4-5 năm + >100M USD', color: '#FFD600' },
+    { layer: 'Quan hệ FDI', description: 'Hợp đồng CNC 3-5 năm', timeToReplicate: '2-3 năm', color: '#76FF03' },
+    { layer: 'Tier III DC', description: 'Uptime Institute certified', timeToReplicate: '2-3 năm', color: '#00E5FF' },
+    { layer: 'MekongOS Platform', description: 'IoT Cloud IP tự phát triển', timeToReplicate: '3-5 năm', color: '#E040FB' },
 ];
 
-export const moatSummary = 'Doi thu can ≥100M USD va 5 nam de sao chep toan bo mo hinh';
+export const moatSummary = 'Đối thủ cần ≥100M USD và 5 năm để sao chép toàn bộ mô hình';
 
 export const exportRings: ExportRing[] = [
     {
         ring: 'Ring 1',
-        name: 'Viet Nam noi dia',
+        name: 'Việt Nam nội địa',
         timeline: 'Y1-Y3',
         share: '85-90%',
-        markets: ['83.035 DNNVV san xuat', 'Samsung, Intel, Bosch, Nidec, VinFast (CNC)', 'Startup AI/ML (DC/GPU)'],
+        markets: ['83.035 DNNVV sản xuất', 'Samsung, Intel, Bosch, Nidec, VinFast (CNC)', 'Startup AI/ML (DC/GPU)'],
         color: '#00E5FF',
     },
     {
@@ -68,10 +68,10 @@ export const exportRings: ExportRing[] = [
     },
     {
         ring: 'Ring 3',
-        name: 'East Asia + An Do',
+        name: 'East Asia + Ấn Độ',
         timeline: 'Y5-Y7+',
         share: '5-15%',
-        markets: ['Nhat Ban (Precision parts)', 'Han Quoc (EV components)', 'An Do (IoT/Robot)'],
+        markets: ['Nhật Bản (Precision parts)', 'Hàn Quốc (EV components)', 'Ấn Độ (IoT/Robot)'],
         color: '#76FF03',
     },
 ];
@@ -80,6 +80,6 @@ export const exportKPIs = {
     targetExportPct: '35%',
     exportRevenue10Y: '41,9M USD',
     aseanMarket2030: '58,9 ty USD',
-    aseanCAGR: '21,1%/nam',
-    ftas: 'AFTA, RCEP, CPTPP — 0% thue quan',
+    aseanCAGR: '21,1%/năm',
+    ftas: 'AFTA, RCEP, CPTPP — 0% thuế quan',
 };

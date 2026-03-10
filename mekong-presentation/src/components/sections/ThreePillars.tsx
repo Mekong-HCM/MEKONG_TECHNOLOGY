@@ -44,7 +44,7 @@ export function ThreePillars() {
                                     <OptimizedImage {...images['iot-01']} placeholderLabel="IoT Edge Gateway" placeholderColor="#00E5FF" />
                                 </GlassCard>
                                 <GlassCard className="p-3 overflow-hidden">
-                                    <OptimizedImage {...images['iot-03']} placeholderLabel="AMR Robot" placeholderColor="#00E5FF" />
+                                    <OptimizedImage {...images['iot-03']} placeholderLabel="Robot AMR Tự hành" placeholderColor="#00E5FF" />
                                 </GlassCard>
                             </div>
                             <div className="grid md:grid-cols-3 gap-4 mb-8">
@@ -89,12 +89,12 @@ export function ThreePillars() {
                                     <OptimizedImage {...images['cnc-01']} placeholderLabel="DMG MORI DMU 50 3rd Gen" placeholderColor="#E040FB" />
                                 </GlassCard>
                                 <GlassCard className="p-3 overflow-hidden">
-                                    <OptimizedImage {...images['cnc-03']} placeholderLabel="Titanium 5-axis Machining" placeholderColor="#E040FB" />
+                                    <OptimizedImage {...images['cnc-03']} placeholderLabel="Gia công Titanium 5 trục" placeholderColor="#E040FB" />
                                 </GlassCard>
                             </div>
                             <div className="grid md:grid-cols-2 gap-6">
                                 <GlassCard className="p-6">
-                                    <h4 className="text-lg font-bold text-pink-400 mb-4 flex items-center gap-2"><Cog size={18} className="text-pink-400" /> Thong so Nha may CNC</h4>
+                                    <h4 className="text-lg font-bold text-pink-400 mb-4 flex items-center gap-2"><Cog size={18} className="text-pink-400" /> Thông số Nhà máy CNC</h4>
                                     <div className="grid grid-cols-2 gap-4">
                                         {[
                                             { label: 'Máy CNC', value: products.cnc.machines },
@@ -146,15 +146,15 @@ export function ThreePillars() {
                         <motion.div key="dc" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -20 }} transition={{ duration: 0.3 }}>
                             <div className="grid md:grid-cols-2 gap-4 mb-6">
                                 <GlassCard className="p-3 overflow-hidden">
-                                    <OptimizedImage {...images['dc-01']} placeholderLabel="Server Rack Rows" placeholderColor="#76FF03" />
+                                    <OptimizedImage {...images['dc-01']} placeholderLabel="Dãy tủ Rack Máy chủ" placeholderColor="#76FF03" />
                                 </GlassCard>
                                 <GlassCard className="p-3 overflow-hidden">
-                                    <OptimizedImage {...images['dc-02']} placeholderLabel="NVIDIA GPU Cluster" placeholderColor="#76FF03" />
+                                    <OptimizedImage {...images['dc-02']} placeholderLabel="Cụm GPU NVIDIA AI" placeholderColor="#76FF03" />
                                 </GlassCard>
                             </div>
                             <div className="grid md:grid-cols-2 gap-6">
                                 <GlassCard className="p-6">
-                                    <h4 className="text-lg font-bold text-green-400 mb-4 flex items-center gap-2"><Server size={18} className="text-green-400" /> Datacenter Specs</h4>
+                                    <h4 className="text-lg font-bold text-green-400 mb-4 flex items-center gap-2"><Server size={18} className="text-green-400" /> Thông số Datacenter</h4>
                                     <div className="space-y-3">
                                         {Object.entries(products.dc.specs).map(([key, val], i) => (
                                             <div key={i} className="flex justify-between items-center py-2 border-b border-white/5">
@@ -166,7 +166,7 @@ export function ThreePillars() {
                                 </GlassCard>
 
                                 <GlassCard className="p-6">
-                                    <h4 className="text-lg font-bold text-green-400 mb-4 flex items-center gap-2"><DollarSign size={18} className="text-green-400" /> Dich vu & Gia</h4>
+                                    <h4 className="text-lg font-bold text-green-400 mb-4 flex items-center gap-2"><DollarSign size={18} className="text-green-400" /> Dịch vụ & Giá</h4>
                                     <div className="space-y-3">
                                         {products.dc.services.map((svc, i) => (
                                             <div key={i} className="p-3 rounded-xl bg-white/[0.03] border border-white/5">

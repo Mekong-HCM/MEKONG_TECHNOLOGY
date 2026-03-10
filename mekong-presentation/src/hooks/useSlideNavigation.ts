@@ -7,32 +7,32 @@ export interface SlideInfo {
 }
 
 export const SLIDES: SlideInfo[] = [
-    { id: 'hero', label: 'Home', group: 'default' },
-    { id: 'urgency', label: 'Tinh cap thiet', group: 'context' },
-    { id: 'summary', label: 'Tom tat', group: 'context' },
-    { id: 'market', label: 'Thi truong', group: 'market' },
-    { id: 'competitive', label: 'Canh tranh', group: 'market' },
-    { id: 'export', label: 'Xuat khau ASEAN', group: 'market' },
-    { id: 'pillars', label: '3 Tru cot', group: 'product' },
-    { id: 'product-iot', label: 'SP: IoT Gateway', group: 'product' },
+    { id: 'hero', label: 'Trang chủ', group: 'default' },
+    { id: 'urgency', label: 'Tính cấp thiết', group: 'context' },
+    { id: 'summary', label: 'Tóm tắt', group: 'context' },
+    { id: 'market', label: 'Thị trường', group: 'market' },
+    { id: 'competitive', label: 'Cạnh tranh', group: 'market' },
+    { id: 'export', label: 'Xuất khẩu ASEAN', group: 'market' },
+    { id: 'pillars', label: '3 Trụ cột', group: 'product' },
+    { id: 'product-iot', label: 'Sản phẩm IoT', group: 'product' },
     { id: 'product-robot', label: 'SP: Robot AMR/AGV', group: 'product' },
     { id: 'product-oht', label: 'SP: OHT & MekongOS', group: 'product' },
-    { id: 'tech-stack', label: 'Cong nghe loi', group: 'tech' },
-    { id: 'rd-strategy', label: 'R&D Strategy', group: 'rd' },
-    { id: 'rd-labs', label: 'R&D Labs', group: 'rd' },
-    { id: 'rd-ip', label: 'IP & Patents', group: 'rd' },
-    { id: 'infra', label: 'Ha tang', group: 'ops' },
-    { id: 'production', label: 'San xuat', group: 'ops' },
-    { id: 'quality', label: 'Chat luong', group: 'ops' },
-    { id: 'financials', label: 'Tai chinh', group: 'finance' },
-    { id: 'legal', label: 'Phap ly', group: 'legal' },
-    { id: 'esg-env', label: 'ESG & Moi truong', group: 'esg' },
-    { id: 'risk', label: 'Rui ro', group: 'risk' },
-    { id: 'team', label: 'Doi ngu', group: 'team' },
-    { id: 'socio-economic', label: 'KT-XH Impact', group: 'impact' },
-    { id: 'roadmap', label: 'Lo trinh', group: 'plan' },
-    { id: 'strategic', label: 'Chien luoc', group: 'plan' },
-    { id: 'contact', label: 'Lien he', group: 'default' },
+    { id: 'tech-stack', label: 'Công nghệ lõi', group: 'tech' },
+    { id: 'rd-strategy', label: 'Chiến lược R&D', group: 'rd' },
+    { id: 'rd-labs', label: 'Phòng thí nghiệm', group: 'rd' },
+    { id: 'rd-ip', label: 'IP & Bằng sáng chế', group: 'rd' },
+    { id: 'infra', label: 'Hạ tầng', group: 'ops' },
+    { id: 'production', label: 'Sản xuất', group: 'ops' },
+    { id: 'quality', label: 'Chất lượng', group: 'ops' },
+    { id: 'financials', label: 'Tài chính', group: 'finance' },
+    { id: 'legal', label: 'Pháp lý', group: 'legal' },
+    { id: 'esg-env', label: 'ESG & Môi trường', group: 'esg' },
+    { id: 'risk', label: 'Rủi ro', group: 'risk' },
+    { id: 'team', label: 'Đội ngũ', group: 'team' },
+    { id: 'socio-economic', label: 'Tác động KT-XH', group: 'impact' },
+    { id: 'roadmap', label: 'Lộ trình', group: 'plan' },
+    { id: 'strategic', label: 'Chiến lược', group: 'plan' },
+    { id: 'contact', label: 'Liên hệ', group: 'default' },
 ];
 
 const SECTION_IDS = SLIDES.map(s => s.id);
@@ -65,7 +65,8 @@ export function useSlideNavigation(): SlideNavigationState {
         const clampedIndex = Math.max(0, Math.min(index, totalSlides - 1));
         const el = document.getElementById(SECTION_IDS[clampedIndex]);
         if (el) {
-            el.scrollIntoView({ behavior: 'smooth' });
+            const top = el.getBoundingClientRect().top + window.scrollY - 64;
+            window.scrollTo({ top, behavior: 'smooth' });
         }
     }, [totalSlides]);
 

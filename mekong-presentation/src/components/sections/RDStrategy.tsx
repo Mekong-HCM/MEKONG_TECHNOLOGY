@@ -15,8 +15,8 @@ export function RDStrategy() {
                     <span className="inline-block px-3 py-1 rounded-full text-[10px] font-medium uppercase tracking-widest border border-yellow-400/30 text-yellow-400/80 bg-yellow-400/5 mb-4">
                         R&D 1/3
                     </span>
-                    <h2 className="section-title text-white">Chien luoc <span className="gradient-text">R&D & Ngan sach</span></h2>
-                    <p className="section-subtitle">Ngan sach R&D ~12,50M USD / 10 nam — 26 ky su — 5 phong lab — TRL 7-9</p>
+                    <h2 className="section-title text-white">Chiến lược <span className="gradient-text">R&D & Ngân sách</span></h2>
+                    <p className="section-subtitle">Ngân sách R&D ~12,50M USD / 10 năm — 26 kỹ sư — 5 phòng lab — TRL 7-9</p>
                 </motion.div>
 
                 {/* KPI cards */}
@@ -25,8 +25,8 @@ export function RDStrategy() {
                 >
                     {[
                         { icon: DollarSign, label: 'Budget 10Y', value: rdBudget.total10Y, color: 'text-neon-cyan' },
-                        { icon: Beaker, label: 'Doi ngu R&D', value: `${rdTeam.totalEngineers} KS (${rdTeam.pctOfStaff})`, color: 'text-neon-magenta' },
-                        { icon: Target, label: '% Revenue', value: rdBudget.pctRevenue, color: 'text-green-400' },
+                        { icon: Beaker, label: 'Đội ngũ R&D', value: `${rdTeam.totalEngineers} KS (${rdTeam.pctOfStaff})`, color: 'text-neon-magenta' },
+                        { icon: Target, label: '% Doanh thu', value: rdBudget.pctRevenue, color: 'text-green-400' },
                         { icon: TrendingUp, label: 'TRL Target', value: rdTeam.trlTarget, color: 'text-yellow-400' },
                     ].map((kpi, i) => (
                         <GlassCard key={i} className="p-4 text-center">
@@ -42,7 +42,7 @@ export function RDStrategy() {
                     <GlassCard className="p-5">
                         <h4 className="text-sm font-bold text-white mb-4 flex items-center gap-2">
                             <TrendingUp size={16} className="text-neon-cyan" />
-                            Lo trinh Truong thanh Cong nghe (TRL)
+                            Lộ trình Trưởng thành Công nghệ (TRL)
                         </h4>
                         <div className="space-y-4">
                             {trlRoadmap.map((phase, i) => (
@@ -76,8 +76,8 @@ export function RDStrategy() {
                     className="mt-4 flex gap-4 text-[10px] text-gray-500"
                 >
                     <span>Methodology: {rdTeam.methodology}</span>
-                    <span>Cam ket: {rdBudget.minCommitment}</span>
-                    <span>Trinh do: {rdTeam.qualifications}</span>
+                    <span>Cam kết: {rdBudget.minCommitment}</span>
+                    <span>Trình độ: {rdTeam.qualifications}</span>
                 </motion.div>
             </div>
         </SectionLayout>

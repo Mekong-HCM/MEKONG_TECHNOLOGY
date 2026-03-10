@@ -23,7 +23,7 @@ export function Infrastructure() {
                 {/* Building Cross-Section */}
                 <motion.div initial={{ opacity: 0, y: 20 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6, delay: 0.2 }} className="mb-8">
                     <GlassCard className="p-6">
-                    <h4 className="text-lg font-semibold text-white mb-5 flex items-center gap-2"><Building2 size={20} className="text-neon-cyan" /> Mat cat Toa nha 3 Tang</h4>
+                    <h4 className="text-lg font-semibold text-white mb-5 flex items-center gap-2"><Building2 size={20} className="text-neon-cyan" /> Mặt cắt Tòa nhà 3 Tầng</h4>
                     <div className="space-y-3">
                         {infrastructure.building.floors.map((f, i) => (
                             <motion.div
@@ -75,13 +75,13 @@ export function Infrastructure() {
                     className="grid md:grid-cols-3 gap-4"
                 >
                     <GlassCard className="p-3 overflow-hidden">
-                        <OptimizedImage {...images['cnc-02']} placeholderLabel="CNC Workshop Overview" placeholderColor="#E040FB" />
+                        <OptimizedImage {...images['cnc-02']} placeholderLabel="Tổng quan Xưởng CNC" placeholderColor="#E040FB" />
                     </GlassCard>
                     <GlassCard className="p-3 overflow-hidden">
-                        <OptimizedImage {...images['dc-01']} placeholderLabel="Server Rack Rows" placeholderColor="#76FF03" />
+                        <OptimizedImage {...images['dc-01']} placeholderLabel="Hệ thống tủ Rack máy chủ" placeholderColor="#76FF03" />
                     </GlassCard>
                     <GlassCard className="p-3 overflow-hidden">
-                        <OptimizedImage {...images['dc-03']} placeholderLabel="Cooling System CRAC/CDU" placeholderColor="#76FF03" />
+                        <OptimizedImage {...images['dc-03']} placeholderLabel="Hệ thống làm mát CRAC/CDU" placeholderColor="#76FF03" />
                     </GlassCard>
                 </motion.div>
             </div>

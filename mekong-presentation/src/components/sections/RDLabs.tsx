@@ -17,8 +17,8 @@ export function RDLabs() {
                     <span className="inline-block px-3 py-1 rounded-full text-[10px] font-medium uppercase tracking-widest border border-yellow-400/30 text-yellow-400/80 bg-yellow-400/5 mb-4">
                         R&D 2/3
                     </span>
-                    <h2 className="section-title text-white">5 Phong Lab <span className="gradient-text">R&D Chuyen biet</span></h2>
-                    <p className="section-subtitle">Tong dien tich {totalArea} — Tong dau tu {totalBudget} — 26 ky su nghien cuu</p>
+                    <h2 className="section-title text-white">5 Phòng Lab <span className="gradient-text">R&D Chuyên biệt</span></h2>
+                    <p className="section-subtitle">Tổng diện tích {totalArea} — Tổng đầu tư {totalBudget} — 26 kỹ sư nghiên cứu</p>
                 </motion.div>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -67,11 +67,11 @@ export function RDLabs() {
                     >
                         <GlassCard className="p-5 h-full flex flex-col justify-center items-center text-center">
                             <div className="text-4xl font-extrabold gradient-text mb-1">26</div>
-                            <div className="text-xs text-gray-400 mb-3">Ky su R&D</div>
+                            <div className="text-xs text-gray-400 mb-3">Kỹ sư R&D</div>
                             <div className="text-2xl font-extrabold text-yellow-400 mb-1">5</div>
-                            <div className="text-xs text-gray-400 mb-3">Phong lab chuyen biet</div>
+                            <div className="text-xs text-gray-400 mb-3">Phòng lab chuyên biệt</div>
                             <div className="text-lg font-bold text-green-400">20%</div>
-                            <div className="text-[10px] text-gray-400">tong nhan su la R&D</div>
+                            <div className="text-[10px] text-gray-400">tổng nhân sự là R&D</div>
                         </GlassCard>
                     </motion.div>
                 </div>

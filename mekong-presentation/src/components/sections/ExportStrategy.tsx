@@ -12,8 +12,8 @@ export function ExportStrategy() {
         <SectionLayout id="export">
             <div ref={ref}>
                 <motion.div initial={{ opacity: 0, y: 30 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6 }}>
-                    <h2 className="section-title text-white">Chien luoc <span className="gradient-text">Xuat khau & ASEAN</span></h2>
-                    <p className="section-subtitle">Mo hinh xuat khau 3 vong — Muc tieu 35% doanh thu tu xuat khau</p>
+                    <h2 className="section-title text-white">Chiến lược <span className="gradient-text">Xuất khẩu & ASEAN</span></h2>
+                    <p className="section-subtitle">Mô hình xuất khẩu 3 vòng — Mục tiêu 35% doanh thu từ xuất khẩu</p>
                 </motion.div>
 
                 {/* Export KPIs */}
@@ -21,8 +21,8 @@ export function ExportStrategy() {
                     className="grid grid-cols-2 md:grid-cols-5 gap-3 mb-6"
                 >
                     {[
-                        { label: 'Xuat khau target', value: exportKPIs.targetExportPct, color: 'text-neon-cyan' },
-                        { label: 'Revenue XK 10Y', value: exportKPIs.exportRevenue10Y, color: 'text-neon-magenta' },
+                        { label: 'Xuất khẩu target', value: exportKPIs.targetExportPct, color: 'text-neon-cyan' },
+                        { label: 'Doanh thu XK 10Y', value: exportKPIs.exportRevenue10Y, color: 'text-neon-magenta' },
                         { label: 'ASEAN 2030', value: exportKPIs.aseanMarket2030, color: 'text-green-400' },
                         { label: 'CAGR ASEAN', value: exportKPIs.aseanCAGR, color: 'text-yellow-400' },
                         { label: 'FTA', value: exportKPIs.ftas, color: 'text-gray-300' },
@@ -76,7 +76,7 @@ export function ExportStrategy() {
                     className="mt-4 flex items-center gap-2 text-[10px] text-gray-500"
                 >
                     <FileCheck size={12} className="text-green-400" />
-                    Hiep dinh AFTA, RCEP, CPTPP — 0% thue quan noi khoi ASEAN
+                    Hiệp định AFTA, RCEP, CPTPP — 0% thuế quan nội khối ASEAN
                 </motion.div>
             </div>
         </SectionLayout>
