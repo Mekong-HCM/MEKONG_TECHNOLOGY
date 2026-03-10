@@ -39,7 +39,7 @@ export function OptimizedImage({
         );
     }
 
-    const resolvedWebp = webpSrc || (src.match(/\.(jpg|jpeg|png)$/i) ? src.replace(/\.(jpg|jpeg|png)$/i, '.webp') : undefined);
+    const resolvedWebp = webpSrc ?? undefined;
 
     return (
         <picture>
