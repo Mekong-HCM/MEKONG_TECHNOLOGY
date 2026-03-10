@@ -238,6 +238,7 @@ export interface HeadcountPhase {
 
 export interface CLevelProfile {
     role: string;
+    name: string;
     profile: string;
     salary: string;
 }

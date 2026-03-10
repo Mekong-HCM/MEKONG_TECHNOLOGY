@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { useInView } from '../../hooks/useInView';
 import { financials } from '../../data/financials';
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from 'recharts';
-import { Cpu, Cog, Server } from 'lucide-react';
+import { Cpu, Cog, Server, Landmark, Users, GraduationCap, Banknote } from 'lucide-react';
 import { SectionLayout } from '../ui/SectionLayout';
 import { GlassCard } from '../ui/GlassCard';
 import { KPICard } from '../ui/KPICard';
@@ -13,12 +13,12 @@ const pieData = [
 ];
 
 const kpis = [
-    { label: 'Revenue Y10', value: financials.kpis.revenueY10, suffix: 'M USD', color: '#00E5FF' },
-    { label: 'Revenue Y15', value: financials.kpis.revenueY15, suffix: 'M USD', color: '#4dd2ff' },
-    { label: 'NPV (50Y)', value: financials.kpis.npv50, suffix: 'M USD', color: '#76FF03' },
-    { label: 'IRR (50Y)', value: financials.kpis.irr50, suffix: '%', color: '#E040FB' },
-    { label: 'EBITDA Margin', value: 28, suffix: '%', color: '#FF9100' },
-    { label: 'Payback (Discounted)', value: financials.kpis.paybackDiscounted, suffix: ' Nam', color: '#00E5FF' },
+    { label: 'Doanh thu Nam Y10', value: financials.kpis.revenueY10, suffix: 'M USD', color: '#00E5FF' },
+    { label: 'Doanh thu Nam Y15', value: financials.kpis.revenueY15, suffix: 'M USD', color: '#4dd2ff' },
+    { label: 'NPV (50Y, WACC 12%)', value: financials.kpis.npv50, suffix: 'M USD', color: '#76FF03' },
+    { label: 'IRR Du an (50Y)', value: financials.kpis.irr50, suffix: '%', color: '#E040FB' },
+    { label: 'Equity IRR (Leveraged)', value: 18.5, suffix: '%', color: '#FF9100' },
+    { label: 'DSCR Min (YC: >1,3x)', value: financials.kpis.dscrMin, suffix: 'x', color: '#00E5FF' },
 ];
 
 export function ExecutiveSummary() {
@@ -108,6 +108,37 @@ export function ExecutiveSummary() {
                         </GlassCard>
                     </motion.div>
                 </div>
+
+                {/* KCNC Benefits */}
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={isInView ? { opacity: 1, y: 0 } : {}}
+                    transition={{ duration: 0.5, delay: 0.5 }}
+                    className="mt-8"
+                >
+                    <GlassCard className="p-6" accentColor="#76FF03">
+                        <h4 className="text-sm font-bold text-white mb-4 flex items-center gap-2">
+                            <Landmark size={16} className="text-green-400" />
+                            Loi ich cho KCNC TP.HCM
+                        </h4>
+                        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                            {[
+                                { Icon: Users, label: '300+ viec lam chat luong', desc: 'Luong 25-45K USD/nam, dao tao tai cho', color: '#00E5FF' },
+                                { Icon: GraduationCap, label: 'Chuyen giao cong nghe', desc: 'Hop tac DH Bach Khoa, RMIT, chuyen gia Nhat/Duc', color: '#E040FB' },
+                                { Icon: Banknote, label: 'Dong gop thue va phi', desc: 'Phi thue dat + thue TNDN sau uu dai', color: '#76FF03' },
+                                { Icon: Cpu, label: 'Chuoi cung ung noi dia', desc: 'Nha cung cap phu tro, dich vu ky thuat tai KCNC', color: '#FF9100' },
+                            ].map((b, i) => (
+                                <div key={i} className="flex items-start gap-3">
+                                    <b.Icon size={18} style={{ color: b.color }} className="flex-shrink-0 mt-0.5" />
+                                    <div>
+                                        <div className="text-xs font-semibold text-white">{b.label}</div>
+                                        <div className="text-xs text-gray-400">{b.desc}</div>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </GlassCard>
+                </motion.div>
             </div>
         </SectionLayout>
     );

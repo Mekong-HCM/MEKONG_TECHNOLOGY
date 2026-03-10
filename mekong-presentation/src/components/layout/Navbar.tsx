@@ -1,5 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { motion } from 'framer-motion';
+import { Download } from 'lucide-react';
 
 const sections = [
     { id: 'hero', label: 'Home' },
@@ -24,6 +25,16 @@ interface NavbarProps {
 export function Navbar({ isFullscreen = false, currentSlide = 0, totalSlides = 11 }: NavbarProps) {
     const [active, setActive] = useState('hero');
     const [scrolled, setScrolled] = useState(false);
+
+    const handleExportPDF = useCallback(() => {
+        document.body.classList.add('printing');
+        requestAnimationFrame(() => {
+            window.print();
+            window.addEventListener('afterprint', () => {
+                document.body.classList.remove('printing');
+            }, { once: true });
+        });
+    }, []);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -73,6 +84,13 @@ export function Navbar({ isFullscreen = false, currentSlide = 0, totalSlides = 1
                 <a href="#hero" className="text-sm font-black gradient-text tracking-tight">MEKONG TECH</a>
 
                 <div className="hidden lg:flex items-center gap-1">
+                    <button
+                        onClick={handleExportPDF}
+                        className="px-3 py-1.5 rounded-md text-xs font-medium text-gray-500 hover:text-gray-300 transition-all duration-200 flex items-center gap-1 print:hidden"
+                        title="Export PDF"
+                    >
+                        <Download size={12} /> PDF
+                    </button>
                     {sections.map((s) => (
                         <a
                             key={s.id}

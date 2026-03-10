@@ -4909,7 +4909,7 @@ gantt
 | 20 | 1,54 | 1,54 | 0,13 | **1,67** | 0,00 |
 | **Tổng** | | **12,53** | **6,36** | **18,89** | **0,00** |
 
-> **[C] Tổng chi phí lãi vay 10 năm = 6,36M USD.** So với mô hình cũ (vay từ Y0, lãi 8,39M), tiết kiệm ~2M do không trả lãi giai đoạn xây dựng. Option: Trả trước nợ từ Y17 khi CF > 10M/năm → tiết kiệm thêm ~0,8M lãi.
+> **[C] Tổng chi phí lãi vay 10 năm = 6,36M USD.** Nhờ không vay trong giai đoạn xây dựng (Y0-Y9), dự án tiết kiệm đáng kể chi phí lãi vay. Option: Trả trước nợ từ Y17 khi CF > 10M/năm → tiết kiệm thêm ~0,8M lãi.
 
 ### 5.11.3. Covenant Requirements
 
@@ -5107,7 +5107,7 @@ gantt
 | **Hold to Maturity** | Y25 | 130+ (BV + CF tích lũy) | 3,7x+ | 7-9% |
 | **Partial Sale** (30% cho PE fund) | Y10-Y13 | 15-25 (30% of EV) | — | — |
 
-> **[C] Equity Multiple Y10 = 1,01x (vừa hòa vốn sổ sách), Y15 = 1,79x, Y20 = 3,17x.** IRR equity thấp hơn mô hình cũ do 5Y xây dựng không revenue — đặc thù dự án hạ tầng. Return tích lũy dài hạn (Y20+) vẫn hấp dẫn: 3,17x + cổ tức. Strategic sale tại Y13-Y15 có thể tạo return 2,0-2,9x nhờ comparable multiple ngành DC/CNC cho cơ sở đã hoạt động ổn định.
+> **[C] Equity Multiple Y10 = 1,01x (vừa hòa vốn sổ sách), Y15 = 1,79x, Y20 = 3,17x.** IRR equity phản ánh đặc thù dự án hạ tầng công nghiệp (5 năm xây dựng không revenue). Return tích lũy dài hạn (Y20+) vẫn hấp dẫn: 3,17x + cổ tức. Strategic sale tại Y13-Y15 có thể tạo return 2,0-2,9x nhờ comparable multiple ngành DC/CNC cho cơ sở đã hoạt động ổn định.
 
 ---
 
@@ -5640,7 +5640,7 @@ graph TD
 | **Bảo trì (M&E)** | 2 | 4 | 6 | 10 | 13 |
 | **Tổng** | **15** | **59** | **131** | **217** | **300** |
 
-> **[C] Headcount Y0-Y4 = 15:** Chủ yếu quản lý dự án, thiết kế, và chuẩn bị pháp lý/tuyển dụng. Tiết kiệm ~80% chi phí nhân sự so với mô hình cũ (112 người từ Y1). Tuyển dụng lớn bắt đầu Y5 (IoT) và Y7 (CNC) khi có không gian hoạt động.
+> **[C] Headcount Y0-Y4 = 15:** Chủ yếu quản lý dự án, thiết kế, và chuẩn bị pháp lý/tuyển dụng. Giai đoạn xây dựng shell chỉ cần đội ngũ nòng cốt, tiết kiệm chi phí nhân sự. Tuyển dụng lớn bắt đầu Y5 (IoT) và Y7 (CNC) khi có không gian hoạt động.
 
 ### 7.1.3. Đội ngũ Chuyên gia Nước ngoài
 
@@ -6110,7 +6110,7 @@ flowchart LR
 
 ### 8.5.2. Kế hoạch Giải ngân theo Giai đoạn
 
-> **Ghi chú:** Giải ngân dàn trải 13 năm (Y0–Y13), thay vì tập trung trong 4 năm như mô hình cũ.
+> **Ghi chú:** Giải ngân dàn trải 13 năm (Y0–Y13), phù hợp lộ trình triển khai tuần tự 5 giai đoạn.
 
 | Giai đoạn | Năm | Nguồn | Hoạt động chính | Giải ngân (K USD) | Lũy kế (K USD) |
 |---|---|---|---|---:|---:|
@@ -9086,7 +9086,7 @@ Lý do:
 
 ## O.1. Phương pháp Đánh giá
 
-> **Ghi chú:** Strategic Value cập nhật theo mô hình V2.1 (50Y, self-funded Y0-Y9, NPV(50Y) = 1,50M).
+> **Ghi chú:** Strategic Value tính trên mô hình tài chính chính thức (50Y, self-funded Y0-Y9, NPV(50Y) = 1,50M).
 
 Ngoài NPV thuần (Net Present Value = 1,50M USD trên horizon 50Y), dự án cần được đánh giá trên 6 loại giá trị chiến lược mà NPV truyền thống không phản ánh:
 
@@ -9108,12 +9108,12 @@ Ngoài NPV thuần (Net Present Value = 1,50M USD trên horizon 50Y), dự án c
 - Nếu P0-P2 thành công (IoT revenue Y6+), mở rộng CNC + DC tạo thêm ~15M USD NPV
 - Xác suất exercise: ~65% (conditional on IoT + CNC success)
 - Real Option Value: 15M × 65% × discount = ~5,50M
-- V2.1 NOTE: Giá trị option cao hơn V1 do 5 giai đoạn cho phép linh hoạt hơn trong quyết định đầu tư
+- Giá trị option cao nhờ 5 giai đoạn cho phép linh hoạt hơn trong quyết định đầu tư
 
 ### O.2.2. Barrier to Entry
 
 - Tổng CAPEX 47,5M → Cost to replicate tương đương
-- Thời gian xây dựng V2.1: 5 năm (shell) + 8 năm (full 3 BU) → Time barrier 13 năm
+- Thời gian xây dựng: 5 năm (shell) + 8 năm (full 3 BU) → Time barrier 13 năm
 - IATF + AS9100 + Tier III certification: 2-3 năm thêm
 - Competitor muốn replicate cần ~50M + 13 năm → Barrier value ~3,50M (NPV thuần của monopoly profit)
 
@@ -9138,24 +9138,7 @@ Ngoài NPV thuần (Net Present Value = 1,50M USD trên horizon 50Y), dự án c
 - Land rent exemption: 11 năm miễn + 4 năm giảm 50% = ~1,32M tiết kiệm
 - Est. tax + land rent savings: ~12M USD tổng 50 năm → NPV ~3,82M
 
-## O.3. So sánh V1 vs V2.1 Chi tiết
 
-| Chỉ tiêu | V1 (20M, 1 B.U) | V2.1 (47,5M, 3 B.U, 5 Phase) | Nhận xét |
-|---|---|---|---|
-| CAPEX | 20,0M | 47,50M | V2.1 +137% — quy mô lớn hơn đáng kể |
-| Thời gian xây dựng | 18 tháng | 5 năm (Y0-Y5) | V2.1 thực tế hơn |
-| Revenue Y10 | 15,0M | 14,50M | Tương đương |
-| Revenue Y15 | N/A | 32,00M | Steady-state |
-| Revenue 15Y | N/A | ~165M | Tích lũy |
-| NPV | 15,2M (10Y, WACC 10%) | 1,50M (50Y, WACC 12%) | Khác horizon + WACC |
-| IRR | 15,2% | 13,0% (50Y) / 9,5% (20Y) | Gần tương đương (50Y) |
-| Strategic Value | 15,2M (NPV only) | 20,32M (NPV + 5 loại) | V2.1 vượt trội khi tính đủ |
-| Diversification | 1 BU → Single point of failure | 3 BU → Risk distributed | V2.1 an toàn hơn |
-| Certifications | ISO 9001 | ISO + IATF + AS9100 + Tier III | V2.1 mạnh hơn |
-| Export potential | 10-15% | 15-20% (CNC) | V2.1 cao hơn |
-| R&D | 6,01M/10Y | 12,5M/15Y | V2.1 +108% |
-| Job creation | 200 | 15→300 (phased 15Y) | V2.1 phân kỳ |
-| Technology depth | SMT assembly | SMT + CNC 5-axis + DC Tier III + AI/GPU | V2.1 sâu hơn đáng kể |
 
 ---
 
@@ -10168,7 +10151,7 @@ graph TD
 
 # PHỤ LỤC R: BÁO CÁO ĐÁNH GIÁ TÁC ĐỘNG MÔI TRƯỜNG (EIA) — TỔ HỢP 3 KHỐI
 
-> **Cơ sở:** Bản cập nhật toàn diện từ EIA V1.0 (chỉ Khối C — IoT/Robot) sang EIA V2.1 (Tổ hợp 3 khu chức năng trong 1 tòa nhà 3 tầng trên 1 ha).
+> **Cơ sở:** Bản đánh giá toàn diện cho Tổ hợp 3 khu chức năng trong 1 tòa nhà 3 tầng trên 1 ha (so với đề án ban đầu chỉ có Khối C — IoT/Robot).
 > **Tham chiếu:** HO_SO_MO_RONG — 09_BAO_CAO_EIA_TONG_HOP_3_KHOI.md (1.767 dòng)
 > **Phân loại dự án:** Nhóm I — Có nguy cơ tác động môi trường ở mức độ cao (Phụ lục III, Luật BVMT 2020)
 
@@ -10199,12 +10182,12 @@ graph TD
 
 #### R.1.3. Tổng tài nguyên tiêu thụ hàng năm
 
-| Tài nguyên | Đơn vị | Khối A | Khối B | Khối C | Tổng | So với EIA V1.0 |
+| Tài nguyên | Đơn vị | Khối A | Khối B | Khối C | Tổng | So với Đề án ban đầu |
 |------------|--------|-------:|-------:|-------:|-----:|-----------------|
-| Điện năng | MWh/năm | 13.140–26.280 | 3.360–11.520 | 1.920–3.840 | **18.420–41.640** | V1.0: 2.000 → tăng 9–21× |
-| Nước cấp | m³/ngày | 20–40 | 25–40 | 15–22 | **60–102** | V1.0: 30 → tăng 2–3,4× |
-| Diesel (Generator) | lít/năm | 18.000 (test 1h/tuần) | 0 | 0 | **18.000** | V1.0: 0 → MỚI |
-| Hóa chất | tấn/năm | 2 (Urea SCR) | 15–30 (MWF, coolant) | 3–5 (IPA, flux, solder) | **20–37** | V1.0: 5 → tăng 4–7× |
+| Điện năng | MWh/năm | 13.140–26.280 | 3.360–11.520 | 1.920–3.840 | **18.420–41.640** | Ban đầu: 2.000 → tăng 9–21× |
+| Nước cấp | m³/ngày | 20–40 | 25–40 | 15–22 | **60–102** | Ban đầu: 30 → tăng 2–3,4× |
+| Diesel (Generator) | lít/năm | 18.000 (test 1h/tuần) | 0 | 0 | **18.000** | Ban đầu: 0 → MỚI |
+| Hóa chất | tấn/năm | 2 (Urea SCR) | 15–30 (MWF, coolant) | 3–5 (IPA, flux, solder) | **20–37** | Ban đầu: 5 → tăng 4–7× |
 
 > **Nhận xét [B]:** Với tổng tải điện 2.600–5.400 kW và tiêu thụ 18.420–41.640 MWh/năm, dự án thuộc nhóm tiêu thụ năng lượng lớn theo Luật Sử dụng năng lượng tiết kiệm và hiệu quả (Luật 50/2010/QH12). Bắt buộc báo cáo kiểm toán năng lượng 3 năm/lần.
 
@@ -10303,8 +10286,8 @@ Khu vực dự án nằm trong KCNC đã quy hoạch, đất đã san lấp, kh�
 
 #### R.4.1. Quy mô thi công
 
-| Thông số | EIA V1.0 (1 Khối) | **EIA V2.0 (3 Khối)** | Hệ số tăng |
-|----------|--------------------|------------------------|-----------|
+| Thông số | Đề án ban đầu (1 Khối) | **Đề án hiện tại (3 Khối)** | Hệ số tăng |
+|----------|-------------------------|------------------------------|-----------|
 | Diện tích xây dựng | 10.000 m² | **10.000 m²** (cùng) | 1× |
 | Khối lượng đào đắp | 15.000 m³ | **25.000–35.000 m³** | 1,7–2,3× |
 | Thời gian thi công | 12 tháng | **18–24 tháng** (3 khối tuần tự) | 1,5–2× |
@@ -10321,7 +10304,7 @@ Khu vực dự án nằm trong KCNC đã quy hoạch, đất đã san lấp, kh�
 | Đổ bê tông (trộn, bơm) | 3–5 | Tháng 4–12 | Trạm trộn kín, rửa xe |
 | Vận chuyển vật liệu | 5–10 | Tháng 1–18 | Phủ bạt xe, rửa bánh xe |
 | Phá dỡ kết cấu cũ | 2–5 | Tháng 1–3 | Phun sương, rào chắn |
-| **TỔNG ĐỈNH** | **25–40** | | **4–5× so với V1.0** |
+| **TỔNG ĐỈNH** | **25–40** | | **4–5× so với đề án ban đầu** |
 
 #### R.4.3. Tác động tiếng ồn xây dựng
 
@@ -10653,11 +10636,11 @@ $$L_{tong} = 10 \times \log_{10}(10^{68/10} + 10^{62/10} + 10^{40/10} + 10^{53/1
 
 ## R.7. TÁC ĐỘNG VẬN HÀNH — KHỐI C: IoT/ROBOT + SMT
 
-> **Lưu ý [C]:** Khối C đã đánh giá trong EIA V1.0 (diện tích 10.000 m²). V2.0 cập nhật: diện tích giảm xuống 3.000 m² (30%), công suất giữ ~50% nhờ tối ưu layout. Hệ số điều chỉnh: **0,50**.
+> **Lưu ý [C]:** Khối C đã được đánh giá trong đề án ban đầu (diện tích 10.000 m²). Đề án hiện tại cập nhật: diện tích giảm xuống 3.000 m² (30%), công suất giữ ~50% nhờ tối ưu layout. Hệ số điều chỉnh: **0,50**.
 
 #### R.7.1. Khí thải Khối C (cập nhật ×0,50)
 
-| Nguồn | Chất phát thải | EIA V1.0 (kg/năm) | **V2.0 (×0,50)** | QCVN 19 |
+| Nguồn | Chất phát thải | Đề án ban đầu (kg/năm) | **Hiện tại (×0,50)** | QCVN 19 |
 |-------|---------------|-------------------:|------------------:|---------|
 | SMT reflow + Wave soldering | NOx | 720 | **360** | ✅ |
 | SMT reflow + Wave soldering | CO | 384 | **192** | ✅ |
@@ -10673,7 +10656,7 @@ $$L_{tong} = 10 \times \log_{10}(10^{68/10} + 10^{62/10} + 10^{40/10} + 10^{53/1
 
 #### R.7.2. Nước thải Khối C (cập nhật)
 
-| Nguồn | V1.0 (m³/ngày) | V2.0 | Ô nhiễm |
+| Nguồn | Ban đầu (m³/ngày) | Hiện tại | Ô nhiễm |
 |-------|:--------------:|:----:|---------|
 | Rửa PCB (IPA, flux) | 2,0 | **1,0** | IPA, flux, Cu |
 | Nước chiller (clean room) | 0,5 | **0,3** | Nhiệt |
@@ -10683,7 +10666,7 @@ $$L_{tong} = 10 \times \log_{10}(10^{68/10} + 10^{62/10} + 10^{40/10} + 10^{53/1
 
 #### R.7.3. Chất thải nguy hại Khối C (cập nhật ×0,50)
 
-| Loại CTNH | V1.0 (tấn/năm) | V2.0 (×0,50) | Mã CTNH |
+| Loại CTNH | Ban đầu (tấn/năm) | Hiện tại (×0,50) | Mã CTNH |
 |-----------|:--------------:|:------------:|---------|
 | Pin Li-ion thải | 1,2 | **0,6** | 16 01 03 |
 | PCB lỗi, linh kiện hỏng | 4,5 | **2,25** | 17 04 |
@@ -10696,7 +10679,7 @@ $$L_{tong} = 10 \times \log_{10}(10^{68/10} + 10^{62/10} + 10^{40/10} + 10^{53/1
 
 ## R.8. TÁC ĐỘNG TÍCH LŨY (CUMULATIVE IMPACT) — TỔ HỢP 3 KHỐI
 
-> **Đây là phần chưa từng có trong EIA V1.0.** Đánh giá tổng tải ô nhiễm khi 3 khối hoạt động đồng thời.
+> **Đây là phần chưa từng có trong đề án ban đầu.** Đánh giá tổng tải ô nhiễm khi 3 khối hoạt động đồng thời.
 
 #### R.8.1. Tổng phát thải GHG (Scope 1+2) [C]
 
@@ -10711,7 +10694,7 @@ $$L_{tong} = 10 \times \log_{10}(10^{68/10} + 10^{62/10} + 10^{40/10} + 10^{53/1
 | **TỔNG** | | **11.133–25.060** |
 
 > **Hệ số phát thải điện lưới VN [B]:** 0,6 tCO₂/MWh (Bộ Công Thương 2024)
-> **So V1.0:** GHG tăng từ 1.237 → **11.133–25.060 tCO₂e/năm** (tăng 9–20×), Khối A chiếm 63–71%
+> **So đề án ban đầu:** GHG tăng từ 1.237 → **11.133–25.060 tCO₂e/năm** (tăng 9–20×), Khối A chiếm 63–71%
 
 #### R.8.2. Tổng nước thải — Tải ô nhiễm tổng hợp [C]
 
@@ -10752,7 +10735,7 @@ $$L_{tong} = 10 \times \log_{10}(10^{68/10} + 10^{62/10} + 10^{40/10} + 10^{53/1
 | Brine crystals ZLD | 0 | 0,5–1,5 | 0 | 0,5–1,5 |
 | **TỔNG** | **0,67** | **13,5–34,0** | **3,83** | **18,0–38,5** |
 
-> **So V1.0:** CTNH tăng từ 7,65 → **18–38,5 tấn/năm** (tăng 2,4–5,0×). Khối B (CNC) chiếm 75–88%.
+> **So đề án ban đầu:** CTNH tăng từ 7,65 → **18–38,5 tấn/năm** (tăng 2,4–5,0×). Khối B (CNC) chiếm 75–88%.
 
 #### R.8.4. Xung đột giữa các Khối [A]
 
@@ -10768,7 +10751,7 @@ $$L_{tong} = 10 \times \log_{10}(10^{68/10} + 10^{62/10} + 10^{40/10} + 10^{53/1
 
 #### R.8.5. Tổng phát thải khí thải 3 Khối [C]
 
-| Chất ô nhiễm | Khối A (kg/năm) | Khối B (kg/năm) | Khối C (kg/năm) | Tổng (kg/năm) | So V1.0 |
+| Chất ô nhiễm | Khối A (kg/năm) | Khối B (kg/năm) | Khối C (kg/năm) | Tổng (kg/năm) | So đề án ban đầu |
 |--------------|:---------------:|:---------------:|:---------------:|:--------------:|---------|
 | NOx | 914 | 50–100 | 360 | **1.324–1.374** | V1: 1.440 ≈ |
 | CO | 103 | 20–40 | 192 | **315–335** | V1: 744 ↓55% |
@@ -10828,9 +10811,9 @@ graph LR
 
 Chi phí: Mist collector 75.000 + LEV tập trung 120.000 + Cyclone/HEPA/Carbon 85.000 = **280.000 USD**
 
-**c) Khối C — Fume hood + Filter = 105.000 USD** (giảm 30% từ V1.0: 150.000)
+**c) Khối C — Fume hood + Filter = 105.000 USD** (giảm 30% so với đề án ban đầu: 150.000)
 
-| Hạng mục | V2.0 (USD) |
+| Hạng mục | Hiện tại (USD) |
 |----------|----------:|
 | Fume hood (6 điểm hút) | 35.000 |
 | Cyclone + Bag filter | 28.000 |
@@ -10905,7 +10888,7 @@ graph TD
 
 **a) Kho CTNH tập trung (nâng cấp):**
 
-| Thông số | V1.0 | V2.0 |
+| Thông số | Ban đầu | Hiện tại |
 |----------|------|------|
 | Diện tích | 30 m² | **80 m² (3 khu)** |
 | Sức chứa | 3 tấn | **10 tấn** |
@@ -11029,7 +11012,7 @@ graph TD
 | 9 | Cây xanh, cảnh quan | — | — | — | 25.000 | **25.000** |
 | **TỔNG** | | 425.000 | 1.390.000 | 135.000 | 920.000 | **2.870.000** |
 
-> **So V1.0:** CAPEX MT tăng từ 730.000 → **2.870.000 USD** (tăng 3,9×)
+> **So đề án ban đầu:** CAPEX MT tăng từ 730.000 → **2.870.000 USD** (tăng 3,9×)
 > Nguyên nhân chính: ZLD (+450K), Cách ly rung (+520K), SCR/DPF (+240K), Solar PV (+200K)
 
 #### R.11.2. OPEX Môi trường hàng năm [C]
@@ -11090,9 +11073,9 @@ Ngày ___ tháng ___ năm 2026
 
 ---
 
-## R.13. BẢNG TỔNG HỢP SO SÁNH EIA V1.0 vs V2.0
+## R.13. BẢNG TỔNG HỢP SO SÁNH ĐTM BAN ĐẦU vs HIỆN TẠI
 
-| Thông số | EIA V1.0 (Khối C) | **EIA V2.0 (3 Khối)** | Hệ số tăng |
+| Thông số | ĐTM ban đầu (Khối C) | **ĐTM hiện tại (3 Khối)** | Hệ số tăng |
 |----------|-------------------:|----------------------:|:----------:|
 | Diện tích sản xuất | 10.000 m² (1 khối) | **10.000 m² (3 khối)** | 1× |
 | Tải điện (kW) | 400 | **2.600–5.400** | 6,5–13,5× |
@@ -12015,7 +11998,7 @@ quadrantChart
 | **Best Case (P5)** | +14,0 M USD |
 | **Worst Case (P95)** | -8,5 M USD |
 
-> **Ghi chú:** P(NPV>0) giảm từ 72% (mô hình cũ 20Y) xuống 65% (50Y) do 5 năm xây dựng không doanh thu tạo rủi ro lớn hơn. Tuy nhiên 65% vẫn là mức chấp nhận được cho dự án hạ tầng công nghệ.
+> **Ghi chú:** P(NPV>0) = 65% trên horizon 50 năm. Xác suất thấp hơn mức thông thường do 5 năm xây dựng không doanh thu tạo rủi ro lớn hơn. Tuy nhiên 65% vẫn là mức chấp nhận được cho dự án hạ tầng công nghệ.
 
 ```mermaid
 xychart-beta
@@ -13893,7 +13876,7 @@ graph TB
 
 ## EE.2. Dòng tiền Năm — 10 năm (K USD)
 
-> **Lưu ý quan trọng:** Toàn bộ bảng EE.2.1 – EE.2.4 dựa trên mô hình cũ (doanh thu từ Y1, 2 giai đoạn, vay từ Y0). Giữ làm tài liệu tham chiếu "steady-state unit economics". **Số liệu V2.1 chính thức: xem Phần V (§5.1–5.17, đặc biệt §5.4 Revenue và §5.6 P&L) và Phụ lục A (A.2 P&L 20Y, A.5 FCFF/NPV).** Revenue 10Y = 205,20M và NPV = 2,78M trong bảng dưới đây là từ mô hình cũ, KHÔNG phải V2.1.
+> **Lưu ý quan trọng:** Toàn bộ bảng EE.2.1 – EE.2.4 dựa trên mô hình doanh thu từ Y1 (steady-state unit economics), không phản ánh lịch trình triển khai tuần tự thực tế. **Số liệu chính thức: xem Phần V (§5.1–5.17, đặc biệt §5.4 Revenue và §5.6 P&L) và Phụ lục A (A.2 P&L 20Y, A.5 FCFF/NPV).** Revenue 10Y = 205,20M và NPV = 2,78M trong bảng dưới đây là giá trị steady-state tham chiếu, KHÔNG phải số chính thức.
 
 ### EE.2.1. Revenue Projection by BU
 
@@ -13949,7 +13932,7 @@ graph TB
 
 ### EE.2.4. Valuation Summary
 
-> **Ghi chú:** Valuation dưới đây dựa trên mô hình cũ. V2.1: NPV(50Y, 12%) = 1,50M, NPV(20Y, 12%) = (5,30)M. Strategic Value V2.1 = 20,32M (xem Phụ lục O).
+> **Ghi chú:** Valuation dưới đây dựa trên mô hình steady-state tham chiếu. Số liệu chính thức: NPV(50Y, 12%) = 1,50M, NPV(20Y, 12%) = (5,30)M. Strategic Value = 20,32M (xem Phụ lục O).
 
 | Phương pháp | Giá trị (M USD) | Giả định |
 |---|---:|---|
@@ -13966,7 +13949,7 @@ graph TB
 
 ### EE.3.1. Tornado Chart — Impact trên NPV
 
-> **Ghi chú:** Tornado dưới đây dựa trên mô hình cũ (base NPV 20Y = 2,78M). V2.1 base NPV(50Y) = 1,50M. Các chiều nhạy cảm tương tự — xem G.10 cho sensitivity V2.1.
+> **Ghi chú:** Tornado dưới đây dựa trên mô hình steady-state tham chiếu (base NPV 20Y = 2,78M). NPV chính thức (50Y) = 1,50M. Các chiều nhạy cảm tương tự — xem G.10 cho sensitivity chính thức.
 
 | Variable | Low Case | Base | High Case | NPV Low (M) | NPV High (M) | **Swing (M)** |
 |---|---|---|---|---:|---:|---:|

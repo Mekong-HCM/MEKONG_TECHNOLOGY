@@ -177,3 +177,63 @@ body {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+/* Print / PDF Export */
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 0;
+  }
+
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  body {
+    background: var(--dark-bg) !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+
+  .snap-container {
+    scroll-snap-type: none !important;
+    overflow: visible !important;
+    height: auto !important;
+  }
+
+  .snap-container > section {
+    scroll-snap-align: none !important;
+    min-height: auto !important;
+    page-break-after: always;
+    break-after: page;
+    padding: 40px 60px !important;
+  }
+
+  .snap-container > section:last-child {
+    page-break-after: avoid;
+  }
+
+  /* Hide UI chrome */
+  nav, .fixed { display: none !important; }
+
+  /* Force visibility for lazy-loaded sections */
+  .snap-container > section * {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .glass-card, .glass-card-hover {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border-color: rgba(255,255,255,0.15) !important;
+    background: rgba(25, 29, 68, 0.85) !important;
+  }
+
+  /* Ensure gradients print */
+  .gradient-text {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}

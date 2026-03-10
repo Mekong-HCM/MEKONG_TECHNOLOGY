@@ -2,11 +2,21 @@ import { motion } from 'framer-motion';
 import { useInView } from '../../hooks/useInView';
 import { financials } from '../../data/financials';
 import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Tooltip, Cell } from 'recharts';
-import { Check } from 'lucide-react';
+import { Check, Info } from 'lucide-react';
 import { SectionLayout } from '../ui/SectionLayout';
 import { GlassCard } from '../ui/GlassCard';
 
 const colors = ['#00E5FF', '#4dd2ff', '#E040FB', '#76FF03', '#FF9100', '#00bfff', '#E040FB'];
+
+const methodologyNotes: Record<string, string> = {
+    'NPV (50Y, Base)': 'DCF 50 nam, WACC 12%, terminal value = 0',
+    'Brand & IP': 'SaaS multiple 3-5x + IP licensing + chung nhan quoc te (AS9100, IATF)',
+    'Ecosystem synergy': 'Gia tri cong huong 3 BU: CNC dung GPU cho CAM, DC phuc vu IoT analytics',
+    'Tax incentives': 'Mien TNDN 4 nam + giam 50% 9 nam. Gia tri hien tai theo luat KCNC [C]',
+    'Strategic location': 'Vi tri KCNC TP.HCM, gia thue thap hon 40% so voi KCN ngoai [B]',
+    'Human capital': 'Pool 300 nhan su, ESOP 3%, gia tri dao tao luy ke [C]',
+    'ESG premium': 'PUE 1,32 + ZLD + Zero-fatality → valuation premium 5-10% [B]',
+};
 
 export function StrategicValue() {
     const { ref, isInView } = useInView(0.15);
@@ -24,14 +34,17 @@ export function StrategicValue() {
                     {/* Waterfall Chart */}
                     <motion.div initial={{ opacity: 0, x: -30 }} animate={isInView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.6, delay: 0.2 }}>
                         <GlassCard className="p-6 h-full">
-                        <h4 className="text-lg font-semibold text-white mb-4">Thành phần Giá trị (M USD)</h4>
+                        <h4 className="text-lg font-semibold text-white mb-4">Thanh phan Gia tri (M USD)</h4>
                         <ResponsiveContainer width="100%" height={300}>
                             <BarChart data={financials.strategicBreakdown} margin={{ left: 0 }}>
                                 <XAxis dataKey="name" tick={{ fill: '#999', fontSize: 9 }} axisLine={false} tickLine={false} angle={-25} textAnchor="end" height={60} />
                                 <YAxis tick={{ fill: '#999', fontSize: 10 }} axisLine={false} tickLine={false} />
                                 <Tooltip
                                     contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '11px' }}
-                                    formatter={(v: number) => [`${v}M USD`]}
+                                    formatter={(v: number, name: string, props: { payload?: { name?: string } }) => {
+                                        const note = props.payload?.name ? methodologyNotes[props.payload.name] : '';
+                                        return [`${v}M USD${note ? ' — ' + note : ''}`, ''];
+                                    }}
                                 />
                                 <Bar dataKey="value" radius={[6, 6, 0, 0]} barSize={32}>
                                     {financials.strategicBreakdown.map((_, i) => (
@@ -40,6 +53,18 @@ export function StrategicValue() {
                                 </Bar>
                             </BarChart>
                         </ResponsiveContainer>
+                        <div className="mt-3 p-3 rounded-lg bg-white/[0.02] border border-white/5">
+                            <div className="flex items-center gap-1.5 text-xs text-gray-400 mb-2">
+                                <Info size={12} /> Phuong phap dinh gia
+                            </div>
+                            <div className="grid sm:grid-cols-2 gap-x-4 gap-y-1">
+                                {financials.strategicBreakdown.map((item, i) => (
+                                    <div key={i} className="text-xs text-gray-500">
+                                        <span style={{ color: colors[i] }} className="font-medium">{item.name}:</span> {methodologyNotes[item.name]}
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
                         </GlassCard>
                     </motion.div>
 
@@ -77,6 +102,74 @@ export function StrategicValue() {
                         </GlassCard>
                     </motion.div>
                 </div>
+
+                {/* Exit Strategy & Comparable Valuation */}
+                <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    animate={isInView ? { opacity: 1, y: 0 } : {}}
+                    transition={{ duration: 0.6, delay: 0.45 }}
+                    className="mt-8"
+                >
+                    <GlassCard className="p-6">
+                        <h4 className="text-lg font-semibold text-white mb-4">Chien luoc Thoai von & Dinh gia So sanh</h4>
+                        <div className="grid lg:grid-cols-2 gap-6">
+                            {/* Exit paths */}
+                            <div>
+                                <h5 className="text-sm font-bold text-gray-300 mb-3">Lo trinh Thoai von (Y15+)</h5>
+                                <div className="space-y-3">
+                                    {[
+                                        { path: 'M&A boi Strategic Buyer', target: 'Foxconn, Jabil, NDK Group', ev: '120-160M USD', multiple: '12-18x EBITDA', color: '#00E5FF' },
+                                        { path: 'Ban co phan cho PE Fund', target: 'KKR, Warburg, VinaCapital PE', ev: '80-120M USD', multiple: '8-12x EBITDA', color: '#E040FB' },
+                                        { path: 'IPO tren HOSE/HNX', target: 'Niem yet cong khai', ev: '150-200M+ USD', multiple: '15-20x EBITDA', color: '#76FF03' },
+                                    ].map((exit, i) => (
+                                        <div key={i} className="p-3 rounded-lg bg-white/[0.03] border border-white/5">
+                                            <div className="flex items-center justify-between mb-1">
+                                                <span className="text-xs font-bold" style={{ color: exit.color }}>{exit.path}</span>
+                                                <span className="text-xs font-bold text-white">{exit.ev}</span>
+                                            </div>
+                                            <div className="text-xs text-gray-500">Target: {exit.target} | {exit.multiple}</div>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+
+                            {/* Comparable companies */}
+                            <div>
+                                <h5 className="text-sm font-bold text-gray-300 mb-3">Cong ty So sanh (EV/EBITDA)</h5>
+                                <div className="overflow-x-auto">
+                                    <table className="w-full text-xs">
+                                        <thead>
+                                            <tr className="border-b border-white/10">
+                                                <th className="text-left py-1.5 text-gray-400">Cong ty</th>
+                                                <th className="text-right py-1.5 text-gray-400">EV/EBITDA</th>
+                                                <th className="text-right py-1.5 text-gray-400">Nganh</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {[
+                                                { name: 'Jabil Inc.', multiple: '11,2x', sector: 'EMS/CNC' },
+                                                { name: 'Equinix (APAC)', multiple: '22,5x', sector: 'Datacenter' },
+                                                { name: 'FPT Corp.', multiple: '18,3x', sector: 'Tech VN' },
+                                                { name: 'CMC Corp.', multiple: '14,1x', sector: 'DC/Cloud VN' },
+                                                { name: 'Median nganh', multiple: '15x', sector: 'Blended' },
+                                            ].map((comp, i) => (
+                                                <tr key={i} className={`border-b border-white/5 ${i === 4 ? 'font-bold' : ''}`}>
+                                                    <td className="py-1.5 text-gray-300">{comp.name}</td>
+                                                    <td className="text-right py-1.5 text-white">{comp.multiple}</td>
+                                                    <td className="text-right py-1.5 text-gray-500">{comp.sector}</td>
+                                                </tr>
+                                            ))}
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div className="mt-3 p-3 rounded-lg bg-cyan-400/5 border border-cyan-400/10 text-center">
+                                    <div className="text-xs text-gray-400">Mekong Y15 EBITDA ~9M x 15x =</div>
+                                    <div className="text-lg font-black text-cyan-400">~135M USD (conservative EV)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </GlassCard>
+                </motion.div>
             </div>
         </SectionLayout>
     );

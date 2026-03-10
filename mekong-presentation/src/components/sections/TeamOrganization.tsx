@@ -55,11 +55,11 @@ export function TeamOrganization() {
                             {team.cLevel.map((person, i) => (
                                 <div key={i} className="flex items-center gap-3 p-3 rounded-xl bg-white/[0.03] border border-white/5">
                                     <div className="w-10 h-10 rounded-full bg-gradient-to-br from-cyan-500/30 to-pink-500/30 flex items-center justify-center text-sm font-black text-white flex-shrink-0">
-                                        {person.role.charAt(0)}
+                                        {person.name.charAt(0)}
                                     </div>
                                     <div className="flex-1 min-w-0">
-                                        <div className="text-sm font-bold text-white truncate">{person.role}</div>
-                                        <div className="text-xs text-gray-400 truncate">{person.profile}</div>
+                                        <div className="text-sm font-bold text-white truncate">{person.name}</div>
+                                        <div className="text-xs text-gray-400 truncate">{person.role} — {person.profile}</div>
                                     </div>
                                     <div className="text-xs text-neon-cyan font-semibold whitespace-nowrap">{person.salary}</div>
                                 </div>

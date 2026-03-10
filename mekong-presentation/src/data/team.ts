@@ -9,11 +9,11 @@ export const team: TeamData = {
         { phase: 'Y15', total: 300, iot: 70, cnc: 90, dc: 30, rd: 30, other: 80 },
     ],
     cLevel: [
-        { role: 'CEO / Tổng Giám đốc', profile: 'Founder, 15+ năm CNC/Tech', salary: '120-180K' },
-        { role: 'CTO', profile: 'PhD/MS, 10+ năm IoT/AI', salary: '96-144K' },
-        { role: 'CFO', profile: 'CPA/CFA, 10+ năm FDI', salary: '84-120K' },
-        { role: 'COO', profile: '10+ năm Manufacturing, Lean', salary: '84-120K' },
-        { role: 'CSO (Sales)', profile: '8+ năm B2B ASEAN', salary: '72-96K' },
+        { role: 'CEO / Tổng Giám đốc', name: 'Phạm Xuân Quốc', profile: 'Founder, 15+ năm IoT/CNC Tech', salary: '120-180K' },
+        { role: 'CTO', name: 'Phạm Đình Chương', profile: '12+ năm Robot/Automation', salary: '96-144K' },
+        { role: 'CFO', name: 'Phạm Thị Mỹ Phước', profile: 'CPA, 10+ năm Tài chính doanh nghiệp', salary: '84-120K' },
+        { role: 'COO', name: 'Bùi Thị Bích Thảo', profile: '8+ năm Sản xuất & Vận hành', salary: '84-120K' },
+        { role: 'R&D Director', name: 'Nguyễn Văn A', profile: 'Giám đốc R&D, 5 Labs / 26 kỹ sư', salary: '72-96K' },
     ],
     experts: [
         { role: 'CNC Application Engineer', origin: 'Nhật / Đức', count: 2, duration: '2 năm' },
