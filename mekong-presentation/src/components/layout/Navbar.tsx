@@ -1,28 +1,24 @@
 import { useState, useEffect, useCallback } from 'react';
 import { motion } from 'framer-motion';
-import { Download } from 'lucide-react';
+import { Download, Grid3X3 } from 'lucide-react';
+import { SLIDES } from '../../hooks/useSlideNavigation';
 
-const sections = [
-    { id: 'hero', label: 'Home' },
-    { id: 'summary', label: 'Tom tat' },
-    { id: 'market', label: 'Thi truong' },
-    { id: 'pillars', label: '3 Tru cot' },
-    { id: 'infra', label: 'Ha tang' },
-    { id: 'financials', label: 'Tai chinh' },
-    { id: 'legal', label: 'Phap ly' },
-    { id: 'team', label: 'Doi ngu' },
-    { id: 'roadmap', label: 'Lo trinh' },
-    { id: 'strategic', label: 'Chien luoc' },
-    { id: 'contact', label: 'Lien he' },
-];
+const sections = SLIDES;
 
 interface NavbarProps {
     isFullscreen?: boolean;
     currentSlide?: number;
     totalSlides?: number;
+    onToggleOverview?: () => void;
 }
 
-export function Navbar({ isFullscreen = false, currentSlide = 0, totalSlides = 11 }: NavbarProps) {
+// Key nav sections shown in top bar (subset for space)
+const navSections = [
+    'hero', 'summary', 'market', 'pillars', 'product-iot',
+    'rd-strategy', 'infra', 'financials', 'legal', 'team', 'roadmap', 'contact',
+];
+
+export function Navbar({ isFullscreen = false, currentSlide = 0, totalSlides = 26, onToggleOverview }: NavbarProps) {
     const [active, setActive] = useState('hero');
     const [scrolled, setScrolled] = useState(false);
 
@@ -91,11 +87,18 @@ export function Navbar({ isFullscreen = false, currentSlide = 0, totalSlides = 1
                     >
                         <Download size={12} /> PDF
                     </button>
-                    {sections.map((s) => (
+                    <button
+                        onClick={onToggleOverview}
+                        className="px-2 py-1.5 rounded-md text-xs font-medium text-gray-500 hover:text-neon-cyan transition-all duration-200 flex items-center gap-1 print:hidden"
+                        title="Slide Overview (G)"
+                    >
+                        <Grid3X3 size={12} />
+                    </button>
+                    {sections.filter(s => navSections.includes(s.id)).map((s) => (
                         <a
                             key={s.id}
                             href={`#${s.id}`}
-                            className={`px-3 py-1.5 rounded-md text-xs font-medium transition-all duration-200 ${active === s.id
+                            className={`px-2 py-1.5 rounded-md text-[11px] font-medium transition-all duration-200 ${active === s.id
                                     ? 'text-white bg-white/10'
                                     : 'text-gray-500 hover:text-gray-300'
                                 }`}

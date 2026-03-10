@@ -1,0 +1,120 @@
+import { motion } from 'framer-motion';
+import { Settings, Clock, Gauge } from 'lucide-react';
+import { SectionLayout } from '../ui/SectionLayout';
+import { GlassCard } from '../ui/GlassCard';
+import { useInView } from '../../hooks/useInView';
+import { cncMachines, cncCapacity, cncSpecs, shiftStructure, totalMachines, totalMachineCost } from '../../data/operations';
+
+export function ProductionCapacity() {
+    const { ref, isInView } = useInView(0.15);
+
+    return (
+        <SectionLayout id="production">
+            <div ref={ref}>
+                <motion.div initial={{ opacity: 0, y: 30 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6 }}>
+                    <h2 className="section-title text-white">Nang luc <span className="gradient-text">San xuat CNC</span></h2>
+                    <p className="section-subtitle">{totalMachines} may CNC — {cncSpecs.designCapacity} — Tolerance {cncSpecs.tolerance}</p>
+                </motion.div>
+
+                {/* Spec KPIs */}
+                <motion.div initial={{ opacity: 0, y: 20 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ delay: 0.1, duration: 0.5 }}
+                    className="grid grid-cols-2 md:grid-cols-5 gap-3 mb-4"
+                >
+                    {[
+                        { label: 'Tong may', value: `${totalMachines}`, color: 'text-neon-cyan' },
+                        { label: 'Tong von may', value: totalMachineCost, color: 'text-neon-magenta' },
+                        { label: 'Tolerance', value: cncSpecs.tolerance, color: 'text-green-400' },
+                        { label: 'Surface', value: cncSpecs.surfaceRoughness, color: 'text-yellow-400' },
+                        { label: 'Cong suat TK', value: cncSpecs.designCapacity, color: 'text-blue-400' },
+                    ].map((kpi, i) => (
+                        <GlassCard key={i} className="p-2.5 text-center">
+                            <div className={`text-base font-extrabold ${kpi.color}`}>{kpi.value}</div>
+                            <div className="text-[9px] text-gray-400 mt-0.5">{kpi.label}</div>
+                        </GlassCard>
+                    ))}
+                </motion.div>
+
+                {/* Machine List */}
+                <motion.div initial={{ opacity: 0, y: 20 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ delay: 0.15, duration: 0.5 }}>
+                    <GlassCard className="p-3 mb-4 overflow-x-auto">
+                        <h3 className="text-xs font-bold text-white mb-2 flex items-center gap-2"><Settings size={12} className="text-neon-cyan" /> Danh sach thiet bi CNC</h3>
+                        <table className="w-full text-[10px]">
+                            <thead><tr className="text-gray-400 border-b border-white/10">
+                                <th className="text-left py-1">Model</th>
+                                <th className="text-center py-1">Xuat xu</th>
+                                <th className="text-center py-1">Loai</th>
+                                <th className="text-center py-1">SL</th>
+                                <th className="text-right py-1">Don gia (K USD)</th>
+                            </tr></thead>
+                            <tbody>
+                                {cncMachines.map((m, i) => (
+                                    <tr key={i} className="border-b border-white/5">
+                                        <td className="py-1 text-gray-300 font-medium">{m.model}</td>
+                                        <td className="text-center text-gray-400">{m.origin}</td>
+                                        <td className="text-center text-gray-400">{m.type}</td>
+                                        <td className="text-center text-neon-cyan font-bold">{m.qty}</td>
+                                        <td className="text-right text-gray-300">{m.price}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                    </GlassCard>
+                </motion.div>
+
+                {/* Capacity + Shift side by side */}
+                <div className="grid md:grid-cols-2 gap-4">
+                    <motion.div initial={{ opacity: 0, x: -20 }} animate={isInView ? { opacity: 1, x: 0 } : {}} transition={{ delay: 0.25, duration: 0.5 }}>
+                        <GlassCard className="p-3 h-full overflow-x-auto">
+                            <h3 className="text-xs font-bold text-white mb-2 flex items-center gap-2"><Gauge size={12} className="text-green-400" /> Cong suat theo nam</h3>
+                            <table className="w-full text-[10px]">
+                                <thead><tr className="text-gray-400 border-b border-white/10">
+                                    <th className="text-left py-1">Nam</th>
+                                    <th className="text-center py-1">May</th>
+                                    <th className="text-center py-1">Hieu suat</th>
+                                    <th className="text-right py-1">Gio may/nam</th>
+                                    <th className="text-right py-1">Revenue</th>
+                                </tr></thead>
+                                <tbody>
+                                    {cncCapacity.map((c, i) => (
+                                        <tr key={i} className="border-b border-white/5">
+                                            <td className="py-1 text-white font-medium">{c.year}</td>
+                                            <td className="text-center text-gray-300">{c.machines}</td>
+                                            <td className="text-center text-neon-cyan">{c.utilization}</td>
+                                            <td className="text-right text-gray-300">{c.machineHrs}</td>
+                                            <td className="text-right text-neon-magenta font-bold">{c.revenue}</td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </GlassCard>
+                    </motion.div>
+
+                    <motion.div initial={{ opacity: 0, x: 20 }} animate={isInView ? { opacity: 1, x: 0 } : {}} transition={{ delay: 0.3, duration: 0.5 }}>
+                        <GlassCard className="p-3 h-full">
+                            <h3 className="text-xs font-bold text-white mb-2 flex items-center gap-2"><Clock size={12} className="text-yellow-400" /> Che do van hanh</h3>
+                            <div className="space-y-2">
+                                {shiftStructure.map((s, i) => (
+                                    <div key={i} className="flex items-center gap-3 p-2 rounded-lg bg-white/5">
+                                        <span className="text-[10px] font-bold text-neon-cyan min-w-[32px]">{s.phase}</span>
+                                        <div>
+                                            <div className="text-xs text-white">{s.shifts}</div>
+                                            <div className="text-[9px] text-gray-400">{s.days}</div>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                            <div className="mt-3 p-2 rounded-lg bg-neon-cyan/5 border border-neon-cyan/20">
+                                <div className="text-[10px] text-gray-400">Vat lieu gia cong</div>
+                                <div className="flex flex-wrap gap-1 mt-1">
+                                    {cncSpecs.materials.map((m, i) => (
+                                        <span key={i} className="px-1.5 py-0.5 rounded bg-white/10 text-[9px] text-gray-300">{m}</span>
+                                    ))}
+                                </div>
+                            </div>
+                        </GlassCard>
+                    </motion.div>
+                </div>
+            </div>
+        </SectionLayout>
+    );
+}
