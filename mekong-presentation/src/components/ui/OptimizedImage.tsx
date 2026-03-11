@@ -48,7 +48,7 @@ export function OptimizedImage({
                 src={src}
                 alt={alt}
                 loading={lazy ? 'lazy' : 'eager'}
-                decoding="async"
+                decoding="auto"
                 width={width}
                 height={height}
                 className={`${className} transition-opacity duration-500 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
