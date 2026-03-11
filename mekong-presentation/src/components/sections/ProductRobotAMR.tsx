@@ -3,8 +3,10 @@ import { motion } from 'framer-motion';
 import { Bot, Navigation, Battery, Gauge, Check } from 'lucide-react';
 import { SectionLayout } from '../ui/SectionLayout';
 import { GlassCard } from '../ui/GlassCard';
+import { OptimizedImage } from '../ui/OptimizedImage';
 import { useInView } from '../../hooks/useInView';
 import { robots } from '../../data/productDetails';
+import { images } from '../../data/images';
 
 const typeColors: Record<string, string> = {
     AMR: '#00E5FF',
@@ -25,6 +27,28 @@ export function ProductRobotAMR() {
                     </span>
                     <h2 className="section-title text-white">Robot <span className="gradient-text">AMR / AGV</span></h2>
                     <p className="section-subtitle">Robot tự hành cho nhà máy và kho vận — LiDAR 3D, AI SLAM, Fleet Management tích hợp</p>
+                </motion.div>
+
+                {/* Hero image */}
+                <motion.div
+                    initial={{ opacity: 0, scale: 0.97 }}
+                    animate={isInView ? { opacity: 1, scale: 1 } : {}}
+                    transition={{ delay: 0.15, duration: 0.6 }}
+                    className="relative rounded-2xl overflow-hidden mb-6 border border-neon-cyan/15"
+                    style={{ background: 'linear-gradient(135deg,rgba(0,229,255,0.06) 0%,rgba(0,60,80,0.4) 100%)' }}
+                >
+                    <OptimizedImage
+                        {...images['iot-04']}
+                        placeholderLabel="Robot AGV tự hành — nhà kho thông minh"
+                        placeholderColor="#00E5FF"
+                        className="w-full object-cover max-h-[340px]"
+                        aspectRatio="16/9"
+                    />
+                    {/* Overlay badge */}
+                    <div className="absolute bottom-4 left-4 flex gap-2">
+                        <span className="px-3 py-1.5 rounded-lg text-xs font-bold" style={{ background: 'rgba(0,229,255,0.18)', border: '1px solid rgba(0,229,255,0.45)', color: '#00E5FF' }}>LiDAR 3D · AI SLAM</span>
+                        <span className="px-3 py-1.5 rounded-lg text-xs font-bold" style={{ background: 'rgba(0,0,0,0.5)', border: '1px solid rgba(255,255,255,0.12)', color: '#ccc' }}>Fleet Management</span>
+                    </div>
                 </motion.div>
 
                 {/* Robot selector */}
