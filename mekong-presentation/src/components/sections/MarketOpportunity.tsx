@@ -113,116 +113,234 @@ export function MarketOpportunity() {
                     </motion.div>
                 </div>
 
-                {/* Competitive Positioning — Custom SVG */}
+                {/* Competitive Positioning — Animated SVG */}
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     animate={isInView ? { opacity: 1, y: 0 } : {}}
                     transition={{ duration: 0.6, delay: 0.5 }}
                 >
-                    <GlassCard className="p-6">
-                        <h4 className="text-lg font-semibold text-white mb-1">Định vị Cạnh tranh — Độ phức tạp vs. Quy mô</h4>
-                        <p className="text-xs text-gray-400 mb-5">Mekong chiếm vị trí &quot;High Complexity, Niche Volume&quot; — ít cạnh tranh trực tiếp</p>
-                        {/* SVG coordinate system: viewBox 0 0 700 340
-                            chart area: x 80→660 (w=580), y 30→290 (h=260)
-                            x(v) = 80 + v*58   |  y(c) = 30 + (1-c/10)*260 */}
-                        <svg viewBox="0 0 700 340" className="w-full" role="img" aria-label="Biểu đồ định vị cạnh tranh">
+                    <GlassCard className="p-6" accentColor="#00E5FF">
+                        {/* Header */}
+                        <div className="flex items-start justify-between mb-5 gap-3">
+                            <div>
+                                <h4 className="text-lg font-semibold text-white mb-1">Định vị Cạnh tranh — Độ phức tạp vs. Quy mô</h4>
+                                <p className="text-xs text-gray-400">Mekong chiếm vị trí &quot;High Complexity, Niche Volume&quot; — ít cạnh tranh trực tiếp</p>
+                            </div>
+                            <div className="flex-shrink-0 rounded-lg px-3 py-1.5" style={{ background: 'rgba(0,229,255,0.12)', border: '1px solid rgba(0,229,255,0.35)' }}>
+                                <span className="text-[10px] font-bold tracking-widest" style={{ color: '#00E5FF' }}>SWEET SPOT</span>
+                            </div>
+                        </div>
+
+                        {/* SVG — viewBox 0 0 720 360
+                             chart: x 80→670 (w=590), y 20→285 (h=265)
+                             x(v)=80+v*59  |  y(c)=20+(1-c/10)*265 */}
+                        <svg viewBox="0 0 720 360" className="w-full" role="img" aria-label="Biểu đồ định vị cạnh tranh">
                             <defs>
-                                <radialGradient id="mekongHalo" cx="50%" cy="50%" r="50%">
-                                    <stop offset="0%" stopColor="#00E5FF" stopOpacity="0.4" />
+                                <radialGradient id="cpMekongHalo" cx="50%" cy="50%" r="50%">
+                                    <stop offset="0%" stopColor="#00E5FF" stopOpacity="0.35" />
                                     <stop offset="100%" stopColor="#00E5FF" stopOpacity="0" />
                                 </radialGradient>
-                                <filter id="mekongGlowF" x="-80%" y="-80%" width="260%" height="260%">
-                                    <feGaussianBlur stdDeviation="5" result="blur" />
-                                    <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+                                <radialGradient id="cpZoneCyan" cx="20%" cy="15%" r="70%">
+                                    <stop offset="0%" stopColor="#00E5FF" stopOpacity="0.12" />
+                                    <stop offset="100%" stopColor="#00E5FF" stopOpacity="0.02" />
+                                </radialGradient>
+                                <radialGradient id="cpZoneOrange" cx="80%" cy="85%" r="60%">
+                                    <stop offset="0%" stopColor="#FF9100" stopOpacity="0.10" />
+                                    <stop offset="100%" stopColor="#FF9100" stopOpacity="0.01" />
+                                </radialGradient>
+                                <filter id="cpGlowCyan" x="-120%" y="-120%" width="340%" height="340%">
+                                    <feGaussianBlur stdDeviation="9" result="b" />
+                                    <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
                                 </filter>
+                                <filter id="cpGlowSoft" x="-60%" y="-60%" width="220%" height="220%">
+                                    <feGaussianBlur stdDeviation="4" result="b" />
+                                    <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+                                </filter>
+                                <style>{`
+                                    @keyframes cpPulse1 {
+                                        0%   { r: 16; stroke-opacity: 0.65; }
+                                        100% { r: 52; stroke-opacity: 0; }
+                                    }
+                                    @keyframes cpPulse2 {
+                                        0%   { r: 16; stroke-opacity: 0.35; }
+                                        100% { r: 68; stroke-opacity: 0; }
+                                    }
+                                    @keyframes cpFloat {
+                                        0%,100% { transform: translateY(0); }
+                                        50%     { transform: translateY(-5px); }
+                                    }
+                                    @keyframes cpPop {
+                                        0%   { transform: scale(0); opacity: 0; }
+                                        65%  { transform: scale(1.25); opacity: 1; }
+                                        100% { transform: scale(1);    opacity: 1; }
+                                    }
+                                    @keyframes cpFadeSlide {
+                                        from { opacity: 0; transform: translateX(-6px); }
+                                        to   { opacity: 1; transform: translateX(0); }
+                                    }
+                                    .cp-ring1 { animation: cpPulse1 2.4s ease-out infinite; }
+                                    .cp-ring2 { animation: cpPulse2 2.4s ease-out 0.9s infinite; }
+                                    .cp-float { animation: cpFloat 4s ease-in-out infinite; }
+                                    .cp-dot1  { animation: cpPop 0.55s cubic-bezier(0.34,1.56,0.64,1) 0.15s both; transform-box: fill-box; transform-origin: center; }
+                                    .cp-dot2  { animation: cpPop 0.55s cubic-bezier(0.34,1.56,0.64,1) 0.30s both; transform-box: fill-box; transform-origin: center; }
+                                    .cp-dot3  { animation: cpPop 0.55s cubic-bezier(0.34,1.56,0.64,1) 0.45s both; transform-box: fill-box; transform-origin: center; }
+                                    .cp-dot4  { animation: cpPop 0.55s cubic-bezier(0.34,1.56,0.64,1) 0.60s both; transform-box: fill-box; transform-origin: center; }
+                                    .cp-dot5  { animation: cpPop 0.55s cubic-bezier(0.34,1.56,0.64,1) 0.75s both; transform-box: fill-box; transform-origin: center; }
+                                    .cp-dotM  { animation: cpPop 0.70s cubic-bezier(0.34,1.56,0.64,1) 1.00s both; transform-box: fill-box; transform-origin: center; }
+                                    .cp-lbl1  { animation: cpFadeSlide 0.4s ease-out 0.35s both; }
+                                    .cp-lbl2  { animation: cpFadeSlide 0.4s ease-out 0.50s both; }
+                                    .cp-lbl3  { animation: cpFadeSlide 0.4s ease-out 0.65s both; }
+                                    .cp-lbl4  { animation: cpFadeSlide 0.4s ease-out 0.80s both; }
+                                    .cp-lbl5  { animation: cpFadeSlide 0.4s ease-out 0.95s both; }
+                                    .cp-lblM  { animation: cpFadeSlide 0.5s ease-out 1.20s both; }
+                                `}</style>
                             </defs>
 
-                            {/* Quadrant highlight areas */}
-                            {/* Top-left: High Complexity, Low Volume — Mekong zone */}
-                            <rect x={80} y={30} width={290} height={130} rx={6} fill="rgba(0,229,255,0.06)" />
-                            {/* Bottom-right: Low Complexity, High Volume — Mass market */}
-                            <rect x={370} y={160} width={290} height={130} rx={6} fill="rgba(255,145,0,0.04)" />
+                            {/* Quadrant backgrounds */}
+                            <rect x={80} y={20} width={296} height={133} rx={6} fill="url(#cpZoneCyan)" />
+                            <rect x={376} y={153} width={294} height={132} rx={6} fill="url(#cpZoneOrange)" />
+                            {/* Mekong zone dashed border */}
+                            <rect x={80} y={20} width={296} height={133} rx={6} fill="none" stroke="rgba(0,229,255,0.18)" strokeWidth={1} strokeDasharray="5 5" />
 
-                            {/* Quadrant badge labels */}
-                            <rect x={84} y={34} width={136} height={17} rx={3} fill="rgba(0,229,255,0.14)" />
-                            <text x={89} y={46} fill="#00E5FF" fontSize={10} fontWeight="700" letterSpacing="0.4">NICHE · PHỨC TẠP CAO</text>
-                            <rect x={374} y={258} width={112} height={17} rx={3} fill="rgba(255,145,0,0.12)" />
-                            <text x={379} y={270} fill="#FF9100" fontSize={10} fontWeight="600" letterSpacing="0.4" opacity={0.9}>SẢN XUẤT ĐẠI TRÀ</text>
+                            {/* Quadrant badge pills */}
+                            <rect x={84} y={25} width={152} height={20} rx={5} fill="rgba(0,229,255,0.2)" stroke="rgba(0,229,255,0.4)" strokeWidth={0.75} />
+                            <text x={160} y={39} textAnchor="middle" fill="#00E5FF" fontSize={10} fontWeight="800" letterSpacing="0.6">NICHE · PHUC TAP CAO</text>
+                            <rect x={380} y={247} width={126} height={20} rx={5} fill="rgba(255,145,0,0.18)" stroke="rgba(255,145,0,0.35)" strokeWidth={0.75} />
+                            <text x={443} y={261} textAnchor="middle" fill="#FF9100" fontSize={10} fontWeight="700" letterSpacing="0.5">SAN XUAT DAI TRA</text>
 
-                            {/* Subtle grid */}
+                            {/* Grid lines */}
                             {[2, 4, 6, 8].map(v => (
-                                <line key={`vg${v}`} x1={80 + v * 58} y1={30} x2={80 + v * 58} y2={290} stroke="rgba(255,255,255,0.04)" strokeWidth={1} />
+                                <line key={`vg${v}`} x1={80 + v * 59} y1={20} x2={80 + v * 59} y2={285} stroke="rgba(255,255,255,0.05)" strokeWidth={1} />
                             ))}
                             {[2, 4, 6, 8].map(c => (
-                                <line key={`hg${c}`} x1={80} y1={30 + (1 - c / 10) * 260} x2={660} y2={30 + (1 - c / 10) * 260} stroke="rgba(255,255,255,0.04)" strokeWidth={1} />
+                                <line key={`hg${c}`} x1={80} y1={20 + (1 - c / 10) * 265} x2={670} y2={20 + (1 - c / 10) * 265} stroke="rgba(255,255,255,0.05)" strokeWidth={1} />
                             ))}
 
                             {/* Midpoint reference lines */}
-                            <line x1={370} y1={30} x2={370} y2={290} stroke="rgba(255,255,255,0.16)" strokeDasharray="5 4" strokeWidth={1} />
-                            <line x1={80} y1={160} x2={660} y2={160} stroke="rgba(255,255,255,0.16)" strokeDasharray="5 4" strokeWidth={1} />
+                            <line x1={376} y1={20} x2={376} y2={285} stroke="rgba(255,255,255,0.14)" strokeDasharray="6 5" strokeWidth={1} />
+                            <line x1={80} y1={153} x2={670} y2={153} stroke="rgba(255,255,255,0.14)" strokeDasharray="6 5" strokeWidth={1} />
 
                             {/* Axes */}
-                            <line x1={80} y1={290} x2={660} y2={290} stroke="rgba(255,255,255,0.25)" strokeWidth={1} />
-                            <line x1={80} y1={30} x2={80} y2={290} stroke="rgba(255,255,255,0.25)" strokeWidth={1} />
+                            <line x1={80} y1={285} x2={670} y2={285} stroke="rgba(255,255,255,0.35)" strokeWidth={1.5} />
+                            <line x1={80} y1={20} x2={80} y2={285} stroke="rgba(255,255,255,0.35)" strokeWidth={1.5} />
+                            {/* Arrow tips */}
+                            <polygon points="670,281 678,285 670,289" fill="rgba(255,255,255,0.35)" />
+                            <polygon points="76,20 80,12 84,20" fill="rgba(255,255,255,0.35)" />
 
-                            {/* X axis ticks & labels */}
+                            {/* Axis ticks */}
                             {[0, 2, 4, 6, 8, 10].map(v => (
                                 <g key={`xt${v}`}>
-                                    <line x1={80 + v * 58} y1={290} x2={80 + v * 58} y2={295} stroke="rgba(255,255,255,0.25)" strokeWidth={1} />
-                                    <text x={80 + v * 58} y={308} textAnchor="middle" fill="#666" fontSize={11}>{v}</text>
+                                    <line x1={80 + v * 59} y1={285} x2={80 + v * 59} y2={291} stroke="rgba(255,255,255,0.3)" strokeWidth={1} />
+                                    <text x={80 + v * 59} y={305} textAnchor="middle" fill="#666" fontSize={11}>{v}</text>
                                 </g>
                             ))}
-                            <text x={370} y={328} textAnchor="middle" fill="#888" fontSize={11}>Quy mô sản xuất →</text>
+                            <text x={375} y={325} textAnchor="middle" fill="#999" fontSize={12}>Quy mo san xuat →</text>
 
-                            {/* Y axis ticks & labels */}
                             {[0, 2, 4, 6, 8, 10].map(c => (
                                 <g key={`yt${c}`}>
-                                    <line x1={80} y1={30 + (1 - c / 10) * 260} x2={75} y2={30 + (1 - c / 10) * 260} stroke="rgba(255,255,255,0.25)" strokeWidth={1} />
-                                    <text x={70} y={30 + (1 - c / 10) * 260 + 4} textAnchor="end" fill="#666" fontSize={11}>{c}</text>
+                                    <line x1={80} y1={20 + (1 - c / 10) * 265} x2={74} y2={20 + (1 - c / 10) * 265} stroke="rgba(255,255,255,0.3)" strokeWidth={1} />
+                                    <text x={68} y={20 + (1 - c / 10) * 265 + 4} textAnchor="end" fill="#666" fontSize={11}>{c}</text>
                                 </g>
                             ))}
-                            <text x={18} y={160} textAnchor="middle" fill="#888" fontSize={11} transform="rotate(-90 18 160)">Độ phức tạp →</text>
+                            <text x={22} y={153} textAnchor="middle" fill="#999" fontSize={12} transform="rotate(-90 22 153)">Do phuc tap →</text>
 
-                            {/* Competitor dots — each with distinct color + visible label */}
-                            {/* Tokyo Seimitsu: v=3, c=8 → (254, 82) */}
-                            <g>
-                                <circle cx={254} cy={82} r={8} fill="#E040FB" opacity={0.9} />
-                                <text x={244} y={78} textAnchor="end" fill="#E040FB" fontSize={11} opacity={0.95}>Tokyo Seimitsu</text>
+                            {/* "Closest competitor" dashed connector: Tokyo Seimitsu → Mekong */}
+                            {/* Tokyo: v=3,c=8 → (257,73)  |  Mekong: v=4,c=9 → (316,44) */}
+                            <line x1={257} y1={73} x2={316} y2={44} stroke="rgba(0,229,255,0.25)" strokeDasharray="3 3" strokeWidth={1.2} />
+                            <text x={275} y={52} textAnchor="middle" fill="rgba(0,229,255,0.45)" fontSize={8} fontStyle="italic">closest rival</text>
+
+                            {/* ── COMPETITOR DOTS ── */}
+                            {/* Tokyo Seimitsu  v=3, c=8 → (257, 73) */}
+                            <g className="cp-dot1">
+                                <circle cx={257} cy={73} r={14} fill="rgba(224,64,251,0.18)" />
+                                <circle cx={257} cy={73} r={11} fill="#E040FB" filter="url(#cpGlowSoft)" />
+                                <circle cx={252} cy={69} r={3.5} fill="rgba(255,255,255,0.38)" />
                             </g>
-                            {/* Misumi VN: v=6, c=7 → (428, 108) */}
-                            <g>
-                                <circle cx={428} cy={108} r={8} fill="#FFD740" opacity={0.9} />
-                                <text x={438} y={103} textAnchor="start" fill="#FFD740" fontSize={11} opacity={0.95}>Misumi VN</text>
-                            </g>
-                            {/* Tiến Đạt CNC: v=5, c=5 → (370, 160) — on reference lines */}
-                            <g>
-                                <circle cx={370} cy={160} r={8} fill="#FF6D6D" opacity={0.9} />
-                                <text x={380} y={180} textAnchor="start" fill="#FF6D6D" fontSize={11} opacity={0.95}>Tiến Đạt CNC</text>
-                            </g>
-                            {/* Samsung VN: v=8, c=4 → (544, 186) */}
-                            <g>
-                                <circle cx={544} cy={186} r={8} fill="#69F0AE" opacity={0.9} />
-                                <text x={534} y={173} textAnchor="end" fill="#69F0AE" fontSize={11} opacity={0.95}>Samsung VN</text>
-                            </g>
-                            {/* Foxconn: v=9, c=3 → (602, 212) */}
-                            <g>
-                                <circle cx={602} cy={212} r={8} fill="#82B1FF" opacity={0.9} />
-                                <text x={602} y={228} textAnchor="middle" fill="#82B1FF" fontSize={11} opacity={0.95}>Foxconn</text>
+                            <g className="cp-lbl1">
+                                <text x={244} y={62} textAnchor="end" fill="#E040FB" fontSize={11} fontWeight="700">Tokyo Seimitsu</text>
+                                <rect x={216} y={65} width={48} height={13} rx={4} fill="rgba(224,64,251,0.2)" />
+                                <text x={240} y={75} textAnchor="middle" fill="#E040FB" fontSize={8.5} fontWeight="600">C·8  V·3</text>
                             </g>
 
-                            {/* Mekong Tech: v=4, c=9 → (312, 56) — hero dot */}
-                            <circle cx={312} cy={56} r={32} fill="url(#mekongHalo)" />
-                            <circle cx={312} cy={56} r={13} fill="#00E5FF" filter="url(#mekongGlowF)" />
-                            <circle cx={312} cy={56} r={19} fill="none" stroke="#00E5FF" strokeWidth={1.5} strokeOpacity={0.45} strokeDasharray="3 2" />
-                            <text x={329} y={48} textAnchor="start" fill="#00E5FF" fontSize={13} fontWeight="700">Mekong Tech</text>
-                            <text x={329} y={64} textAnchor="start" fill="#00E5FF" fontSize={10} opacity={0.65}>Phức tạp cao · Niche</text>
+                            {/* Misumi VN  v=6, c=7 → (434, 99) */}
+                            <g className="cp-dot2">
+                                <circle cx={434} cy={99} r={14} fill="rgba(255,215,64,0.18)" />
+                                <circle cx={434} cy={99} r={11} fill="#FFD740" filter="url(#cpGlowSoft)" />
+                                <circle cx={429} cy={95} r={3.5} fill="rgba(255,255,255,0.38)" />
+                            </g>
+                            <g className="cp-lbl2">
+                                <text x={449} y={90} textAnchor="start" fill="#FFD740" fontSize={11} fontWeight="700">Misumi VN</text>
+                                <rect x={449} y={93} width={40} height={13} rx={4} fill="rgba(255,215,64,0.2)" />
+                                <text x={469} y={103} textAnchor="middle" fill="#FFD740" fontSize={8.5} fontWeight="600">C·7  V·6</text>
+                            </g>
+
+                            {/* Tiến Đạt CNC  v=5, c=5 → (375, 153) */}
+                            <g className="cp-dot3">
+                                <circle cx={375} cy={153} r={14} fill="rgba(255,109,109,0.18)" />
+                                <circle cx={375} cy={153} r={11} fill="#FF6D6D" filter="url(#cpGlowSoft)" />
+                                <circle cx={370} cy={149} r={3.5} fill="rgba(255,255,255,0.38)" />
+                            </g>
+                            <g className="cp-lbl3">
+                                <text x={390} y={173} textAnchor="start" fill="#FF6D6D" fontSize={11} fontWeight="700">Tiến Đạt CNC</text>
+                                <rect x={390} y={176} width={48} height={13} rx={4} fill="rgba(255,109,109,0.2)" />
+                                <text x={414} y={186} textAnchor="middle" fill="#FF6D6D" fontSize={8.5} fontWeight="600">C·5  V·5</text>
+                            </g>
+
+                            {/* Samsung VN  v=8, c=4 → (552, 179) */}
+                            <g className="cp-dot4">
+                                <circle cx={552} cy={179} r={14} fill="rgba(105,240,174,0.18)" />
+                                <circle cx={552} cy={179} r={11} fill="#69F0AE" filter="url(#cpGlowSoft)" />
+                                <circle cx={547} cy={175} r={3.5} fill="rgba(255,255,255,0.38)" />
+                            </g>
+                            <g className="cp-lbl4">
+                                <text x={566} y={171} textAnchor="start" fill="#69F0AE" fontSize={11} fontWeight="700">Samsung VN</text>
+                                <rect x={566} y={174} width={48} height={13} rx={4} fill="rgba(105,240,174,0.2)" />
+                                <text x={590} y={184} textAnchor="middle" fill="#69F0AE" fontSize={8.5} fontWeight="600">C·4  V·8</text>
+                            </g>
+
+                            {/* Foxconn  v=9, c=3 → (611, 206) */}
+                            <g className="cp-dot5">
+                                <circle cx={611} cy={206} r={14} fill="rgba(130,177,255,0.18)" />
+                                <circle cx={611} cy={206} r={11} fill="#82B1FF" filter="url(#cpGlowSoft)" />
+                                <circle cx={606} cy={202} r={3.5} fill="rgba(255,255,255,0.38)" />
+                            </g>
+                            <g className="cp-lbl5">
+                                <text x={611} y={228} textAnchor="middle" fill="#82B1FF" fontSize={11} fontWeight="700">Foxconn</text>
+                                <rect x={587} y={231} width={48} height={13} rx={4} fill="rgba(130,177,255,0.2)" />
+                                <text x={611} y={241} textAnchor="middle" fill="#82B1FF" fontSize={8.5} fontWeight="600">C·3  V·9</text>
+                            </g>
+
+                            {/* ── MEKONG TECH — HERO ──  v=4, c=9 → (316, 44) */}
+                            {/* Outer halo */}
+                            <circle cx={316} cy={44} r={48} fill="url(#cpMekongHalo)" />
+                            {/* Animated pulse rings */}
+                            <circle className="cp-ring1" cx={316} cy={44} r={16} fill="none" stroke="#00E5FF" strokeWidth={2} />
+                            <circle className="cp-ring2" cx={316} cy={44} r={16} fill="none" stroke="#00E5FF" strokeWidth={1} />
+                            {/* Floating group */}
+                            <g className="cp-float">
+                                <g className="cp-dotM">
+                                    {/* Outer glow ring */}
+                                    <circle cx={316} cy={44} r={20} fill="rgba(0,229,255,0.15)" />
+                                    {/* Main dot */}
+                                    <circle cx={316} cy={44} r={15} fill="#00E5FF" filter="url(#cpGlowCyan)" />
+                                    {/* Specular highlight */}
+                                    <circle cx={310} cy={38} r={5} fill="rgba(255,255,255,0.5)" />
+                                </g>
+                            </g>
+                            {/* Mekong labels */}
+                            <g className="cp-lblM">
+                                <text x={337} y={32} textAnchor="start" fill="#00E5FF" fontSize={15} fontWeight="800" style={{ filter: 'drop-shadow(0 0 10px rgba(0,229,255,0.9))' }}>Mekong Tech</text>
+                                <text x={337} y={50} textAnchor="start" fill="#00E5FF" fontSize={10} opacity={0.7}>Phuc tap cao · Niche Volume</text>
+                                <rect x={337} y={53} width={52} height={13} rx={4} fill="rgba(0,229,255,0.22)" stroke="rgba(0,229,255,0.5)" strokeWidth={0.75} />
+                                <text x={363} y={63} textAnchor="middle" fill="#00E5FF" fontSize={9} fontWeight="800">C·9  V·4</text>
+                            </g>
                         </svg>
 
                         {/* Legend */}
-                        <div className="flex flex-wrap gap-x-5 gap-y-2 justify-center mt-4 text-xs">
+                        <div className="flex flex-wrap gap-x-5 gap-y-2 justify-center mt-3 text-xs">
                             <div className="flex items-center gap-1.5">
-                                <div className="w-3 h-3 rounded-full" style={{ background: '#00E5FF', boxShadow: '0 0 6px #00E5FF' }} />
-                                <span className="text-[#00E5FF] font-semibold">Mekong Tech</span>
+                                <div className="w-3 h-3 rounded-full" style={{ background: '#00E5FF', boxShadow: '0 0 8px #00E5FF' }} />
+                                <span className="font-bold" style={{ color: '#00E5FF' }}>Mekong Tech</span>
                             </div>
                             {[
                                 { label: 'Tokyo Seimitsu', color: '#E040FB' },
@@ -232,10 +350,19 @@ export function MarketOpportunity() {
                                 { label: 'Foxconn',       color: '#82B1FF' },
                             ].map((c, i) => (
                                 <div key={i} className="flex items-center gap-1.5">
-                                    <div className="w-2 h-2 rounded-full" style={{ background: c.color }} />
-                                    <span className="text-gray-400">{c.label}</span>
+                                    <div className="w-2.5 h-2.5 rounded-full" style={{ background: c.color, boxShadow: `0 0 4px ${c.color}90` }} />
+                                    <span className="text-gray-300">{c.label}</span>
                                 </div>
                             ))}
+                        </div>
+
+                        {/* Key insight strip */}
+                        <div className="mt-4 rounded-xl px-4 py-3 flex items-start gap-3" style={{ background: 'rgba(0,229,255,0.06)', border: '1px solid rgba(0,229,255,0.14)' }}>
+                            <span className="text-base mt-0.5 flex-shrink-0">💡</span>
+                            <p className="text-xs text-gray-300 leading-relaxed">
+                                Đối thủ gần nhất: <span className="font-semibold" style={{ color: '#E040FB' }}>Tokyo Seimitsu</span> (C·8 / V·3) — tập trung nhập khẩu linh kiện, <strong className="text-white">không sản xuất tại Việt Nam</strong>.
+                                Mekong là đơn vị duy nhất đạt độ phức tạp 9/10 trong nước, định giá premium <span className="text-[#00E5FF] font-semibold">2–5× so với gia công thông thường</span>.
+                            </p>
                         </div>
                     </GlassCard>
                 </motion.div>
