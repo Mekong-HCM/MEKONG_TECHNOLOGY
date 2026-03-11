@@ -36,7 +36,7 @@ export function TeamOrganization() {
                                 <XAxis dataKey="phase" tick={{ fill: '#999', fontSize: 10 }} axisLine={false} tickLine={false} />
                                 <YAxis tick={{ fill: '#999', fontSize: 10 }} axisLine={false} tickLine={false} />
                                 <Tooltip contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '11px', color: '#fff' }} />
-                                <Legend iconType="circle" wrapperStyle={{ fontSize: '10px' }} />
+                                <Legend iconType="circle" wrapperStyle={{ fontSize: '10px', color: '#fff' }} />
                                 <Bar dataKey="IoT" stackId="a" fill="#00E5FF" radius={[0, 0, 0, 0]} barSize={30} />
                                 <Bar dataKey="CNC" stackId="a" fill="#E040FB" />
                                 <Bar dataKey="DC" stackId="a" fill="#76FF03" />

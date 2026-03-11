@@ -74,14 +74,14 @@ export function Infrastructure() {
                     transition={{ duration: 0.5, delay: 0.5 }}
                     className="grid md:grid-cols-3 gap-4"
                 >
-                    <GlassCard className="p-3 overflow-hidden">
-                        <OptimizedImage {...images['cnc-02']} placeholderLabel="Tổng quan Xưởng CNC" placeholderColor="#E040FB" />
+                    <GlassCard className="p-0 overflow-hidden">
+                        <OptimizedImage {...images['infra-01']} placeholderLabel="Tổng quan Xưởng CNC" placeholderColor="#E040FB" className="w-full h-48 object-cover" aspectRatio="16/9" />
                     </GlassCard>
-                    <GlassCard className="p-3 overflow-hidden">
-                        <OptimizedImage {...images['dc-01']} placeholderLabel="Hệ thống tủ Rack máy chủ" placeholderColor="#76FF03" />
+                    <GlassCard className="p-0 overflow-hidden">
+                        <OptimizedImage {...images['infra-02']} placeholderLabel="Hệ thống tủ Rack máy chủ" placeholderColor="#76FF03" className="w-full h-48 object-cover" aspectRatio="16/9" />
                     </GlassCard>
-                    <GlassCard className="p-3 overflow-hidden">
-                        <OptimizedImage {...images['dc-03']} placeholderLabel="Hệ thống làm mát CRAC/CDU" placeholderColor="#76FF03" />
+                    <GlassCard className="p-0 overflow-hidden">
+                        <OptimizedImage {...images['infra-03']} placeholderLabel="Hệ thống làm mát CRAC/CDU" placeholderColor="#76FF03" className="w-full h-48 object-cover" aspectRatio="16/9" />
                     </GlassCard>
                 </motion.div>
             </div>

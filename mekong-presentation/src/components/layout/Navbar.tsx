@@ -2,10 +2,9 @@ import { useState, useEffect, useCallback } from 'react';
 import { motion } from 'framer-motion';
 import { Download, Grid3X3 } from 'lucide-react';
 import { SLIDES } from '../../hooks/useSlideNavigation';
+import { NAVBAR_HEIGHT, getSnapContainer, scrollToSection } from '../../utils/scroll';
 
 const sections = SLIDES;
-
-const NAVBAR_HEIGHT = 80;
 
 interface NavbarProps {
     isFullscreen?: boolean;
@@ -20,17 +19,8 @@ const navSections = [
     'rd-strategy', 'infra', 'financials', 'legal', 'team', 'roadmap', 'contact',
 ];
 
-function scrollToSection(id: string) {
-    const el = document.getElementById(id);
-    if (el) {
-        const top = el.getBoundingClientRect().top + window.scrollY - NAVBAR_HEIGHT;
-        window.scrollTo({ top, behavior: 'smooth' });
-    }
-}
-
 export function Navbar({ isFullscreen = false, currentSlide = 0, totalSlides = 26, onToggleOverview }: NavbarProps) {
     const [active, setActive] = useState('hero');
-    const [scrolled, setScrolled] = useState(false);
 
     const handleExportPDF = useCallback(() => {
         document.body.classList.add('printing');
@@ -43,23 +33,23 @@ export function Navbar({ isFullscreen = false, currentSlide = 0, totalSlides = 2
     }, []);
 
     useEffect(() => {
+        const container = getSnapContainer();
+        if (!container) return;
+
         const handleScroll = () => {
-            setScrolled(window.scrollY > 80);
-
-            const sectionEls = sections.map(s => document.getElementById(s.id)).filter(Boolean);
-            const scrollPos = window.scrollY + NAVBAR_HEIGHT + 40;
-
-            for (let i = sectionEls.length - 1; i >= 0; i--) {
-                const el = sectionEls[i];
-                if (el && el.offsetTop <= scrollPos) {
+            // Use getBoundingClientRect so it works with any scroll container
+            const refY = NAVBAR_HEIGHT + 40;
+            for (let i = sections.length - 1; i >= 0; i--) {
+                const el = document.getElementById(sections[i].id);
+                if (el && el.getBoundingClientRect().top <= refY) {
                     setActive(sections[i].id);
                     break;
                 }
             }
         };
 
-        window.addEventListener('scroll', handleScroll, { passive: true });
-        return () => window.removeEventListener('scroll', handleScroll);
+        container.addEventListener('scroll', handleScroll, { passive: true });
+        return () => container.removeEventListener('scroll', handleScroll);
     }, []);
 
     if (isFullscreen) {

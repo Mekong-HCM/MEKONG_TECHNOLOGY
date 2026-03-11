@@ -34,6 +34,11 @@ export const images: Record<string, ImageAsset> = {
     // Location
     'loc-01': { id: 'loc-01', src: `${b}/images/location/loc-01-kcnc-aerial.jpg`, alt: 'Anh ve tinh KCNC TP.HCM', category: 'location', color: '#00E5FF', width: 1200, height: 800 },
 
+    // Infrastructure section specific
+    'infra-01': { id: 'infra-01', src: `${b}/images/cnc/infra-01-cnc-workshop.jpg`, alt: 'Tổng quan xưởng CNC công nghiệp', category: 'cnc', color: '#E040FB', width: 1200, height: 600 },
+    'infra-02': { id: 'infra-02', src: `${b}/images/dc/infra-02-dc-racks.jpg`, alt: 'Hệ thống tủ Rack máy chủ datacenter', category: 'dc', color: '#76FF03', width: 1200, height: 600 },
+    'infra-03': { id: 'infra-03', src: `${b}/images/dc/dc-03-cooling-system.jpg`, alt: 'Hệ thống làm mát CDU datacenter', category: 'dc', color: '#76FF03', width: 600, height: 400 },
+
     // ESG
     'esg-01': { id: 'esg-01', src: `${b}/images/esg/esg-01-solar-rooftop.jpg`, alt: 'Mái pin năng lượng mặt trời nhà máy', category: 'esg', color: '#76FF03', width: 1200, height: 600 },
 };

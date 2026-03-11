@@ -54,7 +54,7 @@ export function FinancialOverview() {
                                 contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '12px', color: '#fff' }}
                                 formatter={(v: number) => [`${v}M USD`]}
                             />
-                            <Legend iconType="circle" wrapperStyle={{ fontSize: '12px', paddingTop: '10px' }} />
+                            <Legend iconType="circle" wrapperStyle={{ fontSize: '12px', paddingTop: '10px', color: '#fff' }} />
                             <Area type="monotone" dataKey="iot" name="IoT/Robot" stackId="1" stroke="#00E5FF" fill="url(#colorIot)" strokeWidth={2} />
                             <Area type="monotone" dataKey="cnc" name="CNC" stackId="1" stroke="#E040FB" fill="url(#colorCnc)" strokeWidth={2} />
                             <Area type="monotone" dataKey="dc" name="Datacenter" stackId="1" stroke="#76FF03" fill="url(#colorDc)" strokeWidth={2} />

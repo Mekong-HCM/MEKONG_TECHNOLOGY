@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
+import { getSnapContainer, NAVBAR_HEIGHT } from '../utils/scroll';
 
 export interface SlideInfo {
     id: string;
@@ -64,10 +65,14 @@ export function useSlideNavigation(): SlideNavigationState {
     const goToSlide = useCallback((index: number) => {
         const clampedIndex = Math.max(0, Math.min(index, totalSlides - 1));
         const el = document.getElementById(SECTION_IDS[clampedIndex]);
-        if (el) {
-            const top = el.getBoundingClientRect().top + window.scrollY - 64;
-            window.scrollTo({ top, behavior: 'smooth' });
-        }
+        const container = getSnapContainer();
+        if (!el || !container) return;
+        const containerBox = container.getBoundingClientRect();
+        const elBox = el.getBoundingClientRect();
+        container.scrollTo({
+            top: container.scrollTop + elBox.top - containerBox.top - NAVBAR_HEIGHT,
+            behavior: 'smooth',
+        });
     }, [totalSlides]);
 
     const nextSlide = useCallback(() => {
@@ -158,24 +163,27 @@ export function useSlideNavigation(): SlideNavigationState {
 
     // Track scroll position for current slide and progress
     useEffect(() => {
+        const container = getSnapContainer();
+        if (!container) return;
+
         const handleScroll = () => {
-            const scrollTop = window.scrollY;
-            const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollTop = container.scrollTop;
+            const scrollHeight = container.scrollHeight - container.clientHeight;
             setProgress(scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0);
 
-            const viewportMiddle = scrollTop + window.innerHeight / 3;
+            const refY = NAVBAR_HEIGHT + 40;
             for (let i = SECTION_IDS.length - 1; i >= 0; i--) {
                 const el = document.getElementById(SECTION_IDS[i]);
-                if (el && el.offsetTop <= viewportMiddle) {
+                if (el && el.getBoundingClientRect().top <= refY) {
                     setCurrentSlide(i);
                     break;
                 }
             }
         };
 
-        window.addEventListener('scroll', handleScroll, { passive: true });
+        container.addEventListener('scroll', handleScroll, { passive: true });
         handleScroll();
-        return () => window.removeEventListener('scroll', handleScroll);
+        return () => container.removeEventListener('scroll', handleScroll);
     }, []);
 
     return {
