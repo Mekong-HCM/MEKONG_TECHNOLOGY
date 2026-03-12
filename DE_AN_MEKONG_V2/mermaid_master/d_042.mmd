@@ -1,5 +1,20 @@
-graph TB
-    CT["COOLING TOWER<br/>4 Cell N+1<br/>Evaporative + Free Cooling"] -->|"Condenser Water 32/37°C"| CP["CHILLER PLANT<br/>3 x 500 kW<br/>Water-cooled N+1"]
-    CP -->|"Chilled Water 7/12°C"| SPLIT{" "}
-    SPLIT --> Z1["ZONE 1 — Colo<br/>In-Row CRAH<br/>+ Rear-Door HEX"]
-    SPLIT --> Z2["ZONE 2 — AI/HPC<br/>CDU Liquid Cooling<br/>+ Rear-Door HEX<br/>Direct-to-Chip"]
+flowchart LR
+    subgraph S1["Giai đoạn 1: STARTUP<br/>Y1-Y2 | 112-167 người"]
+        A1["Flat structure"]
+        A2["CEO trực tiếp<br/>điều hành"]
+        A3["Multi-tasking<br/>cross-functional"]
+    end
+
+    subgraph S2["Giai đoạn 2: GROWTH<br/>Y3-Y4 | 217-254 người"]
+        B1["Matrix structure"]
+        B2["Phân quyền<br/>cho Director"]
+        B3["Chuyên môn hóa<br/>theo BU"]
+    end
+
+    subgraph S3["Giai đoạn 3: MATURE<br/>Y5+ | 200+ người"]
+        C1["Divisional structure"]
+        C2["BU tự chủ<br/>P&L riêng"]
+        C3["Shared Services<br/>(HR, Finance, IT)"]
+    end
+
+    S1 --> S2 --> S3

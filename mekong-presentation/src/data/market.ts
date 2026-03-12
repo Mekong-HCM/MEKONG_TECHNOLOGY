@@ -26,7 +26,7 @@ export const market: MarketData = {
     swot: {
         strengths: [
             '3 BU cộng hưởng — duy nhất tại KCNC',
-            'Tự chủ vốn 73,6% — không phụ thuộc ODA',
+            'Tự chủ vốn 75% — không phụ thuộc ODA',
             'Đội ngũ CNC gốc Nhật/Đức',
             'Nền tảng MekongOS đã làm từ 2023',
             'Vị trí KCNC TP.HCM — hệ sinh thái R&D',

@@ -1,12 +1,23 @@
-graph TB
-    EVN["EVN 22kV<br/>2 nguồn độc lập"] --> TBA["Trạm biến áp<br/>2+1 máy"]
-    TBA --> ATS1["ATS-1 Auto<br/>2.000 kVA<br/>Path A"]
-    TBA --> ATS2["ATS-2 Auto<br/>2.000 kVA<br/>Path B"]
-    GEN["Generator<br/>2×1.500 kW<br/>N+1, Fuel 48h"] --> ATS1
-    GEN --> ATS2
-    ATS1 --> UPS_A["UPS-A N+1<br/>500 kVA × 3<br/>Li-ion 15 min"]
-    ATS2 --> UPS_B["UPS-B N+1<br/>500 kVA × 3<br/>Li-ion 15 min"]
-    UPS_A --> STS_A["STS Feed A"]
-    UPS_B --> STS_B["STS Feed B"]
-    STS_A --> PDU["Rack PDU 2N<br/>Rack 1 ... Rack 100<br/>Metered + Switched"]
-    STS_B --> PDU
+timeline
+    title Lộ trình Công nghệ Mekong Technology 2025-2035
+    section Năm 1-2 (Nền tảng)
+        2025-2026 : IoT Gateway MK-200 (TRL 9)
+                  : CNC ISO 9001
+                  : MekongOS v1.0
+    section Năm 3-4 (Tăng trưởng)
+        2027-2028 : AMR-500 (TRL 9)
+                  : AGV-500 (TRL 9)
+                  : CNC mở rộng KH FDI
+                  : DC Tier III
+                  : MekongOS v2.0 (AI)
+    section Năm 5-7 (Trưởng thành)
+        2029-2031 : AMR-1000 (TRL 9)
+                  : OHT-100 (TRL 8)
+                  : CNC option IATF/AS9100
+                  : MK-300 AI Edge
+                  : MekongOS v3.0 (Digital Twin)
+    section Năm 8-10 (Dẫn đầu)
+        2032-2035 : Autonomous Factory Demo
+                  : CNC Additive-Subtractive Hybrid
+                  : Quantum-ready Cloud
+                  : MekongOS v4.0 (Industry 5.0)

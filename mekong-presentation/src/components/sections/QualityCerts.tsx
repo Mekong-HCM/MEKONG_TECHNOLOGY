@@ -13,7 +13,7 @@ export function QualityCerts() {
             <div ref={ref}>
                 <motion.div initial={{ opacity: 0, y: 30 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6 }}>
                     <h2 className="section-title text-white">Chứng nhận <span className="gradient-text">Chất lượng & Tiêu chuẩn</span></h2>
-                    <p className="section-subtitle">Lộ trình chứng nhận 3 năm — Từ ISO 9001 đến AS9100D (đầu tiên tại VN)</p>
+                    <p className="section-subtitle">Lộ trình ISO 9001 Y4, ISO 27001 Y5 — IATF/AS9100 option phát triển Y10+</p>
                 </motion.div>
 
                 {/* AS9100 Highlight */}

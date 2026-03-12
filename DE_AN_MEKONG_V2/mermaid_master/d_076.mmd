@@ -1,16 +1,21 @@
-graph TD
-    BOD["BOARD OF DIRECTORS"] --> CEO["CEO / General Director"]
-    CEO --> PMO["PMO DIRECTOR<br/>Project Management Office"]
-    PMO --> CPM["Construction<br/>Project Mgr"]
-    PMO --> PCL["Procurement &<br/>Commissioning Lead"]
-    CPM --> CW["Civil works"]
-    CPM --> ME["M&E install"]
-    CPM --> CR["Clean room"]
-    CPM --> SEC["Security"]
-    PCL --> EPO["Equipment PO"]
-    PCL --> VC["Vendor coord."]
-    PCL --> FAT["FAT/SAT"]
-    PCL --> COM["Commissioning"]
-    CPM --> DCT["DC Team Lead"]
-    CPM --> CNCT["CNC Team Lead"]
-    CPM --> IOTT["IoT Team Lead"]
+graph TB
+    subgraph SITE["MEKONG TECHNOLOGY — 1 ha 10.000 m2"]
+        subgraph BLDG["TOA NHA 3 TANG — 7.000 m2 footprint"]
+            T3["T3: VP 2.500 + R&D 1.500 + DT/Canteen 3.000"]
+            T2["T2: IoT/SMT 2.500 + Clean 1.000 + Assy 2.500"]
+            T1["T1: CNC 3.000 + DC 1.500 + M&E/Kho 2.500"]
+            T3 --- T2 --- T1
+        end
+        subgraph EXT1["Khu vuc ngoai troi — Hang 1"]
+            PK["Bai xe 800 m2"]
+            CY["Container Yard 800 m2"]
+            BA["Bien ap + Gen 200 m2"]
+            PC["PCCC 300 m2"]
+        end
+        subgraph EXT2["Khu vuc ngoai troi — Hang 2"]
+            ZLD["XLNT/ZLD 300 m2"]
+            CX["CAY XANH 600 m2"]
+        end
+        BLDG --> EXT1
+        EXT1 --> EXT2
+    end

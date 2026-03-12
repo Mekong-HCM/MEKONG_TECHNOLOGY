@@ -1,8 +1,20 @@
-graph TB
-    WAN["INTERNET / WAN<br/>FPT + VNPT + Viettel<br/>Multi-homing"] --> MMR["Meet-Me Room<br/>2 × FW Palo Alto / Fortinet"]
-    MMR --> CS1["Core Switch 1<br/>Cisco Nexus 93180YC-FX3<br/>100GbE"]
-    MMR --> CS2["Core Switch 2<br/>Cisco Nexus 93180YC-FX3<br/>100GbE"]
-    CS1 <-->|VPC| CS2
-    CS1 --> ToR1["ToR Zone 1<br/>Nexus 93108TC-FX3<br/>Racks 1-50"]
-    CS1 --> ToR2["ToR Zone 2<br/>Nexus 93108TC-FX3<br/>Racks 51-100"]
-    CS2 --> ToRM["ToR Mgmt<br/>NOC/DCIM<br/>+ BMC/IPMI"]
+flowchart LR
+    subgraph P1["Phase 1: NỀN TẢNG<br/>Y0-Y4<br/>CAPEX 13,5M"]
+        A1["Pháp lý + Xây dựng Shell"]
+        A2["IoT/Robot<br/>sản xuất Y4"]
+        A3["Hạ tầng IT<br/>nội bộ"]
+    end
+
+    subgraph P2["Phase 2: TĂNG TRƯỞNG<br/>Y4-Y8<br/>CAPEX 18,5M"]
+        B1["DC Tier III<br/>50 Racks + GPU"]
+        B2["CNC 6 máy<br/>ISO 9001"]
+        B3["IoT/Robot<br/>mở rộng"]
+    end
+
+    subgraph P3["Phase 3: DẪN ĐẦU<br/>Y8+<br/>Tái đầu tư"]
+        C1["Export IoT<br/>ASEAN"]
+        C2["CNC mở rộng<br/>nâng cấp"]
+        C3["DC Lease GPU<br/>Mở rộng Rack"]
+    end
+
+    P1 --> P2 --> P3

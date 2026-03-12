@@ -1,20 +1,46 @@
 graph TB
-    subgraph KCNC["KHU CÔNG NGHỆ CAO TP.HCM"]
-        subgraph SITE["MEKONG TECHNOLOGY HUB — 1 ha"]
-            subgraph BUILDING["TÒA NHÀ 3 TẦNG — 7.000 m² × 3F"]
-                T3["TẦNG 3: VP 2.500 + R&D 1.500 + ĐT/Canteen 3.000"]
-                T2["TẦNG 2: IoT/SMT 2.500 + CleanRoom 1.000 + Assy 2.500"]
-                T1["TẦNG 1: CNC 3.000 + DC 1.500 + M&E/Kho 2.500"]
-            end
-            subgraph OUTDOOR["Khu ngoài trời — 3.000 m²"]
-                PK["Bãi xe<br/>800 m²"]
-                CY["Container Yard<br/>800 m²"]
-                TBA["Trạm biến áp + PCCC<br/>+ Generator 500 m²"]
-                WTP["Xử lý nước thải ZLD<br/>300 m²"]
-                GRN["Cây xanh<br/>600 m²"]
-            end
+    subgraph BMS_ARCH["MekongBMS — Kien truc 5 tang"]
+        subgraph T5["Tang 5: Giao dien Nguoi dung (UI Layer)"]
+            WEB["Web Dashboard<br/>React + WebGL"]
+            MOBILE["Mobile App<br/>React Native"]
+            REPORT["Report Generator<br/>PDF / Excel"]
+            MAP["Floor Plan Editor<br/>SVG + Canvas"]
+        end
+        subgraph T4["Tang 4: Logic Nghiep vu (Business Logic)"]
+            ALARM["Alarm Manager<br/>Escalation + Notification"]
+            SCHED_BMS["Scheduler<br/>Lich dieu khien"]
+            TREND["Trend Engine<br/>Luu + Hien thi du lieu"]
+            ENERGY["Energy Analytics<br/>+ AI Prediction"]
+            RULE["Rule Engine<br/>If-Then + Script"]
+        end
+        subgraph T3["Tang 3: API va Tich hop (Integration)"]
+            REST["REST API<br/>Go / Node.js"]
+            MQTT_BMS["MQTT Broker<br/>EMQX"]
+            OPCUA_BMS["OPC UA Client<br/>open62541"]
+            ERP_BMS["ERP Connector<br/>SAP / Oracle"]
+        end
+        subgraph T2["Tang 2: Protocol Driver"]
+            BAC_DRV["BACnet IP + MS/TP<br/>Driver"]
+            MOD_DRV["Modbus TCP/RTU<br/>Driver"]
+            KNX_DRV["KNX/IP Driver"]
+            DALI_DRV["DALI-2 Driver"]
+        end
+        subgraph T1["Tang 1: Database"]
+            TSDB["TimescaleDB<br/>(Trend data)"]
+            PGDB["PostgreSQL<br/>(Config, Alarm log)"]
+            CACHE["Redis<br/>(Real-time cache)"]
         end
     end
-    T3 --- T2 --- T1
-    style BUILDING fill:#e8f4f8,stroke:#2c3e50,stroke-width:2px
-    style OUTDOOR fill:#f0f9e8,stroke:#27ae60
+    T5 --> T4 --> T3 --> T2
+    T3 --> T1
+    T4 --> T1
+    
+    subgraph FIELD["Thiet bi Truong (Field Devices)"]
+        DDC["MK-DDC-24/64"]
+        EIO["MK-EIO Modules"]
+        GW_F["MK-GW-BAC/MOD/KNX/DALI"]
+        SENSOR["Cam bien, van, den, HVAC"]
+    end
+    T2 --> FIELD
+    style BMS_ARCH fill:#fafafa,stroke:#2c3e50
+    style FIELD fill:#fff3e0,stroke:#e67e22

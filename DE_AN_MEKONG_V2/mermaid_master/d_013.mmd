@@ -1,7 +1,8 @@
-xychart-beta
-    title "Doanh thu CNC 5 năm — 3 Kịch bản (M USD)"
-    x-axis ["Năm 1", "Năm 2", "Năm 3", "Năm 4", "Năm 5"]
-    y-axis "Doanh thu (M USD)" 0 --> 14
-    bar [1.45, 3.21, 5.67, 6.52, 8.27]
-    bar [1.89, 4.36, 7.56, 8.70, 10.75]
-    bar [2.52, 5.82, 10.10, 11.61, 14.46]
+graph LR
+    S1["1. Nhận bản vẽ<br/>từ khách hàng"] --> S2["2. Kiểm tra phôi<br/>đầu vào<br/>(thước cặp, panme)"]
+    S2 --> S3["3. Lập trình CNC<br/>Mastercam<br/>5-trục / 3-trục"]
+    S3 --> S4["4. Gia công CNC<br/>DMG MORI DMU 65<br/>hoặc Doosan DVF"]
+    S4 --> S5["5. Kiểm tra QC<br/>Hexagon Arm<br/>(in-process)"]
+    S5 --> S6["6. Xử lý bề mặt<br/>(anodize/mài)<br/>nếu yêu cầu"]
+    S6 --> S7["7. Kiểm tra cuối<br/>Hexagon Arm<br/>+ báo cáo đo"]
+    S7 --> S8["8. Đóng gói<br/>+ Giao hàng"]

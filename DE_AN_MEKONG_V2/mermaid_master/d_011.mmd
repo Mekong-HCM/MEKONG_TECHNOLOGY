@@ -1,29 +1,59 @@
 graph TB
-    subgraph MekongOS["MekongOS IoT Cloud — Chạy trên MACC Khối A"]
-        subgraph APP["Tầng Ứng dụng"]
-            A1["Dashboard Analytics<br/>Web + Mobile"]
-            A2["AI Predictive<br/>Maintenance"]
-            A3["Digital Twin"]
-            A4["Fleet Management<br/>AMR/AGV/OHT"]
-            A5["Report &<br/>Alert Engine"]
-        end
-        subgraph PROC["Tầng Xử lý"]
-            P1["Stream Processing<br/>Kafka + Flink"]
-            P2["AI/ML Engine<br/>TensorFlow/PyTorch"]
-            P3["Rule Engine<br/>Node-RED Compatible"]
-            P4["Data Lake<br/>MinIO S3"]
-        end
-        subgraph CONN["Tầng Kết nối"]
-            C1["MQTT Broker<br/>EMQX Cluster"]
-            C2["OPC UA<br/>Server/Client"]
-            C3["Modbus<br/>Gateway"]
-            C4["REST/gRPC<br/>API Gateway"]
-            C5["EtherCAT /<br/>PROFINET Bridge"]
-        end
-        subgraph DEV["Tầng Thiết bị"]
-            D1["MK-200 / MK-300<br/>IoT Gateway"]
-            D2["AMR/AGV/OHT<br/>Robot Fleet"]
-            D3["Cảm biến bên thứ 3<br/>Siemens, Omron, Keyence"]
-        end
+    subgraph TANG5["TANG 5: QUAN LY TAP TRUNG (Cloud)"]
+        direction LR
+        T5A["MekongOS Cloud<br/>(IoT Platform, SaaS)"]
+        T5B["MekongBMS SaaS<br/>(Multi-site Management)"]
+        T5C["MekongSCADA Cloud<br/>(Remote Monitoring)"]
     end
-    DEV --> CONN --> PROC --> APP
+    
+    subgraph TANG4["TANG 4: PHAN MEM ON-PREMISE"]
+        direction LR
+        T4A["MekongBMS<br/>(Phan mem BMS<br/>chay tren DDC-64 hoac Server)"]
+        T4B["MekongSCADA<br/>(Phan mem SCADA<br/>chay tren Server)"]
+        T4C["MekongET<br/>(Engineering Tool<br/>cau hinh + lap trinh)"]
+    end
+    
+    subgraph TANG3["TANG 3: TRUYEN THONG va KET NOI (Gateway)"]
+        direction LR
+        T3A["MK-200<br/>IoT Gateway"]
+        T3B["MK-300<br/>AI Edge Gateway"]
+        T3C["MK-GW-BAC<br/>BACnet Router"]
+        T3D["MK-GW-MOD<br/>Modbus Gateway"]
+        T3E["MK-GW-KNX<br/>KNX Gateway"]
+        T3F["MK-GW-DALI<br/>DALI Gateway"]
+    end
+    
+    subgraph TANG2["TANG 2: DIEU KHIEN (Controller + I/O)"]
+        direction LR
+        T2A["MK-DDC-24<br/>DDC Controller<br/>24 diem"]
+        T2B["MK-DDC-64<br/>DDC Controller<br/>64 diem"]
+        T2C["MK-EIO-DI16<br/>Digital Input"]
+        T2D["MK-EIO-DO16<br/>Digital Output"]
+        T2E["MK-EIO-AI8<br/>Analog Input"]
+        T2F["MK-EIO-AO4<br/>Analog Output"]
+        T2G["MK-EIO-UI8<br/>Universal Input"]
+    end
+    
+    subgraph TANG1["TANG 1: THIET BI TRUONG (Field Devices)"]
+        direction LR
+        T1A["Cam bien nhiet do<br/>do am, CO2, ap suat"]
+        T1B["Van HVAC<br/>Damper, Actuator"]
+        T1C["Den LED / DALI<br/>Cong tac KNX"]
+        T1D["Dong ho dien/nuoc<br/>Modbus meter"]
+        T1E["Chiller, AHU<br/>Bom, Quat"]
+        T1F["Robot AMR/AGV<br/>OHT"]
+    end
+    
+    TANG1 -->|"Du lieu cam bien<br/>(Field → Control)"| TANG2
+    TANG2 -->|"Lenh dieu khien<br/>(Control → Field)"| TANG1
+    TANG2 -->|"Du lieu tong hop<br/>(Control → Network)"| TANG3
+    TANG3 -->|"Cau hinh, schedule<br/>(Network → Control)"| TANG2
+    TANG3 -->|"Stream data<br/>(Network → Software)"| TANG4
+    TANG4 -->|"Dashboard, Report"| TANG5
+    TANG5 -->|"Remote command"| TANG4
+    
+    style TANG5 fill:#e8f5e9,stroke:#2e7d32
+    style TANG4 fill:#e3f2fd,stroke:#1565c0
+    style TANG3 fill:#fff3e0,stroke:#ef6c00
+    style TANG2 fill:#fce4ec,stroke:#c62828
+    style TANG1 fill:#f3e5f5,stroke:#6a1b9a

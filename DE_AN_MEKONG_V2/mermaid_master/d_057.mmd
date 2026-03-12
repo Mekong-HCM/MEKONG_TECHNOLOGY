@@ -1,30 +1,23 @@
 graph TB
-    subgraph DC["DATACENTER MACC — Floor Plan"]
-        subgraph LEFT["Khu Dieu hanh"]
-            NOC["NOC 24/7<br/>8 seats"]
-            STG["Staging Room"]
-            MMR["Meet-Me Room — MMR"]
-            SEC["Security Office + CCTV"]
-        end
+    DIR["CNC BU Director<br/>1 nguoi, Y1"] --> PROD["Production Manager<br/>1, Y1"]
+    DIR --> QUAL["Quality Manager<br/>1, Y1"]
+    DIR --> ENGM["Engineering Manager<br/>1, Y1"]
+    DIR --> SALM["Sales Manager<br/>1, Y2"]
 
-        subgraph HALL1["DATA HALL 1 — Phase 1"]
-            RA["Row A<br/>12 Rk"] --- RB["Row B<br/>12 Rk"]
-            RB --- RC["Row C<br/>12 Rk"]
-            RC --- RD["Row D<br/>14 Rk"]
-            HAC1["Hot Aisle Containment — HAC<br/>Raised Floor 600mm"]
-        end
+    PROD --> SL["Shop Lead 2, Y1"]
+    SL --> OP5["CNC Op. 5-axis 6, Y1"]
+    SL --> OP3["CNC Op. 3-axis 4, Y1"]
+    SL --> OPT["Tien Op. 2, Y1"]
 
-        subgraph HALL2["DATA HALL 2 — Phase 2"]
-            RE["Row E<br/>10 Rk"] --- RF["Row F<br/>10 Rk"]
-            RF --- GPU["GPU Zone<br/>30 Rk<br/>Direct Liquid Cooling — DLC"]
-        end
+    QUAL --> QCI["QC Insp. 2, Y1"]
+    QCI --> CMMO["CMM Op. 1, Y1"]
+    QCI --> DOC["Doc Ctrl 1, Y2"]
 
-        subgraph INFRA["Ha tang"]
-            UPS["UPS Room<br/>2N Config"]
-            BAT["Battery Room<br/>VRLA/Li"]
-            COOL["Cooling Plant<br/>Chiller x 3+1<br/>CDU for GPU"]
-            GENY["Generator Yard<br/>2-4 x 750 kVA<br/>24h Fuel Tank"]
-        end
+    ENGM --> CAD["CAD/CAM Prog 3, Y1"]
+    CAD --> PEG["Process Engineer 2, Y2"]
+    PEG --> MT["Maint. Tech 2, Y1"]
+    MT --> TM["Tool Mgr 1, Y2"]
 
-        FIRE["FIRE SUPPRESSION<br/>FM200 Data Halls + Sprinkler Support Areas"]
-    end
+    SALM --> AM["Account Mgr 2, Y2"]
+    AM --> EST["Estimator 1, Y2"]
+    EST --> CS["Customer Service 1, Y3"]

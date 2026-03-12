@@ -1,36 +1,48 @@
-graph TB
-    subgraph SHOP["MACHINE SHOP — 25 Vi tri"]
-        subgraph ROW1["HANG 1 — Tuong Phia Bac"]
-            M1["1 DMG MORI<br/>DMU65"]
-            M2["2 DMG MORI<br/>DMU65"]
-            M3["3 DMG MORI<br/>DMU65"]
-            M4["4 DMG MORI<br/>DMU65"]
-            M5["5 DMG MORI<br/>DMU65"]
-            M6["6 DMG MORI<br/>DMU65"]
-        end
-        CRANE["CRANE TRACK 5T EOT — 50m span — Khoang cach 3,5m"]
-        subgraph ROW2["HANG 2"]
-            M7["7 DMG MORI<br/>DMU65"]
-            M8["8 DMG MORI<br/>DMU65"]
-            M9["9 Doosan<br/>DVF5000"]
-            M10["10 Doosan<br/>DVF5000"]
-            M11["11 Doosan<br/>DVF5000"]
-        end
-        MAIN["DUONG DI CHINH 3m"]
-        subgraph ROW3["HANG 3"]
-            M12["12 Doosan<br/>DVF5000"]
-            M13["13 Doosan<br/>DVF5000"]
-            M14["14 Makino<br/>D500"]
-            M15["15 Makino<br/>D500"]
-        end
-        subgraph P2["P2 EXPANSION AREA — 10 machines"]
-            M16["16"] --- M17["17"] --- M18["18"] --- M19["19"] --- M20["20"]
-            M21["21"] --- M22["22"] --- M23["23"] --- M24["24"] --- M25["25"]
-        end
-        subgraph SUPPORT["KHU HO TRO"]
-            CMM["CMM ROOM<br/>200 m2<br/>Class 1000"]
-            TOOL["TOOL STORAGE<br/>+ FIXTURES<br/>400 m2"]
-            CHIP["CHIP COLLECT<br/>+ COOLANT<br/>300 m2"]
-        end
-    end
-    ROW1 --> CRANE --> ROW2 --> MAIN --> ROW3 --> P2 --> SUPPORT
+gantt
+    title Lộ trình Triển khai Dự án Mekong Technology Hub (2025–2040)
+    dateFormat YYYY-MM
+    axisFormat %Y-Q%q
+
+    section P0 — Pháp lý + Nền móng (Y0–Y2, 2,50M USD)
+    Chuẩn bị hồ sơ + IRC điều chỉnh    :a1, 2025-07, 6M
+    ĐTM + Giấy phép Môi trường          :a2, 2025-10, 5M
+    Thẩm duyệt PCCC                     :a3, 2026-01, 3M
+    GP Xây dựng + GP Viễn thông         :a4, 2026-02, 3M
+    Thiết kế chi tiết tòa nhà 3 tầng    :a5, 2025-12, 6M
+    San lấp + Ép cọc + Nền móng         :a6, 2026-04, 8M
+
+    section P1 — Shell Completion (Y1–Y3, 5,80M USD)
+    Thi công kết cấu Tầng 1             :b1, 2026-07, 8M
+    Thi công kết cấu Tầng 2             :b2, 2027-03, 6M
+    Thi công kết cấu Tầng 3 + Mái       :b3, 2027-09, 5M
+    MEP cơ bản (điện, nước, PCCC)        :b4, 2028-01, 6M
+    Hoàn thiện shell + Nghiệm thu XD    :b5, 2028-06, 4M
+    Sổ đỏ (hoàn công)                    :b6, 2028-10, 2M
+
+    section P2 — IoT Launch + DC Infra (Y3–Y4, 5,70M USD)
+    IoT fit-out Tầng 2 (SMT + Assembly) :c1, 2028-07, 6M
+    Lắp Solar PV mái (200 kWp)          :c2, 2028-09, 3M
+    IoT commissioning + soft open        :c3, 2029-01, 3M
+    DC hạ tầng Tầng 1 — MEP, UPS, HVAC  :c4, 2028-10, 8M
+
+    section P3 — DC Full + CNC (Y4–Y6, 14,50M USD)
+    DC Rack Zone 1 (50 Rack) + GPU       :d1, 2029-06, 6M
+    DC commissioning + Uptime audit      :d2, 2029-12, 4M
+    DC vận hành (Y5)                     :d3, 2030-04, 4M
+    PO máy CNC (6 máy) — Lead 6M        :d4, 2030-01, 6M
+    CNC fit-out Tầng 1 (800 m²)          :d5, 2030-07, 4M
+    Lắp đặt CNC 6 máy                    :d6, 2030-11, 3M
+    CNC commissioning + test run         :d7, 2031-02, 2M
+    Tuyển dụng Wave 1 (~50 người)        :d8, 2029-01, 12M
+
+    section P4 — Scale + Steady-state (Y6–Y8, 4,00M USD)
+    DC mở rộng rack (lease GPU nếu cần)  :e1, 2031-06, 12M
+    CNC vận hành 2 ca, ổn định          :e2, 2031-06, 12M
+    IoT mở rộng sản phẩm                :e3, 2031-06, 12M
+    Tuyển dụng Wave 2 (+50 người)        :e4, 2031-01, 12M
+    Full 3 BU Steady-state (~Y8-Y10)     :e5, 2033-01, 12M
+
+    section Chứng nhận
+    ISO 9001                             :f1, 2031-01, 6M
+    ISO 27001                            :f2, 2030-06, 9M
+    Uptime Tier III                      :f3, 2030-09, 6M

@@ -9,7 +9,7 @@ import { KPICard } from '../ui/KPICard';
 
 const pieData = [
     { name: 'Vốn CSH', value: financials.capex.equity, color: '#00E5FF' },
-    { name: 'Vay NH (từ Y10)', value: financials.capex.debt, color: '#E040FB' },
+    { name: 'Vay NH (từ Y6)', value: financials.capex.debt, color: '#E040FB' },
 ];
 
 const kpis = [
@@ -17,7 +17,6 @@ const kpis = [
     { label: 'Doanh thu Năm Y15', value: financials.kpis.revenueY15, suffix: 'M USD', color: '#4dd2ff' },
     { label: 'NPV (50Y, WACC 12%)', value: financials.kpis.npv50, suffix: 'M USD', color: '#76FF03' },
     { label: 'IRR Dự án (50Y)', value: financials.kpis.irr50, suffix: '%', color: '#E040FB' },
-    { label: 'Equity IRR (Leveraged)', value: 18.5, suffix: '%', color: '#FF9100' },
     { label: 'DSCR Min (YC: >1,3x)', value: financials.kpis.dscrMin, suffix: 'x', color: '#00E5FF' },
 ];
 
@@ -34,7 +33,7 @@ export function ExecutiveSummary() {
                 >
                     <h2 className="section-title text-white">Tóm tắt <span className="gradient-text">Điều hành</span></h2>
                     <p className="section-subtitle">
-                        Dự án hạ tầng công nghệ tích hợp 47,50M USD — 3 trụ cột cộng hưởng — tự chủ vốn 100% trong 10 năm đầu.
+                        Dự án hạ tầng công nghệ tích hợp 32,00M USD — 3 trụ cột cộng hưởng — Tự chủ vốn 75% — vay 25% từ Y6.
                     </p>
                 </motion.div>
 
@@ -42,7 +41,7 @@ export function ExecutiveSummary() {
                 <div className="grid md:grid-cols-3 gap-6 mb-12">
                     {[
                         { title: 'IoT & Robotics', desc: 'Gateway MK-200/300, Robot AMR, MekongOS Platform', color: '#00E5FF', Icon: Cpu },
-                        { title: 'CNC Siêu Chính Xác', desc: '28 máy DMG MORI 5 trục, AS9100, Aerospace Grade', color: '#E040FB', Icon: Cog },
+                        { title: 'CNC Siêu Chính Xác', desc: '6 máy CNC chính xác, ISO 9001, Precision Grade', color: '#E040FB', Icon: Cog },
                         { title: 'Datacenter & AI', desc: 'Tier III, 100 Rack, GPU-as-a-Service, PUE 1,32', color: '#76FF03', Icon: Server },
                     ].map((pillar, i) => (
                         <motion.div
@@ -101,7 +100,7 @@ export function ExecutiveSummary() {
                             {pieData.map((d, i) => (
                                 <div key={i} className="flex items-center gap-2">
                                     <div className="w-3 h-3 rounded-full" style={{ backgroundColor: d.color }} />
-                                    <span className="text-gray-400">{d.name} ({d === pieData[0] ? '73.6%' : '26.4%'})</span>
+                                    <span className="text-gray-400">{d.name} ({d === pieData[0] ? '75%' : '25%'})</span>
                                 </div>
                             ))}
                         </div>
@@ -123,7 +122,7 @@ export function ExecutiveSummary() {
                         </h4>
                         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
                             {[
-                                { Icon: Users, label: '300+ việc làm chất lượng', desc: 'Lương 25-45K USD/năm, đào tạo tại chỗ', color: '#00E5FF' },
+                                { Icon: Users, label: '200 việc làm chất lượng', desc: 'Lương 25-45K USD/năm, đào tạo tại chỗ', color: '#00E5FF' },
                                 { Icon: GraduationCap, label: 'Chuyển giao công nghệ', desc: 'Hợp tác ĐH Bách Khoa, RMIT, chuyên gia Nhật/Đức', color: '#E040FB' },
                                 { Icon: Banknote, label: 'Đóng góp thuế và phí', desc: 'Phí thuê đất + thuế TNDN sau ưu đãi', color: '#76FF03' },
                                 { Icon: Cpu, label: 'Chuỗi cung ứng nội địa', desc: 'Nhà cung cấp phụ trợ, dịch vụ kỹ thuật tại KCNC', color: '#FF9100' },

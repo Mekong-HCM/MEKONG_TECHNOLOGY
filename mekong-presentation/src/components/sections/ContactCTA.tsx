@@ -12,7 +12,7 @@ const nextSteps = [
 
 const trustSignals = [
     'Vị trí được BQL KCNC TP.HCM phê duyệt',
-    'Tự chủ vốn 73,6% — không phụ thuộc ODA',
+    'Tự chủ vốn 75% — không phụ thuộc ODA',
     'Miễn thuế TNDN 4 năm, giảm 50% trong 9 năm tiếp',
     'P(NPV>0) = 65% theo mô phỏng Monte Carlo',
 ];

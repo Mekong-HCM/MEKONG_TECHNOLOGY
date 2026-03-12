@@ -1,54 +1,23 @@
-gantt
-    title Lộ trình Triển khai Dự án Mekong Technology Hub — V2.1 (2025–2040)
-    dateFormat YYYY-MM
-    axisFormat %Y-Q%q
+flowchart TD
+    A["Q4/2025: Chuẩn bị hồ sơ"] --> B["Nộp BQL KCNC<br/>Công văn + Phụ lục Mẫu 1.4"]
+    B --> C{"BQL KCNC<br/>Xem xét<br/>(15 ngày)"}
+    C -->|Đồng ý| D["Nộp Sở KH&ĐT<br/>Điều chỉnh IRC"]
+    C -->|Yêu cầu bổ sung| B
+    D --> E{"Sở KH&ĐT<br/>(35 ngày)"}
+    E -->|Phê duyệt| F["IRC điều chỉnh"]
+    F --> G["Song song:<br/>Đăng ký ngành nghề<br/>+ EIA + PCCC"]
 
-    section P0 — Pháp lý + Nền móng (Y0–Y2, 2,50M USD)
-    Chuẩn bị hồ sơ + IRC điều chỉnh    :a1, 2025-07, 6M
-    ĐTM + Giấy phép Môi trường          :a2, 2025-10, 5M
-    Thẩm duyệt PCCC                     :a3, 2026-01, 3M
-    GP Xây dựng + GP Viễn thông         :a4, 2026-02, 3M
-    Thiết kế chi tiết tòa nhà 3 tầng    :a5, 2025-12, 6M
-    San lấp + Ép cọc + Nền móng         :a6, 2026-04, 8M
+    G --> H["Nộp EIA<br/>Sở TNMT"]
+    G --> I["Nộp PCCC<br/>C07/PC07"]
+    G --> J["Giấy phép<br/>Viễn thông<br/>Cục VT"]
+    G --> K["Giấy phép<br/>Xây dựng<br/>KCNC"]
 
-    section P1 — Shell Completion (Y2–Y5, 8,50M USD)
-    Thi công kết cấu Tầng 1             :b1, 2027-01, 8M
-    Thi công kết cấu Tầng 2             :b2, 2027-09, 6M
-    Thi công kết cấu Tầng 3 + Mái       :b3, 2028-03, 6M
-    MEP cơ bản (điện, nước, PCCC)        :b4, 2028-06, 8M
-    Hoàn thiện shell + Nghiệm thu XD    :b5, 2029-06, 6M
-    Lắp đặt Solar PV mái (500 kWp)      :b6, 2029-09, 4M
-    IoT Lab fit-out (Tầng 1, 2.000 m²)  :b7, 2029-10, 6M
+    H --> L["Giấy phép MT"]
+    I --> M["Phê duyệt PCCC"]
+    J --> N["GP Viễn thông"]
+    K --> O["GP Xây dựng"]
 
-    section P2 — IoT Launch + CNC Prep (Y5–Y7, 10,60M USD)
-    IoT commissioning + soft open        :c1, 2030-04, 4M
-    IoT full operation (Y6)              :c2, 2030-07, 6M
-    PO máy CNC (15 máy) — Lead 9M       :c3, 2030-01, 9M
-    CNC fit-out Tầng 1 (3.000 m²)       :c4, 2030-10, 8M
-    Lắp đặt CNC 15 máy                  :c5, 2031-06, 4M
-    CNC commissioning + test run         :c6, 2031-10, 3M
-    Tuyển dụng Wave 1 (44 người)         :c7, 2030-01, 8M
-
-    section P3 — CNC Full + DC Infra (Y7–Y10, 19,00M USD)
-    CNC full operation (Y8)              :d1, 2032-01, 12M
-    PO thêm CNC (13 máy Phase 2)        :d2, 2032-06, 9M
-    Lắp đặt CNC Phase 2                 :d3, 2033-03, 4M
-    DC hạ tầng Tầng 2 — MEP, UPS, HVAC  :d4, 2032-06, 12M
-    DC Rack Zone 1 (50 Rack)             :d5, 2033-06, 6M
-    DC commissioning + Uptime audit      :d6, 2033-12, 4M
-    Tuyển dụng Wave 2 (+72 người)        :d7, 2032-01, 12M
-
-    section P4 — DC Full + Steady-state (Y10–Y13, 11,50M USD)
-    DC Zone 2 (50 Rack AI/GPU)           :e1, 2035-01, 8M
-    DC full operation (100 Rack)         :e2, 2035-09, 6M
-    CNC 28 máy full 2 ca                 :e3, 2035-01, 12M
-    IoT mở rộng sản phẩm                :e4, 2035-06, 12M
-    Tuyển dụng Wave 3 (+86 người)        :e5, 2035-01, 12M
-    Full 3 BU Steady-state (Y13)         :e6, 2038-01, 3M
-
-    section Chứng nhận
-    ISO 9001                             :f1, 2030-06, 9M
-    ISO 27001                            :f2, 2032-06, 12M
-    IATF 16949                           :f3, 2033-01, 15M
-    AS9100 Rev D                         :f4, 2034-01, 18M
-    Uptime Tier III                      :f5, 2034-06, 12M
+    L --> P["KHỞI CÔNG<br/>Q2/2026"]
+    M --> P
+    N --> P
+    O --> P

@@ -1,23 +1,8 @@
 flowchart TD
-    A["Q4/2025: Chuẩn bị hồ sơ"] --> B["Nộp BQL KCNC<br/>Công văn + Phụ lục Mẫu 1.4"]
-    B --> C{"BQL KCNC<br/>Xem xét<br/>(15 ngày)"}
-    C -->|Đồng ý| D["Nộp Sở KH&ĐT<br/>Điều chỉnh IRC"]
-    C -->|Yêu cầu bổ sung| B
-    D --> E{"Sở KH&ĐT<br/>(35 ngày)"}
-    E -->|Phê duyệt| F["IRC điều chỉnh"]
-    F --> G["Song song:<br/>Đăng ký ngành nghề<br/>+ EIA + PCCC"]
+    L1["Lớp 1: HÀNG RÀO + CỔNG<br/>• Hàng rào 2,5m + sensor<br/>• Cổng barrier tự động<br/>• CCTV ngoài trời (20 cam)"]
+    L2["Lớp 2: SÂN BÃI<br/>• Đèn LED perimeter<br/>• LPR (License Plate Recognition)<br/>• Bảo vệ 24/7 (2 ca × 3 người)"]
+    L3["Lớp 3: TÒA NHÀ<br/>• Badge + PIN tại mỗi cửa<br/>• Visitor management system<br/>• CCTV hành lang (40 cam)"]
+    L4["Lớp 4: KHU VỰC NHẠY CẢM<br/>• Badge + Biometric (vân tay/mống mắt)<br/>• Mantrap airlock (DC)<br/>• Escort required (DC, CNC CMM)"]
+    L5["Lớp 5: DC DATA HALL<br/>• Badge + Biometric + PIN (3-factor)<br/>• Video escort + Logging<br/>• Cabinet lock (per rack)<br/>• CCTV 360° (8 cam/hall)"]
 
-    G --> H["Nộp EIA<br/>Sở TNMT"]
-    G --> I["Nộp PCCC<br/>C07/PC07"]
-    G --> J["Giấy phép<br/>Viễn thông<br/>Cục VT"]
-    G --> K["Giấy phép<br/>Xây dựng<br/>KCNC"]
-
-    H --> L["Giấy phép MT"]
-    I --> M["Phê duyệt PCCC"]
-    J --> N["GP Viễn thông"]
-    K --> O["GP Xây dựng"]
-
-    L --> P["KHỞI CÔNG<br/>Q2/2026"]
-    M --> P
-    N --> P
-    O --> P
+    L1 --> L2 --> L3 --> L4 --> L5

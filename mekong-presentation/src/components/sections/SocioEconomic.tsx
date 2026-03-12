@@ -13,7 +13,7 @@ export function SocioEconomic() {
             <div ref={ref}>
                 <motion.div initial={{ opacity: 0, y: 30 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6 }}>
                     <h2 className="section-title text-white">Tác động <span className="gradient-text">Kinh tế — Xã hội</span></h2>
-                    <p className="section-subtitle">300 việc làm trực tiếp — B/C Ratio {socioKPIs.bcRatio} — Đóng góp 10Y: {socioKPIs.totalSocioEcon10Y}</p>
+                    <p className="section-subtitle">200 việc làm trực tiếp — B/C Ratio {socioKPIs.bcRatio} — Đóng góp 10Y: {socioKPIs.totalSocioEcon10Y}</p>
                 </motion.div>
 
                 {/* KPI Row */}

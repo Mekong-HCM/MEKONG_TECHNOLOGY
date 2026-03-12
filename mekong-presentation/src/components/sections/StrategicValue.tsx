@@ -10,11 +10,11 @@ const colors = ['#00E5FF', '#4dd2ff', '#E040FB', '#76FF03', '#FF9100', '#00bfff'
 
 const methodologyNotes: Record<string, string> = {
     'NPV (50Y, Base)': 'DCF 50 năm, WACC 12%, terminal value = 0',
-    'Brand & IP': 'SaaS multiple 3-5x + IP licensing + chứng nhận quốc tế (AS9100, IATF)',
+    'Brand & IP': 'SaaS multiple 3-5x + IP licensing + chứng nhận quốc tế (ISO 9001, IATF/AS9100 option Y10+)',
     'Ecosystem synergy': 'Giá trị cộng hưởng 3 BU: CNC dùng GPU cho CAM, DC phục vụ IoT analytics',
     'Tax incentives': 'Miễn TNDN 4 năm + giảm 50% 9 năm. Giá trị hiện tại theo luật KCNC [C]',
     'Strategic location': 'Vị trí KCNC TP.HCM, giá thuê thấp hơn 40% so với KCN ngoài [B]',
-    'Human capital': 'Pool 300 nhân sự, ESOP 3%, giá trị đào tạo lũy kế [C]',
+    'Human capital': 'Pool 200 nhân sự, ESOP 3%, giá trị đào tạo lũy kế [C]',
     'ESG premium': 'PUE 1,32 + ZLD + Zero-fatality → valuation premium 5-10% [B]',
 };
 
@@ -73,7 +73,7 @@ export function StrategicValue() {
                         <GlassCard className="p-6 text-center">
                             <div className="text-4xl font-black gradient-text mb-1">~{total.toFixed(1)}M</div>
                             <div className="text-sm text-gray-400">Tổng Giá trị Chiến lược (USD)</div>
-                            <div className="text-xs text-gray-500 mt-2">Strategic Value / CAPEX = {((total / 47.5) * 100).toFixed(1)}%</div>
+                            <div className="text-xs text-gray-500 mt-2">Strategic Value / CAPEX = {((total / 32.0) * 100).toFixed(1)}%</div>
                         </GlassCard>
 
                         <GlassCard className="p-5">

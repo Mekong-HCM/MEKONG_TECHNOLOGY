@@ -13,7 +13,7 @@ export function Urgency() {
             <div ref={ref}>
                 <motion.div initial={{ opacity: 0, y: 30 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6 }}>
                     <h2 className="section-title text-white">Tính cấp thiết <span className="gradient-text">& Khoảng trống thị trường</span></h2>
-                    <p className="section-subtitle">83.035 DNNVV cần IoT — Việt Nam chưa có nhà máy CNC đạt AS9100</p>
+                    <p className="section-subtitle">83.035 DNNVV cần IoT — Việt Nam chưa có nhà máy CNC đạt ISO 9001+ tại KCNC TP.HCM</p>
                 </motion.div>
 
                 {/* KPIs */}

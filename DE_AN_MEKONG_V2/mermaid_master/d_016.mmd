@@ -1,12 +1,12 @@
 graph TB
-    subgraph HALL["Server Hall 1 Phase 1 — 600 m²"]
-        RA["Row A — 20 rack"] --- RD["Row D — 20 rack"]
-        RB["Row B — 20 rack"] --- RE["Row E — 20 rack"]
-        RC["Row C — 20 rack"] --- RF["Row F — 20 rack"]
-    end
-    subgraph SUPPORT["Khu hỗ trợ"]
-        NOC["NOC 50 m²"]
-        STG["Staging 80 m²"]
-        MMR["Meet-me Room 30 m²"]
-    end
-    RA --- NOC
+    EVN["EVN 22kV<br/>2 nguồn độc lập"] --> TBA["Trạm biến áp<br/>2+1 máy"]
+    TBA --> ATS1["ATS-1 Auto<br/>2.000 kVA<br/>Path A"]
+    TBA --> ATS2["ATS-2 Auto<br/>2.000 kVA<br/>Path B"]
+    GEN["Generator<br/>2×1.500 kW<br/>N+1, Fuel 48h"] --> ATS1
+    GEN --> ATS2
+    ATS1 --> UPS_A["UPS-A N+1<br/>500 kVA × 3<br/>Li-ion 15 min"]
+    ATS2 --> UPS_B["UPS-B N+1<br/>500 kVA × 3<br/>Li-ion 15 min"]
+    UPS_A --> STS_A["STS Feed A"]
+    UPS_B --> STS_B["STS Feed B"]
+    STS_A --> PDU["Rack PDU 2N<br/>Rack 1 ... Rack 100<br/>Metered + Switched"]
+    STS_B --> PDU

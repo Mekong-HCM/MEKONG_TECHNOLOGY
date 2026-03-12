@@ -1,9 +1,7 @@
 graph LR
-    SRC["28 May CNC"] --> MIST["Mist Collector<br/>500 m3/h x 25 unit<br/>75.000 USD"]
-    MIST --> DUCT["Ong dan tap trung<br/>15.000 m3/h"]
-    DUCT --> CYC["Cyclone<br/>bui tho > 10um<br/>80%"]
-    CYC --> HEPA["HEPA H13<br/>< 1um — 99,95%"]
-    HEPA --> AC["Activated Carbon<br/>VOCs MWF — 85%"]
-    AC --> FAN["Quat 15.000 m3/h<br/>2.500 Pa"]
-    FAN --> STACK["Ong khoi 15m<br/>phi 800"]
-    STACK --> OUT["XA — Dat QCVN 19:2009"]
+    Y1[Y1-Y2: Điện tử 35%<br/>Auto 10%<br/>Aero 0%] --> Y3[Y3-Y4: Điện tử 20%<br/>Auto 25%<br/>Aero 10%]
+    Y3 --> Y5[Y5+: Điện tử 12%<br/>Auto 30%<br/>Aero 22%<br/>Medical 12%]
+    
+    style Y1 fill:#f9f,stroke:#333
+    style Y3 fill:#bbf,stroke:#333
+    style Y5 fill:#bfb,stroke:#333

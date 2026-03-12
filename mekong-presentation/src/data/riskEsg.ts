@@ -6,24 +6,23 @@ export const monteCarlo = {
     revenueVar: '±30%',
     opexVar: '±20%',
     capexVar: '±15%',
-    pNPVPositive: '65%',
-    pIRRAboveWACC: '60%',
+    pNPVPositive: '72%',
+    pIRRAboveWACC: '68%',
     pTotalValuePositive: '>90%',
 };
 
 export const monteCarloTable = [
-    { metric: 'NPV 50Y (M USD)', p10: '(3,50)', p25: '(0,50)', p50: '1,20', p75: '3,50', p90: '6,00' },
-    { metric: 'IRR 50Y (%)', p10: '10,0%', p25: '11,8%', p50: '12,8%', p75: '14,2%', p90: '16,0%' },
+    { metric: 'NPV 50Y (M USD)', p10: '(1,50)', p25: '0,50', p50: '2,50', p75: '5,00', p90: '8,00' },
+    { metric: 'IRR 50Y (%)', p10: '10,5%', p25: '12,0%', p50: '14,5%', p75: '16,5%', p90: '18,0%' },
 ];
 
 export const scenarioAnalysis = [
-    { scenario: 'Lac quan', prob: '20%', revenue15Y: '220+', npv50Y: '18,2+', irr50Y: '17,5%+', color: '#22c55e' },
-    { scenario: 'Co so', prob: '50%', revenue15Y: '~165', npv50Y: '1,50', irr50Y: '13,0%', color: '#3b82f6' },
-    { scenario: 'Than trong', prob: '25%', revenue15Y: '115-130', npv50Y: '(3)-(7)', irr50Y: '10-11%', color: '#f59e0b' },
-    { scenario: 'Bi quan', prob: '5%', revenue15Y: '80-100', npv50Y: '(12)-(18)', irr50Y: '7-9%', color: '#ef4444' },
+    { scenario: 'Lạc quan', prob: '25%', revenue15Y: '220+', npv50Y: '8,0+', irr50Y: '17,5%+', color: '#22c55e' },
+    { scenario: 'Cơ sở', prob: '55%', revenue15Y: '~180', npv50Y: '2,50', irr50Y: '14,5%', color: '#3b82f6' },
+    { scenario: 'Thận trọng', prob: '20%', revenue15Y: '120-140', npv50Y: '(1)-(3)', irr50Y: '10-12%', color: '#f59e0b' },
 ];
 
-export const weightedScenario = { revenue15Y: '~160', npv50Y: '~3,7', irr50Y: '~13%' };
+export const weightedScenario = { revenue15Y: '~170', npv50Y: '~3,1', irr50Y: '~14,5%' };
 
 // Top 10 Risks — Source: L4778, L11888
 export const topRisks = [
@@ -65,10 +64,10 @@ export const jobCreation = [
 ];
 
 export const socioKPIs = {
-    directJobs15Y: '300',
-    indirectJobs: '600 (he so 2x)',
-    totalJobs: '900',
-    avgSalary: '25 trieu VND/thang',
+    directJobs15Y: '200',
+    indirectJobs: '400 (hệ số 2x)',
+    totalJobs: '600',
+    avgSalary: '25 triệu VND/tháng',
     taxRevenue10Y: '~18,5M USD',
     valueAdded10Y: '92,3M USD',
     totalBenefits10Y: '~172M USD',
@@ -84,7 +83,7 @@ export const trainingPrograms = [
     { program: 'Chuyen doi full-time', value: '60-70%', source: '-' },
     { program: 'Hoc bong Mekong', value: '10-15 suat/nam', source: '20M VND/suat' },
     { program: 'Chung chi quoc te/nam', value: '30-50', source: 'AWS, Siemens NX, Six Sigma' },
-    { program: 'Gio dao tao/nguoi/nam', value: '60-80h', source: '300 nhan su x 60h = 18.000h/nam' },
+    { program: 'Giờ đào tạo/người/năm', value: '60-80h', source: '200 nhân sự x 60h = 12.000h/năm' },
     { program: 'Ky su CNC 5-axis', value: '200+', source: 'Dao tao trong 10 nam' },
 ];
 

@@ -1,45 +1,16 @@
 graph TB
-    subgraph PLANT["XUONG CNC 4.000 m2 — MAT BANG TONG THE"]
-        direction TB
-        subgraph WEST["PHIA TAY"]
-            MAT["NGUYEN LIEU KHO<br/>200 m2"]
-            RD["Receiving Dock"]
-            SD["SHIPPING DOCK"]
-        end
-        subgraph ZONEA["ZONE A — 1.200 m2<br/>HIGH-END 5-AXIS"]
-            A1["DMU65 x4<br/>DMU85 x2<br/>DMU100 x1"]
-            A2["a51nx x3<br/>HMC 4-axis"]
-        end
-        subgraph ZONEB["ZONE B — 1.000 m2<br/>MID-RANGE CNC"]
-            B1["DVF5000 x3<br/>DVF6500 x2"]
-            B2["DNM650 x6<br/>3-axis"]
-        end
-        subgraph ZONEC["ZONE C — 600 m2<br/>TURNING CENTER"]
-            C1["Puma 2600SY x3<br/>Puma 3100LY x2"]
-        end
-        subgraph EDM["EDM AREA — 200 m2"]
-            E1["Sodick ALC600G"]
-            E2["Mitsubishi MV1200R"]
-        end
-        subgraph QAQC["QA/QC LAB — 300 m2"]
-            CMM2["CMM Room 80 m2<br/>20 +/- 0,5 C"]
-            GOM["GOM ATOS 3D Scan<br/>40 m2"]
-            GAUGE["Surface / Hardness<br/>Gauges"]
-        end
-        subgraph MID["KHU TRUNG TAM"]
-            TC["TOOL CRIB 80 m2<br/>Zoller + ToolBOSS x2"]
-            CAD["CAD/CAM ROOM 60 m2<br/>20 workstations"]
-        end
-        subgraph PACK["PACKING and FG — 160 m2"]
-            CL["Cleaning"] --> AR["Anti-rust Coating"] --> PK["Packing"]
-        end
-        SHOW["CUSTOMER SHOWROOM<br/>40 m2 — Glass wall"]
-    end
-    MAT -->|"Material Flow West to East"| ZONEA
-    ZONEA --> ZONEB --> ZONEC
-    ZONEA --> EDM
-    ZONEC --> PACK
-    EDM --> PACK
-    ZONEA --> QAQC
-    ZONEB --> QAQC
-    PACK --> SD
+    INPUT["INPUT 150 m3/ngay quota"] --> PROC["NUOC PROCESS<br/>~120 m3/ngay"]
+    INPUT --> SH["NUOC SINH HOAT<br/>~15 m3/ngay"]
+    PROC --> CT2["Cooling Tower<br/>80 m3/d"]
+    PROC --> CNC2["CNC Coolant<br/>20 m3/d"]
+    PROC --> SMT2["SMT Process<br/>10 m3/d"]
+    SH --> SAN["Sanitary<br/>15 m3/d"]
+    CT2 -->|"Evap 60 m3"| EVAP["Bay hoi"]
+    CT2 -->|"Blowdown 20 m3"| XLNT["XLNT"]
+    CNC2 -->|"ZLD 95% — 19 m3 recovered"| RCY["Recycled"]
+    CNC2 -->|"Solid 1 m3"| WASTE["Chat thai ran"]
+    SMT2 -->|"Recycle 80% = 8 m3"| RCY
+    SMT2 -->|"XLNT 2 m3"| XLNT
+    SAN -->|"XLNT 15 m3"| XLNT
+
+    SUMMARY["TONG: Input 135 | Evap 60 | Thai 37 | Recycled 27 | Losses 10"]

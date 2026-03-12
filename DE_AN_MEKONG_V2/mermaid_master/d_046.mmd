@@ -1,11 +1,31 @@
-graph TB
-    EVN["EVN 22kV<br/>KCNC Feeder"] --> TX1["TX-1<br/>2.500 kVA<br/>22/0,4 kV"]
-    EVN --> TX2["TX-2<br/>2.500 kVA<br/>22/0,4 kV"]
-    TX1 --> MDB1["MDB-1 Main DB<br/>Normal"]
-    TX2 --> MDB2["MDB-2 Main DB<br/>Reserve"]
-    MDB1 ---|"Bus-tie N/O"| MDB2
-    MDB1 --> SMA["Sub-MDB Khối A — DC<br/>UPS 2N → PDU → Racks"]
-    MDB1 --> SMB["Sub-MDB Khối B — CNC<br/>CNC DB + MCC 25 máy"]
-    MDB1 --> SMC["Sub-MDB Khối C — SMT<br/>SMT DB + MCC CR + Robot"]
-    MDB2 --> EP["Emerg. Panel — PCCC<br/>Fire Pump + Emergency Lighting"]
-    MDB2 --> SOL["Solar Inverter 500kWp<br/>Behind Meter"]
+timeline
+    title Lộ trình Phát triển Mekong Technology — 8 năm triển khai + 50 năm thuê đất
+    section Phase 0-1: Xây dựng Nền tảng (Y0-Y3)
+        Y0-Y1 : Thiết kế, pháp lý, EIA
+             : Chuẩn bị site, hạ tầng cơ bản
+        Y1-Y3 : Xây dựng shell 3 tầng (7.000m² × 3)
+             : M&E cơ bản, PCCC
+             : 100% vốn CSH, sổ đỏ Y3
+    section Phase 2: IoT Launch + DC Infra (Y3-Y4)
+        Y3-Y4 : Fit-out Tầng 2 (IoT/SMT)
+             : Lắp SMT line + Robot assembly
+             : DC hạ tầng MEP, UPS, HVAC
+             : First revenue Y4: 0,5M USD
+    section Phase 3: DC Full + CNC (Y4-Y6)
+        Y4-Y5 : DC 50 Rack + GPU vận hành
+             : ISO 27001 + Uptime Tier III
+        Y5-Y6 : PO + lắp đặt CNC 6 máy (800m²)
+             : CNC commissioning + ISO 9001
+             : Revenue Y6: ~8M, Headcount ~120
+    section Phase 4: Scale + Steady-state (Y6-Y8)
+        Y6-Y8 : CNC vận hành 2 ca, ổn định
+             : DC mở rộng lease GPU
+             : Vay NH 8M (Revenue chứng minh)
+             : Revenue Y8: ~15M, Headcount ~180
+    section Y10-Y50: Trưởng thành
+        Y10-Y12 : Steady-state ~21M/năm
+              : Breakeven cumulative ~Y10
+        Y15-Y25 : IPO HoSE hoặc Strategic Sale
+              : Revenue 25-35M/năm
+        Y25-Y50 : Net-zero carbon target
+              : Regional leader CNC + DC + IoT

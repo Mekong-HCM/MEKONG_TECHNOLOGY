@@ -23,7 +23,7 @@ export function TeamOrganization() {
             <div ref={ref}>
                 <motion.div initial={{ opacity: 0, y: 30 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6 }}>
                     <h2 className="section-title text-white">Đội ngũ <span className="gradient-text">& Tổ chức</span></h2>
-                    <p className="section-subtitle">300 nhân sự chất lượng cao — từ 15 người Y0 đến full-team Y15 — ESOP 5% cho nhóm chủ chốt.</p>
+                    <p className="section-subtitle">200 nhân sự chất lượng cao — từ 10-15 người Y0 đến ổn định Y12 — ESOP 3% cho nhóm chủ chốt.</p>
                 </motion.div>
 
                 <div className="grid lg:grid-cols-2 gap-8 mb-8">

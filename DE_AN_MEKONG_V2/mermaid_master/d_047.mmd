@@ -1,6 +1,5 @@
-graph LR
-    CH["CHILLER PLANT<br/>3x500kW"] -->|"7°C"| DH["DATA HALL<br/>CRAH + CDU<br/>heat absorbed"]
-    DH -->|"12°C"| CH
-    CH -->|"37°C Condenser"| CT["COOLING TOWER<br/>4x400kW"]
-    CT -->|"32°C Return"| CH
-    CT -->|"Evaporation + Blowdown + Drift"| MU["Make-up water<br/>60-80 m3/ngay"]
+graph TB
+    CT["COOLING TOWER<br/>4 Cell N+1<br/>Evaporative + Free Cooling"] -->|"Condenser Water 32/37°C"| CP["CHILLER PLANT<br/>3 x 500 kW<br/>Water-cooled N+1"]
+    CP -->|"Chilled Water 7/12°C"| SPLIT{" "}
+    SPLIT --> Z1["ZONE 1 — Colo<br/>In-Row CRAH<br/>+ Rear-Door HEX"]
+    SPLIT --> Z2["ZONE 2 — AI/HPC<br/>CDU Liquid Cooling<br/>+ Rear-Door HEX<br/>Direct-to-Chip"]

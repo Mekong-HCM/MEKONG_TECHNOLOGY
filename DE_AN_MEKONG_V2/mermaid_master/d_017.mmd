@@ -1,33 +1,12 @@
 graph TB
-    subgraph MK200["MK-200 IoT Industrial Gateway"]
-        subgraph MCU["MCU Module"]
-            M1["NXP i.MX8M<br/>Cortex-A53"]
-            M2["2GB LPDDR4"]
-            M3["16GB eMMC"]
-        end
-        subgraph COMMS["Communications"]
-            C1["WiFi 6"]
-            C2["BLE 5.2"]
-            C3["4G LTE Cat4"]
-            C4["Ethernet"]
-            C5["LoRa opt"]
-        end
-        subgraph IO["I/O Interface"]
-            I1["4× RS485 Modbus"]
-            I2["2× RS232"]
-            I3["4× DI 24V"]
-            I4["2× DO relay 5A"]
-            I5["2× AI 4-20mA"]
-            I6["1× USB 2.0 Host"]
-        end
-        subgraph OS["MekongOS Runtime"]
-            O1["Protocol Engine"]
-            O2["Edge AI Inference"]
-            O3["OTA Update Manager"]
-            O4["TLS 1.3 + MQTT Client"]
-        end
+    subgraph HALL["Server Hall 1 Phase 1 — 600 m²"]
+        RA["Row A — 20 rack"] --- RD["Row D — 20 rack"]
+        RB["Row B — 20 rack"] --- RE["Row E — 20 rack"]
+        RC["Row C — 20 rack"] --- RF["Row F — 20 rack"]
     end
-    MCU --> OS
-    COMMS --> OS
-    IO --> OS
-    style MK200 fill:#f9f9f9,stroke:#2c3e50
+    subgraph SUPPORT["Khu hỗ trợ"]
+        NOC["NOC 50 m²"]
+        STG["Staging 80 m²"]
+        MMR["Meet-me Room 30 m²"]
+    end
+    RA --- NOC

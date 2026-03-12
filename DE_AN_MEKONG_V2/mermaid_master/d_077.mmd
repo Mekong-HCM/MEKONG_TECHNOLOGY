@@ -1,29 +1,38 @@
 gantt
-    title Mekong Technology — Construction Gantt (27 thang)
+    title Tiến độ Xây dựng Phase 1 — Mekong Technology
     dateFormat YYYY-MM
-    axisFormat %m
-    section Pre-Construction
-        Permit & EIA Approval       :a1, 2027-01, 3M
-        Site Preparation            :a2, 2027-01, 6M
-    section Civil Works
-        Foundation Piling           :b1, 2027-04, 5M
-        Structural Frame            :b2, 2027-05, 8M
-        Building Envelope           :b3, 2027-07, 6M
+    axisFormat %Y-%m
+
+    section Chuẩn bị
+    San lấp mặt bằng      :a1, 2026-01, 2026-03
+    Ép cọc (700 cọc)      :a2, 2026-02, 2026-05
+    Đào đất + đài cọc     :a3, 2026-04, 2026-06
+
+    section Kết cấu
+    Khung thép Khối A (DC)  :b1, 2026-05, 2026-08
+    Khung thép Khối B (CNC) :b2, 2026-06, 2026-09
+    Khung thép Khối C (IoT) :b3, 2026-07, 2026-09
+    Mái + bao che           :b4, 2026-08, 2026-10
+
+    section Hoàn thiện
+    Tường + sàn DC          :c1, 2026-09, 2026-11
+    Tường + sàn CNC         :c2, 2026-09, 2026-11
+    Raised floor DC         :c3, 2026-10, 2026-12
+    Epoxy sàn CNC           :c4, 2026-10, 2026-12
+
     section M&E
-        M&E Rough-in               :c1, 2027-10, 6M
-        DC Fit-out raised floor    :c2, 2027-12, 4M
-        CNC Foundation isolation   :c3, 2027-12, 4M
-        Clean Room IoT             :c4, 2027-12, 4M
-    section Equipment
-        Equipment Delivery          :d1, 2027-12, 2M
-        CNC Install & Level         :d2, 2028-02, 4M
-        DC Power & Cooling          :d3, 2028-02, 4M
-        ERP/MES Implementation      :d4, 2027-12, 6M
-    section Commissioning
-        CNC Commissioning           :crit, e1, 2028-05, 4M
-        DC Commissioning            :crit, e2, 2028-05, 4M
-        IoT/SMT Qualifying          :e3, 2028-05, 4M
-    section Ramp-up
-        Pilot Production            :f1, 2028-08, 3M
-        ISO Certification           :f2, 2028-08, 3M
-        Full Ramp-up                :f3, 2028-10, 2M
+    Lắp đặt điện HT/HA     :d1, 2026-09, 2026-12
+    UPS + Generator         :d2, 2026-10, 2027-01
+    Cooling (Chiller + AHU) :d3, 2026-10, 2027-01
+    PCCC                    :d4, 2026-10, 2026-12
+    BMS + DCIM              :d5, 2026-11, 2027-01
+
+    section Lắp đặt TBị
+    CNC Phase 1 (6 máy)   :e1, 2026-11, 2027-02
+    SMT Line                :e2, 2026-12, 2027-02
+    DC Rack + Server        :e3, 2026-12, 2027-02
+
+    section Nghiệm thu
+    Test + Commissioning    :f1, 2027-01, 2027-03
+    Nghiệm thu PCCC        :f2, 2027-02, 2027-03
+    Vận hành thử            :f3, 2027-02, 2027-04

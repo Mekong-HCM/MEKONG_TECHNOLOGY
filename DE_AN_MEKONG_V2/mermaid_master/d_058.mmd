@@ -1,12 +1,29 @@
-graph LR
-    EVN["EVN 22kV<br/>2 feeders"] --> TBA1["Tram BA #1<br/>22kV→0,4kV"]
-    EVN --> TBA2["Tram BA #2<br/>22kV→0,4kV"]
-    TBA1 --> ATSA["ATS A"]
-    TBA2 --> ATSB["ATS B"]
-    G1["Generator G1"] --> ATSA
-    G2["Generator G2"] --> ATSB
-    G3["Generator G3<br/>N+1 spare"]
-    ATSA --> UPSA1["UPS A1"] --> PDUAC1["PDU Row A,C"]
-    ATSA --> UPSA2["UPS A2"] --> PDUBD1["PDU Row B,D"]
-    ATSB --> UPSB1["UPS B1"] --> PDUAC2["PDU Row A,C"]
-    ATSB --> UPSB2["UPS B2"] --> PDUBD2["PDU Row B,D"]
+graph TB
+    subgraph PLANT["XUONG CNC 800 m2 — MAT BANG LEAN"]
+        direction TB
+        subgraph WEST["KHO + DOCK — 100 m2"]
+            MAT["NGUYEN LIEU KHO"]
+            RD["Receiving Dock"]
+            SD["SHIPPING DOCK"]
+        end
+        subgraph MACHINING["KHU GIA CONG — 400 m2"]
+            A1["DMG MORI DMU 65 x2<br/>5-truc chinh"]
+            A2["Doosan DVF 5000 x2<br/>5-truc economy"]
+            A3["Doosan DNM 6700 x2<br/>3-truc vertical"]
+        end
+        subgraph QAQC["QA/QC — 60 m2"]
+            CMM2["Hexagon Portable Arm"]
+            GOM["GOM ATOS 3D Scan"]
+            GAUGE["Surface Roughness + Gauges"]
+        end
+        subgraph SUPPORT["PHU TRO — 140 m2"]
+            TC["TOOL CRIB 40 m2"]
+            CAD["CAD/CAM ROOM 40 m2<br/>5 Mastercam seats"]
+            PACK["PACKING + FG 60 m2"]
+        end
+    end
+    MAT -->|"Material Flow"| MACHINING
+    MACHINING --> QAQC
+    MACHINING --> PACK
+    QAQC --> PACK
+    PACK --> SD

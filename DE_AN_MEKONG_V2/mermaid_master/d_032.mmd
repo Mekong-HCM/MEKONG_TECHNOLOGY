@@ -1,7 +1,10 @@
-xychart-beta
-    title "Phân tích Nhạy cảm NPV 50Y (M USD)"
-    x-axis ["-20%", "-10%", "Base", "+10%", "+20%"]
-    y-axis "NPV (M USD)" -8 --> 8
-    bar [-5.50, -2.00, 1.50, 5.00, 8.50]
-    bar [4.80, 3.15, 1.50, -0.15, -1.80]
-    bar [3.60, 2.55, 1.50, 0.45, -0.60]
+graph LR
+    NT1["Nước thải<br/>sinh hoạt"] --> EQ["Bể điều hòa<br/>Equalization"]
+    NT2["Nước thải CNC<br/>coolant"] --> OIL["Bể tách dầu<br/>+ Lọc sơ cấp"]
+    EQ --> SBR["Bể SBR<br/>Sequential Batch Reactor"]
+    OIL --> DAF["Bể phản ứng<br/>hóa học DAF"]
+    SBR --> SETTLE["Bể lắng thứ cấp"]
+    DAF --> UV["Bể khử trùng UV"]
+    SETTLE --> UV
+    UV --> QCVN["ĐẠT QCVN 40:2011<br/>Cột A"]
+    QCVN --> REUSE["TÁI SỬ DỤNG<br/>tưới cây, toilet"]

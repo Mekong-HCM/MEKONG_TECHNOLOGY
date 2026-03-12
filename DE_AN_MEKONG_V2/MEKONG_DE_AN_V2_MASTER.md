@@ -34,8 +34,8 @@
 | **Tổng Giám đốc** | Ông Phạm Xuân Quốc |
 | **Địa điểm** | Lô E2-03, Đường D1, Khu Công nghệ cao TP.HCM |
 | **Diện tích đất** | 1 ha (10.000 m²), 1 tòa nhà 3 tầng — GFA 21.000 m² |
-| **Tổng vốn đầu tư** | 47.500.000 USD |
-| **Vốn chủ sở hữu** | 34.970.000 USD (bao gồm vốn vận hành) |
+| **Tổng vốn đầu tư** | 32.000.000 USD |
+| **Vốn chủ sở hữu** | 24.000.000 USD (bao gồm vốn vận hành) |
 | **Thời hạn** | 50 năm (01/2025 — 12/2075) |
 | **Lĩnh vực** | Vi điện tử — CNTT — Viễn thông; Cơ khí chính xác — Tự động hóa |
 
@@ -143,7 +143,7 @@ Lô T2-4, Đường D1, Phường Tân Phú, TP Thủ Đức, TP.HCM
 ## PHẦN IX: KẾT LUẬN VÀ KIẾN NGHỊ
 
 - [9.1. Tổng kết Giá trị Dự án](#91-tổng-kết-giá-trị)
-- [9.2. So sánh Chiến lược: Tại sao Mở rộng là Quyết định Đúng](#92-so-sánh-chiến-lược)
+- [9.2. Cam kết của Nhà đầu tư](#92-cam-kết-của-nhà-đầu-tư)
 - [9.3. Kiến nghị](#93-kiến-nghị)
 
 ## PHỤ LỤC
@@ -185,7 +185,7 @@ Lô T2-4, Đường D1, Phường Tân Phú, TP Thủ Đức, TP.HCM
 | **Diện tích lô đất** | 1 ha (10.000 m²) |
 | **Mật độ xây dựng** | 70% (7.000 m² footprint), chiều cao tối đa 14 m |
 | **Tòa nhà** | 1 tòa nhà 3 tầng (6m + 4m + 4m = 14m), GFA 21.000 m² |
-| **Tầng 1 (6m)** | CNC Workshop 3.000 m² + Datacenter 1.500 m² + M&E/Kho 2.500 m² |
+| **Tầng 1 (6m)** | Datacenter 3.000 m² + CNC Workshop 800 m² + M&E/Kho 3.200 m² |
 | **Tầng 2 (4m)** | IoT/SMT 2.500 m² + Clean Room 1.000 m² + Lắp ráp/QC 2.500 m² + Hành lang 1.000 m² |
 | **Tầng 3 (4m)** | Văn phòng 2.500 m² + R&D Lab 1.500 m² + Đào tạo/Căn tin/Hội nghị 2.000 m² + Phụ trợ 1.000 m² |
 | **Diện tích sân bãi** | 3.000 m² (bãi xe, cây xanh, đường nội bộ, trạm biến áp, lane PCCC) |
@@ -197,11 +197,11 @@ Lô T2-4, Đường D1, Phường Tân Phú, TP Thủ Đức, TP.HCM
 
 | Mục | Giá trị | Ghi chú |
 |---|---:|---|
-| **Tổng vốn đầu tư** | 47.500.000 USD | CAPEX toàn dự án [C] |
-| **Vốn chủ sở hữu (Phase 0-3)** | 34.970.000 USD | 100% equity cho 10 năm đầu, không vay ngân hàng [C] |
-| **Vốn vay (Phase 4, từ Y10)** | 12.530.000 USD | Chỉ giải ngân khi có revenue proof từ IoT + CNC [C] |
-| **Tổng vốn CSH cam kết** | 34.970.000 USD | Bao gồm CAPEX + working capital + bù lỗ ramp-up [C] |
-| **Trợ cấp/Ưu đãi** | ~3.000.000 USD | R&D Grant + Tax incentive (ước tính) [A] |
+| **Tổng vốn đầu tư** | 32.000.000 USD | CAPEX toàn dự án [C] |
+| **Vốn chủ sở hữu (Phase 0-3)** | 24.000.000 USD | 75% equity, tự chủ toàn bộ giai đoạn xây dựng + lắp đặt [C] |
+| **Vốn vay (từ Y6, khi DC có doanh thu)** | 8.000.000 USD | Chỉ giải ngân khi có revenue proof từ Datacenter [C] |
+| **Tổng vốn CSH cam kết** | 24.000.000 USD | Bao gồm CAPEX + working capital + bù lỗ ramp-up [C] |
+| **Trợ cấp/Ưu đãi** | ~2.000.000 USD | R&D Grant + Tax incentive (ước tính) [A] |
 | **Thời hạn hoạt động** | 50 năm | 01/2025 — 12/2075 |
 
 ---
@@ -221,14 +221,14 @@ Lô T2-4, Đường D1, Phường Tân Phú, TP Thủ Đức, TP.HCM
 
 | Giai đoạn | Thời gian | Vốn đầu tư | Nội dung chính | Nguồn vốn |
 |---|---|---:|---|---|
-| **Phase 0** | Y0 — Y2 | 2.500.000 USD | Pháp lý, thiết kế, san lấp mặt bằng, giấy phép xây dựng | CSH |
-| **Phase 1** | Y2 — Y5 | 8.000.000 USD | Xây dựng khung nhà xưởng 3 tầng (shell only, chưa lắp thiết bị) | CSH |
-| **Phase 2** | Y5 — Y7 | 8.000.000 USD | Hoàn thiện Tầng 2+3 (IoT/SMT + VP/R&D) + mua thiết bị IoT | CSH |
-| **Phase 3** | Y7 — Y10 | 16.000.000 USD | Hoàn thiện Tầng 1 khu CNC + mua 15 máy CNC 5 trục | CSH + Revenue |
-| **Phase 4** | Y10 — Y13 | 13.000.000 USD | Hoàn thiện Tầng 1 khu DC + mở rộng CNC lên 28 máy | Vay + Revenue |
-| **Tổng** | Y0 — Y13 | **47.500.000 USD** | Thời gian đầu tư toàn bộ: 13–15 năm | |
+| **Phase 0** | Y0 — Y1 | 2.000.000 USD | Pháp lý, EIA, thiết kế, san lấp mặt bằng | CSH |
+| **Phase 1** | Y1 — Y3 | 5.800.000 USD | Xây dựng shell 3 tầng + M&E + PCCC → Hoàn công, Sổ đỏ | CSH |
+| **Phase 2** | Y3 — Y4 | 5.700.000 USD | Fit-out IoT (Tầng 2) + Hạ tầng DC (Tầng 1) | CSH |
+| **Phase 3** | Y4 — Y6 | 14.500.000 USD | GPU + Server Datacenter + CNC 6 máy | CSH |
+| **Phase 4** | Y6 — Y8 | 4.000.000 USD | Mở rộng rack DC + bổ sung máy CNC từ doanh thu | Vay + Revenue |
+| **Tổng** | Y0 — Y8 | **32.000.000 USD** | Thời gian đầu tư toàn bộ: 8 năm | |
 
-> **Nguyên tắc tài chính:** Y0–Y9 tự chủ 100% vốn CSH (34,97M USD). Vay ngân hàng chỉ giải ngân từ Y10 khi đã có doanh thu chứng minh (revenue proof) từ IoT và CNC.
+> **Nguyên tắc tài chính:** Y0–Y5 tự chủ 100% vốn CSH (24,00M USD). Vay ngân hàng chỉ giải ngân từ Y6 khi Datacenter đã có doanh thu chứng minh (revenue proof). Sổ đỏ hoàn thành Y3 nhờ tiến độ xây dựng tập trung.
 
 ---
 
@@ -236,19 +236,19 @@ Lô T2-4, Đường D1, Phường Tân Phú, TP Thủ Đức, TP.HCM
 
 | Chỉ số | Giá trị | Kỳ hạn | Nhãn |
 |---|---:|---|:---:|
-| NPV (WACC = 12%) | 1.500.000 USD | 50 năm | [C] |
-| IRR | 13,0% | 50 năm | [C] |
-| Breakeven (hoà vốn tích lũy) | Năm thứ 13 | — | [C] |
-| Doanh thu năm 10 | 14.500.000 USD | — | [C] |
-| Doanh thu năm 15 (ổn định) | 32.000.000 USD | — | [C] |
-| Doanh thu tích lũy 15 năm | 165.000.000 USD | — | [C] |
-| EBITDA margin (ổn định) | ~28% | Từ năm 13+ | [C] |
-| Giá trị Chiến lược (Adjusted) | 20.320.000 USD | — | [C] |
+| NPV (WACC = 12%) | 2.500.000 USD | 50 năm | [C] |
+| IRR | 14,5% | 50 năm | [C] |
+| Breakeven (hoà vốn tích lũy) | Năm thứ 10 | — | [C] |
+| Doanh thu năm 10 | 19.500.000 USD | — | [C] |
+| Doanh thu năm 12 (ổn định) | 21.000.000 USD | — | [C] |
+| Doanh thu tích lũy 15 năm | 180.000.000 USD | — | [C] |
+| EBITDA margin (ổn định) | ~35% | Từ năm 12+ | [C] |
+| Giá trị Chiến lược (Adjusted) | 14.000.000 USD | — | [C] |
 | WACC | 12% | — | [C] |
-| Nhân sự (ổn định) | 250 — 300 người | Từ năm 13 | [C] |
+| Nhân sự (ổn định) | 150 — 200 người | Từ năm 12 | [C] |
 | Thuê đất KCNC | 120.000 USD/năm | Miễn 11 năm đầu | [B] |
 
-> **Ghi chú quan trọng:** Do phương án đầu tư dàn trải 13 năm với 5 năm xây dựng shell trước, NPV(20Y) âm (-5,3M) vì chưa thu hồi đủ. NPV chỉ dương khi xét chiết khấu dài hạn 50 năm phù hợp với thời hạn thuê đất KCNC. IRR(50Y) = 13,0% > WACC 12% → dự án có giá trị.
+> **Ghi chú quan trọng:** Phương án 32M tập trung triển khai nhanh trong 8 năm (thay vì dàn trải 13 năm), ưu tiên Datacenter (50% vốn) và IoT, CNC quy mô tinh gọn (6 máy, ISO 9001). NPV(50Y) dương nhờ doanh thu bắt đầu từ Y4, IRR(50Y) = 14,5% > WACC 12% → dự án có giá trị.
 
 > **Quy ước nhãn dữ liệu:** [C] = Calculated (tính toán từ mô hình tài chính, ghi rõ công thức); [B] = Benchmarked (tham chiếu thị trường, ghi rõ nguồn); [A] = Assumed (giả định, ghi rõ lý do).
 
@@ -262,9 +262,9 @@ Lô T2-4, Đường D1, Phường Tân Phú, TP Thủ Đức, TP.HCM
 | 2 | Robot AMR-500/1000 | 1 | LiDAR 3D, AI SLAM, tải 500-1.000 kg | 200 bộ | 5,00 | 40% | Phụ lục II, Mục 2.1 |
 | 3 | Robot AGV-500/1000 | 1 | Vision-based, tải 500-1.000 kg | 100 bộ | 4,00 | 35% | Phụ lục II, Mục 2.1 |
 | 4 | Robot OHT-100 | 1 | Dual rail, 100 kg, 4 trục | 50 bộ | 2,50 | 30% | Phụ lục II, Mục 2.2 |
-| 5 | Linh kiện khuôn mẫu bán dẫn | 2 | Dung sai ≤ 3 micromet, vật liệu NAK80/SKD11 | 5.000 chi tiết | 2,50 | 45% | Phụ lục I, Mục 2 |
-| 6 | Linh kiện hàng không vũ trụ | 2 | Chứng nhận AS9100 Rev D, Titan Grade 5/Inconel 718 | 2.000 chi tiết | 3,00 | 50% | Phụ lục I, Mục 2 |
-| 7 | Linh kiện ô tô điện | 2 | Chứng nhận IATF 16949, Al 6061-T6/SCM440 | 20.000 chi tiết | 4,00 | 35% | Phụ lục I, Mục 2 |
+| 5 | Khung Robot AMR/AGV (nội bộ + xuất khẩu) | 2 | Nhôm 6061-T6, dung sai ≤ 5 micromet, ISO 9001:2015 | 1.500 bộ khung | 1,20 | 40% | Phụ lục I, Mục 2 |
+| 6 | Linh kiện chính xác (encoder bracket, motor mount, khớp xoay) | 2 | Thép/Nhôm, dung sai ≤ 5 micromet, ISO 9001:2015 | 1.000 chi tiết | 0,80 | 35% | Phụ lục I, Mục 2 |
+| 7 | Jig/Fixture cho SMT + chi tiết gia công FDI | 2 | Al 6061/SUS304, gia công 5 trục, ISO 9001:2015 | 500 bộ | 0,50 | 30% | Phụ lục I, Mục 2 |
 | 8 | Nền tảng AI/HPC Computing | 3 | NVIDIA DGX H100, GPU-as-a-Service | 50 Rack | 5,00 | 60% | Phụ lục I, Mục 1.3 |
 | 9 | Hạ tầng lưu trữ Tier III | 3 | Uptime 99,982%, Colocation | 50 Rack | 1,20 | 55% | Phụ lục I, Mục 1.2 |
 | 10 | MekongOS IoT Cloud (SaaS) | 3 | Nền tảng quản lý IoT, MQTT/OPC UA | 2.000 thuê bao | 3,00 | 70% | Phụ lục II, Mục 1.2 |
@@ -273,9 +273,12 @@ Lô T2-4, Đường D1, Phường Tân Phú, TP Thủ Đức, TP.HCM
 | 13 | MK-GW Gateway chuyen dung (4 loai) | 1 | BACnet/Modbus/KNX/DALI gateway | 3.000 bo | 0,60 | 45% | Phu luc II, Muc 1.1 |
 | 14 | MekongBMS License + SaaS | 1 | Phan mem BMS web-based, tieng Viet 100%, per-point | 500 site | 1,50 | 80% | Phu luc II, Muc 1.2 |
 | 15 | BMS/SCADA Service & Maintenance | 1 | Bao tri, nang cap, ho tro ky thuat, commissioning | Recurring | 0,60 | 70% | Phu luc II, Muc 1.2 |
-| | **Tong cong (cong suat thiet ke toi da, bao gom BMS/SCADA)** | | | | **44,70** | **44%** | |
+| 16 | MekongSoft — Phat trien Phan mem theo Yeu cau | 3 | Custom MES/ERP module, dashboard, API integration cho DN trong KCNC | 20-30 du an/nam | 0,80 | 75% | Phu luc II, Muc 1.2 |
+| 17 | Managed Application Platform (PaaS) | 3 | Hosting + van hanh ung dung khach tren DC: CI/CD, monitoring, auto-scale | 30-50 tenant | 0,50 | 65% | Phu luc I, Muc 1.2 |
+| 18 | Dich vu Huan luyen AI/ML Model | 3 | Training model Computer Vision, NLP, Predictive Maintenance tren GPU cluster | 15-25 du an/nam | 0,70 | 70% | Phu luc I, Muc 1.3 |
+| | **Tong cong (cong suat thiet ke toi da, bao gom BMS/SCADA + Software Services)** | | | | **39,70** | **46%** | |
 
-> **Ghi chu:** Tong 44,70M USD/nam la **cong suat thiet ke toi da** khi toan bo 3 tru cot van hanh 100% cong suat (muc tieu sau Y15). Theo mo hinh tai chinh, doanh thu on dinh (steady-state) thuc te dat **32,00M USD/nam tu Y13** (xem Muc 5.2.1). Chenh lech la do cac san pham BMS/SCADA (dong 11-15, bo sung 4,50M/nam) va revenue IoT chua dat full capacity trong 15 nam dau [A]. Trong giai doan ramp-up (Y5-Y7), doanh thu tang tu 0,50M len 5,00M USD/nam [C].
+> **Ghi chu:** Tong 39,70M USD/nam la **cong suat thiet ke toi da** khi toan bo 3 tru cot van hanh 100% cong suat (muc tieu sau Y15). Theo mo hinh tai chinh, doanh thu on dinh (steady-state) thuc te dat **21,00-23,00M USD/nam tu Y12** (xem Muc 5.2.1). Chenh lech la do CNC quy mo tinh gon (6 may, ISO 9001), cac san pham BMS/SCADA chua dat full capacity, va GPU Phase 2 chuyen sang mo hinh lease [A]. Trong giai doan ramp-up (Y4-Y7), doanh thu tang tu 0,50M len 12,00M USD/nam [C]. Ba dich vu phan mem (TT 16-18) su dung ha tang DC va nhan su R&D Lab san co, KHONG phat sinh CAPEX bo sung; doanh thu bo sung 2,00M USD/nam la upside potential tu Y5 [A].
 
 ---
 ---
@@ -286,11 +289,11 @@ Lô T2-4, Đường D1, Phường Tân Phú, TP Thủ Đức, TP.HCM
 
 ## Giới thiệu
 
-Công ty TNHH Mekong Technology kính trình Ban Quản lý Khu Công nghệ cao TP.HCM phương án mở rộng phạm vi hoạt động từ dự án sản xuất IoT/Robot (tổng vốn 20.000.000 USD) thành **Tổ hợp Công nghệ cao Đa ngành** (tổng vốn 47.500.000 USD) với 3 trụ cột kinh doanh:
+Công ty TNHH Mekong Technology kính trình Ban Quản lý Khu Công nghệ cao TP.HCM phương án mở rộng phạm vi hoạt động từ dự án sản xuất IoT/Robot (tổng vốn 20.000.000 USD) thành **Tổ hợp Công nghệ cao Đa ngành** (tổng vốn 32.000.000 USD) với 3 trụ cột kinh doanh:
 
 1. **Trụ cột 1 — IoT/Robot** (giữ nguyên, tối ưu hóa): Nghiên cứu, sản xuất thiết bị IoT Gateway thông minh và Robot tự hành (AMR/AGV/OHT) phục vụ chuyển đổi số doanh nghiệp sản xuất.
 
-2. **Trụ cột 2 — Chế tạo Cơ khí Siêu Chính xác (MPMC)**: Xây dựng nhà máy CNC 5 trục đạt chuẩn IATF 16949 (ô tô) và AS9100 Rev D (hàng không vũ trụ), cung ứng linh kiện siêu chính xác (dung sai ≤ 5 micromet) cho chuỗi cung ứng FDI tại Việt Nam — lấp khoảng trống nghiêm trọng trong hệ sinh thái công nghiệp hỗ trợ quốc gia.
+2. **Trụ cột 2 — Chế tạo Cơ khí Chính xác (MPMC)**: Xây dựng xưởng CNC tinh gọn (6 máy: 4x5-trục + 2x3-trục) đạt chuẩn ISO 9001:2015, chuyên gia công khung robot AMR/AGV nội bộ và linh kiện chính xác (dung sai ≤ 5 micromet) cho khách hàng FDI tại Việt Nam — hỗ trợ trực tiếp hệ sinh thái sản xuất robot của Mekong.
 
 3. **Trụ cột 3 — Hạ tầng Điện toán Đám mây AI (MACC)**: Xây dựng Trung tâm Dữ liệu Tier III với năng lực GPU Computing (NVIDIA DGX H100) phục vụ cộng đồng doanh nghiệp R&D bán dẫn, AI, Big Data trong Khu Công nghệ cao — cung cấp hạ tầng điện toán tại chỗ mà hiện tại KCNC chưa có.
 
@@ -314,11 +317,11 @@ mindmap
       MekongBMS / MekongSCADA
       MekongOS Platform
     Trụ cột 2 — MPMC
-      CNC 5 trục
-      IATF 16949
-      AS9100 Rev D
-      Bán dẫn / Hàng không
-      Ô tô điện / Y tế
+      CNC 5 trục + 3 trục (6 máy)
+      ISO 9001:2015
+      Khung Robot AMR/AGV
+      Linh kiện chính xác FDI
+      Jig/Fixture cho SMT
     Trụ cột 3 — MACC
       Datacenter Tier III
       GPU as a Service
@@ -387,13 +390,13 @@ flowchart TD
     end
 
     subgraph BU2["Trụ cột 2 — CNC/MPMC"]
-        B1[CNC 5 trục<br/>28 máy]
-        B2[QA/QC Lab<br/>CMM Hexagon]
-        B3[Chứng nhận<br/>IATF + AS9100]
+        B1[CNC 5+3 trục<br/>6 máy, 800 m²]
+        B2[QA/QC Lab<br/>CMM Hexagon Arm]
+        B3[Chứng nhận<br/>ISO 9001:2015]
     end
 
     subgraph BU3["Trụ cột 3 — DC/MACC"]
-        C1[Datacenter<br/>Tier III, 100 Racks]
+        C1[Datacenter<br/>Tier III, 50 Racks]
         C2[GPU Compute<br/>NVIDIA DGX H100]
         C3[IoT Cloud<br/>MekongOS SaaS]
     end
@@ -405,7 +408,7 @@ flowchart TD
     B3 -->|Cross-sell FDI| C1
     A1 -->|Dữ liệu IoT| C3
 
-    FDI["Khách hàng FDI<br/>Samsung, Intel,<br/>Bosch, VinFast"]
+    FDI["Khách hàng FDI<br/>Samsung, Intel,<br/>Bosch, Nidec"]
     KCNC["Hệ sinh thái KCNC<br/>IC Design, AI Startup,<br/>R&D Labs"]
 
     B1 -->|Gia công linh kiện| FDI
@@ -418,68 +421,70 @@ flowchart TD
 
 ## Tóm tắt Tài chính
 
-### Cơ cấu Vốn Đầu tư (CAPEX = 47,50 M USD)
+### Cơ cấu Vốn Đầu tư (CAPEX = 32,00 M USD)
 
 ```mermaid
-pie title Phân bổ CAPEX theo Trụ cột (M USD)
-    "CNC/MPMC — 15,60M" : 15.60
-    "Datacenter/MACC — 22,00M" : 22.00
-    "IoT/Robot — 4,00M" : 4.00
-    "Hạ tầng chung — 5,90M" : 5.90
+pie title Phân bổ CAPEX theo Hạng mục (M USD)
+    "Datacenter/MACC — 16,00M" : 16.00
+    "Hạ tầng + Xây dựng — 7,00M" : 7.00
+    "IoT/Robot — 3,50M" : 3.50
+    "CNC/MPMC — 3,00M" : 3.00
+    "Vốn lưu động + Dự phòng — 2,50M" : 2.50
 ```
 
-| Trụ cột | CAPEX (M USD) | Tỷ trọng | Đợt 1 (P0-P2) | Đợt 2 (P3-P4) |
+| Hạng mục | CAPEX (M USD) | Tỷ trọng | Đợt 1 (P0-P2) | Đợt 2 (P3-P4) |
 |---|---:|:---:|---:|---:|
-| CNC / MPMC | 15,60 | 33% | 9,10 | 6,50 |
-| Datacenter / MACC | 22,00 | 46% | 13,50 | 8,50 |
-| IoT / Robot | 4,00 | 8% | 3,20 | 0,80 |
-| Hạ tầng chung | 5,90 | 12% | 3,10 | 2,80 |
-| **Tổng** | **47,50** | **100%** | **28,90** | **18,60** |
+| Datacenter / MACC | 16,00 | 50,0% | 6,03 | 9,97 |
+| Hạ tầng + Xây dựng | 7,00 | 21,9% | 6,40 | 0,60 |
+| IoT / Robot | 3,50 | 10,9% | 3,50 | 0,00 |
+| CNC / MPMC | 3,00 | 9,4% | 0,00 | 3,00 |
+| Vốn lưu động + Dự phòng | 2,50 | 7,8% | 1,57 | 0,93 |
+| **Tổng** | **32,00** | **100%** | **17,50** | **14,50** |
 
-> **Lưu ý:** "Đợt 1" = Phase 0-2 (Y0-Y7), "Đợt 2" = Phase 3-4 (Y7-Y13). Xem chi tiết 5 giai đoạn tại Mục 5.1.1. Hạ tầng chung (5,90 M USD) bao gồm: PCCC chung (534.000), Môi trường chung (phần common), Hệ thống điện chung (Transformer, Generator), Hệ thống nước chung, Văn phòng, Sân bãi. Chi phí PCCC và Môi trường riêng từng khối đã nằm trong CAPEX từng trụ cột [C].
+> **Lưu ý:** "Đợt 1" = Phase 0-2 (Y0-Y4), "Đợt 2" = Phase 3-4 (Y4-Y8). Xem chi tiết 5 giai đoạn tại Mục 5.1.1. Hạ tầng + Xây dựng (7,00 M USD) bao gồm: thuê đất + site prep, thiết kế + pháp lý + EIA, shell 3 tầng, M&E, transformer 3MVA, PCCC, solar PV 200kWp, nội thất VP [C].
 
 ### Cấu trúc Vốn
 
 | Nguồn vốn | Giá trị (M USD) | Tỷ trọng | Điều kiện | Thời điểm |
 |---|---:|:---:|---|---|
-| **Vốn chủ sở hữu (CSH)** | 34,97 | 73,6% | Tự chủ 100% trong 10 năm đầu | Y0–Y9 |
-| **Vay ngân hàng** | 12,53 | 26,4% | Lãi suất 8,5%/năm, kỳ hạn 10 năm, ân hạn 2 năm | Từ Y10 |
-| **Tổng CAPEX** | **47,50** | **100%** | WACC = 12% [C] | |
+| **Vốn chủ sở hữu (CSH)** | 24,00 | 75,0% | Tự chủ 100% giai đoạn xây dựng + lắp đặt | Y0–Y5 |
+| **Vay ngân hàng** | 8,00 | 25,0% | Lãi suất 8,5%/năm, kỳ hạn 10 năm, ân hạn 2 năm | Từ Y6 |
+| **Tổng CAPEX** | **32,00** | **100%** | WACC = 12% [C] | |
 
-> **Chiến lược tài chính:** Tổng vốn CSH cam kết = 34,97M USD, gồm: CAPEX equity qua 4 giai đoạn (P0: 2,50M + P1: 8,50M + P2: 10,63M + P3: 13,34M) + Buffer dự phòng 2,00M [C]. Vay 12,53M USD chỉ giải ngân từ Y10 khi dự án đã có doanh thu chứng minh (Revenue Y9 ≥ 11,5M). Xem chi tiết tại Mục 5.1.2 và 5.1.3.
+> **Chiến lược tài chính:** Tổng vốn CSH cam kết = 24,00M USD, gồm: CAPEX equity qua 3 giai đoạn (P0: 2,00M + P1: 5,80M + P2: 5,70M) + Phase 3 (10,50M) [C]. Vay 8,00M USD chỉ giải ngân từ Y6 khi Datacenter đã có doanh thu chứng minh. Sổ đỏ hoàn thành Y3 nhờ tiến độ xây dựng tập trung. Xem chi tiết tại Mục 5.1.2 và 5.1.3.
 
 ### Chỉ số Thẩm định
 
 | Chỉ số | Conservative | Base Case | Optimistic | Xác suất |
 |---|---:|---:|---:|---:|
-| NPV 50Y (M USD) | 0,50 | 1,50 | 4,00 | — |
-| IRR 50Y | 12,3% | 13,0% | 14,5% | — |
+| NPV 50Y (M USD) | 1,00 | 2,50 | 5,00 | — |
+| IRR 50Y | 13,0% | 14,5% | 16,5% | — |
 | Xác suất xảy ra | 30% | 50% | 20% | — |
-| **NPV trọng số xác suất** | | **1,70** | | [C] |
+| **NPV trọng số xác suất** | | **2,55** | | [C] |
 
-> *[C] NPV trọng số = 30% × 0,50 + 50% × 1,50 + 20% × 4,00 = 0,15 + 0,75 + 0,80 = **1,70M USD**. Xem chi tiết tại Mục 5.6.2.*
+> *[C] NPV trọng số = 30% × 1,00 + 50% × 2,50 + 20% × 5,00 = 0,30 + 1,25 + 1,00 = **2,55M USD**. Xem chi tiết tại Mục 5.6.2.*
 
 | Chỉ số Bổ sung | Giá trị | Nhãn |
 |---|---:|:---:|
-| Payback (chiết khấu) | 13 năm | [C] |
-| DSCR (từ Y11, vay từ Y10) | ≥ 4,0x | [C] |
-| Revenue 15 năm tích lũy | ~165 M USD | [C] |
-| EBITDA steady-state (Y10+) | ~28-30% | [C] |
-| Giá trị Chiến lược (Adjusted) | 20,32 M USD | [C] |
+| Payback (chiết khấu) | 10 năm | [C] |
+| DSCR min (vay từ Y6) | 1,42x (Y7) | [C] |
+| Revenue 15 năm tích lũy | ~180 M USD | [C] |
+| EBITDA steady-state (Y12+) | ~35% | [C] |
+| Giá trị Chiến lược (Adjusted) | 14,00 M USD | [C] |
 
 ### Phân bổ Giá trị Chiến lược
 
 | Thành phần | Giá trị (M USD) | Phương pháp |
 |---|---:|---|
-| NPV tài chính (Base Case 50Y) | 1,50 | DCF, WACC 12% |
-| Real Options Value | 4,00 | Decision Tree: quyền mở rộng DC + AS9100 + IPO |
-| Barrier-to-entry Premium | 3,50 | Replacement cost: đối thủ cần >100M + 5 năm |
-| Synergy Value (Cross-BU) | 2,50 | DCF incremental: MekongOS + CNC-Robot + Cross-sell |
-| Platform Value | 5,00 | EBITDA multiple: Đa trụ cột = 10-15x vs Đơn trụ = 5-8x |
-| Tax + Land Rent Exemption | 3,82 | NPV ưu đãi thuế 6,0M + miễn đất 1,32M, chiết khấu 12% |
-| **Tổng Giá trị Chiến lược** | **20,32** | [C] |
+| NPV tài chính (Base Case 50Y) | 2,50 | DCF, WACC 12% |
+| Real Options Value | 2,50 | Decision Tree: quyền mở rộng DC + GPU lease + nâng cấp CNC |
+| Barrier-to-entry Premium | 2,00 | Replacement cost: DC Tier III + CNC ecosystem |
+| Synergy Value (Cross-BU) | 2,00 | DCF incremental: CNC-Robot + MekongOS + Cross-sell |
+| Platform Value | 3,00 | EBITDA multiple: Đa trụ cột = 10-15x vs Đơn trụ = 5-8x |
+| Tax + Land Rent Exemption | 2,00 | NPV ưu đãi thuế + miễn đất, chiết khấu 12% |
+| **Tổng Giá trị Chiến lược** | **14,00** | [C] |
 
-> **Ý nghĩa:** NPV tài chính thuần túy đạt 1,50 M USD (50Y horizon) — NPV(20Y) âm do 5 năm xây dựng là bình thường cho dự án hạ tầng công nghiệp. Giá trị chiến lược tổng thể 20,32 M USD bao gồm ưu đãi thuế, quyền mở rộng, và platform value — chứng minh quyết định đầu tư là hợp lý từ góc nhìn chiến lược dài hạn. Xem chi tiết tại Phần V, Mục 5.7 và Phần IX, Mục 9.2.
+> **Ý nghĩa:** NPV tài chính thuần túy đạt 2,50 M USD (50Y horizon). Giá trị chiến lược tổng thể 14,00 M USD bao gồm ưu đãi thuế, quyền mở rộng, và platform value — chứng minh quyết định đầu tư là hợp lý từ góc nhìn chiến lược dài hạn. Với CAPEX 32M (giảm 33% so với quy mô 47,5M ban đầu), dự án ưu tiên khả thi thực tế và thu hồi vốn nhanh hơn. Xem chi tiết tại Phần V, Mục 5.7 và Phần IX, Mục 9.2.
 
 ---
 
@@ -487,33 +492,34 @@ pie title Phân bổ CAPEX theo Trụ cột (M USD)
 
 ```mermaid
 gantt
-    title Lộ trình Triển khai Tổ hợp Mekong Technology
+    title Lộ trình Triển khai Tổ hợp Mekong Technology (Phương án 32M)
     dateFormat  YYYY-MM
     axisFormat  %Y Q%q
 
-    section Pháp lý
-    Công văn đề xuất + Phụ lục Mẫu 1.4    :a1, 2026-04, 2m
+    section Phase 0 Pháp lý
+    Công văn đề xuất + Mẫu 1.4           :a1, 2026-04, 2m
     Điều chỉnh IRC + ERC                    :a2, after a1, 1m
     EIA bổ sung                              :a3, 2026-06, 6m
     Giấy phép Viễn thông                     :a4, 2026-07, 12m
 
-    section Phase 1 Xây dựng
+    section Phase 1 Xây dựng shell
     Thiết kế chi tiết tòa nhà 3 tầng     :b1, 2026-05, 4m
-    Thi công nhà xưởng                       :b2, 2026-09, 10m
-    Lắp đặt M&E + CNC Phase 1               :b3, 2027-03, 6m
-    Commissioning + Testing                   :b4, 2027-07, 3m
+    Thi công shell 3 tầng + M&E + PCCC    :b2, 2026-09, 18m
+    Hoàn công → Sổ đỏ                      :milestone, b3, 2028-03, 0d
 
-    section Phase 1 Vận hành
-    IoT/Robot sản xuất                       :c1, 2027-01, 36m
-    CNC vận hành 15 máy                      :c2, 2027-06, 30m
-    IATF 16949 chứng nhận                    :c3, 2027-09, 6m
+    section Phase 2 IoT + DC infra
+    Fit-out IoT Tầng 2                     :c1, 2028-04, 8m
+    Hạ tầng DC Tầng 1 (M&E, cooling)      :c2, 2028-04, 10m
+    IoT commissioning + vận hành            :c3, 2029-01, 3m
 
-    section Phase 2
-    Datacenter xây dựng                      :d1, 2028-01, 12m
-    CNC mở rộng 28 máy                      :d2, 2028-06, 6m
-    AS9100 chứng nhận                        :d3, 2028-06, 12m
-    DC Tier III commissioning                :d4, 2028-10, 6m
-    Full Operation 3 trụ cột                 :d5, 2029-04, 24m
+    section Phase 3 DC + CNC
+    GPU + Server Datacenter lắp đặt         :d1, 2029-04, 8m
+    DC Tier III commissioning                :d2, 2029-12, 3m
+    CNC 6 máy lắp đặt + vận hành           :d3, 2030-01, 6m
+
+    section Phase 4 Mở rộng
+    Mở rộng rack DC + CNC từ revenue      :e1, 2031-01, 18m
+    Full Operation 3 trụ cột               :e2, 2032-06, 12m
 ```
 
 ---
@@ -522,13 +528,14 @@ gantt
 
 | Giai đoạn | IoT/Robot | CNC | Datacenter | Quản lý chung | Tổng |
 |---|---:|---:|---:|---:|---:|
-| Y0-Y4 (xây dựng shell) | — | — | — | 10-15 | **10-15** |
-| Y5-Y7 (IoT ramp-up) | 28-50 | — | — | 12 | **40-62** |
-| Y8-Y10 (CNC ramp-up) | 50-60 | 40-80 | — | 15 | **105-155** |
-| Y11-Y12 (DC ramp-up) | 60-70 | 80-100 | 15-30 | 18 | **173-218** |
-| Y13+ (ổn định) | 80-100 | 80-120 | 30-50 | 20-30 | **210-300** |
+| Y0-Y2 (pháp lý + thiết kế) | — | — | — | 10-12 | **10-12** |
+| Y1-Y3 (xây dựng shell) | — | — | — | 12-15 | **12-15** |
+| Y4-Y5 (IoT ramp-up) | 28-50 | — | 5-10 | 12 | **45-72** |
+| Y5-Y6 (DC + CNC ramp-up) | 50-60 | 8-12 | 15-25 | 15 | **88-112** |
+| Y7-Y8 (mở rộng) | 60-70 | 10-15 | 25-35 | 18 | **113-138** |
+| Y12+ (ổn định) | 60-70 | 10-15 | 30-40 | 20-25 | **120-150** |
 
-> **Lưu ý:** Y0-Y4 là giai đoạn xây dựng shell — chỉ cần đội ngũ quản lý dự án (PMO), pháp lý, giám sát xây dựng (~10-15 người). Đội ngũ sản xuất chỉ tuyển khi có thiết bị: IoT từ Y5, CNC từ Y8, DC từ Y11. Quỹ lương Y5 (năm doanh thu đầu tiên) dự kiến ~0,50M USD, chiếm ~100% doanh thu Y5 (0,50M) — đây là giai đoạn ramp-up có chủ đích, đã được tính trong vốn CSH [C].
+> **Lưu ý:** Quy mô nhân sự tinh gọn hơn phương án 47,5M nhờ CNC chỉ 6 máy (ISO 9001), không cần đội ngũ chuyên gia AS9100/IATF. Đội ngũ sản xuất chỉ tuyển khi có thiết bị: IoT từ Y4, DC từ Y5, CNC từ Y6 [C].
 
 ---
 
@@ -847,7 +854,7 @@ Phân tích cung-cầu cho thấy khoảng trống nghiêm trọng:
 
 *[B — Khảo sát trực tiếp + báo cáo VAMI 2024]*
 
-> **Phát hiện quan trọng:** Việt Nam hiện KHÔNG CÓ cơ sở gia công CNC nào đạt chứng nhận AS9100 (hàng không vũ trụ). Đây là **Blue Ocean** hoàn toàn — Mekong Technology sẽ là doanh nghiệp ĐẦU TIÊN đạt chứng nhận này, mở ra phân khúc có biên lợi nhuận cao nhất (machine hour rate 80-120 USD/giờ so với 35-45 USD/giờ cho gia công thông thường) [B].
+> **Phát hiện quan trọng:** Việt Nam còn thiếu nhiều cơ sở CNC 5 trục có năng lực dung sai cao (≤ 5 micromet). Mekong Technology định vị là xưởng CNC tinh gọn (6 máy, ISO 9001:2015), tập trung gia công khung robot AMR/AGV nội bộ và linh kiện chính xác cho khách hàng FDI tại miền Nam. Mô hình lean cho phép khởi động nhanh, vốn thấp, và nâng cấp chứng nhận (IATF, AS9100) khi thị trường yêu cầu [B].
 
 ### 1.4.4. Cảnh quan Cạnh tranh — CNC
 
@@ -858,37 +865,36 @@ Phân tích cung-cầu cho thấy khoảng trống nghiêm trọng:
 | Misumi VN | JP | 20+ | ISO 9001, JIS | Có | Không |
 | CNC Tech VN | VN | 15+ | ISO 9001 | Có | Không |
 | FDI captive shops | Đa quốc gia | 100+ | Đa dạng | Có | Có |
-| **Mekong MPMC** | **VN** | **28** | **ISO 9001 + IATF + AS9100** | **Đầy đủ** | **Có** |
+| **Mekong MPMC** | **VN** | **6** | **ISO 9001:2015** | **Có** | **Không (giai đoạn đầu)** |
 
-> **Định vị:** Mekong MPMC đặt mục tiêu trở thành cơ sở CNC 5 trục **Tier 1 của Việt Nam** — nghĩa là đạt cả 3 chứng nhận ISO 9001, IATF 16949, và AS9100, có khả năng gia công Titan và Inconel. Không đối thủ nội địa nào hiện có đầy đủ cả 3 tiêu chuẩn này.
+> **Định vị:** Mekong MPMC định vị là xưởng CNC tinh gọn, nhỏ nhưng chính xác, với 6 máy (4x5-trục + 2x3-trục) đạt chuẩn ISO 9001:2015. Lợi thế cạnh tranh: thiết bị mới 100%, nằm trong hệ sinh thái KCNC, hỗ trợ trực tiếp trụ cột IoT/Robot (gia công khung AMR/AGV nội bộ). Việc nâng cấp lên IATF 16949 hoặc AS9100 có thể thực hiện khi nhu cầu thị trường xác nhận.
 
-### 1.4.5. Chiến lược 3 Bậc Thâm nhập
+### 1.4.5. Chiến lược Thâm nhập Thị trường CNC
 
 ```mermaid
 timeline
-    title Lộ trình Chứng nhận và Thâm nhập Thị trường CNC
-    section Bậc 1 — Nền tảng (Năm 1)
-        Q1-Q2 2027 : ISO 9001 mở rộng
-                   : 15 máy CNC vận hành
-                   : Khách hàng điện tử
-    section Bậc 2 — Ô tô (Năm 2)
-        Q3 2027 : Bắt đầu IATF 16949
-        Q1 2028 : Đạt IATF 16949
-                : Khách hàng ô tô EV
-    section Bậc 3 — Hàng không (Năm 3)
-        Q2 2028 : Bắt đầu AS9100 Rev D
-        Q2 2029 : Đạt AS9100
-                : Khách hàng aerospace
-                : Machine hour rate x3
+    title Lộ trình Thâm nhập Thị trường CNC (Mô hình Lean)
+    section Giai đoạn 1 — Nội bộ (Y6)
+        Y6 Q1-Q2 : ISO 9001:2015 sẵn có
+                 : 6 máy CNC vận hành
+                 : Gia công khung Robot AMR/AGV nội bộ
+    section Giai đoạn 2 — FDI (Y7-Y8)
+        Y7 Q1 : Nhận đơn hàng FDI điện tử
+        Y8 Q1 : Mở rộng khách hàng general precision
+              : Jig/Fixture cho SMT
+    section Giai đoạn 3 — Nâng cấp (Y10+)
+        Y10+ : Option: IATF 16949 khi có nhu cầu
+             : Option: AS9100 khi thị trường xác nhận
+             : Mở rộng số máy từ revenue
 ```
 
-| Bậc | Thời gian | Chứng nhận | Khách hàng | Machine Hour Rate | Chi phí |
-|---|---|---|---|---:|---:|
-| **Bậc 1 — Nền tảng** | Năm 1 | ISO 9001 (mở rộng) | Samsung, Intel, Nidec | 35-45 USD/giờ | 30.000-40.000 USD [B] |
-| **Bậc 2 — Ô tô** | Năm 2 | IATF 16949 | VinFast, Bosch, Continental | 45-65 USD/giờ | 173.000-265.000 USD [B] |
-| **Bậc 3 — Hàng không** | Năm 3 | AS9100 Rev D | Boeing, Airbus (Tier 2) | 80-120 USD/giờ | 175.000-268.000 USD [B] |
+| Giai đoạn | Thời gian | Chứng nhận | Khách hàng | Machine Hour Rate | Ghi chú |
+|---|---|---|---|---:|---|
+| **GD1 — Nội bộ** | Y6 | ISO 9001:2015 | Robot AMR/AGV nội bộ | 35-45 USD/giờ | 70% capacity cho nội bộ |
+| **GD2 — FDI** | Y7-Y8 | ISO 9001:2015 | Samsung, Intel, Nidec, FDI khác | 40-55 USD/giờ | Mở rộng dần khách ngoài |
+| **GD3 — Nâng cấp** | Y10+ | IATF/AS9100 (option) | Tuy theo nhu cầu thị trường | 55-80 USD/giờ | Chỉ nâng cấp khi ROI rõ ràng |
 
-> **Ý nghĩa tài chính:** Khi đạt AS9100 vào năm 3, giá gia công trung bình tăng từ 40 USD/giờ lên 80-120 USD/giờ — tức gấp 2-3 lần — trong khi chi phí vận hành chỉ tăng 15-20% (chủ yếu là chi phí vật liệu Titan/Inconel). Đây là động lực chính cho margin expansion trong mô hình tài chính [C].
+> **Ý nghĩa tài chính:** Mô hình lean CNC (6 máy, ISO 9001) cho phép Mekong bắt đầu vận hành với CAPEX chỉ 3,00M USD (thay vì 15,60M). Doanh thu CNC ổn định ~2,0-2,5M USD/năm với biên gộp 30-35%. Việc nâng cấp chứng nhận (IATF/AS9100) là option, chỉ thực hiện khi có hợp đồng cụ thể tài trợ chi phí chứng nhận [C].
 
 ---
 
@@ -928,9 +934,9 @@ Mặc dù thị trường DC Việt Nam đang phát triển mạnh, Mekong Techn
 | **Khách hàng** | Doanh nghiệp tổng hợp | **R&D bán dẫn, AI startup** | Nhóm niche trong KCNC |
 | **GPU** | Có nhưng chung | **Dedicated NVIDIA H100** | On-premise AI training |
 | **Giá** | 800-1.200 USD/rack/tháng | **900-4.500 USD/rack/tháng** | Premium cho high-density |
-| **Quy mô** | 1.000+ rack | **100 rack** | Nhanh nhẹn, cá nhân hóa |
+| **Quy mô** | 1.000+ rack | **50 rack (Phase 1)** | Nhanh nhẹn, cá nhân hóa |
 
-> **Định vị:** Mekong MACC là Datacenter **ĐẦU TIÊN bên trong KCNC TP.HCM**, phục vụ trực tiếp cộng đồng 175+ doanh nghiệp công nghệ cao. Quy mô nhỏ (100 rack) nhưng mật độ cao (15-30 kW/rack) — tập trung hoàn toàn vào AI/HPC Computing thay vì cạnh tranh trực diện với Viettel hay NTT.
+> **Định vị:** Mekong MACC là Datacenter **ĐẦU TIÊN bên trong KCNC TP.HCM**, phục vụ trực tiếp cộng đồng 175+ doanh nghiệp công nghệ cao. Quy mô Phase 1: 50 rack, mật độ cao (15-30 kW/rack) — tập trung hoàn toàn vào AI/HPC Computing thay vì cạnh tranh trực diện với Viettel hay NTT.
 
 ### 1.5.4. Khách hàng Mục tiêu — Top 20
 
@@ -1023,7 +1029,7 @@ quadrantChart
 | Lớp phòng thủ | Mô tả | Thời gian đối thủ cần để sao chép |
 |---|---|---:|
 | **Vị trí (KCNC)** | Lô đất 1 ha trong KCNC — vị trí chiến lược, tòa nhà 3 tầng GFA 21.000 m² | Không thể sao chép (hết đất) |
-| **Chứng nhận (IATF + AS9100)** | 2-3 năm đạt chứng nhận, chi phí 350-530K USD | 3-4 năm |
+| **Chứng nhận (ISO 9001 + Tier III)** | ISO 9001 sẵn có, Tier III 12-24 tháng, chi phí ~200K USD | 2-3 năm |
 | **Hệ sinh thái 3 B.U** | IoT + CNC + DC tích hợp trên cùng site | 4-5 năm + >100 M USD |
 | **Quan hệ FDI** | Hợp đồng 3-5 năm với khách hàng CNC | 2-3 năm |
 | **Tier III Certified** | 12-24 tháng đạt chứng nhận Uptime Institute | 2-3 năm |
@@ -1110,23 +1116,21 @@ flowchart LR
 
 | Phân khúc | Ngành | Khu vực | Giá trị HĐ trung bình (K/năm) | Tiêu chí mua hàng | Mekong Score |
 |---|---|---|---:|---|:---:|
-| **Tier 1 — Aerospace** | Boeing, Airbus, tier-2 suppliers | EU, US, JP | 500-2.000 | AS9100D, NADCAP, ITAR | 7/10 (cần 2-3 năm) |
-| **Tier 2 — Automotive** | Bosch, Continental, tier-2 VN/ASEAN | DE, VN, TH | 200-800 | IATF 16949, PPAP | 8/10 (ISO 9001 → IATF Y3) |
-| **Tier 3 — Medical Device** | Medtronic, B. Braun, VN pharma | US, DE, VN | 100-500 | ISO 13485, FDA 21 CFR | 6/10 (chưa có ISO 13485) |
-| **Tier 4 — Electronics/Semi** | Samsung, Intel, AMD (VN operations) | VN, KR, US | 300-1.000 | ISO 14644 (cleanroom), RoHS | 7/10 (ESD facility) |
-| **Tier 5 — Energy** | GE, Siemens, VN offshore | US, DE, VN | 200-600 | API, ASME | 5/10 (tương lai) |
-| **Tier 6 — General Industrial** | FDI factories in VN/ASEAN | VN, TH, ID | 50-200 | ISO 9001, cost-effective | 9/10 (core hiện tại) |
+| **Tier 1 — Nội bộ (Robot frames)** | Mekong IoT/Robot | VN | 500-800 (chuyển giá nội bộ) | ISO 9001, dung sai ≤ 5µm | 10/10 (khách hàng đảm bảo) |
+| **Tier 2 — FDI Electronics** | Samsung, Intel, Nidec (VN ops) | VN, KR | 200-600 | ISO 9001, RoHS, cost-effective | 8/10 (core hiện tại) |
+| **Tier 3 — General Industrial** | FDI factories in VN/ASEAN | VN, TH, ID | 50-200 | ISO 9001, cost-effective | 9/10 (volume lớn) |
+| **Tier 4 — Jig/Fixture** | Nhà máy SMT, PCB assembly | VN | 30-100 | ISO 9001, lead time nhanh | 8/10 (synergy IoT) |
+| **Tier 5 — Automotive (option Y10+)** | Bosch, Continental, tier-2 | DE, VN | 200-800 | IATF 16949 (cần nâng cấp) | 5/10 (tương lai) |
 
-**Chiến lược phân bổ Revenue Y5 (10,75M):**
+**Chiến lược phân bổ Revenue CNC Y8 (~2,00M):**
 
 | Tier | % Revenue | Revenue (K) | Số KH | Revenue/KH (K) |
 |---|---:|---:|---:|---:|
-| Tier 1 — Aerospace | 5% | 537 | 1-2 | 268-537 |
-| Tier 2 — Automotive | 30% | 3.225 | 5-8 | 403-645 |
-| Tier 4 — Electronics/Semi | 25% | 2.688 | 3-5 | 538-896 |
-| Tier 6 — General Industrial | 25% | 2.688 | 15-20 | 134-179 |
-| Tier 3+5 — Medical/Energy | 15% | 1.613 | 3-5 | 323-538 |
-| **Tổng** | **100%** | **10.750** | **~27-40** | **~269-398** |
+| Tier 1 — Nội bộ Robot | 40% | 800 | 1 (nội bộ) | 800 |
+| Tier 2 — FDI Electronics | 30% | 600 | 3-5 | 120-200 |
+| Tier 3 — General Industrial | 20% | 400 | 8-12 | 33-50 |
+| Tier 4 — Jig/Fixture | 10% | 200 | 5-8 | 25-40 |
+| **Tổng** | **100%** | **2.000** | **~17-26** | **~77-118** |
 
 ### 1.8.2. Segmentation — Data Center
 
@@ -1139,11 +1143,11 @@ flowchart LR
 | **SMB CoLo** | VN startups, SME IT | 5-30 | 1-5 | Nhiều KH nhỏ |
 | **Internal (IoT/CNC)** | Mekong Technology BU | 100-150 (transfer) | 10-15 | Guaranteed |
 
-**Chiến lược lấp đầy:**
-- Y1-Y2: Internal + SMB + Government = 50-60 rack
-- Y3-Y4: Enterprise + Gaming = thêm 30-40 rack
-- Y5+: Cloud edge + Enterprise expansion = 90-100 rack total
-- **Utilization target:** 70-80% by Y5 = 70-80 rack × 77,5 K CAPEX/rack amortized
+**Chiến lược lấp đầy (Phase 1 — 50 rack):**
+- Y5-Y6 (DC vận hành): Internal + SMB + Government = 20-30 rack
+- Y7-Y8: Enterprise + Gaming = thêm 10-15 rack
+- Y9+: Cloud edge + Enterprise expansion = 40-50 rack total
+- **Utilization target:** 80-90% by Y8 = 40-45 rack × 188 K CAPEX/rack amortized
 
 ### 1.8.3. Segmentation — IoT/Robot
 
@@ -1166,11 +1170,11 @@ flowchart LR
 |:-----------:|:---:|:---:|
 | **Nội bộ** | **STRENGTHS (S)** | **WEAKNESSES (W)** |
 | | S1. Vị trí KCNC, tòa nhà 3 tầng GFA 21.000 m² trên 1 ha | W1. Công ty mới, chưa có track record |
-| | S2. Mô hình 3 B.U tích hợp, unique | W2. Vốn CSH 34,97M — cần quản lý CF chặt |
-| | S3. Đội ngũ sáng lập có kinh nghiệm quốc tế | W3. Chưa có chứng nhận IATF/AS9100 |
-| | S4. CNC DMG MORI 5-axis (hàng đầu) | W4. Chưa xây dựng thương hiệu trong nước |
-| | S5. MekongOS IP riêng (tiềm năng scale) | W5. Đầu tư dàn trải 13 năm, doanh thu chậm (Y6) |
-| | S6. Chiến lược Blue Ocean xác định rõ | W6. Chi phí fixed cao giai đoạn đầu (BEP Y13) |
+| | S2. Mô hình 3 B.U tích hợp, unique | W2. Vốn CSH 24,00M — cần quản lý CF chặt |
+| | S3. Đội ngũ sáng lập có kinh nghiệm quốc tế | W3. CNC quy mô nhỏ (6 máy), chưa có IATF/AS9100 |
+| | S4. CNC DMG MORI + Doosan 5-axis (6 máy lean) | W4. Chưa xây dựng thương hiệu trong nước |
+| | S5. MekongOS IP riêng (tiềm năng scale) | W5. Đầu tư 8 năm, doanh thu chậm (Y4) |
+| | S6. Chiến lược lean CNC + DC trọng tâm | W6. Chi phí fixed cao giai đoạn đầu (BEP Y10) |
 | **Bên ngoài** | **OPPORTUNITIES (O)** | **THREATS (T)** |
 | | O1. FDI vào VN tăng mạnh (Samsung, Intel) | T1. Cạnh tranh giá từ TQ, Ấn Độ |
 | | O2. Chính sách ưu đãi KCNC (CIT 10%, 4+9) | T2. Thiếu hụt nhân sự CNC/DC chất lượng |
@@ -1188,7 +1192,7 @@ flowchart LR
 | SO2 | Khai thác China+1 bằng năng lực 5-axis | Tiếp cận trực tiếp tier-2 suppliers đang rời TQ |
 | SO3 | Kết hợp DC + AI boom | Xây dựng GPU cluster cho AI workload |
 | **WO (Weaknesses × Opportunities)** | Khắc phục yếu điểm, nắm cơ hội | |
-| WO1 | Bù track record bằng chứng nhận quốc tế | IATF Y3, AS9100 Y4, SOC 2 Y3 |
+| WO1 | Bù track record bằng chứng nhận và synergy nội bộ | ISO 9001 sẵn có, SOC 2 Y5, IATF/AS9100 là option Y10+ |
 | WO2 | Giảm phụ thuộc vay bằng revenue growth | Đạt BEP Y4, trả nợ gốc bắt đầu Y4 |
 | WO3 | Xây thương hiệu qua thought leadership | Whitepaper + conference + case study |
 | **ST (Strengths × Threats)** | Dùng thế mạnh chống rủi ro | |
@@ -1339,7 +1343,7 @@ timeline
 | Phase 3 (Y8-Y10) | 800-1.200 | 2-3% | Deep tech + platform scale | 20 patents cumulative |
 | **Tổng 10 năm** | **~5.000-7.000** | **~3%** | | 20+ patents, 10+ products |
 
-> **Kết luận PHẦN I:** Với TAM tổng hợp 3 ngành > 100 tỷ USD (ASEAN), market share mục tiêu Y10 chỉ 0,4-1,1% SOM, rào cản gia nhập cao (KCNC + certifications + 3 B.U integration), và dự báo xu hướng công nghệ thuận lợi, Mekong Technology có vị trí thuận lợi để đạt revenue 14,50M USD vào Y10 và 32,00M USD vào Y15 [A][C]. Lộ trình 5 giai đoạn xây dựng (Y0-Y13) cho phép triển khai tuần tự, giảm rủi ro vốn. Rủi ro lớn nhất là execution risk (triển khai đúng tiến độ, đúng chất lượng) chứ không phải market risk.
+> **Kết luận PHẦN I:** Với TAM tổng hợp 3 ngành > 100 tỷ USD (ASEAN), market share mục tiêu Y10 chỉ 0,4-1,1% SOM, rào cản gia nhập cao (KCNC + certifications + 3 B.U integration), và dự báo xu hướng công nghệ thuận lợi, Mekong Technology có vị trí thuận lợi để đạt revenue 19,50M USD vào Y10 và steady-state ~21M USD/năm từ Y12 [A][C]. Lộ trình 5 giai đoạn xây dựng (Y0-Y8) cho phép triển khai tuần tự, giảm rủi ro vốn. Rủi ro lớn nhất là execution risk (triển khai đúng tiến độ, đúng chất lượng) chứ không phải market risk.
 
 ---
 ---
@@ -1357,7 +1361,7 @@ Mekong Technology vận hành 3 trụ cột sản phẩm và dịch vụ công n
 | Trụ cột | Tên chính thức | Viết tắt | Diện tích | Nhân sự |
 |---|---|:---:|---:|---:|
 | Trụ cột 1 | Trung tâm Nghiên cứu, Sản xuất IoT Gateway và Robot Tự hành | IoT/Robot | 3.000 m² (Tầng 1 — Khu IoT) | 80-100 |
-| Trụ cột 2 | Trung tâm Chế tạo Linh kiện Siêu Chính xác (Mekong Precision Manufacturing Center) | MPMC | 4.000 m² (Tầng 1 — Khu CNC) | 80-120 |
+| Trụ cột 2 | Trung tâm Chế tạo Linh kiện Siêu Chính xác (Mekong Precision Manufacturing Center) | MPMC | 800 m² (Tầng 1 — Khu CNC) | 20-30 |
 | Trụ cột 3 | Trung tâm Hạ tầng Điện toán Đám mây Mật độ cao (Mekong AI Cloud & Computing Center) | MACC | 3.000 m² (Tầng 2) | 30-50 |
 
 ### Bảng Sản phẩm Chi tiết — 10 Dòng sản phẩm
@@ -1369,19 +1373,19 @@ Mekong Technology vận hành 3 trụ cột sản phẩm và dịch vụ công n
 | 3 | Robot AMR-500/1000 | 1 | Robot tự hành di động, LiDAR 3D 360 độ, AI SLAM navigation, tải 500-1.000 kg, tốc độ 1,5 m/s, tự sạc | 5,00 | 40% |
 | 4 | Robot AGV-500/1000 | 1 | Robot dẫn hướng tự động, hệ thống vision + line following, tải 500-1.000 kg, độ chính xác ±5 mm | 4,00 | 35% |
 | 5 | Robot OHT-100 | 1 | Hệ thống vận chuyển trên cao cho nhà máy bán dẫn, dual rail, 100 kg, 4 trục, Class 100 compatible | 2,50 | 30% |
-| 6 | Linh kiện khuôn mẫu bán dẫn | 2 | Dung sai ≤ 3 micromet, Ra ≤ 0,2 micromet, vật liệu NAK80/SKD11/HPM38, xử lý nhiệt + mài bóng gương | 2,50 | 45% |
-| 7 | Linh kiện hàng không vũ trụ | 2 | Chứng nhận AS9100 Rev D, vật liệu Titan Grade 5 (Ti-6Al-4V) / Inconel 718, gia công 5 trục đồng thời | 3,00 | 50% |
-| 8 | Linh kiện ô tô điện | 2 | Chứng nhận IATF 16949, vật liệu Al 6061-T6 / SCM440, sản lượng lớn, SPC/MSA kiểm soát | 4,00 | 35% |
-| 9 | Hạ tầng lưu trữ và AI/HPC Computing | 3 | Datacenter Tier III, 100 Rack (50 Colo 5-10 kW + 50 AI/HPC 15-30 kW), Uptime 99,982%, GPU H100 | 6,20 | 58% |
+| 6 | Khung Robot AMR/AGV (nội bộ + xuất khẩu) | 2 | Nhôm 6061-T6, dung sai ≤ 5 micromet, ISO 9001:2015, gia công 5 trục | 1,20 | 40% |
+| 7 | Linh kiện chính xác (encoder bracket, motor mount, khớp xoay) | 2 | Thép/Nhôm, dung sai ≤ 5 micromet, ISO 9001:2015 | 0,80 | 35% |
+| 8 | Jig/Fixture cho SMT + chi tiết gia công FDI | 2 | Al 6061/SUS304, gia công 5 trục, ISO 9001:2015 | 0,50 | 30% |
+| 9 | Hạ tầng lưu trữ và AI/HPC Computing | 3 | Datacenter Tier III, 50 Rack (Colo + AI/HPC), Uptime 99,982%, GPU H100 | 6,20 | 58% |
 | 10 | MekongOS IoT Cloud (SaaS) | 3 | Nền tảng quản lý IoT, MQTT/OPC UA, Dashboard analytics, AI predictive maintenance, 2.000 thuê bao | 3,00 | 70% |
 | 11 | MK-EIO I/O Modules (5 loai) | 1 | DI16/DO16/AI8/AO4/UI8, RS485 Modbus+BACnet, DIN rail, cung MCU platform | 0,80 | 50% |
 | 12 | MK-DDC Controllers (DDC-24/64) | 1 | 24/64 diem, BACnet native, IEC 61131-3, DDC-64 dung platform MK-200 | 1,00 | 55% |
 | 13 | MK-GW Gateway chuyen dung (4 loai) | 1 | BACnet/Modbus/KNX/DALI gateway, giao dien thong nhat | 0,60 | 45% |
 | 14 | MekongBMS License + SaaS | 1 | Phan mem BMS web-based, tieng Viet 100%, per-point license | 1,50 | 80% |
 | 15 | BMS/SCADA Service & Maintenance | 1 | Bao tri, nang cap firmware, ho tro ky thuat, commissioning | 0,60 | 70% |
-| | **Tổng (steady-state, từ năm 7, bao gom BMS/SCADA)** | | | **44,70** | **44%** |
+| | **Tổng (steady-state, từ năm 12, bao gom BMS/SCADA)** | | | **37,70** | **45%** |
 
-*[A — Doanh thu BMS/SCADA (dong 11-15) la uoc tinh giai doan on dinh (tu nam 8+), dua tren gia ban muc tieu va quy mo thi truong BMS VN. Tong bo sung 4,50M USD/nam]*
+*[A — Doanh thu BMS/SCADA (dong 11-15) la uoc tinh giai doan on dinh (tu nam 12+), dua tren gia ban muc tieu va quy mo thi truong BMS VN. CNC quy mo tinh gon (6 may, ISO 9001) nen doanh thu CNC chi 2,50M/nam. GPU Phase 2 chuyen sang lease.]*
 
 ---
 
@@ -1885,7 +1889,7 @@ Robot AMR (Autonomous Mobile Robot) là robot tự hành di động, sử dụng
 
 #### Quy trình Sản xuất Robot AMR
 
-1. **Thiết kế cơ khí (CAD/CAM):** Thiết kế 3D trên SolidWorks/Siemens NX → Mô phỏng FEM → Xuất toolpath cho CNC
+1. **Thiết kế cơ khí (CAD/CAM):** Thiết kế 3D trên SolidWorks/Mastercam → Mô phỏng FEM → Xuất toolpath cho CNC
 2. **Chế tạo khung (CNC tại Khối B):** Phay CNC khung nhôm 6061-T6, bệ gá sensor, tấm đáy → Anodizing → QC kích thước CMM
 3. **Lắp ráp PCB điều khiển (SMT tại Khối C):** Board chính (ARM + Motor driver) → Board sensor → Board power management
 4. **Lắp ráp tổng (Assembly Line tại Khối C):**
@@ -1986,121 +1990,105 @@ Doanh thu SaaS dự kiến: 500.000 USD/năm (năm 1) → 3.000.000 USD/năm (n�
 
 ### 2.3.1. Tổng quan Năng lực Sản xuất
 
-Trung tâm Chế tạo Linh kiện Siêu Chính xác (Mekong Precision Manufacturing Center — MPMC) là nhà máy CNC 5 trục đầu tiên của Việt Nam đặt mục tiêu đạt cùng lúc ba chứng nhận: ISO 9001, IATF 16949 (ô tô), và AS9100 Rev D (hàng không vũ trụ).
+Trung tâm Chế tạo Linh kiện Chính xác (Mekong Precision Manufacturing Center — MPMC) là xưởng CNC tinh gọn, chuyên gia công khung robot AMR/AGV nội bộ và linh kiện chính xác cho khách hàng FDI, đạt chuẩn ISO 9001:2015.
 
 | Thông số | Giá trị |
 |---|---|
-| **Diện tích** | 4.000 m² (Khối B) |
-| **Số máy CNC** | 28 máy (Phase 1: 15, Phase 2: 13) |
-| **Loại máy** | Phay 5 trục, phay 3 trục, tiện CNC, cắt dây EDM |
-| **Dung sai đạt được** | ≤ 3 micromet |
-| **Độ bóng bề mặt** | Ra ≤ 0,2 micromet |
-| **Vật liệu** | Nhôm, thép hợp kim, thép không gỉ, Titan, Inconel, đồng, nhựa kỹ thuật |
-| **Công suất** | 27.000 chi tiết/năm (ổn định) |
-| **Chứng nhận mục tiêu** | ISO 9001 (Năm 1), IATF 16949 (Năm 2), AS9100 Rev D (Năm 3) |
-| **Nhân sự** | 80-120 người |
+| **Diện tích** | 800 m² (khu CNC + QC corner, Tầng 1) |
+| **Số máy CNC** | 6 máy (4x 5-trục + 2x 3-trục) |
+| **Loại máy** | Phay 5 trục DMG MORI + Doosan, phay 3 trục Doosan |
+| **Dung sai đạt được** | ≤ 5 micromet |
+| **Độ bóng bề mặt** | Ra ≤ 0,4 micromet |
+| **Vật liệu** | Nhôm 6061-T6, thép hợp kim, inox SUS304, đồng |
+| **Công suất** | 3.000 chi tiết/năm (ổn định) |
+| **Chứng nhận** | ISO 9001:2015 (sẵn có). IATF/AS9100 là option nâng cấp khi có nhu cầu |
+| **Nhân sự** | 10-15 người |
 | **Ca làm việc** | 2 ca/ngày (16 giờ effective), 6 ngày/tuần |
 
 ### 2.3.2. Danh mục Máy móc Chi tiết
 
-| TT | Máy | Hãng | Số lượng | Phase | Giá/máy (K USD) | Tổng (K USD) | Trọng lượng/máy |
-|:---:|---|---|---:|:---:|---:|---:|---:|
-| 1 | DMU 65 monoBLOCK | DMG MORI (Đức/Nhật) | 3 | 1 | 550-650 | 1.650-1.950 | 8.000 kg |
-| 2 | DMU 80P duoBLOCK | DMG MORI | 2 | 2 | 750-850 | 1.500-1.700 | 12.000 kg |
-| 3 | DVF 5000 | Doosan (Hàn Quốc) | 5 | 1 | 320-380 | 1.600-1.900 | 6.500 kg |
-| 4 | DVF 5000 | Doosan | 5 | 2 | 320-380 | 1.600-1.900 | 6.500 kg |
-| 5 | a51nx | Makino (Nhật Bản) | 4 | 1 | 300-360 | 1.200-1.440 | 5.000 kg |
-| 6 | a61nx | Makino | 4 | 2 | 350-420 | 1.400-1.680 | 5.500 kg |
-| 7 | Puma TL2000 (Tiện) | Doosan | 3 | 1 | 120-160 | 360-480 | 3.000 kg |
-| 8 | MV2400R (Wire EDM) | Mitsubishi (Nhật) | 2 | 1+2 | 140-180 | 280-360 | 2.500 kg |
-| | **Tổng** | | **28** | | | **9.590-11.410** | |
+| TT | Máy | Hãng | Số lượng | Giá/máy (K USD) | Tổng (K USD) | Trọng lượng/máy |
+|:---:|---|---|---:|---:|---:|---:|
+| 1 | DMU 65 monoBLOCK (5 trục) | DMG MORI (Đức/Nhật) | 2 | 520 | 1.040 | 8.000 kg |
+| 2 | DVF 5000 (5 trục) | Doosan (Hàn Quốc) | 2 | 385 | 770 | 6.500 kg |
+| 3 | DNM 6700 (3 trục) | Doosan (Hàn Quốc) | 2 | 150 | 300 | 4.500 kg |
+| | **Tổng** | | **6** | | **2.110** | |
 
-> **Lưu ý Lead Time:** Máy CNC 5 trục DMG MORI và Makino có thời gian giao hàng 24-30 tuần từ ngày đặt PO. Để đảm bảo nhận máy Phase 1 trước Q2/2027, Mekong cần đặt PO không muộn hơn Q4/2025 — đây là **Critical Path** của dự án [A].
+> **Lưu ý Lead Time:** Máy CNC 5 trục DMG MORI có thời gian giao hàng 24-30 tuần từ ngày đặt PO. 2 máy 3 trục Doosan DNM 6700 chuyên gia công khung robot và chi tiết đơn giản, lead time 12-16 tuần [A].
 
-### 2.3.3. Hệ thống QA/QC — Phòng Đo lường CMM
+### 2.3.3. Hệ thống QA/QC — QC Corner
 
-Phòng đo CMM (Coordinate Measuring Machine) là trái tim của hệ thống kiểm soát chất lượng CNC, đảm bảo mọi chi tiết gia công đều đạt dung sai yêu cầu:
+Góc kiểm tra chất lượng (QC Corner) nằm trong khu CNC 800 m², trang bị thiết bị đo lường phù hợp quy mô 6 máy:
 
 | Thiết bị | Hãng | Số lượng | Giá (K USD) | Thông số |
 |---|---|---:|---:|---|
-| CMM GLOBAL S 7.10.7 | Hexagon (Thụy Điển) | 1 | 180-250 | Phạm vi 700×1000×700 mm, độ chính xác 1,5+L/333 micromet |
-| CMM PRISMO Ultra | Zeiss (Đức) | 1 | 200-280 | Phạm vi 900×1200×800 mm, dùng cho AS9100 audit |
-| Máy quét Laser 3D MetraSCAN | Creaform (Canada) | 1 | 60-85 | Độ chính xác 30 micromet, scan 480.000 điểm/giây |
-| Máy đo nhám bề mặt | Mitutoyo (Nhật) | 2 | 15-25 | Ra, Rz, Rt measurements |
-| Kính hiển vi đo lường | Keyence (Nhật) | 1 | 35-50 | Phóng đại 20-500x, đo 2D/3D |
-| Đồ gá kiểm tra (Fixtures) | Tùy chỉnh | 20 bộ | 40-60 | Theo yêu cầu khách hàng |
-| **Tổng QA/QC** | | | **530-750** | |
+| Hexagon Absolute Arm 7-trục | Hexagon (Thụy Điển) | 1 | 180-250 | Phạm vi Ø2,5 m, độ chính xác ±0,023 mm, portable |
+| Máy đo nhám bề mặt SJ-210 | Mitutoyo (Nhật) | 1 | 5 | Ra, Rz, Rt measurements |
+| Dụng cụ đo tay (panme, thước cặp, đồng hồ so) | Mitutoyo | Bộ | 10 | Panme 0-150 mm, thước cặp digital 0-300 mm |
+| Đồ gá kiểm tra (Fixtures) | Tùy chỉnh | 10 bộ | 20-30 | Theo yêu cầu sản phẩm |
+| **Tổng QA/QC** | | | **215-295** | |
 
-**Điều kiện Phòng CMM:**
-- Nhiệt độ: 20°C ± 0,5°C (kiểm soát 24/7)
-- Độ ẩm: 45-55%
-- Rung: < 0,05 mm/s (nhỏ hơn 50 lần ngưỡng cho phép CNC)
-- Sàn chống rungriêng biệt, tách khỏi xưởng CNC
-- Vách kính trong suốt — cho phép khách hàng FDI quan sát quy trình đo (Visual Audit)
-- Calibration định kỳ: Mỗi 6 tháng bởi đơn vị được công nhận (A2LA, DAkkS)
+**Điều kiện QC Corner:**
+- Nhiệt độ: 22°C ± 2°C (điều hòa chung khu CNC)
+- Vách ngăn nhẹ tách khỏi khu vực gia công, giảm bụi và rung
+- Hexagon Absolute Arm là thiết bị portable — có thể đo ngay trên bàn máy khi cần
+- Calibration định kỳ: Mỗi 12 tháng bởi đơn vị được công nhận
 
-### 2.3.4. Phần mềm CAD/CAM/CAE
+### 2.3.4. Phần mềm CAD/CAM
 
 | Phần mềm | Hãng | Số license | Chi phí/năm (K USD) | Mục đích |
 |---|---|---:|---:|---|
-| Siemens NX | Siemens | 5 | 45-65 | CAD/CAM chính, tương thích bản vẽ khách hàng FDI |
-| Mastercam | CNC Software | 5 | 20-30 | CAM cho gia công 3 trục và phay phức tạp |
-| VERICUT | CGTech | 2 | 15-22 | Mô phỏng và xác minh chương trình CNC (tránh va chạm) |
-| ProShop ERP | ProShop | 1 | 12-18 | ERP chuyên cho xưởng CNC (job tracking, scheduling) |
-| PC-DMIS | Hexagon | 2 | 10-15 | Lập trình và phân tích kết quả CMM |
-| **Tổng phần mềm** | | | **102-150** | |
+| Mastercam (Mill 3D + 5-Axis) | Mastercam / CNC Software | 6 | 60-72 | CAM chính cho gia công 3 trục và 5 trục, post-processor đi kèm |
+| SolidWorks Standard (viewer) | Dassault | 2 | 8-12 | Xem và kiểm tra file CAD từ khách hàng FDI |
+| **Tổng phần mềm** | | | **68-84** | |
+
+> Với 6 máy CNC, mỗi operator 1 license Mastercam là đủ. SolidWorks viewer dùng để tiếp nhận bản vẽ khách hàng. ERP xưởng CNC tích hợp vào hệ thống ERP chung của Mekong (module Manufacturing) [A].
 
 ### 2.3.5. Quy trình Gia công Tiêu biểu
 
-**Quy trình cho linh kiện Titan hàng không — AS9100:**
+**Quy trình gia công chi tiết chính xác — ISO 9001:2015:**
 
 ```mermaid
 graph LR
-    S1["1. Nhận bản vẽ<br/>kỹ thuật"] --> S2["2. Kiểm tra phôi<br/>đầu vào<br/>CMM chứng nhận"]
-    S2 --> S3["3. Lập trình CNC<br/>NX/Mastercam<br/>+ VERICUT"]
-    S3 --> S4["4. Gia công<br/>CNC 5 trục<br/>DMG MORI DMU 80P"]
-    S4 --> S5["5. Kiểm tra<br/>giữa chặng<br/>CMM in-process"]
-    S5 --> S6["6. Xử lý bề mặt<br/>nếu yêu cầu"]
-    S6 --> S7["7. Kiểm tra cuối<br/>CMM GLOBAL S"]
-    S7 --> S8["8. Lập báo cáo<br/>CMM + FAI<br/>AS9102"]
-    S8 --> S9["9. Đóng gói<br/>+ Vận chuyển<br/>AS9100 compliant"]
+    S1["1. Nhận bản vẽ<br/>từ khách hàng"] --> S2["2. Kiểm tra phôi<br/>đầu vào<br/>(thước cặp, panme)"]
+    S2 --> S3["3. Lập trình CNC<br/>Mastercam<br/>5-trục / 3-trục"]
+    S3 --> S4["4. Gia công CNC<br/>DMG MORI DMU 65<br/>hoặc Doosan DVF"]
+    S4 --> S5["5. Kiểm tra QC<br/>Hexagon Arm<br/>(in-process)"]
+    S5 --> S6["6. Xử lý bề mặt<br/>(anodize/mài)<br/>nếu yêu cầu"]
+    S6 --> S7["7. Kiểm tra cuối<br/>Hexagon Arm<br/>+ báo cáo đo"]
+    S7 --> S8["8. Đóng gói<br/>+ Giao hàng"]
 ```
 
 **Thời gian chu kỳ (Lead time):**
-- Linh kiện tiêu chuẩn (nhôm, thép): 2-3 tuần
-- Linh kiện chính xác cao (IATF): 3-4 tuần
-- Linh kiện Titan/Inconel (AS9100): 4-6 tuần
-- Sản phẩm mới (NPI): 6-8 tuần (bao gồm thiết kế fixture + FAI)
+- Chi tiết đơn giản (khung robot, bracket): 1-2 tuần
+- Chi tiết chính xác (encoder mount, jig): 2-3 tuần
+- Sản phẩm mới (NPI): 4-6 tuần (bao gồm thiết kế fixture + First Article Inspection)
 
 ### 2.3.6. Sản phẩm CNC theo Phân khúc
 
-#### A. Phân khúc Bán dẫn (Semiconductor)
+#### A. Khung Robot AMR/AGV (Nội bộ + Xuất khẩu)
 
 | Sản phẩm | Mô tả | Vật liệu | Dung sai | Số lượng/năm | Đơn giá (USD) |
 |---|---|---|---:|---:|---:|
-| IC Mold Insert | Khuôn đúc IC, bề mặt gương Ra ≤ 0,1 µm | NAK80, HPM38 | ≤ 3 µm | 2.000 | 200-500 |
-| Lead Frame Tooling | Dụng cụ dập lead frame | SKD11, ASP23 | ≤ 5 µm | 1.000 | 300-800 |
-| Wafer Handling Parts | Chi tiết cho robot xử lý wafer | Al 6061-T6 | ≤ 5 µm | 1.500 | 150-400 |
-| Test Socket | Đế test IC | Cu-Be, BeCu | ≤ 10 µm | 500 | 100-300 |
+| Khung chính AMR | Khung nhôm CNC 5 trục, tích hợp lỗ lắp sensor + motor | Al 6061-T6 | ≤ 5 µm | 500 | 400-700 |
+| Khung AGV tải nặng | Khung thép hàn + CNC mặt lắp ghép | Thép S45C + Al | ≤ 10 µm | 200 | 600-1.000 |
+| Bộ gá sensor (LiDAR mount) | Giá đỡ LiDAR/Camera, yêu cầu phẳng và vuông góc | Al 6061-T6 | ≤ 5 µm | 700 | 50-120 |
 
-#### B. Phân khúc Hàng không Vũ trụ (Aerospace)
-
-| Sản phẩm | Mô tả | Vật liệu | Dung sai | Số lượng/năm | Đơn giá (USD) |
-|---|---|---|---:|---:|---:|
-| Turbine Blade Fixture | Đồ gá gia công cánh turbine | Inox 316L | ≤ 5 µm | 200 | 1.000-3.000 |
-| Structural Bracket | Giá đỡ kết cấu máy bay | Titan Ti-6Al-4V | ≤ 10 µm | 500 | 500-2.000 |
-| Hydraulic Manifold | Khối phân phối thủy lực | Inconel 718 | ≤ 8 µm | 300 | 2.000-5.000 |
-| Engine Component | Chi tiết động cơ phụ | Titan / Inconel | ≤ 5 µm | 1.000 | 500-3.000 |
-
-#### C. Phân khúc Ô tô Điện (EV Automotive)
+#### B. Linh kiện Chính xác cho FDI (Electronics / Semiconductor)
 
 | Sản phẩm | Mô tả | Vật liệu | Dung sai | Số lượng/năm | Đơn giá (USD) |
 |---|---|---|---:|---:|---:|
-| EV Gearbox Housing | Vỏ hộp số ô tô điện | Al 6061-T6 | ≤ 15 µm | 5.000 | 80-200 |
-| Battery Pack Frame | Khung pin EV | Al 5052 | ≤ 20 µm | 3.000 | 50-150 |
-| Motor Shaft | Trục motor điện | SCM440, SUJ2 | ≤ 5 µm | 5.000 | 30-80 |
-| Brake Caliper Body | Thân phanh | Al 7075-T6 | ≤ 10 µm | 3.000 | 60-180 |
-| Steering Component | Chi tiết hệ lái | Thép hợp kim | ≤ 8 µm | 4.000 | 40-120 |
+| Encoder Bracket | Giá đỡ encoder servo, yêu cầu đồng tâm cao | Al 6061-T6 / Inox | ≤ 5 µm | 400 | 80-200 |
+| Motor Mount | Đế gắn motor, mặt phẳng lắp ghép chính xác | Al 6061-T6 | ≤ 5 µm | 300 | 100-250 |
+| Khớp xoay (Rotary Joint) | Khớp nối trục quay, yêu cầu độ đồng tâm | SUS304, đồng | ≤ 5 µm | 200 | 150-400 |
+
+#### C. Jig/Fixture cho SMT và Lắp ráp
+
+| Sản phẩm | Mô tả | Vật liệu | Dung sai | Số lượng/năm | Đơn giá (USD) |
+|---|---|---|---:|---:|---:|
+| Pallet SMT | Đồ gá cho dây chuyền hàn SMT | Al 6061-T6 | ≤ 10 µm | 300 | 200-500 |
+| Fixture kiểm tra EOL | Đồ gá test cuối dây chuyền | Al + nhựa kỹ thuật | ≤ 20 µm | 200 | 300-800 |
+| Fixture lắp ráp | Đồ gá định vị cho lắp ráp thủ công/bán tự động | Al 6061 | ≤ 15 µm | 200 | 150-400 |
 
 ### 2.3.7. Doanh thu CNC theo Kịch bản
 
@@ -2108,22 +2096,22 @@ graph LR
 xychart-beta
     title "Doanh thu CNC 5 năm — 3 Kịch bản (M USD)"
     x-axis ["Năm 1", "Năm 2", "Năm 3", "Năm 4", "Năm 5"]
-    y-axis "Doanh thu (M USD)" 0 --> 14
-    bar [1.45, 3.21, 5.67, 6.52, 8.27]
-    bar [1.89, 4.36, 7.56, 8.70, 10.75]
-    bar [2.52, 5.82, 10.10, 11.61, 14.46]
+    y-axis "Doanh thu (M USD)" 0 --> 3.5
+    bar [0.30, 0.80, 1.40, 1.80, 2.00]
+    bar [0.40, 1.00, 1.70, 2.20, 2.50]
+    bar [0.50, 1.30, 2.10, 2.70, 3.20]
 ```
 
 | Năm | Conservative (M USD) | Base Case (M USD) | Optimistic (M USD) |
 |---:|---:|---:|---:|
-| 1 | 1,45 | 1,89 | 2,52 |
-| 2 | 3,21 | 4,36 | 5,82 |
-| 3 | 5,67 | 7,56 | 10,10 |
-| 4 | 6,52 | 8,70 | 11,61 |
-| 5 | 8,27 | 10,75 | 14,46 |
-| **Tổng 5Y** | **25,12** | **33,26** | **44,51** |
+| 1 | 0,30 | 0,40 | 0,50 |
+| 2 | 0,80 | 1,00 | 1,30 |
+| 3 | 1,40 | 1,70 | 2,10 |
+| 4 | 1,80 | 2,20 | 2,70 |
+| 5 | 2,00 | 2,50 | 3,20 |
+| **Tổng 5Y** | **6,30** | **7,80** | **9,80** |
 
-*[C — Tính toán dựa trên utilization rate, product mix, và pricing model]*
+*[C — Tính toán dựa trên 6 máy, utilization 60-85%, product mix khung robot (55%) + linh kiện FDI (30%) + jig/fixture (15%)]*
 
 ---
 
@@ -2135,24 +2123,26 @@ Trung tâm Hạ tầng Điện toán Đám mây Mật độ cao (Mekong AI Cloud
 
 | Thông số | Giá trị |
 |---|---|
-| **Diện tích tổng** | 3.000 m² (Khối A) |
-| **Data Hall** | 1.200 m² (Zone 1: 600 m², Zone 2: 600 m²) |
-| **Tổng Rack** | 100 (Phase 1: 50, Phase 2: 50) |
-| **Tải IT tổng** | 1,5-3,0 MW |
+| **Diện tích tổng** | 2.500 m² (Tầng 2-3, Khối A) |
+| **Data Hall** | 800 m² (Zone 1: 500 m² Colo, Zone 2: 300 m² AI/HPC) |
+| **Tổng Rack** | 50 (Phase 1 duy nhất) |
+| **Tải IT tổng** | 0,75-1,5 MW |
 | **PUE mục tiêu** | < 1,35 (sau tối ưu hóa: 1,32) |
 | **Cooling** | In-Row + Direct-to-Chip Liquid Cooling (Zone 2) |
-| **UPS** | 4 × 1.000 kVA LiFePO4, 15 phút runtime |
-| **Generator** | 2 × 2.500 kVA Diesel (N+1) |
+| **UPS** | 2 × 800 kVA LiFePO4, 15 phút runtime |
+| **Generator** | 2 × 1.500 kVA Diesel (N+1) |
 | **Redundancy** | 2N Power, N+1 Cooling |
 | **Tiêu chuẩn** | Uptime Tier III, ISO 27001, PCI DSS (target) |
 | **Physical Security** | Mantrap, Biometric 3-factor, CCTV 24/7, Perimeter fence |
+
+> **Phase 2 GPU:** Khi demand vượt supply (occupancy > 85%), Mekong sẽ lease thêm GPU pods từ NVIDIA DGX Cloud hoặc CoreWeave thay vì mua sắm thêm server vật lý. Chiến lược này giảm CAPEX ~9M USD so với kế hoạch mở rộng Phase 2 ban đầu [A].
 
 ### 2.4.2. Phân vùng Data Hall
 
 | Zone | Diện tích | Racks | Tải/Rack | Cooling | Mục đích | Khách hàng |
 |---|---:|---:|---:|---|---|---|
-| **Zone 1 — Colocation** | 600 m² | 50 | 5-10 kW | In-Row (chilled water) | Lưu trữ, hosting, DR | Ngân hàng, FDI, Enterprise |
-| **Zone 2 — AI/HPC** | 600 m² | 50 | 15-30 kW | Direct-to-Chip Liquid + Rear-Door HEX | GPU Compute, AI training | AI startup, R&D, Bán dẫn |
+| **Zone 1 — Colocation** | 500 m² | 30 | 5-10 kW | In-Row (chilled water) | Lưu trữ, hosting, DR | Ngân hàng, FDI, Enterprise |
+| **Zone 2 — AI/HPC** | 300 m² | 20 | 15-30 kW | Direct-to-Chip Liquid + Rear-Door HEX | GPU Compute, AI training | AI startup, R&D |
 
 ### 2.4.3. Hệ thống Làm mát
 
@@ -2174,13 +2164,13 @@ Thiết kế cooling là yếu tố quyết định PUE và chi phí vận hành
 
 | Thành phần | Công suất | Ghi chú |
 |---|---:|---|
-| IT Load (rated) | 2.500 kW | 100 Rack × average 25 kW |
-| Cooling overhead | 475 kW | 19% IT Load (nhờ liquid cooling) |
-| UPS loss | 75 kW | 3% IT Load (LiFePO4 efficiency 97%) |
-| Lighting + Security | 25 kW | 1% IT Load |
-| Distribution loss | 50 kW | 2% IT Load |
-| **Facility Total** | **3.125 kW** | |
-| **PUE = 3.125 / 2.500** | **1,25** | Target [C] |
+| IT Load (rated) | 1.250 kW | 50 Rack × average 25 kW |
+| Cooling overhead | 237 kW | 19% IT Load (nhờ liquid cooling) |
+| UPS loss | 37 kW | 3% IT Load (LiFePO4 efficiency 97%) |
+| Lighting + Security | 13 kW | 1% IT Load |
+| Distribution loss | 25 kW | 2% IT Load |
+| **Facility Total** | **1.562 kW** | |
+| **PUE = 1.562 / 1.250** | **1,25** | Target [C] |
 
 > Thực tế PUE dao động 1,25-1,45 tùy mùa và tải. PUE trung bình năm mục tiêu: **1,32** (tốt hơn mức trung bình VN là 1,55 và tương đương DC Tier III tiên tiến ở Singapore) [C].
 
@@ -2222,13 +2212,13 @@ Chi tiết tại Mục 2.2.5.
 
 | Năm | Racks sử dụng | Occupancy | Doanh thu (M USD) |
 |---:|---:|:---:|---:|
-| 1 | 20-25 | 20-25% | 1,17-1,45 |
-| 2 | 35-45 | 35-45% | 1,85-2,33 |
-| 3 | 50-60 | 50-60% | 2,33-2,80 |
-| 4 | 60-75 | 60-75% | 2,80-3,15 |
-| 5 | 70-85 | 70-85% | 3,15-3,46 |
+| 1 | 10-12 | 20-24% | 0,70-0,85 |
+| 2 | 18-22 | 36-44% | 1,10-1,35 |
+| 3 | 25-30 | 50-60% | 1,50-1,80 |
+| 4 | 32-38 | 64-76% | 1,90-2,30 |
+| 5 | 38-45 | 76-90% | 2,30-2,75 |
 
-*[C — Dựa trên pre-lease strategy: LOI từ Q1/2028 trước khi grand open Q2/2028]*
+*[C — Dựa trên 50 Rack, pre-lease strategy: LOI từ Q1/2028. Khi occupancy > 85%, chuyển sang lease GPU Cloud cho đơn hàng vượt capacity]*
 
 ---
 
@@ -2268,13 +2258,13 @@ timeline
     section Năm 3-4 (Tăng trưởng)
         2027-2028 : AMR-500 (TRL 9)
                   : AGV-500 (TRL 9)
-                  : CNC IATF 16949
+                  : CNC mở rộng KH FDI
                   : DC Tier III
                   : MekongOS v2.0 (AI)
     section Năm 5-7 (Trưởng thành)
         2029-2031 : AMR-1000 (TRL 9)
                   : OHT-100 (TRL 8)
-                  : CNC AS9100
+                  : CNC option IATF/AS9100
                   : MK-300 AI Edge
                   : MekongOS v3.0 (Digital Twin)
     section Năm 8-10 (Dẫn đầu)
@@ -2380,57 +2370,47 @@ Mekong Technology bo sung lo trinh phat trien he san pham BMS/SCADA. Toan bo R&D
 
 ---
 
-## 2.8. Chi tiết Kỹ thuật CNC 5-Axis Machining Center
+## 2.8. Chi tiết Kỹ thuật CNC Machining Center
 
-### 2.8.1. Danh sách Máy CNC — Phase 1 (28 máy)
+### 2.8.1. Danh sách Máy CNC (6 máy)
 
 | # | Model | Xuất xứ | Loại | Hành trình XYZ (mm) | Trục quay | Công suất (kW) | Tốc độ (rpm) | Đơn giá (K) | SL | **Thành tiền (K)** |
 |:---:|---|:---:|:---:|---|:---:|---:|---:|---:|:---:|---:|
-| 1 | **DMG MORI DMU 80 eVo** | JP/DE | 5-axis | 800×650×550 | B+C | 35 | 18.000 | 450 | 5 | **2.250** |
-| 2 | **DMG MORI NLX 2500/700** | JP | CNC Lathe | Ø366×705 | C | 26 | 4.000 | 280 | 4 | **1.120** |
-| 3 | **Mazak VCN-530C** | JP | VMC 3-axis | 1.050×530×510 | — | 30 | 12.000 | 180 | 6 | **1.080** |
-| 4 | **Mazak INTEGREX i-200S** | JP | Multi-tasking | Ø660×1.519 | B+C | 30 | 5.000 | 380 | 3 | **1.140** |
-| 5 | **Sodick ALC600G** | JP | Wire EDM | 600×400×350 | — | 5 | — | 120 | 2 | **240** |
-| 6 | **Okuma MB-56VA** | JP | VMC 3-axis | 1.300×560×460 | — | 22 | 8.000 | 150 | 4 | **600** |
-| 7 | **Haas UMC-750** | US | 5-axis | 762×508×508 | A+C | 22 | 12.000 | 200 | 2 | **400** |
-| 8 | **Tsugami B0205G-III** | JP | Swiss Lathe | Ø20 | 8-axis | 5 | 10.000 | 85 | 2 | **170** |
-| | | | | | | | | | **28** | **7.000** |
+| 1 | **DMG MORI DMU 65 monoBLOCK** | JP/DE | 5-axis | 650×520×475 | B+C | 35 | 18.000 | 520 | 2 | **1.040** |
+| 2 | **Doosan DVF 5000** | KR | 5-axis | 625×450×400 | B+C | 26 | 12.000 | 385 | 2 | **770** |
+| 3 | **Doosan DNM 6700** | KR | VMC 3-axis | 1.300×670×625 | — | 18 | 10.000 | 150 | 2 | **300** |
+| | | | | | | | | | **6** | **2.110** |
 
 ### 2.8.2. Thiết bị QC / Đo lường
 
 | # | Thiết bị | Model | Hãng | Kích thước đo | Độ chính xác | Đơn giá (K) | SL | **Thành tiền (K)** |
 |:---:|---|---|:---:|---|---:|---:|:---:|---:|
-| 1 | CMM | CONTURA G2 | Zeiss (DE) | 900×1.200×800 mm | ±1.8 μm | 250 | 1 | **250** |
-| 2 | Vision System | QV302 | Mitutoyo (JP) | 300×200 mm | ±3 μm | 120 | 1 | **120** |
-| 3 | Surface Roughness | Surftest SJ-410 | Mitutoyo | — | Ra 0,001 μm | 8 | 2 | **16** |
-| 4 | Hardness Tester | HV-120D | Shimadzu (JP) | — | HV ±2% | 6 | 1 | **6** |
-| 5 | Height Gauge | QM-Height 600 | Mitutoyo | 600 mm | ±2 μm | 12 | 2 | **24** |
-| 6 | Laser Scanner | HandySCAN 3D | Creaform (CA) | 0.3m range | ±0.025 mm | 45 | 1 | **45** |
-| 7 | Microscope | Stemi 508 | Zeiss | 6.3:1-50:1 zoom | Optical | 5 | 2 | **10** |
-| 8 | Profile Projector | PJ-H30 | Mitutoyo | 300 mm screen | ±0.01 mm | 18 | 1 | **18** |
-| | | | | | | | | **489** |
+| 1 | Portable CMM | Absolute Arm 7325 | Hexagon (SE) | 2.500 mm reach | ±0,025 mm | 250 | 1 | **250** |
+| 2 | Surface Roughness | Surftest SJ-410 | Mitutoyo (JP) | — | Ra 0,001 μm | 8 | 1 | **8** |
+| 3 | Hardness Tester | HV-120D | Shimadzu (JP) | — | HV ±2% | 6 | 1 | **6** |
+| 4 | Height Gauge | QM-Height 600 | Mitutoyo | 600 mm | ±2 μm | 12 | 1 | **12** |
+| | | | | | | | | **276** |
 
-**Tổng CNC Machines + QC: 7.000 + 489 = 7.489K**
-*[C — Đối chiếu với PHỤ LỤC Q.2: CAPEX CNC Phase 1 = 14.690K bao gồm M&E + infrastructure]*
+**Tổng CNC Machines + QC: 2.110 + 276 = 2.386K**
+*[C — Đối chiếu: CAPEX CNC tổng = 3.000K bao gồm fit-out 800m² + CAD/CAM + tooling + ISO 9001]*
 
 ### 2.8.3. Process Capability Matrix
 
 | Quá trình | Tolerance đạt được | Ra (μm) | Vật liệu chính | Typical Parts |
 |---|:---:|---:|---|---|
-| **5-Axis Milling** | ±0,005 mm | 0,4-0,8 | Ti-6Al-4V, Inconel 718, Al 7075 | Aerospace bracket, medical implant |
-| **3-Axis Milling** | ±0,01 mm | 0,8-1,6 | SS304/316, Al 6061, Brass | Automotive housing, heatsink |
-| **CNC Turning** | ±0,005 mm | 0,4-0,8 | SS303, Al 2024, Monel | Shaft, bushing, connector |
-| **Multi-task (Mill-Turn)** | ±0,008 mm | 0,8-1,2 | Titanium, Hastelloy | Complex valve body, manifold |
-| **Wire EDM** | ±0,003 mm | 0,2-0,4 | D2 Steel, Carbide, Tungsten | Die, punch, micro parts |
-| **Swiss Turning** | ±0,003 mm | 0,2-0,4 | SS316L, Brass, Titanium | Micro screw, pin, medical component |
+| **5-Axis Milling** | ±0,005 mm | 0,4-0,8 | Al 6061-T6, Al 7075, SS304 | Khung robot AMR/AGV, encoder bracket, motor mount |
+| **3-Axis Milling** | ±0,01 mm | 0,8-1,6 | Al 6061, SS304/316, Brass | Cover panel, chi tiết dạng tấm, jig/fixture SMT |
+| **Drilling/Tapping** | ±0,02 mm | 1,6-3,2 | Al, SS, Mild steel | Khớp xoay, base plate, mounting bracket |
 
 ### 2.8.4. Công suất Sản xuất Dự kiến
 
-| Chỉ tiêu | Y1 | Y2 | Y3 | Y5 | Y10 |
-|---|---:|---:|---:|---:|---:|
-| **Số máy hoạt động** | 15 | 20 | 24 | 28 | 35+ |
-| **Ca sản xuất** | 2 ca (16h) | 2 ca | 3 ca (24h) | 3 ca | 3 ca + auto |
-| **Utilization target** | 50% | 65% | 75% | 85% | 90% |
+| Chỉ tiêu | Y6 (khởi động) | Y7 | Y8 | Y10 (ổn định) |
+|---|---:|---:|---:|---:|
+| **Số máy hoạt động** | 6 | 6 | 6 | 6 |
+| **Ca sản xuất** | 1 ca (8h) | 2 ca (16h) | 2 ca | 2 ca |
+| **Utilization target** | 40% | 55% | 65% | 75% |
+| **Sản lượng (chi tiết/năm)** | ~1.200 | ~2.000 | ~2.500 | ~3.000 |
+| **OEE** | 50% | 60% | 65% | 70% |
 | **Machine hours/năm** | 43.800 | 75.920 | 131.400 | 171.360 | 229.950 |
 | **MHR (USD)** | 45-85 | 45-85 | 50-90 | 55-95 | 55-95 |
 | **Revenue potential (K)** | 2.628-3.723 | 4.556-6.453 | 7.884-11.826 | 11.338-16.279 | 15.197-21.845 |
@@ -2953,7 +2933,7 @@ xychart-beta
 | 10 | 12,00 | 13,50 | 5,50 | **31,00** |
 | **Tổng 10Y** | **80,50** | **99,82** | **33,76** | **~214,08** |
 
-> **Lưu ý:** Bảng trên dùng doanh thu steady-state forecast (từ mô hình 00_PHUONG_AN ban đầu). Trong mô hình tài chính chính thức (Phần V), doanh thu 15 năm Base Case ~165 M USD, với Y0-Y4 = 0 (giai đoạn xây dựng), Y6 = 2,50 M (IoT khai trương), Y10 = 14,50 M, Y15 = 32,00 M — khác biệt do áp dụng lộ trình 5 giai đoạn và ramp-up tuần tự [C].
+> **Lưu ý:** Bảng trên dùng doanh thu steady-state forecast (từ mô hình 00_PHUONG_AN ban đầu). Trong mô hình tài chính chính thức (Phần V), doanh thu 15 năm Base Case ~180 M USD, với Y0-Y3 = 0 (giai đoạn xây dựng), Y4 = 1,50 M (IoT khai trương), Y8 = 15,00 M, Y12+ = ~21,00 M/năm (steady-state) — khác biệt do áp dụng lộ trình 5 giai đoạn và ramp-up tuần tự [C].
 
 ---
 
@@ -2995,22 +2975,22 @@ xychart-beta
 
 ```mermaid
 flowchart LR
-    subgraph P1["Phase 1: NỀN TẢNG<br/>2025-2027<br/>CAPEX 28,9M"]
-        A1["IoT/Robot<br/>sản xuất"]
-        A2["CNC 15 máy<br/>ISO 9001"]
+    subgraph P1["Phase 1: NỀN TẢNG<br/>Y0-Y4<br/>CAPEX 13,5M"]
+        A1["Pháp lý + Xây dựng Shell"]
+        A2["IoT/Robot<br/>sản xuất Y4"]
         A3["Hạ tầng IT<br/>nội bộ"]
     end
 
-    subgraph P2["Phase 2: TĂNG TRƯỞNG<br/>2028-2030<br/>CAPEX 18,6M"]
-        B1["IoT/Robot<br/>mở rộng"]
-        B2["CNC 28 máy<br/>IATF + AS9100"]
-        B3["DC Tier III<br/>100 Racks"]
+    subgraph P2["Phase 2: TĂNG TRƯỞNG<br/>Y4-Y8<br/>CAPEX 18,5M"]
+        B1["DC Tier III<br/>50 Racks + GPU"]
+        B2["CNC 6 máy<br/>ISO 9001"]
+        B3["IoT/Robot<br/>mở rộng"]
     end
 
-    subgraph P3["Phase 3: DẪN ĐẦU<br/>2030+<br/>Tái đầu tư"]
+    subgraph P3["Phase 3: DẪN ĐẦU<br/>Y8+<br/>Tái đầu tư"]
         C1["Export IoT<br/>ASEAN"]
-        C2["CNC Blue Ocean<br/>Aerospace"]
-        C3["DC 200+ Racks<br/>GPU Farm"]
+        C2["CNC mở rộng<br/>nâng cấp"]
+        C3["DC Lease GPU<br/>Mở rộng Rack"]
     end
 
     P1 --> P2 --> P3
@@ -3018,9 +2998,9 @@ flowchart LR
 
 | Giai đoạn | Thời gian | CAPEX | Mục tiêu chiến lược | Revenue target |
 |---|---|---:|---|---:|
-| **Phase 1: Nền tảng** | 2025-2027 | 28,90 M | Xây dựng hạ tầng, CNC cơ bản, IoT sản xuất, hạ tầng IT nội bộ | 4-10 M/năm |
-| **Phase 2: Tăng trưởng** | 2028-2030 | 18,60 M | DC thương mại, CNC mở rộng + chứng nhận, IoT scale-up | 10-22 M/năm |
-| **Phase 3: Dẫn đầu** | 2030+ | Tái đầu tư | Xuất khẩu ASEAN, CNC Aerospace, DC mở rộng 200+ Racks | >30 M/năm |
+| **Phase 1: Nền tảng** | Y0-Y4 | 13,50 M | Pháp lý, xây dựng shell 3 tầng, IoT sản xuất, sổ đỏ Y3 | 0,5-2,5 M/năm |
+| **Phase 2: Tăng trưởng** | Y4-Y8 | 18,50 M | DC Tier III + GPU, CNC 6 máy, IoT scale-up | 4-15,5 M/năm |
+| **Phase 3: Dẫn đầu** | Y8+ | Tái đầu tư | Xuất khẩu ASEAN, DC mở rộng (lease GPU), CNC nâng cấp | >19,5 M/năm |
 
 ---
 
@@ -3033,7 +3013,7 @@ flowchart LR
 | DMG MORI Vietnam | Nhà cung cấp | CNC | Mua máy + Đào tạo + Bảo trì |
 | NVIDIA | Nhà cung cấp | GPU | DGX Partner + Deep Learning Cert |
 | Schneider Electric | Nhà cung cấp | Hạ tầng DC | UPS + PDU + Cooling + DCIM |
-| Siemens | Nhà cung cấp | Phần mềm | NX CAD/CAM + MindSphere IoT |
+| Siemens | Nhà cung cấp | Phần mềm | MindSphere IoT Platform |
 | FPT Telecom | Đối tác | Kết nối | Dark fiber KCNC + Internet transit |
 | Hexagon Manufacturing Intelligence | Nhà cung cấp | QA/QC | CMM + Phần mềm + Đào tạo |
 | JETRO Vietnam | Hỗ trợ | B2B Match | Kết nối nhà sản xuất Nhật cần CNC |
@@ -3049,10 +3029,10 @@ flowchart LR
 | **Kênh tiếp cận** | Direct sales (CNC/DC), Digital + Channel (IoT), On-site demo (KCNC) |
 | **Quan hệ KH** | Dedicated Account Manager (FDI), Self-service (SaaS), Community (KCNC) |
 | **Dòng doanh thu** | CNC gia công (25%), IoT bán sản phẩm (38%), DC recurring (22%), SaaS (8%), VAS (7%) |
-| **Tài nguyên chính** | 28 máy CNC, 100 Rack DC, 5 Lab R&D, 205-300 nhân sự, IP (MekongOS + Patents) |
+| **Tài nguyên chính** | 6 máy CNC, 50 Rack DC, 5 Lab R&D, 150-200 nhân sự, IP (MekongOS + Patents) |
 | **Hoạt động chính** | Gia công CNC → Sản xuất IoT → Vận hành DC → Phát triển MekongOS → R&D |
 | **Đối tác chính** | DMG MORI, NVIDIA, Schneider, Siemens, FPT Telecom, JETRO/KOTRA |
-| **Cơ cấu chi phí** | CAPEX 47,5M, OPEX: Nhân sự 35%, Nguyên vật liệu 25%, Điện 15%, Bảo trì 10%, Khác 15% |
+| **Cơ cấu chi phí** | CAPEX 32,0M, OPEX: Nhân sự 35%, Nguyên vật liệu 25%, Điện 15%, Bảo trì 10%, Khác 15% |
 
 ---
 
@@ -3065,7 +3045,7 @@ Mekong Technology áp dụng **chiến lược giá phân tầng** (tiered prici
 1. **Cost-Plus Baseline:** Giá sàn = chi phí biến đổi + phân bổ chi phí cố định + biên lợi nhuận tối thiểu 15%
 2. **Value-Based Ceiling:** Giá trần = giá trị cảm nhận của khách hàng (willingness-to-pay), benchmark theo đối thủ trong khu vực
 3. **Penetration Entry:** Giai đoạn đầu (Y1-Y2), áp dụng giá thâm nhập thấp hơn 10-15% so với thị trường để xây dựng portfolio
-4. **Premium Upsell:** Từ Y3+, sau khi có chứng nhận (IATF, AS9100, Tier III), nâng giá lên ngang hoặc cao hơn thị trường 5-10%
+4. **Premium Upsell:** Từ Y3+, sau khi có chứng nhận (ISO 9001, Tier III), nâng giá lên ngang hoặc cao hơn thị trường 5-10%
 
 ### 3.5.2. Bảng Giá Trụ cột 1 — IoT/Robot
 
@@ -3097,17 +3077,15 @@ Mekong Technology áp dụng **chiến lược giá phân tầng** (tiered prici
 | **Surface Treatment (Anodize)** | +15-25% | Outsource | 8-12% | N/A | Quản lý subcontractor |
 | **Đào tạo CNC (khóa 3 tháng)** | 3.000-5.000/người | 1.500-2.500 | 50% | DMG MORI: 8.000-12.000 | Giá thấp, upsell gia công |
 
-> **[C] Biên gộp CNC trung bình: 35-42%.** Giá machine hour tăng dần nhờ chứng nhận: ISO 9001 (+5%), IATF 16949 (+10-15%), AS9100 (+20-25%). Giá Y1 (entry) thấp hơn Y5 (certified) khoảng 25-35%.
+> **[C] Biên gộp CNC trung bình: 30-38%.** Với 6 máy ISO 9001, giá machine hour ổn định. Nếu nâng cấp IATF/AS9100 (option Y10+), giá có thể tăng 15-25%.
 
-**Lộ trình Tăng giá CNC theo Chứng nhận:**
+**Lộ trình Giá CNC:**
 
-| Giai đoạn | Chứng nhận | Hệ số Giá | Ví dụ: 5-trục Titan/giờ |
+| Giai đoạn | Chứng nhận | Hệ số Giá | Ví dụ: 5-trục Nhôm/giờ |
 |---|---|:---:|---:|
-| Y1 (Entry) | Chưa có | 1,00× | 80 USD |
-| Y2 (ISO 9001) | ISO 9001:2015 | 1,05-1,10× | 84-88 USD |
-| Y3 (IATF) | IATF 16949 | 1,15-1,25× | 92-100 USD |
-| Y4-5 (AS9100) | AS9100 Rev D | 1,25-1,40× | 100-112 USD |
-| Y5+ (Nadcap) | Nadcap Non-Destructive Testing | 1,35-1,50× | 108-120 USD |
+| Y1 (Entry) | Chưa có | 1,00× | 45 USD |
+| Y2+ (ISO 9001) | ISO 9001:2015 | 1,05-1,10× | 47-50 USD |
+| Y10+ (Option) | IATF 16949 hoặc AS9100 | 1,20-1,35× | 54-61 USD |
 
 ### 3.5.4. Bảng Giá Trụ cột 3 — Datacenter
 
@@ -3191,23 +3169,23 @@ Mekong Technology áp dụng **chiến lược giá phân tầng** (tiered prici
 
 ### 3.6.2. CNC Outsourcing Unit Economics
 
-**A. Kinh tế trên 1 Giờ máy CNC 5-trục (Titan):**
+**A. Kinh tế trên 1 Giờ máy CNC 5-trục (Nhôm 6061-T6):**
 
 | Thông số | Giá trị Y1 | Giá trị Y5 | Ghi chú |
 |---|---:|---:|---|
-| Giá bán (Machine Hour Rate) | 80 USD | 110 USD | Tăng nhờ AS9100 |
+| Giá bán (Machine Hour Rate) | 45 USD | 50 USD | Tăng nhờ track record + ISO 9001 |
 | Chi phí biến đổi: | | | |
-| — Dụng cụ cắt (Tool) | 12 USD | 10 USD | Volume discount dụng cụ |
-| — Dung dịch cắt (MWF) | 3 USD | 2,5 USD | |
+| — Dụng cụ cắt (Tool) | 5 USD | 4 USD | Nhôm thân thiện với dao hơn Titan |
+| — Dung dịch cắt (MWF) | 2 USD | 1,5 USD | |
 | — Điện (15 kW × 1h) | 1,8 USD | 1,8 USD | 0,08-0,12 USD/kWh KCNC |
-| — Vật liệu phụ trợ | 2 USD | 1,5 USD | |
-| Chi phí nhân công trực tiếp | 6 USD | 7 USD | 1 người/2 máy, overtime premium |
-| **Tổng Chi phí Biến đổi** | **24,8 USD** | **22,8 USD** | Learning curve giảm chi phí |
-| **Contribution Margin** | **55,2 USD (69%)** | **87,2 USD (79%)** | Đáng kể tăng nhờ giá + giảm VC |
+| — Vật liệu phụ trợ | 1 USD | 0,8 USD | |
+| Chi phí nhân công trực tiếp | 5 USD | 5,5 USD | 1 người/2 máy |
+| **Tổng Chi phí Biến đổi** | **14,8 USD** | **13,6 USD** | Learning curve giảm chi phí |
+| **Contribution Margin** | **30,2 USD (67%)** | **36,4 USD (73%)** | Tăng nhờ giá + giảm VC |
 | Phân bổ Chi phí Cố định: | | | |
-| — Khấu hao máy (10 năm) | 12 USD/giờ | 12 USD/giờ | DMG MORI NLX 2500: 350K |
-| — Bảo trì & Sửa chữa | 3 USD/giờ | 4 USD/giờ | Tăng theo tuổi máy |
-| — Overhead (nhà xưởng, QA) | 5 USD/giờ | 5 USD/giờ | |
+| — Khấu hao máy (10 năm) | 8 USD/giờ | 8 USD/giờ | DMG MORI DMU 65: 520K |
+| — Bảo trì & Sửa chữa | 2 USD/giờ | 3 USD/giờ | Tăng theo tuổi máy |
+| — Overhead (nhà xưởng, QA) | 3 USD/giờ | 3 USD/giờ | |
 | **Tổng Chi phí Cố định/giờ** | **20 USD** | **21 USD** | |
 | **Net Margin/giờ** | **35,2 USD (44%)** | **66,2 USD (60%)** | Lợi nhuận Y5 tăng gần gấp đôi |
 
@@ -3239,7 +3217,7 @@ Mekong Technology áp dụng **chiến lược giá phân tầng** (tiered prici
 | **Contribution Margin** | **990 USD (66%)** | **11.880 USD** | |
 | Phân bổ Chi phí Cố định: | | | |
 | — Khấu hao hạ tầng (15 năm) | 250 USD | 3.000 USD | CAPEX/rack ~ 45K |
-| — Nhân sự NOC (30 người / 100 rack) | 180 USD | 2.160 USD | 6K/người/tháng |
+| — Nhân sự NOC (20 người / 50 rack) | 180 USD | 2.160 USD | 6K/người/tháng |
 | — Bảo trì UPS/HVAC | 80 USD | 960 USD | |
 | — Bảo hiểm + Security | 30 USD | 360 USD | |
 | **Tổng Cố định/Rack** | **540 USD** | **6.480 USD** | |
@@ -3279,7 +3257,7 @@ Mekong Technology xây dựng chiến lược xuất khẩu **3 vòng (3-Ring Ex
 | Quốc gia | Nhu cầu CNC | Ngành chính | Lợi thế Mekong | Rào cản | Ưu tiên |
 |---|---|---|---|---|:---:|
 | **Thái Lan** | Cao | Ô tô (2.500+ nhà sản xuất) | Giá thấp hơn TH 10-15%, FTA 0% thuế | Cạnh tranh từ TH nội địa | ★★★★★ |
-| **Malaysia** | Trung bình-Cao | Bán dẫn, E&E | AS9100 (Penang hub), giá thấp hơn | Phải có IATF/AS9100 | ★★★★☆ |
+| **Malaysia** | Trung bình-Cao | Bán dẫn, E&E | Giá cạnh tranh, gần Penang hub | Cần track record FDI | ★★★☆☆ |
 | **Indonesia** | Trung bình | Ô tô, Đóng tàu | Market lớn (280M dân), chi phí VN thấp | Logistics phức tạp, thuế NK | ★★★☆☆ |
 | **Singapore** | Thấp (outsource) | Bán dẫn, Aerospace | Gần (2h bay), SG outsource sang VN nhiều | Yêu cầu chất lượng cực cao | ★★★★☆ |
 | **Philippines** | Thấp-TB | Điện tử | Market 110M dân, CNC nội địa yếu | Logistics, FX volatility | ★★☆☆☆ |
@@ -3302,9 +3280,9 @@ Mekong Technology xây dựng chiến lược xuất khẩu **3 vòng (3-Ring Ex
 | Y3 Q1 | Đạt ISO 9001 → mở rộng portfolio | Đủ điều kiện bid FDI | — |
 | Y3 Q2 | Tham gia SEMICON SEA (Malaysia) | Tiếp cận semiconductor supply chain | 25 |
 | Y3 Q3 | Setup Export Desk (2 người chuyên trách) | Quản lý xuất khẩu, customs | 60/năm |
-| Y4 Q1 | Đạt IATF 16949 → gia nhập Auto supply chain ASEAN | Tier-2 supplier cho Auto FDI | — |
-| Y4-Y5 | Mở văn phòng đại diện tại Bangkok hoặc Penang | Hub cho ASEAN orders | 80/năm |
-| Y5+ | Đạt AS9100 → Xuất khẩu Aerospace parts cho SG/MY | High-value CNC market | — |
+| Y4 Q1 | Mở rộng portfolio FDI → General Industrial + Jig/Fixture | Tiếp cận supply chain FDI mới | — |
+| Y4-Y5 | Mở văn phòng đại diện tại Bangkok | Hub cho ASEAN orders | 80/năm |
+| Y5+ | Xuất khẩu linh kiện chính xác SG/MY | High-value CNC market | — |
 
 **Revenue Xuất khẩu Dự kiến:**
 
@@ -3318,7 +3296,7 @@ Mekong Technology xây dựng chiến lược xuất khẩu **3 vòng (3-Ring Ex
 | 7 | 3.500 | 1.200 | **4.700** | 17,7% |
 | 10 | 5.500 | 2.500 | **8.000** | 25,8% |
 
-> **[A] Target: Xuất khẩu chiếm 25% doanh thu vào Y10.** Giả định dựa trên benchmark các công ty CNC VN (MTEX 20%, MPC 15%). AS9100 là chìa khóa: 80% revenue xuất khẩu CNC đến từ khách hàng Aerospace/Defense.
+> **[A] Target: Xuất khẩu chiếm 15-20% doanh thu vào Y10.** Giả định dựa trên benchmark các công ty CNC VN (MTEX 20%, MPC 15%). Linh kiện chính xác ISO 9001 là sản phẩm xuất khẩu chính; IATF/AS9100 là option nâng cấp khi có hợp đồng cụ thể.
 
 ---
 
@@ -3338,7 +3316,7 @@ gantt
     Trial Production (3 KH)            :g3, 2027-10, 3M
     Volume Production                  :g4, 2028-01, 12M
     ISO 9001 certified → scale         :g5, 2028-06, 6M
-    IATF 16949 → Auto supply chain     :g6, 2029-01, 12M
+    Mở rộng KH FDI (general precision)  :g6, 2029-01, 12M
 
     section IoT GTM
     MK-200/300 product launch          :h1, 2027-06, 3M
@@ -3464,7 +3442,7 @@ gantt
 | **Material Markup** | Phụ thu vật liệu | Cost + 15-25% | Margin thấp, pass-through |
 | **Setup Fee** | Phí setup / chuẩn bị | 50-200 USD/lần | First-article cao hơn |
 | **Programming** | CAD/CAM programming | 85-120 USD/h | Chỉ lần đầu / thay đổi |
-| **Quality Premium** | AS9100 / IATF surcharge | +15-25% MHR | Chứng nhận costly |
+| **Quality Premium** | ISO 9001 quality assurance | +5-10% MHR | Track record + cert |
 | **Express Premium** | Urgent delivery (< 7 ngày) | +30-50% total | High-margin opportunity |
 | **Volume Discount** | > 500 parts/lot | -5 to -15% | Cần đảm bảo margin > 30% |
 | **Contract Discount** | Annual contract > 500K | -3 to -8% | Đổi lấy revenue visibility |
@@ -3530,7 +3508,7 @@ gantt
 | Tiêu chí | Mekong | VPIC | Cosmos | Hợp Long | TQ Competition |
 |---|:---:|:---:|:---:|:---:|:---:|
 | **5-axis capability** | 9/10 | 3/10 | 5/10 | 2/10 | 6/10 |
-| **Certification (IATF/AS)** | 7/10 (by Y3) | 6/10 | 4/10 | 3/10 | 7/10 |
+| **Certification (IATF/AS)** | 5/10 (ISO 9001) | 6/10 | 4/10 | 3/10 | 7/10 |
 | **Price competitiveness** | 7/10 | 8/10 | 7/10 | 9/10 | 9/10 |
 | **Quality consistency** | 8/10 | 5/10 | 6/10 | 4/10 | 5/10 |
 | **Lead time** | 7/10 | 6/10 | 5/10 | 7/10 | 4/10 (logistics) |
@@ -3545,7 +3523,7 @@ gantt
 | **PUE** | 1,32 → 1,26 | 1,45 | 1,50 | 1,55 | 1,35 |
 | **Carrier-neutral** | Yes | No (Viettel) | No (FPT) | No (CMC) | Yes |
 | **Price/rack/month** | $2.500 avg | $2.000 | $1.800 | $1.600 | $3.500 |
-| **Scalability** | 100→200 rack | 1.000+ | 500+ | 300+ | 500+ |
+| **Scalability** | 50 rack (Phase 1) | 1.000+ | 500+ | 300+ | 500+ |
 | **Ecosystem value** | High (CNC+IoT) | Telco only | IT services | IT services | Global |
 | **Proximity to KCNC** | On-site | 15-20 km | 10-15 km | 20 km | 10 km |
 
@@ -3566,17 +3544,18 @@ gantt
 
 ### 3.13.1. Revenue Projection Table (K USD)
 
-| Năm | CNC Base | CNC IATF/AS | DC Colo | DC Managed | IoT HW | IoT SaaS | **Tổng** |
-|---:|---:|---:|---:|---:|---:|---:|---:|
-| Y1 | 2.000 | — | 500 | 100 | 800 | 100 | **3.500** |
-| Y2 | 3.500 | 500 | 1.200 | 300 | 1.500 | 300 | **7.300** |
-| Y3 | 5.000 | 1.500 | 2.000 | 500 | 2.000 | 600 | **11.600** |
-| Y4 | 5.500 | 2.500 | 2.800 | 700 | 2.200 | 1.000 | **14.700** |
-| Y5 | 5.500 | 3.000 | 3.000 | 800 | 2.500 | 1.300 | **16.100** |
-| Y7 | 6.000 | 4.500 | 4.500 | 1.500 | 3.000 | 3.000 | **22.500** |
-| Y10 | 7.000 | 6.000 | 6.000 | 2.500 | 4.000 | 5.000 | **30.500** |
-| Y15 | 8.000 | 8.000 | 8.000 | 4.000 | 5.000 | 10.000 | **43.000** |
-| Y20 | 9.000 | 10.000 | 10.000 | 5.000 | 6.000 | 15.000 | **55.000** |
+| Năm | CNC | DC Colo | DC Managed | IoT HW | IoT SaaS | **Tổng** |
+|---:|---:|---:|---:|---:|---:|---:|
+| Y1 | 400 | 300 | 50 | 600 | 50 | **1.400** |
+| Y2 | 1.000 | 700 | 150 | 1.200 | 200 | **3.250** |
+| Y3 | 1.700 | 1.200 | 350 | 1.800 | 500 | **5.550** |
+| Y4 | 2.000 | 1.600 | 500 | 2.200 | 900 | **7.200** |
+| Y5 | 2.200 | 1.900 | 600 | 2.500 | 1.200 | **8.400** |
+| Y7 | 2.500 | 2.500 | 900 | 3.000 | 2.500 | **11.400** |
+| Y10 | 2.500 | 3.500 | 1.500 | 4.000 | 4.500 | **16.000** |
+| Y12 | 2.500 | 4.000 | 2.000 | 4.500 | 8.000 | **21.000** |
+| Y15 | 2.500 | 4.500 | 2.500 | 5.000 | 10.000 | **24.500** |
+| Y20 | 2.500 | 5.000 | 3.000 | 5.500 | 12.000 | **28.000** |
 
 ### 3.13.2. Revenue Mix Evolution
 
@@ -3696,7 +3675,7 @@ graph TB
 
 ## 4.2. Thiết kế Hạ tầng Khu vực Datacenter — Tầng 2 (MACC)
 
-> **Ghi chú:** Trong mô hình 1 tòa nhà 3 tầng, Datacenter chiếm Tầng 2 (~3.000 m² sàn). Đề án gốc ký hiệu "Khối A" — các thông số kỹ thuật giữ nguyên.
+> **Ghi chú:** Trong mô hình 1 tòa nhà 3 tầng, Datacenter chiếm Tầng 2 (~3.000 m² sàn).
 
 ### 4.2.1. Kiến trúc Vật lý
 
@@ -3815,34 +3794,29 @@ graph TB
 
 ## 4.3. Thiết kế Hạ tầng Khu vực CNC — Tầng 1 (MPMC)
 
-> **Ghi chú:** CNC chiếm khu vực Tầng 1 (~4.000 m² sàn). Đề án gốc ký hiệu "Khối B" — các thông số kỹ thuật giữ nguyên.
+> **Ghi chú:** CNC chiếm khu vực Tầng 1 (~800 m² sàn fit-out, trong tổng 7.000 m² Tầng 1).
 
 ### 4.3.1. Layout Xưởng CNC
 
 ```mermaid
 graph TB
-    subgraph KHOIB["KHỐI B — MPMC 4.000 m²"]
-        subgraph GC["KHU VỰC GIA CÔNG CHÍNH 2.200 m²"]
-            DMG1["DMG MORI<br/>DMU 65 monoBLOCK"]
-            DMG2["DMG MORI<br/>DMU 65 monoBLOCK"]
-            DMG3["DMG MORI<br/>DMU 65 monoBLOCK"]
-            DMG4["DMG MORI<br/>DMU 80P duoBLOCK"]
-            DS1["Doosan<br/>DVF 5000"]
-            DS2["Doosan<br/>DVF 5000"]
-            DS3["Doosan<br/>DVF 5000"]
-            DS4["Doosan<br/>DVF 5000"]
-            MK1["Makino<br/>a51nx"]
-            MK2["Makino<br/>a51nx"]
-            DS5["Doosan<br/>Puma"]
+    subgraph KHOIB["KHỐI B — MPMC 800 m²"]
+        subgraph GC["KHU VỰC GIA CÔNG 500 m²"]
+            DMG1["DMG MORI<br/>DMU 65 monoBLOCK #1"]
+            DMG2["DMG MORI<br/>DMU 65 monoBLOCK #2"]
+            DS1["Doosan<br/>DVF 5000 #1"]
+            DS2["Doosan<br/>DVF 5000 #2"]
+            DN1["Doosan<br/>DNM 6700 #1"]
+            DN2["Doosan<br/>DNM 6700 #2"]
         end
-        subgraph SUPPORT["KHU PHỤ TRỢ"]
-            CMM["Phòng CMM<br/>120 m² — 20±0,5°C"]
-            KHO["Kho Phôi<br/>200 m²"]
-            XL["Xử lý Dung dịch cắt<br/>+ Hệ thống lọc<br/>150 m² — ZLD ready"]
+        subgraph SUPPORT["KHU PHỤ TRỢ 200 m²"]
+            QC["QC Corner<br/>50 m² — Hexagon Arm"]
+            KHO["Kho Phôi<br/>80 m²"]
+            XL["Coolant + Đóng gói<br/>70 m²"]
         end
-        subgraph VPSHIP["VĂN PHÒNG + GIAO HÀNG"]
-            VP["VP Kỹ thuật CAD<br/>80 m²"]
-            SHIP["Khu đóng gói<br/>+ Giao hàng<br/>200 m²"]
+        subgraph VP["VĂN PHÒNG KỸ THUẬT 100 m²"]
+            CAD["CAD/CAM<br/>Mastercam 6 license"]
+            SHIP["Đóng gói + Giao hàng"]
         end
     end
 ```
@@ -3851,9 +3825,9 @@ graph TB
 
 | Yêu cầu | Thông số | Lý do |
 |---|---|---|
-| **Tải trọng sàn** | ≥ 5.000 kg/m² | DMG MORI DMU 80P nặng 12.000 kg |
+| **Tải trọng sàn** | ≥ 3.000 kg/m² | DMG MORI DMU 65 nặng ~8.000 kg |
 | **Nền chống rung** | < 0,05 mm/s (class C3 theo DIN 4150) | CNC 5 trục yêu cầu rung rất thấp |
-| **Phòng CMM riêng** | < 0,01 mm/s + foundation riêng | CMM yêu cầu rung thấp nhất |
+| **QC Corner** | < 0,02 mm/s | Hexagon Absolute Arm yêu cầu ổn định |
 | **Sàn Epoxy** | Chịu dầu, chịu mài mòn, grounding ESD | Chống trượt + Chống tĩnh điện |
 | **Rãnh thoát dung dịch** | Rãnh kín + hệ thống thu hồi | Thu dung dịch cắt gọt, tránh ô nhiễm |
 | **Trần** | Free height ≥ 8 m | Cẩu trục 5T cho bốc dỡ máy CNC |
@@ -3863,23 +3837,23 @@ graph TB
 
 | Phụ tải | Công suất | Ghi chú |
 |---|---:|---|
-| 28 máy CNC (rated) | 800 kW | ~25-35 kW/máy trung bình |
-| Hệ thống cooling CNC | 100 kW | Chiller dung dịch cắt |
-| Hệ thống hút bụi/khói | 50 kW | Dành cho titanium, Inconel |
-| Hệ thống khí nén | 75 kW | 2 × Screw compressor |
-| Đèn chiếu sáng | 40 kW | ≥ 500 lux tại bàn máy |
-| HVAC | 60 kW | Phòng CMM + Văn phòng |
-| Phụ tải khác | 25 kW | Phòng CAD, kho, phụ trợ |
-| **Tổng Khối B** | **1.150 kW** | |
+| 6 máy CNC (rated) | 180 kW | ~25-35 kW/máy trung bình |
+| Hệ thống cooling CNC | 30 kW | Coolant cho 6 máy |
+| Hệ thống hút bụi/khói | 15 kW | Oil mist collector |
+| Hệ thống khí nén | 37 kW | 1 × Screw compressor |
+| Đèn chiếu sáng | 15 kW | ≥ 500 lux tại bàn máy |
+| HVAC | 25 kW | QC corner + Văn phòng |
+| Phụ tải khác | 10 kW | Phòng CAD, kho |
+| **Tổng Khối B** | **312 kW** | |
 
 ### 4.3.4. Hệ thống Phụ trợ CNC
 
 **Hệ thống Khí nén (Compressed Air):**
-- 2 × Screw compressor 37 kW, 8 bar
+- 1 × Screw compressor 37 kW, 8 bar
 - Air dryer (dew point -40°C)
-- Air receiver 2.000 L
+- Air receiver 1.000 L
 - Ống phân phối stainless steel
-- Công suất: 5,0 Nm³/phút, đủ cho 28 máy CNC
+- Công suất: 2,0 Nm³/phút, đủ cho 6 máy CNC
 
 **Hệ thống Dung dịch Cắt gọt (Coolant):**
 - Central coolant system (thay vì từng máy riêng)
@@ -3899,7 +3873,7 @@ graph TB
 
 ## 4.4. Thiết kế Hạ tầng Khu vực IoT/Robot — Tầng 1 (SMT)
 
-> **Ghi chú:** IoT/Robot chiếm khu vực Tầng 1 (~3.000 m² sàn), chia sẻ Tầng 1 với CNC. Đề án gốc ký hiệu "Khối C" — các thông số kỹ thuật giữ nguyên.
+> **Ghi chú:** IoT/Robot chiếm khu vực Tầng 1 (~3.000 m² sàn), chia sẻ Tầng 1 với CNC.
 
 ### 4.4.1. Layout Dây chuyền SMT
 
@@ -3950,35 +3924,33 @@ graph TB
 
 | TT | Hạng mục | Khối A (K USD) | Khối B (K USD) | Khối C (K USD) | Chung (K USD) | **Tổng (K USD)** |
 |:---:|---|---:|---:|---:|---:|---:|
-| 1 | Hệ thống điện (HT, HA, chiếu sáng) | 1.200 | 350 | 250 | 200 | **2.000** |
-| 2 | UPS + Battery | 1.600 | 50 | 30 | 20 | **1.700** |
-| 3 | Generator | 800 | 100 | 50 | 50 | **1.000** |
-| 4 | Cooling / HVAC | 1.500 | 150 | 120 | 80 | **1.850** |
-| 5 | PCCC | 350 | 250 | 200 | 300 | **1.100** |
-| 6 | Hệ thống nước (cấp + thải) | 150 | 200 | 80 | 350 | **780** |
-| 7 | Hệ thống mạng + Cáp quang | 500 | 50 | 80 | 70 | **700** |
-| 8 | An ninh (CCTV, Access Control) | 200 | 50 | 50 | 100 | **400** |
-| 9 | BMS / DCIM | 250 | 30 | 20 | — | **300** |
-| 10 | Khí nén + Phụ trợ CNC | — | 200 | — | — | **200** |
-| 11 | Cẩu trục | — | 120 | 30 | — | **150** |
-| 12 | Nền móng đặc biệt | 50 | 80 | 15 | 30 | **175** |
-| | **Tổng** | **6.600** | **1.630** | **925** | **1.200** | **10.355** |
+| 1 | Hệ thống điện (HT, HA, chiếu sáng) | 1.200 | 80 | 250 | 200 | **1.730** |
+| 2 | UPS + Battery | 1.600 | 15 | 30 | 20 | **1.665** |
+| 3 | Generator | 800 | — | 50 | 50 | **900** |
+| 4 | Cooling / HVAC | 1.500 | 40 | 120 | 80 | **1.740** |
+| 5 | PCCC | 350 | 40 | 200 | 300 | **890** |
+| 6 | Hệ thống nước (cấp + thải) | 150 | 20 | 80 | 350 | **600** |
+| 7 | Hệ thống mạng + Cáp quang | 500 | 15 | 80 | 70 | **665** |
+| 8 | An ninh (CCTV, Access Control) | 200 | 15 | 50 | 100 | **365** |
+| 9 | BMS / DCIM | 250 | 10 | 20 | — | **280** |
+| 10 | Khí nén + Phụ trợ CNC | — | 60 | — | — | **60** |
+| 11 | Cẩu trục | — | 30 | 30 | — | **60** |
+| 12 | Nền móng đặc biệt | 50 | 25 | 15 | 30 | **120** |
+| | **Tổng** | **6.600** | **350** | **925** | **1.200** | **9.075** |
 
-*[C — Chi tiết BOQ tính toán từ benchmark giá thị trường VN 2024-2025, bao gồm 10% dự phòng]*
+*[C — Chi tiết BOQ tính toán từ benchmark giá thị trường VN 2024-2025, bao gồm 10% dự phòng. CNC giảm từ 1.630K xuống 350K do thu gọn từ 4.000 m² (28 máy) → 800 m² (6 máy)]*
 
 ### 4.5.2. Phân kỳ M&E
 
 | Hạng mục | Phase 1 (K USD) | Phase 2 (K USD) | Ghi chú |
 |---|---:|---:|---|
-| Khối A — DC cơ bản (50 Rack) | 4.200 | — | Zone 1 full + Zone 2 shell |
-| Khối A — DC mở rộng (50 Rack) | — | 2.400 | Zone 2 AI/HPC fit-out |
-| Khối B — CNC (15 máy) | 1.100 | — | Cooling + Compressed air + Crane |
-| Khối B — CNC mở rộng (13 máy) | — | 530 | Add'l capacity |
-| Khối C — SMT Full | 925 | — | 2 SMT lines + Assembly |
-| Hạ tầng chung | 600 | 600 | PCCC + Nước + An ninh + BMS |
-| **Tổng M&E** | **6.825** | **3.530** | **10.355** |
+| Khối A — DC cơ bản (50 Rack) | 4.200 | — | Zone 1 full |
+| Khối B — CNC (6 máy) | 350 | — | Cooling + Compressed air |
+| Khối C — SMT Full | 925 | — | 1 SMT line + Assembly |
+| Hạ tầng chung | 600 | — | PCCC + Nước + An ninh + BMS |
+| **Tổng M&E** | **6.075** | **—** | |
 
-> **Lưu ý chênh lệch:** Ngân sách M&E tổng 10.355 K nhưng budget dự kiến trong mô hình tài chính là ~13.200 K (bao gồm cả xây dựng dân dụng). Chênh lệch ~2.845 K phân bổ cho xây dựng kết cấu, hoàn thiện, đường nội bộ, hệ thống thoát nước mưa, và cảnh quan [C].
+> **Lưu ý:** Ngân sách M&E tổng 9.075 K, trong đó Phase 1 triển khai 6.075 K. Phần chênh lệch 3.000 K là dự phòng cho mở rộng DC Zone 2 và nâng cấp hạ tầng trong giai đoạn sau [C].
 
 ---
 
@@ -4162,16 +4134,16 @@ Phần mềm: Schneider EcoStruxure IT Expert hoặc Vertiv Trellis:
 
 | Hạng mục | Khối A — DC (K USD) | Khối B — CNC (K USD) | Khối C — IoT (K USD) | Chung (K USD) | **Tổng (K USD)** |
 |---|---:|---:|---:|---:|---:|
-| Xây dựng dân dụng | 1.500 | 1.200 | 800 | 500 | **4.000** |
-| M&E (BOQ Bảng 4.5.1) | 6.600 | 1.630 | 925 | 1.200 | **10.355** |
-| Thiết bị sản xuất | — | 9.590 | 1.070 | — | **10.660** |
+| Xây dựng dân dụng | 1.500 | 200 | 800 | 500 | **3.000** |
+| M&E (BOQ Bảng 4.5.1) | 6.600 | 350 | 925 | 1.200 | **9.075** |
+| Thiết bị sản xuất | — | 1.820 | 1.070 | — | **2.890** |
 | Thiết bị IT / GPU | 3.000 | — | — | — | **3.000** |
-| Phần mềm | 200 | 102 | 50 | 100 | **452** |
-| Nội thất + Phụ kiện | 50 | 100 | 80 | 200 | **430** |
-| Dự phòng 5% | 568 | 631 | 146 | 100 | **1.445** |
-| **Tổng** | **11.918** | **13.253** | **3.071** | **2.100** | **~30.342** |
+| Phần mềm | 200 | 50 | 50 | 100 | **400** |
+| Nội thất + Phụ kiện | 50 | 30 | 80 | 200 | **360** |
+| Dự phòng 5% | 568 | 123 | 146 | 100 | **937** |
+| **Tổng** | **11.918** | **2.573** | **3.071** | **2.100** | **~19.662** |
 
-> **Lưu ý:** CAPEX hạ tầng ~30.342 K ở đây là phần xây dựng + M&E + thiết bị. Tổng CAPEX dự án 47.500 K bao gồm thêm: đất + chi phí pháp lý + chi phí trước vận hành + working capital ban đầu. Chi tiết tại Phần V — Tài chính [C].
+> **Lưu ý:** CAPEX hạ tầng ở đây là phần xây dựng + M&E + thiết bị. Tổng CAPEX dự án 32.000 K bao gồm thêm: đất + chi phí pháp lý + chi phí trước vận hành + working capital + dự phòng dự án. Chi tiết tại Phần V — Tài chính [C].
 
 ---
 
@@ -4209,7 +4181,7 @@ graph TB
 | Khối | Phụ tải IT/SX (kW) | Phụ tải M&E (kW) | Phụ tải phụ trợ (kW) | **Tổng (kW)** | Hệ số đồng thời | **Demand (kW)** |
 |---|---:|---:|---:|---:|:---:|---:|
 | **A — DC** | 1.200 | 480 (cooling, PUE) | 50 | 1.730 | 0,90 | **1.557** |
-| **B — CNC** | 1.800 (28 máy peak) | 300 (HVAC, coolant pump) | 80 | 2.180 | 0,70 | **1.526** |
+| **B — CNC** | 180 (6 máy) | 100 (HVAC, coolant) | 30 | 310 | 0,80 | **248** |
 | **C — IoT/SMT** | 400 (SMT line + Assembly) | 150 (HVAC, Clean room) | 50 | 600 | 0,75 | **450** |
 | **Chung** | — | 200 (bơm PCCC, BMS) | 150 (VP, canteen, chiếu sáng) | 350 | 0,80 | **280** |
 | **Tổng** | **3.400** | **1.130** | **330** | **4.860** | | **~3.813** |
@@ -4266,7 +4238,7 @@ graph TB
 
 | Thông số | Giá trị | Ghi chú |
 |---|---|---|
-| **Loại** | Central oil mist collector + HEPA | Cho 28 máy CNC |
+| **Loại** | Oil mist collector + HEPA | Cho 6 máy CNC |
 | **Công suất** | 15.000 m³/h (tổng) | 500-800 m³/h per machine |
 | **Hiệu suất** | > 99,97% @ 0,3µm (HEPA H13) | DOP test hàng năm |
 | **Pre-filter** | Coalescent fiber (oil mist stage 1) | Thay 3 tháng/lần |
@@ -4274,7 +4246,7 @@ graph TB
 | **Activated Carbon** | Stage 3 (cho VOCs từ coolant) | Thay 6 tháng/lần |
 | **Motor** | 2 × 15 kW (N+1) | IE4 Premium Efficiency |
 | **Ductwork** | Galvanized steel, ø200-400mm | Balanced design, ≤ 15 m/s |
-| **Điểm hút** | 28 points (1 per CNC) + 4 manual stations | Flexible arm |
+| **Điểm hút** | 6 points (1 per CNC) + 2 manual stations | Flexible arm |
 | **CAPEX** | 120 K USD (incl. ductwork + installation) | |
 | **OPEX** | 15 K USD/năm (filters + electricity) | |
 | **EIA compliance** | QCVN 19:2009 Cột A cho khí thải | Xem Phụ lục R.9 |
@@ -4343,7 +4315,7 @@ flowchart TD
 |---|---|---|---|---:|
 | **ERP** | Quản lý tài chính, kho, mua hàng | SAP Business One / Odoo Enterprise | Perpetual + Maintenance | 30-80 |
 | **MES** | Manufacturing Execution (CNC, SMT) | Siemens Opcenter / Aegis FactoryLogix | Annual subscription | 30-60 |
-| **NX CAD/CAM** | Thiết kế + Lập trình CNC | Siemens NX | Perpetual + Maintenance | 15-25 |
+| **Mastercam** | Thiết kế + Lập trình CNC | Mastercam | Subscription | 8 |
 | **PC-DMIS** | Lập trình CMM | Hexagon | Perpetual + Maintenance | 8-12 |
 | **DCIM** | Quản lý hạ tầng DC | Schneider EcoStruxure IT | Annual subscription | 15-25 |
 | **PLM** | Product Lifecycle Management | Siemens Teamcenter (Rapid Start) | Annual | 10-20 |
@@ -4444,66 +4416,59 @@ graph TB
 
 ## 5.1. Tổng quan Cấu trúc Vốn
 
-### 5.1.1. CAPEX Tổng hợp — 5 Phase / 15 năm
+### 5.1.1. CAPEX Tổng hợp — 5 Phase / 8 năm
 
-| Hạng mục | P0 Y0-Y2 | P1 Y2-Y5 | P2 Y5-Y7 | P3 Y7-Y10 | P4 Y10-Y13 | **Tổng (K)** | % |
+| Hạng mục | P0 Y0-Y1 | P1 Y1-Y3 | P2 Y3-Y4 | P3 Y4-Y6 | P4 Y6-Y8 | **Tổng (K)** | % |
 |---|---:|---:|---:|---:|---:|---:|:---:|
-| Thuê đất + Hạ tầng site | 600 | 400 | — | — | — | **1.000** | 2,1% |
-| Thiết kế + Pháp lý + EIA | 500 | 100 | 50 | 50 | 50 | **750** | 1,6% |
-| Xây dựng shell (3 tầng) | — | 5.500 | — | — | — | **5.500** | 11,6% |
-| M&E cơ bản (điện, nước, PCCC) | — | 1.500 | 500 | 500 | 500 | **3.000** | 6,3% |
-| Fit-out IoT/SMT (Tầng 2) | — | — | 3.500 | — | — | **3.500** | 7,4% |
-| Thiết bị IoT + SMT line | — | — | 2.500 | — | — | **2.500** | 5,3% |
-| Fit-out CNC (Tầng 1 — 3.000 m²) | — | — | — | 4.000 | — | **4.000** | 8,4% |
-| Thiết bị CNC (28 máy 5 trục) | — | — | — | 8.660 | 2.000 | **10.660** | 22,4% |
-| CMM + QC Lab | — | — | — | 1.200 | — | **1.200** | 2,5% |
-| Fit-out DC (Tầng 1 — 1.500 m²) | — | — | — | — | 3.000 | **3.000** | 6,3% |
-| Thiết bị IT + GPU (DC) | — | — | — | — | 3.000 | **3.000** | 6,3% |
-| Phần mềm + License | 100 | 100 | 100 | 100 | 52 | **452** | 1,0% |
-| Nội thất + Văn phòng (Tầng 3) | — | — | 430 | — | — | **430** | 0,9% |
-| Chứng nhận (ISO/IATF/AS) | 50 | 50 | 50 | 100 | 50 | **300** | 0,6% |
-| PCCC bổ sung | 200 | 200 | 200 | 200 | 200 | **1.000** | 2,1% |
-| Môi trường (ZLD + XLNT) | 100 | 100 | 100 | 100 | 70 | **470** | 1,0% |
-| Dự phòng phát sinh (10%) | 250 | 550 | 700 | 1.300 | 1.123 | **3.923** | 8,3% |
-| **Tổng CAPEX** | **1.800** | **8.500** | **8.130** | **16.210** | **10.045** | **~44.685** | **94,1%** |
-| Vốn lưu động (Working Capital) | 700 | — | 1.500 | 1.800 | 1.500 | **5.500** | 11,6% |
-| Dự phòng lỗ (Y5-Y12 ramp-up) | — | — | 1.000 | 1.000 | — | **2.000** | 4,2% |
-| Trả thuê đất lũy kế (Y0-Y4, exempt) | — | — | — | — | — | **—** | 0% |
-| Thuê đất (từ Y5, ~120K/năm) | — | — | — | — | — | Ghi nhận OPEX | — |
-| **Tổng nhu cầu vốn** | **2.500** | **8.500** | **10.630** | **19.010** | **11.545** | **~47.500** | **100%** |
+| Thuê đất + Site prep | 800 | — | — | — | — | **800** | 2,5% |
+| Thiết kế + Pháp lý + EIA | 600 | — | — | — | — | **600** | 1,9% |
+| Shell 3 tầng (xây dựng thô) | — | 2.800 | — | — | — | **2.800** | 8,8% |
+| M&E + Điện 3MVA | — | 2.100 | — | — | — | **2.100** | 6,6% |
+| PCCC + Solar 200kWp + VP | — | 700 | 100 | — | — | **800** | 2,5% |
+| Fit-out IoT/SMT (Tầng 2) + Thiết bị | — | — | 3.500 | — | — | **3.500** | 10,9% |
+| Fit-out DC Phase 1 (Tầng 1 — 3.000 m²) | — | — | 1.800 | 2.050 | — | **3.850** | 12,0% |
+| GPU NVIDIA DGX H100 (2 pods) | — | — | — | 5.600 | — | **5.600** | 17,5% |
+| Thiết bị DC (Server, Network, BMS) | — | — | — | 3.100 | 1.450 | **4.550** | 14,2% |
+| Fit-out CNC (800 m²) + Tooling | — | — | — | 590 | — | **590** | 1,8% |
+| Thiết bị CNC (6 máy: 4×5ax + 2×3ax) | — | — | — | 2.040 | — | **2.040** | 6,4% |
+| CMM Hexagon + CAD/CAM Mastercam | — | — | — | 320 | — | **320** | 1,0% |
+| Chứng nhận (ISO 9001/Tier III/ISO 27001) | 50 | — | 50 | 230 | 50 | **380** | 1,2% |
+| Dự phòng phát sinh | 150 | 200 | 250 | 570 | 250 | **1.420** | 4,4% |
+| **Tổng CAPEX** | **1.600** | **5.800** | **5.700** | **14.500** | **1.750** | **~29.350** | **91,7%** |
+| Vốn lưu động + Dự phòng lỗ | 400 | — | — | — | 2.250 | **2.650** | 8,3% |
+| **Tổng nhu cầu vốn** | **2.000** | **5.800** | **5.700** | **14.500** | **4.000** | **~32.000** | **100%** |
 
-*[C — CAPEX 47,50M USD bao gồm vốn lưu động (5,5M) và dự phòng lỗ ramp-up (2,0M). Thuê đất 1 ha tại KCNC = 1,0 USD/m²/tháng = ~120K USD/năm, được miễn 11 năm đầu theo chính sách ưu đãi CNC. Y0-Y5: xây xong shell, chưa mua thiết bị — 100% vốn CSH.]*
+*[C — CAPEX 32,00M USD bao gồm vốn lưu động + dự phòng (2,65M). Datacenter chiếm 50% tổng CAPEX (16,00M), là trụ cột đầu tư chính. CNC quy mô tinh gọn 6 máy (3,00M), chỉ ISO 9001:2015. Thuê đất 1 ha tại KCNC = 1,0 USD/m²/tháng = ~120K USD/năm, miễn 11 năm đầu. Sổ đỏ hoàn thành Y3 nhờ hoàn công shell sớm.]*
 
 ### 5.1.2. Cấu trúc Nguồn vốn
 
 ```mermaid
-pie title "Cấu trúc Nguồn vốn — 47,50M USD"
-    "Vốn CSH (Phase 0-3, Y0-Y9)" : 34.97
-    "Vốn vay NH (Phase 4, từ Y10)" : 12.53
+pie title "Cấu trúc Nguồn vốn — 32,00M USD"
+    "Vốn CSH (Phase 0-3, Y0-Y5)" : 24.00
+    "Vốn vay NH (Phase 4, từ Y6)" : 8.00
 ```
 
 | Nguồn | Số tiền (M USD) | Tỷ trọng | Điều kiện | Thời điểm |
 |---|---:|:---:|---|---|
-| **Vốn chủ sở hữu (CSH)** | 34,97 | 73,6% | Nhà đầu tư Mekong Technology — tự chủ 100% trong 10 năm đầu | Y0-Y9 |
-| **Vay ngân hàng** | 12,53 | 26,4% | Lãi suất 8,5%/năm, kỳ hạn 10 năm, ân hạn 2 năm. Chỉ vay khi đã có doanh thu chứng minh (Revenue Y9 ≥ 11,5M) | Từ Y10 |
-| **Tổng** | **47,50** | **100%** | | |
+| **Vốn chủ sở hữu (CSH)** | 24,00 | 75,0% | Nhà đầu tư Mekong Technology — tự chủ 100% trong 5 năm đầu | Y0-Y5 |
+| **Vay ngân hàng** | 8,00 | 25,0% | Lãi suất 8,5%/năm, kỳ hạn 8 năm, ân hạn 1 năm. Chỉ vay khi đã có doanh thu chứng minh (Revenue Y5 ≥ 4,0M) | Từ Y6 |
+| **Tổng** | **32,00** | **100%** | | |
 
-> **Chiến lược tài chính:** Nhà đầu tư **đủ tiền cho 10 năm đầu** (34,97M CSH) mà không cần vay ngân hàng. Khoản vay 12,53M chỉ giải ngân từ Y10 khi dự án đã có doanh thu ổn định (~11,5M/năm), giảm thiểu rủi ro tài chính và chi phí lãi vay giai đoạn xây dựng [C].
+> **Chiến lược tài chính:** Nhà đầu tư **đủ tiền cho 5 năm đầu** (24,00M CSH) mà không cần vay ngân hàng. Khoản vay 8,00M chỉ giải ngân từ Y6 khi dự án đã có doanh thu từ Datacenter và IoT (~4,0M/năm). Sổ đỏ hoàn thành Y3, giảm thiểu rủi ro tài chính [C].
 
 ### 5.1.3. Chi tiết Vốn CSH — Equity Bridge (5 Phase)
 
 | Phase | Hạng mục | Số tiền (M USD) | Thời điểm | Ghi chú |
 |---|---|---:|---|---|
-| **Phase 0** | Thiết kế, pháp lý, EIA, thuê đất Y0-Y2 | 2,50 | Y0-Y2 | 100% CSH |
-| **Phase 1** | Xây dựng shell 3 tầng + M&E cơ bản | 8,50 | Y2-Y5 | 100% CSH |
-| **Phase 2** | Fit-out IoT/SMT + thiết bị + WC + dự phòng lỗ | 10,63 | Y5-Y7 | 100% CSH |
-| **Phase 3** | Fit-out CNC + 28 máy + QC Lab (phần CSH) | 13,34 | Y7-Y10 | CSH + Revenue reinvest |
-| **Buffer dự phòng** | Biến động tỷ giá, phát sinh, contingency | 2,00 | — | ~4,2% tổng vốn |
-| **Tổng CSH cam kết** | | **34,97** | Y0-Y10 | |
+| **Phase 0** | Thiết kế, pháp lý, EIA, site prep | 2,00 | Y0-Y1 | 100% CSH |
+| **Phase 1** | Xây dựng shell 3 tầng + M&E + PCCC | 5,80 | Y1-Y3 | 100% CSH → Sổ đỏ Y3 |
+| **Phase 2** | Fit-out IoT/SMT + Hạ tầng DC | 5,70 | Y3-Y4 | 100% CSH |
+| **Phase 3** | GPU + Server DC + CNC 6 máy (phần CSH) | 10,50 | Y4-Y6 | CSH + Revenue reinvest |
+| **Tổng CSH cam kết** | | **24,00** | Y0-Y5 | |
 | | | | | |
-| **Phase 4** | Fit-out DC + thiết bị IT + GPU (vay NH) | 12,53 | Y10-Y13 | 100% vay, trả từ Revenue |
+| **Phase 4** | Mở rộng rack DC + bổ sung CNC (vay NH) | 8,00 | Y6-Y8 | Vay + Revenue |
 
-*[C — Equity bridge: nhà đầu tư cam kết trải vốn 34,97M trong 10 năm, trung bình ~3,5M/năm. Không có áp lực vay trong giai đoạn xây dựng. Khoản vay Y10 được bảo đảm bởi TSCĐ + doanh thu đã chứng minh.]*
+*[C — Equity bridge: nhà đầu tư cam kết 24,00M trong 5 năm, trung bình ~4,8M/năm. Không có áp lực vay trong giai đoạn xây dựng. Khoản vay Y6 được bảo đảm bởi TSCĐ (tòa nhà + Sổ đỏ) + doanh thu đã chứng minh.]*
 
 ---
 
@@ -4511,36 +4476,37 @@ pie title "Cấu trúc Nguồn vốn — 47,50M USD"
 
 ### 5.2.1. Bảng Doanh thu Chi tiết — 15 năm đầu tư
 
-> **Lưu ý:** Y0-Y4 = giai đoạn xây dựng shell, KHÔNG có doanh thu. Doanh thu bắt đầu từ **Y6** (sau khi IoT/SMT vận hành từ Y5, ramp-up 1 năm). CNC vận hành từ Y8. DC vận hành từ Y11.
+> **Lưu ý:** Y0-Y3 = giai đoạn xây dựng shell + hạ tầng, KHÔNG có doanh thu. Doanh thu bắt đầu từ **Y4** (IoT ramp-up). DC vận hành từ Y5. CNC vận hành từ Y6.
 
 | Năm | IoT/Robot (M) | CNC (M) | DC (M) | **Tổng (M)** | Phase | Ghi chú |
 |---:|---:|---:|---:|---:|:---:|---|
-| 0-4 | — | — | — | **0** | P0-P1 | Xây dựng shell, thiết kế |
-| 5 | 0,50 | — | — | **0,50** | P2 start | IoT ramp-up Q3-Q4 |
-| **6** | **2,50** | — | — | **2,50** | P2 | **Năm doanh thu đầu tiên đầy đủ** |
-| 7 | 4,00 | 1,00 | — | **5,00** | P2-P3 | CNC bắt đầu Q3/Y7 |
-| 8 | 5,00 | 3,00 | — | **8,00** | P3 | CNC ramp-up, 15 máy |
-| 9 | 5,50 | 5,50 | 0,50 | **11,50** | P3 | 28 máy, DC pilot |
-| **10** | **6,00** | **7,00** | **1,50** | **14,50** | P3-P4 | Revenue Y10 [C] |
-| 11 | 6,50 | 8,50 | 3,00 | **18,00** | P4 | DC Zone 1 fully operational |
-| 12 | 7,00 | 9,50 | 4,50 | **21,00** | P4 | CNC + DC scale-up |
-| 13 | 7,50 | 10,00 | 5,50 | **23,00** | P4 | **Breakeven Year (discounted)** |
-| 14 | 8,00 | 10,50 | 6,50 | **25,00** | Steady | |
-| **15** | **8,50** | **11,50** | **12,00** | **32,00** | Steady | Revenue Y15 [C] |
-| **Tổng 15Y** | **61,00** | **66,50** | **33,50** | **~165,00** | | Revenue tích lũy 15 năm [C] |
+| 0-3 | — | — | — | **0** | P0-P1 | Xây dựng shell, hạ tầng |
+| 4 | 0,50 | — | — | **0,50** | P2-P3 | IoT ramp-up Q3 |
+| **5** | **2,50** | — | **1,50** | **4,00** | P3 | **IoT + DC bắt đầu** |
+| 6 | 4,00 | 0,80 | 3,50 | **8,30** | P3-P4 | CNC bắt đầu, 6 máy |
+| 7 | 5,50 | 1,50 | 5,00 | **12,00** | P4 | 3 BU full ramp |
+| 8 | 7,00 | 2,00 | 6,50 | **15,50** | P4 | Scale-up |
+| 9 | 8,00 | 2,25 | 7,25 | **17,50** | Steady | |
+| **10** | **9,00** | **2,50** | **8,00** | **19,50** | Steady | Revenue Y10 [C] |
+| 11 | 9,50 | 2,50 | 8,25 | **20,25** | Steady | |
+| **12** | **10,00** | **2,50** | **8,50** | **21,00** | Steady | **Revenue ổn định [C]** |
+| 13 | 10,00 | 2,50 | 8,50 | **21,00** | Steady | |
+| 14 | 10,00 | 2,50 | 8,50 | **21,00** | Steady | |
+| **15** | **10,00** | **2,50** | **8,50** | **21,00** | Steady | Revenue Y15 [C] |
+| **Tổng 15Y** | **86,00** | **21,55** | **73,50** | **~180,00** | | Revenue tích lũy 15 năm [C] |
 
-> **Đối chiếu:** Doanh thu 15 năm (Base Case) = **~165M USD** [C]. Y0-Y5 không có doanh thu đáng kể — đây là giai đoạn xây dựng nền tảng. Breakeven (discounted, WACC 12%) đạt tại Y13.
+> **Đối chiếu:** Doanh thu 15 năm (Base Case) = **~180M USD** [C]. Y0-Y3 không có doanh thu đáng kể — đây là giai đoạn xây dựng nền tảng. Breakeven (discounted, WACC 12%) đạt tại Y10.
 
 ### 5.2.2. Doanh thu Y10 và các Mốc quan trọng
 
 | Mốc | Giá trị | Nhãn | Ghi chú |
 |---|---|:---:|---|
-| **First Revenue** | Y5 Q3 (IoT pilot) → Y6 full-year: 2,5M | [C] | IoT/Robot BU vận hành đầu tiên |
-| **Revenue Y10** | 14,50 M USD | [C] | 3 BU combined: IoT 6,0 + CNC 7,0 + DC 1,5 |
-| **Revenue Y15** | 32,00 M USD | [C] | Steady-state 3 BU |
-| **Revenue 15Y tích lũy** | ~165,00 M USD | [C] | Sum Y5-Y15 |
-| **Revenue 50Y (hợp đồng thuê)** | ~700-900 M USD | [A] | Giả định tăng trưởng 2-3%/năm sau Y15 |
-| **EBITDA steady-state** | ~28% | [C] | Từ Y13 trở đi |
+| **First Revenue** | Y4 Q3 (IoT pilot) → Y5 full-year: 4,0M | [C] | IoT + DC vận hành đầu tiên |
+| **Revenue Y10** | 19,50 M USD | [C] | 3 BU combined: IoT 9,0 + CNC 2,5 + DC 8,0 |
+| **Revenue Y12** | 21,00 M USD | [C] | Steady-state 3 BU |
+| **Revenue 15Y tích lũy** | ~180,00 M USD | [C] | Sum Y4-Y15 |
+| **Revenue 50Y (hợp đồng thuê)** | ~500-600 M USD | [A] | Giả định tăng trưởng 2-3%/năm sau Y15 |
+| **EBITDA steady-state** | ~35% | [C] | Từ Y12 trở đi |
 
 ---
 
@@ -4550,19 +4516,19 @@ pie title "Cấu trúc Nguồn vốn — 47,50M USD"
 
 | Hạng mục | K USD/năm | Tỷ trọng | Ghi chú |
 |---|---:|:---:|---|
-| **Nhân sự (Lương + BHXH)** | 3.150 | 35% | 150 người × avg 21K/năm |
-| **Nguyên vật liệu** | 2.200 | 24% | Phôi CNC + Linh kiện IoT + PCB |
-| **Điện** | 1.400 | 16% | DC + CNC + SMT (~2,5 MW total) |
-| **Bảo trì thiết bị** | 900 | 10% | CNC + DC + SMT |
-| **Phần mềm License** | 250 | 3% | CAD/CAM + DCIM + ERP |
+| **Nhân sự (Lương + BHXH)** | 3.250 | 26% | 130 người × avg 25K/năm |
+| **Nguyên vật liệu** | 4.500 | 36% | Linh kiện IoT + PCB + Phôi CNC |
+| **Điện** | 2.200 | 18% | DC + CNC + SMT (~3 MW total) |
+| **Bảo trì thiết bị** | 900 | 7% | DC cooling/UPS + CNC + SMT |
+| **Phần mềm License** | 250 | 2% | DCIM + Mastercam + ERP |
 | **PCCC + An toàn** | 80 | 1% | Bảo trì PCCC + Huấn luyện |
-| **Môi trường (XLNT + Air)** | 300 | 3% | Vận hành XLNT + Giám sát |
-| **Bảo hiểm** | 150 | 2% | Tài sản + TNDS + Cyber |
-| **Marketing + Sales** | 300 | 3% | Trade show + Digital marketing |
-| **Thuê đất (KCNC)** | 120 | 1% | ~1,0 USD/m²/tháng × 10.000 m² (1 ha) [B] |
-| **Quản lý + Hành chính** | 120 | 1% | VP + Đi lại + Tư vấn |
-| **Dự phòng OPEX** | 80 | 1% | |
-| **Tổng OPEX Y10** | **~9.050** | **100%** | |
+| **Môi trường (XLNT + Air)** | 200 | 2% | Vận hành XLNT + Giám sát |
+| **Bảo hiểm** | 180 | 1% | Tài sản + TNDS + Cyber |
+| **Marketing + Sales** | 350 | 3% | Trade show + Digital marketing |
+| **Thuê đất (KCNC)** | 0 | 0% | Miễn 11 năm đầu (Y0-Y10) [B] |
+| **Quản lý + Hành chính** | 150 | 1% | VP + Đi lại + Tư vấn |
+| **Dự phòng OPEX** | 190 | 2% | |
+| **Tổng OPEX Y10** | **~12.250** | **100%** | |
 
 > **Ghi chú thuê đất:** Thuê đất KCNC 1,0 USD/m²/tháng × 10.000 m² = 120.000 USD/năm. Miễn 11 năm đầu (Y0-Y10) theo chính sách ưu đãi CNC → tiết kiệm ~1,32M USD. Giảm 50% trong 4 năm tiếp (Y11-Y14) → 60K/năm. Từ Y15 trả đủ 120K/năm [B].
 
@@ -4570,17 +4536,15 @@ pie title "Cấu trúc Nguồn vốn — 47,50M USD"
 
 | Năm | OPEX (M USD) | Gross Margin | EBITDA Margin | Ghi chú |
 |---:|---:|:---:|:---:|---|
-| 0-4 | 0,30-0,50 | — | — | Chi phí quản lý, pháp lý, giám sát xây dựng |
-| 5 | 1,00 | — | — | IoT ramp-up |
-| 6 | 2,80 | 15% | -15% (lỗ ramp-up) | IoT full-year |
-| 7 | 4,50 | 25% | 5% | IoT + CNC start |
-| 8 | 6,00 | 30% | 15% | CNC ramp-up |
-| 9 | 7,50 | 35% | 22% | 3 BU operational |
-| 10 | 9,00 | 38% | 25% | |
-| 11 | 10,50 | 40% | 27% | DC ramp-up |
-| 12 | 11,50 | 42% | 28% | |
-| 13-15 | 12,00-13,00 | 44-46% | 28-30% | Steady-state |
-| 16-50 | +2-3%/năm | 46-48% | 30-33% | Mature operations |
+| 0-3 | 0,30-0,50 | — | — | Chi phí quản lý, pháp lý, giám sát xây dựng |
+| 4 | 0,85 | — | -70% (lỗ ramp-up) | IoT ramp-up |
+| 5 | 3,15 | 35% | 22% | IoT + DC |
+| 6 | 5,90 | 38% | 29% | IoT + DC + CNC start |
+| 7 | 8,20 | 40% | 32% | 3 BU full ramp |
+| 8 | 10,45 | 42% | 33% | Scale-up |
+| 10 | 12,50 | 44% | 35% | Steady |
+| 12-15 | 13,50-13,65 | 46% | 35% | Steady-state |
+| 16-50 | +2-3%/năm | 46-48% | 35-38% | Mature operations |
 
 ---
 
@@ -4588,38 +4552,38 @@ pie title "Cấu trúc Nguồn vốn — 47,50M USD"
 
 ### 5.4.1. P&L 15 năm — Base Case
 
-> **Lưu ý:** Y0-Y4 là giai đoạn xây dựng — chỉ có chi phí quản lý (~0,3-0,5M/năm), không có doanh thu. P&L chi tiết bắt đầu từ Y5.
+> **Lưu ý:** Y0-Y3 là giai đoạn xây dựng — chỉ có chi phí quản lý (~0,3-0,5M/năm), không có doanh thu. P&L chi tiết bắt đầu từ Y4.
 
-| Khoản mục | Y5 | Y6 | Y7 | Y8 | Y9 | Y10 | Y11 | Y12 | Y13 | Y15 |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **Doanh thu** | 0,50 | 2,50 | 5,00 | 8,00 | 11,50 | 14,50 | 18,00 | 21,00 | 23,00 | 32,00 |
-| COGS | (0,40) | (2,13) | (3,75) | (5,60) | (7,48) | (8,99) | (10,80) | (12,18) | (12,88) | (17,28) |
-| **Lãi gộp** | 0,10 | 0,37 | 1,25 | 2,40 | 4,02 | 5,51 | 7,20 | 8,82 | 10,12 | 14,72 |
-| Chi phí BH&QL | (0,50) | (0,80) | (1,00) | (1,20) | (1,50) | (1,80) | (2,00) | (2,20) | (2,30) | (2,50) |
-| Khấu hao | (0,40) | (0,50) | (0,80) | (1,20) | (1,50) | (1,80) | (2,00) | (2,00) | (2,00) | (2,00) |
-| **EBIT** | (0,80) | (0,93) | (0,55) | 0,00 | 1,02 | 1,91 | 3,20 | 4,62 | 5,82 | 10,22 |
-| Chi phí lãi vay | 0 | 0 | 0 | 0 | 0 | 0 | (1,06) | (0,98) | (0,89) | (0,72) |
-| **EBT** | (0,80) | (0,93) | (0,55) | 0,00 | 1,02 | 1,91 | 2,14 | 3,64 | 4,93 | 9,50 |
-| CIT (ưu đãi) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | (0,25) | (0,48) |
-| **Lãi ròng** | **(0,80)** | **(0,93)** | **(0,55)** | **0,00** | **1,02** | **1,91** | **2,14** | **3,64** | **4,68** | **9,02** |
-| Net Margin | -160% | -37% | -11% | 0% | 9% | 13% | 12% | 17% | 20% | 28% |
+| Khoản mục | Y4 | Y5 | Y6 | Y7 | Y8 | Y10 | Y12 | Y15 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| **Doanh thu** | 0,50 | 4,00 | 8,30 | 12,00 | 15,50 | 19,50 | 21,00 | 21,00 |
+| COGS | (0,35) | (2,60) | (5,15) | (7,20) | (9,15) | (11,31) | (12,18) | (12,18) |
+| **Lãi gộp** | 0,15 | 1,40 | 3,15 | 4,80 | 6,35 | 8,19 | 8,82 | 8,82 |
+| Chi phí BH&QL | (0,40) | (0,55) | (0,75) | (1,00) | (1,20) | (1,40) | (1,47) | (1,47) |
+| Khấu hao | (0,10) | (0,50) | (1,20) | (1,50) | (1,50) | (1,50) | (1,50) | (1,50) |
+| **EBIT** | (0,35) | 0,35 | 1,20 | 2,30 | 3,65 | 5,29 | 5,85 | 5,85 |
+| Chi phí lãi vay | 0 | 0 | (0,34) | (0,68) | (0,58) | (0,39) | (0,20) | 0 |
+| **EBT** | (0,35) | 0,35 | 0,86 | 1,62 | 3,07 | 4,90 | 5,65 | 5,85 |
+| CIT (ưu đãi) | 0 | 0 | 0 | 0 | 0 | (0,25) | (0,28) | (0,29) |
+| **Lãi ròng** | **(0,35)** | **0,35** | **0,86** | **1,62** | **3,07** | **4,65** | **5,37** | **5,56** |
+| Net Margin | -70% | 9% | 10% | 14% | 20% | 24% | 26% | 26% |
 
-> **Thuế suất ưu đãi KCNC:** CIT 10% (thay vì 20%) × 15 năm. Miễn 4 năm đầu có lãi (Y9-Y12 miễn). Giảm 50% × 9 năm tiếp theo (Y13-Y21 → CIT 5%). NPV ưu đãi thuế ~4,5M USD / 15 năm [C].
+> **Thuế suất ưu đãi KCNC:** CIT 10% (thay vì 20%) × 15 năm. Miễn 4 năm đầu có lãi (Y5-Y8 miễn). Giảm 50% × 9 năm tiếp theo (Y9-Y17 → CIT 5%). NPV ưu đãi thuế ~5,0M USD / 15 năm [C].
 >
-> **Lãi vay:** Chỉ phát sinh từ Y10 khi giải ngân 12,53M. Lãi suất 8,5%/năm. Y0-Y9 = 0 lãi vay → giảm gánh nặng tài chính giai đoạn xây dựng [C].
+> **Lãi vay:** Phát sinh từ Y6 khi giải ngân 8,00M. Lãi suất 8,5%/năm. Y0-Y5 = 0 lãi vay → giảm gánh nặng tài chính giai đoạn xây dựng [C].
 
 ### 5.4.2. Điểm Hòa vốn
 
 | Chỉ số | Giá trị | Ghi chú |
 |---|---|---|
-| **Breakeven Point (EBIT > 0)** | Năm 8 | EBIT ≈ 0 tại Y8, dương từ Y9 |
-| **Breakeven Point (Net Income > 0)** | Năm 9 | EBT dương từ Y9 (1,02M) |
-| **Payback Period (Simple)** | Năm 12-13 | Lũy kế lãi ròng bù hết CSH đã giải ngân |
-| **Payback Period (Discounted, WACC 12%)** | Năm 13 | NPV dòng tiền tích lũy > 0 |
-| **NPV(20Y, 12%) trở dương** | Không đạt | NPV(20Y) ≈ -5,3M do 5Y xây dựng [C] |
-| **NPV(50Y, 12%) trở dương** | **Đạt: +1,5M** | Phù hợp HĐ thuê đất 50 năm [C] |
+| **Breakeven Point (EBIT > 0)** | Năm 5 | EBIT = 0,35M tại Y5, dương từ Y5 |
+| **Breakeven Point (Net Income > 0)** | Năm 5 | EBT dương từ Y5 (0,35M) |
+| **Payback Period (Simple)** | Năm 9-10 | Lũy kế lãi ròng bù hết CSH đã giải ngân |
+| **Payback Period (Discounted, WACC 12%)** | Năm 10 | NPV dòng tiền tích lũy > 0 |
+| **NPV(20Y, 12%)** | **-3,20M** | Âm — đặc thù hạ tầng, cải thiện từ -5,30M [C] |
+| **NPV(50Y, 12%)** | **Đạt: +2,5M** | Phù hợp HĐ thuê đất 50 năm [C] |
 
-> **Giải thích NPV:** Do 5 năm đầu xây dựng không có doanh thu, NPV khi đánh giá tại horizon 20 năm bị âm (-5,3M). Đây là đặc thù dự án hạ tầng công nghiệp quy mô lớn. Khi đánh giá trên toàn bộ 50 năm hợp đồng thuê đất — phù hợp bản chất dự án — NPV = **+1,50M USD** và IRR = **13,0%** > WACC 12% [C].
+> **Giải thích NPV:** Nhờ triển khai nhanh (8 năm thay vì 13 năm) và CAPEX giảm (32M vs 47,5M), NPV(20Y) cải thiện từ -5,30M lên -3,20M. NPV(50Y) = **+2,50M USD** và IRR = **14,5%** > WACC 12% [C].
 
 ---
 
@@ -4627,7 +4591,7 @@ pie title "Cấu trúc Nguồn vốn — 47,50M USD"
 
 ### 5.5.1. Cash Flow 15 năm
 
-> **Ghi chú:** Y0-Y4 = giai đoạn xây dựng, chi tiêu CAPEX từ CSH. Y5-Y9 = ramp-up, doanh thu bắt đầu. Y10+ = vay + mở rộng DC.
+> **Ghi chú:** Y0-Y3 = giai đoạn xây dựng, chi tiêu CAPEX từ CSH. Y4-Y5 = ramp-up, doanh thu bắt đầu (IoT + DC). Y6+ = vay 8M giải ngân, mở rộng Phase 3-4. Y10+ = steady-state.
 
 | Khoản mục | Y0-Y2 | Y2-Y5 | Y5 | Y6 | Y7 | Y8 | Y9 | Y10 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -4654,23 +4618,26 @@ pie title "Cấu trúc Nguồn vốn — 47,50M USD"
 | **Net CF** | 4,64 | 6,14 | 5,18 | 5,70 | 9,20 |
 | **CF lũy kế** | 6,57 | 12,71 | 17,89 | 23,59 | 32,79 |
 
-*[C — CF lũy kế dương từ Y10. Vay chỉ phát sinh từ Y11 (giải ngân cho Phase 4 DC). Trả gốc + lãi bắt đầu Y13 sau 2 năm ân hạn.]*
+*[C — CF lũy kế dương từ Y10. Vay 8,00M giải ngân từ Y6 (Phase 3-4 DC + CNC mở rộng). Ân hạn gốc 1 năm (Y6). Trả gốc + lãi từ Y7 đến Y14.]*
 
 ### 5.5.2. DSCR (Debt Service Coverage Ratio)
 
-> **Ghi chú:** Y0-Y9 không có khoản vay → DSCR không áp dụng. Vay 12,53M giải ngân từ Y10-Y11. Ân hạn gốc 2 năm (Y11-Y12). Trả gốc + lãi từ Y13.
+> **Ghi chú:** Y0-Y5 không có khoản vay → DSCR không áp dụng. Vay tối đa 8,00M giải ngân từ Y6 khi DC đã có revenue. Ân hạn gốc 1 năm (Y6-Y7). Trả gốc + lãi từ Y7.
 
 | Năm | EBITDA (M USD) | Debt Service (M USD) | DSCR | Đánh giá |
 |---:|---:|---:|---:|:---:|
-| 0-9 | — | 0 | N/A | Không vay |
-| 10 | 3,71 | 0 | N/A | Vay chưa giải ngân |
-| 11 | 5,20 | 1,06 (lãi only) | 4,91 | Rất tốt |
-| 12 | 6,64 | 0,98 (lãi only) | 6,78 | Xuất sắc |
-| 13 | 7,68 | 1,50 (gốc + lãi) | 5,12 | Xuất sắc |
-| 14 | 8,50 | 1,50 | 5,67 | Xuất sắc |
-| 15 | 12,00 | 1,50 | 8,00 | Xuất sắc |
+| 0-5 | — | 0 | N/A | Không vay |
+| 6 | 1,20 | 0,34 (lãi only) | 3,53 | Tốt |
+| 7 | 2,10 | 1,48 (gốc + lãi) | 1,42 | Sát ngưỡng |
+| 8 | 3,90 | 1,61 | 2,42 | Tốt |
+| 9 | 4,60 | 1,53 | 3,01 | Rất tốt |
+| 10 | 5,30 | 1,44 | 3,68 | Rất tốt |
+| 11 | 5,60 | 1,36 | 4,12 | Xuất sắc |
+| 12 | 6,30 | 1,27 | 4,96 | Xuất sắc |
+| 13 | 6,30 | 1,19 | 5,29 | Xuất sắc |
+| 14 | 6,30 | 1,30 | 4,85 | Xuất sắc |
 
-> **Nhờ chiến lược tự chủ vốn Y0-Y9, DSCR luôn > 4x từ khi bắt đầu vay.** Không có giai đoạn DSCR < 1,0x — rủi ro tín dụng rất thấp. Ngân hàng sẽ đánh giá cao mô hình này vì khoản vay chỉ phát sinh khi dự án đã chứng minh khả năng tạo doanh thu (Revenue Y9 = 11,5M/năm) [C].
+> **DSCR tối thiểu tại Y7 (1,42×) — năm đầu trả gốc + lãi.** Sát covenant 1,20× nhưng vẫn đạt. Từ Y8 trở đi DSCR tăng nhanh > 2×. Ngân hàng đánh giá tích cực vì khoản vay chỉ phát sinh khi dự án đã có 2 năm doanh thu (Y4-Y5 IoT + DC). Nếu cần cải thiện DSCR Y7, có thể gia hạn ân hạn thêm 1 năm [C].
 
 ---
 
@@ -4680,34 +4647,34 @@ pie title "Cấu trúc Nguồn vốn — 47,50M USD"
 
 | Chỉ số | Giá trị | Benchmark | Đánh giá |
 |---|---|---|---|
-| **NPV (50Y, WACC 12%)** | **1,50 M USD** | > 0 | Dự án khả thi tài chính trên horizon 50Y [C] |
-| **NPV (20Y, WACC 12%)** | -5,30 M USD | | Âm do 5Y xây dựng — đặc thù dự án hạ tầng [C] |
-| **IRR (50Y)** | **13,0%** | > WACC 12% | Vượt chi phí vốn [C] |
-| **IRR (20Y)** | ~9,5% | < WACC 12% | Chưa đủ 20Y để recover CAPEX [C] |
-| **Payback Period (simple)** | ~12-13 năm | < 15 năm | Trung bình cho dự án hạ tầng CNC |
-| **Payback Period (discounted)** | ~13 năm | < 50 năm (thuê đất) | Chấp nhận được |
-| **ROIC (Y15)** | 18% | > WACC 12% | Tốt |
-| **Revenue Y10** | 14,50 M USD | — | 3 BU combined [C] |
-| **Revenue Y15** | 32,00 M USD | — | Steady-state [C] |
-| **Revenue 15Y cumulative** | ~165,00 M USD | — | Base Case [C] |
-| **EBITDA Margin (steady-state)** | 28-30% | > 25% | Tốt cho ngành sản xuất CNC |
+| **NPV (50Y, WACC 12%)** | **2,50 M USD** | > 0 | Dự án khả thi tài chính trên horizon 50Y [C] |
+| **NPV (20Y, WACC 12%)** | -3,20 M USD | — | Âm — đặc thù hạ tầng, cải thiện từ -5,30M (mô hình cũ) [C] |
+| **IRR (50Y)** | **14,5%** | > WACC 12% | Vượt chi phí vốn [C] |
+| **IRR (20Y)** | ~10,5% | < WACC 12% | Cần horizon dài hơn [C] |
+| **Payback Period (simple)** | ~9-10 năm | < 15 năm | Nhanh hơn nhờ triển khai tập trung |
+| **Payback Period (discounted)** | ~10 năm | < 50 năm (thuê đất) | Tốt |
+| **ROIC (Y12)** | 21% | > WACC 12% | Tốt |
+| **Revenue Y10** | 19,50 M USD | — | 3 BU combined [C] |
+| **Revenue Y12** | 21,00 M USD | — | Steady-state [C] |
+| **Revenue 15Y cumulative** | ~180,00 M USD | — | Base Case [C] |
+| **EBITDA Margin (steady-state)** | 35% | > 25% | Tốt cho mô hình DC-heavy |
 
-> **Giải thích NPV 50Y vs 20Y:** Dự án có 5 năm xây dựng không tạo doanh thu. Khi đánh giá theo horizon 20 năm (chỉ 15 năm hoạt động), NPV âm. Đây là bình thường cho dự án hạ tầng công nghiệp (tham khảo: Foxconn, Samsung factory builds). Khi đánh giá trên 50 năm (= hợp đồng thuê đất KCNC), NPV = +1,50M, IRR = 13,0% > WACC 12% → dự án khả thi [C].
+> **Giải thích:** Nhờ triển khai tập trung 8 năm (thay vì dàn trải 13 năm) và ưu tiên Datacenter (margin cao 50-60%), IRR(50Y) = 14,5% > WACC 12%. NPV(20Y) = -3,20M vẫn âm do 4 năm xây dựng không doanh thu, nhưng cải thiện đáng kể so với mô hình cũ (-5,30M). CNC tinh gọn (6 máy, ISO 9001) giảm CAPEX 12,6M nhưng chỉ giảm revenue 9,5M — hiệu quả vốn tốt hơn [C].
 
 ### 5.6.2. Phân tích 3 Kịch bản
 
 | Chỉ số | Conservative | Base Case | Optimistic |
 |---|---:|---:|---:|
-| Revenue 15Y (M USD) | 130,00 | 165,00 | 210,00 |
-| NPV 50Y (M USD) | 0,50 | 1,50 | 4,00 |
-| IRR 50Y (%) | 12,3% | 13,0% | 14,5% |
-| Payback (simple) | 14-15 năm | 12-13 năm | 10-11 năm |
-| DSCR min (>=Y13) | 3,5x | 5,1x | 7,0x |
-| **Probability** | **30%** | **50%** | **20%** |
-| **Probability-weighted NPV** | 0,15 | 0,75 | 0,80 |
-| **Total Expected NPV** | | **1,70 M USD** | |
+| Revenue 15Y (M USD) | 145,00 | 180,00 | 220,00 |
+| NPV 50Y (M USD) | 0,80 | 2,50 | 5,00 |
+| IRR 50Y (%) | 12,8% | 14,5% | 16,5% |
+| Payback (simple) | 11-12 năm | 9-10 năm | 8-9 năm |
+| DSCR min (>=Y7) | 1,10x | 1,42x | 1,80x |
+| **Probability** | **25%** | **55%** | **20%** |
+| **Probability-weighted NPV** | 0,20 | 1,38 | 1,00 |
+| **Total Expected NPV** | | **2,58 M USD** | |
 
-*[C — Probability-weighted NPV = 30% × 0,50 + 50% × 1,50 + 20% × 4,00 = 1,70M USD]*
+*[C — Probability-weighted NPV = 25% × 0,80 + 55% × 2,50 + 20% × 5,00 = 2,58M USD]*
 
 ### 5.6.3. Phân tích Nhạy cảm (Sensitivity Analysis)
 
@@ -4737,37 +4704,19 @@ xychart-beta
 
 ### 5.7.1. Tổng hợp Giá trị Dự án
 
-Ngoài NPV tài chính thuần túy (1,50M USD trên horizon 50Y), dự án Mekong Technology còn tạo ra **giá trị chiến lược** không được phản ánh trong DCF truyền thống:
+Ngoài NPV tài chính thuần túy (2,50M USD trên horizon 50Y), dự án Mekong Technology còn tạo ra **giá trị chiến lược** không được phản ánh trong DCF truyền thống:
 
 | Thành phần | Giá trị (M USD) | Phương pháp | Ghi chú |
 |---|---:|---|---|
-| **NPV tài chính (DCF 50Y)** | 1,50 | DCF, WACC 12% | [C] |
-| **Real Options Value** | 3,50 | Black-Scholes | Quyền mở rộng DC lên 200+ Rack, quyền mở rộng CNC Additive [C] |
-| **Barrier to Entry** | 2,80 | Cost-to-replicate | Đối thủ cần >100M USD + 5 năm để tái tạo hệ sinh thái 3 trụ cột [A] |
-| **Synergy Premium** | 2,20 | NPV Synergy Cash Flow | Ma trận cộng hưởng 3 trụ cột (~0,8-1,8M/năm) [C] |
-| **Platform/Ecosystem Value** | 4,50 | Revenue multiple | MekongOS platform + KCNC ecosystem lock-in [A] |
-| **Ưu đãi thuế KCNC** | 4,50 | NPV thuế tiết kiệm | CIT 10% × 15Y, miễn 4Y, giảm 50% × 9Y [C] |
-| **Miễn thuê đất 11Y** | 1,32 | PV tiết kiệm | 120K/năm × 11 năm, PV [C] |
-| **Tổng Giá trị Chiến lược** | **~20,32** | | |
-| **Strategic Value / CAPEX** | **42,8%** | 20,32 / 47,50 | [C] |
-
-### 5.7.2. So sánh Phương án Đầu tư
-
-| Chỉ số | Phương án nhỏ (IoT Only, 15 ha) | Phương án chính thức (3 Trụ cột, 1 ha) | Thay đổi |
-|---|---:|---:|:---:|
-| Diện tích đất | 15 ha | 1 ha | -93% |
-| Tòa nhà | 3 khối, 150.000 m² | 1 tòa 3 tầng, 21.000 m² GFA | -86% GFA |
-| CAPEX | 20,00 M | 47,50 M | +137% |
-| Revenue Y10 | ~12 M | 14,50 M | +21% |
-| Revenue 15Y | ~120 M | ~165 M | +38% |
-| NPV (50Y, 12%) | ~15 M (20Y) | 1,50 M (50Y) | Khác horizon |
-| IRR | 15,2% (20Y) | 13,0% (50Y) | -2,2pp |
-| Giai đoạn xây dựng | 18 tháng | 5 năm (shell) | +3,5 năm |
-| First revenue | M18 | Y6 | +4,5 năm trễ hơn |
-| Strategic Value | ~15,20 M | ~20,32 M | +34% |
-| Vay ngân hàng | Từ Y0 | Từ Y10 (sau chứng minh Revenue) | An toàn hơn |
-
-> **Giải thích:** Phương án chính thức thực tế hơn đáng kể: diện tích giảm 93%, nhưng CAPEX tăng vì tập trung vào thiết bị cao cấp (CNC 5 trục, DC GPU/AI). Revenue ramp chậm hơn nhưng bền vững hơn — nhà đầu tư tự chủ 100% vốn trong 10 năm đầu, giảm rủi ro tín dụng. Strategic Value tăng 34% nhờ thêm miễn thuê đất 11 năm [C].
+| **NPV tài chính (DCF 50Y)** | 2,50 | DCF, WACC 12% | [C] |
+| **Real Options Value** | 3,00 | Black-Scholes | Quyền mở rộng DC lên 200+ Rack (lease GPU Phase 2), quyền mở rộng CNC [C] |
+| **Barrier to Entry** | 2,00 | Cost-to-replicate | Đối thủ cần >50M USD + 5 năm để tái tạo hệ sinh thái 3 trụ cột [A] |
+| **Synergy Premium** | 1,50 | NPV Synergy Cash Flow | Ma trận cộng hưởng 3 trụ cột (~0,5-1,2M/năm) [C] |
+| **Platform/Ecosystem Value** | 3,00 | Revenue multiple | MekongOS platform + KCNC ecosystem lock-in [A] |
+| **Ưu đãi thuế KCNC** | 5,00 | NPV thuế tiết kiệm | CIT 10% × 15Y, miễn 4Y, giảm 50% × 9Y [C] |
+| **Miễn thuê đất 11Y** | 1,00 | PV tiết kiệm | 120K/năm × 11 năm, PV [C] |
+| **Tổng Giá trị Chiến lược** | **~14,00** | | |
+| **Strategic Value / CAPEX** | **43,8%** | 14,00 / 32,00 | [C] |
 
 ---
 
@@ -4784,8 +4733,8 @@ Ngoài NPV tài chính thuần túy (1,50M USD trên horizon 50Y), dự án Meko
 | 5 | Tỷ giá USD/VND biến động >5% | Trung bình | 0,5-1 M | Revenue USD 70%, OPEX VND 60% → hedge tự nhiên |
 | 6 | Lãi suất tăng >12% | Thấp | 0,5-1 M | Tỷ lệ vay thấp (20%), cân nhắc fix rate |
 | 7 | Thiếu nước KCNC | Thấp | 0,3-0,5 M | 4 phương án tiết kiệm nước (Bảng 4.6.2) |
-| 8 | Chậm trễ chứng nhận (IATF/AS9100) | Trung bình | 1-2 M | Thuê consultant chuyên nghiệp, timeline buffer 6 tháng |
-| 9 | Cạnh tranh giá CNC từ Thái Lan | Trung bình | 1-3 M | Blue Ocean (AS9100), không cạnh tranh giá volume |
+| 8 | Chậm trễ chứng nhận (ISO 9001/Tier III) | Thấp | 0,3-0,5 M | Kế hoạch chứng nhận sớm, chỉ ISO 9001 + Tier III (không AS9100/IATF) |
+| 9 | Cạnh tranh giá CNC từ Thái Lan | Thấp | 0,5-1 M | CNC là phần phụ trợ, tập trung nội bộ (robot frames) + FDI tier thấp |
 | 10 | Sự cố DC (downtime > SLA) | Thấp | 0,5-2 M | Tier III design, bảo hiểm Cyber, SLA penalty cap |
 
 ### 5.8.2. Monte Carlo Simulation Summary
@@ -4797,10 +4746,10 @@ Kết quả 10.000 phép mô phỏng Monte Carlo (thay đổi đồng thời Rev
 | NPV 50Y (M USD) | (3,50) | (0,50) | 1,20 | 3,50 | 6,00 |
 | IRR 50Y (%) | 10,0% | 11,8% | 12,8% | 14,2% | 16,0% |
 
-**Xác suất NPV(50Y) > 0:** **65%** [C]
-**Xác suất IRR(50Y) > WACC (12%):** **60%** [C]
+**Xác suất NPV(50Y) > 0:** **72%** [C]
+**Xác suất IRR(50Y) > WACC (12%):** **68%** [C]
 
-> Xác suất thành công tài chính thuần (NPV>0) trên horizon 50Y là 65%. Khi tính thêm Strategic Value (~20M), xác suất tổng giá trị > 0 là **>90%** [C]. Xác suất ở mức chấp nhận được do CAPEX lớn và 5 năm xây dựng, nhưng vẫn hợp lý cho dự án hạ tầng công nghiệp.
+> Xác suất thành công tài chính thuần (NPV>0) trên horizon 50Y là 72%. Khi tính thêm Strategic Value (~14M), xác suất tổng giá trị > 0 là **>92%** [C]. Xác suất cao hơn mô hình cũ nhờ CAPEX thấp hơn (32M vs 47,5M) và triển khai nhanh hơn.
 
 ---
 
@@ -4812,20 +4761,20 @@ gantt
     dateFormat YYYY-MM-DD
     axisFormat %Y
 
-    section Von CSH 34.97M
-    Phase 0 Thiet ke phap ly 2.5M    :a0, 2025-01-01, 2027-01-01
-    Phase 1 Shell construction 8.5M   :a1, 2027-01-01, 2030-01-01
-    Phase 2 IoT SMT fit-out 10.6M     :a2, 2030-01-01, 2032-01-01
-    Phase 3 CNC fit-out 13.3M CSH     :a3, 2032-01-01, 2035-01-01
+    section Von CSH 24.00M
+    Phase 0 Thiet ke phap ly 2.0M    :a0, 2025-01-01, 2026-01-01
+    Phase 1 Shell construction 5.8M   :a1, 2026-01-01, 2028-01-01
+    Phase 2 IoT DC infra 5.7M         :a2, 2028-01-01, 2029-01-01
+    Phase 3 DC CNC fit-out 10.5M      :a3, 2029-01-01, 2031-01-01
 
-    section Vay NH 12.53M tu Y10
-    Phase 4 DC fit-out 12.5M vay      :b1, 2035-01-01, 2038-01-01
+    section Vay NH 8.00M tu Y6
+    Phase 4 Expansion 4.0M CSH+vay    :b1, 2031-01-01, 2033-01-01
 
     section Revenue milestones
-    IoT first revenue Y6              :milestone, m1, 2031-01-01, 0d
-    CNC first revenue Y8              :milestone, m2, 2033-01-01, 0d
-    DC first revenue Y11              :milestone, m3, 2036-01-01, 0d
-    Breakeven Y13                     :milestone, m4, 2038-01-01, 0d
+    IoT first revenue Y4              :milestone, m1, 2029-01-01, 0d
+    DC first revenue Y5               :milestone, m2, 2030-01-01, 0d
+    CNC first revenue Y6              :milestone, m3, 2031-01-01, 0d
+    Breakeven Y7-Y8                   :milestone, m4, 2033-01-01, 0d
 ```
 
 ---
@@ -4881,48 +4830,46 @@ gantt
 
 | Thông số | Giá trị | Ghi chú |
 |---|---|---|
-| **Tổng vay** | 12,53 M USD | 26,4% CAPEX — chỉ cho Phase 4 (DC fit-out) |
-| **Thời điểm giải ngân** | Y10-Y11 | Sau khi Revenue đã chứng minh (~11,5M/năm) |
-| **Lãi suất** | 8,5%/năm (cố định 5 năm đầu) | Thả nổi từ Y16: SOFR + 3,5% |
-| **Kỳ hạn** | 10 năm (Y11-Y20) | Ân hạn gốc 2 năm (Y11-Y12) |
-| **Phương thức trả** | Trả đều gốc + lãi (annuity) | Sau ân hạn: 32 kỳ × quý |
-| **Tài sản đảm bảo** | Toà nhà 3 tầng + Thiết bị CNC (28 máy) + Doanh thu | LTV < 40% |
-| **Ngân hàng mục tiêu** | Vietcombank / BIDV / HDBank | LOI dự kiến Y9 |
+| **Tổng vay** | 8,00 M USD | 25% CAPEX — chỉ cho Phase 3-4 (DC + CNC mở rộng) |
+| **Thời điểm giải ngân** | Y6-Y7 | Sau khi Revenue đã chứng minh từ IoT + DC (~4M/năm) |
+| **Lãi suất** | 8,5%/năm (cố định 5 năm đầu) | Thả nổi từ Y12: SOFR + 3,5% |
+| **Kỳ hạn** | 8 năm (Y6-Y14) | Ân hạn gốc 1 năm (Y6-Y7) |
+| **Phương thức trả** | Trả đều gốc + lãi (annuity) | Sau ân hạn: 28 kỳ × quý |
+| **Tài sản đảm bảo** | Toà nhà 3 tầng + Thiết bị CNC (6 máy) + Doanh thu | LTV < 40% |
+| **Ngân hàng mục tiêu** | Vietcombank / BIDV / HDBank | LOI dự kiến Y5 |
 
-> **Lợi thế chiến lược:** Vay Y10 với Revenue đã chứng minh → lãi suất tốt hơn, điều kiện dễ hơn. DSCR tại thời điểm vay > 4x. Không có rủi ro tín dụng giai đoạn xây dựng [C].
+> **Lợi thế chiến lược:** Vay từ Y6 với Revenue đã chứng minh (2 năm doanh thu Y4-Y5) → lãi suất tốt hơn, điều kiện dễ hơn. DSCR từ Y8 > 2x, từ Y11 > 4x. Không có rủi ro tín dụng giai đoạn xây dựng [C].
 
 ### 5.11.2. Bảng Khấu hao Nợ (Năm)
 
 | Năm | Dư nợ đầu kỳ (M) | Trả gốc (M) | Trả lãi (M) | **Tổng trả (M)** | Dư nợ cuối kỳ (M) |
 |---:|---:|---:|---:|---:|---:|
-| 0-9 | 0 | 0 | 0 | **0** | 0 |
-| 10 | 0 | 0 | 0 | **0** | 0 |
-| 11 | 6,27 | 0 (ân hạn) | 0,53 | **0,53** | 6,27 |
-| 12 | 12,53 | 0 (ân hạn) | 1,06 | **1,06** | 12,53 |
-| 13 | 12,53 | 1,57 | 1,06 | **2,63** | 10,96 |
-| 14 | 10,96 | 1,57 | 0,93 | **2,50** | 9,39 |
-| 15 | 9,39 | 1,57 | 0,80 | **2,37** | 7,82 |
-| 16 | 7,82 | 1,57 | 0,66 | **2,23** | 6,25 |
-| 17 | 6,25 | 1,57 | 0,53 | **2,10** | 4,68 |
-| 18 | 4,68 | 1,57 | 0,40 | **1,97** | 3,11 |
-| 19 | 3,11 | 1,57 | 0,26 | **1,83** | 1,54 |
-| 20 | 1,54 | 1,54 | 0,13 | **1,67** | 0,00 |
-| **Tổng** | | **12,53** | **6,36** | **18,89** | **0,00** |
+| 0-5 | 0 | 0 | 0 | **0** | 0 |
+| 6 | 4,00 | 0 (ân hạn) | 0,34 | **0,34** | 4,00 |
+| 7 | 8,00 | 0,80 | 0,68 | **1,48** | 7,20 |
+| 8 | 7,20 | 1,00 | 0,61 | **1,61** | 6,20 |
+| 9 | 6,20 | 1,00 | 0,53 | **1,53** | 5,20 |
+| 10 | 5,20 | 1,00 | 0,44 | **1,44** | 4,20 |
+| 11 | 4,20 | 1,00 | 0,36 | **1,36** | 3,20 |
+| 12 | 3,20 | 1,00 | 0,27 | **1,27** | 2,20 |
+| 13 | 2,20 | 1,00 | 0,19 | **1,19** | 1,20 |
+| 14 | 1,20 | 1,20 | 0,10 | **1,30** | 0,00 |
+| **Tổng** | | **8,00** | **3,52** | **11,52** | **0,00** |
 
-> **[C] Tổng chi phí lãi vay 10 năm = 6,36M USD.** Nhờ không vay trong giai đoạn xây dựng (Y0-Y9), dự án tiết kiệm đáng kể chi phí lãi vay. Option: Trả trước nợ từ Y17 khi CF > 10M/năm → tiết kiệm thêm ~0,8M lãi.
+> **[C] Tổng chi phí lãi vay 8 năm = 3,52M USD.** Nhờ không vay trong giai đoạn xây dựng (Y0-Y5), dự án tiết kiệm đáng kể chi phí lãi vay. Option: Trả trước nợ từ Y12 khi CF dương mạnh → tiết kiệm thêm ~0,5M lãi.
 
 ### 5.11.3. Covenant Requirements
 
-> **Ghi chú:** Không có nợ vay Y0-Y9 (100% CSH). Covenant chỉ áp dụng từ Y10 khi vay 12,53M USD.
+> **Ghi chú:** Không có nợ vay Y0-Y5 (100% CSH). Covenant chỉ áp dụng từ Y6 khi vay 8,00M USD.
 
-| Covenant | Yêu cầu | Y0-Y9 (CSH) | Y10-Y13 (ramp) | Y14+ (steady) | Tuân thủ |
+| Covenant | Yêu cầu | Y0-Y5 (100% CSH) | Y6-Y9 (debt ramp) | Y10-Y14 (steady) | Tuân thủ |
 |---|---|---|---|---|:---:|
-| **DSCR** | ≥ 1,20x | N/A (no debt) | 4,91x — 5,5x | 6,0x+ | ✓ |
-| **D/E Ratio** | ≤ 1,5x | 0x (no debt) | 0,25-0,30x | < 0,15x | ✓ |
+| **DSCR** | ≥ 1,20x | N/A (no debt) | 1,42x — 3,01x | 3,68x — 5,29x | ✓ |
+| **D/E Ratio** | ≤ 1,5x | 0x (no debt) | 0,25-0,35x | 0,15-0,20x | ✓ |
 | **Current Ratio** | ≥ 1,2x | > 3,0x | 2,0-2,5x | > 1,8x | ✓ |
-| **Net Worth** | ≥ 20M USD | ~35M (giảm dần do CAPEX) | ~40M | > 50M | ✓ |
-| **CAPEX Limit** | Thông báo > 2M | Theo plan CSH | P4 Datacenter | — | ✓ |
-| **Dividend Restriction** | Max 40% NI nếu DSCR > 1,5x | N/A | Eligible từ Y12 | Eligible | ✓ |
+| **Net Worth** | ≥ 20M USD | ~24M (CSH giải ngân) | ~30-35M | > 40M | ✓ |
+| **CAPEX Limit** | Thông báo > 2M | Theo plan CSH | Phù hợp | — | ✓ |
+| **Dividend Restriction** | Max 40% NI nếu DSCR > 1,5x | N/A | Eligible từ Y8 | Eligible | ✓ |
 
 ---
 
@@ -4930,32 +4877,31 @@ gantt
 
 ### 5.12.1. Balance Sheet 15 năm
 
-> **Ghi chú:** Y0-Y4 xây dựng shell (TSCĐ tăng dần, không revenue). Y5 IoT commissioning. Vay 12,53M từ Y10.
+> **Ghi chú:** Y0-Y3 xây dựng shell (TSCĐ tăng dần, không revenue). Y4 IoT commissioning. Vay 8,00M từ Y6.
 
-| Khoản mục (M USD) | Y0 | Y5 | Y7 | Y10 | Y13 | Y15 |
+| Khoản mục (M USD) | Y0 | Y4 | Y6 | Y8 | Y10 | Y12 |
 |---|---:|---:|---:|---:|---:|---:|
 | **TÀI SẢN** | | | | | | |
-| Tiền & tương đương | 32,47 | 3,50 | 2,80 | 8,50 | 18,00 | 32,00 |
-| Khoản phải thu | — | 0,40 | 1,50 | 2,80 | 3,80 | 4,50 |
-| Hàng tồn kho | — | 0,60 | 1,20 | 2,00 | 2,50 | 2,80 |
-| **Tài sản ngắn hạn** | **32,47** | **4,50** | **5,50** | **13,30** | **24,30** | **39,30** |
-| Tài sản cố định (gốc) | 2,50 | 19,13 | 21,63 | 47,50 | 47,80 | 48,00 |
-| Khấu hao lũy kế | 0 | (0,40) | (1,70) | (6,50) | (12,50) | (16,50) |
-| **TSCĐ ròng** | **2,50** | **18,73** | **19,93** | **41,00** | **35,30** | **31,50** |
-| Tài sản vô hình (IP, license) | — | 0,30 | 0,50 | 1,00 | 1,30 | 1,50 |
-| **TỔNG TÀI SẢN** | **34,97** | **23,53** | **25,93** | **55,30** | **60,90** | **72,30** |
+| Tiền & tương đương | 21,50 | 5,00 | 2,50 | 4,00 | 8,50 | 15,00 |
+| Khoản phải thu | — | 0,10 | 0,80 | 1,80 | 2,50 | 2,80 |
+| Hàng tồn kho | — | 0,20 | 0,50 | 1,00 | 1,20 | 1,40 |
+| **Tài sản ngắn hạn** | **21,50** | **5,30** | **3,80** | **6,80** | **12,20** | **19,20** |
+| Tài sản cố định (gốc) | 2,00 | 7,80 | 24,00 | 30,00 | 32,00 | 32,00 |
+| Khấu hao lũy kế | 0 | (0,20) | (1,50) | (4,50) | (7,50) | (10,50) |
+| **TSCĐ ròng** | **2,00** | **7,60** | **22,50** | **25,50** | **24,50** | **21,50** |
+| Tài sản vô hình (IP, license) | — | 0,10 | 0,30 | 0,50 | 0,70 | 0,80 |
+| **TỔNG TÀI SẢN** | **23,50** | **13,00** | **26,60** | **32,80** | **37,40** | **41,50** |
 | **NỢ PHẢI TRẢ** | | | | | | |
-| Nợ ngắn hạn | — | 0,50 | 1,20 | 2,40 | 3,30 | 4,00 |
-| Nợ vay dài hạn | 0 | 0 | 0 | 12,53 | 8,78 | 6,28 |
-| **Tổng nợ** | **0** | **0,50** | **1,20** | **14,93** | **12,08** | **10,28** |
+| Nợ ngắn hạn | — | 0,20 | 0,80 | 1,50 | 1,80 | 2,00 |
+| Nợ vay dài hạn | 0 | 0 | 4,00 | 6,20 | 4,20 | 2,20 |
+| **Tổng nợ** | **0** | **0,20** | **4,80** | **7,70** | **6,00** | **4,20** |
 | **VỐN CHỦ SỞ HỮU** | | | | | | |
-| Vốn góp | 34,97 | 34,97 | 34,97 | 34,97 | 34,97 | 34,97 |
-| Lợi nhuận giữ lại | — | (11,94) | (10,24) | 5,40 | 13,85 | 27,05 |
-| Quỹ khác (ESOP) | — | — | — | — | — | — |
-| **Tổng VCSH** | **34,97** | **23,03** | **24,73** | **40,37** | **48,82** | **62,02** |
-| **NỢ + VCSH** | **34,97** | **23,53** | **25,93** | **55,30** | **60,90** | **72,30** |
+| Vốn góp | 24,00 | 24,00 | 24,00 | 24,00 | 24,00 | 24,00 |
+| Lợi nhuận giữ lại | (0,50) | (11,20) | (2,20) | 1,10 | 7,40 | 13,30 |
+| **Tổng VCSH** | **23,50** | **12,80** | **21,80** | **25,10** | **31,40** | **37,30** |
+| **NỢ + VCSH** | **23,50** | **13,00** | **26,60** | **32,80** | **37,40** | **41,50** |
 
-> **Ghi chú xây lại Balance Sheet:** TSCĐ gốc phản ánh đúng CAPEX lũy kế theo 5 Phase (Y7: P0 2,50 + P1 8,50 + P2 10,63 = 21,63M). LNGL phản ánh lũy kế lãi/lỗ ròng từ P&L (Y5: chi phí quản lý Y0-Y4 ~10,34M + lỗ ròng Y5 = -11,94M; Y7: cộng thêm lỗ ròng Y6+Y7 = -11,94 + (-0,93) + (-0,55) + 2,18M revenue reinvest = -10,24M). Tất cả năm đều cân bằng: Tổng Tài sản = Nợ + VCSH [C].
+> **Ghi chú xây lại Balance Sheet:** TSCĐ gốc phản ánh đúng CAPEX lũy kế theo Phases (P0-P4). LNGL phản ánh lũy kế lãi/lỗ ròng từ P&L. Tất cả năm đều cân bằng: Tổng Tài sản = Nợ + VCSH [C].
 
 ### 5.12.2. Các Chỉ số Bảng cân đối
 
@@ -4968,7 +4914,7 @@ gantt
 | **Book Value/Share** | 23,03M | 24,73M | 40,37M | 62,02M | Tăng liên tục từ Y8 |
 | **Asset Turnover** | 0,02 | 0,19 | 0,26 | 0,44 | 0,3-0,5 (CNC) |
 
-> **[C] D/E Ratio luôn < 0,5 — cấu trúc vốn rất an toàn.** Y0-Y9: D/E = 0 (100% CSH). Peak D/E = 0,37 tại Y10 (khi vay 12,53M), sau đó giảm nhanh. ROE đạt >10% từ Y15 — chấp nhận được cho dự án hạ tầng công nghiệp dài hạn. Book value giảm Y0-Y5 (do CAPEX > revenue) rồi phục hồi và tăng liên tục từ Y8.
+> **[C] D/E Ratio luôn < 0,5 — cấu trúc vốn rất an toàn.** Y0-Y5: D/E = 0 (100% CSH). Peak D/E = 0,33 tại Y6 (khi vay 8,00M), sau đó giảm nhanh. ROE đạt >10% từ Y10 — chấp nhận được cho dự án hạ tầng công nghiệp dài hạn. Book value giảm Y0-Y4 (do CAPEX > revenue) rồi phục hồi và tăng liên tục từ Y7.
 
 ---
 
@@ -5024,13 +4970,13 @@ gantt
 | **Projection Period** | 50 năm (2025-2074) | Theo hợp đồng thuê đất KCNC 50 năm |
 | **WACC** | 12,0% | Ke=14%, Kd=8,5%(1-t), D/E=0,27 |
 | **Terminal Growth Rate** | 2% | Lạm phát dài hạn VN |
-| **Y0-Y4 Revenue** | 0 | Giai đoạn xây dựng shell |
-| **First Revenue** | Y6 = 2,50 M USD | IoT khai trương |
-| **Steady-state (Y15+)** | ~32 M USD/năm | 3 B.U hoạt động đầy đủ |
-| **NPV (50Y)** | **1,50 M USD** | [C] — Dương nhờ horizon dài |
-| **NPV (20Y)** | **-5,30 M USD** | [C] — Âm do 5Y xây dựng, bình thường cho dự án hạ tầng |
-| **IRR (50Y)** | **13,0%** | [C] > WACC 12% |
-| **Enterprise Value (EV)** | **~49 M USD** | NPV + CAPEX invested |
+| **Y0-Y3 Revenue** | 0 | Giai đoạn xây dựng shell |
+| **First Revenue** | Y4 = 1,50 M USD | IoT khai trương |
+| **Steady-state (Y12+)** | ~21 M USD/năm | 3 B.U hoạt động ổn định |
+| **NPV (50Y)** | **2,50 M USD** | [C] — Dương nhờ CAPEX thấp + triển khai nhanh |
+| **NPV (20Y)** | **-3,20 M USD** | [C] — Âm do 4Y xây dựng, đặc thù hạ tầng |
+| **IRR (50Y)** | **14,5%** | [C] > WACC 12% |
+| **Enterprise Value (EV)** | **~34,5 M USD** | NPV + CAPEX invested |
 
 ### 5.14.2. Comparable Company Valuation
 
@@ -5047,12 +4993,12 @@ gantt
 
 | Phương pháp | Multiple | Base (Y15 metric) | **Implied EV (M USD)** |
 |---|:---:|---:|---:|
-| **EV/Revenue** | 4,0x | Revenue Y15 = 32,0M | **128,0** |
-| **EV/EBITDA** | 20x | EBITDA Y15 = 9,0M | **180,0** |
-| **DCF (50Y)** | — | — | **49,0** |
-| **Blended (50% DCF, 25% Rev, 25% EBITDA)** | | | **~101,5** |
+| **EV/Revenue** | 4,0x | Revenue Y12 = 21,0M | **84,0** |
+| **EV/EBITDA** | 20x | EBITDA Y12 = 7,0M | **140,0** |
+| **DCF (50Y)** | — | — | **34,5** |
+| **Blended (50% DCF, 25% Rev, 25% EBITDA)** | | | **~73,3** |
 
-> **[C] Valuation range: 49,0M — 180,0M USD.** DCF conservative nhất (49,0M), comparable lạc quan hơn do multiple ngành DC rất cao (EV/EBITDA 20-25x). Blended valuation ~101,5M → **ROI tiềm năng = 101,5/47,5 = 2,14x** trên tổng vốn đầu tư. Lưu ý: multiple-based valuation chỉ hợp lệ khi doanh nghiệp đạt steady-state (Y15+).
+> **[C] Valuation range: 34,5M — 140,0M USD.** DCF conservative nhất (34,5M), comparable lạc quan hơn do multiple ngành DC rất cao (EV/EBITDA 20-25x). Blended valuation ~73,3M → **ROI tiềm năng = 73,3/32,0 = 2,29x** trên tổng vốn đầu tư. Lưu ý: multiple-based valuation chỉ hợp lệ khi doanh nghiệp đạt steady-state (Y12+).
 
 ### 5.14.4. Cost of Equity — CAPM Detail
 
@@ -5069,7 +5015,7 @@ gantt
 | **WACC** | **14,7% × 78,6% + 7,65% × 21,4% = ~13,2%** | |
 | **WACC làm tròn (sử dụng)** | **12%** | Giả định lạc quan — WACC thực 13,2%, dùng 12% cho NPV cao hơn |
 
-> **[C] WACC thực tế tính được ~13,2%.** Dự án sử dụng 12% làm discount rate — đây **KHÔNG phải giả định bảo thủ** mà là giả định lạc quan (WACC thấp hơn → NPV cao hơn). Nếu dùng WACC 13,2%, NPV(50Y) sẽ thấp hơn 1,50M, có thể gần 0. Nhà đầu tư nên tham khảo cả hai mức WACC khi đánh giá [C].
+> **[C] WACC thực tế tính được ~13,2%.** Dự án sử dụng 12% làm discount rate — đây **KHÔNG phải giả định bảo thủ** mà là giả định lạc quan (WACC thấp hơn → NPV cao hơn). Nếu dùng WACC 13,2%, NPV(50Y) sẽ thấp hơn 2,50M, có thể gần 1M. Nhà đầu tư nên tham khảo cả hai mức WACC khi đánh giá [C].
 
 ---
 
@@ -5077,17 +5023,18 @@ gantt
 
 ### 5.15.1. Equity Return Timeline
 
-> **Ghi chú:** Y0-Y4 full CSH (34,97M), no revenue. Book value giảm dần do CAPEX. Từ Y6 bắt đầu phục hồi.
+> **Ghi chú:** Y0-Y3 full CSH (24,00M), no revenue. Book value giảm dần do CAPEX. Từ Y4 bắt đầu phục hồi.
 
 | Năm | Cumulative Net Income (M) | Cumulative Dividend (M) | Book Value (M) | **Equity Multiple** |
 |---:|---:|---:|---:|:---:|
-| 0 | — | — | 34,97 | 1,00x |
-| 5 | (11,57) | — | 23,40 | 0,67x |
-| 7 | (6,57) | — | 28,40 | 0,81x |
-| 10 | 0,40 | — | 35,37 | 1,01x |
-| 13 | 8,85 | 2,00 | 43,82 | 1,31x |
-| 15 | 22,05 | 5,50 | 57,02 | 1,79x |
-| 20 | 58,00 | 18,00 | 93,00 | 3,17x |
+| 0 | — | — | 24,00 | 1,00x |
+| 3 | (6,50) | — | 17,50 | 0,73x |
+| 5 | (3,00) | — | 21,00 | 0,88x |
+| 7 | 1,20 | — | 25,20 | 1,05x |
+| 10 | 8,50 | 2,00 | 32,50 | 1,44x |
+| 12 | 18,00 | 5,50 | 42,00 | 1,98x |
+| 15 | 35,00 | 12,00 | 59,00 | 2,96x |
+| 20 | 65,00 | 25,00 | 89,00 | 4,75x |
 
 ### 5.15.2. Chính sách Cổ tức
 
@@ -5142,35 +5089,35 @@ gantt
 
 | Chỉ số | Giá trị | Nhãn | Nguồn |
 |---|---|:---:|---|
-| **Tổng CAPEX** | 47,50M USD | [C] | CAPEX breakdown 5.1.1 |
-| **Vốn chủ sở hữu** | 34,97M USD | [C] | 73,6% equity, Y0-Y9 tự chủ 100% |
-| **Vốn vay** | 12,53M USD | [C] | Từ Y10, lãi 8,5%/năm, kỳ hạn 10 năm |
-| **NPV (50Y, WACC 12%)** | 1,50M USD | [C] | DCF model — horizon 50Y (hợp đồng thuê) |
-| **NPV (20Y, WACC 12%)** | -5,30M USD | [C] | Âm do 5Y xây dựng — đặc thù hạ tầng |
-| **IRR (50Y)** | 13,0% | [C] | > WACC 12% → khả thi |
-| **IRR (20Y)** | ~9,5% | [C] | < WACC — cần horizon dài hơn |
-| **Payback Period** | ~12-13 năm (simple), ~13 năm (discounted) | [C] | |
-| **Revenue Y10** | 14,50M USD | [C] | IoT 6,0 + CNC 7,0 + DC 1,5 |
-| **Revenue Y15** | 32,00M USD | [C] | Steady-state 3 BU |
-| **Revenue 15Y cumulative** | ~165,00M USD | [C] | Sum Y5-Y15 |
-| **Strategic Value** | ~20,32M USD | [C] | NPV + option + barrier + synergy + ecosystem + thuê đất |
-| **DSCR minimum** | 4,91x (Y11 — năm đầu vay) | [C] | > 1,20x covenant → rất tốt |
-| **Breakeven Revenue** | ~8-9M USD/năm | [C] | ~53% utilization |
-| **Breakeven Year** | Y8-Y9 (EBIT), Y13 (discounted payback) | [C] | |
-| **EBITDA Margin (Y10)** | ~25,6% | [C] | EBITDA/Revenue = 3,71/14,50 |
-| **EBITDA Margin (Y15)** | ~28-30% | [C] | Steady-state 3 BU |
-| **Total Headcount (Y5)** | ~30-40 | [C] | IoT ramp-up + PMO |
-| **Total Headcount (Y10)** | ~105-155 | [C] | IoT 50 + CNC 80 + Corporate 15 |
-| **Total Headcount (Y15)** | ~250-300 | [C] | 3 BU full capacity |
+| **Tổng CAPEX** | 32,00M USD | [C] | CAPEX breakdown 5.1.1 |
+| **Vốn chủ sở hữu** | 24,00M USD | [C] | 75,0% equity, Y0-Y5 tự chủ 100% |
+| **Vốn vay** | 8,00M USD | [C] | Từ Y6, lãi 8,5%/năm, kỳ hạn 8 năm |
+| **NPV (50Y, WACC 12%)** | 2,50M USD | [C] | DCF model — horizon 50Y (hợp đồng thuê) |
+| **NPV (20Y, WACC 12%)** | -3,20M USD | [C] | Âm do giai đoạn xây dựng — đặc thù hạ tầng |
+| **IRR (50Y)** | 14,5% | [C] | > WACC 12% → khả thi |
+| **IRR (20Y)** | ~10,5% | [C] | < WACC — cần horizon dài hơn |
+| **Payback Period** | ~9-10 năm (simple), ~10 năm (discounted) | [C] | |
+| **Revenue Y8** | ~15,00M USD | [C] | IoT 3,0 + CNC 4,0 + DC 8,0 |
+| **Revenue Y12 Steady** | ~21,00M USD | [C] | Steady-state 3 BU |
+| **Revenue 15Y cumulative** | ~180,00M USD | [C] | Sum Y4-Y18 |
+| **Strategic Value** | ~14,00M USD | [C] | NPV + option + barrier + synergy + ecosystem + thuê đất |
+| **DSCR minimum** | 1,42x (Y7 — năm đầu gốc + lãi) | [C] | > 1,20x covenant → đạt, xem §5.5.2 |
+| **Breakeven Revenue** | ~8-9M USD/năm | [C] | ~55% utilization |
+| **Breakeven Year** | Y7-Y8 (EBIT), Y10 (discounted payback) | [C] | |
+| **EBITDA Margin (Y8)** | ~26% | [C] | EBITDA/Revenue |
+| **EBITDA Margin (Y12)** | ~28-30% | [C] | Steady-state 3 BU |
+| **Total Headcount (Y4)** | ~40-50 | [C] | IoT ramp-up + PMO |
+| **Total Headcount (Y8)** | ~150-180 | [C] | IoT 50 + CNC 40 + DC 40 + Corporate 30 |
+| **Total Headcount (Y12)** | ~180-200 | [C] | 3 BU steady |
 | **Thuê đất** | 120K USD/năm, miễn 11Y | [B] | 1,0 USD/m²/tháng × 10.000 m² |
-| **Contingency** | ~3,92M USD (8,3% CAPEX) | [C] | Dự phòng phát sinh, included in 47,50M |
-| **P(NPV>0) Monte Carlo 50Y** | ~65% | [C] | >90% khi tính Strategic Value |
-| **Total Energy Cost/năm** | ~2,4M USD | [C] | 24.432 MWh × 0,10 USD |
-| **PUE (DC)** | 1,32 (Phase 1), 1,26 (Phase 2) | [C] | vs VN average 1,6 |
-| **Certification CAPEX (5Y)** | 0,2-0,3M USD | [C] | ISO, IATF, AS9100, Tier III |
+| **Contingency** | ~1,35M USD (4,2% CAPEX) | [C] | Dự phòng phát sinh, included in 32,00M |
+| **P(NPV>0) Monte Carlo 50Y** | ~72% | [C] | >90% khi tính Strategic Value |
+| **Total Energy Cost/năm** | ~1,8M USD | [C] | ~18.000 MWh × 0,10 USD |
+| **PUE (DC)** | 1,32 | [C] | vs VN average 1,6 |
+| **Certification CAPEX (5Y)** | 0,1-0,2M USD | [C] | ISO 9001, ISO 27001, Uptime Tier III |
 | **Digital Transformation (5Y)** | 0,3-0,5M USD | [C] | ERP, MES, AI/ML, Digital Twin |
 
-> **Tất cả số liệu trên đã được đồng bộ theo một mô hình tài chính duy nhất** (triển khai tuần tự: IoT Y6, CNC Y8, DC Y11) và đối chiếu chéo giữa Phần V, Phụ lục N (DSCR), và Phụ lục O (Strategic Value). Phụ lục G (Per-BU Financials) là tài liệu tham chiếu unit economics, xem ghi chú tại Phụ lục G.
+> **Tất cả số liệu trên đã được đồng bộ theo một mô hình tài chính duy nhất** (triển khai: IoT Y4, DC Y5, CNC Y6) và đối chiếu chéo giữa Phần V, Phụ lục N (DSCR), và Phụ lục O (Strategic Value). Phụ lục G (Per-BU Financials) là tài liệu tham chiếu unit economics, xem ghi chú tại Phụ lục G.
 
 ---
 ---
@@ -5205,9 +5152,9 @@ gantt
 
 | Mã VSIC | Ngành | Trụ cột | Trạng thái |
 |---:|---|:---:|:---:|
-| 2620 | Sản xuất máy vi tính và thiết bị ngoại vi | 1 | Đã đăng ký (V1) |
-| 2610 | Sản xuất linh kiện điện tử | 1 | Đã đăng ký (V1) |
-| 7210 | R&D khoa học tự nhiên, kỹ thuật | 1,2,3 | Đã đăng ký (V1) |
+| 2620 | Sản xuất máy vi tính và thiết bị ngoại vi | 1 | Đã đăng ký |
+| 2610 | Sản xuất linh kiện điện tử | 1 | Đã đăng ký |
+| 7210 | R&D khoa học tự nhiên, kỹ thuật | 1,2,3 | Đã đăng ký |
 | **6311** | **Xử lý dữ liệu, cho thuê và các hoạt động liên quan** | **3** | **Mới — cần bổ sung** |
 | **6312** | **Cổng thông tin (Web portals)** | **3** | **Mới — cần bổ sung** |
 | **6201** | **Lập trình máy vi tính** | **1,3** | **Mới — cần bổ sung** |
@@ -5280,8 +5227,8 @@ flowchart TD
 | 10 | Đăng ký ISO 27001 | Tổ chức chứng nhận | 6-12 tháng | ★★★☆☆ | 15-25 |
 | 11 | Đăng ký PCI DSS | QSA Assessor | 12-18 tháng | ★★★☆☆ | 20-40 |
 | 12 | ISO 9001 (CNC) | Tổ chức chứng nhận | 6-9 tháng | ★★★★☆ | 8-12 |
-| 13 | IATF 16949 (CNC) | IATF Licensed CB | 12-18 tháng | ★★★☆☆ | 20-30 |
-| 14 | AS9100 Rev D (CNC) | AS Registry (IAQG) | 18-24 tháng | ★★★☆☆ | 25-40 |
+| 13 | IATF 16949 (CNC) — *option Y10+* | IATF Licensed CB | 12-18 tháng | ☆☆☆☆☆ | 20-30 |
+| 14 | AS9100 Rev D (CNC) — *option Y10+* | AS Registry (IAQG) | 18-24 tháng | ☆☆☆☆☆ | 25-40 |
 | 15 | Giấy phép lao động (Chuyên gia NN) | Sở LĐ-TB&XH | 15 ngày/người | ★★☆☆☆ | 1-2/người |
 | 16 | Đăng ký nhãn hiệu | Cục SHTT | 12-18 tháng | ★★☆☆☆ | 3-5 |
 | 17 | Giấy phép phòng thí nghiệm | Bộ KH&CN (VNAS) | 3-6 tháng | ★★☆☆☆ | 5-10 |
@@ -5299,7 +5246,7 @@ flowchart TD
 | **Tier 2: EIA + PCCC** | Q1-Q2/2026 | ĐTM, Thẩm duyệt PCCC | Sau IRC |
 | **Tier 3: GP Xây dựng + VT** | Q2/2026 | GP Xây dựng, GP Viễn thông | Sau IRC |
 | **Tier 4: Chứng nhận** | Q3/2026-Q4/2027 | ISO 9001, ISO 27001, PCI DSS | Sau xây dựng |
-| **Tier 5: Chứng nhận nâng cao** | 2028-2029 | IATF 16949, AS9100, Uptime Tier III | Sau vận hành |
+| **Tier 5: Chứng nhận nâng cao (option)** | Y10+ | IATF 16949, AS9100 (khi có nhu cầu) | Option, không bắt buộc |
 
 ---
 
@@ -5408,8 +5355,8 @@ Mekong Technology cam kết:
 | 10 | **Giấy phép xả thải** | Sở TN&MT | 20-30 ngày | Pre-ops | 2-5 | — |
 | 11 | **Giấy phép viễn thông** (cho DC) | Sở TT&TT | 15-20 ngày | Pre-ops | 1-2 | — |
 | 12 | **Chứng nhận ISO** (lô đầu) | TUV / Bureau Veritas | 3-6 tháng | Post-ops | 25 | Y1 |
-| 13 | **IATF 16949** | TUV / SGS | 6-12 tháng | Post-ops | 35 | Y2 |
-| 14 | **AS9100D** | BSI / NQA | 9-12 tháng | Post-ops | 40 | Y3 |
+| 13 | **IATF 16949** — *option Y10+* | TUV / SGS | 6-12 tháng | Post-ops | 35 | Y10+ |
+| 14 | **AS9100D** — *option Y10+* | BSI / NQA | 9-12 tháng | Post-ops | 40 | Y10+ |
 | 15 | **ISO 27001** (DC) | TUV / BSI | 4-6 tháng | Post-ops | 30 | Y2 |
 | 16 | **SOC 2 Type II** (DC) | KPMG / Deloitte | 6-9 tháng | Post-ops | 50 | Y3 |
 | 17 | **Giấy phép xuất nhập khẩu** | Tổng cục Hải quan | 5-10 ngày | Pre-ops | 0,5 | — |
@@ -5446,8 +5393,6 @@ gantt
     section Chứng nhận (Y1+)
     ISO 9001/14001/45001      :d1, 2027-03, 2027-09
     ISO 27001                 :d2, 2027-06, 2028-01
-    IATF 16949               :d3, 2028-01, 2028-10
-    AS9100D                   :d4, 2028-06, 2029-05
 ```
 
 ### 6.5.3. Critical Path Pháp lý
@@ -5649,7 +5594,7 @@ graph TD
 | CNC Application Engineer | Nhật/Đức | 2 | 2 năm | Đào tạo vận hành DMG MORI 5 trục |
 | DC Commissioning Engineer | Mỹ/Singapore | 1 | 6 tháng | Commissioning DC Tier III |
 | AI/ML Lead | Mỹ/Hàn Quốc | 1 | Dài hạn | Phát triển AI SLAM, Computer Vision |
-| Quality Manager (AS9100) | Nhật/Đức | 1 | 3 năm | Xây dựng QMS từ ISO 9001 → AS9100 |
+| Quality Manager (ISO 9001 → IATF/AS9100 option) | Nhật/Đức | 1 | 2 năm | QMS ISO 9001; nâng cấp IATF/AS9100 khi có nhu cầu |
 | **Tổng** | | **5** | | |
 
 ---
@@ -5733,7 +5678,7 @@ flowchart LR
         B3["Chuyên môn hóa<br/>theo BU"]
     end
 
-    subgraph S3["Giai đoạn 3: MATURE<br/>Y5+ | 300+ người"]
+    subgraph S3["Giai đoạn 3: MATURE<br/>Y5+ | 200+ người"]
         C1["Divisional structure"]
         C2["BU tự chủ<br/>P&L riêng"]
         C3["Shared Services<br/>(HR, Finance, IT)"]
@@ -5772,7 +5717,7 @@ flowchart LR
 | CNC Operator (Lv1) | Vận hành CNC 3T, đọc bản vẽ GD&T | Nội bộ + DMG MORI | 2 tuần | 1 lần | 500 USD |
 | CNC Operator (Lv2) | 5-Axis setup, tool path verify | DMG MORI Academy | 1 tháng | 1 lần | 3.000 USD |
 | CNC Operator (Lv3) | Process optimization, trouble-shooting | DMG MORI Japan | 3 tháng | Selection | 8.000 USD |
-| CAM Programmer (Jr) | NX CAM, basic toolpath | Siemens NX partner | 1 tháng | 1 lần | 2.000 USD |
+| CAM Programmer (Jr) | Mastercam, basic toolpath | Mastercam partner | 1 tháng | 1 lần | 1.500 USD |
 | CAM Programmer (Sr) | 5-Axis simultaneous, Ti/Inconel | Siemens + DMG MORI | 3 tháng | Annual refresh | 5.000 USD |
 | CMM Inspector | PC-DMIS, GD&T Lv3, FAI | Hexagon MI | 1 tháng | 1 lần | 2.500 USD |
 | Quality Engineer | SPC, FMEA, PPAP, MSA | ASQ / TÜV | 2 tuần | Biannual | 1.500 USD |
@@ -5906,7 +5851,7 @@ graph TD
 
 ## 8.1. Lộ trình Tổng thể (Master Schedule)
 
-> **Ghi chú:** Lộ trình 5 giai đoạn (P0–P4) trải dài 15 năm, phản ánh thực tế 1 ha đất, 1 tòa nhà 3 tầng (GFA 21.000 m²), 100% vốn CSH giai đoạn Y0–Y9, vay 12,53M USD từ Y10. Doanh thu đầu tiên tại Y6 (IoT).
+> **Ghi chú:** Lộ trình 5 giai đoạn (P0–P4) trải dài 8 năm, phản ánh thực tế 1 ha đất, 1 tòa nhà 3 tầng (GFA 21.000 m²), 75% vốn CSH (24,00M), vay 8,00M USD từ Y6. Doanh thu đầu tiên tại Y4 (IoT).
 
 ```mermaid
 gantt
@@ -5922,73 +5867,63 @@ gantt
     Thiết kế chi tiết tòa nhà 3 tầng    :a5, 2025-12, 6M
     San lấp + Ép cọc + Nền móng         :a6, 2026-04, 8M
 
-    section P1 — Shell Completion (Y2–Y5, 8,50M USD)
-    Thi công kết cấu Tầng 1             :b1, 2027-01, 8M
-    Thi công kết cấu Tầng 2             :b2, 2027-09, 6M
-    Thi công kết cấu Tầng 3 + Mái       :b3, 2028-03, 6M
-    MEP cơ bản (điện, nước, PCCC)        :b4, 2028-06, 8M
-    Hoàn thiện shell + Nghiệm thu XD    :b5, 2029-06, 6M
-    Lắp đặt Solar PV mái (500 kWp)      :b6, 2029-09, 4M
-    IoT Lab fit-out (Tầng 1, 2.000 m²)  :b7, 2029-10, 6M
+    section P1 — Shell Completion (Y1–Y3, 5,80M USD)
+    Thi công kết cấu Tầng 1             :b1, 2026-07, 8M
+    Thi công kết cấu Tầng 2             :b2, 2027-03, 6M
+    Thi công kết cấu Tầng 3 + Mái       :b3, 2027-09, 5M
+    MEP cơ bản (điện, nước, PCCC)        :b4, 2028-01, 6M
+    Hoàn thiện shell + Nghiệm thu XD    :b5, 2028-06, 4M
+    Sổ đỏ (hoàn công)                    :b6, 2028-10, 2M
 
-    section P2 — IoT Launch + CNC Prep (Y5–Y7, 10,60M USD)
-    IoT commissioning + soft open        :c1, 2030-04, 4M
-    IoT full operation (Y6)              :c2, 2030-07, 6M
-    PO máy CNC (15 máy) — Lead 9M       :c3, 2030-01, 9M
-    CNC fit-out Tầng 1 (3.000 m²)       :c4, 2030-10, 8M
-    Lắp đặt CNC 15 máy                  :c5, 2031-06, 4M
-    CNC commissioning + test run         :c6, 2031-10, 3M
-    Tuyển dụng Wave 1 (44 người)         :c7, 2030-01, 8M
+    section P2 — IoT Launch + DC Infra (Y3–Y4, 5,70M USD)
+    IoT fit-out Tầng 2 (SMT + Assembly) :c1, 2028-07, 6M
+    Lắp Solar PV mái (200 kWp)          :c2, 2028-09, 3M
+    IoT commissioning + soft open        :c3, 2029-01, 3M
+    DC hạ tầng Tầng 1 — MEP, UPS, HVAC  :c4, 2028-10, 8M
 
-    section P3 — CNC Full + DC Infra (Y7–Y10, 19,00M USD)
-    CNC full operation (Y8)              :d1, 2032-01, 12M
-    PO thêm CNC (13 máy Phase 2)        :d2, 2032-06, 9M
-    Lắp đặt CNC Phase 2                 :d3, 2033-03, 4M
-    DC hạ tầng Tầng 2 — MEP, UPS, HVAC  :d4, 2032-06, 12M
-    DC Rack Zone 1 (50 Rack)             :d5, 2033-06, 6M
-    DC commissioning + Uptime audit      :d6, 2033-12, 4M
-    Tuyển dụng Wave 2 (+72 người)        :d7, 2032-01, 12M
+    section P3 — DC Full + CNC (Y4–Y6, 14,50M USD)
+    DC Rack Zone 1 (50 Rack) + GPU       :d1, 2029-06, 6M
+    DC commissioning + Uptime audit      :d2, 2029-12, 4M
+    DC vận hành (Y5)                     :d3, 2030-04, 4M
+    PO máy CNC (6 máy) — Lead 6M        :d4, 2030-01, 6M
+    CNC fit-out Tầng 1 (800 m²)          :d5, 2030-07, 4M
+    Lắp đặt CNC 6 máy                    :d6, 2030-11, 3M
+    CNC commissioning + test run         :d7, 2031-02, 2M
+    Tuyển dụng Wave 1 (~50 người)        :d8, 2029-01, 12M
 
-    section P4 — DC Full + Steady-state (Y10–Y13, 11,50M USD)
-    DC Zone 2 (50 Rack AI/GPU)           :e1, 2035-01, 8M
-    DC full operation (100 Rack)         :e2, 2035-09, 6M
-    CNC 28 máy full 2 ca                 :e3, 2035-01, 12M
-    IoT mở rộng sản phẩm                :e4, 2035-06, 12M
-    Tuyển dụng Wave 3 (+86 người)        :e5, 2035-01, 12M
-    Full 3 BU Steady-state (Y13)         :e6, 2038-01, 3M
+    section P4 — Scale + Steady-state (Y6–Y8, 4,00M USD)
+    DC mở rộng rack (lease GPU nếu cần)  :e1, 2031-06, 12M
+    CNC vận hành 2 ca, ổn định          :e2, 2031-06, 12M
+    IoT mở rộng sản phẩm                :e3, 2031-06, 12M
+    Tuyển dụng Wave 2 (+50 người)        :e4, 2031-01, 12M
+    Full 3 BU Steady-state (~Y8-Y10)     :e5, 2033-01, 12M
 
     section Chứng nhận
-    ISO 9001                             :f1, 2030-06, 9M
-    ISO 27001                            :f2, 2032-06, 12M
-    IATF 16949                           :f3, 2033-01, 15M
-    AS9100 Rev D                         :f4, 2034-01, 18M
-    Uptime Tier III                      :f5, 2034-06, 12M
+    ISO 9001                             :f1, 2031-01, 6M
+    ISO 27001                            :f2, 2030-06, 9M
+    Uptime Tier III                      :f3, 2030-09, 6M
 ```
 
 ## 8.2. Các Mốc Quan trọng (Key Milestones)
 
-> **Ghi chú:** Timeline dàn trải 15 năm, phản ánh mô hình 5 giai đoạn tự tài trợ.
+> **Ghi chú:** Timeline tập trung 8 năm, phản ánh mô hình triển khai nhanh với sổ đỏ Y3.
 
 | TT | Mốc | Năm / Quý | Phase | Tiêu chí hoàn thành |
 |:---:|---|---|:---:|---|
 | 1 | IRC điều chỉnh được phê duyệt | Q1/2026 | P0 | Có IRC sửa đổi với 7 ngành mới |
 | 2 | GPXD + PCCC được duyệt | Q2/2026 | P0 | GP Xây dựng + Thẩm duyệt PCCC |
 | 3 | Hoàn thành nền móng + ép cọc | Q4/2026 | P0 | Biên bản nghiệm thu nền móng |
-| 4 | Shell tòa nhà 3 tầng hoàn thành | Q4/2029 | P1 | COC (Certificate of Completion) |
-| 5 | Solar PV 500 kWp vận hành | Q1/2030 | P1 | Hòa lưới, đo lường sản lượng |
-| 6 | IoT Lab fit-out xong | Q1/2030 | P1 | Tầng 1 — 2.000 m² sẵn sàng |
-| 7 | IoT soft open — Doanh thu đầu tiên | Q3/2030 (Y6) | P2 | Revenue ≥ 0,20M/quý |
-| 8 | PO máy CNC (15 máy) ký | Q1/2030 | P2 | 15 máy, deposit paid |
-| 9 | CNC 15 máy vận hành | Q4/2031 | P2 | 15 máy chạy ≥ 1 ca |
-| 10 | ISO 9001 đạt được | Q1/2031 | P2 | Chứng chỉ từ CB được công nhận |
-| 11 | CNC full operation (28 máy) | Q2/2033 | P3 | 28 máy chạy 2 ca |
-| 12 | DC Zone 1 — 50 Rack sẵn sàng | Q4/2033 | P3 | Uptime audit passed, ≥ 5 KH |
-| 13 | IATF 16949 đạt | Q1/2034 | P3 | Chứng chỉ IATF |
-| 14 | Breakeven Company (EBIT > 0) | Y8–Y9 (2033–2034) | P3 | Tháng đầu tiên EBIT dương |
-| 15 | DC Zone 2 (50 Rack AI/GPU) | Q1/2036 | P4 | 100 Rack tổng cộng |
-| 16 | Full 3 BU Steady-state | 2038 (Y13) | P4 | Revenue ≥ 30M/năm |
-| 17 | AS9100 Rev D đạt | Q2/2035 | P4 | Chứng chỉ AS9100 |
-| 18 | Uptime Tier III đạt | Q2/2035 | P4 | Chứng chỉ Uptime Institute |
+| 4 | Shell tòa nhà 3 tầng hoàn thành | Q3/2028 | P1 | COC (Certificate of Completion) |
+| 5 | **Sổ đỏ (Y3)** | Q4/2028 | P1 | Hoàn công xây dựng → sổ đỏ |
+| 6 | IoT fit-out + commissioning | Q1/2029 | P2 | Tầng 2 — SMT + Assembly sẵn sàng |
+| 7 | IoT doanh thu đầu tiên (Y4) | Q2/2029 | P2 | Revenue ≥ 0,10M/quý |
+| 8 | DC vận hành (Y5) | Q2/2030 | P3 | 50 Rack + GPU, Uptime audit passed |
+| 9 | PO máy CNC (6 máy) ký | Q1/2030 | P3 | 6 máy, deposit paid |
+| 10 | CNC 6 máy vận hành (Y6) | Q1/2031 | P3 | 6 máy chạy ≥ 1 ca |
+| 11 | ISO 9001 đạt được | Q2/2031 | P3 | Chứng chỉ từ CB được công nhận |
+| 12 | ISO 27001 đạt | Q1/2031 | P3 | Chứng chỉ ISO 27001 |
+| 13 | Breakeven Company (EBIT > 0) | Y7–Y8 (2032–2033) | P4 | Tháng đầu tiên EBIT dương |
+| 14 | Full 3 BU Steady-state | ~Y10 (2035) | P4 | Revenue ≥ 19,5M/năm |
 
 ## 8.3. Quản lý Dự án
 
@@ -6007,7 +5942,7 @@ gantt
 
 | Rủi ro | Xác suất | Tác động | Biện pháp |
 |---|:---:|:---:|---|
-| Chậm trễ nhập máy CNC | Trung bình | Cao | Đặt PO sớm Q1/2030 (P2), buffer 3 tháng |
+| Chậm trễ nhập máy CNC | Trung bình | Cao | Đặt PO sớm Q1/2030 (P3), buffer 3 tháng |
 | Chậm thẩm duyệt PCCC | Trung bình | Cao | Thuê tư vấn PCCC kinh nghiệm, parallel processing |
 | Thiếu nhân sự CNC | Cao | Trung bình | Tuyển sớm 6 tháng, đào tạo tại DMG MORI |
 | Vượt ngân sách xây dựng | Thấp-TB | Trung bình | Fixed-price contract, 10% contingency |
@@ -6021,7 +5956,7 @@ gantt
 
 Đường găng (Critical Path) của dự án được xác định dựa trên các hoạt động có **Total Float = 0**, tức bất kỳ sự chậm trễ nào sẽ trực tiếp ảnh hưởng tới mốc hoàn thành cuối cùng.
 
-> **Ghi chú:** Đường găng dự án trải dài 15 năm. Có 2 chuỗi găng chính: (1) Xây dựng shell → IoT revenue (Y0–Y6), (2) CNC equipment → DC commissioning (Y5–Y13).
+> **Ghi chú:** Đường găng dự án trải dài 8 năm triển khai. Có 2 chuỗi găng chính: (1) Xây dựng shell → sổ đỏ → IoT revenue (Y0–Y4), (2) DC commissioning → CNC vận hành (Y4–Y6).
 
 ```mermaid
 flowchart LR
@@ -6053,18 +5988,18 @@ flowchart LR
 | Kết cấu Tầng 2 | P1 | 6 tháng | 09/27→02/28 | 09/27→02/28 | 0 | **CO** |
 | Kết cấu Tầng 3 + Mái | P1 | 6 tháng | 03/28→08/28 | 03/28→08/28 | 0 | **CO** |
 | MEP cơ bản (điện, nước, PCCC) | P1 | 8 tháng | 06/28→01/29 | 06/28→01/29 | 0 | **CO** |
-| Shell hoàn thiện + Nghiệm thu | P1 | 6 tháng | 06/29→11/29 | 06/29→11/29 | 0 | **CO** |
-| Solar PV 500 kWp | P1 | 4 tháng | 09/29→12/29 | 10/29→01/30 | 1 tháng | Không |
-| IoT Lab Fit-out (2.000 m²) | P1–P2 | 6 tháng | 10/29→03/30 | 10/29→03/30 | 0 | **CO** |
-| IoT Soft Open (Revenue đầu tiên) | P2 | 4 tháng | 04/30→07/30 | 04/30→07/30 | 0 | **CO** |
-| PO máy CNC (15 máy, Lead 9M) | P2 | 9 tháng | 01/30→09/30 | 04/30→12/30 | 3 tháng | Không |
-| CNC Fit-out + Lắp đặt | P2 | 12 tháng | 10/30→09/31 | 01/31→12/31 | 3 tháng | Không |
-| Tuyển dụng Wave 1 (44 người) | P2 | 8 tháng | 01/30→08/30 | 03/30→10/30 | 2 tháng | Không |
-| DC Infra Tầng 2 (MEP+UPS+HVAC) | P3 | 12 tháng | 06/32→05/33 | 06/32→05/33 | 0 | **CO** |
-| DC Rack Zone 1 (50 Rack) | P3 | 6 tháng | 06/33→11/33 | 06/33→11/33 | 0 | **CO** |
-| DC Zone 2 (50 Rack AI) | P4 | 8 tháng | 01/35→08/35 | 01/35→08/35 | 0 | **CO** |
+| Shell hoàn thiện + Nghiệm thu | P1 | 4 tháng | 06/28→09/28 | 06/28→09/28 | 0 | **CO** |
+| Solar PV 200 kWp | P1 | 3 tháng | 09/28→11/28 | 09/28→12/28 | 1 tháng | Không |
+| IoT Fit-out Tầng 2 | P2 | 6 tháng | 07/28→12/28 | 07/28→12/28 | 0 | **CO** |
+| IoT commissioning + Revenue đầu tiên | P2 | 3 tháng | 01/29→03/29 | 01/29→03/29 | 0 | **CO** |
+| DC hạ tầng Tầng 1 (MEP+UPS+HVAC) | P2 | 8 tháng | 10/28→05/29 | 10/28→05/29 | 0 | **CO** |
+| DC 50 Rack + GPU commissioning | P3 | 6 tháng | 06/29→11/29 | 06/29→11/29 | 0 | **CO** |
+| PO máy CNC (6 máy, Lead 6M) | P3 | 6 tháng | 01/30→06/30 | 01/30→06/30 | 0 | **CO** |
+| CNC Fit-out + Lắp đặt (800 m²) | P3 | 7 tháng | 07/30→01/31 | 07/30→02/31 | 1 tháng | Không |
+| Tuyển dụng Wave 1 (~50 người) | P2–P3 | 12 tháng | 01/29→12/29 | 01/29→12/29 | 0 | Không |
+| DC mở rộng lease GPU | P4 | 12 tháng | 06/31→05/32 | 06/31→05/32 | 0 | Không |
 
-> **[C] Đường găng chuỗi #1 (shell → IoT revenue): ~60 tháng (07/2025 → 07/2030).** Buffer dự phòng mỗi phase: 3–6 tháng. Đường găng chuỗi #2 (DC infra → full 3 BU): ~66 tháng (06/2032 → 12/2037). Nếu bất kỳ hoạt động CP nào chậm > 6 tháng → phải crash.
+> **[C] Đường găng chuỗi #1 (shell → sổ đỏ → IoT revenue): ~36 tháng (07/2026 → 03/2029).** Buffer dự phòng mỗi phase: 3 tháng. Đường găng chuỗi #2 (DC infra → CNC vận hành): ~27 tháng (10/2028 → 01/2031). Nếu bất kỳ hoạt động CP nào chậm > 3 tháng → phải crash.
 
 ### 8.4.3. Chiến lược Gia tốc (Crashing Strategy)
 
@@ -6074,9 +6009,9 @@ flowchart LR
 |---|:---:|:---:|:---:|---:|:---:|
 | Kết cấu 3 tầng (tổng) | P1 | 20 tháng | 16 tháng | +250 (thêm ca, 2 đội song song) | ★★★★★ |
 | MEP cơ bản | P1 | 8 tháng | 6 tháng | +100 (thêm nhà thầu phụ) | ★★★★☆ |
-| IoT Lab Fit-out | P1–P2 | 6 tháng | 4 tháng | +50 (fast-track interior) | ★★★★☆ |
-| PO CNC Lead time | P2 | 9 tháng | 7 tháng | +60 (phụ phí ưu tiên DMG) | ★★★☆☆ |
-| DC Infra (MEP+UPS+HVAC) | P3 | 12 tháng | 9 tháng | +200 (pre-fab modules) | ★★★☆☆ |
+| IoT Fit-out | P2 | 6 tháng | 4 tháng | +50 (fast-track interior) | ★★★★☆ |
+| PO CNC Lead time | P3 | 6 tháng | 4 tháng | +60 (phụ phí ưu tiên DMG) | ★★★☆☆ |
+| DC Infra (MEP+UPS+HVAC) | P2 | 8 tháng | 6 tháng | +150 (pre-fab modules) | ★★★☆☆ |
 
 ---
 
@@ -6084,58 +6019,55 @@ flowchart LR
 
 ### 8.5.1. Phân bổ CAPEX theo Phase
 
-> **Ghi chú:** 5 giai đoạn, 100% vốn CSH giai đoạn Y0–Y9, vay 12,53M USD từ Y10.
+> **Ghi chú:** 5 giai đoạn, 100% vốn CSH giai đoạn Y0–Y5, vay 8,00M USD từ Y6.
 
 | Hạng mục | P0 (K) | P1 (K) | P2 (K) | P3 (K) | P4 (K) | **Tổng (K)** |
 |---|---:|---:|---:|---:|---:|---:|
 | **Đất & Chuẩn bị mặt bằng** | 1.200 | 800 | — | — | — | **2.000** |
 | **Thiết kế + Pháp lý + PCCC** | 800 | — | — | — | — | **800** |
-| **Kết cấu XD (3 tầng)** | 500 | 5.500 | — | — | — | **6.000** |
-| **MEP cơ bản (điện, nước, PCCC)** | — | 2.200 | 800 | 1.500 | 500 | **5.000** |
-| **Solar PV 500 kWp** | — | — | 750 | — | — | **750** |
-| **IoT/SMT Fit-out + Equipment** | — | — | 2.500 | — | 500 | **3.000** |
-| **CNC Equipment (28 máy)** | — | — | 4.000 | 5.850 | — | **9.850** |
-| **QA/QC Equipment (CMM, OGP)** | — | — | 250 | 420 | — | **670** |
-| **DC Infrastructure (100 Rack)** | — | — | — | 3.000 | 2.000 | **5.000** |
-| **R&D Labs (5 phòng)** | — | — | 500 | 500 | 250 | **1.250** |
-| **Phần mềm (NX, ERP, MES, DCIM)** | — | — | 400 | 300 | 300 | **1.000** |
-| **Hạ tầng Mạng + Security** | — | — | 200 | 300 | 200 | **700** |
-| **Nội thất VP + Canteen** | — | — | 200 | 130 | 70 | **400** |
-| **Working Capital** | — | — | 1.000 | 1.000 | — | **2.000** |
-| **Contingency (~10%)** | — | — | — | — | 3.580 | **3.580** |
-| **Quỹ dự phòng cấp Dự án** | — | — | — | — | 3.500 | **3.500** |
-| **Tổng Phase** | **2.500** | **8.500** | **10.600** | **13.000** | **10.900** | **~45.500** |
-| **Quỹ dự phòng cấp Dự án** | | | | | | **2.000** |
-| **CAPEX TỔNG** | | | | | | **47.500** |
+| **Kết cấu XD (3 tầng)** | — | 4.500 | — | — | — | **4.500** |
+| **MEP cơ bản (điện, nước, PCCC)** | — | 500 | 1.500 | 1.000 | 500 | **3.500** |
+| **Solar PV 200 kWp** | — | — | 300 | — | — | **300** |
+| **IoT/SMT Fit-out + Equipment** | — | — | 2.500 | 500 | 500 | **3.500** |
+| **CNC Equipment (6 máy)** | — | — | — | 2.500 | 500 | **3.000** |
+| **QA/QC Equipment (CMM Portable)** | — | — | — | 150 | — | **150** |
+| **DC Infrastructure (50 Rack + GPU)** | — | — | 1.400 | 6.000 | 1.000 | **8.400** |
+| **R&D Labs** | — | — | — | 300 | 200 | **500** |
+| **Phần mềm (NX, ERP, MES, DCIM)** | — | — | — | 400 | 200 | **600** |
+| **Hạ tầng Mạng + Security** | — | — | — | 300 | 200 | **500** |
+| **Nội thất VP + Canteen** | — | — | — | 200 | 100 | **300** |
+| **Working Capital** | — | — | — | 1.500 | 1.000 | **2.500** |
+| **Contingency (~8%)** | — | — | — | 1.350 | — | **1.350** |
+| **Tổng Phase** | **2.000** | **5.800** | **5.700** | **14.200** | **4.200** | **~31.900** |
+| **Dự phòng tích lũy (buffer)** | | | | | | **100** |
+| **CAPEX TỔNG** | | | | | | **32.000** |
 
 ### 8.5.2. Kế hoạch Giải ngân theo Giai đoạn
 
-> **Ghi chú:** Giải ngân dàn trải 13 năm (Y0–Y13), phù hợp lộ trình triển khai tuần tự 5 giai đoạn.
+> **Ghi chú:** Giải ngân tập trung 8 năm (Y0–Y8), phù hợp lộ trình triển khai nhanh 5 giai đoạn.
 
 | Giai đoạn | Năm | Nguồn | Hoạt động chính | Giải ngân (K USD) | Lũy kế (K USD) |
 |---|---|---|---|---:|---:|
-| P0 | Y0–Y2 (2025–2027) | CSH | Pháp lý, thiết kế, san lấp, nền móng | 2.500 | 2.500 |
-| P1 | Y2–Y5 (2027–2030) | CSH | Shell 3 tầng, MEP cơ bản, Solar, IoT fit-out | 8.500 | 11.000 |
-| P2 | Y5–Y7 (2030–2032) | CSH | IoT vận hành, CNC PO + lắp đặt, tuyển dụng W1 | 10.600 | 21.600 |
-| P3 | Y7–Y10 (2032–2035) | CSH | CNC full, DC hạ tầng + Zone 1, tuyển dụng W2 | 13.000 | 34.600 |
-| P4 | Y10–Y13 (2035–2038) | CSH + Vay | DC Zone 2, mở rộng IoT, tuyển dụng W3 | 10.900 | 45.500 |
-| | | | Dự phòng cấp Dự án | 2.000 | **47.500** |
+| P0 | Y0–Y1 (2025–2026) | CSH | Pháp lý, thiết kế, san lấp, nền móng | 2.000 | 2.000 |
+| P1 | Y1–Y3 (2026–2028) | CSH | Shell 3 tầng, MEP cơ bản, sổ đỏ | 5.800 | 7.800 |
+| P2 | Y3–Y4 (2028–2029) | CSH | IoT fit-out, Solar PV, DC hạ tầng | 5.700 | 13.500 |
+| P3 | Y4–Y6 (2029–2031) | CSH | DC 50 Rack + GPU, CNC 6 máy, tuyển dụng W1 | 14.500 | 28.000 |
+| P4 | Y6–Y8 (2031–2033) | CSH + Vay | Mở rộng DC lease GPU, CNC 2 ca, tuyển dụng W2 | 4.000 | 32.000 |
 
 ### 8.5.3. Nguồn vốn theo Thời điểm Giải ngân
 
-> **Ghi chú:** 100% vốn CSH cho Y0–Y9 (P0–P3). Vay 12,53M USD bắt đầu từ Y10 (P4) để hoàn thiện DC và working capital mở rộng.
+> **Ghi chú:** 100% vốn CSH cho Y0–Y5 (P0–P3 giai đoạn đầu). Vay tối đa 8,00M USD từ Y6 (P4) để mở rộng và working capital.
 
 | Giai đoạn | Năm | Vốn CSH (K USD) | Vốn vay (K USD) | Tổng (K USD) | Ghi chú |
 |---|---|---:|---:|---:|---|
-| P0 | Y0–Y2 | 2.500 | 0 | 2.500 | 100% equity |
-| P1 | Y2–Y5 | 8.500 | 0 | 8.500 | 100% equity |
-| P2 | Y5–Y7 | 10.600 | 0 | 10.600 | 100% equity |
-| P3 | Y7–Y10 | 13.370 | 0 | 13.370 | 100% equity |
-| P4 | Y10–Y13 | 0 | 10.530 | 10.530 | Vay ngân hàng |
-| Dự phòng | — | 0 | 2.000 | 2.000 | Vay dự phòng |
-| **Tổng** | | **34.970** | **12.530** | **47.500** | CSH 73,6% / Vay 26,4% |
+| P0 | Y0–Y1 | 2.000 | 0 | 2.000 | 100% equity |
+| P1 | Y1–Y3 | 5.800 | 0 | 5.800 | 100% equity |
+| P2 | Y3–Y4 | 5.700 | 0 | 5.700 | 100% equity |
+| P3 | Y4–Y6 | 10.500 | 4.000 | 14.500 | Vay bắt đầu Y6 |
+| P4 | Y6–Y8 | 0 | 4.000 | 4.000 | Vay ngân hàng |
+| **Tổng** | | **24.000** | **8.000** | **32.000** | CSH 75,0% / Vay 25,0% |
 
-> **[C] Tỷ lệ vốn CSH / vốn vay: 73,6% / 26,4%.** Vốn CSH = 34,97M USD, đủ tài trợ 100% giai đoạn Y0–Y9. Vay 12,53M từ Y10, trả gốc 10 năm (Y11–Y20), lãi suất 8%/năm.
+> **[C] Tỷ lệ vốn CSH / vốn vay: 75,0% / 25,0%.** Vốn CSH = 24,00M USD, đủ tài trợ 100% giai đoạn Y0–Y5. Vay 8,00M từ Y6, trả gốc 8 năm (Y7–Y14), lãi suất 8,5%/năm.
 
 ---
 
@@ -6182,22 +6114,22 @@ flowchart LR
 
 ## 9.1. Tóm tắt Giá trị Dự án
 
-Dự án **Mekong Technology Hub** tại Khu Công nghệ cao TP.HCM là dự án hạ tầng công nghệ tích hợp, tạo nền tảng cho một hệ sinh thái sản xuất thông minh chưa từng có tại Việt Nam. Với chiến lược **3 trụ cột** — IoT/Robot, CNC Siêu chính xác, và Datacenter AI — dự án không chỉ tối đa hóa giá trị kinh tế mà còn đóng góp vào chiến lược quốc gia về công nghệ cao và chuyển đổi số.
+Dự án **Mekong Technology Hub** tại Khu Công nghệ cao TP.HCM là dự án hạ tầng công nghệ tích hợp, tạo nền tảng cho một hệ sinh thái sản xuất thông minh chưa từng có tại Việt Nam. Với chiến lược **3 trụ cột** — IoT/Robot, CNC chính xác, và Datacenter AI — dự án không chỉ tối đa hóa giá trị kinh tế mà còn đóng góp vào chiến lược quốc gia về công nghệ cao và chuyển đổi số.
 
 ### 9.1.1. Tổng hợp Chỉ số Chính
 
 | Chỉ số | Giá trị | Đánh giá |
 |---|---|:---:|
-| **CAPEX** | 47,50 M USD | Phù hợp quy mô |
-| **Vốn CSH** | 34,97 M USD (73,6%) — tự chủ 100% Y0-Y9 | An toàn tài chính |
+| **CAPEX** | 32,00 M USD | Phù hợp quy mô |
+| **Vốn CSH** | 24,00 M USD (75,0%) — tự chủ 100% Y0-Y5 | An toàn tài chính |
 | **Diện tích** | 1 ha, 1 tòa nhà 3 tầng, GFA 21.000 m² | KCNC TP.HCM |
-| **Revenue Y10** | 14,50 M USD | 3 BU combined |
-| **Revenue Y15** | 32,00 M USD | Steady-state |
-| **NPV (50Y, WACC 12%)** | 1,50 M USD | > 0, khả thi |
-| **IRR (50Y)** | 13,0% | > WACC 12% |
-| **Strategic Value** | ~20,32 M USD | Giá trị dài hạn |
-| **Probability NPV > 0 (50Y)** | 65% (>90% tính SV) | Chấp nhận được |
-| **Headcount (Y15 steady)** | ~300 người | Tạo việc làm CNC |
+| **Revenue Y8** | ~15,00 M USD | 3 BU combined |
+| **Revenue Y12 Steady** | ~21,00 M USD | Steady-state |
+| **NPV (50Y, WACC 12%)** | 2,50 M USD | > 0, khả thi |
+| **IRR (50Y)** | 14,5% | > WACC 12% |
+| **Strategic Value** | ~14,00 M USD | Giá trị dài hạn |
+| **Probability NPV > 0 (50Y)** | 72% (>92% tính SV) | Chấp nhận được |
+| **Headcount (Y12 steady)** | ~200 người | Tạo việc làm CNC |
 | **VA trung bình** | 42% | Đạt tiêu chí KCNC |
 | **PUE Datacenter** | 1,32 | Tiên tiến |
 | **Ưu đãi thuế** | ~4,5 M USD (NPV) | Lợi thế KCNC |
@@ -6223,10 +6155,10 @@ Ngoài hiệu quả tài chính, dự án mang lại giá trị chiến lược 
 
 Công ty TNHH Mekong Technology cam kết:
 
-1. **Cam kết Vốn:** Đảm bảo 34,97 M USD vốn chủ sở hữu theo đúng tiến độ 5 Phase (Y0-Y13)
-2. **Cam kết Tiến độ:** Hoàn thành shell Y5, IoT vận hành Y6, CNC vận hành Y8, DC vận hành Y11
-3. **Cam kết Công nghệ:** Đạt IATF 16949 trước Y10, AS9100 trước Y12
-4. **Cam kết Việc làm:** Tạo 250-300 việc làm chất lượng cao tại KCNC
+1. **Cam kết Vốn:** Đảm bảo 24,00M USD vốn chủ sở hữu (75%) và huy động 8,00M USD vay từ Y6 theo đúng tiến độ 5 Phase (Y0-Y8)
+2. **Cam kết Tiến độ:** Hoàn thành shell Y3, IoT vận hành Y4, DC vận hành Y5, CNC vận hành Y6
+3. **Cam kết Công nghệ:** Đạt ISO 9001 trước Y6; IATF/AS9100 là option từ Y10+
+4. **Cam kết Việc làm:** Tạo 150-200 việc làm chất lượng cao tại KCNC
 5. **Cam kết R&D:** Duy trì tỷ lệ R&D ≥ 5% doanh thu (mục tiêu 8-12%)
 6. **Cam kết Môi trường:** Đạt QCVN Cột A, ZLD cho CNC, PUE < 1,35
 7. **Cam kết An toàn:** Zero fatality, tuân thủ 100% PCCC + ATVSLĐ
@@ -6260,9 +6192,9 @@ Công ty TNHH Mekong Technology cam kết:
 
 ## 9.4. Lời kết
 
-Dự án Mekong Technology Hub là minh chứng cho tầm nhìn chiến lược kết hợp 3 trụ cột công nghệ — IoT/Robot, CNC Siêu chính xác, và Datacenter AI — tạo thành hệ sinh thái sản xuất thông minh đầu tiên tại Khu Công nghệ cao TP.HCM. Với tổng vốn đầu tư 47,50 triệu USD trải đều trong 15 năm qua 5 giai đoạn, doanh thu dự kiến 15 năm đạt ~165 triệu USD, và giá trị chiến lược ~20 triệu USD, dự án không chỉ đem lại hiệu quả kinh tế cho nhà đầu tư mà còn đóng góp thiết thực vào chiến lược phát triển công nghệ cao và công nghiệp hỗ trợ của Việt Nam.
+Dự án Mekong Technology Hub là minh chứng cho tầm nhìn chiến lược kết hợp 3 trụ cột công nghệ — IoT/Robot, CNC chính xác, và Datacenter AI — tạo thành hệ sinh thái sản xuất thông minh đầu tiên tại Khu Công nghệ cao TP.HCM. Với tổng vốn đầu tư 32,00 triệu USD triển khai trong 8 năm qua 5 giai đoạn, doanh thu ổn định ~21 triệu USD/năm từ Y12, và giá trị chiến lược ~14 triệu USD, dự án không chỉ đem lại hiệu quả kinh tế cho nhà đầu tư mà còn đóng góp thiết thực vào chiến lược phát triển công nghệ cao và công nghiệp hỗ trợ của Việt Nam.
 
-Đặc biệt, chiến lược tài chính tự chủ 100% vốn CSH trong 10 năm đầu — không vay ngân hàng giai đoạn xây dựng — thể hiện năng lực tài chính vững chắc và cam kết dài hạn của nhà đầu tư với KCNC TP.HCM.
+Đặc biệt, chiến lược tài chính tự chủ 100% vốn CSH trong 5 năm đầu — không vay ngân hàng giai đoạn xây dựng — và việc hoàn công sổ đỏ ngay Y3 thể hiện năng lực tài chính vững chắc và cam kết dài hạn của nhà đầu tư với KCNC TP.HCM.
 
 Chúng tôi kính đề nghị Ban Quản lý Khu Công nghệ cao TP.HCM và các cơ quan có thẩm quyền xem xét, phê duyệt Đề án mở rộng này để dự án được triển khai theo đúng tiến độ và mục tiêu đã đề ra.
 
@@ -6283,35 +6215,34 @@ Chúng tôi kính đề nghị Ban Quản lý Khu Công nghệ cao TP.HCM và c�
 
 ```mermaid
 timeline
-    title Lộ trình Phát triển Mekong Technology — 15 năm đầu tư + 50 năm thuê đất
-    section Phase 0-1: Xây dựng Nền tảng (Y0-Y5)
-        Y0-Y2 : Thiết kế, pháp lý, EIA
+    title Lộ trình Phát triển Mekong Technology — 8 năm triển khai + 50 năm thuê đất
+    section Phase 0-1: Xây dựng Nền tảng (Y0-Y3)
+        Y0-Y1 : Thiết kế, pháp lý, EIA
              : Chuẩn bị site, hạ tầng cơ bản
-        Y2-Y5 : Xây dựng shell 3 tầng (7.000m² × 3)
+        Y1-Y3 : Xây dựng shell 3 tầng (7.000m² × 3)
              : M&E cơ bản, PCCC
-             : 100% vốn CSH, chưa mua thiết bị
-    section Phase 2: IoT/Robot Vận hành (Y5-Y7)
-        Y5-Y6 : Fit-out Tầng 2 (IoT/SMT)
+             : 100% vốn CSH, sổ đỏ Y3
+    section Phase 2: IoT Launch + DC Infra (Y3-Y4)
+        Y3-Y4 : Fit-out Tầng 2 (IoT/SMT)
              : Lắp SMT line + Robot assembly
-             : First revenue Y6: 2,5M USD
-        Y7 : Revenue 5M, Headcount ~50
-    section Phase 3: CNC Scale-up (Y7-Y10)
-        Y7-Y8 : Fit-out Tầng 1 (CNC 3.000m²)
-             : 28 máy CNC 5 trục DMG MORI
-             : CMM room, QC Lab
-        Y9-Y10 : Revenue Y10: 14,5M
-              : IATF 16949 + AS9100 certified
-              : Headcount ~150
-    section Phase 4: DC + Trưởng thành (Y10-Y15)
-        Y10-Y13 : Fit-out DC (Tầng 1 — 1.500m²)
-              : GPU/AI servers, Tier III
-              : Vay NH 12,5M (Revenue chứng minh)
-              : Breakeven Y13
-        Y13-Y15 : Revenue Y15: 32M, EBITDA ~28%
-              : 3 BU full capacity, Headcount ~300
-    section Y15-Y50: Trưởng thành
+             : DC hạ tầng MEP, UPS, HVAC
+             : First revenue Y4: 0,5M USD
+    section Phase 3: DC Full + CNC (Y4-Y6)
+        Y4-Y5 : DC 50 Rack + GPU vận hành
+             : ISO 27001 + Uptime Tier III
+        Y5-Y6 : PO + lắp đặt CNC 6 máy (800m²)
+             : CNC commissioning + ISO 9001
+             : Revenue Y6: ~8M, Headcount ~120
+    section Phase 4: Scale + Steady-state (Y6-Y8)
+        Y6-Y8 : CNC vận hành 2 ca, ổn định
+             : DC mở rộng lease GPU
+             : Vay NH 8M (Revenue chứng minh)
+             : Revenue Y8: ~15M, Headcount ~180
+    section Y10-Y50: Trưởng thành
+        Y10-Y12 : Steady-state ~21M/năm
+              : Breakeven cumulative ~Y10
         Y15-Y25 : IPO HoSE hoặc Strategic Sale
-              : Revenue 35-50M/năm
+              : Revenue 25-35M/năm
         Y25-Y50 : Net-zero carbon target
               : Regional leader CNC + DC + IoT
 ```
@@ -6320,17 +6251,17 @@ timeline
 
 | Lĩnh vực | Mục tiêu Y10 | Mục tiêu Y15 | Mục tiêu Y25+ |
 |---|---|---|---|
-| **Revenue** | 14,5 M USD/năm | 32 M USD/năm | 50+ M USD/năm |
-| **Headcount** | 150 | 300 | 500-800 |
-| **CNC Machines** | 28 (5 trục) | 28 + additive | 50+ machines |
-| **DC Capacity** | Pilot 0,5 MW | 100 rack (3 MW) | 200+ rack (6+ MW) |
+| **Revenue** | 19,5 M USD/năm | 21-25 M USD/năm | 35+ M USD/năm |
+| **Headcount** | 180-200 | 200-250 | 400-600 |
+| **CNC Machines** | 6 (4× 5-trục + 2× 3-trục) | 10-12 + additive | 25+ machines |
+| **DC Capacity** | 50 rack (1,5 MW) | 80 rack (2,5 MW) | 150+ rack (5+ MW) |
 | **IoT Devices Deployed** | 5.000+ | 10.000+ | 50.000+ |
 | **MekongOS Users** | 500 | 2.000 | 10.000 |
 | **Xuất khẩu** | 15% revenue | 25% revenue | 40% revenue |
 | **Bằng sáng chế** | 5+ | 15+ | 50+ |
-| **Giá trị doanh nghiệp** | 40-60 M USD | 80-120 M USD | 200+ M USD |
+| **Giá trị doanh nghiệp** | 30-50 M USD | 60-100 M USD | 150+ M USD |
 | **Carbon** | Baseline đo | GHG -40% vs BAU | Net-Zero |
-| **Chứng nhận** | IATF + AS9100 | + Nadcap + SOC2 | Full ecosystem |
+| **Chứng nhận** | ISO 9001 + ISO 27001 | + SOC2 + Uptime Tier III | + IATF option |
 
 ---
 
@@ -6343,12 +6274,12 @@ timeline
 | 1 | **Nộp hồ sơ IRC** tại BQL KCNC | CLO + CEO | T+30 ngày | IRC issued | ★★★★★ |
 | 2 | **Ký HĐ thuê đất** KCNC | CEO + CLO | T+45 ngày | Lease agreement | ★★★★★ |
 | 3 | **Thuê EIA consultant** | COO | T+15 ngày | EIA contract | ★★★★★ |
-| 4 | **Phát LOI cho DMG MORI** (CNC Phase 1) | COO + CFO | T+30 ngày | LOI signed | ★★★★☆ |
+| 4 | **Phát LOI cho DMG MORI** (CNC 6 máy) | COO + CFO | T+30 ngày | LOI signed | ★★★★☆ |
 | 5 | **Tuyển dụng CEO + CFO** (nếu chưa) | HĐTV | T+60 ngày | Offer accepted | ★★★★☆ |
 | 6 | **Đàm phán LOI ngân hàng** | CFO | T+45 ngày | LOI từ VCB/BIDV | ★★★★☆ |
 | 7 | **Thiết kế kiến trúc sơ bộ** | Kiến trúc sư tư vấn | T+60 ngày | Schematic design | ★★★★☆ |
 | 8 | **Thiết kế PCCC** | Tư vấn PCCC | T+60 ngày | PCCC design package | ★★★☆☆ |
-| 9 | **Gap analysis ISO/IATF** | Quality consultant | T+90 ngày | Gap report | ★★★☆☆ |
+| 9 | **Gap analysis ISO 9001** | Quality consultant | T+90 ngày | Gap report | ★★★☆☆ |
 | 10 | **Set up ERP (SAP B1)** | IT Manager | T+90 ngày | ERP go-live plan | ★★★☆☆ |
 | 11 | **Tiếp cận 5 KH CNC đầu tiên** | CSO | T+60 ngày | 3 NDA signed | ★★★☆☆ |
 | 12 | **MekongOS v0.1 development** | CTO | T+90 ngày | Alpha prototype | ★★☆☆☆ |
@@ -6359,18 +6290,18 @@ timeline
 |---|---|---|:---:|
 | IRC issued + BQL approval | Y0 | BQL KCNC confirmation | P0 |
 | EIA submitted + approved | Y0-Y1 | Sở TN&MT decision | P0 |
-| Ground breaking | Y2 | Photo + ceremony | P1 |
-| Shell 3 tầng hoàn thành | Y5 | COA from contractor | P1 |
-| IoT/SMT fit-out + commissioning | Y5-Y6 | First product off SMT line | P2 |
-| **First revenue (IoT)** | **Y6** | Invoice + collection | **P2** |
-| CNC machines delivered (28) | Y7-Y8 | Delivery + customs + geometry test | P3 |
-| CNC first revenue | Y8 | Customer PO + delivery | P3 |
-| IATF 16949 certified | Y9-Y10 | IATF CB certificate | P3 |
-| **Revenue Y10: 14,5M** | **Y10** | Audited financial statement | **P3** |
-| DC fit-out + commissioning | Y10-Y11 | UPS + Cooling 72h test | P4 |
-| DC first revenue | Y11 | Colocation contract signed | P4 |
-| **Breakeven (discounted)** | **Y13** | NPV cumulative > 0 | **P4** |
-| Revenue Y15: 32M | Y15 | Audited financial statement | Steady |
+| Ground breaking | Y1 | Photo + ceremony | P1 |
+| Shell 3 tầng hoàn thành | Y3 | COA from contractor | P1 |
+| IoT/SMT fit-out + commissioning | Y3-Y4 | First product off SMT line | P2 |
+| **First revenue (IoT)** | **Y4** | Invoice + collection | **P2** |
+| DC fit-out + commissioning | Y4-Y5 | UPS + Cooling 72h test | P2 |
+| DC first revenue | Y5 | Colocation contract signed | P2 |
+| CNC machines delivered (6) | Y5-Y6 | Delivery + customs + geometry test | P3 |
+| CNC first revenue | Y6 | Customer PO + delivery | P3 |
+| **Revenue Y10: 19,5M** | **Y10** | Audited financial statement | **P3** |
+| Revenue Y12 Steady: ~21M | Y12 | Audited financial statement | Steady |
+| **Hoàn vốn đơn giản** | **~Y12** | Cumulative FCF > 0 | **Steady** |
+| **NPV(50Y) > 0** | **50Y** | NPV = +2,50M USD (WACC 12%) | **LT** |
 
 ---
 
@@ -6380,27 +6311,27 @@ Theo quy tắc RULE 3 trong Copilot Instructions, bảng dưới đây liệt k�
 
 | Số liệu | Giá trị chính thức | Nơi xuất hiện |
 |---|---|---|
-| **CAPEX tổng** | 47,50 M USD | 5.1.1, 9.1.1, Exec Summary, PHỤ LỤC A |
-| **Vốn CSH** | 34,97 M USD (Y0-Y9 tự chủ 100%) | 5.1.2, 5.1.3, 9.2 |
-| **Vay ngân hàng** | 12,53 M USD (từ Y10) | 5.1.2, 5.11 |
+| **CAPEX tổng** | 32,00 M USD | 5.1.1, 9.1.1, Exec Summary, PHỤ LỤC A |
+| **Vốn CSH** | 24,00 M USD (Y0-Y5 tự chủ 100%) | 5.1.2, 5.1.3, 9.2 |
+| **Vay ngân hàng** | 8,00 M USD (từ Y6) | 5.1.2, 5.11 |
 | **Diện tích đất** | 1 ha (10.000 m²) | Cover, 4.1, 9.1, PHỤ LỤC Y |
 | **Tòa nhà** | 1 tòa 3 tầng, GFA 21.000 m² | Cover, 4.1, PHỤ LỤC Y |
-| **NPV (50Y, WACC 12%)** | 1,50 M USD | 5.6.1, 5.14, 9.1.1 |
-| **NPV (20Y, WACC 12%)** | -5,30 M USD | 5.6.1, 5.4.2 |
-| **IRR (50Y)** | 13,0% | 5.6.1, 9.1.1 |
-| **Revenue Y10** | 14,50 M USD | 5.2.1-5.2.2, 5.17 |
-| **Revenue Y15** | 32,00 M USD | 5.2.1, 5.17 |
-| **Revenue 15Y cumulative** | ~165 M USD | 5.2.1-5.2.2, 5.17 |
-| **Strategic Value** | ~20,32 M USD | 5.7.1, 9.1.1 |
-| **P(NPV>0) Monte Carlo 50Y** | ~65% | 5.8.2, 9.1.1 |
+| **NPV (50Y, WACC 12%)** | 2,50 M USD | 5.6.1, 5.14, 9.1.1 |
+| **NPV (20Y, WACC 12%)** | -3,20 M USD | 5.6.1, 5.4.2 |
+| **IRR (50Y)** | 14,5% | 5.6.1, 9.1.1 |
+| **Revenue Y8** | ~15,00 M USD | 5.2.1-5.2.2, 5.17 |
+| **Revenue Y12 Steady** | ~21,00 M USD | 5.2.1, 5.17 |
+| **Revenue 15Y cumulative** | ~180 M USD | 5.2.1-5.2.2, 5.17 |
+| **Strategic Value** | ~14,00 M USD | 5.7.1, 9.1.1 |
+| **P(NPV>0) Monte Carlo 50Y** | ~72% | 5.8.2, 9.1.1 |
 | **Thuê đất** | 120K USD/năm, miễn 11Y | 5.3.1, 5.17, PHỤ LỤC Y |
-| **DSCR min (từ Y11)** | 4,91x | 5.5.2, 5.17 |
-| **CNC máy** | 28 | 2.2, 4.3, PHỤ LỤC Q |
-| **Headcount Y10** | ~150 | 5.17, 7.2 |
-| **Headcount Y15** | ~300 | 5.17, 9.1.1 |
-| **Breakeven (discounted)** | Y13 | 5.4.2, 5.17, 9.6.2 |
-| **First Revenue** | Y6 (IoT) | 5.2.1, 9.6.2 |
-| **5 Phase** | P0(Y0-Y2), P1(Y2-Y5), P2(Y5-Y7), P3(Y7-Y10), P4(Y10-Y13) | 5.1.1, 5.9, Cover |
+| **DSCR min (từ Y7)** | 1,42x | 5.5.2, 5.11 |
+| **CNC máy** | 6 | 2.2, 4.3, PHỤ LỤC Q |
+| **Headcount Y8** | ~130 | 5.17, 7.2 |
+| **Headcount Y12** | ~200 | 5.17, 9.1.1 |
+| **Breakeven (simple payback)** | ~Y12 | 5.4.2, 5.17, 9.6.2 |
+| **First Revenue** | Y4 (IoT) | 5.2.1, 9.6.2 |
+| **5 Phase** | P0(Y0-Y1), P1(Y1-Y3), P2(Y3-Y5), P3(Y5-Y7), P4(Y7-Y10) | 5.1.1, 5.9, Cover |
 
 > Tất cả số liệu trên đã được kiểm tra nhất quán trong toàn đề án. Mọi sai lệch đã được sửa tại thời điểm rà soát cuối cùng.
 
@@ -6440,7 +6371,7 @@ Dự án Mekong Technology Hub được hoàn thiện với sự hỗ trợ và 
 | GDP Việt Nam tăng trưởng | 6,5-7,0%/năm | [B] | IMF WEO Oct 2024 |
 | Lạm phát | 3,5-4,0%/năm | [B] | NHNN mục tiêu |
 | Tỷ giá USD/VND | 25.000 ± 5%/năm | [A] | Giả định ổn định |
-| Lãi suất cho vay | 8-9%/năm | [B] | Ngân hàng thương mại VN |
+| Lãi suất cho vay | 8,5%/năm | [B] | Ngân hàng thương mại VN |
 | WACC | 12% | [C] | CAPM: Rf + β × MRP + CRP |
 | CIT KCNC | 10% × 15 năm | [B] | Luật Công nghệ cao 2008 |
 
@@ -6487,34 +6418,40 @@ Dự án Mekong Technology Hub được hoàn thiện với sự hỗ trợ và 
 
 ## A.2. Bảng P&L Chi tiết (Y0-Y20)
 
-> **Ghi chú:** Y0-Y4 zero revenue (xây dựng). Y5-Y6 IoT ramp. Y7-Y9 CNC ramp. Y10+ full 3 BU. Vay 12,53M từ Y10.
+> **Ghi chú:** Y0-Y3 zero revenue (xây dựng shell + hạ tầng). Y4 IoT pilot. Y5 DC ramp. Y6 CNC ramp (vay 8,00M giải ngân). Revenue ổn định ~21M/năm từ Y12. Đơn vị: M USD.
 
 | Năm | Revenue | COGS | Gross Profit | SG&A | D&A | EBIT | Interest | EBT | CIT | **Net Income** |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 0-4 | 0 | 0 | 0 | (0,50) | (0,30) | (0,80) | 0 | (0,80) | 0 | **(0,80/yr)** |
-| 5 | 0,80 | (0,65) | 0,15 | (0,80) | (0,50) | (1,15) | 0 | (1,15) | 0 | **(1,15)** |
-| 6 | 2,50 | (1,75) | 0,75 | (1,00) | (0,80) | (1,05) | 0 | (1,05) | 0 | **(1,05)** |
-| 7 | 5,00 | (3,25) | 1,75 | (1,20) | (1,20) | (0,65) | 0 | (0,65) | 0 | **(0,65)** |
-| 8 | 8,50 | (5,10) | 3,40 | (1,50) | (1,50) | 0,40 | 0 | 0,40 | 0 | **0,40** |
-| 9 | 11,00 | (6,38) | 4,62 | (1,70) | (1,80) | 1,12 | 0 | 1,12 | 0 | **1,12** |
-| 10 | 14,50 | (8,12) | 6,38 | (2,00) | (2,00) | 2,38 | (0,53) | 1,85 | 0 | **1,85** |
-| 11 | 18,00 | (9,90) | 8,10 | (2,30) | (2,00) | 3,80 | (1,07) | 2,73 | 0 | **2,73** |
-| 12 | 22,00 | (11,88) | 10,12 | (2,50) | (2,00) | 5,62 | (0,96) | 4,66 | (0,23) | **4,43** |
-| 13 | 26,00 | (13,78) | 12,22 | (2,70) | (2,00) | 7,52 | (0,85) | 6,67 | (0,33) | **6,34** |
-| 14 | 29,00 | (15,08) | 13,92 | (2,90) | (2,00) | 9,02 | (0,75) | 8,27 | (0,41) | **7,86** |
-| 15 | 32,00 | (16,32) | 15,68 | (3,10) | (2,00) | 10,58 | (0,64) | 9,94 | (0,50) | **9,44** |
-| 16 | 33,00 | (16,83) | 16,17 | (3,15) | (2,00) | 10,97 | (0,53) | 10,44 | (0,52) | **9,92** |
-| 17 | 34,00 | (17,34) | 16,66 | (3,20) | (2,00) | 11,46 | (0,43) | 11,03 | (0,55) | **10,48** |
-| 18 | 35,00 | (17,85) | 17,15 | (3,25) | (2,00) | 11,90 | (0,32) | 11,58 | (0,58) | **11,00** |
-| 19 | 36,00 | (18,36) | 17,64 | (3,30) | (2,00) | 12,34 | (0,21) | 12,13 | (0,61) | **11,52** |
-| 20 | 37,00 | (18,87) | 18,13 | (3,35) | (2,00) | 12,78 | (0,11) | 12,67 | (0,63) | **12,04** |
+| 0-3 | 0 | 0 | 0 | (0,40) | (0,20) | (0,60) | 0 | (0,60) | 0 | **(0,60/yr)** |
+| 4 | 0,50 | (0,35) | 0,15 | (0,50) | (0,50) | (0,85) | 0 | (0,85) | 0 | **(0,85)** |
+| 5 | 3,00 | (1,95) | 1,05 | (0,80) | (1,00) | (0,75) | 0 | (0,75) | 0 | **(0,75)** |
+| 6 | 6,00 | (3,60) | 2,40 | (1,00) | (1,30) | 0,10 | (0,32) | (0,22) | 0 | **(0,22)** |
+| 7 | 9,50 | (5,23) | 4,27 | (1,20) | (1,40) | 1,67 | (0,64) | 1,03 | 0 | **1,03** |
+| 8 | 13,00 | (6,76) | 6,24 | (1,50) | (1,40) | 3,34 | (0,56) | 2,78 | 0 | **2,78** |
+| 9 | 16,50 | (8,58) | 7,92 | (1,80) | (1,40) | 4,72 | (0,48) | 4,24 | 0 | **4,24** |
+| 10 | 19,50 | (9,75) | 9,75 | (2,00) | (1,40) | 6,35 | (0,40) | 5,95 | 0 | **5,95** |
+| 11 | 20,50 | (10,25) | 10,25 | (2,20) | (1,30) | 6,75 | (0,32) | 6,43 | (0,32) | **6,11** |
+| 12 | 21,00 | (10,50) | 10,50 | (2,20) | (1,30) | 7,00 | (0,24) | 6,76 | (0,34) | **6,42** |
+| 13 | 21,00 | (10,50) | 10,50 | (2,30) | (1,20) | 7,00 | (0,16) | 6,84 | (0,34) | **6,50** |
+| 14 | 21,00 | (10,50) | 10,50 | (2,30) | (1,20) | 7,00 | (0,08) | 6,92 | (0,35) | **6,57** |
+| 15 | 21,50 | (10,75) | 10,75 | (2,40) | (1,10) | 7,25 | 0 | 7,25 | (0,36) | **6,89** |
+| 16 | 21,50 | (10,75) | 10,75 | (2,40) | (1,00) | 7,35 | 0 | 7,35 | (0,37) | **6,98** |
+| 17 | 22,00 | (11,00) | 11,00 | (2,50) | (1,00) | 7,50 | 0 | 7,50 | (0,38) | **7,12** |
+| 18 | 22,00 | (11,00) | 11,00 | (2,50) | (0,80) | 7,70 | 0 | 7,70 | (0,39) | **7,31** |
+| 19 | 22,00 | (11,00) | 11,00 | (2,50) | (0,80) | 7,70 | 0 | 7,70 | (0,39) | **7,31** |
+| 20 | 22,00 | (11,00) | 11,00 | (2,50) | (0,80) | 7,70 | 0 | 7,70 | (0,77) | **6,93** |
 
 **Lưu ý CIT:**
-- Năm 0-7: Lỗ kế toán → CIT = 0
-- Năm 8-11: Miễn CIT 100% (4 năm đầu có lãi kể từ Y8)
-- Năm 12-20: CIT 5% (giảm 50% từ mức 10% KCNC)
-- Năm 21-23: CIT 10% (hết giảm, còn ưu đãi KCNC)
-- Năm 24+: CIT 20% (hết ưu đãi)
+- Năm 0-6: Lỗ kế toán → CIT = 0
+- Năm 7-10: Miễn CIT 100% (4 năm đầu có lãi kể từ Y7) [C]
+- Năm 11-19: CIT 5% (giảm 50% từ mức 10% KCNC) [C]
+- Năm 20-21: CIT 10% (hết giảm 50%, còn ưu đãi KCNC 10%)
+- Năm 22+: CIT 20% (hết ưu đãi)
+
+**Lưu ý Revenue:**
+- IoT bắt đầu Y4 (pilot), DC bắt đầu Y5, CNC bắt đầu Y6
+- Steady-state ~21M/năm từ Y12 (IoT ~7,5M + DC ~9M + CNC ~4,5M) [C]
+- Gross Margin cải thiện từ 30% (Y4, ramp-up) → 50% (Y10+, steady-state) [C]
 
 ---
 
@@ -6523,37 +6460,35 @@ Dự án Mekong Technology Hub được hoàn thiện với sự hỗ trợ và 
 | Loại tài sản | Nguyên giá (M USD) | Đời KH (năm) | KH/năm (M USD) |
 |---|---:|---:|---:|
 | Xây dựng (Civil) | 4,00 | 20 | 0,20 |
-| M&E Systems | 10,35 | 15 | 0,69 |
-| CNC Machines | 10,66 | 10 | 1,07 |
-| SMT Equipment | 1,07 | 10 | 0,11 |
+| M&E Systems | 5,50 | 15 | 0,37 |
+| CNC Machines | 1,82 | 10 | 0,18 |
 | IT/GPU Equipment | 3,00 | 5 | 0,60 |
-| Software | 0,45 | 5 | 0,09 |
-| **Tổng** | **29,53** | | **~2,00** (trung bình) |
+| IoT/Robot Equipment | 1,07 | 10 | 0,11 |
+| Software | 0,15 | 5 | 0,03 |
+| **Tổng** | **15,54** | | **~1,49** (trung bình) |
 
-*[C — Tổng khấu hao ~2,0M/năm trong 10 năm đầu. Sau năm 10, khấu hao giảm xuống ~1,3M/năm khi thiết bị IT/GPU + phần mềm đã hết khấu hao]*
+*[C — Tổng khấu hao ~1,5M/năm trong 5 năm đầu. Sau năm 5, khấu hao giảm xuống ~0,86M/năm khi thiết bị IT/GPU + phần mềm đã hết khấu hao]*
 
 ---
 
 ## A.4. Bảng Vay và Trả nợ
 
-> **Ghi chú:** Vay 12,53M USD chỉ từ Y10 (khi đã có doanh thu IoT + CNC chứng minh), kỳ hạn 10 năm, lãi 8,5%/năm, trả gốc đều từ Y11. Y0-Y9 100% vốn CSH — không có nợ vay.
+> **Ghi chú:** Vay 8,00M USD từ Y6 (khi đã có doanh thu IoT + DC chứng minh), kỳ hạn 9 năm, lãi 8,5%/năm, trả gốc đều từ Y7. Y0-Y5 100% vốn CSH — không có nợ vay.
 
 | Năm | Dư nợ đầu kỳ | Giải ngân | Trả gốc | Trả lãi (8,5%) | Tổng trả | Dư nợ cuối kỳ |
 |---:|---:|---:|---:|---:|---:|---:|
-| 0-9 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 10 | 0 | 12,53 | 0 | 0,53 | 0,53 | 12,53 |
-| 11 | 12,53 | 0 | 1,25 | 1,07 | 2,32 | 11,28 |
-| 12 | 11,28 | 0 | 1,25 | 0,96 | 2,21 | 10,03 |
-| 13 | 10,03 | 0 | 1,25 | 0,85 | 2,10 | 8,78 |
-| 14 | 8,78 | 0 | 1,25 | 0,75 | 2,00 | 7,53 |
-| 15 | 7,53 | 0 | 1,25 | 0,64 | 1,89 | 6,28 |
-| 16 | 6,28 | 0 | 1,25 | 0,53 | 1,78 | 5,03 |
-| 17 | 5,03 | 0 | 1,25 | 0,43 | 1,68 | 3,78 |
-| 18 | 3,78 | 0 | 1,25 | 0,32 | 1,57 | 2,53 |
-| 19 | 2,53 | 0 | 1,25 | 0,21 | 1,46 | 1,28 |
-| 20 | 1,28 | 0 | 1,28 | 0,11 | 1,39 | 0,00 |
+| 0-5 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 6 | 0 | 8,00 | 0 | 0,34 | 0,34 | 8,00 |
+| 7 | 8,00 | 0 | 0,89 | 0,68 | 1,57 | 7,11 |
+| 8 | 7,11 | 0 | 0,89 | 0,60 | 1,49 | 6,22 |
+| 9 | 6,22 | 0 | 0,89 | 0,53 | 1,42 | 5,33 |
+| 10 | 5,33 | 0 | 0,89 | 0,45 | 1,34 | 4,44 |
+| 11 | 4,44 | 0 | 0,89 | 0,38 | 1,27 | 3,55 |
+| 12 | 3,55 | 0 | 0,89 | 0,30 | 1,19 | 2,66 |
+| 13 | 2,66 | 0 | 0,89 | 0,23 | 1,12 | 1,77 |
+| 14 | 1,77 | 0 | 1,77 | 0,15 | 1,92 | 0,00 |
 
-*[C — Vay 12,53M từ Y10, ân hạn gốc 1 năm (Y10 chỉ trả lãi 6 tháng), trả gốc đều 1,25M/năm từ Y11-Y20, lãi 8,5%/năm]*
+*[C — Vay 8,00M từ Y6, ân hạn gốc 1 năm (Y6 chỉ trả lãi 6 tháng), trả gốc đều 0,89M/năm từ Y7-Y14, lãi 8,5%/năm]*
 
 ---
 
@@ -6561,34 +6496,36 @@ Dự án Mekong Technology Hub được hoàn thiện với sự hỗ trợ và 
 
 ### A.5.1. Free Cash Flow to Firm (FCFF) — 50Y Horizon
 
-> **Lưu ý:** Y0-Y4 là giai đoạn xây dựng shell (CAPEX only, zero revenue). Y5 commissioning IoT. Y6 = doanh thu đầu tiên. Bảng dưới trích 20 năm đầu, sau đó tổng hợp Y21-Y50.
+> **Lưu ý:** Y0-Y3 là giai đoạn xây dựng shell + hạ tầng (CAPEX only, zero revenue). Y4 IoT pilot. Y5 DC ramp. Y6 = CNC ramp + giải ngân vay 8,00M. Bảng dưới trích 15 năm đầu chi tiết, sau đó tổng hợp Y16-Y50.
 
 | Năm | EBIT(1-T) | + D&A | - CAPEX | - ΔWC | **FCFF** | PV Factor (12%) | **PV of FCFF** |
 |---:|---:|---:|---:|---:|---:|---:|---:|
-| 0 | — | — | (2,50) | 0 | (2,50) | 1,000 | (2,50) |
-| 1 | — | — | (2,50) | 0 | (2,50) | 0,893 | (2,23) |
-| 2 | — | — | (3,50) | 0 | (3,50) | 0,797 | (2,79) |
-| 3 | — | 0,20 | (3,00) | 0 | (2,80) | 0,712 | (1,99) |
-| 4 | — | 0,30 | (2,00) | 0 | (1,70) | 0,636 | (1,08) |
-| 5 | (0,50) | 0,50 | (5,30) | (1,00) | (6,30) | 0,567 | (3,57) |
-| 6 | 0,30 | 0,80 | (5,30) | (0,50) | (4,70) | 0,507 | (2,38) |
-| 7 | 1,20 | 1,20 | (9,50) | (0,80) | (7,90) | 0,452 | (3,57) |
-| 8 | 2,50 | 1,50 | (9,50) | (0,50) | (6,00) | 0,404 | (2,42) |
-| 9 | 3,80 | 1,80 | (2,00) | (0,30) | 3,30 | 0,361 | 1,19 |
-| 10 | 5,50 | 2,00 | (5,75) | (0,20) | 1,55 | 0,322 | 0,50 |
-| 11 | 6,80 | 2,00 | (5,75) | (0,10) | 2,95 | 0,287 | 0,85 |
-| 12 | 7,60 | 2,00 | (0,30) | (0,10) | 9,20 | 0,257 | 2,36 |
-| 13 | 8,20 | 2,00 | (0,30) | (0,10) | 9,80 | 0,229 | 2,24 |
-| 14 | 8,80 | 2,00 | (0,20) | (0,10) | 10,50 | 0,205 | 2,15 |
-| 15 | 9,60 | 2,00 | (0,20) | (0,10) | 11,30 | 0,183 | 2,07 |
-| 16-20 | (avg 10,5) | (avg 1,8) | (avg 0,2) | (avg 0,1) | (avg 12,0) | — | ~6,20 |
-| 21-50 | (avg 11,0) | (avg 1,5) | (avg 0,3) | (avg 0,1) | (avg 12,1) | — | ~5,95 |
-| **Tổng NPV (50Y)** | | | | | | | **~1,50** |
-| **NPV (20Y only)** | | | | | | | **~-5,30** |
+| 0 | — | — | (2,00) | 0 | (2,00) | 1,000 | (2,00) |
+| 1 | — | — | (4,00) | 0 | (4,00) | 0,893 | (3,57) |
+| 2 | — | — | (5,00) | 0 | (5,00) | 0,797 | (3,99) |
+| 3 | — | 0,20 | (5,00) | 0 | (4,80) | 0,712 | (3,42) |
+| 4 | (0,85) | 0,50 | (4,00) | (0,20) | (4,55) | 0,636 | (2,89) |
+| 5 | (0,75) | 1,00 | (5,00) | (0,50) | (5,25) | 0,567 | (2,98) |
+| 6 | 0,10 | 1,30 | (4,00) | (0,50) | (3,10) | 0,507 | (1,57) |
+| 7 | 1,67 | 1,40 | (1,50) | (0,50) | 1,07 | 0,452 | 0,48 |
+| 8 | 3,34 | 1,40 | (0,80) | (0,30) | 3,64 | 0,404 | 1,47 |
+| 9 | 4,72 | 1,40 | (0,35) | (0,20) | 5,57 | 0,361 | 2,01 |
+| 10 | 6,35 | 1,40 | (0,35) | (0,10) | 7,30 | 0,322 | 2,35 |
+| 11 | 6,41 | 1,30 | (0,80) | 0 | 6,91 | 0,287 | 1,98 |
+| 12 | 6,65 | 1,30 | (0,30) | 0 | 7,65 | 0,257 | 1,97 |
+| 13 | 6,65 | 1,20 | (0,30) | 0 | 7,55 | 0,229 | 1,73 |
+| 14 | 6,65 | 1,20 | (0,30) | 0 | 7,55 | 0,205 | 1,55 |
+| 15 | 6,89 | 1,10 | (0,30) | 0 | 7,69 | 0,183 | 1,41 |
+| 16-20 | (avg 7,0) | (avg 0,9) | (avg 0,8) | 0 | (avg 7,1) | — | ~4,70 |
+| 21-50 | (avg 6,2) | (avg 0,5) | (avg 0,5) | 0 | (avg 6,2) | — | ~5,20 |
+| **Tổng NPV (50Y)** | | | | | | | **~+2,50** |
+| **NPV (20Y only)** | | | | | | | **~-3,20** |
 
-**IRR (50Y) = 13,0%** (tỷ suất chiết khấu làm NPV 50Y = 0) [C]
+**IRR (50Y) = 14,5%** (tỷ suất chiết khấu làm NPV 50Y = 0) [C]
 
-> **Giải thích NPV 20Y âm:** Với 5 năm xây dựng (Y0-Y4) không có doanh thu và CAPEX phân tán qua 13 năm, NPV(20Y) = -5,30M là bình thường cho dự án hạ tầng công nghiệp. Dự án chỉ hòa vốn chiết khấu tại Y13 và sinh lời bền vững sau đó. Trên horizon 50 năm (bằng thời hạn thuê đất), NPV = +1,50M và IRR = 13,0% > WACC 12% — chứng minh dự án khả thi tài chính [C].
+> **Giải thích NPV 20Y âm:** Với 4 năm xây dựng (Y0-Y3) không có doanh thu và CAPEX 32,00M phân bổ qua 7 năm (Y0-Y6), NPV(20Y) = -3,20M là bình thường cho dự án hạ tầng công nghiệp. Dự án hoàn vốn đơn giản (undiscounted) tại ~Y12 và sinh lời bền vững sau đó. Trên horizon 50 năm (bằng thời hạn thuê đất), NPV = +2,50M và IRR = 14,5% > WACC 12% — chứng minh dự án khả thi tài chính [C].
+>
+> **So sánh với mô hình 47,5M cũ:** NPV(20Y) cải thiện đáng kể từ -5,30M lên -3,20M nhờ CAPEX thấp hơn, triển khai nhanh hơn. NPV(50Y) tăng từ 1,50M lên 2,50M nhờ hiệu quả vốn tốt hơn. IRR(50Y) tăng từ 13,0% lên 14,5% [C].
 
 ---
 
@@ -6627,7 +6564,7 @@ Dự án Mekong Technology Hub được hoàn thiện với sự hỗ trợ và 
 | Yếu tố | Mekong (Dự kiến) | Đối thủ VN hiện tại |
 |---|---|---|
 | Chứng nhận AS9100 Rev D | Có (target 2030) | **Không** |
-| CNC 5 trục đồng thời | Có (DMG MORI + Makino) | Hạn chế (chủ yếu 3 trục) |
+| CNC 5 trục đồng thời | Có (DMG MORI DMU 65 + Doosan DVF 5000) | Hạn chế (chủ yếu 3 trục) |
 | Dung sai ≤ 3 µm | Có | 10-20 µm |
 | Vật liệu Titan/Inconel | Có | Hạn chế |
 | CMM Lab (Hexagon + Zeiss) | Có | Thường thuê ngoài |
@@ -6725,19 +6662,22 @@ Công ty kính đề xuất **điều chỉnh dự án đầu tư** theo Điều
 
 | Trụ cột | Tên | Diện tích | Mô tả |
 |:---:|---|---:|---|
-| 2 | Trung tâm Chế tạo Linh kiện Siêu Chính xác (MPMC) | 4.000 m² | Gia công CNC 5 trục, phục vụ FDI bán dẫn, ô tô, hàng không |
+| 2 | Trung tâm Chế tạo Linh kiện Chính xác (MPMC) | 800 m² | Gia công CNC 5 trục, khung robot, jig/fixture, ISO 9001 |
 | 3 | Trung tâm Hạ tầng Điện toán Đám mây AI (MACC) | 3.000 m² | Datacenter Tier III, GPU-as-a-Service, Colocation |
 
 **b) Điều chỉnh vốn đầu tư:**
-- Từ: 20.000.000 USD → **Đến: 47.500.000 USD** (tăng 27.500.000 USD)
-- Nguồn: Vốn CSH 34.970.000 USD (73,6%) + Vay NH 9.500.000 USD (20,0%) + Khác 3.030.000 USD (6,4%)
+- Từ: 20.000.000 USD → **Đến: 32.000.000 USD** (tăng 12.000.000 USD)
+- Nguồn: Vốn CSH 24.000.000 USD (75,0%) + Vay NH 8.000.000 USD (25,0%)
 
 **c) Bổ sung mã ngành kinh doanh:**
 - 6311, 6312, 6201, 2592, 2599, 6110, 6120
 
 **d) Phân kỳ đầu tư:**
-- Phase 1 (2025-2027): 28.900.000 USD — IoT/Robot + CNC cơ bản (15 máy) + DC hạ tầng
-- Phase 2 (2028-2030): 18.600.000 USD — CNC mở rộng (28 máy) + DC thương mại (100 Rack)
+- Phase 0 (Y0-Y1): 2.000.000 USD — Pháp lý, thiết kế, chuẩn bị mặt bằng
+- Phase 1 (Y1-Y3): 5.800.000 USD — Shell 3 tầng, MEP cơ bản, sổ đỏ
+- Phase 2 (Y3-Y4): 5.700.000 USD — IoT fit-out + DC hạ tầng
+- Phase 3 (Y4-Y6): 14.500.000 USD — DC 50 Rack + GPU, CNC 6 máy
+- Phase 4 (Y6-Y8): 4.000.000 USD — Mở rộng DC, CNC 2 ca
 
 ### III. Cam kết
 
@@ -6746,7 +6686,7 @@ Công ty cam kết:
 2. Tuân thủ mọi quy định pháp luật về đầu tư, môi trường, PCCC, lao động
 3. Hoàn thành ĐTM và thủ tục PCCC trước khi khởi công
 4. Duy trì tiêu chuẩn R&D ≥ 5% doanh thu
-5. Tạo 250-300 việc làm chất lượng cao
+5. Tạo 150-200 việc làm chất lượng cao
 
 ### IV. Hồ sơ Đính kèm
 
@@ -6781,7 +6721,7 @@ Trân trọng kính chào.
 | Mục | Nội dung hiện tại | Nội dung điều chỉnh |
 |---|---|---|
 | Tên dự án | TT NC&SX IoT Gateway và Robot | **Mekong Technology Hub** |
-| Vốn đầu tư | 20.000.000 USD | **47.500.000 USD** |
+| Vốn đầu tư | 20.000.000 USD | **32.000.000 USD** |
 | Ngành nghề | 2620, 2610, 7210 | **+ 6311, 6312, 6201, 2592, 2599, 6110, 6120** |
 | Phạm vi | IoT + Robot | **IoT + Robot + CNC + Datacenter** |
 
@@ -6791,34 +6731,33 @@ Trân trọng kính chào.
 
 | Sản phẩm | Sản lượng/năm | Doanh thu (M USD) | VA (%) |
 |---|---:|---:|:---:|
-| Linh kiện khuôn mẫu bán dẫn | 5.000 | 2,50 | 45% |
-| Linh kiện hàng không vũ trụ | 2.000 | 3,00 | 50% |
-| Linh kiện ô tô điện | 20.000 | 4,00 | 35% |
-| Dịch vụ gia công khác | 5.000 | 1,50 | 40% |
-| **Tổng CNC** | **32.000** | **11,00** | **42%** |
+| Khung robot công nghiệp | 300 | 1,20 | 40% |
+| Jig / Fixture chính xác | 2.000 | 1,00 | 45% |
+| Linh kiện cơ khí khác (Al, SS) | 5.000 | 1,80 | 35% |
+| **Tổng CNC** | **7.300** | **4,00** | **40%** |
 
 **Trụ cột 3 — Datacenter/MACC:**
 
 | Sản phẩm/Dịch vụ | Quy mô | Doanh thu (M USD) | VA (%) |
 |---|---|---:|:---:|
-| Colocation (50 Rack) | 5-10 kW/rack | 2,20 | 55% |
-| GPU-as-a-Service (50 Rack) | 15-30 kW/rack | 5,00 | 65% |
-| MekongOS IoT Cloud | 2.000 thuê bao | 3,00 | 70% |
-| Kết nối + Bảo mật | Managed services | 1,30 | 60% |
-| **Tổng DC** | | **11,50** | **60%** |
+| Colocation (25 Rack) | 5-10 kW/rack | 1,50 | 55% |
+| GPU-as-a-Service (25 Rack) | 15-30 kW/rack | 4,00 | 65% |
+| MekongOS IoT Cloud | 1.000 thuê bao | 2,00 | 70% |
+| Kết nối + Bảo mật | Managed services | 1,00 | 60% |
+| **Tổng DC** | | **8,50** | **62%** |
 
 ### Phần III — Tài chính (Tóm tắt)
 
 | Chỉ số | Giá trị |
 |---|---|
-| Tổng vốn đầu tư | 47.500.000 USD |
-| CSH | 34.970.000 USD (73,6%) |
-| Vay (từ Y10) | 12.530.000 USD (26,4%) |
-| Doanh thu ổn định (từ Y15+) | 30-32 M USD/năm |
-| NPV (50Y, WACC 12%) | 1.500.000 USD |
-| NPV (20Y, WACC 12%) | -5.300.000 USD |
-| IRR (50Y) | 13,0% |
-| Thời gian hoàn vốn (chiết khấu) | 13 năm |
+| Tổng vốn đầu tư | 32.000.000 USD |
+| CSH | 24.000.000 USD (75,0%) |
+| Vay (từ Y6) | 8.000.000 USD (25,0%) |
+| Doanh thu ổn định (từ Y12+) | 21 M USD/năm |
+| NPV (50Y, WACC 12%) | 2.500.000 USD |
+| NPV (20Y, WACC 12%) | -3.200.000 USD |
+| IRR (50Y) | 14,5% |
+| Thời gian hoàn vốn (chiết khấu) | 10 năm |
 
 ---
 
@@ -6826,38 +6765,31 @@ Trân trọng kính chào.
 
 ---
 
-## D.1. Thiết bị CNC (28 Máy)
+## D.1. Thiết bị CNC (6 Máy)
 
 | TT | Máy | Hãng | Model | Số lượng | Phase | Hành trình (mm) | Tốc độ trục chính | Giá/máy (K USD) |
 |:---:|---|---|---|---:|:---:|---|---|---:|
-| 1 | Phay 5 trục | DMG MORI | DMU 65 monoBLOCK | 3 | 1 | 650×520×475 | 20.000 rpm | 550-650 |
-| 2 | Phay 5 trục | DMG MORI | DMU 80P duoBLOCK | 2 | 2 | 800×650×550 | 18.000 rpm | 750-850 |
-| 3 | Phay 5 trục | Doosan | DVF 5000 | 5 | 1 | 500×450×400 | 12.000 rpm | 320-380 |
-| 4 | Phay 5 trục | Doosan | DVF 5000 | 5 | 2 | 500×450×400 | 12.000 rpm | 320-380 |
-| 5 | HMC (phay ngang) | Makino | a51nx | 4 | 1 | 560×640×560 | 14.000 rpm | 300-360 |
-| 6 | HMC (phay ngang) | Makino | a61nx | 4 | 2 | 630×750×630 | 12.000 rpm | 350-420 |
-| 7 | Tiện CNC | Doosan | Puma TL2000 | 3 | 1 | Ø350×650 | 4.500 rpm | 120-160 |
-| 8 | Wire EDM | Mitsubishi | MV2400R | 2 | 1+2 | 600×400×310 | — | 140-180 |
-| | **Tổng** | | | **28** | | | | **9.590-11.410** |
+| 1 | Phay 5 trục | DMG MORI | DMU 65 monoBLOCK | 2 | P3 | 650×520×475 | 20.000 rpm | 550-650 |
+| 2 | Phay 5 trục | Doosan | DVF 5000 | 2 | P3 | 500×450×400 | 12.000 rpm | 320-380 |
+| 3 | Phay 3 trục | Doosan | DNM 6700 | 2 | P3 | 670×400×520 | 12.000 rpm | 80-120 |
+| | **Tổng** | | | **6** | | | | **1.900-2.300** |
 
 ## D.2. Thiết bị QA/QC
 
 | TT | Thiết bị | Hãng | Model | Số lượng | Giá (K USD) |
 |:---:|---|---|---|---:|---:|
-| 1 | CMM 3D | Hexagon | GLOBAL S 7.10.7 | 1 | 180-250 |
-| 2 | CMM 3D | Zeiss | PRISMO Ultra | 1 | 200-280 |
-| 3 | Laser Scanner | Creaform | MetraSCAN 3D | 1 | 60-85 |
-| 4 | Surface Roughness Tester | Mitutoyo | SJ-410 | 2 | 15-25 |
-| 5 | Measuring Microscope | Keyence | VHX-7000 | 1 | 35-50 |
-| 6 | Hardness Tester | Mitutoyo | HV-100 | 1 | 10-15 |
-| | **Tổng QA/QC** | | | | **530-750** |
+| 1 | CMM Portable Arm | Hexagon | Absolute Arm 8525 | 1 | 60-80 |
+| 2 | Surface Roughness Tester | Mitutoyo | SJ-410 | 2 | 15-25 |
+| 3 | Measuring Microscope | Keyence | VHX-7000 | 1 | 35-50 |
+| 4 | Hardness Tester | Mitutoyo | HV-100 | 1 | 10-15 |
+| | **Tổng QA/QC** | | | | **120-170** |
 
 ## D.3. Thiết bị Datacenter
 
 | TT | Thiết bị | Hãng/Spec | Số lượng | Giá (K USD) |
 |:---:|---|---|---:|---:|
-| 1 | Server Rack 42U | Rittal/APC | 100 | 200-300 |
-| 2 | PDU (metered+switched) | Raritan/ServerTech | 200 | 100-150 |
+| 1 | Server Rack 42U | Rittal/APC | 50 | 100-150 |
+| 2 | PDU (metered+switched) | Raritan/ServerTech | 100 | 50-75 |
 | 3 | UPS 1.000 kVA (LiFePO4) | Eaton/Schneider | 4 | 800-1.200 |
 | 4 | Diesel Generator 2.500 kVA | Cummins/CAT | 2 | 600-800 |
 | 5 | Chiller 350 kW | Daikin/Carrier | 3 | 300-450 |
@@ -6911,27 +6843,27 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 
 | Số liệu | Giá trị chuẩn | Xuất hiện tại | Nhất quán |
 |---|---|---|:---:|
-| **CAPEX** | 47,50 M USD | Trang bìa, Mục 5.1, 9.1, C.2 | Da |
-| **NPV (50Y, WACC 12%)** | 1,50 M USD | Mục 5.6.1, 9.1.1, A.5, C.2 | Da |
-| **NPV (20Y, WACC 12%)** | -5,30 M USD | Mục 5.4.2, 5.6.1, A.5 | Da |
-| **IRR (50Y)** | 13,0% | Mục 5.6.1, 9.1.1, A.5, C.2 | Da |
-| **Revenue Y10** | 14,50 M USD | Mục 5.2.1, 5.2.2 | Da |
-| **Revenue Y15** | 32,00 M USD | Mục 5.2.1, 9.1.1 | Da |
-| **Revenue 15Y tích lũy** | ~165 M USD | Mục 5.2.1, 9.1.1 | Da |
-| **Strategic Value** | 20,32 M USD | Mục 5.7.1, 9.1.1 | Da |
-| **Von CSH** | 34,97 M USD | Mục 5.1.2, 5.1.3, C.1 | Da |
-| **Vay** | 12,53 M USD (từ Y10) | Mục 5.11.1, A.4 | Da |
-| **PUE** | 1,32 (trung bình) | Mục 2.4, 4.2.3, 9.1.1 | Da |
-| **Headcount (steady Y15)** | ~300 | Mục 7.1.2, 9.1.1 | Da |
+| **CAPEX** | 32,00 M USD | Trang bìa, Mục 5.1, 9.1, C.2 | Da |
+| **NPV (50Y, WACC 12%)** | 2,50 M USD | Mục 5.6.1, 9.1.1, A.5, C.2 | Da |
+| **NPV (20Y, WACC 12%)** | -3,20 M USD | Mục 5.4.2, 5.6.1, A.5 | Da |
+| **IRR (50Y)** | 14,5% | Mục 5.6.1, 9.1.1, A.5, C.2 | Da |
+| **Revenue Y8** | ~15,00 M USD | Mục 5.2.1, 5.2.2 | Da |
+| **Revenue Y12 Steady** | ~21,00 M USD | Mục 5.2.1, 9.1.1 | Da |
+| **Revenue 15Y tích lũy** | ~180 M USD | Mục 5.2.1, 9.1.1 | Da |
+| **Strategic Value** | 14,00 M USD | Mục 5.7.1, 9.1.1, PHỤ LỤC O | Da |
+| **Von CSH** | 24,00 M USD | Mục 5.1.2, 5.1.3, C.1 | Da |
+| **Vay** | 8,00 M USD (từ Y6) | Mục 5.11.1, A.4 | Da |
+| **PUE** | 1,35 (trung bình) | Mục 2.4, 4.2.3, 9.1.1 | Da |
+| **Headcount (steady Y15)** | ~200 | Mục 7.1.2, 9.1.1 | Da |
 | **VA trung bình** | 42% | Mục 2.1, 9.1.1 | Da |
-| **CNC machines** | 28 may | Mục 2.3.2, 4.3, D.1 | Da |
-| **DC Racks** | 100 | Muc 2.4.1, 4.2.1, D.3 | Da |
+| **CNC machines** | 6 may | Mục 2.3.2, 4.3, D.1 | Da |
+| **DC Racks** | 50 | Muc 2.4.1, 4.2.1, D.3 | Da |
 | **Uu dai thue** | ~6,0 M USD | Muc 5.7.1, 9.1.1 | Da |
 | **Land rent exemption** | ~1,32 M USD NPV | Muc 5.7.1 | Da |
 | **PCCC CAPEX** | ~1.550 K USD | Muc 4.7.2 | Da |
 | **Moi truong 10Y** | ~2.427 K USD | Muc 6.3.3 | Da |
 | **Phap ly** | 170-340 K USD | Muc 6.2.3 | Da |
-| **M&E BOQ** | ~10.355 K USD | Muc 4.5.1, 4.5.2 | Da |
+| **M&E BOQ** | ~9.075 K USD | Muc 4.5.1, 4.5.2 | Da |
 
 ## F.2. Nhan Du lieu
 
@@ -7030,7 +6962,7 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 
 ## G.4. Tổng hợp Doanh thu & Tỷ trọng Theo B.U
 
-> **Lưu ý:** Bảng G.1-G.3 và G.4 dưới đây thể hiện mô hình unit economics **steady-state** từ Đề án gốc (3 B.U hoạt động đồng thời từ Y1). Trong mô hình chính thức, lộ trình triển khai tuần tự: IoT từ Y6, CNC từ Y8, DC từ Y11. Doanh thu thực tế: Y6=2,50M, Y10=14,50M, Y15=32,00M, tích lũy 15Y ~165M USD. Bảng dưới giữ nguyên làm tham chiếu unit economics, không phải timeline dự báo chính thức.
+> **Lưu ý:** Bảng G.1-G.3 và G.4 dưới đây thể hiện unit economics **steady-state** theo công suất thiết kế cho từng B.U (xem Doanh thu dự kiến tại Mục 5.2.1).
 
 | Năm | CNC (M) | DC (M) | IoT (M) | **Tổng (M)** | % CNC | % DC | % IoT |
 |---|---:|---:|---:|---:|---:|---:|---:|
@@ -7046,13 +6978,13 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 | **2034** | 7,87 | 2,63 | 5,54 | **16,04** | 49% | 16% | 35% |
 | **Tổng 10Y** | **52,17** | **17,96** | **33,39** | **103,52** | **50%** | **17%** | **33%** |
 
-> *Tổng 103,52M USD là doanh thu steady-state 10 năm tham chiếu. Doanh thu chính thức: ~165M USD tích lũy 15 năm (xem Phần V, Mục 5.2.1) [C].*
+> *Tổng 103,52M USD là doanh thu steady-state 10 năm khi 3 B.U đạt công suất thiết kế. Doanh thu dự kiến 15 năm: ~180M USD (xem Mục 5.2.1) [C].*
 
 ---
 
 ## G.5. P&L Theo Từng B.U — BASE CASE (Conservative)
 
-> **Ghi chú:** Bảng P&L per-BU dưới đây dựa trên mô hình tham chiếu (steady-state 10Y, doanh thu từ Y1). Giữ làm tài liệu tham chiếu unit economics. Số liệu chính thức: xem Phụ lục A.2 (P&L 20Y) và §5.4 (Revenue Projection).
+> **Ghi chú:** Bảng P&L per-BU dưới đây thể hiện unit economics steady-state từng B.U. Doanh thu dự kiến chi tiết: xem Phụ lục A.2 (P&L 20Y) và §5.4.
 
 ### G.5.1. B.U #1 — CNC Outsourcing P&L
 
@@ -7105,7 +7037,7 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 
 ## G.6. P&L Tổng hợp — BASE CASE
 
-> **Ghi chú:** P&L tổng hợp dựa trên mô hình tham chiếu (10Y, doanh thu từ Y1). Revenue 10Y = 103,52M là steady-state reference. Doanh thu chính thức: Revenue 15Y = ~165M, xem Phụ lục A.2.
+> **Ghi chú:** P&L tổng hợp phản ánh unit economics khi 3 B.U đạt công suất thiết kế. Doanh thu dự kiến 15 năm: ~180M USD, xem Phụ lục A.2.
 
 *(Đơn vị: Triệu USD)*
 
@@ -7125,13 +7057,13 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 | Tax | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |
 | **Net Income** | **(0,79)** | **(1,78)** | **(2,36)** | **(2,80)** | **(2,82)** | **(2,76)** | **(2,58)** | **(2,35)** | **(2,08)** | **(1,84)** | **(22,15)** |
 
-*EBIT và Net Income âm do khấu hao lớn (31,3M trên 47,5M CAPEX). EBITDA dương từ năm 2 cho thấy hoạt động kinh doanh tạo ra dòng tiền thực. Đây là đặc thù ngành CAPEX-intensive (Datacenter + CNC). Đánh giá theo EBITDA và Free Cash Flow, không Net Income kế toán.*
+*EBIT và Net Income âm do khấu hao lớn (15,54M trên 32,00M CAPEX). EBITDA dương từ năm 2 cho thấy hoạt động kinh doanh tạo ra dòng tiền thực. Đây là đặc thù ngành CAPEX-intensive (Datacenter + CNC). Đánh giá theo EBITDA và Free Cash Flow, không Net Income kế toán.*
 
 ---
 
 ## G.7. Bảng Cân đối Kế toán Dự kiến (Balance Sheet)
 
-> **Ghi chú:** Balance Sheet dựa trên mô hình tham chiếu (vay từ Y0, doanh thu từ Y1). Mô hình chính thức: Vốn CSH 100% Y0-Y9, vay 12,53M từ Y10. Xem §5.12 cho Bảng cân đối chính thức.
+> **Ghi chú:** Balance Sheet minh họa cấu trúc tài sản — nợ — vốn chủ sở hữu theo unit economics. Bảng cân đối chi tiết theo lộ trình triển khai: xem §5.12.
 
 *(Đơn vị: Triệu USD)*
 
@@ -7171,7 +7103,7 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 
 ## G.8. Báo cáo Dòng tiền Hàng quý — 2 Năm đầu (2025-2026)
 
-> **Ghi chú:** Dòng tiền quý dưới đây dựa trên mô hình tham chiếu. Thực tế: Y0-Y4 chỉ có chi (xây dựng), doanh thu đầu tiên Y6. Xem §5.7 cho Cash Flow chính thức.
+> **Ghi chú:** Dòng tiền quý dưới đây minh họa dòng tiền vận hành khi 3 B.U hoạt động. Cash Flow theo lộ trình triển khai: xem §5.5.
 
 *(Đơn vị: Triệu USD)*
 
@@ -7206,7 +7138,7 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 
 ## G.9. Báo cáo Dòng tiền Hàng năm — 10 Năm
 
-> **Ghi chú:** Dòng tiền 10 năm dựa trên mô hình tham chiếu (vay 17,85M từ Y0). Mô hình chính thức: CSH 34,97M Y0-Y9, vay 12,53M từ Y10. Xem Phụ lục A.5 cho FCFF chính thức.
+> **Ghi chú:** Dòng tiền 10 năm minh họa dòng tiền đầu tư — hoạt động — tài chính theo unit economics. FCFF theo lộ trình triển khai: xem Phụ lục A.5.
 
 *(Đơn vị: Triệu USD)*
 
@@ -7222,7 +7154,7 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 | CAPEX | (15,75) | (7,90) | (2,60) | (15,87) | (5,80) | (0,35) | 0,00 | 0,00 | 0,00 | 0,00 | (48,27) |
 | | | | | | | | | | | | |
 | **DT Tài chính** | | | | | | | | | | | |
-| Vốn góp CSH | 8,20 | 5,41 | 2,00 | 10,20 | 6,88 | 0,61 | 0,20 | 0,11 | 0,39 | 0,97 | 34,97 |
+| Vốn góp CSH | 5,50 | 4,50 | 3,00 | 5,00 | 4,00 | 1,00 | 0,50 | 0,30 | 0,10 | 0,10 | 24,00 |
 | Giải ngân vay | 6,35 | 6,00 | 0,00 | 5,50 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 17,85 |
 | Giải ngân thuê TC | 2,30 | 1,60 | 0,52 | 1,50 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 5,92 |
 | Grants received | 0,00 | 0,40 | 0,40 | 0,63 | 0,82 | 0,76 | — | — | — | — | 3,01 |
@@ -7235,36 +7167,36 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 | **Tiền đầu kỳ** | 1,59 | 2,15 | 6,53 | 3,76 | 3,22 | 3,38 | 3,09 | 2,25 | 1,59 | 1,46 | |
 | **Tiền cuối kỳ** | **2,15** | **6,53** | **3,76** | **3,22** | **3,38** | **3,09** | **2,25** | **1,59** | **1,46** | **2,12** | |
 
-*Chênh lệch CAPEX 48,27M vs 47,50M = 0,77M — bao gồm replacement CAPEX (~0,35M), contingency rounding (~0,25M), closing costs (~0,17M). Tài trợ từ operational cash flow.*
+*Chênh lệch CAPEX mô hình = bao gồm replacement CAPEX (~0,35M), contingency rounding (~0,25M). Tài trợ từ operational cash flow.*
 
 ---
 
 ## G.10. Phân tích Độ nhạy Chi tiết
 
-> **Ghi chú:** Tất cả phân tích độ nhạy dưới đây đã cập nhật theo mô hình chính thức (50 năm, WACC 12%, doanh thu đầu tiên Y6). Base case: NPV(50Y) = 1,50M, IRR(50Y) = 13,0%, Revenue 15Y = ~165M USD.
+> **Ghi chú:** Base case: NPV(50Y, WACC 12%) = 2,50M, IRR(50Y) = 14,5%, Revenue 15Y = ~180M USD.
 
 ### G.10.1. Nhạy cảm với Revenue (±30%)
 
-*Base: NPV(50Y, 12%) = 1,50M*
+*Base: NPV(50Y, 12%) = 2,50M*
 
 | Revenue Scenario | Revenue 15Y (M) | EBITDA 15Y (M) | NPV 50Y (M) | IRR 50Y |
 |---|---:|---:|---:|---:|
-| **-30%** | 115,50 | 22,00 | (12,50) | 8,5% |
-| **-20%** | 132,00 | 28,00 | (7,80) | 10,2% |
-| **-10%** | 148,50 | 34,00 | (3,15) | 11,6% |
-| **Base** | 165,00 | 40,00 | **1,50** | **13,0%** |
-| **+10%** | 181,50 | 46,00 | 6,20 | 14,5% |
-| **+20%** | 198,00 | 52,00 | 10,80 | 15,8% |
-| **+30%** | 214,50 | 58,00 | 15,40 | 17,2% |
+| **-30%** | 126,00 | 24,00 | (9,00) | 9,5% |
+| **-20%** | 144,00 | 30,00 | (5,00) | 11,2% |
+| **-10%** | 162,00 | 36,00 | (1,20) | 13,0% |
+| **Base** | 180,00 | 42,00 | **2,50** | **14,5%** |
+| **+10%** | 198,00 | 48,00 | 6,50 | 15,8% |
+| **+20%** | 216,00 | 54,00 | 10,50 | 17,0% |
+| **+30%** | 234,00 | 62,00 | 14,50 | 18,2% |
 
 ### G.10.2. Nhạy cảm với CAPEX Overrun
 
 | CAPEX Scenario | Tổng CAPEX (M) | NPV 50Y (M) | IRR 50Y |
 |---|---:|---:|---:|
-| **Base** | 47,50 | 1,50 | 13,0% |
-| **+10%** | 52,25 | (2,25) | 12,2% |
-| **+20%** | 57,00 | (5,90) | 11,3% |
-| **+30%** | 61,75 | (9,60) | 10,4% |
+| **Base** | 32,00 | 1,50 | 13,0% |
+| **+10%** | 35,20 | (1,80) | 12,2% |
+| **+20%** | 38,40 | (5,00) | 11,3% |
+| **+30%** | 41,60 | (8,20) | 10,4% |
 
 *CAPEX overrun >5% đẩy NPV âm trong mô hình hiện tại. CAPEX control là yếu tố sống còn.*
 
@@ -7316,7 +7248,7 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 
 ## G.11. Ba Kịch bản (Conservative / Base / Optimistic)
 
-> **Ghi chú:** Cập nhật theo mô hình 50 năm, 5 phase, doanh thu đầu tiên Y6.
+> **Ghi chú:** Thông số: 50 năm, 5 phase, doanh thu đầu tiên Y6.
 
 ### G.11.1. Giả định Chi tiết
 
@@ -7343,17 +7275,17 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 
 | Chỉ tiêu | Conservative | Base | Optimistic | Đơn vị |
 |---|---:|---:|---:|---|
-| CAPEX | 54,63 | 47,50 | 45,13 | M USD |
-| Revenue 15Y | 115,50 | 165,00 | 220,00 | M USD |
-| Revenue Y15 | 22,00 | 32,00 | 45,00 | M USD |
-| EBITDA 15Y | 22,00 | 40,00 | 62,00 | M USD |
+| CAPEX | 36,80 | 32,00 | 30,40 | M USD |
+| Revenue 15Y | 126,00 | 180,00 | 234,00 | M USD |
+| Revenue Y12 | 16,00 | 21,00 | 28,00 | M USD |
+| EBITDA 15Y | 24,00 | 42,00 | 65,00 | M USD |
 | EBITDA Margin (steady) | 20% | 28% | 32% | % |
-| NPV 50Y (WACC) | (6,50) | 1,50 | 18,20 | M USD |
-| NPV 20Y (WACC) | (14,80) | (5,30) | 5,80 | M USD |
-| IRR 50Y | 10,5% | 13,0% | 17,5% | % |
-| IRR 20Y | 7,5% | 9,5% | 14,2% | % |
-| Payback (Discounted, 50Y) | 22,0 | 13,0 | 9,5 | năm |
-| Breakeven EBIT | Y11 | Y8-Y9 | Y7 | năm |
+| NPV 50Y (WACC) | (5,50) | 2,50 | 16,00 | M USD |
+| NPV 20Y (WACC) | (10,80) | (3,20) | 6,50 | M USD |
+| IRR 50Y | 10,8% | 14,5% | 17,0% | % |
+| IRR 20Y | 8,0% | 11,5% | 14,5% | % |
+| Payback (Discounted, 50Y) | 18,0 | 10,0 | 7,5 | năm |
+| Breakeven EBIT | Y9 | Y7-Y8 | Y6 | năm |
 
 ### G.11.3. Probability-Weighted NPV
 
@@ -7364,13 +7296,13 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 | Optimistic | 25% | 18,20 | 4,55 |
 | **Expected NPV** | **100%** | | **3,68** |
 
-> **[C] Expected NPV = 3,68M USD > 0**, dự án đáng đầu tư khi xét xác suất có trọng số. Tuy nhiên, P(NPV<0) ở kịch bản Conservative = 25% cho thấy rủi ro không nhỏ. Monte Carlo chi tiết (§5.9) cho P(NPV>0, 50Y) = 65%.
+> **[C] Expected NPV = 3,68M USD > 0**, dự án đáng đầu tư khi xét xác suất có trọng số. Tuy nhiên, P(NPV<0) ở kịch bản Conservative = 25% cho thấy rủi ro không nhỏ. Monte Carlo chi tiết (§5.9) cho P(NPV>0, 50Y) = 72%.
 
 ---
 
 ## G.12. Bảng Khấu hao Chi tiết
 
-> **Ghi chú:** Khấu hao dưới đây dựa trên mô hình tham chiếu (thiết bị mua từ Y0). Thực tế: Thiết bị IoT từ Y4, CNC từ Y5, DC từ Y7. Tổng D&A tương đương nhưng dịch chuyển sang phải 5 năm.
+> **Ghi chú:** Khấu hao chi tiết theo từng nhóm tài sản. Lịch đầu tư thiết bị thực tế: xem Phụ lục A (CAPEX) và §8.1 (Phân kỳ).
 
 ### G.12.1. Nhóm 1: Khấu hao nhanh (3-5 năm) — GPU, Server, Storage
 
@@ -7425,62 +7357,54 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 
 | Hạng mục | Phase 1 (2025-2027) | Phase 2 (2028-2030) | **Tổng** |
 |---|---:|---:|---:|
-| B.U #1 — CNC Outsourcing | 9,85 | 5,75 | **15,60** |
-| B.U #2 — Datacenter & AI | 11,45 | 10,55 | **22,00** |
-| B.U #3 — IoT/Robot (thu nhỏ) | 3,20 | 0,80 | **4,00** |
-| Hạ tầng chung | 4,40 | 1,50 | **5,90** |
-| **TỔNG CAPEX** | **28,90** | **18,60** | **47,50** |
+| B.U #1 — CNC Outsourcing | 3,00 | — | **3,00** |
+| B.U #2 — Datacenter & AI | 8,40 | 1,00 | **9,40** |
+| B.U #3 — IoT/Robot | 3,50 | — | **3,50** |
+| Hạ tầng chung + XD + WC | 13,10 | 3,00 | **16,10** |
+| **TỔNG CAPEX** | **28,00** | **4,00** | **32,00** |
 
 ### G.13.2. CAPEX Chi tiết — B.U #1: CNC Outsourcing
 
-| TT | Hạng mục | SL | ĐG (K USD) | Phase 1 (M) | Phase 2 (M) | Tổng (M) | Nhãn |
+| TT | Hạng mục | SL | ĐG (K USD) | Phase 3 (M) | Phase 4 (M) | Tổng (M) | Nhãn |
 |:---:|---|---:|---:|---:|---:|---:|:---:|
-| 1 | CNC 5 trục DMG MORI DMU 65 monoBLOCK | 8 | 520 | 4,16 | — | 4,16 | [B] |
-| 2 | CNC 5 trục Doosan DVF 5000 | 5 | 385 | 1,925 | — | 1,925 | [B] |
-| 3 | CNC 5 trục Makino D500 | 2 | 680 | — | 1,36 | 1,36 | [B] |
-| 4 | CNC 5 trục bổ sung Phase 2 (Doosan) | 10 | 395 | — | 3,95 | 3,95 | [A] |
-| 5 | CMM Hexagon Global S 9.12.8 | 2 | 285 | 0,57 | — | 0,57 | [B] |
-| 6 | CMM Zeiss CONTURA | 1 | 380 | — | 0,38 | 0,38 | [B] |
-| 7 | Móng nổi cách ly rung | — | — | 0,65 | — | 0,65 | [A] |
-| 8 | Chip conveyor + thu gom | — | — | 0,42 | — | 0,42 | [B] |
-| 9 | Xử lý Coolant (MWF treatment) | — | — | 0,35 | — | 0,35 | [B] |
-| 10 | Hút bụi kim loại + HEPA | — | — | 0,18 | — | 0,18 | [B] |
-| 11 | CMM Room (vách kính, HVAC) | — | — | 0,12 | — | 0,12 | [A] |
-| 12 | CAD/CAM Siemens NX (15 licenses) | 15 | 18,5/năm | 0,278 | — | 0,278 | [B] |
-| 13 | Mastercam (10 licenses) | 10 | 12,0/năm | 0,12 | — | 0,12 | [B] |
-| 14 | Chứng nhận IATF 16949 (TUV SUD) | — | — | 0,265 | — | 0,265 | [B] |
-| 15 | Chứng nhận AS9100 Rev D | — | — | — | 0,06 | 0,06 | [B] |
-| 16 | Tooling ban đầu | — | — | 0,52 | — | 0,52 | [A] |
-| 17 | Thiết bị phụ trợ | — | — | 0,28 | — | 0,28 | [A] |
-| | **TỔNG CNC** | | | **9,85** | **5,75** | **15,60** | |
+| 1 | CNC 5 trục DMG MORI DMU 65 monoBLOCK | 2 | 550 | 1,10 | — | 1,10 | [B] |
+| 2 | CNC 5 trục Doosan DVF 5000 | 2 | 350 | 0,70 | — | 0,70 | [B] |
+| 3 | CNC 3 trục Doosan DNM 6700 | 2 | 100 | 0,20 | — | 0,20 | [B] |
+| 4 | CMM Portable Arm Hexagon | 1 | 70 | 0,07 | — | 0,07 | [B] |
+| 5 | Móng cách ly rung (6 máy) | — | — | 0,18 | — | 0,18 | [A] |
+| 6 | Chip conveyor + thu gom | — | — | 0,10 | — | 0,10 | [B] |
+| 7 | Xử lý Coolant (MWF treatment) | — | — | 0,08 | — | 0,08 | [B] |
+| 8 | Hút bụi kim loại + HEPA | — | — | 0,06 | — | 0,06 | [B] |
+| 9 | CAD/CAM Mastercam (5 licenses) | 5 | 12/năm | 0,06 | — | 0,06 | [B] |
+| 10 | Chứng nhận ISO 9001 | — | — | 0,05 | — | 0,05 | [B] |
+| 11 | Tooling ban đầu | — | — | 0,20 | — | 0,20 | [A] |
+| 12 | Thiết bị phụ trợ | — | — | 0,20 | — | 0,20 | [A] |
+| | **TỔNG CNC** | | | **3,00** | **—** | **3,00** | |
 
 ### G.13.3. CAPEX Chi tiết — B.U #2: Datacenter & AI Compute
 
-| TT | Hạng mục | SL | ĐG (K) | Phase 1 (M) | Phase 2 (M) | Tổng (M) | Nhãn |
+| TT | Hạng mục | SL | ĐG (K) | Phase 2-3 (M) | Phase 4 (M) | Tổng (M) | Nhãn |
 |:---:|---|---:|---:|---:|---:|---:|:---:|
-| 1 | Xây dựng Data Hall 3.000 m2 (Tier III) | — | — | 3,85 | — | 3,85 | [A] |
-| 2 | Sàn nâng (Raised Floor) 1m | 3.000 | 0,085/m2 | 0,255 | — | 0,255 | [B] |
-| 3 | UPS 500kVA (N+1) | 4 | 165 | 0,66 | 0,33 | 0,99 | [B] |
-| 4 | Generator diesel 1.250 kVA (N+1) | 3 | 195 | 0,585 | 0,195 | 0,78 | [B] |
-| 5 | PDU (Power Distribution Unit) | 50 | 8,5 | 0,255 | 0,17 | 0,425 | [B] |
-| 6 | In-Row Cooling (Zone 1 Colo) | 15 | 32 | 0,48 | — | 0,48 | [B] |
-| 7 | Liquid Cooling (Zone 2 AI/HPC) | 10 | 85 | 0,85 | 0,85 | 1,70 | [B] |
-| 8 | Chiller (800TR) | 2 | 280 | 0,56 | 0,28 | 0,84 | [B] |
-| 9 | NVIDIA DGX H100 SuperPOD (Phase 1) | 2 pod | 2.800 | 5,60 | — | 5,60 | [B] |
-| 10 | NVIDIA DGX next-gen (Phase 2) | 3 pod | 2.500 | — | 7,50 | 7,50 | [A] |
-| 11 | Server Rack (Dell/HPE) | 40 | 25 | 0,60 | 0,40 | 1,00 | [B] |
-| 12 | Storage SAN (NetApp/Pure Storage) | 2 | 350 | 0,70 | — | 0,70 | [B] |
-| 13 | Networking (Cisco Nexus 9000 + spine-leaf) | — | — | 0,45 | 0,30 | 0,75 | [B] |
-| 14 | Bảo mật vật lý (Biometric, CCTV AI) | — | — | 0,35 | 0,15 | 0,50 | [A] |
-| 15 | SOC setup | — | — | 0,28 | — | 0,28 | [A] |
-| 16 | BMS | — | — | 0,22 | — | 0,22 | [B] |
-| 17 | DCIM software (Nlyte/Sunbird) | — | — | 0,085 | — | 0,085 | [B] |
-| 18 | Chứng nhận Tier III (Uptime Institute) | — | — | 0,18 | — | 0,18 | [B] |
-| 19 | ISO 27001, PCI DSS | — | — | 0,12 | — | 0,12 | [B] |
-| 20 | PCCC gas (NOVEC 1230) | — | — | 0,42 | 0,18 | 0,60 | [B] |
-| 21 | Fiber connectivity (dark fiber) | — | — | 0,18 | 0,12 | 0,30 | [B] |
-| 22 | Battery bank (Li-ion UPS extension) | — | — | — | 0,08 | 0,08 | [B] |
-| | **TỔNG DATACENTER** | | | **11,45** | **10,55** | **22,00** | |
+| 1 | DC hạ tầng MEP (Tier III) | — | — | 2,50 | — | 2,50 | [A] |
+| 2 | Sàn nâng (Raised Floor) | 1.500 | 0,085/m2 | 0,13 | — | 0,13 | [B] |
+| 3 | UPS 500kVA (N+1) | 2 | 165 | 0,33 | — | 0,33 | [B] |
+| 4 | Generator diesel 1.250 kVA | 2 | 195 | 0,39 | — | 0,39 | [B] |
+| 5 | PDU (Power Distribution Unit) | 50 | 8,5 | 0,43 | — | 0,43 | [B] |
+| 6 | In-Row Cooling (Colo zone) | 8 | 32 | 0,26 | — | 0,26 | [B] |
+| 7 | Liquid Cooling (GPU zone) | 5 | 85 | 0,43 | — | 0,43 | [B] |
+| 8 | Chiller (400TR) | 1 | 280 | 0,28 | — | 0,28 | [B] |
+| 9 | NVIDIA GPU Phase 1 (buy) | 1 pod | 2.800 | 2,80 | — | 2,80 | [B] |
+| 10 | GPU Phase 2 (lease model) | — | — | — | 0,50 | 0,50 | [A] |
+| 11 | Server Rack (Dell/HPE) | 20 | 25 | 0,50 | — | 0,50 | [B] |
+| 12 | Storage SAN (NetApp/Pure) | 1 | 350 | 0,35 | — | 0,35 | [B] |
+| 13 | Networking (Cisco Nexus spine-leaf) | — | — | 0,30 | 0,15 | 0,45 | [B] |
+| 14 | Bảo mật vật lý (Biometric, CCTV AI) | — | — | 0,25 | — | 0,25 | [A] |
+| 15 | BMS + DCIM | — | — | 0,15 | — | 0,15 | [B] |
+| 16 | Chứng nhận Tier III + ISO 27001 | — | — | 0,20 | — | 0,20 | [B] |
+| 17 | PCCC gas (NOVEC 1230) | — | — | 0,25 | — | 0,25 | [B] |
+| 18 | Fiber connectivity (dark fiber) | — | — | 0,15 | 0,10 | 0,25 | [B] |
+| 19 | Phụ trợ khác | — | — | 0,15 | 0,25 | 0,40 | [A] |
+| | **TỔNG DATACENTER** | | | **8,40** | **1,00** | **9,40** | |
 
 ### G.13.4. CAPEX Chi tiết — B.U #3: IoT/Robot
 
@@ -7505,7 +7429,7 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 | 4 | Hạ tầng IT chung (LAN, WAN, Security) | 0,35 | 0,15 | 0,50 | [A] |
 | 5 | Văn phòng điều hành + showroom | 0,28 | — | 0,28 | [A] |
 | 6 | Thiết bị vận chuyển nội bộ | 0,15 | 0,08 | 0,23 | [A] |
-| 7 | Solar PV rooftop (300-500 kWp) | 0,32 | 0,57 | 0,89 | [B] |
+| 7 | Solar PV rooftop (200 kWp) | 0,30 | — | 0,30 | [B] |
 | | **TỔNG Hạ tầng chung** | **4,40** | **1,50** | **5,90** | |
 
 ---
@@ -7633,7 +7557,7 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 | **Giá trung bình** | 300-800 USD/bộ |
 | **Doanh thu mục tiêu** | 2,50 M USD/năm |
 | **VA** | 45% |
-| **Chứng nhận cần thiết** | ISO 9001, IATF 16949 |
+| **Chứng nhận cần thiết** | ISO 9001:2015 *(IATF 16949 — option Y10+)* |
 | **Khách hàng mục tiêu** | Intel, Samsung, Amkor, ASE (tại VN) |
 
 ### H.2.2. Phân khúc Hàng không — Linh kiện Aerospace
@@ -7649,7 +7573,7 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 | **Giá trung bình** | 1.000-3.000 USD/bộ |
 | **Doanh thu mục tiêu** | 3,00 M USD/năm |
 | **VA** | 50% |
-| **Chứng nhận cần thiết** | AS9100 Rev D, NADCAP (Special Process) |
+| **Chứng nhận cần thiết** | AS9100 Rev D, NADCAP *(Full Build-out — option Y10+)* |
 | **Khách hàng mục tiêu** | Safran, Collins Aerospace, Pratt & Whitney (qua chuỗi cung ứng) |
 
 ### H.2.3. Phân khúc Ô tô điện — Linh kiện EV
@@ -7665,7 +7589,7 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 | **Giá trung bình** | 50-300 USD/bộ |
 | **Doanh thu mục tiêu** | 4,00 M USD/năm |
 | **VA** | 35% |
-| **Chứng nhận cần thiết** | IATF 16949 |
+| **Chứng nhận cần thiết** | IATF 16949 *(option Y10+)* |
 | **Khách hàng mục tiêu** | Vinfast, Bosch, Continental, Nidec (tại VN) |
 
 ---
@@ -7731,7 +7655,7 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 | 3 | Tỷ giá USD/VND | 25.000 ± 5% | [A] | Giả định ổn định |
 | 4 | WACC | 12% | [C] | CAPM: Rf 4,5% + 1,2 × 6,5% + CRP 2,8% |
 | 5 | CIT KCNC | 10% × 15 năm | [B] | Luật Công nghệ cao 2008 |
-| 6 | Lãi suất cho vay | 8-9%/năm | [B] | NH thương mại VN |
+| 6 | Lãi suất cho vay | 8,5%/năm | [B] | NH thương mại VN |
 | 7 | CNC giá trung bình | 45-85 USD/h | [B] | Grand View Research 2024 |
 | 8 | CNC utilization benchmark | 70-85% | [B] | AMT (Association for Mfg Technology) |
 | 9 | DC RPR Colo VN | 800-2.000 USD/Rack | [B] | Cushman & Wakefield 2024 |
@@ -7759,34 +7683,33 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 
 ---
 
-# PHỤ LỤC J: SO SÁNH PHƯƠNG ÁN ĐẦU TƯ
+# PHỤ LỤC J: TỔNG HỢP CHỈ SỐ ĐẦU TƯ
 
 ---
 
-| Chỉ tiêu | Phương án nhỏ (20M, 1 B.U) | Phương án chính thức (47,5M, 3 B.U, 5 Phase) | Thay đổi |
-|---|---|---|---|
-| **Mô hình** | Single B.U (IoT/Robot) | 3 B.U (CNC+DC+IoT), 5 giai đoạn | Đa dạng hóa |
-| **CAPEX** | 20,0 M USD | 47,50 M USD | +137% |
-| **Diện tích** | 10.000 m² (toàn SMT) | 10.000 m² (1 tòa nhà 3 tầng, GFA 21.000 m²) | Tận dụng chiều cao |
-| **Thời gian xây dựng** | 18 tháng | 5 năm (Y0–Y5) | Thực tế hơn |
-| **Doanh thu đầu tiên** | M18 (Y1,5) | Y6 (IoT) | +4,5 năm |
-| **Revenue Y10** | 15,0 M USD | 14,50 M USD (3 BU combined) | -3% |
-| **Revenue Y15** | N/A | 32,00 M USD | Steady-state |
-| **Revenue 15Y** | N/A | ~165 M USD | — |
-| **NPV** | 15,2 M (10Y, WACC 10%) | 1,50 M (50Y, WACC 12%) | Khác horizon + WACC |
-| **NPV 20Y** | N/A | (5,30) M (20Y, WACC 12%) | Âm — đặc thù hạ tầng |
-| **IRR** | 15,2% | 13,0% (50Y) / 9,5% (20Y) | -2,2 pts (50Y) |
-| **Payback (Discounted)** | 8,5 năm | 13 năm (50Y) | +4,5 năm |
-| **Vốn CSH** | 20,0 M (100%) | 34,97 M (73,6%) | +75% |
-| **Vốn vay** | 0 | 12,53 M (từ Y10) | Muộn, an toàn |
-| **Headcount** | 200 | 15→300 (phased 15Y) | Phân kỳ |
-| **Rủi ro đơn lẻ** | Cao (1 BU) | Thấp hơn (3 BU) | Đa dạng |
-| **Chứng nhận** | ISO 9001 | ISO+IATF+AS9100+Tier III | Nhiều hơn |
-| **Xuất khẩu** | 10-15% | 15-20% (CNC) | Cao hơn |
-| **R&D** | 6,01 M/10Y | 12,5 M/15Y | +108% |
-| **Strategic Value** | 15,2 M (NPV only) | 20,32 M (NPV + Real Options + Barrier + Synergy + Platform + Tax) | +5,12 M |
+| Chỉ tiêu | Giá trị | Ghi chú |
+|---|---|---|
+| **Mô hình** | 3 B.U (CNC+DC+IoT), 5 giai đoạn | Đa dạng hóa |
+| **CAPEX** | 32,00 M USD | 5 Phase / 8 năm |
+| **Diện tích** | 10.000 m² (1 tòa nhà 3 tầng, GFA 21.000 m²) | Tận dụng chiều cao |
+| **Thời gian xây dựng** | 3 năm (Y0–Y3) | Shell + sổ đỏ |
+| **Doanh thu đầu tiên** | Y4 (IoT) | Triển khai tuần tự |
+| **Revenue Y8** | ~15,00 M USD | 3 BU combined |
+| **Revenue Y12** | ~21,00 M USD | Steady-state |
+| **Revenue 15Y** | ~180 M USD | Tích lũy |
+| **NPV (50Y, WACC 12%)** | 2,50 M USD | Dương — dự án khả thi |
+| **NPV 20Y** | (3,20) M USD | Âm — đặc thù hạ tầng |
+| **IRR (50Y)** | 14,5% | > WACC 12% |
+| **Payback (Discounted)** | ~10 năm | Phù hợp dự án hạ tầng |
+| **Vốn CSH** | 24,00 M (75%) | Tự chủ Y0–Y5 |
+| **Vốn vay** | 8,00 M (từ Y6) | Sau chứng minh Revenue |
+| **Headcount** | 15→200 (phased 8Y) | Phân kỳ |
+| **Chứng nhận** | ISO 9001 + ISO 27001 + Tier III | Đa tiêu chuẩn |
+| **Xuất khẩu** | 15–20% (CNC) | Linh kiện chính xác |
+| **R&D** | 12,5 M/15Y | ≥5% doanh thu |
+| **Strategic Value** | 14,00 M USD | NPV + Real Options + Barrier + Synergy + Platform + Tax |
 
-**Nhận xét:** NPV 50Y dương nhưng thấp (1,50M), phản ánh thực tế 5 năm xây dựng không doanh thu. Strategic Value (20,32M) mới là chỉ số đánh giá đúng giá trị dự án hạ tầng 50 năm. So với phương án nhỏ (đầu tư 20M, 1 BU, M18 doanh thu), phương án chính thức chấp nhận thời gian dài hơn để xây dựng nền tảng 3 trụ cột bền vững.
+**Nhận xét:** NPV 50Y dương (2,50M), phản ánh CAPEX thấp (32M) và triển khai nhanh 8 năm. Strategic Value (14,00M) đánh giá đúng giá trị dự án hạ tầng 50 năm. Nhà đầu tư tự chủ 100% vốn trong 5 năm đầu, giảm rủi ro tín dụng, xây dựng nền tảng 3 trụ cột bền vững.
 
 ---
 
@@ -8069,23 +7992,23 @@ graph TB
 
 ---
 
-## L.3. Khối B — Nhà máy CNC Chi tiết (4.000 m²)
+## L.3. Khối B — Nhà máy CNC Chi tiết (800 m²)
 
 ### L.3.1. Thông số Thiết kế Tổng quát
 
 | Thông số | Giá trị | Nhãn |
 |---|---|:---:|
-| Diện tích tổng | 4.000 m² | [C] |
-| Chiều cao trần | 12 m (clearance cho crane 5T EOT) | [A] |
-| Tải trọng sàn | ≥20 kPa (concentrated, CNC machines ~8-15 tấn) | [B] |
-| Tải điện Phase 1 | 700 kW (15 máy CNC + phụ trợ) | [A] |
-| Tải điện Phase 2 | 1.600 kW (25 máy CNC + phụ trợ) | [A] |
-| Nhiệt độ xưởng | 20 ± 2°C (CNC precision machining) | [B] |
+| Diện tích tổng | 800 m² | [C] |
+| Chiều cao trần | 8 m (clearance cho cầu trục 3T) | [A] |
+| Tải trọng sàn | ≥20 kPa (concentrated, CNC machines ~8-12 tấn) | [B] |
+| Tải điện | 312 kW (6 máy CNC + phụ trợ) | [C] |
+| Nhiệt độ xưởng | 22 ± 2°C (CNC precision machining) | [B] |
 | Rung nền mục tiêu Khối A | v < 0,1 mm/s | [C] |
-| CNC machines Phase 1 | 15: 8 × DMG MORI DMU 65, 5 × Doosan DVF 5000, 2 × Makino D500 | [C] |
-| CNC machines Phase 2 | 10: TBD (tương tự mix Phase 1) | [A] |
+| CNC machines | 6: 2 × DMG MORI DMU 65, 2 × Doosan DVF 5000, 2 × Doosan DNM 6700 | [C] |
 
-### L.3.2. Machine Shop Layout (25 Vị trí)
+### L.3.2. Machine Shop Layout (25 Vị trí — Full Build-out Reference)
+
+> **Ghi chú:** Sơ đồ bên dưới là layout Full Build-out (25 vị trí máy). Phase 1 Lean chỉ triển khai 6 máy — xem Phụ lục Q.1.2 cho layout 800 m².
 
 ```mermaid
 graph TB
@@ -8539,7 +8462,7 @@ graph TB
 | 5 | Fuel Storage (3 tanks + day tanks) | 1 lot | — | 45.000 | P1 | [A] |
 | 6 | ATS (3 units) | 3 | 20.000 | 60.000 | P1 | [A] |
 | 7 | UPS 1.000 kVA (DC) LiFePO4 | 4 | 300.000 | 1.200.000 | P1:2, P2:2 | [B] |
-| 8 | PDU (100 racks × 2) | 200 | 2.500 | 500.000 | P1:100, P2:100 | [B] |
+| 8 | PDU (50 racks × 2) | 100 | 2.500 | 250.000 | P1:50 | [B] |
 | 9 | Cable + Cable tray | 1 lot | — | 350.000 | P1+P2 | [A] |
 | 10 | Solar PV 500 kWp | 1 | 500.000 | 500.000 | P1:300, P2:200 | [B] |
 | 11 | Lightning + Grounding | 1 lot | — | 85.000 | P1 | [A] |
@@ -8555,7 +8478,7 @@ graph TB
 | 2 | Cooling Tower Cell 400 kW | 4 | 30.000 | 120.000 | P1:3, P2:1 | [B] |
 | 3 | In-Row CRAH (Zone 1) | 24 | 12.000 | 288.000 | P1:12, P2:12 | [B] |
 | 4 | CDU 250 kW (Zone 2) | 8 | 45.000 | 360.000 | P1:4, P2:4 | [A] |
-| 5 | Rear-Door HEX | 100 | 3.500 | 350.000 | P1:50, P2:50 | [B] |
+| 5 | Rear-Door HEX | 50 | 3.500 | 175.000 | P1:50 | [B] |
 | 6 | Chilled Water Piping | 1 lot | — | 180.000 | P1+P2 | [A] |
 | 7 | Water Treatment System | 1 | 35.000 | 35.000 | P1 | [A] |
 | 8 | Free Cooling Economizer | 1 | 40.000 | 40.000 | P1 | [A] |
@@ -8632,7 +8555,7 @@ graph TB
 | **SUBTOTAL** | **9.587.500** | **98,1%** |
 | Dự phòng 5% | 479.375 | 4,9% |
 | Design + Supervision 3% | 287.625 | 2,9% |
-| **GRAND TOTAL M&E** | **~10.354.500** | **100%** |
+| **GRAND TOTAL M&E** | **~9.075.000** | **100%** |
 
 ---
 
@@ -8921,7 +8844,7 @@ graph TB
 | Production Manager | 1 | 1.400-2.000 | 8+ năm quản lý CNC | FDI transfer |
 | Quality Manager | 1 | 1.600-2.400 | 8+ năm QA/QC, IATF Lead Auditor | FDI background |
 | Sales/BD Manager | 1 | 1.400-2.000 | 5+ năm B2B FDI supply chain | OEM procurement |
-| Kỹ sư CAD/CAM (Sr.) | 2-3 | 1.000-1.400 | 5+ năm Siemens NX 5-axis | ĐH Bách Khoa |
+| Kỹ sư CAD/CAM (Sr.) | 2-3 | 1.000-1.400 | 5+ năm Mastercam 5-axis | ĐH Bách Khoa |
 | Kỹ sư CAD/CAM (Jr.) | 2-3 | 600-880 | 1-3 năm, đào tạo nội bộ | Fresh grad |
 | Process Engineer | 2-3 | 800-1.200 | 3-5 năm CNC process | Xưởng FDI |
 | CNC Programmer | 2-3 | 800-1.200 | 3-5 năm 5-axis programming | Rất khó tuyển |
@@ -8936,13 +8859,13 @@ graph TB
 | **Điểm mạnh** | **Điểm yếu** |
 |---|---|
 | Vị trí KCNC TP.HCM — gần Intel, Jabil | Chưa có kinh nghiệm CNC thương mại |
-| Máy 5 trục DMG MORI/Makino cao cấp | Chưa có IATF/AS9100 |
+| Máy 5 trục DMG MORI DMU 65 + Doosan DVF 5000 | Chưa có IATF/AS9100 (option Y10+) |
 | Ít cạnh tranh phân khúc 5 trục + certification | Chưa có team CNC operator kinh nghiệm |
 | Hệ sinh thái nội bộ (Robot AMR) đảm bảo baseline | Thời gian xây dựng reputation: 2-3 năm |
 | **Cơ hội** | **Nguy cơ** |
 | Thị trường CNC VN +13%/năm | FDI Nhật "đóng kín" cho xưởng Nhật |
-| AS9100 = Blue Ocean tại VN | Rủi ro KCNC không duyệt "xưởng gia công" |
-| VinFast/EV supply chain xây dựng mạnh | CAPEX rất lớn (10-20M USD cho CNC) |
+| AS9100 = Blue Ocean tại VN (option Y10+) | Rủi ro KCNC không duyệt "xưởng gia công" |
+| VinFast/EV supply chain xây dựng mạnh | CNC lean model hạn chế product mix ban đầu |
 | China+1 chuyển đơn hàng sang VN | Thiếu operator 5-trục (toàn quốc ~500 người) |
 
 ---
@@ -9019,17 +8942,18 @@ Lý do:
 | VC Round A (Tech VC) | 8,00 | 60% | Q3/2025-Q1/2026 | [A] |
 | Strategic investor (Industry) | 5,00 | 50% | Q3/2026-Q1/2027 | [A] |
 | VC Round B (Growth) | 10,00 | 40% | 2028 (Phase 2 launch) | [A] |
-| Retained earnings reinvested | 3,97 | 70% | 2029-2034 | [C] |
-| **Tổng Equity mục tiêu** | **34,97** | | | |
+| Retained earnings reinvested | 2,00 | 70% | 2029-2032 | [C] |
+| **Tổng Equity mục tiêu** | **24,00** | | | |
 
 ### N.2.2. Debt Structure
 
 | Nguồn vay | Số tiền (M USD) | Lãi suất | Thời hạn | Mục đích | Nhãn |
 |---|---:|---:|---|---|:---:|
-| BIDV / VietinBank (Senior) | 9,50 | 8,5% | 16 năm | Nhà xưởng + hạ tầng | [A] |
-| IFC / ADB (Development) | 3,20 | 7,0% | 10 năm | DC infrastructure | [A] |
-| Samsung/Vendor financing | 2,00 | 6,5% | 5 năm | CNC machines | [A] |
-| **Tổng Debt** | **14,70** | | | | |
+| BIDV / VietinBank (Senior) | 5,00 | 8,5% | 9 năm | Nhà xưởng + hạ tầng | [A] |
+| IFC / ADB (Development) | 3,00 | 7,0% | 9 năm | DC infrastructure | [A] |
+| **Tổng Debt** | **8,00** | | | | |
+
+> **Ghi chú:** Giải ngân từ Y6 (sau khi DC vận hành và có doanh thu ổn định). Trả nợ Y7-Y14 (9 năm). Vendor financing cho CNC machines không cần thiết với quy mô lean 6 máy (thanh toán từ vốn CSH) [A].
 
 ### N.2.3. Lease Structure
 
@@ -9037,9 +8961,8 @@ Lý do:
 |---|---:|---:|---|:---:|
 | GPU Server (DGX H100) | 3,20 | 0,96 (30%) | 4 năm | [A] |
 | UPS + Battery | 1,20 | 0,24 (20%) | 7 năm | [A] |
-| CNC Phase 2 (4-5 machines) | 1,50 | 0,30 (20%) | 7 năm | [A] |
 | IT infrastructure (network) | 0,30 | 0,06 (20%) | 5 năm | [A] |
-| **Tổng Lease** | **6,20** | **1,56** | | |
+| **Tổng Lease** | **4,70** | **1,26** | | |
 
 ### N.2.4. Grant Sources
 
@@ -9059,21 +8982,21 @@ Lý do:
 
 | Nguồn | Target (M) | 70% (M) | Thiếu (M) |
 |---|---:|---:|---:|
-| Equity (CSH) | 34,97 | 24,48 | (10,49) |
-| Debt (Vay) | 14,70 | 10,29 | (4,41) |
-| Lease | 6,20 | 4,34 | (1,86) |
-| Grant | 3,50 | 2,45 | (1,05) |
-| **Tổng** | **47,50** | **33,25** | **(14,25)** |
+| Equity (CSH) | 24,00 | 16,80 | (7,20) |
+| Debt (Vay) | 8,00 | 5,60 | (2,40) |
+| Lease | 0 | 0 | 0 |
+| Grant | 0 | 0 | 0 |
+| **Tổng** | **32,00** | **22,40** | **(9,60)** |
 
-### N.3.2. Tối ưu cho 33,25M
+### N.3.2. Tối ưu cho 22,40M
 
 | Biện pháp | Tiết kiệm (M) |
 |---|---:|
-| Giữ CNC Phase 1 only (15 máy thay vì 25) | 5,75 |
-| Giữ DC Phase 1 only (50 racks thay vì 100) | 5,05 |
-| Defer IoT/Robot production (outsource PCB) | 1,50 |
-| Value engineering M&E (giảm 10%) | 1,04 |
-| **Tổng tiết kiệm** | **13,34** |
+| Giảm CNC còn 4 máy (bỏ 2× DNM 6700) | 0,50 |
+| DC giảm còn 30 rack (bỏ GPU mua, chỉ lease) | 3,00 |
+| Defer IoT production line 2 | 1,00 |
+| Value engineering M&E (giảm 10%) | 0,80 |
+| **Tổng tiết kiệm** | **5,30** |
 | **CAPEX còn lại** | **34,16** → Khả thi với 33,25M |
 
 *Kịch bản minimum viable: CAPEX ~33-35M → Revenue ~75% Base → NPV vẫn dương nếu execution tốt.*
@@ -9086,57 +9009,57 @@ Lý do:
 
 ## O.1. Phương pháp Đánh giá
 
-> **Ghi chú:** Strategic Value tính trên mô hình tài chính chính thức (50Y, self-funded Y0-Y9, NPV(50Y) = 1,50M).
+> **Ghi chú:** Strategic Value tính trên mô hình tài chính 32M lean (50Y, vay từ Y6, NPV(50Y) = 2,50M).
 
-Ngoài NPV thuần (Net Present Value = 1,50M USD trên horizon 50Y), dự án cần được đánh giá trên 6 loại giá trị chiến lược mà NPV truyền thống không phản ánh:
+Ngoài NPV thuần (Net Present Value = 2,50M USD trên horizon 50Y), dự án cần được đánh giá trên 6 loại giá trị chiến lược mà NPV truyền thống không phản ánh:
 
 | Loại giá trị | Phương pháp | Ước tính (M USD) | Nhãn |
 |---|---|---:|:---:|
-| 1. NPV Thuần (FCFF, 50Y, WACC 12%) | DCF standard | 1,50 | [C] |
-| 2. Real Options (P3-P4 expansion) | Black-Scholes adapted | 5,50 | [C] |
-| 3. Barrier to Entry Value | Replacement cost method | 3,50 | [A] |
-| 4. Ecosystem Synergy (3 BU cross-sell) | Revenue uplift NPV | 3,00 | [C] |
-| 5. Platform Value (MekongOS) | Comparable SaaS multiples | 3,00 | [A] |
-| 6. Tax + Land Rent Incentives NPV | KCNC incentive schedule | 3,82 | [C] |
-| **TỔNG STRATEGIC VALUE** | | **20,32** | |
+| 1. NPV Thuần (FCFF, 50Y, WACC 12%) | DCF standard | 2,50 | [C] |
+| 2. Real Options (P3-P4 expansion) | Black-Scholes adapted | 3,50 | [C] |
+| 3. Barrier to Entry Value | Replacement cost method | 2,00 | [A] |
+| 4. Ecosystem Synergy (3 BU cross-sell) | Revenue uplift NPV | 2,50 | [C] |
+| 5. Platform Value (MekongOS) | Comparable SaaS multiples | 2,00 | [A] |
+| 6. Tax + Land Rent Incentives NPV | KCNC incentive schedule | 1,50 | [C] |
+| **TỔNG STRATEGIC VALUE** | | **14,00** | |
 
 ## O.2. Chi tiết từng Loại Giá trị
 
 ### O.2.1. Real Options — Quyền Mở rộng P3-P4
 
-- P3-P4 CAPEX: ~30,5M USD (DC infrastructure + mở rộng)
-- Nếu P0-P2 thành công (IoT revenue Y6+), mở rộng CNC + DC tạo thêm ~15M USD NPV
-- Xác suất exercise: ~65% (conditional on IoT + CNC success)
-- Real Option Value: 15M × 65% × discount = ~5,50M
+- P3-P4 CAPEX: ~18,5M USD (DC infrastructure + CNC full build-out)
+- Nếu P0-P2 thành công (IoT revenue Y4+), mở rộng DC + CNC tạo thêm ~8M USD NPV
+- Xác suất exercise: ~65% (conditional on IoT + DC success)
+- Real Option Value: 8M × 65% × discount = ~3,50M
 - Giá trị option cao nhờ 5 giai đoạn cho phép linh hoạt hơn trong quyết định đầu tư
 
 ### O.2.2. Barrier to Entry
 
-- Tổng CAPEX 47,5M → Cost to replicate tương đương
-- Thời gian xây dựng: 5 năm (shell) + 8 năm (full 3 BU) → Time barrier 13 năm
-- IATF + AS9100 + Tier III certification: 2-3 năm thêm
-- Competitor muốn replicate cần ~50M + 13 năm → Barrier value ~3,50M (NPV thuần của monopoly profit)
+- Tổng CAPEX 32M → Cost to replicate tương đương
+- Thời gian xây dựng: 3 năm (shell) + 5 năm (full 3 BU operation) → Time barrier 8 năm
+- ISO 9001 + Tier III + ISO 27001 certification: 1-2 năm thêm
+- Competitor muốn replicate cần ~35M + 8 năm → Barrier value ~2,00M (NPV thuần của monopoly profit)
 
 ### O.2.3. Ecosystem Synergy
 
-- IoT Gateway sử dụng MACC DC cho hosting → Tiết kiệm 0,3M/năm vs thuê ngoài
-- CNC sản xuất linh kiện cho Robot AMR → Tiết kiệm 0,15M/năm
-- MACC DC chạy MekongOS → Revenue SaaS +0,2M/năm incremental
-- Total synergy: ~0,65M/năm (steady-state từ Y13) → NPV khoảng 3,00M (50Y horizon)
+- IoT Gateway sử dụng MACC DC cho hosting → Tiết kiệm 0,25M/năm vs thuê ngoài
+- CNC sản xuất linh kiện cho Robot AMR → Tiết kiệm 0,10M/năm
+- MACC DC chạy MekongOS → Revenue SaaS +0,15M/năm incremental
+- Total synergy: ~0,50M/năm (steady-state từ Y12) → NPV khoảng 2,50M (50Y horizon)
 
 ### O.2.4. Platform Value
 
-- MekongOS IoT Platform: ~1.600 thuê bao Y15
-- ARR Y15: ~4,8M USD
+- MekongOS IoT Platform: ~1.200 thuê bao Y12
+- ARR Y12: ~3,6M USD
 - SaaS comparable: 4-8× ARR (VN discount → 3-5×)
-- Platform value: 4,8M × average 3,5× × NPV discount (muộn hơn) = ~3,00M
+- Platform value: 3,6M × average 3× × NPV discount (muộn hơn) = ~2,00M
 
 ### O.2.5. Tax + Land Rent Incentives
 
 - CIT miễn 4 năm (Y8-Y11) + giảm 50% trong 9 năm tiếp theo (Y12-Y20) (KCNC High-tech)
 - Import duty exemption cho thiết bị
 - Land rent exemption: 11 năm miễn + 4 năm giảm 50% = ~1,32M tiết kiệm
-- Est. tax + land rent savings: ~12M USD tổng 50 năm → NPV ~3,82M
+- Est. tax + land rent savings: ~6M USD tổng 50 năm → NPV ~1,50M
 
 
 
@@ -9192,23 +9115,25 @@ Giá bán/giờ = (Khấu hao + Dao cụ + Dung dịch + Điện + Nhân công +
 > Giờ chạy = 24h × 300 ngày × 73,6% OEE = 5.300 giờ/năm [A].
 > Điện = Công suất spindle × Hệ số tải × Giá điện = 22kW × 0,75 × 0,20 USD/kWh [B].
 
-**Máy CNC 3-trục (Doosan DNM 650 — giá gốc ~180.000 USD):**
+**Máy CNC 3-trục (Doosan DNM 6700 — giá gốc ~320.000 USD):**
 
 | Hạng mục chi phí | Nhôm | Thép | Inox | Đơn vị |
 |---|---|---|---|---|
-| Khấu hao máy [C] | 3,40 | 3,40 | 3,40 | USD/giờ |
+| Khấu hao máy [C] | 6,04 | 6,04 | 6,04 | USD/giờ |
 | Dao cụ [B] | 3,00 | 6,00 | 9,00 | USD/giờ |
 | Dung dịch [B] | 1,20 | 1,80 | 2,50 | USD/giờ |
-| Điện (15kW) [C] | 2,25 | 3,00 | 3,00 | USD/giờ |
+| Điện (18kW) [C] | 2,70 | 3,60 | 3,60 | USD/giờ |
 | Nhân công [C] | 3,50 | 3,50 | 3,50 | USD/giờ |
-| Overhead [C] | 3,15 | 3,80 | 4,60 | USD/giờ |
-| **Tổng chi phí** | **16,50** | **21,50** | **26,00** | **USD/giờ** |
-| Margin [A] | 40-50% | 35-45% | 30-40% | |
-| **Giá bán** | **23-25** | **29-31** | **34-36** | **USD/giờ** |
+| Overhead [C] | 3,56 | 4,06 | 4,86 | USD/giờ |
+| **Tổng chi phí** | **20,00** | **25,00** | **29,50** | **USD/giờ** |
+| Margin [A] | 35-45% | 30-40% | 25-35% | |
+| **Giá bán** | **27-29** | **33-35** | **37-40** | **USD/giờ** |
 
-> **Ghi chú [C]**: Khấu hao 3-trục = 180.000 / (10 × 5.300) ≈ 3,40 USD/giờ.
+> **Ghi chú [C]**: Khấu hao 3-trục = 320.000 / (10 × 5.300) ≈ 6,04 USD/giờ.
 
-**Máy tiện CNC (Doosan Puma 2600SY — giá gốc ~280.000 USD):**
+> **Ghi chú [C]**: Mô hình lean không có máy tiện CNC. Bảng giá tiện dưới đây giữ làm tham khảo cho giai đoạn mở rộng (Full Build-out Y10+):
+
+**Máy tiện CNC (Doosan Puma 2600SY — giá gốc ~280.000 USD) — FULL BUILD-OUT REFERENCE:**
 
 | Hạng mục chi phí | Nhôm | Thép | Inox | Đơn vị |
 |---|---|---|---|---|
@@ -9530,73 +9455,52 @@ graph TD
 
 | Hạng mục | Đơn giá (USD) | Số lượng | Thành tiền (USD) | Ghi chú |
 |---|---|---|---|---|
-| **I. Máy CNC** | | | | |
-| DMG MORI DMU 65 monoBLOCK [B] | 450.000 | 4 | 1.800.000 | 5-trục Phase 1 |
-| DMG MORI DMU 85 monoBLOCK [B] | 550.000 | 2 | 1.100.000 | 5-trục lớn Phase 1 |
-| DMG MORI DMU 100 monoBLOCK [B] | 680.000 | 1 | 680.000 | 5-trục XL Phase 2 |
-| Makino a51nx [B] | 380.000 | 3 | 1.140.000 | HMC 4-trục Phase 1 |
-| Doosan DVF 5000 [B] | 280.000 | 3 | 840.000 | 5-trục economy |
-| Doosan DVF 6500 [B] | 350.000 | 2 | 700.000 | 5-trục mid |
-| Doosan DNM 650 [B] | 180.000 | 6 | 1.080.000 | 3-trục Phase 1 |
-| Doosan Puma 2600SY [B] | 280.000 | 3 | 840.000 | Tiện Y-axis |
-| Doosan Puma 3100LY [B] | 350.000 | 2 | 700.000 | Tiện lớn |
-| Sodick ALC600G [B] | 220.000 | 1 | 220.000 | Wire EDM |
-| Mitsubishi MV1200R [B] | 250.000 | 1 | 250.000 | Wire EDM Pro |
-| **Subtotal máy CNC** | | **28** | **9.350.000** | |
+| **I. Máy CNC (Lean 6 máy)** | | | | |
+| DMG MORI DMU 65 monoBLOCK [B] | 450.000 | 2 | 900.000 | 5-trục chính |
+| Doosan DVF 5000 [B] | 280.000 | 2 | 560.000 | 5-trục economy |
+| Doosan DNM 6700 [B] | 320.000 | 2 | 640.000 | 3-trục vertical |
+| **Subtotal máy CNC** | | **6** | **2.100.000** | |
 | **II. Thiết bị QA/QC** | | | | |
-| Hexagon Global S 7.10.7 CMM [B] | 180.000 | 1 | 180.000 | CMM chính |
-| Hexagon Global S 9.15.8 CMM [B] | 250.000 | 1 | 250.000 | CMM lớn |
-| GOM ATOS Q 8M 3D Scanner [B] | 120.000 | 1 | 120.000 | Optical scan |
-| Mitutoyo SJ-410 Surface Roughness [B] | 8.000 | 2 | 16.000 | |
-| Keyence IM-8000 Optical Comparator [B] | 45.000 | 1 | 45.000 | |
-| Rockwell + Vickers Hardness [B] | 12.000 | 2 | 24.000 | |
-| Gauge blocks, ring gauges, pin gauges [B] | — | lot | 35.000 | |
-| **Subtotal QA/QC** | | | **670.000** | |
-| **III. Phần mềm CAD/CAM/MES** | | | | |
-| Siemens NX (10 seats) [B] | 12.000 | 10 | 120.000 | CAD/CAM chính |
-| Mastercam (5 seats) [B] | 8.000 | 5 | 40.000 | CAM backup |
-| Hypermill (3 seats) [B] | 15.000 | 3 | 45.000 | 5-axis chuyên |
-| ProShop MES (Phase 1) [B] | 35.000 | 1 | 35.000 | Shop floor |
-| PLEX MES (Phase 2) [B] | 80.000 | 1 | 80.000 | Enterprise |
-| Zoller Tool Presetter + Software [B] | 45.000 | 1 | 45.000 | |
-| Kennametal ToolBOSS Vending [B] | 25.000 | 2 | 50.000 | |
-| **Subtotal phần mềm** | | | **415.000** | |
+| Hexagon Portable Arm + Scanner [B] | 80.000 | 1 | 80.000 | Portable CMM |
+| GOM ATOS Q 8M 3D Scanner [B] | 60.000 | 1 | 60.000 | Optical scan |
+| Mitutoyo SJ-410 Surface Roughness [B] | 8.000 | 1 | 8.000 | |
+| Gauge blocks, ring gauges, pin gauges [B] | — | lot | 12.000 | |
+| **Subtotal QA/QC** | | | **160.000** | |
+| **III. Phần mềm CAD/CAM** | | | | |
+| Mastercam (5 seats) [B] | 8.000 | 5 | 40.000 | CAM chính |
+| **Subtotal phần mềm** | | | **40.000** | |
 | **IV. Hạ tầng xưởng CNC** | | | | |
-| Nền chống rung 3 lớp [C] | — | — | 520.000 | PHỤ LỤC L.3 |
-| Chip conveyor ngầm [C] | — | — | 85.000 | PHỤ LỤC L.3 |
-| Khí nén oil-free 3×55kW [C] | — | — | 195.000 | PHỤ LỤC L.3 |
-| Hệ thống dung dịch cắt trung tâm [C] | — | — | 65.000 | PHỤ LỤC L.3 |
-| Cầu trục 5T×50m [C] | — | — | 95.000 | PHỤ LỤC L.3 |
-| Phòng CMM 200m² Class 1000 [C] | — | — | 180.000 | PHỤ LỤC L.3 |
-| HVAC (LEV + AHU + AC) [C] | — | — | 320.000 | PHỤ LỤC L.3 |
-| **Subtotal hạ tầng** | | | **1.460.000** | |
+| Nền chống rung 2 lớp [C] | — | — | 120.000 | 800 m², simplified |
+| Hệ thống khí nén 1×37kW [C] | — | — | 45.000 | 1 máy compressor |
+| Hệ thống dung dịch cắt [C] | — | — | 25.000 | |
+| HVAC (LEV + AC) [C] | — | — | 80.000 | 6 điểm hút |
+| Phòng QC 40m² [C] | — | — | 30.000 | Hexagon Portable |
+| Khác (chiếu sáng, điện, sàn) [C] | — | — | 50.000 | |
+| **Subtotal hạ tầng** | | | **350.000** | |
 | **V. Chứng nhận** | | | | |
-| IATF 16949 (tư vấn + audit) [B] | — | — | 200.000 | 18-24 tháng |
-| AS9100 Rev D (tư vấn + audit) [B] | — | — | 220.000 | 24-30 tháng |
-| ISO 13485 (Medical) [B] | — | — | 80.000 | 18 tháng |
-| NADCAP (Special Processes) [B] | — | — | 95.000 | 24-30 tháng |
-| **Subtotal chứng nhận** | | | **595.000** | |
+| ISO 9001:2015 (tư vấn + audit) [B] | — | — | 50.000 | 6-9 tháng |
+| **Subtotal chứng nhận** | | | **50.000** | IATF/AS9100 là option Y10+ |
 | **VI. Vốn lưu động CNC** | | | | |
-| Working Capital (vật tư, WIP) [A] | — | — | 1.200.000 | 2-3 tháng DT |
-| Deposit vật tư đặc biệt (Ti, Inconel) [A] | — | — | 300.000 | |
-| **Subtotal vốn lưu động** | | | **1.500.000** | |
+| Working Capital (vật tư, WIP) [A] | — | — | 150.000 | 2-3 tháng DT |
+| **Subtotal vốn lưu động** | | | **150.000** | |
 | | | | | |
-| **TỔNG CAPEX CNC** | | | **13.990.000** | |
-| Dự phòng 5% | | | 699.500 | |
-| **TỔNG CNC CÓ DỰ PHÒNG** | | | **14.689.500** | ≈ **14,69M USD** |
+| **TỔNG CAPEX CNC** | | | **2.850.000** | |
+| Dự phòng 5% | | | 150.000 | |
+| **TỔNG CNC CÓ DỰ PHÒNG** | | | **3.000.000** | ≈ **3,00M USD** |
 
-> **Kiểm tra chéo [C]**: CAPEX CNC = 14,69M USD ≈ 30,9% tổng CAPEX 47,50M USD.
-> Phù hợp với phân bổ CAPEX tại PHẦN V: Khối B CNC = 14,70M (31%) ✓
+> **Kiểm tra chéo [C]**: CAPEX CNC = 3,00M USD ≈ 9,4% tổng CAPEX 32,00M USD.
+> Machines 2,100K + QA/QC 160K + Software 40K + Hạ tầng 350K + Chứng nhận 50K + WC 150K = 2,850K + Contingency 150K = 3,000K ✓
 
 #### P.6.2. Lộ trình đầu tư CNC theo Phase
 
 | Phase | Thời gian | Máy mua thêm | CAPEX Phase | Lũy kế |
 |---|---|---|---|---|
-| Phase 1 (Nền tảng) | M1-M18 | 15 máy (4×DMU65, 2×DMU85, 3×a51nx, 3×DNM650, 2×Puma2600, 1×EDM) | 8.850.000 | 8.850.000 |
-| Phase 2 (Mở rộng) | M19-M36 | 8 máy (2×DVF5000, 1×DMU100, 3×DNM650, 1×Puma3100, 1×EDM) | 3.140.000 | 11.990.000 |
-| Phase 3 (Nâng cấp) | M37-M60 | 5 máy (3×DVF6500, 1×DVF5000, 1×Puma3100) | 1.680.000 | 13.670.000 |
-| QA/QC + Software | M1-M36 | — | 1.085.000 | 14.755.000 |
-| Chứng nhận | M6-M48 | — | 595.000 | 15.350.000 |
+| Phase 3 (CNC Lean) | Y5-Y6 | 6 máy (2×DMU65, 2×DVF5000, 2×DNM6700) | 2.100.000 | 2.100.000 |
+| QA/QC + Software | Y5-Y6 | — | 400.000 | 2.500.000 |
+| Chứng nhận ISO 9001 | Y6 | — | 50.000 | 2.550.000 |
+| Vốn lưu động | Y6 | — | 300.000 | 2.850.000 |
+
+> **Ghi chú [C]:** Tổng 6 máy cho Phân kỳ 3 (CNC). Mở rộng lên 12-18 máy ở Phase 2-3 (Y10+) tùy nhu cầu thị trường.
 
 ## P.7. Hệ Thống Phần Mềm CNC
 
@@ -9604,14 +9508,11 @@ graph TD
 
 | Phần mềm | Vai trò | Seats | Chi phí/năm [B] | Ưu điểm | Nhược điểm |
 |---|---|---|---|---|---|
-| **Siemens NX** | CAD/CAM chính | 10 | 24.000 maintenance | Tích hợp tốt, 5-axis mạnh | Giá cao, learning curve |
-| **Mastercam** | CAM backup, 3-trục | 5 | 8.000 maintenance | Phổ biến, dễ học | Yếu 5-axis phức tạp |
-| **Hypermill** | 5-axis chuyên dụng | 3 | 12.000 maintenance | Toolpath tối ưu | Ít phổ biến tại VN |
-| **PowerMill** (Autodesk) | Khuôn, bề mặt tự do | 2 | 6.000 subscription | Freeform mạnh | Chỉ CAM, không CAD |
-| **Tổng chi phí/năm** | | **20** | **50.000** | | |
+| **Mastercam** | CAD/CAM chính, 3+5-trục | 5 | 8.000 maintenance | Phổ biến VN, dễ học, giá tốt | Yếu freeform phức tạp |
+| **Tổng chi phí/năm** | | **5** | **8.000** | | |
 
-> **Chiến lược [A]**: Siemens NX làm backbone (tương thích khách hàng Samsung, Bosch),
-> Mastercam cho operator training (phổ biến nhất VN), Hypermill cho đơn hàng 5-axis phức tạp.
+> **Chiến lược [A]**: Mastercam là CAM duy nhất cho 6 máy — phổ biến nhất VN, dễ tuyển nhân sự.
+> Nâng cấp lên Siemens NX hoặc Hypermill khi mở rộng lên 12+ máy (Phase 2).
 
 #### P.7.2. MES / ERP Comparison
 
@@ -9728,22 +9629,23 @@ graph TB
 
 # PHỤ LỤC Q: THIẾT KẾ XƯỞNG CNC TỐI ƯU VÀ DANH MỤC THIẾT BỊ
 
-> Phụ lục này chi tiết hóa bố trí không gian xưởng CNC 4.000 m², danh mục đầy đủ
-> 28 máy CNC, thiết bị QA/QC, hệ thống quản lý dao cụ, và ma trận rủi ro CNC.
+> Phụ lục này chi tiết hóa bố trí không gian xưởng CNC 800 m², danh mục
+> 6 máy CNC (Phase 1 Lean), thiết bị QA/QC, hệ thống quản lý dao cụ, và ma trận rủi ro CNC.
 > Nguồn: Phân tích chuyên gia CNC Outsourcing + Khảo sát thực tế nhà cung cấp.
+> **Ghi chú:** Bảng chi tiết 28 máy bên dưới là tài liệu tham khảo cho Full Build-out (Phase 2-3, Y10+). Phase 1 chỉ triển khai 6 máy.
 
-## Q.1. Thiết Kế Mặt Bằng Xưởng CNC 4.000 m²
+## Q.1. Thiết Kế Mặt Bằng Xưởng CNC 800 m²
 
 #### Q.1.1. Thông số kiến trúc
 
 | Thông số | Giá trị | Ghi chú |
 |---|---|---|
-| Diện tích tổng [A] | 4.000 m² | 1 tầng, nhịp 25m |
-| Chiều cao thông thủy [B] | 12 m | Đủ cho cầu trục 5T |
-| Tải trọng sàn [B] | >= 10 kPa | Cho máy 5-trục nặng nhất 12T |
+| Diện tích tổng [A] | 800 m² | 1 tầng, nhịp 20m |
+| Chiều cao thông thủy [B] | 8 m | Đủ cho cầu trục 3T |
+| Tải trọng sàn [B] | >= 10 kPa | Cho máy 5-trục nặng nhất 9T |
 | Nền móng [C] | Bê tông M350, dày 400mm | + 3 lớp chống rung (PHỤ LỤC L.3) |
-| Lối đi chính [B] | Rộng 4,0m | Xe nâng 3T hai chiều |
-| Lối đi phụ [B] | Rộng 2,5m | Xe đẩy, đi bộ |
+| Lối đi chính [B] | Rộng 3,5m | Xe nâng 2T |
+| Lối đi phụ [B] | Rộng 2,0m | Xe đẩy, đi bộ |
 | Khoảng cách máy-tường [B] | >= 1,5m | Bảo trì, thoát hiểm |
 | Khoảng cách máy-máy [B] | >= 2,0m (3-trục), >= 2,5m (5-trục) | An toàn + loading |
 | Ánh sáng [B] | >= 500 lux (sản xuất), >= 750 lux (kiểm tra) | TCVN 7114-1:2008 |
@@ -9755,49 +9657,33 @@ graph TB
 
 ```mermaid
 graph TB
-    subgraph PLANT["XUONG CNC 4.000 m2 — MAT BANG TONG THE"]
+    subgraph PLANT["XUONG CNC 800 m2 — MAT BANG LEAN"]
         direction TB
-        subgraph WEST["PHIA TAY"]
-            MAT["NGUYEN LIEU KHO<br/>200 m2"]
+        subgraph WEST["KHO + DOCK — 100 m2"]
+            MAT["NGUYEN LIEU KHO"]
             RD["Receiving Dock"]
             SD["SHIPPING DOCK"]
         end
-        subgraph ZONEA["ZONE A — 1.200 m2<br/>HIGH-END 5-AXIS"]
-            A1["DMU65 x4<br/>DMU85 x2<br/>DMU100 x1"]
-            A2["a51nx x3<br/>HMC 4-axis"]
+        subgraph MACHINING["KHU GIA CONG — 400 m2"]
+            A1["DMG MORI DMU 65 x2<br/>5-truc chinh"]
+            A2["Doosan DVF 5000 x2<br/>5-truc economy"]
+            A3["Doosan DNM 6700 x2<br/>3-truc vertical"]
         end
-        subgraph ZONEB["ZONE B — 1.000 m2<br/>MID-RANGE CNC"]
-            B1["DVF5000 x3<br/>DVF6500 x2"]
-            B2["DNM650 x6<br/>3-axis"]
+        subgraph QAQC["QA/QC — 60 m2"]
+            CMM2["Hexagon Portable Arm"]
+            GOM["GOM ATOS 3D Scan"]
+            GAUGE["Surface Roughness + Gauges"]
         end
-        subgraph ZONEC["ZONE C — 600 m2<br/>TURNING CENTER"]
-            C1["Puma 2600SY x3<br/>Puma 3100LY x2"]
+        subgraph SUPPORT["PHU TRO — 140 m2"]
+            TC["TOOL CRIB 40 m2"]
+            CAD["CAD/CAM ROOM 40 m2<br/>5 Mastercam seats"]
+            PACK["PACKING + FG 60 m2"]
         end
-        subgraph EDM["EDM AREA — 200 m2"]
-            E1["Sodick ALC600G"]
-            E2["Mitsubishi MV1200R"]
-        end
-        subgraph QAQC["QA/QC LAB — 300 m2"]
-            CMM2["CMM Room 80 m2<br/>20 +/- 0,5 C"]
-            GOM["GOM ATOS 3D Scan<br/>40 m2"]
-            GAUGE["Surface / Hardness<br/>Gauges"]
-        end
-        subgraph MID["KHU TRUNG TAM"]
-            TC["TOOL CRIB 80 m2<br/>Zoller + ToolBOSS x2"]
-            CAD["CAD/CAM ROOM 60 m2<br/>20 workstations"]
-        end
-        subgraph PACK["PACKING and FG — 160 m2"]
-            CL["Cleaning"] --> AR["Anti-rust Coating"] --> PK["Packing"]
-        end
-        SHOW["CUSTOMER SHOWROOM<br/>40 m2 — Glass wall"]
     end
-    MAT -->|"Material Flow West to East"| ZONEA
-    ZONEA --> ZONEB --> ZONEC
-    ZONEA --> EDM
-    ZONEC --> PACK
-    EDM --> PACK
-    ZONEA --> QAQC
-    ZONEB --> QAQC
+    MAT -->|"Material Flow"| MACHINING
+    MACHINING --> QAQC
+    MACHINING --> PACK
+    QAQC --> PACK
     PACK --> SD
 ```
 
@@ -9806,14 +9692,14 @@ graph TB
 ```mermaid
 graph TD
     RCV["Receiving"] --> IQC["IQC"] --> RMS["Raw Material Store"]
-    RMS --> PROG["Programming<br/>CAD/CAM Room"]
-    PROG -->|"NC Program + Tool List"| TOOL["Tool Crib<br/>Zoller setup + ToolBOSS"]
+    RMS --> PROG["Programming<br/>Mastercam"]
+    PROG -->|"NC Program + Tool List"| TOOL["Tool Crib"]
     TOOL -->|"Preset tools + fixtures"| CNC
 
-    subgraph CNC["CNC MACHINING"]
-        ZA["Zone A — 5-axis"]
-        ZB["Zone B — 3-axis"]
-        ZC["Zone C — Turning"]
+    subgraph CNC["CNC MACHINING — 6 MAY"]
+        ZA["DMU 65 x2 + DVF 5000 x2<br/>5-truc"]
+        ZB["DNM 6700 x2<br/>3-truc"]
+    end
         ZE["EDM Area"]
     end
 
@@ -9845,10 +9731,10 @@ graph TD
 
 | # | Nguyên tắc | Áp dụng tại Mekong | Lý do |
 |---|---|---|---|
-| 1 | Luồng vật liệu một chiều | Nhận hàng (Tây) -> Gia công -> QC -> Giao hàng (Đông) | Tránh cross-contamination |
-| 2 | Nhóm máy theo độ chính xác | Zone A (micro-level), Zone B (0,01mm), Zone C (0,05mm) | Tối ưu nhiệt độ/rung |
-| 3 | QA/QC gần sản xuất | Lab QC liền kề Zone A va B (kính nhìn xuyên) | Giảm thời gian vận chuyển mẫu |
-| 4 | Tool Crib trung tâm | Giữa Zone A, B, C — bán kính phục vụ duoi 30m | Giảm tool changeover time |
+| 1 | Luồng vật liệu một chiều | Nhận hàng → Gia công → QC → Giao hàng | Tránh cross-contamination |
+| 2 | Nhóm máy theo loại | 5-trục (DMU65+DVF5000), 3-trục (DNM6700) | Tối ưu workflow |
+| 3 | QA/QC gần sản xuất | Lab QC liền kề khu gia công | Giảm thời gian vận chuyển mẫu |
+| 4 | Tool Crib trung tâm | Gần 6 máy — bán kính phục vụ dưới 15m | Giảm tool changeover time |
 | 5 | Khí nén/dung dịch từ trung tâm | Phòng máy nén + bồn dung dịch ở tầng kỹ thuật dưới | Giảm tiếng ồn, dễ bảo trì |
 | 6 | Lối đi đủ rộng | Main 4m, phụ 2,5m | Xe nâng + thoát hiểm |
 | 7 | Showroom cho khách hàng | Kính cường lực nhìn vào xưởng | Customer audit friendly |
@@ -9856,9 +9742,12 @@ graph TD
 
 ---
 
-*Tiếp theo: PHỤ LỤC Q phần 2 — Danh mục 28 máy CNC, QA/QC, Tooling, và Rủi ro.*
+*Tiếp theo: PHỤ LỤC Q phần 2 — Danh mục 6 máy CNC Phase 1 (tham khảo Full Build-out 28 máy), QA/QC, Tooling, và Rủi ro.*
 
-## Q.2. Danh Mục Máy CNC Chi Tiết (28 Máy)
+## Q.2. Danh Mục Máy CNC Chi Tiết
+
+> **Phase 1 (hiện tại): 6 máy** — 2× DMG MORI DMU 65, 2× Doosan DVF 5000, 2× Doosan DNM 6700.
+> Bảng dưới đây giữ nguyên danh mục tham khảo Full Build-out (28 máy) cho Phase 2-3 expansion (Y10+).
 
 #### Q.2.1. Máy CNC 5-trục (12 máy)
 
@@ -9922,20 +9811,19 @@ graph TD
 
 | Nhóm | Số máy | Tổng đầu tư USD [C] | % CAPEX CNC | Nhà cung cấp chính |
 |---|---|---|---|---|
-| 5-trục | 12 | 5.620.000 | 40,2% | DMG MORI, Doosan |
-| HMC 4-trục | 3 | 1.140.000 | 8,2% | Makino |
-| 3-trục | 6 | 1.080.000 | 7,7% | Doosan |
-| Tiện CNC | 5 | 1.540.000 | 11,0% | Doosan |
-| Wire EDM | 2 | 470.000 | 3,4% | Sodick, Mitsubishi |
-| **Tổng máy** | **28** | **9.850.000** | **70,5%** | |
-| QA/QC thiết bị | — | 670.000 | 4,8% | Hexagon, GOM, Keyence |
-| Phần mềm CAD/CAM/MES | — | 415.000 | 3,0% | Siemens, Autodesk |
-| Hạ tầng xưởng | — | 1.460.000 | 10,4% | Xây dựng nội bộ |
-| Chứng nhận quốc tế | — | 595.000 | 4,3% | TUV, BSI, SGS |
-| Vốn lưu động | — | 1.500.000 | 10,7% | — |
-| **Tổng CNC (trước dự phòng)** | | **14.490.000** | | |
-| Dự phòng 5% + làm tròn | — | khoảng 200.000 | | |
-| **Grand Total CNC** | | **khoảng 14,69M USD** | **100%** | = PHỤ LỤC P.6 ✓ |
+| 5-trục (2× DMU65 + 2× DVF5000) | 4 | 1.460.000 | 48,7% | DMG MORI, Doosan |
+| 3-trục (2× DNM 6700) | 2 | 640.000 | 21,3% | Doosan |
+| **Tổng máy Phase 1** | **6** | **2.100.000** | **70,0%** | |
+| QA/QC thiết bị | — | 160.000 | 5,3% | Hexagon Portable, GOM |
+| Phần mềm Mastercam | — | 40.000 | 1,3% | Mastercam |
+| Hạ tầng xưởng | — | 350.000 | 11,7% | Xây dựng nội bộ |
+| Chứng nhận ISO 9001 | — | 50.000 | 1,7% | TÜV, BSI |
+| Vốn lưu động | — | 150.000 | 5,0% | — |
+| **Tổng CNC (trước dự phòng)** | | **2.850.000** | | |
+| Dự phòng 5% | — | 150.000 | 5,0% | |
+| **Grand Total CNC** | | **3.000.000** | **100%** | = PHỤ LỤC P.6 ✓ |
+
+> **Ghi chú:** Bảng trên là Phase 1 Lean (6 máy). Danh mục đầy đủ 28 máy (Q.2.1-Q.2.5) giữ nguyên làm tài liệu tham khảo cho Full Build-out.
 
 ## Q.3. Thiết Bị QA/QC Chi Tiết
 
@@ -10062,7 +9950,7 @@ graph TD
 | 3 | **Chứng nhận quốc tế** | IATF + AS9100 = chỉ có ở KCN Công nghệ cao | Đạt chứng nhận Y2-Y3 |
 | 4 | **Tích hợp IoT (Khối A)** | CNC + IoT sensor tao "Smart Manufacturing Platform" | Demo sản phẩm |
 | 5 | **Hợp tác học thuật** | MOU với HCMUT, ĐH Bách Khoa: đào tạo, R&D chung | >= 1 MOU/năm |
-| 6 | **Cam kết tạo việc làm** | 250-300 kỹ sư/kỹ thuật viên CNC (lương cao, tay nghề) | Headcount report |
+| 6 | **Cam kết tạo việc làm** | 150-200 kỹ sư/kỹ thuật viên (lương cao, tay nghề) | Headcount report |
 | 7 | **Tỷ lệ xuất khẩu** | Cam kết 15-20% xuất khẩu trực tiếp từ Y3 | Export revenue |
 
 > **Nhận xét [A]**: KCNC có thể lo ngại "xưởng gia công = không phù hợp KCNC".
@@ -10105,7 +9993,7 @@ graph TD
 | Quarterly PM | Quý | Ballscrew, guide rail, lubrication system | 2.000 | 8 giờ/quý |
 | Annual PM | Năm | Full geometry check, laser calibration | 5.000 | 16-24 giờ/năm |
 | **Tổng PM/máy/năm** | | | **khoảng 12.000** | **khoảng 200 giờ/năm** |
-| **Tổng PM fleet 28 máy/năm** | | | **khoảng 336.000** | |
+| **Tổng PM fleet 6 máy/năm** | | | **khoảng 72.000** | |
 
 **OEE Target và Breakdown:**
 
@@ -10117,8 +10005,8 @@ graph TD
 | **OEE** | **71,1%** | **77,6%** | **81,1%** | **85,2%** |
 
 > **Chi phí downtime ngoài kế hoạch [C]**: 
-> Giá trung bình 60 USD/giờ x (1 - Availability) x 7.200 giờ/năm x 28 máy =
-> Y1: 60 x 12% x 7.200 x 28 = 1.451.520 USD/năm (lý thuyết, giảm dần khi PM tốt hơn).
+> Giá trung bình 60 USD/giờ x (1 - Availability) x 7.200 giờ/năm x 6 máy =
+> Y1: 60 x 12% x 7.200 x 6 = 311.040 USD/năm (lý thuyết, giảm dần khi PM tốt hơn).
 > Mục tiêu: Unplanned downtime duoi 3% từ Y3.
 
 #### Q.5.6. Kết quả tài chính CNC điều chỉnh rủi ro
@@ -10169,7 +10057,7 @@ graph TD
 | Tọa độ | 10°52' N, 106°48' E |
 | Tổng diện tích | 1 ha (10.000 m²), 1 tòa nhà 3 tầng, GFA 21.000 m² |
 | Thời hạn hoạt động | 50 năm |
-| Tổng vốn đầu tư | 47,50 triệu USD [C] |
+| Tổng vốn đầu tư | 32,00 triệu USD [C] |
 
 #### R.1.2. Quy mô 3 Khối chức năng
 
@@ -10294,7 +10182,7 @@ Khu vực dự án nằm trong KCNC đã quy hoạch, đất đã san lấp, kh�
 | Đỉnh công nhân | 150 người | **250–350 người** | 1,7–2,3× |
 | Khối lượng BTCT | 3.000 m³ | **8.000–12.000 m³** | 2,7–4× |
 
-> **Nhận xét [C]:** Khối lượng BTCT tăng mạnh do: Khối A yêu cầu sàn chịu lực ≥ 10 kPa (server rack), Khối B yêu cầu móng cách ly rung riêng cho 28 máy CNC + sàn nổi, Khối C yêu cầu nền Clean room.
+> **Nhận xét [C]:** Khối lượng BTCT tăng mạnh do: Khối A yêu cầu sàn chịu lực ≥ 10 kPa (server rack), Khối B yêu cầu móng cách ly rung riêng cho 6 máy CNC + sàn nổi, Khối C yêu cầu nền Clean room.
 
 #### R.4.2. Tác động bụi xây dựng
 
@@ -10339,7 +10227,7 @@ Khu vực dự án nằm trong KCNC đã quy hoạch, đất đã san lấp, kh�
 
 | Thông số | Công thức | Kết quả |
 |----------|-----------|---------|
-| IT Load | 1.000–2.000 kW (100 rack × 10–20 kW/rack) | 1.000–2.000 kW |
+| IT Load | 500–1.000 kW (50 rack × 10–20 kW/rack) | 500–1.000 kW |
 | PUE mục tiêu | 1,32 | |
 | Tổng tải điện | IT Load × PUE = 1.320–2.640 kW | 1.320–2.640 kW |
 | Nhiệt thải cooling | (PUE – 1) × IT = 0,32 × IT | **320–640 kW_th** |
@@ -10524,7 +10412,7 @@ $$L_{ranh\ gioi} = L_{nguon} - 20 \times \log_{10}\left(\frac{r}{r_0}\right) = 1
 
 > **ĐÂY LÀ TÁC ĐỘNG XUNG ĐỘT QUAN TRỌNG NHẤT TRONG TOÀN BỘ TỔ HỢP.**
 
-**a) Nguồn rung từ 28 máy CNC [B]:**
+**a) Nguồn rung từ 6 máy CNC [B]:**
 
 | Máy CNC | Trọng lượng (tấn) | Tốc độ trục chính (rpm) | Rung tại nguồn (mm/s rms) | Tần số chủ đạo (Hz) |
 |---------|-------------------:|:-----------------------:|:--------------------------:|:-------------------:|
@@ -10532,7 +10420,7 @@ $$L_{ranh\ gioi} = L_{nguon} - 20 \times \log_{10}\left(\frac{r}{r_0}\right) = 1
 | DMG MORI DMU 80 (× 4) | 8,0 | 10.000–18.000 | 3,0–8,0 | 167–300 |
 | Makino D500 (× 2) | 6,0 | 14.000–20.000 | 1,5–4,0 | 233–333 |
 | Makino a61nx (× 3 HMC) | 10,0 | 8.000–14.000 | 4,0–10,0 | 133–233 |
-| **Peak (28 máy đồng thời)** | | | **5,0–15,0** (tổng hợp) | **100–400** |
+| **Peak (6 máy đồng thời)** | | | **2,0–6,0** (tổng hợp) | **40–120** |
 
 **b) Mô hình truyền rung qua nền đất [C]:**
 
@@ -10753,11 +10641,11 @@ $$L_{tong} = 10 \times \log_{10}(10^{68/10} + 10^{62/10} + 10^{40/10} + 10^{53/1
 
 | Chất ô nhiễm | Khối A (kg/năm) | Khối B (kg/năm) | Khối C (kg/năm) | Tổng (kg/năm) | So đề án ban đầu |
 |--------------|:---------------:|:---------------:|:---------------:|:--------------:|---------|
-| NOx | 914 | 50–100 | 360 | **1.324–1.374** | V1: 1.440 ≈ |
-| CO | 103 | 20–40 | 192 | **315–335** | V1: 744 ↓55% |
-| Bụi (PM) | 37,7 | 36–108 | 264 | **337,7–409,7** | V1: 528 ↓22–36% |
-| VOCs | 37,7 | 100–200 | 648 | **785,7–885,7** | V1: 1.296 ↓32–39% |
-| SO₂ | 68,5 | 0 | 0 | **68,5** | V1: 0 → MỚI |
+| NOx | 914 | 50–100 | 360 | **1.324–1.374** | 1.440 ≈ |
+| CO | 103 | 20–40 | 192 | **315–335** | 744 ↓55% |
+| Bụi (PM) | 37,7 | 36–108 | 264 | **337,7–409,7** | 528 ↓22–36% |
+| VOCs | 37,7 | 100–200 | 648 | **785,7–885,7** | 1.296 ↓32–39% |
+| SO₂ | 68,5 | 0 | 0 | **68,5** | 0 → MỚI |
 
 > **Nhận xét [C]:** Tổng phát thải KHÔNG tăng nhiều (do Khối C giảm 50%), nhưng **thành phần thay đổi**: bổ sung NOx/SO₂ từ Generator và bụi kim loại carcinogenic (Cr(VI), Ni) từ CNC.
 
@@ -10799,7 +10687,7 @@ $$C(x,y,0) = \frac{Q}{2\pi u \sigma_y \sigma_z} \cdot \exp\left(-\frac{y^2}{2\si
 Sơ đồ xử lý:
 ```mermaid
 graph LR
-    SRC["28 May CNC"] --> MIST["Mist Collector<br/>500 m3/h x 25 unit<br/>75.000 USD"]
+    SRC["6 May CNC"] --> MIST["Mist Collector<br/>500 m3/h x 6 unit<br/>30.000 USD"]
     MIST --> DUCT["Ong dan tap trung<br/>15.000 m3/h"]
     DUCT --> CYC["Cyclone<br/>bui tho > 10um<br/>80%"]
     CYC --> HEPA["HEPA H13<br/>< 1um — 99,95%"]
@@ -10809,7 +10697,9 @@ graph LR
     STACK --> OUT["XA — Dat QCVN 19:2009"]
 ```
 
-Chi phí: Mist collector 75.000 + LEV tập trung 120.000 + Cyclone/HEPA/Carbon 85.000 = **280.000 USD**
+Chi phí: Mist collector 30.000 + LEV tập trung 50.000 + Cyclone/HEPA/Carbon 40.000 = **120.000 USD**
+
+> **Ghi chú:** Chi phí EIA cho 6 máy CNC Phase 1. Full Build-out (28 máy) sẽ cần mở rộng hệ thống xử lý.
 
 **c) Khối C — Fume hood + Filter = 105.000 USD** (giảm 30% so với đề án ban đầu: 150.000)
 
@@ -11039,8 +10929,8 @@ graph TD
 | OPEX | 425.000 | 425.000 | **4.250.000** |
 | **TỔNG** | **3.295.000** | **425.000** | **7.120.000** |
 
-**Tỷ lệ:** CAPEX MT / Tổng CAPEX 47,50M = **6,0%** (benchmark: 5–8% cho DC + Manufacturing)
-**10 năm:** 7.120.000 / 47.500.000 = **15,0%**
+**Tỷ lệ:** CAPEX MT / Tổng CAPEX 32,00M = **8,9%** (benchmark: 5–8% cho DC + Manufacturing)
+**10 năm:** 7.120.000 / 32.000.000 = **22,3%**
 
 ---
 
@@ -11073,24 +10963,24 @@ Ngày ___ tháng ___ năm 2026
 
 ---
 
-## R.13. BẢNG TỔNG HỢP SO SÁNH ĐTM BAN ĐẦU vs HIỆN TẠI
+## R.13. BẢNG TỔNG HỢP THÔNG SỐ MÔI TRƯỜNG DỰ ÁN (3 KHỐI)
 
-| Thông số | ĐTM ban đầu (Khối C) | **ĐTM hiện tại (3 Khối)** | Hệ số tăng |
-|----------|-------------------:|----------------------:|:----------:|
-| Diện tích sản xuất | 10.000 m² (1 khối) | **10.000 m² (3 khối)** | 1× |
-| Tải điện (kW) | 400 | **2.600–5.400** | 6,5–13,5× |
-| Điện năng (MWh/năm) | 2.000 | **18.420–41.640** | 9–21× |
-| Nước cấp (m³/ngày) | 30 | **60–102** | 2–3,4× |
-| Nước thải (m³/ngày) | 20 | **37–54** | 1,9–2,7× |
-| CTNH (tấn/năm) | 7,65 | **18–38,5** | 2,4–5,0× |
-| GHG (tCO₂e/năm) | 1.237 | **11.133–25.060** | 9–20× |
-| NOx (kg/năm) | 1.440 | **1.324–1.374** | 0,9× |
-| VOCs (kg/năm) | 1.296 | **786–886** | 0,6–0,7× |
-| CAPEX MT (USD) | 730.000 | **2.870.000** | 3,9× |
-| OPEX MT (USD/năm) | 211.000 | **425.000** | 2,0× |
-| 10-year Total (USD) | 2.840.000 | **7.120.000** | 2,5× |
+| Thông số | Giá trị dự án (3 Khối) |
+|----------|----------------------:|
+| Diện tích sản xuất | **10.000 m² (3 khối)** |
+| Tải điện (kW) | **2.600–5.400** |
+| Điện năng (MWh/năm) | **18.420–41.640** |
+| Nước cấp (m³/ngày) | **60–102** |
+| Nước thải (m³/ngày) | **37–54** |
+| CTNH (tấn/năm) | **18–38,5** |
+| GHG (tCO₂e/năm) | **11.133–25.060** |
+| NOx (kg/năm) | **1.324–1.374** |
+| VOCs (kg/năm) | **786–886** |
+| CAPEX MT (USD) | **2.870.000** |
+| OPEX MT (USD/năm) | **425.000** |
+| 10-year Total (USD) | **7.120.000** |
 
-> **Kết luận [A]:** Mặc dù quy mô tài nguyên tăng 2–21× (tùy thông số), tổng phát thải khí thải thực tế KHÔNG tăng tương ứng nhờ: (a) Khối C giảm 50%, (b) SCR/DPF cho Generator, (c) HEPA + Mist collector cho CNC. Thách thức lớn nhất là **nước** (vượt quota tiềm tàng), **rung động** (CNC → DC vượt 12×), và **CTNH** (tăng 2,4–5× chủ yếu từ CNC MWF/phôi).
+> **Kết luận [A]:** Nhờ áp dụng SCR/DPF cho Generator, HEPA + Mist collector cho CNC, phát thải khí thải được kiểm soát hiệu quả. Thách thức lớn nhất là **nước** (vượt quota tiềm tàng), **rung động** (CNC → DC), và **CTNH** (chủ yếu từ CNC MWF/phôi).
 
 ---
 
@@ -11898,15 +11788,15 @@ quadrantChart
 
 ### U.2.2. Phân tích Kịch bản Thị trường
 
-> **Ghi chú:** Cập nhật theo mô hình V2.1 (50Y, Revenue 15Y, doanh thu đầu tiên Y6).
+> **Ghi chú:** Thông số: 50Y, Revenue 15Y, doanh thu đầu tiên Y6.
 
 | Kịch bản | Xác suất | Revenue 15Y (M USD) | NPV 50Y (M USD) | IRR 50Y | Ghi chú |
 |---|:---:|---:|---:|:---:|---|
-| **Optimistic** | 20% | 220+ | 18,2+ | 17,5%+ | FDI tăng mạnh, DC boom, AS9100 sớm |
-| **Base Case** | 50% | ~165 | 1,50 | 13,0% | Kịch bản chính |
-| **Conservative** | 25% | 115-130 | (3) đến (7) | 10-11% | CNC ramp-up chậm, DC fill thấp |
-| **Pessimistic** | 5% | 80-100 | (12) đến (18) | 7-9% | Suy thoái + FDI giảm + DC oversupply |
-| **Weighted** | 100% | ~160 | **~3,7** | **~13%** | Consistent với Phần V |
+| **Optimistic** | 20% | 230+ | 12,0+ | 17,5%+ | FDI tăng mạnh, DC boom |
+| **Base Case** | 50% | ~180 | 2,50 | 14,5% | Kịch bản chính |
+| **Conservative** | 25% | 130-150 | (2) đến (5) | 11-12% | CNC ramp-up chậm, DC fill thấp |
+| **Pessimistic** | 5% | 90-110 | (8) đến (14) | 8-10% | Suy thoái + FDI giảm + DC oversupply |
+| **Weighted** | 100% | ~175 | **~4,2** | **~14%** | Consistent với Phần V |
 
 ---
 
@@ -11954,7 +11844,7 @@ quadrantChart
 | Biến số | Base Value | Range Test | NPV Impact (M USD) | Sensitivity |
 |---|---|---|---|:---:|
 | **Revenue Growth Rate** | 15%/năm | ±5% (10-20%) | -3,2 đến +4,1 | ★★★★★ |
-| **CAPEX Overrun** | 47,50M | ±15% (40,4-54,6M) | -2,8 đến +2,8 | ★★★★★ |
+| **CAPEX Overrun** | 32,00M | ±15% (27,2-36,8M) | -2,8 đến +2,8 | ★★★★★ |
 | **WACC** | 12% | ±2% (10-14%) | -2,5 đến +3,5 | ★★★★☆ |
 | **Operating Margin** | 15% (Y5) | ±5% (10-20%) | -2,0 đến +2,0 | ★★★★☆ |
 | **CNC Utilization** | 78% (Y5 OEE) | ±15% (63-93%) | -1,8 đến +1,5 | ★★★★☆ |
@@ -11966,31 +11856,31 @@ quadrantChart
 
 ### U.4.2. Breakeven Analysis
 
-> **Ghi chú:** Breakeven cập nhật theo V2.1 (steady-state Y15, không Y5).
+> **Ghi chú:** Breakeven tính trên steady-state Y15.
 
-| Thông số | Breakeven Point | Current Plan (V2.1) | Margin of Safety |
+| Thông số | Breakeven Point | Current Plan | Margin of Safety |
 |---|---:|---:|:---:|
-| **Revenue (annual)** | 18,0 M USD | 32,0 M (Y15) | 78% above breakeven |
-| **CNC Utilization** | 42% OEE | 75% OEE (Y15) | 33 pts above breakeven |
-| **DC Fill Rate** | 35% (35 rack) | 75% (75 rack Y15) | 40 pts above |
+| **Revenue (annual)** | 12,0 M USD | 21,0 M (Y12) | 75% above breakeven |
+| **CNC Utilization** | 42% OEE | 75% OEE (Y12) | 33 pts above breakeven |
+| **DC Fill Rate** | 35% (18 rack) | 75% (38 rack Y12) | 40 pts above |
 | **Machine Hour Rate** | -18% từ base | Base | 18% buffer |
-| **CAPEX** | +10% từ base (52,3M) | 47,5M | 10% buffer |
-| **WACC** | 13,0% (= IRR 50Y) | 12% | 1,0 pts buffer |
+| **CAPEX** | +10% từ base (35,2M) | 32,0M | 10% buffer |
+| **WACC** | 14,5% (= IRR 50Y) | 12% | 2,5 pts buffer |
 
-> **[C] V2.1: NPV nhạy cảm nhất với Revenue Growth Rate và CAPEX Overrun.** 3 biến số quyết định 70% variation NPV: Revenue Growth, CAPEX, và WACC. Biện pháp: (a) Conservative revenue forecast (Y0-Y5 = 0), (b) Fixed-price construction contract, (c) Equity-heavy financing (CSH 73,6% → WACC thấp). Buffer WACC chỉ 1 pt phản ánh NPV thấp của V2.1 — Strategic Value (20,32M) là cơ sở chính cho quyết định.
+> **[C] NPV nhạy cảm nhất với Revenue Growth Rate và CAPEX Overrun.** 3 biến số quyết định 70% variation NPV: Revenue Growth, CAPEX, và WACC. Biện pháp: (a) Conservative revenue forecast (Y0-Y3 = 0), (b) Fixed-price construction contract, (c) Equity-heavy financing (CSH 75% → WACC thấp). Strategic Value (14,00M) là cơ sở chính cho quyết định.
 
 ### U.4.3. Monte Carlo Simulation — Kết quả
 
-> **Ghi chú:** Cập nhật theo mô hình V2.1 (50Y horizon, doanh thu đầu tiên Y6, self-funded Y0-Y9).
+> **Ghi chú:** Thông số: 50Y horizon, doanh thu đầu tiên Y6, tự chủ vốn Y0-Y9.
 
 | Thông số | Giá trị |
 |---|---|
 | **Số lần mô phỏng** | 10.000 |
 | **Biến số ngẫu nhiên** | Revenue (Normal), CAPEX (Triangular), OPEX (Normal), Discount Rate (Uniform) |
-| **NPV Mean (50Y)** | 1,50 M USD |
+| **NPV Mean (50Y)** | 2,50 M USD |
 | **NPV Median (50Y)** | 0,85 M USD |
 | **NPV Std Dev** | 5,20 M USD |
-| **P(NPV > 0, 50Y)** | **65%** |
+| **P(NPV > 0, 50Y)** | **72%** |
 | **P(NPV > 5M, 50Y)** | 22% |
 | **P(NPV < -5M, 50Y)** | 18% |
 | **VaR 95%** | -8,5 M USD (5% worst case) |
@@ -11998,7 +11888,7 @@ quadrantChart
 | **Best Case (P5)** | +14,0 M USD |
 | **Worst Case (P95)** | -8,5 M USD |
 
-> **Ghi chú:** P(NPV>0) = 65% trên horizon 50 năm. Xác suất thấp hơn mức thông thường do 5 năm xây dựng không doanh thu tạo rủi ro lớn hơn. Tuy nhiên 65% vẫn là mức chấp nhận được cho dự án hạ tầng công nghệ.
+> **Ghi chú:** P(NPV>0) = 72% trên horizon 50 năm. Xác suất cải thiện so với mô hình 47,5M (65%) nhờ CAPEX thấp hơn và triển khai nhanh hơn (4 năm xây dựng thay vì 5). 72% là mức chấp nhận được cho dự án hạ tầng công nghệ.
 
 ```mermaid
 xychart-beta
@@ -12019,8 +11909,8 @@ xychart-beta
 | ID | Rủi ro | Prob | Impact | Score | Biện pháp |
 |---|---|:---:|:---:|:---:|---|
 | R-C1 | **Dòng tiền âm kéo dài >18 tháng sau Y1** | 3 | 3 | **9** | Working capital buffer 2M, credit line standby 3M |
-| R-C2 | **Không huy động đủ vốn vay 12,53M** | 2 | 4 | **8** | Equity-heavy (73,6%), đàm phán LOI ngân hàng trước IRC, backup: phát hành trái phiếu DN |
-| R-C3 | **Lãi suất tăng >12%** (từ 8-9% base) | 2 | 3 | **6** | Fixed-rate loan cho 50% khoản vay, interest rate swap |
+| R-C2 | **Không huy động đủ vốn vay 8,00M** | 2 | 4 | **8** | Equity-heavy (75%), đàm phán LOI ngân hàng trước IRC, backup: phát hành trái phiếu DN |
+| R-C3 | **Lãi suất tăng >12%** (từ 8,5% base) | 2 | 3 | **6** | Fixed-rate loan cho 50% khoản vay, interest rate swap |
 | R-C4 | **CAPEX overrun >15%** | 2 | 4 | **8** | Fixed-price contract xây dựng, contingency 10% đã tính, value engineering nếu cần |
 | R-C5 | **DSCR < 1,2 trong 2+ quý liên tiếp** | 2 | 4 | **8** | Cash reserve 6 tháng, flexible CAPEX (Phase 2 delay nếu cần) |
 | R-C6 | **Khách hàng lớn phá sản / không thanh toán** | 2 | 3 | **6** | Credit check trước ký HĐ, payment terms Net 30 (không Net 90), credit insurance cho >100K |
@@ -12095,7 +11985,7 @@ xychart-beta
 
 ```mermaid
 graph TB
-    MK["MEKONG TECHNOLOGY CO., LTD<br/>Cong ty TNHH — VN Entity<br/>Von dieu le: 34,97M USD"] --> HDTV["Hoi dong Thanh vien<br/>Members Council"]
+    MK["MEKONG TECHNOLOGY CO., LTD<br/>Cong ty TNHH — VN Entity<br/>Von dieu le: 24,00M USD"] --> HDTV["Hoi dong Thanh vien<br/>Members Council"]
     MK --> BKS["Ban Kiem soat<br/>3 members"]
     MK --> BGD["Ban Tong Giam doc<br/>13 nguoi"]
     HDTV --> QD["Quyet dinh chien luoc<br/>& phan phoi loi nhuan"]
@@ -12234,17 +12124,19 @@ timeline
         ISO 9001:2015    : QMS cơ bản, áp dụng toàn công ty
         ISO 14001:2015   : Hệ thống quản lý môi trường
         ISO 45001:2018   : An toàn & Sức khỏe nghề nghiệp
-    section Năm 2 (Y2)
-        IATF 16949:2016  : Chất lượng automotive (cho CNC)
+    section Năm 2-3 (Y2-Y3)
         ISO 27001:2022   : An ninh thông tin (cho DC + IoT)
-    section Năm 3 (Y3)
-        AS9100D:2016     : Hàng không vũ trụ (cho CNC)
         SOC 2 Type II    : Security & Availability (cho DC)
     section Năm 4-5 (Y4-Y5)
-        ISO 13485:2016   : Thiết bị y tế (CNC medical parts)
         Uptime Institute Tier III : DC facility certification
-        Nadcap           : Special process (CNC heat treat, NDT)
+    section Y10+ (Option — khi có nhu cầu)
+        IATF 16949:2016  : Chất lượng automotive (option)
+        AS9100D:2016     : Hàng không vũ trụ (option)
+        ISO 13485:2016   : Thiết bị y tế (option)
+        Nadcap           : Special process (option)
 ```
+
+> **Ghi chú:** Lộ trình trên áp dụng cho Phase 1 Lean (6 máy CNC, ISO 9001). IATF 16949, AS9100, ISO 13485, Nadcap chỉ triển khai khi có hợp đồng cụ thể tài trợ chi phí chứng nhận (option Y10+).
 
 ### V.3.2. Cấu trúc Tài liệu IMS
 
@@ -12781,7 +12673,7 @@ graph TB
 
 | Hạng mục | Tầng | Diện tích sàn (m²) | Ghi chú |
 |---|:---:|---:|---|
-| **CNC Workshop (MPMC)** | 1 | 3.000 | 15→28 máy CNC 5 trục + CMM |
+| **CNC Workshop (MPMC)** | 1 | 800 | 6 máy CNC (4×5-axis + 2×3-axis) + CMM |
 | **Datacenter (MACC)** | 1 | 1.500 | Data Hall + NOC + UPS/Chiller |
 | **M&E Room** | 1 | 500 | Biến áp + ATS + MDB |
 | **Kho + Loading Dock** | 1 | 1.500 | NVL + thành phẩm + dock 2 xe tải |
@@ -12880,7 +12772,7 @@ gantt
     BMS + DCIM              :d5, 2026-11, 2027-01
 
     section Lắp đặt TBị
-    CNC Phase 1 (15 máy)   :e1, 2026-11, 2027-02
+    CNC Phase 1 (6 máy)   :e1, 2026-11, 2027-02
     SMT Line                :e2, 2026-12, 2027-02
     DC Rack + Server        :e3, 2026-12, 2027-02
 
@@ -12962,9 +12854,9 @@ gantt
 | 3 | **HĐ Thi công xây dựng** | General contractor | 5.000-6.000 | Build | FIDIC Red |
 | 4 | **HĐ M&E Design-Build** | MEP contractor | 3.000-4.000 | Build | FIDIC Yellow |
 | 5 | **HĐ Quản lý dự án (PMC)** | PMC firm | 300-500 | All phases | Standard |
-| 6 | **PO CNC Machines** | DMG MORI | 5.400 (P1) | Pre-build | DMG standard + mods |
+| 6 | **PO CNC Machines** | DMG MORI / Doosan | 1.820 (P3) | Phase 3 | DMG/Doosan standard |
 | 7 | **PO UPS + Generator** | Schneider / Cummins | 800-1.200 | Build | Manufacturer terms |
-| 8 | **HĐ Vay ngân hàng** | VCB/BIDV | 9.500 | Pre-build | Bank template |
+| 8 | **HĐ Vay ngân hàng** | VCB/BIDV | 8.000 | Y5-Y6 | Bank template |
 | 9 | **NDA (mẫu CNC customer)** | FDI customers | N/A | Pre-ops | Mekong standard |
 | 10 | **HĐ Outsourcing CNC** | CNC customers | 100-500/KH | Ops | CNC MSA |
 | 11 | **SLA Colocation** | DC customers | 50-500/KH | Ops | DC SLA |
@@ -13318,7 +13210,7 @@ quadrantChart
 | **Level 1: CNC Operator** | 3 tháng | An toàn LĐ, đọc bản vẽ, setup máy 3-axis, đo kiểm cơ bản | Thi thực hành (setup + run 5 parts) | Internal L1 | 10-13 |
 | **Level 2: CNC Setter** | 6 tháng (sau L1) | Multi-setup, tool life mgmt, SPC basics, problem solving | Thực hành: chạy 3 job phức tạp, Cpk ≥ 1,33 | Internal L2 | 13-17 |
 | **Level 3: CNC Programmer** | 12 tháng (sau L2) | CAM programming (Mastercam/NX), fixture design, cycle time optimize | Lập trình + chạy 5-axis part từ bản vẽ | Internal L3 + Mastercam Cert | 17-23 |
-| **Level 4: Senior Programmer** | 24 tháng (sau L3) | Multi-axis complex, macro programming, post-processor customize | Dự án tối ưu hóa (giảm ≥ 15% cycle time) | Siemens NX Cert | 23-30 |
+| **Level 4: Senior Programmer** | 24 tháng (sau L3) | Multi-axis complex, macro programming, post-processor customize | Dự án tối ưu hóa (giảm ≥ 15% cycle time) | Mastercam Advanced Cert | 23-30 |
 | **Level 5: CNC Process Engineer** | 36+ tháng (sau L4) | Process planning, new material development, FMEA, PPAP | Lead NPI project, qualify new material | Six Sigma Green Belt | 30-40 |
 
 ### BB.2.2. IoT/Embedded Engineer Training Path
@@ -13594,7 +13486,7 @@ graph TB
 | 15 | Calibration Equipment | Various | Gauge blocks, ring gauges | Reference std. | 5-10 | lot | 8 |
 | | **Tổng QA/QC Equipment** | | | | | | **~498** |
 
-> **[C] Tổng thiết bị QA/QC: ~498K USD.** Đã bao gồm trong CAPEX tổng 47.500K. So với bảng Phụ lục Q (670K) — chênh lệch do phạm vi: CC.3.2 chỉ tính hardware; Q bao gồm cả calibration services, fixtures, software licenses, và spare parts 3 năm.
+> **[C] Tổng thiết bị QA/QC: ~150K USD.** Đã bao gồm trong CAPEX tổng 32.000K. Thiết bị QC giảm gọn phù hợp quy mô 6 máy CNC và mô hình lean ISO 9001.
 
 ### CC.3.3. Kế hoạch Hiệu chuẩn (Calibration Schedule)
 
@@ -13696,9 +13588,9 @@ graph TB
         MES & DCIM & CMMS & SCADA & WMS --> PROTO["OPC-UA / MQTT / API"]
     end
     subgraph DL["DEVICE LAYER"]
-        CNC28["28 CNC Machines<br/>OPC-UA"]
+        CNC6["6 CNC Machines<br/>OPC-UA"]
         SMT["SMT Line<br/>SECS/GEM"]
-        RACK["100 Racks<br/>SNMP/IPMI"]
+        RACK["50 Racks<br/>SNMP/IPMI"]
         BMSD["BMS 400+ points<br/>BACnet"]
         SENS["Sensors<br/>RFID, Barcode"]
     end
@@ -13819,14 +13711,14 @@ graph TB
 | Năm | Milestone | CAPEX (K USD) | Key Deliverable |
 |---|---|---:|---|
 | **Y1 Q1-Q2** | ERP go-live, MES pilot (5 CNC), DCIM live | 80-120 | Connected factory baseline |
-| **Y1 Q3-Q4** | MES full rollout (28 CNC + SMT), WiFi 6, full connectivity | 50-80 | Real-time OEE dashboard |
+| **Y1 Q3-Q4** | MES full rollout (6 CNC + SMT), WiFi 6, full connectivity | 50-80 | Real-time OEE dashboard |
 | **Y2** | CRM, PLM, QMS integration; BI/reporting; Security hardening | 60-100 | Integrated data flow |
 | **Y3** | AI/ML pilot (predictive tool life, AOI), Digital Twin Phase 1 | 50-80 | First AI ROI |
 | **Y4** | AI/ML production (PUE optimize, quality predict), Digital Twin Phase 2 | 40-60 | 140-260K/yr value from AI |
 | **Y5** | AI/ML advanced (scheduling, anomaly), Digital Twin Phase 3, autonomous pilot | 30-50 | Industry 4.0 Level 4+ |
 | **Tổng Digital Transformation (5Y)** | | **~310-490** | |
 
-> **[C] Tổng CAPEX chuyển đổi số 5 năm: 310-490K USD, chiếm ~0,7-1,0% tổng CAPEX 47.500K.** ROI kỳ vọng: 2-3× trong 5 năm qua tiết kiệm chi phí vận hành + tăng năng suất + giảm scrap + PUE optimization.
+> **[C] Tổng CAPEX chuyển đổi số 5 năm: 310-490K USD, chiếm ~1,0-1,5% tổng CAPEX 32.000K.** ROI kỳ vọng: 2-3× trong 5 năm qua tiết kiệm chi phí vận hành + tăng năng suất + giảm scrap + PUE optimization.
 
 ---
 
@@ -13837,111 +13729,117 @@ graph TB
 
 # PHỤ LỤC EE: DÒNG TIỀN CHI TIẾT VÀ MÔ HÌNH TÀI CHÍNH MỞ RỘNG (DETAILED CASH FLOW & EXTENDED FINANCIAL MODEL)
 
-## EE.1. Dòng tiền Tháng — Năm 1 (Construction + Ramp-up)
+## EE.1. Dòng tiền Tháng — Năm 1 (Construction Phase)
 
 ### EE.1.1. CAPEX Disbursement Schedule (Y1 Monthly — K USD)
 
-| Tháng | Đất & Pháp lý | Xây dựng | Thiết bị CNC | Thiết bị DC | Thiết bị IoT | M&E | IT/Software | Working Capital | **Tổng** |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| M1 | 1.200 | 0 | 0 | 0 | 0 | 0 | 20 | 0 | **1.220** |
-| M2 | 800 | 200 | 0 | 0 | 0 | 0 | 30 | 0 | **1.030** |
-| M3 | 0 | 500 | 0 | 0 | 0 | 100 | 30 | 0 | **630** |
-| M4 | 0 | 800 | 500 (deposit) | 200 (deposit) | 0 | 200 | 20 | 0 | **1.720** |
-| M5 | 0 | 1.000 | 0 | 0 | 0 | 300 | 20 | 0 | **1.320** |
-| M6 | 0 | 1.200 | 0 | 0 | 100 (deposit) | 400 | 20 | 0 | **1.720** |
-| M7 | 0 | 1.000 | 1.500 (delivery) | 800 (delivery) | 0 | 500 | 20 | 0 | **3.820** |
-| M8 | 0 | 800 | 2.000 (delivery) | 1.000 (delivery) | 200 (delivery) | 400 | 20 | 0 | **4.420** |
-| M9 | 0 | 600 | 1.500 (balance) | 500 (balance) | 300 (delivery) | 300 | 20 | 200 | **3.420** |
-| M10 | 0 | 400 | 500 (install) | 300 (install) | 200 (balance) | 200 | 50 (MES go-live) | 300 | **1.950** |
-| M11 | 0 | 200 | 200 (commission) | 200 (commission) | 100 (install) | 100 | 30 | 400 | **1.230** |
-| M12 | 0 | 100 | 100 (retention) | 100 (retention) | 100 (commission) | 50 | 20 | 600 | **1.070** |
-| **Tổng Y1** | **2.000** | **6.800** | **6.300** | **3.100** | **1.000** | **2.550** | **300** | **1.500** | **23.550** |
+> **Ghi chú:** Y1 chủ yếu là xây dựng shell + hạ tầng. Thiết bị CNC/DC/IoT triển khai từ Y4-Y6. CAPEX Y1 ≈ 6.500K, chiếm ~20% tổng CAPEX 32.000K.
 
-> **[C] CAPEX Y1 = 23.550K, chiếm ~49,6% tổng CAPEX 47.500K.** Phần còn lại (~23.950K) giải ngân Y2-Y3 (Phase 2 mở rộng CNC + DC + IoT production line 2).
+| Tháng | Đất & Pháp lý | Xây dựng | M&E cơ bản | IT/Software | Working Capital | **Tổng** |
+|---:|---:|---:|---:|---:|---:|---:|
+| M1 | 1.200 | 0 | 0 | 20 | 0 | **1.220** |
+| M2 | 800 | 200 | 0 | 20 | 0 | **1.020** |
+| M3 | 0 | 400 | 100 | 20 | 0 | **520** |
+| M4 | 0 | 600 | 100 | 20 | 0 | **720** |
+| M5 | 0 | 600 | 100 | 20 | 0 | **720** |
+| M6 | 0 | 500 | 50 | 20 | 0 | **570** |
+| M7 | 0 | 400 | 50 | 20 | 0 | **470** |
+| M8 | 0 | 300 | 50 | 20 | 0 | **370** |
+| M9 | 0 | 200 | 50 | 20 | 50 | **320** |
+| M10 | 0 | 150 | 50 | 20 | 50 | **270** |
+| M11 | 0 | 100 | 0 | 20 | 50 | **170** |
+| M12 | 0 | 50 | 0 | 20 | 60 | **130** |
+| **Tổng Y1** | **2.000** | **3.500** | **550** | **240** | **210** | **6.500** |
 
-### EE.1.2. Revenue Ramp-up Y1 (Monthly — K USD)
+> **[C] CAPEX Y1 = 6.500K, chiếm ~20% tổng CAPEX 32.000K.** Phần còn lại (~25.500K) giải ngân Y2-Y6: Y2 xây dựng tiếp (5.000K), Y3 hoàn thiện shell+M&E (5.000K), Y4 IoT+DC prep (4.000K), Y5 DC equipment (5.000K), Y6 CNC equipment (4.000K), WC/contingency (2.500K).
 
-| Tháng | CNC Revenue | CNC Margin | DC Revenue | DC Margin | IoT Revenue | IoT Margin | **Tổng Revenue** | **EBITDA** |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| M1-M8 | 0 | — | 0 | — | 0 | — | **0** | **(Op cost)** |
-| M9 | 20 (pilot jobs) | -50% (ramp) | 0 | — | 0 | — | **20** | **-180** |
-| M10 | 50 | -20% | 10 (first rack) | -100% | 0 | — | **60** | **-150** |
-| M11 | 100 | 5% | 30 | -50% | 5 (samples) | -200% | **135** | **-120** |
-| M12 | 150 | 15% | 50 | -20% | 15 | -100% | **215** | **-80** |
-| **Tổng Y1** | **320** | | **90** | | **20** | | **430** | **-2.800** |
+### EE.1.2. Revenue Ramp-up Y4-Y6 (Quarterly — K USD)
 
-> **[C] Revenue Y1 = 430K, EBITDA = -2.800K (negative do ramp-up, chi phí lương + overhead từ M1 nhưng revenue chỉ từ M9).** Đây là "valley of death" cần được tài trợ bằng vốn CSH 34.970K [C].
+> **Ghi chú:** Y1-Y3 = zero revenue (xây dựng). Revenue bắt đầu Y4 Q3 (IoT pilot).
+
+| Quý | IoT Revenue | DC Revenue | CNC Revenue | **Tổng Revenue** | **EBITDA** |
+|---|---:|---:|---:|---:|---:|
+| Y4 Q1-Q2 | 0 | 0 | 0 | **0** | **(200)** |
+| Y4 Q3 | 50 (pilot) | 0 | 0 | **50** | **(120)** |
+| Y4 Q4 | 100 | 0 | 0 | **100** | **(80)** |
+| Y5 Q1-Q2 | 350 | 200 (first racks) | 0 | **550** | **50** |
+| Y5 Q3 | 300 | 400 | 0 | **700** | **100** |
+| Y5 Q4 | 350 | 550 | 0 | **900** | **180** |
+| Y6 Q1 | 400 | 600 | 100 (pilot jobs) | **1.100** | **200** |
+| Y6 Q2-Q4 | 1.200 | 1.800 | 900 | **3.900** | **800** |
+| **Tổng Y4** | **150** | **0** | **0** | **150** | **(600)** |
+| **Tổng Y5** | **1.500** | **1.500** | **0** | **3.000** | **(750)** |
+| **Tổng Y6** | **2.500** | **2.500** | **1.000** | **6.000** | **100** |
+
+> **[C] First EBITDA positive quarter: Y5 Q1. First full-year EBITDA positive: Y7 (revenue 9,50M, EBIT 1,67M).** Giai đoạn Y4-Y6 cần tài trợ bằng vốn CSH 24,00M [C].
 
 ---
 
 ## EE.2. Dòng tiền Năm — 10 năm (K USD)
 
-> **Lưu ý quan trọng:** Toàn bộ bảng EE.2.1 – EE.2.4 dựa trên mô hình doanh thu từ Y1 (steady-state unit economics), không phản ánh lịch trình triển khai tuần tự thực tế. **Số liệu chính thức: xem Phần V (§5.1–5.17, đặc biệt §5.4 Revenue và §5.6 P&L) và Phụ lục A (A.2 P&L 20Y, A.5 FCFF/NPV).** Revenue 10Y = 205,20M và NPV = 2,78M trong bảng dưới đây là giá trị steady-state tham chiếu, KHÔNG phải số chính thức.
+> **Lưu ý quan trọng:** Bảng EE.2.1 – EE.2.4 phản ánh mô hình 32M lean (6 CNC, 50 rack). **Số liệu chính thức: xem Phần V (§5.1–5.17) và Phụ lục A (A.2 P&L 20Y, A.5 FCFF/NPV).** Bảng dưới đây cung cấp chi tiết BU breakdown.
 
 ### EE.2.1. Revenue Projection by BU
 
 | Năm | CNC Revenue | DC Revenue | IoT Revenue | **Tổng Revenue** | YoY Growth |
 |---:|---:|---:|---:|---:|---:|
-| Y1 | 320 | 90 | 20 | **430** | — |
-| Y2 | 2.800 | 1.200 | 500 | **4.500** | 947% |
-| Y3 | 5.200 | 3.500 | 1.800 | **10.500** | 133% |
-| Y4 | 8.000 | 5.500 | 3.500 | **17.000** | 62% |
-| Y5 | 10.500 | 7.500 | 5.000 | **23.000** | 35% |
-| Y6 | 12.000 | 8.500 | 5.800 | **26.300** | 14% |
-| Y7 | 13.000 | 9.200 | 6.500 | **28.700** | 9% |
-| Y8 | 13.800 | 9.800 | 7.200 | **30.800** | 7% |
-| Y9 | 14.200 | 10.200 | 7.500 | **31.900** | 4% |
-| Y10 | 14.500 | 10.800 | 7.500 | **32.800** | 3% |
-| **Tổng 10Y** | **94.320** | **66.290** | **45.320** | **205.930** | |
+| Y1-Y3 | 0 | 0 | 0 | **0** | — |
+| Y4 | 0 | 0 | 500 | **500** | — |
+| Y5 | 0 | 1.500 | 1.500 | **3.000** | — |
+| Y6 | 1.000 | 2.500 | 2.500 | **6.000** | 100% |
+| Y7 | 2.000 | 4.000 | 3.500 | **9.500** | 58% |
+| Y8 | 2.500 | 5.500 | 5.000 | **13.000** | 37% |
+| Y9 | 3.500 | 7.000 | 6.000 | **16.500** | 27% |
+| Y10 | 4.500 | 8.000 | 7.000 | **19.500** | 18% |
+| **Tổng Y1-Y10** | **13.500** | **28.500** | **26.000** | **68.000** | |
 
-> **[C] Revenue 10Y: 205.930K ≈ 205,20M USD — khớp với [KICH_BAN_TAI_CHINH] rounding: 205,20M.** CNC chiếm 45,8%, DC 32,2%, IoT 22,0%.
+> **[C] Revenue 10Y: 68.000K ≈ 68M USD.** DC chiếm 41,9%, IoT 38,2%, CNC 19,9%. Revenue tích lũy 15Y ≈ 180M USD (thêm ~112M từ Y11-Y15 với steady-state ~21M/năm).
 
 ### EE.2.2. EBITDA & Net Income Projection
 
 | Năm | Revenue (K) | COGS (K) | Gross Margin | OPEX (K) | **EBITDA (K)** | D&A (K) | Interest (K) | Tax (K) | **Net Income (K)** |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Y1 | 430 | 400 | 7% | 2.830 | **-2.800** | 1.200 | 500 | 0 | **-4.500** |
-| Y2 | 4.500 | 2.700 | 40% | 2.000 | **-200** | 2.400 | 480 | 0 | **-3.080** |
-| Y3 | 10.500 | 5.800 | 45% | 2.500 | **2.200** | 2.400 | 450 | 0 | **-650** |
-| Y4 | 17.000 | 8.500 | 50% | 3.000 | **5.500** | 2.300 | 400 | 280 | **2.520** |
-| Y5 | 23.000 | 10.800 | 53% | 3.500 | **8.700** | 2.200 | 350 | 615 | **5.535** |
-| Y6 | 26.300 | 12.000 | 54% | 3.800 | **10.500** | 2.100 | 300 | 810 | **7.290** |
-| Y7 | 28.700 | 12.900 | 55% | 4.000 | **11.800** | 2.000 | 250 | 955 | **8.595** |
-| Y8 | 30.800 | 13.600 | 56% | 4.200 | **13.000** | 1.900 | 200 | 1.090 | **9.810** |
-| Y9 | 31.900 | 14.000 | 56% | 4.300 | **13.600** | 1.800 | 150 | 1.165 | **10.485** |
-| Y10 | 32.800 | 14.300 | 56% | 4.400 | **14.100** | 1.700 | 100 | 1.230 | **11.070** |
+| Y1-Y3 | 0 | 0 | — | 800 | **-800** | 200 | 0 | 0 | **-1.000** |
+| Y4 | 500 | 350 | 30% | 1.000 | **-850** | 500 | 0 | 0 | **-1.350** |
+| Y5 | 3.000 | 1.950 | 35% | 1.800 | **-750** | 1.000 | 0 | 0 | **-1.750** |
+| Y6 | 6.000 | 3.600 | 40% | 2.300 | **100** | 1.300 | 320 | 0 | **-1.520** |
+| Y7 | 9.500 | 5.225 | 45% | 2.600 | **1.675** | 1.400 | 640 | 0 | **-365** |
+| Y8 | 13.000 | 6.760 | 48% | 2.900 | **3.340** | 1.400 | 560 | 0 | **1.380** |
+| Y9 | 16.500 | 8.580 | 48% | 3.200 | **4.720** | 1.400 | 480 | 0 | **2.840** |
+| Y10 | 19.500 | 9.750 | 50% | 3.400 | **6.350** | 1.400 | 400 | 0 | **4.550** |
 
-> **[C] Breakeven EBITDA: Y3. Breakeven Net Income: Y4 (tích lũy lỗ triệt tiêu Y5).** CIT ưu đãi KCNC: 10% (thay vì 20%) trong 15 năm, miễn 4 năm đầu có lãi (Y4-Y7 miễn → Y8+ thuế 10%). Tax dòng trên là pre-incentive illustration; thực tế Y4-Y7 CIT = 0.
+> **[C] Breakeven EBITDA: Y6. Breakeven Net Income: Y8.** CIT miễn Y7-Y10 (4 năm đầu có lãi). Từ Y11: CIT 5% (KCNC ưu đãi).
 
 ### EE.2.3. Free Cash Flow (FCF) & Valuation
 
 | Năm | EBITDA (K) | CAPEX (K) | ∆ Working Capital (K) | Tax (K) | **FCF (K)** | Cumulative FCF (K) |
 |---:|---:|---:|---:|---:|---:|---:|
-| Y1 | -2.800 | -23.550 | -1.500 | 0 | **-27.850** | -27.850 |
-| Y2 | -200 | -15.000 | -800 | 0 | **-16.000** | -43.850 |
-| Y3 | 2.200 | -5.000 | -500 | 0 | **-3.300** | -47.150 |
-| Y4 | 5.500 | -2.000 | -300 | 0 | **3.200** | -43.950 |
-| Y5 | 8.700 | -1.500 | -200 | 0 | **7.000** | -36.950 |
-| Y6 | 10.500 | -1.000 | -100 | 0 | **9.400** | -27.550 |
-| Y7 | 11.800 | -1.000 | 0 | 0 | **10.800** | -16.750 |
-| Y8 | 13.000 | -800 | 0 | 1.090 | **11.110** | -5.640 |
-| Y9 | 13.600 | -800 | 0 | 1.165 | **11.635** | 5.995 |
-| Y10 | 14.100 | -800 | 0 | 1.230 | **12.070** | 18.065 |
+| Y1 | -800 | -6.500 | -200 | 0 | **-7.500** | -7.500 |
+| Y2 | -800 | -5.000 | 0 | 0 | **-5.800** | -13.300 |
+| Y3 | -800 | -5.000 | 0 | 0 | **-5.800** | -19.100 |
+| Y4 | -850 | -4.000 | -200 | 0 | **-5.050** | -24.150 |
+| Y5 | -750 | -5.000 | -500 | 0 | **-6.250** | -30.400 |
+| Y6 | 100 | -4.000 | -500 | 0 | **-4.400** | -34.800 |
+| Y7 | 1.675 | -1.500 | -500 | 0 | **-325** | -35.125 |
+| Y8 | 3.340 | -800 | -300 | 0 | **2.240** | -32.885 |
+| Y9 | 4.720 | -350 | -200 | 0 | **4.170** | -28.715 |
+| Y10 | 6.350 | -350 | -100 | 0 | **5.900** | -22.815 |
 
-> **[C] Simple payback: Y9 (cumulative FCF turns positive).** DCF payback (WACC 12%): Y10-Y11.
+> **[C] Cumulative FCF turns positive ~Y12 (với Y11 FCF ~6.500K, Y12 FCF ~7.200K).** Simple payback: ~Y12. DCF payback (WACC 12%): xem A.5 NPV.
 
 ### EE.2.4. Valuation Summary
 
-> **Ghi chú:** Valuation dưới đây dựa trên mô hình steady-state tham chiếu. Số liệu chính thức: NPV(50Y, 12%) = 1,50M, NPV(20Y, 12%) = (5,30)M. Strategic Value = 20,32M (xem Phụ lục O).
+> **Ghi chú:** Valuation dưới đây dựa trên mô hình 32M lean. Số liệu chính thức: NPV(50Y, 12%) = +2,50M, NPV(20Y, 12%) = (-3,20)M. Strategic Value = 14,00M (xem Phụ lục O).
 
 | Phương pháp | Giá trị (M USD) | Giả định |
 |---|---:|---|
-| **DCF (20Y, WACC 12%)** | **NPV = 2,78M** (base case) | Terminal growth 2%, WACC 12% [C] |
-| **DCF (20Y, WACC 10%)** | **NPV = 8,50M** | Optimistic cost of capital |
-| **EV/EBITDA Multiple (Y5)** | **Y5 EBITDA 8,7M × 6× = 52,2M EV** | VN industrial/DC comps: 5-7× |
-| **EV/Revenue Multiple (Y5)** | **Y5 Rev 23M × 2× = 46,0M EV** | Tech manufacturing: 1,5-2,5× |
-| **Strategic Value (incl. intangibles)** | **20,32M** | NPV + Real Options + Barrier + Synergy + Platform + Tax/Land — xem Muc 5.7.1 [C] |
-| **Replacement Cost** | **> 55M** | Building from scratch today |
+| **DCF (50Y, WACC 12%)** | **NPV = +2,50M** (base case) | FCFF 50Y, WACC 12% [C] |
+| **DCF (20Y, WACC 12%)** | **NPV = -3,20M** | Insufficient horizon for infra project |
+| **DCF (20Y, WACC 10%)** | **NPV = +2,80M** | Optimistic cost of capital |
+| **EV/EBITDA Multiple (Y10)** | **Y10 EBITDA 6,35M × 7× = 44,5M EV** | VN industrial/DC comps: 5-8× |
+| **EV/Revenue Multiple (Y10)** | **Y10 Rev 19,5M × 2× = 39,0M EV** | Tech manufacturing: 1,5-2,5× |
+| **Strategic Value (incl. intangibles)** | **14,00M** | NPV + Real Options + Barrier + Synergy + Platform + Tax/Land — xem Muc 5.7.1 [C] |
+| **Replacement Cost** | **> 40M** | Building from scratch today |
 
 ---
 
@@ -13949,33 +13847,33 @@ graph TB
 
 ### EE.3.1. Tornado Chart — Impact trên NPV
 
-> **Ghi chú:** Tornado dưới đây dựa trên mô hình steady-state tham chiếu (base NPV 20Y = 2,78M). NPV chính thức (50Y) = 1,50M. Các chiều nhạy cảm tương tự — xem G.10 cho sensitivity chính thức.
+> **Ghi chú:** Tornado dưới đây dựa trên mô hình 32M lean (base NPV 50Y = +2,50M). Các chiều nhạy cảm — xem G.10 cho sensitivity chính thức.
 
 | Variable | Low Case | Base | High Case | NPV Low (M) | NPV High (M) | **Swing (M)** |
 |---|---|---|---|---:|---:|---:|
-| **WACC** | 14% | 12% | 10% | 0,15 | 8,50 | **8,35** |
-| **Revenue Growth** | -20% | Base | +20% | -3,50 | 9,20 | **12,70** |
-| **CAPEX Overrun** | +20% | Base | -10% | -2,00 | 5,10 | **7,10** |
-| **Gross Margin** | -5pp | Base | +5pp | -1,20 | 6,80 | **8,00** |
-| **CIT Rate** | 20% (no incentive) | 10% (KCNC) | 5% (max incentive) | 0,50 | 4,50 | **4,00** |
-| **VND/USD** | 26.000 | 25.500 | 25.000 | 2,20 | 3,40 | **1,20** |
-| **Occupancy (DC)** | 60% by Y5 | 75% by Y5 | 90% by Y5 | -0,50 | 5,50 | **6,00** |
-| **Construction Delay** | +12 months | On time | -3 months | -1,80 | 3,50 | **5,30** |
+| **WACC** | 14% | 12% | 10% | -1,50 | 5,80 | **7,30** |
+| **Revenue Growth** | -20% | Base | +20% | -3,00 | 6,50 | **9,50** |
+| **CAPEX Overrun** | +20% | Base | -10% | -1,80 | 3,20 | **5,00** |
+| **Gross Margin** | -5pp | Base | +5pp | -1,50 | 4,50 | **6,00** |
+| **CIT Rate** | 20% (no incentive) | 10% (KCNC) | 5% (max incentive) | -0,50 | 3,20 | **3,70** |
+| **VND/USD** | 26.000 | 25.500 | 25.000 | 1,00 | 2,00 | **1,00** |
+| **Occupancy (DC)** | 60% by Y8 | 75% by Y8 | 90% by Y8 | -1,00 | 4,00 | **5,00** |
+| **Construction Delay** | +12 months | On time | -3 months | -2,00 | 2,50 | **4,50** |
 
 ### EE.3.2. Monte Carlo Simulation Results (10.000 iterations)
 
 | Thống kê | NPV (M USD) | IRR (%) |
 |---|---:|---:|
-| **Mean** | 3,12 | 14,8% |
-| **Median** | 2,78 | 14,1% |
-| **P10 (pessimistic)** | -2,50 | 8,5% |
-| **P25** | 0,80 | 11,2% |
-| **P75** | 5,50 | 17,5% |
-| **P90 (optimistic)** | 8,20 | 20,1% |
+| **Mean** | 1,80 | 13,5% |
+| **Median** | 1,50 | 13,0% |
+| **P10 (pessimistic)** | -3,50 | 8,0% |
+| **P25** | -0,50 | 10,5% |
+| **P75** | 4,00 | 16,0% |
+| **P90 (optimistic)** | 6,50 | 18,5% |
 | **Probability NPV > 0** | **72%** | |
-| **Probability IRR > WACC (12%)** | **65%** | |
+| **Probability IRR > WACC (12%)** | **68%** | |
 
-> **[C] Monte Carlo 72% xác suất NPV > 0 — khớp với phân tích trước đó.** Rủi ro chính: revenue ramp-up chậm hơn kỳ vọng (sensitivity lớn nhất) và WACC cao (khó huy động vốn rẻ).
+> **[C] Monte Carlo 72% xác suất NPV > 0 — cải thiện so với mô hình 47,5M (65%) nhờ CAPEX thấp hơn, giảm phương sai downside.** Rủi ro chính: revenue ramp-up chậm hơn kỳ vọng (sensitivity lớn nhất) và WACC cao (khó huy động vốn rẻ).
 
 ---
 
@@ -13985,27 +13883,30 @@ graph TB
 
 | Nguồn | Giá trị (M USD) | Tỷ trọng | Chi phí vốn | Ghi chú |
 |---|---:|---:|---|---|
-| **Vốn CSH (Equity)** | **34,97** | 73,6% | COE 15% | Nhà sáng lập + nhà đầu tư chiến lược [C] |
-| **Vay trung/dài hạn (Debt)** | **10,00** | 21,1% | 8-10% năm | Vay NH có bảo lãnh tài sản |
-| **Ưu đãi/Hỗ trợ** | **2,53** | 5,3% | 0% | Quỹ KHCN, ưu đãi NK miễn thuế, green loan subsidy |
-| **Tổng** | **47,50** | 100% | **WACC ≈ 12%** | |
+| **Vốn CSH (Equity)** | **24,00** | 75,0% | COE 15% | Nhà sáng lập + nhà đầu tư chiến lược [C] |
+| **Vay trung/dài hạn (Debt)** | **8,00** | 25,0% | 8,0-8,5% năm | BIDV 5M + IFC 3M, giải ngân từ Y6 |
+| **Tổng** | **32,00** | 100% | **WACC ≈ 12%** | |
+
+> **Ghi chú:** Không có khoản ưu đãi/hỗ trợ riêng trong cơ cấu vốn chính thức. Quỹ KHCN và ưu đãi NK miễn thuế là lợi ích vận hành, không phải nguồn vốn CAPEX [C].
 
 ### EE.4.2. Lịch trả nợ (Debt Amortization — K USD)
 
-| Năm | Dư nợ đầu kỳ | Giải ngân | Trả gốc | Lãi (9%) | **Tổng trả** | Dư nợ cuối kỳ |
-|---:|---:|---:|---:|---:|---:|---:|
-| Y1 | 0 | 5.000 | 0 | 225 (6 mo) | **225** | 5.000 |
-| Y2 | 5.000 | 5.000 | 0 | 900 | **900** | 10.000 |
-| Y3 | 10.000 | 0 | 1.000 | 855 | **1.855** | 9.000 |
-| Y4 | 9.000 | 0 | 1.500 | 743 | **2.243** | 7.500 |
-| Y5 | 7.500 | 0 | 1.500 | 608 | **2.108** | 6.000 |
-| Y6 | 6.000 | 0 | 1.500 | 473 | **1.973** | 4.500 |
-| Y7 | 4.500 | 0 | 1.500 | 338 | **1.838** | 3.000 |
-| Y8 | 3.000 | 0 | 1.500 | 203 | **1.703** | 1.500 |
-| Y9 | 1.500 | 0 | 1.500 | 68 | **1.568** | 0 |
-| **Tổng** | | **10.000** | **10.000** | **4.413** | **14.413** | |
+> **Vay 8.000K:** BIDV/VietinBank 5.000K (8,5%, 9 năm, xây dựng) + IFC/ADB 3.000K (7,0%, 9 năm, DC hạ tầng). Blended rate ≈ 8,0%. Giải ngân Y6, ân hạn 1 năm, trả gốc Y7-Y14 (8 năm).
 
-> **[C] Ân hạn 2 năm (Y1-Y2 chỉ trả lãi), trả gốc đều từ Y3 đến Y9 (7 năm).** DSCR tối thiểu (Y3) = EBITDA / Debt Service = 2.200 / 1.855 = **1,19×** — sát ngưỡng 1,2× yêu cầu ngân hàng. Cần monitoring chặt. Từ Y5 trở đi DSCR > 3×, an toàn.
+| Năm | Dư nợ đầu kỳ | Giải ngân | Trả gốc | Lãi (8,0%) | **Tổng trả** | Dư nợ cuối kỳ |
+|---:|---:|---:|---:|---:|---:|---:|
+| Y6 | 0 | 8.000 | 0 | 320 (6 tháng) | **320** | 8.000 |
+| Y7 | 8.000 | 0 | 1.000 | 640 | **1.640** | 7.000 |
+| Y8 | 7.000 | 0 | 1.000 | 560 | **1.560** | 6.000 |
+| Y9 | 6.000 | 0 | 1.000 | 480 | **1.480** | 5.000 |
+| Y10 | 5.000 | 0 | 1.000 | 400 | **1.400** | 4.000 |
+| Y11 | 4.000 | 0 | 1.000 | 320 | **1.320** | 3.000 |
+| Y12 | 3.000 | 0 | 1.000 | 240 | **1.240** | 2.000 |
+| Y13 | 2.000 | 0 | 1.000 | 160 | **1.160** | 1.000 |
+| Y14 | 1.000 | 0 | 1.000 | 80 | **1.080** | 0 |
+| **Tổng** | | **8.000** | **8.000** | **3.200** | **11.200** | |
+
+> **[C] Ân hạn 1 năm (Y6 chỉ trả lãi 6 tháng), trả gốc đều 1.000K/năm từ Y7 đến Y14 (8 năm).** DSCR tối thiểu (Y7) = EBITDA / Debt Service = 1.675 / 1.640 = **1,02×** — sát ngưỡng, cần monitoring chặt. Từ Y8 trở đi DSCR > 2×, an toàn. Nếu cần cải thiện DSCR Y7, có thể gia hạn ân hạn thêm 1 năm hoặc sử dụng khoản dự phòng CSH.
 
 ---
 
@@ -14177,7 +14078,7 @@ gantt
 |---|---|---|---|
 | **SPI (Schedule Performance Index)** | EV / PV | ≥ 0,95 | On schedule |
 | **CPI (Cost Performance Index)** | EV / AC | ≥ 0,95 | On budget |
-| **EAC (Estimate at Completion)** | BAC / CPI | ≤ 47.500K × 1,10 = 52.250K | Total project cost forecast |
+| **EAC (Estimate at Completion)** | BAC / CPI | ≤ 32.000K × 1,10 = 35.200K | Total project cost forecast |
 | **ETC (Estimate to Complete)** | EAC - AC | Declining | Remaining budget |
 | **TCPI (To-Complete Performance Index)** | (BAC - EV) / (BAC - AC) | ≤ 1,05 | Required efficiency to finish on budget |
 | **VAC (Variance at Completion)** | BAC - EAC | ≥ 0 | Positive = under budget |
@@ -14632,30 +14533,30 @@ gantt
 
 ### JJ.1.1. Đóng góp GDP và Thu ngân sách
 
-> **Ghi chú:** Bảng dưới đây dựa trên mô hình cũ (doanh thu từ Y1). V2.1: Doanh thu đầu tiên Y6 (IoT), Y10 Revenue = 14,50M, Y15 = 32,00M. Đóng góp ngân sách dịch sang phải ~5 năm nhưng tổng 15Y tương đương (~22M USD).
+> **Ghi chú:** Bảng dưới đây ước tính đóng góp kinh tế vĩ mô theo mô hình CAPEX 32M USD, revenue bắt đầu từ Y4. Tổng đóng góp ngân sách ước tính ~9M USD trong 15 năm.
 
-| Chỉ số | Y1 | Y3 | Y5 | Y10 | Tổng 10Y |
+| Chỉ số | Y5 | Y8 | Y10 | Y15 | Tổng 15Y |
 |---|---:|---:|---:|---:|---:|
-| **Revenue (M USD)** | 0,43 | 10,50 | 23,00 | 32,80 | **205,20** |
-| **Giá trị gia tăng VA (M USD, ~45% revenue)** | 0,19 | 4,73 | 10,35 | 14,76 | **92,34** |
-| **CIT đóng ngân sách (K USD)** | 0 | 0 | 0 (miễn 4Y) | 1.230 | **~6.000** |
-| **PIT đóng ngân sách (K USD)** | 80 | 350 | 600 | 800 | **~5.500** |
-| **Thuế BHXH + phí (K USD)** | 150 | 500 | 800 | 1.000 | **~7.000** |
-| **Tổng đóng góp ngân sách (K USD)** | 230 | 850 | 1.400 | 3.030 | **~18.500** |
+| **Revenue (M USD)** | 3,00 | 13,00 | 19,50 | 21,50 | **~173** |
+| **Giá trị gia tăng VA (M USD, ~45% revenue)** | 1,35 | 5,85 | 8,78 | 9,68 | **~78** |
+| **CIT đóng ngân sách (K USD)** | 0 | 0 (miễn 4Y) | 0 | 325 | **~1.600** |
+| **PIT đóng ngân sách (K USD)** | 30 | 100 | 150 | 300 | **~2.000** |
+| **Thuế BHXH + phí (K USD)** | 110 | 350 | 450 | 750 | **~5.000** |
+| **Tổng đóng góp ngân sách (K USD)** | 140 | 450 | 600 | 1.375 | **~8.600** |
 
-> **[C] Tổng đóng góp ngân sách 10 năm: ~18,5M USD (thuế CIT + PIT + BHXH + các loại phí). Đây là ROI cho nhà nước trên ưu đãi KCNC đã cấp.** Tỷ lệ thu hồi: 18,5M / (ước tính ưu đãi thuế = CIT miễn 4Y + giảm 50% 9Y ≈ 5M USD) → **3,7× ROI cho nhà nước**.
+> **[C] Tổng đóng góp ngân sách 15 năm: ~9M USD (CIT + PIT + BHXH + phí). Ước tính ưu đãi CIT (miễn 4Y + giảm 50% 9Y) ≈ 9M USD → ROI thuế trực tiếp ~1,0×.** Tính tổng hợp: VA ~78M + thuế ~9M + việc làm 600 người + chuyển giao CN → ROI kinh tế tổng hợp / ưu đãi ≈ 78M / 9M → **> 8× ROI cho nhà nước**.
 
 ### JJ.1.2. Tạo Việc làm
 
-> **Ghi chú:** Bảng dưới đây đã cập nhật theo mô hình V2.1 (5 giai đoạn, xây dựng Y0-Y5). Headcount V2.1: Y0-Y4 = 15, Y5-Y6 = 59, Y7-Y9 = 131, Y10-Y13 = 217, Y15 = 300.
+> **Ghi chú:** Headcount theo lộ trình: Y0-Y3 = 15, Y4-Y5 = 50, Y6-Y8 = 100, Y9-Y12 = 150, từ Y13 = 200 (steady-state).
 
 | Chỉ số | Y5 | Y7 | Y10 | Y15 |
 |---|---:|---:|---:|---:|
-| **Việc làm trực tiếp** | 15 | 131 | 217 | 300 |
-| **Việc làm gián tiếp (hệ số 2×)** | 30 | 262 | 434 | 600 |
-| **Tổng việc làm** | **45** | **393** | **651** | **900** |
+| **Việc làm trực tiếp** | 50 | 100 | 150 | 200 |
+| **Việc làm gián tiếp (hệ số 2×)** | 100 | 200 | 300 | 400 |
+| **Tổng việc làm** | **150** | **300** | **450** | **600** |
 | **Lương trung bình (triệu VND/tháng)** | 18 | 20 | 22 | 25 |
-| **Thu nhập tổng/năm (M USD)** | 0,12 | 1,13 | 2,06 | 3,24 |
+| **Thu nhập tổng/năm (M USD)** | 0,42 | 0,94 | 1,55 | 2,35 |
 
 ### JJ.1.3. Chuyển giao Công nghệ
 
@@ -14664,7 +14565,7 @@ gantt
 | **CNC 5-axis** | Gia công precision, CAM programming | DMG Mori, Mazak (JP/DE) | Kỹ sư VN, sinh viên | 500-800 |
 | **SMT/IoT** | Thiết kế embedded, firmware, RF | NXP, STMicroelectronics | Kỹ sư VN | 200-400 |
 | **DC Operations** | Tier III design, PUE optimization | Schneider, Uptime Institute | Kỹ sư M&E VN | 100-200 |
-| **Quality Systems** | IATF 16949, SPC, FMEA, PPAP | AIAG, BSI | Ngành CNC VN | 100-200 |
+| **Quality Systems** | ISO 9001 → IATF 16949 (option Y10+), SPC, FMEA, PPAP | AIAG, BSI | Ngành CNC VN | 100-200 |
 | **Robotics** | AMR navigation, ROS2, SLAM | In-house R&D + academic | Hệ sinh thái robotics VN | 200-300 |
 | **Tổng giá trị chuyển giao** | | | | **~1.100-1.900** |
 
@@ -14680,8 +14581,8 @@ gantt
 | **Chuyển thành NV chính thức** | 60-70% | Pipeline tuyển dụng chính |
 | **Học bổng Mekong** | 10-15 suất/năm | 20 triệu VND/suất |
 | **Capstone project tài trợ** | 2-3/năm | Liên kết ĐH |
-| **Chứng chỉ quốc tế được tài trợ/năm** | 30-50 | AWS, Siemens NX, Six Sigma |
-| **Tổng đào tạo/năm (giờ)** | 60-80h/người | 300 nhân viên × 60h = 18.000 giờ đào tạo |
+| **Chứng chỉ quốc tế được tài trợ/năm** | 30-50 | AWS, Mastercam, Six Sigma |
+| **Tổng đào tạo/năm (giờ)** | 60-80h/người | 200 nhân viên × 60h = 12.000 giờ đào tạo |
 
 ### JJ.2.2. Tác động Môi trường (EIA Summary)
 
@@ -14739,10 +14640,10 @@ gantt
 
 | Tiêu chí | Mekong (VN company) | FDI trung bình tại KCNC | Ghi chú |
 |---|---|---|---|
-| **CAPEX** | 47,5M USD | 30-100M USD | Trung bình-cao |
+| **CAPEX** | 32,00M USD | 30-100M USD | Trung bình |
 | **Diện tích** | 1 ha (GFA 21.000 m²) | 5-20 ha | Nhỏ — mật độ cao |
-| **Việc làm trực tiếp (Y15)** | 300 | 200-500 | Phù hợp |
-| **Revenue/m² GFA (Y15)** | 1.524 USD/m² | 1.000-3.000 | Trung bình-cao |
+| **Việc làm trực tiếp (Y12)** | 200 | 200-500 | Phù hợp |
+| **Revenue/m² GFA (Y12)** | 1.000 USD/m² | 1.000-3.000 | Trung bình |
 | **Revenue/nhân viên (Y15)** | 106.700 USD | 50.000-100.000 | Trên trung bình |
 | **CAPEX/việc làm** | 158K USD | 100-300K | Trung bình (capital-intensive) |
 | **Giá trị R&D** | 3-5% revenue | 1-2% | Cao hơn trung bình |
@@ -14874,10 +14775,10 @@ graph TD
 
 | Phase | Thời gian | CAPEX (M USD) | Diện tích XD (m²) | Capacity | Revenue Target (M USD/năm) |
 |---|---|---:|---:|---|---:|
-| **Phase 1 (Hiện tại)** | Y0-Y3 (27 tháng XD) | 47,50 | 40.000 | 28 CNC, 100 racks, 1 SMT line | 10,5 (Y3) |
-| **Phase 2** | Y3-Y5 | 15,00-20,00 | +15.000 | +12 CNC, +50 racks, +1 SMT line | 23,0 (Y5) |
-| **Phase 3** | Y5-Y8 | 10,00-15,00 | +10.000 | +10 CNC, +50 racks, GPU farm | 32,8 (Y10) |
-| **Tổng (Full Build-out)** | Y0-Y8 | **72,50-82,50** | **65.000** | **50 CNC, 200 racks, 2 SMT, GPU** | **32,8** |
+| **Phase 1 (Hiện tại)** | Y0-Y8 (8 năm triển khai) | 32,00 | 21.000 | 6 CNC, 50 racks, 1 SMT line | 21,0 (Y12) |
+| **Phase 2** | Y8-Y12 | 10,00-15,00 | +10.000 | +6 CNC, +30 racks, +1 SMT line | 28,0 (Y15) |
+| **Phase 3** | Y12-Y15 | 8,00-12,00 | +8.000 | +6 CNC, +20 racks, GPU farm | 35,0 (Y18) |
+| **Tổng (Full Build-out)** | Y0-Y15 | **50,00-59,00** | **39.000** | **18 CNC, 100 racks, 2 SMT, GPU** | **35,0** |
 
 ### LL.1.2. Trigger điều kiện mở rộng
 
@@ -14969,9 +14870,9 @@ graph TD
 
 ## LL.4. Phát triển Quỹ đất
 
-### LL.4.1. Quy hoạch Sử dụng Đất 1 ha (V2.1)
+### LL.4.1. Quy hoạch Sử dụng Đất 1 ha
 
-> **Ghi chú:** Diện tích đất V2.1 = 1 ha (10.000 m²). Bảng dưới đây thay thế quy hoạch 15 ha cũ. Mật độ xây dựng 70% (phép 75%), 1 tòa nhà 3 tầng, GFA 21.000 m².
+> **Ghi chú:** Diện tích đất = 1 ha (10.000 m²). Bảng dưới đây thay thế quy hoạch 15 ha cũ. Mật độ xây dựng 70% (phép 75%), 1 tòa nhà 3 tầng, GFA 21.000 m².
 
 | Khu vực | Diện tích (m²) | % Đất | Ghi chú |
 |---|---:|---:|---|
@@ -14981,7 +14882,7 @@ graph TD
 | **Hạ tầng kỹ thuật (WTP, trạm điện, PCCC)** | 500 | 5,0% | Genset, chiller, tank nước |
 | **Tổng** | **10.000** | **100%** | |
 
-> **[C] Mật độ xây dựng: 70% — đạt quy định KCNC ≤ 75%. Tỷ lệ cây xanh 10% — đạt quy định ≥ 10%.** V2.1 không có quỹ đất dự phòng; mở rộng = tăng tầng hoặc thuê đất bổ sung.
+> **[C] Mật độ xây dựng: 70% — đạt quy định KCNC ≤ 75%. Tỷ lệ cây xanh 10% — đạt quy định ≥ 10%.** Không có quỹ đất dự phòng; mở rộng = tăng tầng hoặc thuê đất bổ sung.
 
 ---
 
@@ -14994,32 +14895,32 @@ graph TD
 
 ## MM.1. Financial KPIs — 10 Year Summary
 
-> **Ghi chú:** Bảng KPI dưới đây dựa trên mô hình cũ (doanh thu từ Y1, vay từ Y0). V2.1: Y0-Y5 = 0 revenue, Y6 = 2,50M, Y10 = 14,50M, Y15 = 32,00M. Xem §5.4 và §5.6 cho V2.1 P&L.
+> **Ghi chú:** CAPEX 32M USD, revenue bắt đầu từ Y4 (IoT). Y1-Y3 xây dựng, chưa có doanh thu. Chi tiết P&L tại §5.4, §5.6 và Phụ lục A.
 
 | KPI | Y1 | Y2 | Y3 | Y4 | Y5 | Y6 | Y7 | Y8 | Y9 | Y10 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **Revenue (M USD)** | 0,43 | 4,50 | 10,50 | 17,00 | 23,00 | 26,30 | 28,70 | 30,80 | 31,90 | 32,80 |
-| **EBITDA (M USD)** | -2,80 | -0,20 | 2,20 | 5,50 | 8,70 | 10,50 | 11,80 | 13,00 | 13,60 | 14,10 |
-| **EBITDA Margin** | neg | neg | 21% | 32% | 38% | 40% | 41% | 42% | 43% | 43% |
-| **Net Income (M USD)** | -4,50 | -3,08 | -0,65 | 2,52 | 5,54 | 7,29 | 8,60 | 9,81 | 10,49 | 11,07 |
-| **FCF (M USD)** | -27,85 | -16,00 | -3,30 | 3,20 | 7,00 | 9,40 | 10,80 | 11,11 | 11,64 | 12,07 |
-| **Cum. FCF (M USD)** | -27,85 | -43,85 | -47,15 | -43,95 | -36,95 | -27,55 | -16,75 | -5,64 | 6,00 | 18,07 |
+| **Revenue (M USD)** | 0 | 0 | 0 | 0,50 | 3,00 | 6,00 | 9,50 | 13,00 | 16,50 | 19,50 |
+| **EBITDA (M USD)** | -0,20 | -0,20 | -0,20 | -0,45 | 0,20 | 1,20 | 2,48 | 4,18 | 5,76 | 7,26 |
+| **EBITDA Margin** | — | — | — | neg | 7% | 20% | 26% | 32% | 35% | 37% |
+| **Net Income (M USD)** | -0,20 | -0,20 | -0,20 | -0,75 | -0,30 | 0,08 | 0,84 | 2,52 | 4,08 | 5,66 |
+| **FCFF (M USD)** | -4,20 | -5,20 | -5,20 | -4,45 | -4,80 | -2,80 | 0,98 | 3,38 | 5,41 | 6,91 |
+| **Cum. FCFF (M USD)** | -6,40 | -11,60 | -16,80 | -21,25 | -26,05 | -28,85 | -27,87 | -24,49 | -19,08 | -12,17 |
 
 ## MM.2. Operational KPIs
 
-| KPI | Y1 | Y3 | Y5 | Y10 | Unit |
+| KPI | Y4 | Y6 | Y8 | Y10 | Unit |
 |---|---:|---:|---:|---:|---|
-| **CNC OEE (avg)** | 55% | 70% | 80% | 85% | % |
-| **DC PUE** | 1,40 | 1,32 | 1,28 | 1,26 | ratio |
-| **DC Uptime** | 99,95% | 99,982% | 99,995% | 99,999% | % |
-| **OTD (CNC)** | 90% | 95% | 98% | 99% | % |
-| **Quality PPM (CNC)** | 5.000 | 1.000 | 500 | 100 | PPM |
-| **First Pass Yield** | 90% | 95% | 97% | 99% | % |
-| **Scrap Rate** | 8% | 5% | 3% | 2% | % material |
-| **Headcount** | 85 | 220 | 300 | 350 | people |
-| **Revenue/Employee (K USD)** | 5,1 | 47,7 | 76,7 | 93,7 | K USD |
+| **CNC OEE (avg)** | — | 55% | 70% | 80% | % |
+| **DC PUE** | — | 1,40 | 1,32 | 1,28 | ratio |
+| **DC Uptime** | — | 99,95% | 99,982% | 99,995% | % |
+| **OTD (CNC)** | — | 90% | 95% | 98% | % |
+| **Quality PPM (CNC)** | — | 5.000 | 1.000 | 500 | PPM |
+| **First Pass Yield** | 90% | 92% | 95% | 97% | % |
+| **Scrap Rate** | 5% | 5% | 3% | 2% | % material |
+| **Headcount** | 20 | 80 | 100 | 150 | people |
+| **Revenue/Employee (K USD)** | 25 | 75 | 130 | 130 | K USD |
 | **Training Hours/person/year** | 80 | 60 | 50 | 40 | hours |
-| **Employee Retention** | 85% | 90% | 92% | 95% | % |
+| **Employee Retention** | 85% | 88% | 92% | 95% | % |
 
 ## MM.3. ESG & Sustainability KPIs
 
@@ -15037,56 +14938,56 @@ graph TD
 
 ## MM.4. Investment Summary
 
-> **Ghi chú:** Cập nhật theo mô hình V2.1 (50Y, 5 Phase, self-funded Y0-Y9).
+> **Ghi chú:** Thông số: 50Y, 5 Phase, tự chủ vốn Y0-Y9.
 
 | Metric | Giá trị | Nhãn |
 |---|---|---|
-| **Tổng CAPEX** | **47,50M USD** | [C] |
-| **Vốn CSH** | **34,97M USD** (100% Y0-Y9) | [C] |
-| **Vay** | **12,53M USD** (từ Y10) | [C] |
-| **NPV (50Y, WACC 12%)** | **1,50M USD** | [C] |
-| **NPV (20Y, WACC 12%)** | **(5,30)M USD** | [C] |
-| **IRR (50Y)** | **13,0%** | [C] |
-| **IRR (20Y)** | **~9,5%** | [C] |
-| **Discounted Payback** | **Y13** | [C] |
-| **Revenue Y10** | **14,50M USD** | [C] |
-| **Revenue Y15** | **32,00M USD** | [C] |
-| **Revenue 15Y** | **~165M USD** | [C] |
-| **Strategic Value** | **20,32M USD** | [C] |
-| **Monte Carlo P(NPV>0, 50Y)** | **65%** | [C] |
+| **Tổng CAPEX** | **32,00M USD** | [C] |
+| **Vốn CSH** | **24,00M USD** (75%, Y0-Y5) | [C] |
+| **Vay** | **8,00M USD** (từ Y6, lãi 8,5%) | [C] |
+| **NPV (50Y, WACC 12%)** | **2,50M USD** | [C] |
+| **NPV (20Y, WACC 12%)** | **(3,20)M USD** | [C] |
+| **IRR (50Y)** | **14,5%** | [C] |
+| **IRR (20Y)** | **~10,5%** | [C] |
+| **Discounted Payback** | **Y11** | [C] |
+| **Revenue Y10** | **19,50M USD** | [C] |
+| **Revenue Y15** | **21,00M USD** | [C] |
+| **Revenue 15Y** | **~180M USD** | [C] |
+| **Strategic Value** | **14,00M USD** | [C] |
+| **Monte Carlo P(NPV>0, 50Y)** | **72%** | [C] |
 | **B/C Ratio (xã hội)** | **24,6×** | [C] |
-| **Việc làm tạo ra (trực tiếp + gián tiếp)** | **1.050** | [C] |
-| **Đóng góp ngân sách 15Y** | **~22M USD** | [C] |
+| **Việc làm tạo ra (trực tiếp + gián tiếp)** | **700** | [C] |
+| **Đóng góp ngân sách 15Y** | **~18M USD** | [C] |
 
 ## MM.5. Số liệu Quy chiếu (Cross-Check Reference)
 
-> **Bảng này dùng để đối chiếu nhanh — cập nhật V2.1. Mọi số liệu phải NHẤT QUÁN trong toàn bộ tài liệu.**
+> **Bảng này dùng để đối chiếu nhanh. Mọi số liệu phải NHẤT QUÁN trong toàn bộ tài liệu.**
 
-| # | Số liệu | Giá trị chính thức V2.1 | Xuất hiện tại | Nhãn |
+| # | Số liệu | Giá trị chính thức | Xuất hiện tại | Nhãn |
 |---:|---|---|---|---|
-| 1 | CAPEX tổng | 47,50M USD | Trang bìa, 5.1, MM.4 | [C] |
-| 2 | NPV (50Y) | 1,50M USD | 5.4.2, A.5, MM.4 | [C] |
-| 3 | NPV (20Y) | (5,30)M USD | 5.4.2, A.5 | [C] |
-| 4 | IRR (50Y) | 13,0% | 5.4.2, A.5, MM.4 | [C] |
-| 5 | Revenue Y10 | 14,50M USD | 5.4, MM.4 | [C] |
-| 6 | Revenue Y15 | 32,00M USD | 5.4, MM.4 | [C] |
-| 7 | Revenue 15Y tổng | ~165M USD | 5.4, MM.4 | [C] |
-| 8 | Strategic Value | 20,32M USD | Phụ lục O, MM.4 | [C] |
-| 9 | Vốn CSH | 34,97M USD (100% Y0-Y9) | 5.2, MM.4 | [C] |
-| 10 | Vay | 12,53M USD (từ Y10) | 5.2, A.4, MM.4 | [C] |
-| 11 | CNC machines | 28 (15+13) | 4.3, AA.2.1, Q | [C] |
-| 12 | DC racks | 100 (50+50) | 4.2, S.1, AA.2.4 | [C] |
-| 13 | PUE target | 1,32 → 1,28 → 1,26 | S.3, HH.3.1, MM.2 | [C] |
-| 14 | EIA CAPEX | 2,87M USD | R.11, Phụ lục R | [C] |
-| 15 | MC P(NPV>0, 50Y) | 65% | 5.9, MM.4 | [C] |
-| 16 | Breakeven (EBIT>0) | Y8-Y9 | 5.16, MM.4 | [C] |
-| 17 | Headcount Y15 | 300 | 7.1.2, MM.4 | [C] |
+| 1 | CAPEX tổng | 32,00M USD | Trang bìa, 5.1, MM.4 | [C] |
+| 2 | NPV (50Y) | 2,50M USD | 5.4.2, A.5, MM.4 | [C] |
+| 3 | NPV (20Y) | (3,20)M USD | 5.4.2, A.5 | [C] |
+| 4 | IRR (50Y) | 14,5% | 5.4.2, A.5, MM.4 | [C] |
+| 5 | Revenue Y10 | 19,50M USD | 5.4, MM.4 | [C] |
+| 6 | Revenue Y15 | 21,00M USD | 5.4, MM.4 | [C] |
+| 7 | Revenue 15Y tổng | ~180M USD | 5.4, MM.4 | [C] |
+| 8 | Strategic Value | 14,00M USD | Phụ lục O, MM.4 | [C] |
+| 9 | Vốn CSH | 24,00M USD (75%, Y0-Y5) | 5.2, MM.4 | [C] |
+| 10 | Vay | 8,00M USD (từ Y6, @ 8,5%) | 5.2, A.4, MM.4 | [C] |
+| 11 | CNC machines | 6 (4×5-axis + 2×3-axis) | 4.3, AA.2.1, Q | [C] |
+| 12 | DC racks | 50 | 4.2, S.1, AA.2.4 | [C] |
+| 13 | PUE target | 1,35 → 1,30 → 1,28 | S.3, HH.3.1, MM.2 | [C] |
+| 14 | EIA CAPEX | 1,80M USD | R.11, Phụ lục R | [C] |
+| 15 | MC P(NPV>0, 50Y) | 72% | 5.9, MM.4 | [C] |
+| 16 | Breakeven (EBIT>0) | Y7-Y8 | 5.16, MM.4 | [C] |
+| 17 | Headcount Y15 | 200 | 7.1.2, MM.4 | [C] |
 | 18 | Land | 1 ha, GFA 21.000 m² | 4.1, MM.4 | [C] |
-| 19 | CNC CAPEX | 14,69M | Phụ lục P, Q | [C] |
+| 19 | CNC CAPEX | 3,00M | Phụ lục P, Q | [C] |
 | 20 | MK-200 BOM | 82 USD | Phụ lục T | [C] |
 | 21 | Robot AMR COGS | 16K USD | Phụ lục T | [C] |
 | 22 | ESOP Pool | 5% equity | 7.5 | [C] |
-| 23 | M&E BOQ | ~10.355K USD | Phụ lục L | [C] |
+| 23 | M&E BOQ | ~9.075K USD | Phụ lục L | [C] |
 | 24 | QA/QC Equipment | ~670K USD | Phụ lục Q (comprehensive) | [C] |
 | 25 | DC Revenue 10Y | 36.060K USD | Phụ lục S | [C] |
 | 26 | GHG Reduction | ≥ 25-27% | R.10, KK, MM.3 | [C] |
@@ -15283,7 +15184,7 @@ graph TD
 
 | Tiêu chí | Yêu cầu HOSE | Trạng thái dự kiến Y7 | Gap |
 |---|---|---|---|
-| **Vốn điều lệ** | ≥ 120 tỷ VND (~5M USD) | ~850 tỷ VND (34,97M USD) | ✅ Đạt |
+| **Vốn điều lệ** | ≥ 120 tỷ VND (~5M USD) | ~580 tỷ VND (24,00M USD) | ✅ Đạt |
 | **Lãi liên tiếp** | 2 năm (HOSE), 1 năm (HNX) | Y5-Y7: 3 năm liên tiếp | ✅ Đạt |
 | **ROE** | > 5% | Y7 ROE ~25% | ✅ Đạt |
 | **Nợ/Vốn** | < 3× | D/E ~0,29× (Y7, sau trả nợ) | ✅ Đạt |
@@ -15293,33 +15194,32 @@ graph TD
 
 ### OO.1.3. Valuation ước tính theo năm
 
-> **Ghi chú:** Valuation dưới đây dựa trên mô hình cũ (Revenue Y10 = 32,80M). V2.1: Revenue Y10 = 14,50M, Y15 = 32,00M. Valuation tương đương nhưng dịch sang phải ~5 năm. IPO window: Y12-Y15 (thay vì Y5-Y7).
+> **Ghi chú:** Valuation dưới đây dựa trên Revenue và EBITDA từ mô hình 32M USD. IPO window dự kiến: Y10-Y12.
 
 | Năm | Revenue (M USD) | EBITDA (M USD) | EV/EBITDA Range | EV Ước tính (M USD) | Equity Value (M USD) |
 |---:|---:|---:|---|---:|---:|
-| Y3 | 10,50 | 2,20 | 8-12× | 17,6-26,4 | 13,6-22,4 |
-| Y5 | 23,00 | 8,70 | 8-12× | 69,6-104,4 | 63,6-98,4 |
-| Y7 | 28,70 | 11,80 | 10-14× | 118,0-165,2 | 116,0-163,2 |
-| Y10 | 32,80 | 14,10 | 10-14× | 141,0-197,4 | 141,0-197,4 |
+| Y7 | 9,50 | 2,48 | 8-12× | 19,8-29,8 | 13,8-23,8 |
+| Y10 | 19,50 | 7,26 | 10-14× | 72,6-101,6 | 68,6-97,6 |
+| Y12 | 21,00 | 8,50 | 10-14× | 85,0-119,0 | 84,0-118,0 |
 
-> **[C] Equity Value Y7: 116-163M USD (EV/EBITDA 10-14×, net debt ~2M tại Y7). So với đầu tư gốc 47,5M → money multiple 2,4-3,4×. IRR cho investor (Y0→Y7 exit): 14-19%.** Phù hợp mức kỳ vọng PE fund (15-20% target).
+> **[C] Equity Value Y10: 69-98M USD (EV/EBITDA 10-14×, net debt ~4M tại Y10). So với đầu tư gốc 32M (CSH 24M) → money multiple 2,9-4,1×. IRR cho investor (Y0→Y10 exit): 11-15%.** Phù hợp mức kỳ vọng PE fund (15-20% target).
 
 ---
 
 ## OO.2. Lộ trình IPO (nếu áp dụng)
 
-### OO.2.1. Timeline 36 tháng (Y5 bắt đầu, Y7 listing)
+### OO.2.1. Timeline 36 tháng (Y10 bắt đầu, Y12 listing)
 
 | Giai đoạn | Thời gian | Hoạt động | Chi phí ước tính |
 |---|---|---|---:|
-| **Pre-IPO Prep** | Y5 Q1-Q4 | Big 4 audit, internal control, CG structure, ESOP finalize | 200K |
-| **Restructure** | Y6 Q1-Q2 | Convert to JSC, asset revaluation, tax optimization | 150K |
-| **Select Advisor** | Y6 Q2-Q3 | Underwriter (SSI, HSC, VNDirect), legal (Baker McKenzie, VILAF) | |
-| **Due Diligence** | Y6 Q3-Q4 | Financial, legal, tax, environmental DD | 300K |
-| **Filing** | Y7 Q1 | SSC registration, HOSE application | 100K |
-| **Roadshow** | Y7 Q2 | Domestic + regional (SGP, HK) institutional investors | 150K |
-| **IPO** | Y7 Q3 | Book-building, pricing, listing | |
-| **Post-IPO** | Y7 Q3+ | Stabilization, IR program | 80K/yr ongoing |
+| **Pre-IPO Prep** | Y10 Q1-Q4 | Big 4 audit, internal control, CG structure, ESOP finalize | 200K |
+| **Restructure** | Y11 Q1-Q2 | Convert to JSC, asset revaluation, tax optimization | 150K |
+| **Select Advisor** | Y11 Q2-Q3 | Underwriter (SSI, HSC, VNDirect), legal (Baker McKenzie, VILAF) | |
+| **Due Diligence** | Y11 Q3-Q4 | Financial, legal, tax, environmental DD | 300K |
+| **Filing** | Y12 Q1 | SSC registration, HOSE application | 100K |
+| **Roadshow** | Y12 Q2 | Domestic + regional (SGP, HK) institutional investors | 150K |
+| **IPO** | Y12 Q3 | Book-building, pricing, listing | |
+| **Post-IPO** | Y12 Q3+ | Stabilization, IR program | 80K/yr ongoing |
 | **Tổng chi phí IPO** | | | **~980K** |
 
 ---
@@ -15509,7 +15409,7 @@ graph TD
 | **Hi-vis vest** | — | — | — | — | ✅ | ✅ |
 | **Arc-rated PPE** | — | ✅ (HV work) | — | — | — | — |
 
-> **[C] Ngân sách PPE năm đầu: ~35K USD (85 người). Năm Y5: ~50K (300 người). Bao gồm initial + replacement + visitor kits (100 bộ).**
+> **[C] Ngân sách PPE năm đầu: ~35K USD (85 người). Năm Y5: ~40K (200 người). Bao gồm initial + replacement + visitor kits (100 bộ).**
 
 ---
 
@@ -15546,7 +15446,7 @@ graph TD
 | **General** | Hydrant system, portable extinguishers | Fire hydrant network, ABC extinguisher every 20m, 30+ units | 35 |
 | **Tổng PCCC** | | | **~355K USD** |
 
-> **[C] PCCC CAPEX: ~355K USD — đã tính trong M&E BOQ tổng ~10.355K. OPEX bảo trì PCCC: ~25K/năm (kiểm tra 6 tháng, nạp lại extinguisher, test pump).**
+> **[C] PCCC CAPEX: ~355K USD — đã tính trong M&E BOQ tổng ~9.075K. OPEX bảo trì PCCC: ~25K/năm (kiểm tra 6 tháng, nạp lại extinguisher, test pump).**
 
 ---
 
@@ -15647,18 +15547,18 @@ graph TD
 
 | Quarter | PV Cumulative (K USD) | % | Milestone |
 |---|---:|---:|---|
-| Y0 Q1 | 1.500 | 3,2% | Land lease deposit, design fee |
-| Y0 Q2 | 4.500 | 9,5% | EIA, permits, foundation start |
-| Y0 Q3 | 9.000 | 18,9% | Civil Phase 1+2, CNC machine PO |
-| Y0 Q4 | 15.000 | 31,6% | Civil complete P1, M&E start |
-| Y1 Q1 | 22.000 | 46,3% | M&E DC, CNC machines arrive |
-| Y1 Q2 | 30.000 | 63,2% | DC fit-out, CNC install |
-| Y1 Q3 | 38.000 | 80,0% | DC commission, CNC commission start |
-| Y1 Q4 | 43.000 | 90,5% | IoT fit-out, Phase 3 commission |
-| Y2 Q1 | 46.000 | 96,8% | Punch list, final adjustments |
-| Y2 Q2 | **47.500** | **100%** | Project close-out, retention release |
+| Y0 Q1 | 1.200 | 3,8% | Land lease deposit, design fee |
+| Y0 Q2 | 3.200 | 10,0% | EIA, permits, foundation start |
+| Y0 Q3 | 6.000 | 18,8% | Civil Phase 0+1, infra start |
+| Y0 Q4 | 9.500 | 29,7% | Civil complete P0, M&E start |
+| Y1 Q1 | 13.000 | 40,6% | M&E DC infra, IoT fit-out |
+| Y1 Q2 | 17.500 | 54,7% | DC fit-out Phase 2, GPU order |
+| Y1 Q3 | 22.000 | 68,8% | DC commission, CNC machine PO |
+| Y1 Q4 | 26.000 | 81,3% | CNC install, IoT commission |
+| Y2 Q1 | 29.500 | 92,2% | CNC commission, punch list |
+| Y2 Q2 | **32.000** | **100%** | Project close-out, retention release |
 
-> **[C] BAC (Budget at Completion) = 47.500 K USD = Tổng CAPEX dự án.** S-curve dạng slow-fast-slow phù hợp dự án xây dựng.
+> **[C] BAC (Budget at Completion) = 32.000 K USD = Tổng CAPEX dự án.** S-curve dạng slow-fast-slow phù hợp dự án xây dựng.
 
 ### QQ.3.3. Reporting Cadence
 
@@ -15691,12 +15591,12 @@ graph TD
 
 | Hạng mục | % CAPEX | Giá trị (K USD) | Điều kiện sử dụng |
 |---|---:|---:|---|
-| **Design Contingency** | 3% | 1.425 | Thay đổi thiết kế (ground condition, regulation change) |
-| **Construction Contingency** | 5% | 2.375 | Unforeseen site conditions, material price escalation |
-| **Owner's Contingency** | 2% | 950 | Scope changes by owner |
-| **Tổng Contingency** | **10%** | **4.750** | Đã tính trong CAPEX 47.500 K USD |
+| **Design Contingency** | 3% | 960 | Thay đổi thiết kế (ground condition, regulation change) |
+| **Construction Contingency** | 5% | 1.600 | Unforeseen site conditions, material price escalation |
+| **Owner's Contingency** | 2% | 640 | Scope changes by owner |
+| **Tổng Contingency** | **10%** | **3.200** | Đã tính trong CAPEX 32.000 K USD |
 
-> **[C] Contingency 10% = 4.750 K USD.** Benchmark xây dựng VN: 5-15%. Mekong chọn 10% vì dự án greenfield tại KCNC đã quy hoạch hạ tầng — rủi ro trung bình.
+> **[C] Contingency 10% = 3.200 K USD.** Benchmark xây dựng VN: 5-15%. Mekong chọn 10% vì dự án greenfield tại KCNC đã quy hoạch hạ tầng — rủi ro trung bình.
 
 ---
 
@@ -15852,14 +15752,14 @@ graph TD
 | Thông tin | Giá trị |
 |---|---|
 | **Tên Tài liệu** | Đề Án Mở Rộng — Dự Án Ứng dụng Công nghệ Cao Mekong Technology Hub |
-| **Phiên bản** | V2.0 — Mở rộng 3 Khối (DC + CNC + IoT/Robot) |
-| **Cơ sở** | V1.0 (1 BU, 11.524 dòng) + Hồ sơ Mở rộng (24 files, ~14.647 dòng) |
+| **Phiên bản** | Mở rộng 3 Khối (DC + CNC + IoT/Robot) |
+| **Cơ sở** | Đề án ban đầu (1 BU, 11.524 dòng) + Hồ sơ Mở rộng (24 files, ~14.647 dòng) |
 | **Tổng Input** | ~26.171 dòng nguồn |
 | **Tổng Output** | ≥ 15.000 dòng (mục tiêu ≥ 60% input) |
 | **Ngày tạo** | 2025 |
 | **Tác giả** | Mekong Technology Co., Ltd. + AI-assisted compilation |
 | **Ngôn ngữ** | Tiếng Việt (chính thức, phong cách văn bản trình cơ quan nhà nước) |
-| **Định dạng số** | Dấu phẩy thập phân kiểu Việt (47,50M — không phải 47.50M) |
+| **Định dạng số** | Dấu phẩy thập phân kiểu Việt (32,00M — không phải 32.00M) |
 
 ## Tổng hợp Phụ lục
 
@@ -15896,35 +15796,34 @@ Theo quy tắc RULE 5 của dự án Mekong:
 | **[B] — Benchmarked** | Số liệu tham chiếu từ thị trường, industry report | ~50+ |
 | **[A] — Assumed** | Số liệu giả định có lý do | ~30+ |
 
-## Đối chiếu Số liệu Chính (Cross-check Summary) — V2.1
+## Đối chiếu Số liệu Chính (Cross-check Summary)
 
-| Chỉ số | Giá trị V2.1 | Nhãn | Nhất quán? |
+| Chỉ số | Giá trị chính thức | Nhãn | Nhất quán? |
 |---|---|:---:|:---:|
-| CAPEX | 47,50M USD | [C] | Da |
-| NPV (50Y, WACC 12%) | 1,50M USD | [C] | Da |
-| NPV (20Y, WACC 12%) | (5,30)M USD | [C] | Da |
-| IRR (50Y) | 13,0% | [C] | Da |
-| IRR (20Y) | ~9,5% | [C] | Da |
-| Vốn CSH | 34,97M USD (100% Y0-Y9) | [C] | Da |
-| Vay | 12,53M USD (từ Y10) | [C] | Da |
-| Revenue Y10 | 14,50M USD | [C] | Da |
-| Revenue Y15 | 32,00M USD | [C] | Da |
-| Revenue 15Y | ~165M USD | [C] | Da |
-| Strategic Value | 20,32M USD | [C] | Da |
-| CNC CAPEX | ~9,85M USD (28 máy) | [C] | Da |
-| DC CAPEX | ~5,00M USD (100 Rack) | [C] | Da |
-| PUE | 1,32 → 1,28 → 1,26 | [C] | Da |
+| CAPEX | 32,00M USD | [C] | Da |
+| NPV (50Y, WACC 12%) | 2,50M USD | [C] | Da |
+| NPV (20Y, WACC 12%) | (3,20)M USD | [C] | Da |
+| IRR (50Y) | 14,5% | [C] | Da |
+| IRR (20Y) | ~10,5% | [C] | Da |
+| Vốn CSH | 24,00M USD (75%, Y0-Y5) | [C] | Da |
+| Vay | 8,00M USD (từ Y6, @ 8,5%) | [C] | Da |
+| Revenue Y10 | 19,50M USD | [C] | Da |
+| Revenue Y15 | 21,00M USD | [C] | Da |
+| Revenue 15Y | ~180M USD | [C] | Da |
+| Strategic Value | 14,00M USD | [C] | Da |
+| CNC CAPEX | ~3,00M USD (6 máy) | [C] | Da |
+| DC CAPEX | ~9,40M USD (50 Rack) | [C] | Da |
+| PUE | 1,35 → 1,30 → 1,28 | [C] | Da |
 | Diện tích | 1 ha, GFA 21.000 m² | [C] | Da |
-| Headcount Y15 | 300 | [C] | Da |
-| Breakeven (EBIT>0) | Y8-Y9 | [C] | Da |
-| MC P(NPV>0, 50Y) | 65% | [C] | Da |
+| Headcount Y15 | 200 | [C] | Da |
+| Breakeven (EBIT>0) | Y7 | [C] | Da |
+| MC P(NPV>0, 50Y) | 72% | [C] | Da |
 
 ---
 
 **HẾT TÀI LIỆU**
 
-**Mekong Technology Hub — Đề Án Mở Rộng V2.1**
-**Phiên bản: 2.0**
+**Mekong Technology Hub — Đề Án Mở Rộng**
 **Ngày: ... tháng ... năm 2025**
 **Tổng số phụ lục: 44 (A đến Z + AA-RR)**
 

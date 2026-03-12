@@ -13,7 +13,7 @@ export function RiskAnalysis() {
             <div ref={ref}>
                 <motion.div initial={{ opacity: 0, y: 30 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6 }}>
                     <h2 className="section-title text-white">Phân tích <span className="gradient-text">Rủi ro & Monte Carlo</span></h2>
-                    <p className="section-subtitle">P(NPV&gt;0) = {monteCarlo.pNPVPositive} — {monteCarlo.iterations} mô phỏng — 4 kịch bản</p>
+                    <p className="section-subtitle">P(NPV&gt;0) = {monteCarlo.pNPVPositive} — {monteCarlo.iterations} mô phỏng — 3 kịch bản</p>
                 </motion.div>
 
                 {/* Monte Carlo KPIs */}

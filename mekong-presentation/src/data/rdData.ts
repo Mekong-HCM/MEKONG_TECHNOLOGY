@@ -30,9 +30,9 @@ export interface TRLPhase {
 }
 
 export const rdBudget = {
-    total10Y: '~12,50M USD',
-    year1to5: '4,70M USD',
-    bmsScada: '1,39M USD',
+    total10Y: '~8,00M USD',
+    year1to5: '3,20M USD',
+    bmsScada: '1,00M USD',
     pctRevenue: '8-12%',
     minCommitment: '≥5% revenue',
 };
@@ -46,9 +46,9 @@ export const rdLabs: RDLab[] = [
 ];
 
 export const rdTeam = {
-    totalEngineers: 26,
-    pctOfStaff: '20%',
-    qualifications: '15 TS, 25 ThS, 45 KS',
+    totalEngineers: 20,
+    pctOfStaff: '10%',
+    qualifications: '10 TS, 20 ThS, 35 KS',
     methodology: 'Agile, 6 thang/sprint',
     trlTarget: 'TRL 7-9',
 };

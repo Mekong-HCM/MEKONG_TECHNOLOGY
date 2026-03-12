@@ -20,7 +20,7 @@ export function FinancialOverview() {
             <div ref={ref}>
                 <motion.div initial={{ opacity: 0, y: 30 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6 }}>
                     <h2 className="section-title text-white">Phân tích <span className="gradient-text">Tài chính</span></h2>
-                    <p className="section-subtitle">Doanh thu 15 năm dự kiến ~165M USD — NPV(50Y) dương — IRR 13% vượt WACC 12%.</p>
+                    <p className="section-subtitle">Doanh thu 15 năm dự kiến ~180M USD — NPV(50Y) dương — IRR 14,5% vượt WACC 12%.</p>
                 </motion.div>
 
                 {/* Revenue Chart */}
@@ -140,12 +140,12 @@ export function FinancialOverview() {
                     className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3"
                 >
                     {[
-                        { label: 'CAPEX Tổng', value: '47,50M', color: '#FF9100' },
-                        { label: 'Hòa vốn', value: 'Y8-Y9', color: '#76FF03' },
-                        { label: 'DSCR Min', value: '4,91x', color: '#00E5FF' },
-                        { label: 'Monte Carlo P(NPV>0)', value: '65%', color: '#E040FB' },
-                        { label: 'DT Lũy kế 15Y', value: '~165M', color: '#00E5FF' },
-                        { label: 'Equity IRR', value: '~18,5%', color: '#FF9100' },
+                        { label: 'CAPEX Tổng', value: '32,00M', color: '#FF9100' },
+                        { label: 'Hòa vốn', value: 'Y7-Y8', color: '#76FF03' },
+                        { label: 'DSCR Min', value: '1,42x', color: '#00E5FF' },
+                        { label: 'Monte Carlo P(NPV>0)', value: '72%', color: '#E040FB' },
+                        { label: 'DT Lũy kế 15Y', value: '~180M', color: '#00E5FF' },
+                        { label: 'IRR 50Y', value: '14,5%', color: '#FF9100' },
                     ].map((item, i) => (
                         <GlassCard key={i} className="p-4 text-center">
                             <div className="text-xl md:text-2xl font-extrabold" style={{ color: item.color }}>{item.value}</div>
@@ -165,9 +165,9 @@ export function FinancialOverview() {
                         <h4 className="text-lg font-semibold text-white mb-4">Hòa vốn theo Trụ cột (Lãi/Lỗ Lũy kế)</h4>
                         <div className="grid sm:grid-cols-3 gap-4">
                             {[
-                                { bu: 'IoT & Robotics', breakeven: 'Y7', capex: '3,07M', peakLoss: '-1,2M', color: '#00E5FF' },
-                                { bu: 'CNC Siêu Chính Xác', breakeven: 'Y10', capex: '13,25M', peakLoss: '-5,8M', color: '#E040FB' },
-                                { bu: 'Datacenter & AI', breakeven: 'Y14', capex: '11,92M', peakLoss: '-8,1M', color: '#76FF03' },
+                                { bu: 'IoT & Robotics', breakeven: 'Y7', capex: '~3,00M', peakLoss: '-0,8M', color: '#00E5FF' },
+                                { bu: 'CNC Siêu Chính Xác', breakeven: 'Y8', capex: '~5,00M', peakLoss: '-2,5M', color: '#E040FB' },
+                                { bu: 'Datacenter & AI', breakeven: 'Y10-Y11', capex: '~8,00M', peakLoss: '-4,5M', color: '#76FF03' },
                             ].map((item, i) => (
                                 <div key={i} className="relative p-4 rounded-xl bg-white/[0.03] border border-white/5 overflow-hidden">
                                     <div className="absolute top-0 left-0 w-1 h-full" style={{ background: item.color }} />

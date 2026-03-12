@@ -1,29 +1,30 @@
-gantt
-    title Lộ trình Giấy phép — Mekong Technology
-    dateFormat YYYY-MM
-    axisFormat %Y-%m
+graph TB
+    subgraph ERP["ERP — SAP/Odoo"]
+        FIN["Finance"] <--> MES_CONN["MES Interface"]
+        MES_CONN <--> PROC["Procurement"]
+    end
 
-    section Pre-Build (Q4/2025-Q1/2026)
-    IRC + ERC                 :a1, 2025-10, 2025-12
-    Hồ sơ ĐTM                :a2, 2025-10, 2026-01
-    Hợp đồng thuê đất        :a3, 2025-11, 2026-01
-    Thiết kế PCCC             :a4, 2025-12, 2026-02
-    Giấy phép xây dựng       :a5, 2026-01, 2026-02
+    ERP -->|"Work Order / BOM"| MES
 
-    section Xây dựng (Q1-Q4/2026)
-    Phê duyệt ĐTM            :b1, 2026-01, 2026-03
-    Phê duyệt PCCC TK        :b2, 2026-02, 2026-04
-    Xây dựng Phase 1          :b3, 2026-02, 2027-01
+    subgraph MES["MES Platform"]
+        PO["Production Order"]
+        SCH["Scheduling"]
+        OEE["Real-time OEE"]
+        SPC["Quality — SPC"]
+        TRACE["Traceability"]
+        ESOP["eSOP / eWI"]
+    end
 
-    section Pre-Ops (Q4/2026-Q1/2027)
-    Nghiệm thu PCCC           :c1, 2026-12, 2027-02
-    GP Hoạt động điện         :c2, 2027-01, 2027-02
-    GP Xả thải                :c3, 2027-01, 2027-03
-    GP Viễn thông             :c4, 2027-01, 2027-02
-    ĐKNK hải quan             :c5, 2027-01, 2027-02
+    MES --> CNC_GRP
+    MES --> SMT_GRP
 
-    section Chứng nhận (Y1+)
-    ISO 9001/14001/45001      :d1, 2027-03, 2027-09
-    ISO 27001                 :d2, 2027-06, 2028-01
-    IATF 16949               :d3, 2028-01, 2028-10
-    AS9100D                   :d4, 2028-06, 2029-05
+    subgraph CNC_GRP["CNC Machines"]
+        PROTO["MTConnect / OPC-UA"]
+        M28["28 machines"]
+    end
+
+    subgraph SMT_GRP["SMT Line"]
+        SECS["SECS/GEM"]
+        AOI["AOI data"]
+        SMT_TR["Traceability"]
+    end

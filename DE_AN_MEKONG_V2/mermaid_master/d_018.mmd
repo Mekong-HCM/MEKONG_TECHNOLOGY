@@ -1,35 +1,33 @@
 graph TB
-    subgraph Edge["Edge Layer (On-premise)"]
-        MK200[MK-200 Gateway]
-        MK300[MK-300 5G Hub]
-        AMR[AMR-100 Robot]
-        MK500[MK-500 Edge AI]
+    subgraph MK200["MK-200 IoT Industrial Gateway"]
+        subgraph MCU["MCU Module"]
+            M1["NXP i.MX8M<br/>Cortex-A53"]
+            M2["2GB LPDDR4"]
+            M3["16GB eMMC"]
+        end
+        subgraph COMMS["Communications"]
+            C1["WiFi 6"]
+            C2["BLE 5.2"]
+            C3["4G LTE Cat4"]
+            C4["Ethernet"]
+            C5["LoRa opt"]
+        end
+        subgraph IO["I/O Interface"]
+            I1["4× RS485 Modbus"]
+            I2["2× RS232"]
+            I3["4× DI 24V"]
+            I4["2× DO relay 5A"]
+            I5["2× AI 4-20mA"]
+            I6["1× USB 2.0 Host"]
+        end
+        subgraph OS["MekongOS Runtime"]
+            O1["Protocol Engine"]
+            O2["Edge AI Inference"]
+            O3["OTA Update Manager"]
+            O4["TLS 1.3 + MQTT Client"]
+        end
     end
-    
-    subgraph Cloud["MekongOS Cloud (Mekong DC)"]
-        MQTT[MQTT Broker<br/>EMQX Cluster]
-        TS[Time-Series DB<br/>InfluxDB / TimescaleDB]
-        API[RESTful API<br/>Node.js / Go]
-        AI[AI Engine<br/>TensorFlow Serving]
-        Dashboard[Dashboard<br/>React + Grafana]
-        Fleet[Fleet Manager<br/>for AMR-100]
-    end
-    
-    subgraph Integration["Integration Layer"]
-        ERP[ERP Connector<br/>SAP / Oracle]
-        SCADA[SCADA Bridge<br/>OPC-UA]
-        BI[BI Analytics<br/>Power BI / Metabase]
-    end
-    
-    MK200 --> MQTT
-    MK300 --> MQTT
-    AMR --> Fleet
-    MK500 --> AI
-    MQTT --> TS
-    TS --> API
-    API --> Dashboard
-    API --> ERP
-    API --> SCADA
-    AI --> API
-    Fleet --> API
-    API --> BI
+    MCU --> OS
+    COMMS --> OS
+    IO --> OS
+    style MK200 fill:#f9f9f9,stroke:#2c3e50

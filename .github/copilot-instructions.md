@@ -10,11 +10,11 @@
 > **DAY LA RULE QUAN TRONG NHAT — AP DUNG TRUOC MOI RULE KHAC.**
 
 ### File Master duy nhat:
-- **DUNG**: `DE_AN_MEKONG_V2/MEKONG_DE_AN_V2_MASTER.md` (15.946 dong, ~1MB, V2.1, 44 phu luc A-RR)
+- **DUNG**: `DE_AN_MEKONG_V2/MEKONG_DE_AN_V2_MASTER.md` (15.946 dong, ~1MB, 44 phu luc A-RR)
 - **SAI**: `MEKONG_DE_AN_V2_MASTER.md` (file o root — BAN SAO, KHONG DOC)
 
 ### Thu tu uu tien folder:
-1. `DE_AN_MEKONG_V2/` — Folder CHINH THUC chua master V2.1
+1. `DE_AN_MEKONG_V2/` — Folder CHINH THUC chua master
 2. `HO_SO_MO_RONG_REVIEW/` — File phan tich mo rong (tham khao)
 3. `TAI_LIEU_GOC/` — Tai lieu goc theo danh muc
 4. `TRINH_BAY_KCNC/` — Tai lieu trinh bay KCNC
@@ -50,13 +50,13 @@
 ## RULE 3: DOI CHIEU SO LIEU (CROSS-CHECK)
 
 - Moi so lieu tai chinh phai xuat hien NHAT QUAN trong toan bo tai lieu.
-- So lieu CHINH THUC lay tu `DE_AN_MEKONG_V2/MEKONG_DE_AN_V2_MASTER.md` V2.1:
+- So lieu CHINH THUC lay tu `DE_AN_MEKONG_V2/MEKONG_DE_AN_V2_MASTER.md`:
   - CAPEX: 47,50M USD
   - NPV (50Y, WACC 12%): 1,50M USD
   - IRR (50Y): 13,0%
-  - Revenue Y10: 30,50M USD
-  - Revenue Y15: 43,00M USD
-  - Revenue 10Y (per-BU, Appendix G): 103,52M USD
+  - Revenue Y10: 14,50M USD
+  - Revenue Y15: 32,00M USD
+  - Revenue 15Y tich luy: ~165M USD
   - Strategic Value (Appendix O): 20,32M USD
   - Von CSH: 34,97M USD (73,6%)
   - No vay: 12,53M USD (tu Y10, @ 8,5%)
@@ -128,7 +128,7 @@
 |-----------|---------|
 | Ten | Mekong Technology Hub |
 | Dia diem | Lo E2-03, Duong D1, KCNC TP.HCM |
-| Dien tich | 1 ha (10.000 m2) — V2.1 |
+| Dien tich | 1 ha (10.000 m2) |
 | CAPEX | 47,50M USD (5 phases / 15 nam) |
 | 3 B.U | IoT/Robot, CNC Outsourcing, Datacenter |
 | Nha dau tu | Cong ty TNHH Mekong Technology |
@@ -137,5 +137,5 @@
 
 ---
 
-*Cap nhat lan cuoi: 2025-10-20*
-*Ly do tao file: Khac phuc loi agent viet V2 chi 1.664 dong tu input 26.000+ dong*
+*Cap nhat lan cuoi: 2026-03-10*
+*Ly do cap nhat: Dong bo so lieu theo review tai chinh, xoa tham chieu version*

@@ -6,13 +6,13 @@ flowchart TD
     end
 
     subgraph BU2["Trụ cột 2 — CNC/MPMC"]
-        B1[CNC 5 trục<br/>28 máy]
-        B2[QA/QC Lab<br/>CMM Hexagon]
-        B3[Chứng nhận<br/>IATF + AS9100]
+        B1[CNC 5+3 trục<br/>6 máy, 800 m²]
+        B2[QA/QC Lab<br/>CMM Hexagon Arm]
+        B3[Chứng nhận<br/>ISO 9001:2015]
     end
 
     subgraph BU3["Trụ cột 3 — DC/MACC"]
-        C1[Datacenter<br/>Tier III, 100 Racks]
+        C1[Datacenter<br/>Tier III, 50 Racks]
         C2[GPU Compute<br/>NVIDIA DGX H100]
         C3[IoT Cloud<br/>MekongOS SaaS]
     end
@@ -24,7 +24,7 @@ flowchart TD
     B3 -->|Cross-sell FDI| C1
     A1 -->|Dữ liệu IoT| C3
 
-    FDI["Khách hàng FDI<br/>Samsung, Intel,<br/>Bosch, VinFast"]
+    FDI["Khách hàng FDI<br/>Samsung, Intel,<br/>Bosch, Nidec"]
     KCNC["Hệ sinh thái KCNC<br/>IC Design, AI Startup,<br/>R&D Labs"]
 
     B1 -->|Gia công linh kiện| FDI

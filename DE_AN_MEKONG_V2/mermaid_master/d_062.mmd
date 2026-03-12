@@ -1,18 +1,30 @@
-quadrantChart
-    title Ma tran Rui ro — Impact vs Probability
-    x-axis "Xac suat thap" --> "Xac suat cao"
-    y-axis "Tac dong thap" --> "Tac dong cao"
-    quadrant-1 "CRITICAL"
-    quadrant-2 "HIGH"
-    quadrant-3 "MEDIUM"
-    quadrant-4 "LOW"
-    "R-A1 Nhu cau CNC": [0.85, 0.95]
-    "R-B1 CAPEX Overrun": [0.80, 0.90]
-    "R-A2 Gia CNC giam": [0.70, 0.75]
-    "R-A3 DC fill cham": [0.60, 0.75]
-    "R-B3 Cham tien do": [0.25, 0.90]
-    "R-B4 Nha thau kem": [0.50, 0.75]
-    "R-C1 Lao dong thieu": [0.75, 0.55]
-    "R-C2 Turnover cao": [0.30, 0.75]
-    "R-D1 Thiet ke sai": [0.35, 0.80]
-    "R-E1 Phap ly cham": [0.55, 0.55]
+graph TB
+    subgraph DC["DATACENTER MACC — Floor Plan"]
+        subgraph LEFT["Khu Dieu hanh"]
+            NOC["NOC 24/7<br/>8 seats"]
+            STG["Staging Room"]
+            MMR["Meet-Me Room — MMR"]
+            SEC["Security Office + CCTV"]
+        end
+
+        subgraph HALL1["DATA HALL 1 — Phase 1"]
+            RA["Row A<br/>12 Rk"] --- RB["Row B<br/>12 Rk"]
+            RB --- RC["Row C<br/>12 Rk"]
+            RC --- RD["Row D<br/>14 Rk"]
+            HAC1["Hot Aisle Containment — HAC<br/>Raised Floor 600mm"]
+        end
+
+        subgraph HALL2["DATA HALL 2 — Phase 2"]
+            RE["Row E<br/>10 Rk"] --- RF["Row F<br/>10 Rk"]
+            RF --- GPU["GPU Zone<br/>30 Rk<br/>Direct Liquid Cooling — DLC"]
+        end
+
+        subgraph INFRA["Ha tang"]
+            UPS["UPS Room<br/>2N Config"]
+            BAT["Battery Room<br/>VRLA/Li"]
+            COOL["Cooling Plant<br/>Chiller x 3+1<br/>CDU for GPU"]
+            GENY["Generator Yard<br/>2-4 x 750 kVA<br/>24h Fuel Tank"]
+        end
+
+        FIRE["FIRE SUPPRESSION<br/>FM200 Data Halls + Sprinkler Support Areas"]
+    end

@@ -1,5 +1,12 @@
-xychart-beta
-    title "Monte Carlo NPV Distribution — 10.000 simulations"
-    x-axis "NPV M USD" [-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10, 12, 14]
-    y-axis "Frequency"
-    bar [20, 80, 200, 500, 900, 1500, 2200, 1800, 1200, 700, 400, 300, 180]
+graph LR
+    EVN["EVN 22kV<br/>2 feeders"] --> TBA1["Tram BA #1<br/>22kV→0,4kV"]
+    EVN --> TBA2["Tram BA #2<br/>22kV→0,4kV"]
+    TBA1 --> ATSA["ATS A"]
+    TBA2 --> ATSB["ATS B"]
+    G1["Generator G1"] --> ATSA
+    G2["Generator G2"] --> ATSB
+    G3["Generator G3<br/>N+1 spare"]
+    ATSA --> UPSA1["UPS A1"] --> PDUAC1["PDU Row A,C"]
+    ATSA --> UPSA2["UPS A2"] --> PDUBD1["PDU Row B,D"]
+    ATSB --> UPSB1["UPS B1"] --> PDUAC2["PDU Row A,C"]
+    ATSB --> UPSB2["UPS B2"] --> PDUBD2["PDU Row B,D"]

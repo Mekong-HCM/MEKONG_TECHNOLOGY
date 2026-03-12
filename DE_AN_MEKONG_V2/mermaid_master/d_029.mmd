@@ -1,8 +1,12 @@
-flowchart TD
-    L1["Lớp 1: HÀNG RÀO + CỔNG<br/>• Hàng rào 2,5m + sensor<br/>• Cổng barrier tự động<br/>• CCTV ngoài trời (20 cam)"]
-    L2["Lớp 2: SÂN BÃI<br/>• Đèn LED perimeter<br/>• LPR (License Plate Recognition)<br/>• Bảo vệ 24/7 (2 ca × 3 người)"]
-    L3["Lớp 3: TÒA NHÀ<br/>• Badge + PIN tại mỗi cửa<br/>• Visitor management system<br/>• CCTV hành lang (40 cam)"]
-    L4["Lớp 4: KHU VỰC NHẠY CẢM<br/>• Badge + Biometric (vân tay/mống mắt)<br/>• Mantrap airlock (DC)<br/>• Escort required (DC, CNC CMM)"]
-    L5["Lớp 5: DC DATA HALL<br/>• Badge + Biometric + PIN (3-factor)<br/>• Video escort + Logging<br/>• Cabinet lock (per rack)<br/>• CCTV 360° (8 cam/hall)"]
-
-    L1 --> L2 --> L3 --> L4 --> L5
+graph TB
+    EVN["EVN 22kV<br/>2 nguồn độc lập"] --> ATS["ATS 1<br/>Auto Transfer Switch"]
+    ATS --> MDB1["MDB 1<br/>Utility"]
+    ATS --> MDB2["MDB 2<br/>Utility 2"]
+    ATS --> MDB_G["MDB-Gen<br/>Backup"]
+    GEN["GenSet<br/>2×2.500 kVA"] --> MDB_G
+    MDB1 --> UPS1A["UPS 1A<br/>1.000 kVA<br/>LiFePO4 15 min"]
+    MDB2 --> UPS1B["UPS 1B<br/>1.000 kVA<br/>LiFePO4 15 min"]
+    UPS1A --> STSA["STS Feed A"]
+    UPS1B --> STSB["STS Feed B"]
+    STSA --> PDU["Rack-level PDU 2N<br/>Rack 1...Rack 100<br/>Metered + Switched"]
+    STSB --> PDU

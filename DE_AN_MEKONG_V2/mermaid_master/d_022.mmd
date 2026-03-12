@@ -1,8 +1,41 @@
-%%{init: {'theme': 'base'}}%%
-xychart-beta
-    title "Revenue Mix Evolution (%)"
-    x-axis ["Y1", "Y5", "Y10", "Y20"]
-    y-axis "Tỷ trọng %" 0 --> 100
-    bar [57, 53, 43, 35]
-    bar [17, 24, 28, 27]
-    bar [26, 24, 30, 38]
+graph TB
+    subgraph DDC64["MK-DDC-64 DDC Controller — 64 diem (Platform MK-200)"]
+        subgraph CPU64["CPU Module (= MK-200 CPU Board)"]
+            A55["ARM Cortex-A55<br/>Quad-core, 1.8 GHz"]
+            RAM64["4 GB LPDDR4"]
+            EMMC64["32 GB eMMC"]
+            TPM64["TPM 2.0<br/>Secure Boot"]
+        end
+        subgraph IO64["I/O Tich hop — 64 diem"]
+            UI16["16x Universal Input"]
+            AO8_64["8x Analog Output"]
+            DO16_64["16x Digital Output<br/>(8 Relay + 8 Transistor)"]
+            DI24_64["24x Digital Input"]
+        end
+        subgraph COMM64["Truyen thong (mo rong)"]
+            ETH1["Ethernet 1Gbps Port 1<br/>BACnet IP / OPC UA"]
+            ETH2["Ethernet 1Gbps Port 2<br/>Modbus TCP / MQTT"]
+            RS485_A["RS485 Port 1-2<br/>BACnet MS/TP (EIO)"]
+            RS485_B["RS485 Port 3-4<br/>Modbus RTU (EIO)"]
+            WIFI64["WiFi 6 (tuy chon)"]
+        end
+        subgraph FW64["Firmware MekongDDC Pro"]
+            BACNET64["BACnet IP + MS/TP<br/>(native, BTL-ready)"]
+            OPCUA64["OPC UA Server"]
+            IEC64["IEC 61131-3 Runtime<br/>FBD + ST + Python"]
+            NODERED64["Node-RED<br/>(visual programming)"]
+            BMS_MINI["BMS Mini Server<br/>(dashboard, alarm, trend)"]
+            WEB64["Web Server + REST API"]
+        end
+        subgraph PWR64["Nguon & Bao ve"]
+            P64["24VDC Input, 15W"]
+            DC64["DC-DC Multi-rail"]
+            WDG64["Dual Watchdog"]
+            BAT64["Battery backup<br/>RTC + config save"]
+        end
+    end
+    CPU64 --> IO64
+    CPU64 --> COMM64
+    CPU64 --> FW64
+    P64 --> DC64 --> CPU64
+    style DDC64 fill:#eef0f7,stroke:#2c3e50

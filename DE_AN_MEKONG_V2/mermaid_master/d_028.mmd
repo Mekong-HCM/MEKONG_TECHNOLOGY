@@ -1,22 +1,20 @@
 graph TB
-    EVN["EVN 22kV<br/>2 tuyến độc lập"] --> T1["Tuyến 1 — Normal"]
-    EVN --> T2["Tuyến 2 — Reserved/DC"]
-    EVN --> GEN["Generator Yard"]
-
-    T1 --> TBA1["Trạm BA #1<br/>22kV/0,4kV — 2×1.500 kVA"]
-    T2 --> TBA2["Trạm BA #2<br/>22kV/0,4kV — 2×1.000 kVA"]
-
-    TBA1 --> MDB1["MDB-1"]
-    MDB1 --> DBA["DB-DC Khối A"]
-    MDB1 --> DBB["DB-CNC Khối B"]
-    MDB1 --> DBC["DB-IoT Khối C"]
-    MDB1 --> DBAUX["DB-AUX phụ trợ"]
-
-    TBA2 --> MDB2["MDB-2"]
-    MDB2 --> DB2N["DB-DC-2N UPS Feed B"]
-    MDB2 --> DBESS["DB-Essential"]
-
-    GEN --> ATS1["ATS-1 Khối A DC"] --> UPS["UPS 2N"]
-    GEN --> ATS2["ATS-2 Khối B CNC"] --> EMRB["Emergency bus B"]
-    GEN --> ATS3["ATS-3 Khối C IoT"] --> EMRC["Emergency bus C"]
-    GEN --> ATS4["ATS-4 Chung"] --> PCCC["PCCC + BMS"]
+    subgraph KCNC["KHU CÔNG NGHỆ CAO TP.HCM"]
+        subgraph SITE["MEKONG TECHNOLOGY HUB — 1 ha"]
+            subgraph BUILDING["TÒA NHÀ 3 TẦNG — 7.000 m² × 3F"]
+                T3["TẦNG 3: VP 2.500 + R&D 1.500 + ĐT/Canteen 3.000"]
+                T2["TẦNG 2: IoT/SMT 2.500 + CleanRoom 1.000 + Assy 2.500"]
+                T1["TẦNG 1: CNC 3.000 + DC 1.500 + M&E/Kho 2.500"]
+            end
+            subgraph OUTDOOR["Khu ngoài trời — 3.000 m²"]
+                PK["Bãi xe<br/>800 m²"]
+                CY["Container Yard<br/>800 m²"]
+                TBA["Trạm biến áp + PCCC<br/>+ Generator 500 m²"]
+                WTP["Xử lý nước thải ZLD<br/>300 m²"]
+                GRN["Cây xanh<br/>600 m²"]
+            end
+        end
+    end
+    T3 --- T2 --- T1
+    style BUILDING fill:#e8f4f8,stroke:#2c3e50,stroke-width:2px
+    style OUTDOOR fill:#f0f9e8,stroke:#27ae60

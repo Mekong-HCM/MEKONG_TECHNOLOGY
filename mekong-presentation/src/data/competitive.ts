@@ -39,8 +39,8 @@ export const mekongAdvantages = [
 ];
 
 export const moatLayers: MOATLayer[] = [
-    { layer: 'Vị trí KCNC', description: '1 ha, 3 tầng, GFA 21.000 m² — không còn đất trống', timeToReplicate: 'Không thể sao chép', color: '#FF5252' },
-    { layer: 'Chứng nhận IATF + AS9100', description: '2-3 năm + 350-530K USD chi phí', timeToReplicate: '3-4 năm', color: '#FF6D00' },
+    { layer: 'Vị trí KCNC', description: '1 ha, 3 tầng, GFA ~10.000 m² — không còn đất trống', timeToReplicate: 'Không thể sao chép', color: '#FF5252' },
+    { layer: 'Chứng nhận ISO 9001 + Chuyên môn CNC', description: 'ISO 9001 nền tảng, IATF/AS9100 option Y10+, 2-3 năm tích lũy', timeToReplicate: '3-4 năm', color: '#FF6D00' },
     { layer: 'Hệ sinh thái 3 B.U.', description: 'IoT + CNC + DC tích hợp tại chỗ', timeToReplicate: '4-5 năm + >100M USD', color: '#FFD600' },
     { layer: 'Quan hệ FDI', description: 'Hợp đồng CNC 3-5 năm', timeToReplicate: '2-3 năm', color: '#76FF03' },
     { layer: 'Tier III DC', description: 'Uptime Institute certified', timeToReplicate: '2-3 năm', color: '#00E5FF' },

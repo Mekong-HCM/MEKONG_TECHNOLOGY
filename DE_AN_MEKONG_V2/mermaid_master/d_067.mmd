@@ -1,31 +1,18 @@
-graph TB
-    subgraph L4["LAYER 4: ANALYTICS"]
-        BI["BI Dashboard"]
-        PBI["Power BI"]
-        PA["Predictive Analytics"]
-        AI["AI/ML"]
-    end
-    subgraph L3["LAYER 3: APPLICATIONS"]
-        ERP["ERP SAP B1"]
-        MES["MES"]
-        CRM["CRM"]
-        DCIM["DCIM"]
-        MOS["MekongOS"]
-        HR["HR"]
-        ACC["Accounting"]
-    end
-    subgraph L2["LAYER 2: INTEGRATION"]
-        API["API Gateway"]
-        MQ["MQ"]
-        ETL["ETL"]
-        SSO["SSO Azure AD"]
-        IAM["IAM"]
-    end
-    subgraph L1["LAYER 1: INFRASTRUCTURE"]
-        DC["On-prem DC"]
-        CLD["Cloud Azure"]
-        NET["Network"]
-        SEC["Security"]
-        BMS["BMS"]
-    end
-    L4 --> L3 --> L2 --> L1
+quadrantChart
+    title Ma tran Rui ro — Impact vs Probability
+    x-axis "Xac suat thap" --> "Xac suat cao"
+    y-axis "Tac dong thap" --> "Tac dong cao"
+    quadrant-1 "CRITICAL"
+    quadrant-2 "HIGH"
+    quadrant-3 "MEDIUM"
+    quadrant-4 "LOW"
+    "R-A1 Nhu cau CNC": [0.85, 0.95]
+    "R-B1 CAPEX Overrun": [0.80, 0.90]
+    "R-A2 Gia CNC giam": [0.70, 0.75]
+    "R-A3 DC fill cham": [0.60, 0.75]
+    "R-B3 Cham tien do": [0.25, 0.90]
+    "R-B4 Nha thau kem": [0.50, 0.75]
+    "R-C1 Lao dong thieu": [0.75, 0.55]
+    "R-C2 Turnover cao": [0.30, 0.75]
+    "R-D1 Thiet ke sai": [0.35, 0.80]
+    "R-E1 Phap ly cham": [0.55, 0.55]
