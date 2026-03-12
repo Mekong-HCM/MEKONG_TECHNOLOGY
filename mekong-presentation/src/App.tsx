@@ -1,4 +1,5 @@
 import { lazy, Suspense } from 'react';
+import { LoginGate } from './components/auth/LoginGate';
 import { Navbar } from './components/layout/Navbar';
 import { HeroSection } from './components/sections/HeroSection';
 import { ExecutiveSummary } from './components/sections/ExecutiveSummary';
@@ -41,6 +42,7 @@ export default function App() {
     const { currentSlide, totalSlides, progress, isFullscreen, isOverviewOpen, goToSlide, nextSlide, prevSlide, toggleOverview } = useSlideNavigation();
 
     return (
+        <LoginGate>
         <div className={`bg-dark-950 min-h-screen ${isFullscreen ? 'fullscreen-mode' : ''}`}>
             <Navbar isFullscreen={isFullscreen} currentSlide={currentSlide} totalSlides={totalSlides} onToggleOverview={toggleOverview} />
             <FloatingNav currentSlide={currentSlide} totalSlides={totalSlides} onPrev={prevSlide} onNext={nextSlide} />
@@ -91,5 +93,6 @@ export default function App() {
                 {currentSlide + 1} / {totalSlides}
             </div>
         </div>
+        </LoginGate>
     );
 }
