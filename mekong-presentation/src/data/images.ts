@@ -24,7 +24,7 @@ export const images: Record<string, ImageAsset> = {
 
     // IoT
     'iot-01': { id: 'iot-01', src: `${b}/images/iot/iot-01-edge-gateway.png`, alt: 'Industrial IoT edge gateway', category: 'iot', color: '#00E5FF', width: 1200, height: 800 },
-    'iot-03': { id: 'iot-03', src: `${b}/images/iot/iot-03-amr-robot.png`, alt: 'AMR robot tu hanh trong nha kho', category: 'iot', color: '#00E5FF', width: 800, height: 500 },
+    'iot-03': { id: 'iot-03', src: `${b}/images/iot/iot-03-amr-robot.jpg`, alt: 'AMR robot tu hanh trong nha kho', category: 'iot', color: '#00E5FF', width: 800, height: 500 },
     'iot-04': { id: 'iot-04', src: `${b}/images/iot/AMRRobots_ModernMaterialHandling.jpg`, alt: 'Robot AGV tự hành vận chuyển hàng hóa trong nhà kho thông minh', category: 'iot', color: '#00E5FF', width: 1180, height: 664 },
 
     // Datacenter

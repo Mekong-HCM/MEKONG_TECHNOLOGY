@@ -5,13 +5,14 @@ export function useInView(threshold = 0.2) {
     const [isInView, setIsInView] = useState(false);
 
     useEffect(() => {
+        const root = document.querySelector<HTMLElement>('.snap-container');
         const observer = new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
                     setIsInView(true);
                 }
             },
-            { threshold }
+            { threshold, root: root || null }
         );
 
         if (ref.current) {
