@@ -1,0 +1,26 @@
+graph TB
+    subgraph BL["BUSINESS LAYER"]
+        ERP["ERP<br/>SAP/Odoo"]
+        CRM["CRM<br/>HubSpot"]
+        PLM["PLM<br/>Teamcenter"]
+        QMS["QMS<br/>ETQ/Master"]
+        BIR["BI/Report<br/>Power BI/Metabase"]
+        ERP & CRM & PLM & QMS & BIR --> APIGW["Integration Bus<br/>MuleSoft / n8n / custom"]
+    end
+    subgraph OL["OPERATIONS LAYER"]
+        MES["MES<br/>CNC/SMT"]
+        DCIM["DCIM<br/>EcoStruxure"]
+        CMMS["CMMS<br/>Maintainr"]
+        SCADA["SCADA<br/>HVAC/BMS"]
+        WMS["WMS<br/>Warehouse"]
+        MES & DCIM & CMMS & SCADA & WMS --> PROTO["OPC-UA / MQTT / API"]
+    end
+    subgraph DL["DEVICE LAYER"]
+        CNC6["6 CNC Machines<br/>OPC-UA"]
+        SMT["SMT Line<br/>SECS/GEM"]
+        RACK["50 Racks<br/>SNMP/IPMI"]
+        BMSD["BMS 400+ points<br/>BACnet"]
+        SENS["Sensors<br/>RFID, Barcode"]
+    end
+    APIGW --> OL
+    PROTO --> DL

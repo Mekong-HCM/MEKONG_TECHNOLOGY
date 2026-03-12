@@ -1,0 +1,37 @@
+graph TB
+    subgraph DDC24["MK-DDC-24 DDC Controller — 24 diem"]
+        subgraph CPU24["CPU Module"]
+            M7["STM32H743<br/>Cortex-M7, 480 MHz"]
+            RAM24["1 MB SRAM"]
+            FL24["2 MB Flash"]
+            RTC24["RTC + Battery<br/>backup"]
+        end
+        subgraph IO24["I/O Tich hop — 24 diem"]
+            UI8["8x Universal Input<br/>(DI/AI/RTD auto-sense)"]
+            AO4_24["4x Analog Output<br/>0-10V / 4-20mA"]
+            DO6["6x Digital Output<br/>Relay 5A"]
+            DI6["6x Digital Input<br/>24VDC"]
+        end
+        subgraph COMM24["Truyen thong"]
+            ETH24["Ethernet 100Mbps<br/>BACnet IP / Modbus TCP"]
+            RS485_1["RS485 Port 1<br/>BACnet MS/TP (EIO bus 1)"]
+            RS485_2["RS485 Port 2<br/>Modbus RTU (EIO bus 2)"]
+            MQTT24["MQTT Client<br/>(qua Ethernet)"]
+        end
+        subgraph FW24["Firmware MekongDDC"]
+            BACNET24["BACnet Stack<br/>(native, BTL-ready)"]
+            IEC24["IEC 61131-3 Runtime<br/>FBD + ST"]
+            WEB24["Web Server<br/>(cau hinh + trend)"]
+            SCHED24["Scheduler<br/>(lich dieu khien)"]
+        end
+        subgraph PWR24["Nguon & Bao ve"]
+            P24["24VDC Input, 8W"]
+            DC24["DC-DC 3.3V/5V/12V"]
+            WDG24["Watchdog Timer"]
+        end
+    end
+    CPU24 --> IO24
+    CPU24 --> COMM24
+    CPU24 --> FW24
+    P24 --> DC24 --> CPU24
+    style DDC24 fill:#eef7ee,stroke:#27ae60

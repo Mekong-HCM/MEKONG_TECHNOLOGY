@@ -1,0 +1,20 @@
+graph TB
+    subgraph KCNC["KHU CÔNG NGHỆ CAO TP.HCM"]
+        subgraph SITE["MEKONG TECHNOLOGY HUB — 1 ha"]
+            subgraph BUILDING["TÒA NHÀ 3 TẦNG — 7.000 m² × 3F"]
+                T3["TẦNG 3: VP 2.500 + R&D 1.500 + ĐT/Canteen 3.000"]
+                T2["TẦNG 2: IoT/SMT 2.500 + CleanRoom 1.000 + Assy 2.500"]
+                T1["TẦNG 1: CNC 3.000 + DC 1.500 + M&E/Kho 2.500"]
+            end
+            subgraph OUTDOOR["Khu ngoài trời — 3.000 m²"]
+                PK["Bãi xe<br/>800 m²"]
+                CY["Container Yard<br/>800 m²"]
+                TBA["Trạm biến áp + PCCC<br/>+ Generator 500 m²"]
+                WTP["Xử lý nước thải ZLD<br/>300 m²"]
+                GRN["Cây xanh<br/>600 m²"]
+            end
+        end
+    end
+    T3 --- T2 --- T1
+    style BUILDING fill:#e8f4f8,stroke:#2c3e50,stroke-width:2px
+    style OUTDOOR fill:#f0f9e8,stroke:#27ae60

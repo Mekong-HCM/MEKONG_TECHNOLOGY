@@ -1,0 +1,33 @@
+graph TB
+    subgraph EIO["MK-EIO Module — Kien truc Chung"]
+        subgraph MCU_BLOCK["MCU & Communication"]
+            MCU["STM32F407VG<br/>ARM Cortex-M4<br/>168 MHz"]
+            FLASH["512 KB Flash<br/>(Firmware + Config)"]
+            SRAM["192 KB SRAM<br/>(Runtime buffer)"]
+            RS485["RS485 Transceiver<br/>ISO 2.5kV"]
+            TERM["Terminal Block<br/>A+ B- GND"]
+        end
+        subgraph IO_FRONT["I/O Front-end (thay doi theo model)"]
+            DI["DI16: 16x Optocoupler<br/>24VDC / Dry Contact"]
+            DO["DO16: 16x Relay 5A<br/>hoac Transistor 0.5A"]
+            AI["AI8: 8x ADC ADS1278<br/>24-bit, 0-10V/4-20mA/RTD"]
+            AO["AO4: 4x DAC AD5754R<br/>16-bit, 0-10V/4-20mA"]
+            UI["UI8: 8x Auto-sense<br/>MUX + ADC + DI"]
+        end
+        subgraph PROTECT["Bao ve"]
+            TVS["TVS Diode<br/>moi kenh"]
+            ISO["Galvanic Isolation<br/>2.5 kV"]
+            FUSE["Fuse/PTC<br/>(DO16 only)"]
+        end
+        subgraph POWER["Nguon"]
+            PWR_IN["24VDC Input<br/>+/-10%"]
+            DCDC["DC-DC Converter<br/>24V → 3.3V / 5V"]
+            LED_PWR["LED: Power<br/>+ Comm + 16x Status"]
+        end
+    end
+    MCU --> RS485 --> TERM
+    MCU --> IO_FRONT
+    PROTECT --> IO_FRONT
+    PWR_IN --> DCDC --> MCU
+    DCDC --> LED_PWR
+    style EIO fill:#f5f5f5,stroke:#2c3e50

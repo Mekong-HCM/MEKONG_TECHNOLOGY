@@ -9,6 +9,9 @@
 
 &nbsp;
 
+
+<div style="page-break-before: always;"></div>
+
 # MEKONG TECHNOLOGY
 
 ## TỔ HỢP CÔNG NGHỆ CAO ĐA NGÀNH
@@ -50,15 +53,24 @@ Lô T2-4, Đường D1, Phường Tân Phú, TP Thủ Đức, TP.HCM
 ---
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # MỤC LỤC TỔNG THỂ
 
 ---
+
+
+<div style="page-break-before: always;"></div>
 
 ## PHẦN MỞ ĐẦU
 
 - [Thông tin Dự án](#thông-tin-dự-án)
 - [Tóm tắt Điều hành (Executive Summary)](#tóm-tắt-điều-hành)
 - [Cơ sở Pháp lý của Đề án](#cơ-sở-pháp-lý-của-đề-án)
+
+
+<div style="page-break-before: always;"></div>
 
 ## PHẦN I: BỐI CẢNH VÀ THỊ TRƯỜNG
 
@@ -68,6 +80,9 @@ Lô T2-4, Đường D1, Phường Tân Phú, TP Thủ Đức, TP.HCM
 - [1.4. Thị trường Gia công Cơ khí Chính xác (B.U mới)](#14-thị-trường-gia-công-cơ-khí-chính-xác)
 - [1.5. Thị trường Trung tâm Dữ liệu và Điện toán AI (B.U mới)](#15-thị-trường-trung-tâm-dữ-liệu-và-điện-toán-ai)
 - [1.6. Định vị Cạnh tranh Tổng thể](#16-định-vị-cạnh-tranh-tổng-thể)
+
+
+<div style="page-break-before: always;"></div>
 
 ## PHẦN II: SẢN PHẨM VÀ CÔNG NGHỆ
 
@@ -79,12 +94,18 @@ Lô T2-4, Đường D1, Phường Tân Phú, TP Thủ Đức, TP.HCM
 - [2.6. Lộ trình Trưởng thành Công nghệ (TRL)](#26-lộ-trình-trưởng-thành-công-nghệ)
 - [2.7. Hoạt động Nghiên cứu và Phát triển (R&D)](#27-hoạt-động-nghiên-cứu-và-phát-triển)
 
+
+<div style="page-break-before: always;"></div>
+
 ## PHẦN III: MÔ HÌNH KINH DOANH
 
 - [3.1. Tổng quan Mô hình Doanh thu 3 Trụ cột](#31-tổng-quan-mô-hình-doanh-thu)
 - [3.2. Khách hàng Mục tiêu và Chiến lược Tiếp cận](#32-khách-hàng-mục-tiêu)
 - [3.3. Chiến lược Phát triển Ba giai đoạn](#33-chiến-lược-phát-triển)
 - [3.4. Kênh Phân phối và Đối tác Chiến lược](#34-kênh-phân-phối-và-đối-tác)
+
+
+<div style="page-break-before: always;"></div>
 
 ## PHẦN IV: HẠ TẦNG KỸ THUẬT
 
@@ -96,6 +117,9 @@ Lô T2-4, Đường D1, Phường Tân Phú, TP Thủ Đức, TP.HCM
 - [4.6. Hệ thống Cấp thoát Nước và Giải pháp Nước cấp](#46-hệ-thống-nước)
 - [4.7. Hệ thống Phòng cháy Chữa cháy (PCCC)](#47-hệ-thống-pccc)
 - [4.8. An toàn Lao động](#48-an-toàn-lao-động)
+
+
+<div style="page-break-before: always;"></div>
 
 ## PHẦN V: TÀI CHÍNH VÀ ĐẦU TƯ
 
@@ -117,6 +141,9 @@ Lô T2-4, Đường D1, Phường Tân Phú, TP Thủ Đức, TP.HCM
 - [5.16. Phân tích Điểm Hòa vốn theo BU](#516-phân-tích-điểm-hòa-vốn-theo-bu)
 - [5.17. Tổng hợp Các Chỉ số Tài chính (Financial Dashboard)](#517-tổng-hợp-các-chỉ-số-tài-chính)
 
+
+<div style="page-break-before: always;"></div>
+
 ## PHẦN VI: PHÁP LÝ VÀ MÔI TRƯỜNG
 
 - [6.1. Khung Pháp lý Áp dụng](#61-khung-pháp-lý)
@@ -126,6 +153,9 @@ Lô T2-4, Đường D1, Phường Tân Phú, TP Thủ Đức, TP.HCM
 - [6.5. Đánh giá Tác động Môi trường (ĐTM)](#65-đánh-giá-tác-động-môi-trường)
 - [6.6. Cam kết Bảo vệ Môi trường](#66-cam-kết-bảo-vệ-môi-trường)
 
+
+<div style="page-break-before: always;"></div>
+
 ## PHẦN VII: NHÂN SỰ VÀ TỔ CHỨC
 
 - [7.1. Sơ đồ Tổ chức 3 Trụ cột](#71-sơ-đồ-tổ-chức)
@@ -133,12 +163,18 @@ Lô T2-4, Đường D1, Phường Tân Phú, TP Thủ Đức, TP.HCM
 - [7.3. Vị trí Then chốt Cần Tuyển dụng](#73-vị-trí-then-chốt)
 - [7.4. Kế hoạch Tuyển dụng và Đào tạo](#74-kế-hoạch-tuyển-dụng)
 
+
+<div style="page-break-before: always;"></div>
+
 ## PHẦN VIII: KẾ HOẠCH TRIỂN KHAI
 
 - [8.1. Phân kỳ Đầu tư](#81-phân-kỳ-đầu-tư)
 - [8.2. Lộ trình Triển khai (Timeline)](#82-lộ-trình-triển-khai)
 - [8.3. Các mốc Quan trọng (Milestones)](#83-các-mốc-quan-trọng)
 - [8.4. Phân tích Rủi ro và Biện pháp Giảm thiểu](#84-phân-tích-rủi-ro)
+
+
+<div style="page-break-before: always;"></div>
 
 ## PHẦN IX: KẾT LUẬN VÀ KIẾN NGHỊ
 
@@ -157,6 +193,9 @@ Lô T2-4, Đường D1, Phường Tân Phú, TP Thủ Đức, TP.HCM
 
 ---
 ---
+
+
+<div style="page-break-before: always;"></div>
 
 # THÔNG TIN DỰ ÁN
 
@@ -243,7 +282,7 @@ Lô T2-4, Đường D1, Phường Tân Phú, TP Thủ Đức, TP.HCM
 | Doanh thu năm 12 (ổn định) | 21.000.000 USD | — | [C] |
 | Doanh thu tích lũy 15 năm | 180.000.000 USD | — | [C] |
 | EBITDA margin (ổn định) | ~35% | Từ năm 12+ | [C] |
-| Giá trị Chiến lược (Adjusted) | 14.000.000 USD | — | [C] |
+| Giá trị Chiến lược (Adjusted) | 15.000.000 USD | — | [C] |
 | WACC | 12% | — | [C] |
 | Nhân sự (ổn định) | 150 — 200 người | Từ năm 12 | [C] |
 | Thuê đất KCNC | 120.000 USD/năm | Miễn 11 năm đầu | [B] |
@@ -268,20 +307,23 @@ Lô T2-4, Đường D1, Phường Tân Phú, TP Thủ Đức, TP.HCM
 | 8 | Nền tảng AI/HPC Computing | 3 | NVIDIA DGX H100, GPU-as-a-Service | 50 Rack | 5,00 | 60% | Phụ lục I, Mục 1.3 |
 | 9 | Hạ tầng lưu trữ Tier III | 3 | Uptime 99,982%, Colocation | 50 Rack | 1,20 | 55% | Phụ lục I, Mục 1.2 |
 | 10 | MekongOS IoT Cloud (SaaS) | 3 | Nền tảng quản lý IoT, MQTT/OPC UA | 2.000 thuê bao | 3,00 | 70% | Phụ lục II, Mục 1.2 |
-| 11 | MK-EIO I/O Modules (5 loai) | 1 | DI16/DO16/AI8/AO4/UI8, RS485 Modbus+BACnet, DIN rail | 8.000 module | 0,80 | 50% | Phu luc II, Muc 1.1 |
-| 12 | MK-DDC Controllers (DDC-24/64) | 1 | 24/64 diem, BACnet native, IEC 61131-3, platform MK-200 | 2.000 bo | 1,00 | 55% | Phu luc II, Muc 1.1 |
-| 13 | MK-GW Gateway chuyen dung (4 loai) | 1 | BACnet/Modbus/KNX/DALI gateway | 3.000 bo | 0,60 | 45% | Phu luc II, Muc 1.1 |
-| 14 | MekongBMS License + SaaS | 1 | Phan mem BMS web-based, tieng Viet 100%, per-point | 500 site | 1,50 | 80% | Phu luc II, Muc 1.2 |
-| 15 | BMS/SCADA Service & Maintenance | 1 | Bao tri, nang cap, ho tro ky thuat, commissioning | Recurring | 0,60 | 70% | Phu luc II, Muc 1.2 |
-| 16 | MekongSoft — Phat trien Phan mem theo Yeu cau | 3 | Custom MES/ERP module, dashboard, API integration cho DN trong KCNC | 20-30 du an/nam | 0,80 | 75% | Phu luc II, Muc 1.2 |
-| 17 | Managed Application Platform (PaaS) | 3 | Hosting + van hanh ung dung khach tren DC: CI/CD, monitoring, auto-scale | 30-50 tenant | 0,50 | 65% | Phu luc I, Muc 1.2 |
-| 18 | Dich vu Huan luyen AI/ML Model | 3 | Training model Computer Vision, NLP, Predictive Maintenance tren GPU cluster | 15-25 du an/nam | 0,70 | 70% | Phu luc I, Muc 1.3 |
+| 11 | MK-EIO I/O Modules (5 loại) | 1 | DI16/DO16/AI8/AO4/UI8, RS485 Modbus+BACnet, DIN rail | 8.000 module | 0,80 | 50% | Phụ lục II, Mục 1.1 |
+| 12 | MK-DDC Controllers (DDC-24/64) | 1 | 24/64 điểm, BACnet native, IEC 61131-3, platform MK-200 | 2.000 bộ | 1,00 | 55% | Phụ lục II, Mục 1.1 |
+| 13 | MK-GW Gateway chuyên dụng (4 loại) | 1 | BACnet/Modbus/KNX/DALI gateway | 3.000 bộ | 0,60 | 45% | Phụ lục II, Mục 1.1 |
+| 14 | MekongBMS License + SaaS | 1 | Phần mềm BMS web-based, tiếng Việt 100%, per-point | 500 site | 1,50 | 80% | Phụ lục II, Mục 1.2 |
+| 15 | BMS/SCADA Service & Maintenance | 1 | Bảo trì, nâng cấp, hỗ trợ kỹ thuật, commissioning | Recurring | 0,60 | 70% | Phụ lục II, Mục 1.2 |
+| 16 | MekongSoft — Phát triển Phần mềm theo Yêu cầu | 3 | Custom MES/ERP module, dashboard, API integration cho DN trong KCNC | 20-30 dự án/năm | 0,80 | 75% | Phụ lục II, Mục 1.2 |
+| 17 | Managed Application Platform (PaaS) | 3 | Hosting + vận hành ứng dụng khách trên DC: CI/CD, monitoring, auto-scale | 30-50 tenant | 0,50 | 65% | Phụ lục I, Mục 1.2 |
+| 18 | Dịch vụ Huấn luyện AI/ML Model | 3 | Training model Computer Vision, NLP, Predictive Maintenance trên GPU cluster | 15-25 dự án/năm | 0,70 | 70% | Phụ lục I, Mục 1.3 |
 | | **Tong cong (cong suat thiet ke toi da, bao gom BMS/SCADA + Software Services)** | | | | **39,70** | **46%** | |
 
-> **Ghi chu:** Tong 39,70M USD/nam la **cong suat thiet ke toi da** khi toan bo 3 tru cot van hanh 100% cong suat (muc tieu sau Y15). Theo mo hinh tai chinh, doanh thu on dinh (steady-state) thuc te dat **21,00-23,00M USD/nam tu Y12** (xem Muc 5.2.1). Chenh lech la do CNC quy mo tinh gon (6 may, ISO 9001), cac san pham BMS/SCADA chua dat full capacity, va GPU Phase 2 chuyen sang mo hinh lease [A]. Trong giai doan ramp-up (Y4-Y7), doanh thu tang tu 0,50M len 12,00M USD/nam [C]. Ba dich vu phan mem (TT 16-18) su dung ha tang DC va nhan su R&D Lab san co, KHONG phat sinh CAPEX bo sung; doanh thu bo sung 2,00M USD/nam la upside potential tu Y5 [A].
+> **Ghi chú:** Tổng 39,70M USD/năm là **công suất thiết kế tối đa** khi toàn bộ 3 trụ cột vận hành 100% công suất (mục tiêu sau Y15). Theo mô hình tài chính, doanh thu ổn định (steady-state) thực tế đạt **21,00-23,00M USD/năm từ Y12** (xem Mục 5.2.1). Chênh lệch là do CNC quy mô tinh gọn (6 máy, ISO 9001), các sản phẩm BMS/SCADA chưa đạt full capacity, và GPU Phase 2 chuyển sang mô hình lease [A]. Trong giai đoạn ramp-up (Y4-Y7), doanh thu tăng từ 0,50M lên 12,00M USD/năm [C]. Ba dịch vụ phần mềm (TT 16-18) sử dụng hạ tầng DC và nhân sự R&D Lab sẵn có, KHÔNG phát sinh CAPEX bổ sung; doanh thu bổ sung 2,00M USD/năm là upside potential từ Y5 [A].
 
 ---
 ---
+
+
+<div style="page-break-before: always;"></div>
 
 # TÓM TẮT ĐIỀU HÀNH
 
@@ -311,9 +353,9 @@ mindmap
       Robot AMR 500/1000
       Robot AGV 500/1000
       Robot OHT-100
-      MK-EIO I/O Modules (5 loai)
+      MK-EIO I/O Modules (5 loại)
       MK-DDC Controllers (DDC-24/64)
-      MK-GW Gateway chuyen dung (4 loai)
+      MK-GW Gateway chuyên dụng (4 loại)
       MekongBMS / MekongSCADA
       MekongOS Platform
     Trụ cột 2 — MPMC
@@ -470,7 +512,7 @@ pie title Phân bổ CAPEX theo Hạng mục (M USD)
 | DSCR min (vay từ Y6) | 1,42x (Y7) | [C] |
 | Revenue 15 năm tích lũy | ~180 M USD | [C] |
 | EBITDA steady-state (Y12+) | ~35% | [C] |
-| Giá trị Chiến lược (Adjusted) | 14,00 M USD | [C] |
+| Giá trị Chiến lược (Adjusted) | 15,00 M USD | [C] |
 
 ### Phân bổ Giá trị Chiến lược
 
@@ -479,12 +521,12 @@ pie title Phân bổ CAPEX theo Hạng mục (M USD)
 | NPV tài chính (Base Case 50Y) | 2,50 | DCF, WACC 12% |
 | Real Options Value | 2,50 | Decision Tree: quyền mở rộng DC + GPU lease + nâng cấp CNC |
 | Barrier-to-entry Premium | 2,00 | Replacement cost: DC Tier III + CNC ecosystem |
-| Synergy Value (Cross-BU) | 2,00 | DCF incremental: CNC-Robot + MekongOS + Cross-sell |
-| Platform Value | 3,00 | EBITDA multiple: Đa trụ cột = 10-15x vs Đơn trụ = 5-8x |
+| Synergy Value (Cross-BU + Software Svc) | 2,50 | DCF incremental: CNC-Robot + MekongOS + Cross-sell + Software Services |
+| Platform Value | 3,50 | EBITDA multiple: Đa trụ cột + Software portfolio = 10-15x vs Đơn trụ = 5-8x |
 | Tax + Land Rent Exemption | 2,00 | NPV ưu đãi thuế + miễn đất, chiết khấu 12% |
-| **Tổng Giá trị Chiến lược** | **14,00** | [C] |
+| **Tổng Giá trị Chiến lược** | **15,00** | [C] |
 
-> **Ý nghĩa:** NPV tài chính thuần túy đạt 2,50 M USD (50Y horizon). Giá trị chiến lược tổng thể 14,00 M USD bao gồm ưu đãi thuế, quyền mở rộng, và platform value — chứng minh quyết định đầu tư là hợp lý từ góc nhìn chiến lược dài hạn. Với CAPEX 32M (giảm 33% so với quy mô 47,5M ban đầu), dự án ưu tiên khả thi thực tế và thu hồi vốn nhanh hơn. Xem chi tiết tại Phần V, Mục 5.7 và Phần IX, Mục 9.2.
+> **Ý nghĩa:** NPV tài chính thuần túy đạt 2,50 M USD (50Y horizon). Giá trị chiến lược tổng thể 15,00 M USD bao gồm ưu đãi thuế, quyền mở rộng, platform value, và dịch vụ phần mềm (Software Services) — chứng minh quyết định đầu tư là hợp lý từ góc nhìn chiến lược dài hạn. Với CAPEX 32M (giảm 33% so với quy mô 47,5M ban đầu), dự án ưu tiên khả thi thực tế và thu hồi vốn nhanh hơn. Xem chi tiết tại Phần V, Mục 5.7 và Phần IX, Mục 9.2.
 
 ---
 
@@ -555,6 +597,9 @@ gantt
 ---
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # CƠ SỞ PHÁP LÝ CỦA ĐỀ ÁN
 
 ---
@@ -605,6 +650,9 @@ gantt
 
 ---
 ---
+
+
+<div style="page-break-before: always;"></div>
 
 # PHẦN I: BỐI CẢNH VÀ THỊ TRƯỜNG
 
@@ -737,67 +785,67 @@ Thị trường Robot AMR tại Việt Nam đạt 180 triệu USD (2024), dự b
 
 *[A — Ước tính dựa trên capacity plan và pipeline khách hàng]*
 
-### 1.3.5. Thi truong BMS/SCADA Viet Nam — Co hoi Mo rong He san pham IoT
+### 1.3.5. Thị trường BMS/SCADA Việt Nam — Cơ hội Mở rộng Hệ sản phẩm IoT — Co hoi Mo rong He san pham IoT
 
-#### a) Quy mo Thi truong
+#### a) Quy mô Thị trường
 
-| Phan khuc | Quy mo 2025 (M USD) | Quy mo 2030 (M USD) | CAGR | Nguon |
+| Phân khúc | Quy mô 2025 (M USD) | Quy mô 2030 (M USD) | CAGR | Nguồn |
 |---|---:|---:|---:|---|
 | BMS Viet Nam (tong) | 550-750 | 1.100-1.500 | 12-15% | [B — Frost & Sullivan 2024, Markets and Markets 2024] |
-| BMS toa nha thuong mai moi | 200-300 | 450-600 | 14-16% | [B — CBRE Vietnam, Savills] |
-| SCADA cong nghiep VN | 300-450 | 700-1.000 | 15-18% | [B — ARC Advisory Group] |
+| BMS tòa nhà thương mại mới | 200-300 | 450-600 | 14-16% | [B — CBRE Vietnam, Savills] |
+| SCADA công nghiệp VN | 300-450 | 700-1.000 | 15-18% | [B — ARC Advisory Group] |
 | DDC/Controller VN | 80-120 | 180-250 | 13-15% | [A — uoc tinh tu ty le controller/tong BMS ~ 15-20%] |
-| Phan khuc tam trung (noi Mekong canh tranh) | 180-280 | 400-600 | 14-16% | [A — 30-40% thi truong tong] |
+| Phân khúc tầm trung (nơi Mekong cạnh tranh) | 180-280 | 400-600 | 14-16% | [A — 30-40% thị trường tổng] |
 
-Dong luc tang truong:
-- **500-800 toa nha thuong mai moi/nam** tai Viet Nam can he thong BMS (van phong, khach san, benh vien, trung tam thuong mai) [B — Bo Xay dung]
-- **2.000-3.000 nha may** dang co nhu cau SCADA/IoT hoa (FDI + noi dia) [B — VCCI]
-- **Quy dinh QCVN 09:2017** bat buoc BMS cho toa nha > 5.000 m2 san [B]
-- **Muc tieu tiet kiem nang luong 10-15%** cua Chinh phu thuc day BMS nhu giai phap bat buoc [B — QD 280/QD-TTg]
+Động lực tăng trưởng:
+- **500-800 tòa nhà thương mại mới/năm** tại Việt Nam cần hệ thống BMS (văn phòng, khách sạn, bệnh viện, trung tâm thương mại) [B — Bộ Xây dựng]
+- **2.000-3.000 nhà máy** đang có nhu cầu SCADA/IoT hóa (FDI + nội địa) [B — VCCI]
+- **Quy định QCVN 09:2017** bắt buộc BMS cho tòa nhà > 5.000 m2 sàn [B]
+- **Mục tiêu tiết kiệm năng lượng 10-15%** của Chính phủ thúc đẩy BMS như giải pháp bắt buộc [B — QĐ 280/QĐ-TTg]
 
-#### b) Canh quan Canh tranh va Gia ca
+#### b) Cảnh quan Cạnh tranh và Giá cả
 
-| Hang | San pham chinh | Gia he thong 200 diem (USD) | Thi phan VN | Diem manh | Diem yeu |
+| Hãng | Sản phẩm chính | Giá hệ thống 200 điểm (USD) | Thị phần VN | Điểm mạnh | Điểm yếu |
 |---|---|---:|---:|---|---|
-| Siemens | Desigo CC + PXC4/7 | 40.000-60.000 | 25-30% | Brand manh, he sinh thai day du | Dat nhat, khong tieng Viet, can SI chuyen mon |
-| Schneider | EcoStruxure Building + AS-P + SmartX | 35.000-50.000 | 20-25% | Mang luoi VAR/SI rong | Dat, phan mem phuc tap, phu thuoc VAR |
-| Honeywell | Niagara N4 + Spyder | 30.000-45.000 | 15-20% | Framework linh hoat (Niagara) | Kho lap trinh, chi phi license cao |
-| Delta | DIALink + AS Series | 15.000-25.000 | 5-8% | Gia tot, thuong hieu Dai Loan | He sinh thai chua du, SCADA yeu |
-| Hang TQ (GREE, Hailin) | DDC co ban + phan mem noi bo | 8.000-15.000 | 5-10% | Gia thap nhat | Chat luong khong on dinh, khong co BACnet BTL |
-| **Mekong Technology** | **MekongBMS + MK-DDC + MK-EIO** | **12.000-20.000** | **Muc tieu: 3-5% (Y10)** | **AI tich hop, Cloud native, tieng Viet 100%, gia canh tranh** | **Moi, chua co uy tin, can case study** |
+| Siemens | Desigo CC + PXC4/7 | 40.000-60.000 | 25-30% | Brand mạnh, hệ sinh thái đầy đủ | Đắt nhất, không tiếng Việt, cần SI chuyên môn |
+| Schneider | EcoStruxure Building + AS-P + SmartX | 35.000-50.000 | 20-25% | Mạng lưới VAR/SI rộng | Đắt, phần mềm phức tạp, phụ thuộc VAR |
+| Honeywell | Niagara N4 + Spyder | 30.000-45.000 | 15-20% | Framework linh hoạt (Niagara) | Khó lập trình, chi phí license cao |
+| Delta | DIALink + AS Series | 15.000-25.000 | 5-8% | Giá tốt, thương hiệu Đài Loan | Hệ sinh thái chưa đủ, SCADA yếu |
+| Hãng TQ (GREE, Hailin) | DDC cơ bản + phần mềm nội bộ | 8.000-15.000 | 5-10% | Giá thấp nhất | Chất lượng không ổn định, không có BACnet BTL |
+| **Mekong Technology** | **MekongBMS + MK-DDC + MK-EIO** | **12.000-20.000** | **Mục tiêu: 3-5% (Y10)** | **AI tích hợp, Cloud native, tiếng Việt 100%, giá cạnh tranh** | **Mới, chưa có uy tín, cần case study** |
 
-*[B — Thi phan uoc tinh tu bao cao JLL Vietnam 2024, CBRE Property Management Survey. Gia Mekong: [A] — dua tren BOM + margin]*
+*[B — Thị phần ước tính từ báo cáo JLL Vietnam 2024, CBRE Property Management Survey. Giá Mekong: [A] — dựa trên BOM + margin]*
 
-> **Dinh vi Mekong:** Re hon 40-60% so voi Siemens/Schneider/Honeywell, canh tranh truc tiep voi Delta nhung co 3 loi the: (1) AI tich hop tu MekongOS Engine, (2) Cloud native — khong can server rieng, (3) Tieng Viet 100% — doi thu quoc te khong co. So voi hang Trung Quoc: Mekong co BACnet BTL (chung nhan quoc te) va phan mem BMS chuyen nghiep.
+> **Định vị Mekong:** Rẻ hơn 40-60% so với Siemens/Schneider/Honeywell, cạnh tranh trực tiếp với Delta nhưng có 3 lợi thế: (1) AI tích hợp từ MekongOS Engine, (2) Cloud native — không cần server riêng, (3) Tiếng Việt 100% — đối thủ quốc tế không có. So với hãng Trung Quốc: Mekong có BACnet BTL (chứng nhận quốc tế) và phần mềm BMS chuyên nghiệp.
 
-#### c) Co hoi Cu the cho Mekong
+#### c) Cơ hội Cụ thể cho Mekong
 
-| Co hoi | Mo ta | Gia tri (M USD/nam) | Xac suat | Nhan |
+| Cơ hội | Mô tả | Giá trị (M USD/năm) | Xac suat | Nhan |
 |---|---|---:|:---:|:---:|
-| 175+ doanh nghiep trong KCNC TP.HCM | Khach hang sat ben — Mekong co the demo truc tiep, ho tro nhanh | 0,50-1,00 | Cao | [A] |
-| Datacenter MACC cua chinh Mekong (Tru cot 3) | Tu lap MekongBMS cho Datacenter → case study thuc te so 1 | 0,05 (noi bo) | Rat cao | [A] |
-| Nha may CNC cua chinh Mekong (Tru cot 2) | Tu lap MekongSCADA cho nha may CNC → case study so 2 | 0,03 (noi bo) | Rat cao | [A] |
-| Cross-sell: KH mua Robot/IoT → gioi thieu BMS | 5.000 Gateway/nam = 500-1.000 khach hang → 5-10% chuyen sang BMS | 0,50-1,00 | Trung binh | [A] |
-| Du an toa nha moi tai TP.HCM (500-800/nam) | Canh tranh dau thau BMS cho 3-5% du an tam trung | 1,50-2,50 | Trung binh | [A] |
-| Du an nha may FDI moi (SCADA) | FDI can SCADA gia hop ly, co tieng Anh + tieng Viet | 0,50-1,00 | Thap-TB | [A] |
+| 175+ doanh nghiệp trong KCNC TP.HCM | Khách hàng sát bên — Mekong có thể demo trực tiếp, hỗ trợ nhanh | 0,50-1,00 | Cao | [A] |
+| Datacenter MACC của chính Mekong (Trụ cột 3) | Tự lắp MekongBMS cho Datacenter → case study thực tế số 1 | 0,05 (nội bộ) | Rất cao | [A] |
+| Nhà máy CNC của chính Mekong (Trụ cột 2) | Tự lắp MekongSCADA cho nhà máy CNC → case study số 2 | 0,03 (nội bộ) | Rất cao | [A] |
+| Cross-sell: KH mua Robot/IoT → giới thiệu BMS | 5.000 Gateway/năm = 500-1.000 khách hàng → 5-10% chuyển sang BMS | 0,50-1,00 | Trung bình | [A] |
+| Dự án tòa nhà mới tại TP.HCM (500-800/năm) | Cạnh tranh đấu thầu BMS cho 3-5% dự án tầm trung | 1,50-2,50 | Trung bình | [A] |
+| Dự án nhà máy FDI mới (SCADA) | FDI cần SCADA giá hợp lý, có tiếng Anh + tiếng Việt | 0,50-1,00 | Thấp-TB | [A] |
 
-#### d) Chien luoc Tham nhap: Tu Dung Truoc, Ban Sau
+#### d) Chiến lược Thâm nhập: Tự Dùng Trước, Bán Sau
 
-Mekong ap dung chien luoc 3 buoc:
+Mekong áp dụng chiến lược 3 bước:
 
-**Buoc 1 (Y6-Y7): Tu dung noi bo**
-- Lap MekongBMS cho Datacenter MACC (Tru cot 3): giam sat HVAC, dien, nuoc, PCCC
-- Lap MekongSCADA cho nha may CNC (Tru cot 2): giam sat day chuyen, OEE, energy
-- Muc tieu: Co 2 case study THUC TE, van hanh 12+ thang truoc khi ban ra ngoai
+**Bước 1 (Y6-Y7): Tự dùng nội bộ**
+- Lắp MekongBMS cho Datacenter MACC (Trụ cột 3): giám sát HVAC, điện, nước, PCCC
+- Lắp MekongSCADA cho nhà máy CNC (Trụ cột 2): giám sát dây chuyền, OEE, energy
+- Mục tiêu: Có 2 case study THỰC TẾ, vận hành 12+ tháng trước khi bán ra ngoài
 
-**Buoc 2 (Y8-Y9): Ban cho KCNC va doi tac**
-- Ban MekongBMS/SCADA cho 175+ doanh nghiep trong KCNC TP.HCM (co the demo truc tiep)
-- Ket hop voi ban IoT Gateway: khach mua MK-200 → goi MK-DDC + MekongBMS
+**Bước 2 (Y8-Y9): Bán cho KCNC và đối tác**
+- Bán MekongBMS/SCADA cho 175+ doanh nghiệp trong KCNC TP.HCM (có thể demo trực tiếp)
+- Kết hợp với bán IoT Gateway: khách mua MK-200 → gói MK-DDC + MekongBMS
 
-**Buoc 3 (Y10+): Mo rong thi truong**
-- Xay dung mang luoi VAR/SI (Value Added Reseller / System Integrator) tai TP.HCM → Ha Noi → Da Nang
-- Tham gia dau thau BMS cho cac du an toa nha tam trung (12.000-20.000 USD/du an)
-- Muc tieu: 3-5% thi phan phan khuc tam trung = 4,50M USD/nam (on dinh tu Y10+)
+**Bước 3 (Y10+): Mở rộng thị trường**
+- Xây dựng mạng lưới VAR/SI (Value Added Reseller / System Integrator) tại TP.HCM → Hà Nội → Đà Nẵng
+- Tham gia đấu thầu BMS cho các dự án tòa nhà tầm trung (12.000-20.000 USD/dự án)
+- Mục tiêu: 3-5% thị phần phân khúc tầm trung = 4,50M USD/năm (ổn định từ Y10+)
 
 ---
 
@@ -1348,6 +1396,9 @@ timeline
 ---
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHẦN II: SẢN PHẨM VÀ CÔNG NGHỆ
 
 ---
@@ -1378,14 +1429,14 @@ Mekong Technology vận hành 3 trụ cột sản phẩm và dịch vụ công n
 | 8 | Jig/Fixture cho SMT + chi tiết gia công FDI | 2 | Al 6061/SUS304, gia công 5 trục, ISO 9001:2015 | 0,50 | 30% |
 | 9 | Hạ tầng lưu trữ và AI/HPC Computing | 3 | Datacenter Tier III, 50 Rack (Colo + AI/HPC), Uptime 99,982%, GPU H100 | 6,20 | 58% |
 | 10 | MekongOS IoT Cloud (SaaS) | 3 | Nền tảng quản lý IoT, MQTT/OPC UA, Dashboard analytics, AI predictive maintenance, 2.000 thuê bao | 3,00 | 70% |
-| 11 | MK-EIO I/O Modules (5 loai) | 1 | DI16/DO16/AI8/AO4/UI8, RS485 Modbus+BACnet, DIN rail, cung MCU platform | 0,80 | 50% |
-| 12 | MK-DDC Controllers (DDC-24/64) | 1 | 24/64 diem, BACnet native, IEC 61131-3, DDC-64 dung platform MK-200 | 1,00 | 55% |
-| 13 | MK-GW Gateway chuyen dung (4 loai) | 1 | BACnet/Modbus/KNX/DALI gateway, giao dien thong nhat | 0,60 | 45% |
-| 14 | MekongBMS License + SaaS | 1 | Phan mem BMS web-based, tieng Viet 100%, per-point license | 1,50 | 80% |
+| 11 | MK-EIO I/O Modules (5 loại) | 1 | DI16/DO16/AI8/AO4/UI8, RS485 Modbus+BACnet, DIN rail, cùng MCU platform | 0,80 | 50% |
+| 12 | MK-DDC Controllers (DDC-24/64) | 1 | 24/64 điểm, BACnet native, IEC 61131-3, DDC-64 dung platform MK-200 | 1,00 | 55% |
+| 13 | MK-GW Gateway chuyên dụng (4 loại) | 1 | BACnet/Modbus/KNX/DALI gateway, giao diện thống nhất | 0,60 | 45% |
+| 14 | MekongBMS License + SaaS | 1 | Phần mềm BMS web-based, tiếng Việt 100%, per-point license | 1,50 | 80% |
 | 15 | BMS/SCADA Service & Maintenance | 1 | Bao tri, nang cap firmware, ho tro ky thuat, commissioning | 0,60 | 70% |
 | | **Tổng (steady-state, từ năm 12, bao gom BMS/SCADA)** | | | **37,70** | **45%** |
 
-*[A — Doanh thu BMS/SCADA (dong 11-15) la uoc tinh giai doan on dinh (tu nam 12+), dua tren gia ban muc tieu va quy mo thi truong BMS VN. CNC quy mo tinh gon (6 may, ISO 9001) nen doanh thu CNC chi 2,50M/nam. GPU Phase 2 chuyen sang lease.]*
+*[A — Doanh thu BMS/SCADA (dòng 11-15) là ước tính giai đoạn ổn định (từ năm 12+), dựa trên giá bán mục tiêu và quy mô thị trường BMS VN. CNC quy mô tinh gọn (6 máy, ISO 9001) nên doanh thu CNC chỉ 2,50M/năm. GPU Phase 2 chuyển sang lease.]*
 
 ---
 
@@ -1421,8 +1472,8 @@ graph TB
     
     subgraph TANG2["TANG 2: DIEU KHIEN (Controller + I/O)"]
         direction LR
-        T2A["MK-DDC-24<br/>DDC Controller<br/>24 diem"]
-        T2B["MK-DDC-64<br/>DDC Controller<br/>64 diem"]
+        T2A["MK-DDC-24<br/>DDC Controller<br/>24 điểm"]
+        T2B["MK-DDC-64<br/>DDC Controller<br/>64 điểm"]
         T2C["MK-EIO-DI16<br/>Digital Input"]
         T2D["MK-EIO-DO16<br/>Digital Output"]
         T2E["MK-EIO-AI8<br/>Analog Input"]
@@ -1430,7 +1481,7 @@ graph TB
         T2G["MK-EIO-UI8<br/>Universal Input"]
     end
     
-    subgraph TANG1["TANG 1: THIET BI TRUONG (Field Devices)"]
+    subgraph TANG1["TẦNG 1: THIẾT BỊ TRƯỜNG (Field Devices)"]
         direction LR
         T1A["Cam bien nhiet do<br/>do am, CO2, ap suat"]
         T1B["Van HVAC<br/>Damper, Actuator"]
@@ -1457,12 +1508,12 @@ graph TB
 
 **So sanh He sinh thai Mekong voi Doi thu Quoc te:**
 
-| Tang | San pham Mekong | So luong SP | Doi thu tuong ung | Gia tri khac biet Mekong |
+| Tầng | Sản phẩm Mekong | Số lượng SP | Đối thủ tương ứng | Giá trị khác biệt Mekong |
 |---|---|---:|---|---|
 | Tang 5: Cloud | MekongOS Cloud, MekongBMS SaaS | 2 | Siemens Navigator, Schneider EcoStruxure Cloud | Tieng Viet, gia thap 60-70% |
 | Tang 4: Phan mem | MekongBMS, MekongSCADA, MekongET | 3 | Siemens Desigo CC, Schneider EBO, Honeywell Niagara | Chay tren DDC (khong can server rieng) |
 | Tang 3: Gateway | MK-200, MK-300, MK-GW-BAC/MOD/KNX/DALI | 6 | Loytec, HMS Anybus, Intesis, Weinzierl | 1 hang cung cap tat ca gateway |
-| Tang 2: Controller | MK-DDC-24/64, MK-EIO (5 loai) | 7 | Siemens PXC, Schneider AS-P, Honeywell Spyder | DDC-64 = platform MK-200 (toi uu R&D) |
+| Tầng 2: Controller | MK-DDC-24/64, MK-EIO (5 loại) | 7 | Siemens PXC, Schneider AS-P, Honeywell Spyder | DDC-64 = platform MK-200 (tối ưu R&D) |
 | Tang 1: Field | (Cam bien ben thu 3 + Robot AMR/AGV/OHT cua Mekong) | 3 (Robot) | Geek+, HIK Robot, MiR | Mekong la hang DUY NHAT co robot + BMS |
 | **Tong** | **21 san pham IoT/BMS** | **21** | | |
 
@@ -1510,31 +1561,31 @@ Công suất sản xuất: 5.000 thiết bị/năm (MK-200: 3.000, MK-300: 2.000
 | Thực phẩm, Dược phẩm | Giám sát nhiệt độ/độ ẩm, HACCP | MK-200 | 10-30 |
 | Bán dẫn | EES (Equipment Engineering System) integration | MK-300 | 5-10 |
 | Ô tô | Andon, Poka-yoke tự động | MK-300 | 5-15 |
-| Toa nha thuong mai | BMS: giam sat HVAC, chieu sang, thang may | MK-200 + DDC | 50-100 |
-| Nha may san xuat | SCADA: giam sat day chuyen, dieu khien tu dong | MK-300 + DDC | 30-60 |
+| Tòa nhà thương mại | BMS: giám sát HVAC, chiếu sáng, thang máy | MK-200 + DDC | 50-100 |
+| Nhà máy sản xuất | SCADA: giám sát dây chuyền, điều khiển tự động | MK-300 + DDC | 30-60 |
 
-> **Ghi chu mo rong he san pham IoT/BMS:** Mekong Technology bo sung he san pham dieu khien toa nha (BMS) va giam sat cong nghiep (SCADA), bao gom: Module I/O mo rong (MK-EIO), Bo dieu khien DDC (MK-DDC), Gateway chuyen dung (MK-GW), va Nen tang phan mem MekongBMS/MekongSCADA. Cac san pham nay giup Mekong chuyen tu "nha cung cap Gateway thu thap du lieu" thanh "nha cung cap TOAN BO he thong dieu khien toa nha va nha may" — canh tranh truc tiep voi Siemens, Schneider, Honeywell tai phan khuc tam trung Viet Nam.
+> **Ghi chú mở rộng hệ sản phẩm IoT/BMS:** Mekong Technology bổ sung hệ sản phẩm điều khiển tòa nhà (BMS) và giám sát công nghiệp (SCADA), bao gồm: Module I/O mở rộng (MK-EIO), Bộ điều khiển DDC (MK-DDC), Gateway chuyên dụng (MK-GW), và Nền tảng phần mềm MekongBMS/MekongSCADA. Các sản phẩm này giúp Mekong chuyển từ "nhà cung cấp Gateway thu thập dữ liệu" thành "nhà cung cấp TOÀN BỘ hệ thống điều khiển tòa nhà và nhà máy" — cạnh tranh trực tiếp với Siemens, Schneider, Honeywell tại phân khúc tầm trung Việt Nam.
 
 ### 2.2.2. He san pham Expansion I/O (Dong MK-EIO)
 
 #### Ly do Can Thiet
 
-IoT Gateway MK-200/MK-300 hien co tich hop 25-35 diem I/O (Digital Input/Output, Analog Input/Output) co dinh tren board. Con so nay du cho cap do "giam sat" (monitoring) mot cum may trong nha may. Tuy nhien, khi trien khai he thong BMS (Building Management System) cho 1 tang toa nha thuong mai dien hinh, so diem do/dieu khien can thiet len toi 200-500 diem [B — tieu chuan ASHRAE 90.1]:
+IoT Gateway MK-200/MK-300 hiện có tích hợp 25-35 điểm I/O (Digital Input/Output, Analog Input/Output) cố định trên board. Con số này đủ cho cấp độ "giám sát" (monitoring) một cụm máy trong nhà máy. Tuy nhiên, khi triển khai hệ thống BMS (Building Management System) cho 1 tầng tòa nhà thương mại điển hình, số điểm đo/điều khiển cần thiết lên tới 200-500 điểm [B — tiêu chuẩn ASHRAE 90.1]:
 
-- He thong HVAC (dieu hoa khong khi): 80-120 diem/tang (nhiet do, do am, ap suat, van, quat, chiller)
-- He thong chieu sang: 40-80 diem/tang (cong tac, dim, cam bien hien dien, cam bien anh sang)
-- He thong dien: 20-40 diem/tang (dong ho dien, CB, UPS, ATS)
-- He thong nuoc: 10-20 diem/tang (dong ho nuoc, bom, van, muc nuoc)
-- He thong PCCC/bao chay: 30-60 diem/tang (dau bao, nut nhan, coi, van sprinkler)
-- He thong thang may/thang cuon: 10-20 diem/tang
+- Hệ thống HVAC (điều hòa không khí): 80-120 điểm/tầng (nhiệt độ, độ ẩm, áp suất, van, quạt, chiller)
+- Hệ thống chiếu sáng: 40-80 điểm/tầng (công tắc, dim, cảm biến hiện diện, cảm biến ánh sáng)
+- Hệ thống điện: 20-40 điểm/tầng (đồng hồ điện, CB, UPS, ATS)
+- Hệ thống nước: 10-20 điểm/tầng (đồng hồ nước, bơm, van, mực nước)
+- Hệ thống PCCC/báo cháy: 30-60 điểm/tầng (đầu báo, nút nhấn, còi, van sprinkler)
+- Hệ thống thang máy/thang cuốn: 10-20 điểm/tầng
 
-**Tong cong: 190-340 diem dieu khien cho 1 tang toa nha** — vuot xa kha nang 25-35 I/O co dinh cua MK-200.
+**Tổng cộng: 190-340 điểm điều khiển cho 1 tầng tòa nhà** — vượt xa khả năng 25-35 I/O cố định của MK-200.
 
-Giai phap: Module I/O mo rong (Expansion I/O) ket noi qua bus RS485 voi Gateway hoac DDC Controller, cho phep mo rong len hang tram — hang nghin diem dieu khien tu 1 bo dieu khien trung tam. Day la kien truc chuan cua moi he thong BMS/SCADA tren the gioi (Siemens Desigo, Schneider EcoStruxure, Honeywell Niagara deu hoat dong theo nguyen tac nay).
+Giải pháp: Module I/O mở rộng (Expansion I/O) kết nối qua bus RS485 với Gateway hoặc DDC Controller, cho phép mở rộng lên hàng trăm — hàng nghìn điểm điều khiển từ 1 bộ điều khiển trung tâm. Đây là kiến trúc chuẩn của mọi hệ thống BMS/SCADA trên thế giới (Siemens Desigo, Schneider EcoStruxure, Honeywell Niagara đều hoạt động theo nguyên tắc này).
 
 #### Tong quan Dong san pham MK-EIO
 
-| Ma san pham | Loai | So kenh | Giao tiep | Gia muc tieu (USD) | Doi thu tham chieu |
+| Mã sản phẩm | Loại | Số kênh | Giao tiếp | Giá mục tiêu (USD) | Đối thủ tham chiếu |
 |---|---|---:|---|---:|---|
 | MK-EIO-DI16 | Digital Input 16ch | 16 | RS485 Modbus RTU + BACnet MS/TP | 80-120 [A] | Siemens PXA30-T (~250 USD) |
 | MK-EIO-DO16 | Digital Output 16ch | 16 | RS485 Modbus RTU + BACnet MS/TP | 90-130 [A] | Schneider I/O module (~200 USD) |
@@ -1542,7 +1593,7 @@ Giai phap: Module I/O mo rong (Expansion I/O) ket noi qua bus RS485 voi Gateway 
 | MK-EIO-AO4 | Analog Output 4ch | 4 | RS485 Modbus RTU + BACnet MS/TP | 80-120 [A] | Delta DVP-06XA (~150 USD) |
 | MK-EIO-UI8 | Universal Input 8ch | 8 | RS485 Modbus RTU + BACnet MS/TP | 120-180 [A] | Siemens PXA40-T (~300 USD) |
 
-*[A — Gia muc tieu dua tren BOM cost + margin 40-50%, thap hon doi thu 40-60%]*
+*[A — Giá mục tiêu dựa trên BOM cost + margin 40-50%, thấp hơn đối thủ 40-60%]*
 
 #### Chi tiet Ky thuat Tung Module
 
@@ -1551,18 +1602,18 @@ Giai phap: Module I/O mo rong (Expansion I/O) ket noi qua bus RS485 voi Gateway 
 | Thong so | Gia tri | Ghi chu |
 |---|---|---|
 | **MCU** | STM32F407VG (ARM Cortex-M4, 168 MHz) | Dung MCU pho bien, chuoi cung ung on dinh |
-| **Input** | 16 kenh 24VDC (sink/source co the cau hinh) hoac Dry Contact | Tuong thich cam bien cong nghiep chuan |
-| **Diem dem xung** | Co — Pulse counting 4 kenh (max 10 kHz) | Cho dong ho nuoc, dong ho dien, encoder |
+| **Input** | 16 kênh 24VDC (sink/source có thể cấu hình) hoặc Dry Contact | Tương thích cảm biến công nghiệp chuẩn |
+| **Diem dem xung** | Có — Pulse counting 4 kênh (max 10 kHz) | Cho đồng hồ nước, đồng hồ điện, encoder |
 | **Giao tiep** | RS485 Modbus RTU + BACnet MS/TP (dual protocol, chon bang DIP switch) | Tuong thich ca PLC lan BMS |
 | **Toc do bus** | 9.600 — 115.200 bps (cau hinh) | Mac dinh 38.400 bps theo BACnet |
 | **Dia chi** | 1-247 (Modbus) hoac 1-127 (BACnet) | Cau hinh bang DIP switch hoac phan mem |
 | **LED** | 16 LED trang thai kenh (xanh = ON, tat = OFF) + 1 LED Power + 1 LED Comm | Hien thi truc quan, de chuan doan |
 | **Nguon** | 24VDC (+/-10%), cong suat < 3W | Dung chung nguon 24V cua tu dien |
-| **Bao ve** | Isolation 2,5 kV (optocoupler), TVS tren moi kenh, chong set cap 2 | An toan cho moi truong cong nghiep |
-| **Nhiet do hoat dong** | -20 den +60 do C | Phu hop tu dieu hoa den nha may |
+| **Bao ve** | Isolation 2,5 kV (optocoupler), TVS trên mọi kênh, chống sét cấp 2 | An toàn cho môi trường công nghiệp |
+| **Nhiet do hoat dong** | -20 đến +60 độ C | Phù hợp từ điều hòa đến nhà máy |
 | **Do am** | 5-95% RH (khong ngung tu) | |
 | **Kich thuoc** | 120 x 70 x 50 mm | |
-| **Lap dat** | DIN rail 35 mm, ket noi daisy-chain RS485 (toi da 32 module/bus) | Chuan tu dien cong nghiep |
+| **Lap dat** | DIN rail 35 mm, kết nối daisy-chain RS485 (tối đa 32 module/bus) | Chuẩn tủ điện công nghiệp |
 | **Xuat xu** | Thiet ke va san xuat tai Viet Nam (KCNC TP.HCM) | |
 
 **b) MK-EIO-DO16 — Expansion Digital Output 16 kenh**
@@ -1571,27 +1622,27 @@ Giai phap: Module I/O mo rong (Expansion I/O) ket noi qua bus RS485 voi Gateway 
 |---|---|---|
 | **MCU** | STM32F407VG (dung chung platform voi DI16) | Toi uu hoa san xuat |
 | **Output** | 16 kenh, 2 che do: Relay 5A/250VAC hoac Transistor 0,5A/24VDC | Relay cho van/bom, Transistor cho tin hieu |
-| **PWM** | Co — 4 kenh PWM (1-10 kHz) | Dieu khien van tuyen tinh, damper, dim den |
+| **PWM** | Có — 4 kênh PWM (1-10 kHz) | Điều khiển van tuyến tính, damper, dim đèn |
 | **Bao ve output** | Fuse 6A/kenh (Relay), TVS + flyback diode (Transistor) | Chong qua tai, chong nguoc |
 | **Giao tiep** | RS485 Modbus RTU + BACnet MS/TP (dual protocol) | Nhu DI16 |
 | **LED** | 16 LED trang thai output + Power + Comm | |
 | **Nguon** | 24VDC, < 5W (khong tinh tai) | |
 | **Lap dat** | DIN rail, daisy-chain RS485 | |
-| **Gia muc tieu** | 90-130 USD [A] | Siemens tuong duong: 200-300 USD |
+| **Giá mục tiêu** | 90-130 USD [A] | Siemens tương đương: 200-300 USD |
 
 **c) MK-EIO-AI8 — Expansion Analog Input 8 kenh**
 
 | Thong so | Gia tri | Ghi chu |
 |---|---|---|
 | **MCU** | STM32F407VG + ADC ngoai ADS1278 (8ch, 24-bit) | Do chinh xac cao cho do nhiet do, ap suat |
-| **Input** | 8 kenh, moi kenh cau hinh doc lap: 0-10V / 4-20mA / PT100 / PT1000 / NTC 10K | Da nang — 1 module thay 3 loai |
+| **Input** | 8 kênh, mỗi kênh cấu hình độc lập: 0-10V / 4-20mA / PT100 / PT1000 / NTC 10K | Đa năng — 1 module thay 3 loại |
 | **Do phan giai** | 16-bit hieu dung (tu 24-bit voi oversampling + filter) | Tuong duong Siemens/Schneider |
-| **Do chinh xac** | ±0,1% FS (Full Scale) tai 25 do C | Dat chuan cong nghiep |
+| **Do chinh xac** | ±0,1% FS (Full Scale) tại 25 độ C | Đạt chuẩn công nghiệp |
 | **Toc do lay mau** | 10 Hz/kenh (mac dinh), toi da 100 Hz/kenh | Du cho BMS, nhanh cho SCADA |
 | **Bao ve** | Isolation 2,5 kV, TVS, chong set | |
 | **Giao tiep** | RS485 Modbus RTU + BACnet MS/TP | |
 | **Nguon** | 24VDC, < 4W | |
-| **Gia muc tieu** | 100-150 USD [A] | Honeywell tuong duong: 220-350 USD |
+| **Giá mục tiêu** | 100-150 USD [A] | Honeywell tương đương: 220-350 USD |
 
 **d) MK-EIO-AO4 — Expansion Analog Output 4 kenh**
 
@@ -1604,7 +1655,7 @@ Giai phap: Module I/O mo rong (Expansion I/O) ket noi qua bus RS485 voi Gateway 
 | **Drive capability** | 0-10V: tai > 2 kOhm; 4-20mA: tai < 500 Ohm | Du cho day cap 500m |
 | **Giao tiep** | RS485 Modbus RTU + BACnet MS/TP | |
 | **Nguon** | 24VDC, < 3W | |
-| **Gia muc tieu** | 80-120 USD [A] | Delta tuong duong: 150-200 USD |
+| **Giá mục tiêu** | 80-120 USD [A] | Delta tương đương: 150-200 USD |
 
 **e) MK-EIO-UI8 — Universal Input 8 kenh**
 
@@ -1612,12 +1663,12 @@ Giai phap: Module I/O mo rong (Expansion I/O) ket noi qua bus RS485 voi Gateway 
 |---|---|---|
 | **MCU** | STM32F407VG + multiplexer + ADC ADS1278 | |
 | **Input** | 8 kenh, moi kenh TU DONG NHAN DIEN tin hieu: DI (24VDC), AI Voltage (0-10V), AI Current (4-20mA), Resistance (PT100/PT1000/NTC) | San pham doc quyen Mekong |
-| **Auto-sensing** | Firmware tu dong do tro khang, dien ap, dong dien de xac dinh loai tin hieu | Giam 80% thoi gian cau hinh |
+| **Auto-sensing** | Firmware tự động đo trở kháng, điện áp, dòng điện để xác định loại tín hiệu | Giảm 80% thời gian cấu hình |
 | **Do chinh xac** | ±0,15% FS (AI mode), ±0,5 do C (RTD mode) | |
 | **Giao tiep** | RS485 Modbus RTU + BACnet MS/TP | |
 | **Nguon** | 24VDC, < 5W | |
-| **Gia muc tieu** | 120-180 USD [A] | Siemens PXA40-T: 300-400 USD |
-| **Loi the** | Giam so luong module can mua — 1 UI8 thay cho 1 DI + 1 AI | Tiet kiem chi phi va khong gian tu dien |
+| **Giá mục tiêu** | 120-180 USD [A] | Siemens PXA40-T: 300-400 USD |
+| **Loi the** | Giam so luong module can mua — 1 UI8 thay cho 1 DI + 1 AI | Tiết kiệm chi phí và không gian tủ điện |
 
 #### Kien truc Ket noi I/O Mo rong
 
@@ -1637,15 +1688,15 @@ Tu dien BMS tang 1:
 |   |   |— MK-EIO-DI16 #3 (thang may, ATS)          |
 |   |   |— MK-EIO-DO16 #2 (relay dieu khien)         |
 |   |                                                |
-|   Tong: 9 module × 8-16 kenh = 104-144 diem I/O   |
+|   Tổng: 9 module × 8-16 kênh = 104-144 điểm I/O   |
 +--------------------------------------------------+
 ```
 
 > **So sanh:** Voi Siemens Desigo PXC, cau hinh tuong tu (9 module I/O + 1 controller) co gia 4.000-6.000 USD. Voi Mekong (9 x MK-EIO ~100 USD + 1 MK-DDC-24 ~350 USD), tong chi phi chi 1.250-1.550 USD — **tiet kiem 60-75%** [C].
 
-#### San xuat va Dong bo Day chuyen
+#### Sản xuất và Đồng bộ Dây chuyền
 
-Module MK-EIO san xuat tren **cung day chuyen SMT Panasonic NPM-D3** da dung de san xuat IoT Gateway MK-200/MK-300. Quy trinh tuong tu:
+Module MK-EIO sản xuất trên **cùng dây chuyền SMT Panasonic NPM-D3** đã dùng để sản xuất IoT Gateway MK-200/MK-300. Quy trình tương tự:
 1. PCB Paste printing (cung may in)
 2. SMT placement (cung NPM-D3, chi doi chuong trinh)
 3. Reflow soldering (cung lo Reflow)
@@ -1661,11 +1712,11 @@ Cong suat san xuat: 8.000 module/nam (1 ca, 250 ngay) [C — dua tren cycle time
 
 #### Tong quan
 
-DDC (Direct Digital Controller) la "bo nao" cua he thong BMS, chiu trach nhiem dieu khien truc tiep cac he thong ky thuat trong toa nha: HVAC (Heating, Ventilation, Air Conditioning), chieu sang, thang may, bom nuoc, PCCC... Moi tang hoac moi khu vuc cua toa nha co 1-2 DDC controller, ket noi voi cac module I/O de doc cam bien va dieu khien thiet bi.
+DDC (Direct Digital Controller) là "bộ não" của hệ thống BMS, chịu trách nhiệm điều khiển trực tiếp các hệ thống kỹ thuật trong tòa nhà: HVAC (Heating, Ventilation, Air Conditioning), chiếu sáng, thang máy, bơm nước, PCCC... Mỗi tầng hoặc mỗi khu vực của tòa nhà có 1-2 DDC controller, kết nối với các module I/O để đọc cảm biến và điều khiển thiết bị.
 
 DDC la san pham co gia tri cao nhat trong he sinh thai BMS vi:
 - La thiet bi BAT BUOC trong moi du an BMS (khong the thieu)
-- Khach hang bi "lock-in" vao hang san xuat DDC (kho chuyen doi)
+- Khách hàng bị "lock-in" vào hãng sản xuất DDC (khó chuyển đổi)
 - Doanh thu bao tri, nang cap firmware, ho tro ky thuat theo DDC
 - Bien loi nhuan cao: 50-60% gross margin (vi firmware la gia tri chinh)
 
@@ -1673,13 +1724,13 @@ DDC la san pham co gia tri cao nhat trong he sinh thai BMS vi:
 
 | Thong so | MK-DDC-24 | MK-DDC-64 |
 |---|---|---|
-| **Phan khuc** | BMS tang don, AHU, chiller plant, bom nuoc | BMS toa nha lon, nha may, datacenter |
+| **Phan khuc** | BMS tầng đơn, AHU, chiller plant, bơm nước | BMS tòa nhà lớn, nhà máy, datacenter |
 | **CPU** | ARM Cortex-M7 (STM32H743, 480 MHz) | ARM Cortex-A55 quad-core, 1,8 GHz (**DUNG LAI PLATFORM MK-200**) |
 | **RAM** | 1 MB SRAM + 2 MB Flash (on-chip) | 4 GB LPDDR4 + 32 GB eMMC (**DUNG LAI TU MK-200**) |
-| **I/O tich hop** | 8 UI + 4 AO + 6 DO + 6 DI = **24 diem** | 16 UI + 8 AO + 16 DO + 24 DI = **64 diem** |
-| **Mo rong** | 2 cong RS485 (toi da 32 module/bus = **+256 diem**) | 4 RS485 + 2 Ethernet (toi da 128 module = **+1.024 diem**) |
+| **I/O tich hop** | 8 UI + 4 AO + 6 DO + 6 DI = **24 điểm** | 16 UI + 8 AO + 16 DO + 24 DI = **64 điểm** |
+| **Mo rong** | 2 cong RS485 (tối đa 32 module/bus = **+256 điểm**) | 4 RS485 + 2 Ethernet (toi da 128 module = **+1.024 điểm**) |
 | **Tong diem toi da** | 24 + 256 = **280 diem** | 64 + 1.024 = **1.088 diem** |
-| **Giao thuc** | BACnet MS/TP (native) + Modbus RTU + MQTT | BACnet IP + BACnet MS/TP + OPC UA + Modbus TCP/RTU + MQTT |
+| **Giao thức** | BACnet MS/TP (native) + Modbus RTU + MQTT | BACnet IP + BACnet MS/TP + OPC UA + Modbus TCP/RTU + MQTT |
 | **Lap trinh** | IEC 61131-3 Function Block Diagram (FBD) | IEC 61131-3 FBD + Structured Text + Python scripting + Node-RED |
 | **Web server** | Co — trang cau hinh, giam sat, trending | Co — day du BMS mini (dashboard, alarm, trend, schedule) |
 | **Display** | LCD 2,4" (tuy chon) | LCD 4,3" mau cam ung (tuy chon) |
@@ -1689,41 +1740,41 @@ DDC la san pham co gia tri cao nhat trong he sinh thai BMS vi:
 | **Nhiet do** | -10 den +55 do C | -20 den +60 do C |
 | **Lap dat** | DIN rail hoac gan tuong | DIN rail, 19" rack mount (1U), hoac gan tuong |
 | **Kich thuoc** | 200 x 120 x 60 mm | 300 x 180 x 70 mm |
-| **Gia muc tieu** | 250-400 USD [A] | 500-800 USD [A] |
+| **Giá mục tiêu** | 250-400 USD [A] | 500-800 USD [A] |
 | **Doi thu** | Siemens PXC4 (600-1.000 USD), Schneider SmartX (500-900 USD) | Siemens PXC7 (1.200-2.000 USD), Schneider AS-P (1.000-1.800 USD) |
 
-#### Diem Then Chot: MK-DDC-64 Dung Lai Platform MK-200
+#### Điểm Then Chốt: MK-DDC-64 Dùng Lại Platform MK-200
 
 Day la yeu to quyet dinh tinh kha thi cua du an BMS/SCADA:
 
-| Thanh phan | MK-200 Gateway | MK-DDC-64 Controller | Muc do tai su dung |
+| Thành phần | MK-200 Gateway | MK-DDC-64 Controller | Mức độ tái sử dụng |
 |---|---|---|---|
 | CPU board | ARM Cortex-A55, 4 GB RAM, 32 GB eMMC | **GIONG HOAN TOAN** | 100% |
 | Communication | WiFi, BLE, 4G, Ethernet, RS485 | **GIONG** (bo 4G, them RS485) | 85% |
 | Power supply | 12-48VDC, 15W | **GIONG** | 100% |
 | Vo hop (enclosure) | IP65 industrial | Thay doi: IP20 DIN-rail | 30% (khac) |
-| I/O board | 25 diem co dinh | **MOI** — 64 diem, BACnet-ready | 0% (thiet ke moi) |
+| I/O board | 25 diem co dinh | **MOI** — 64 điểm, BACnet-ready | 0% (thiet ke moi) |
 | Firmware | MekongOS Agent (MQTT/OPC UA) | **MOI** — MekongDDC (BACnet/IEC 61131-3) | 40% (tai su dung kernel + driver) |
 
-**Ket luan:** MK-DDC-64 tai su dung ~60-70% phan cung va ~40% phan mem tu MK-200. Chi phi R&D phu troi chi la thiet ke I/O board moi + phat trien firmware BACnet + lap trinh IEC 61131-3 runtime — uoc tinh 120K USD va 12-18 thang [A].
+**Kết luận:** MK-DDC-64 tái sử dụng ~60-70% phần cứng và ~40% phần mềm từ MK-200. Chi phí R&D phụ trội chỉ là thiết kế I/O board mới + phát triển firmware BACnet + lập trình IEC 61131-3 runtime — ước tính 120K USD và 12-18 tháng [A].
 
 #### Ung dung Tieu bieu DDC
 
-| Ung dung | San pham DDC | So diem dieu khien | Giai phap |
+| Ứng dụng | Sản phẩm DDC | Số điểm điều khiển | Giải pháp |
 |---|---|---:|---|
 | AHU Control (1 AHU) | MK-DDC-24 | 18-24 | Do nhiet do, do am, ap suat → Dieu khien van nuoc lanh, quat, damper |
 | Chiller Plant (1 cum Chiller) | MK-DDC-24 + 4x EIO | 60-80 | Dieu khien 2-3 chiller, bom nuoc lanh, cooling tower |
 | BMS 1 tang van phong | MK-DDC-64 + 8x EIO | 150-200 | HVAC + chieu sang + dien + nuoc + bao chay |
 | BMS toa nha 10 tang | 10x MK-DDC-24 + 1x MK-DDC-64 (server) | 1.500-2.500 | Moi tang 1 DDC-24, DDC-64 lam trung tam |
-| SCADA nha may | 2x MK-DDC-64 + 20x EIO | 500-1.000 | Giam sat day chuyen, dieu khien tu dong |
+| SCADA nha may | 2x MK-DDC-64 + 20x EIO | 500-1.000 | Giám sát dây chuyền, điều khiển tự động |
 
 ---
 
-### 2.2.4. Gateway Chuyen dung (Dong MK-GW)
+### 2.2.4. Gateway Chuyên dụng (Dòng MK-GW)
 
 #### Tong quan
 
-Trong mot toa nha hoac nha may hien dai, co rat nhieu giao thuc truyen thong khac nhau cung ton tai: BACnet (BMS), Modbus (dien, nuoc, HVAC), KNX (chieu sang, rem cua), DALI (dieu khien den), PROFINET (PLC cong nghiep), EtherCAT (servo/robot)... Cac gateway chuyen dung la "phien dich vien" ket noi cac he thong nay vao 1 nen tang quan ly duy nhat.
+Trong một tòa nhà hoặc nhà máy hiện đại, có rất nhiều giao thức truyền thông khác nhau cùng tồn tại: BACnet (BMS), Modbus (điện, nước, HVAC), KNX (chiếu sáng, rèm cửa), DALI (điều khiển đèn), PROFINET (PLC công nghiệp), EtherCAT (servo/robot)... Các gateway chuyên dụng là "phiên dịch viên" kết nối các hệ thống này vào 1 nền tảng quản lý duy nhất.
 
 Hien nay, khach hang phai mua 5-6 gateway tu 5-6 hang khac nhau (Intesis, Loytec, HMS, Weinzierl...) de tich hop. Mekong cung cap dong san pham gateway thong nhat, giao dien cau hinh giong nhau, giam thoi gian commissioning 40-60%.
 
@@ -1739,17 +1790,17 @@ Hien nay, khach hang phai mua 5-6 gateway tu 5-6 hang khac nhau (Intesis, Loytec
 | **Cau hinh** | Web-based (HTML5), khong can phan mem rieng | Truy cap bang trinh duyet |
 | **CPU** | ARM Cortex-M7 (STM32H7) | |
 | **Nguon** | 24VDC hoac PoE (802.3af) | Linh hoat lap dat |
-| **Gia muc tieu** | 150-250 USD [A] | Loytec L-ROC: 400-600 USD |
+| **Giá mục tiêu** | 150-250 USD [A] | Loytec L-ROC: 400-600 USD |
 
 **b) MK-GW-MOD — Modbus Multi-port Gateway**
 
 | Thong so | Gia tri | Ghi chu |
 |---|---|---|
-| **Chuc nang** | 4x RS485 Modbus RTU → Modbus TCP + OPC UA + BACnet IP | Chuyen doi thiet bi cu vao he thong moi |
-| **Cong RS485** | 4 cong doc lap (moi cong 32 slave, tong 128 thiet bi) | Nhieu hon doi thu (thuong 1-2 cong) |
+| **Chuc nang** | 4x RS485 Modbus RTU → Modbus TCP + OPC UA + BACnet IP | Chuyển đổi thiết bị cũ vào hệ thống mới |
+| **Cong RS485** | 4 cổng độc lập (mỗi cổng 32 slave, tổng 128 thiết bị) | Nhiều hơn đối thủ (thường 1-2 cổng) |
 | **Protocol mapping** | Cau hinh bang template (co san 100+ template cho dong ho, VFD, PLC) | Giam 70% thoi gian cau hinh |
 | **CPU** | ARM Cortex-A55 (dua tren platform MK-200 lite) | |
-| **Gia muc tieu** | 120-200 USD [A] | HMS Anybus: 250-400 USD |
+| **Giá mục tiêu** | 120-200 USD [A] | HMS Anybus: 250-400 USD |
 | **Ung dung** | Ket noi dong ho dien Schneider/ABB, VFD Danfoss, PLC Siemens vao BMS | |
 
 **c) MK-GW-KNX — KNX/IP Gateway**
@@ -1760,7 +1811,7 @@ Hien nay, khach hang phai mua 5-6 gateway tu 5-6 hang khac nhau (Intesis, Loytec
 | **KNX** | 1 line KNX TP (64 device), KNX/IP tunneling | |
 | **BACnet** | BACnet IP server, expose KNX datapoint thanh BACnet object | Tu dong map |
 | **Cau hinh** | Web-based + ETS plugin (phan mem KNX chuan) | Tuong thich he sinh thai KNX |
-| **Gia muc tieu** | 200-350 USD [A] | Weinzierl KNX IP: 350-500 USD |
+| **Giá mục tiêu** | 200-350 USD [A] | Weinzierl KNX IP: 350-500 USD |
 | **Ung dung** | Toa nha co he thong chieu sang KNX (Zumtobel, JUNG, Gira) muon tich hop vao BMS Mekong |
 
 **d) MK-GW-DALI — DALI-2 Lighting Gateway**
@@ -1771,7 +1822,7 @@ Hien nay, khach hang phai mua 5-6 gateway tu 5-6 hang khac nhau (Intesis, Loytec
 | **Interface** | BACnet IP + MQTT + REST API | Tich hop vao BMS hoac IoT Cloud |
 | **Chuc nang nang cao** | Scheduling (lich hen), Daylight harvesting (tu dong dim theo anh sang), Occupancy control (cam bien hien dien), Emergency lighting test | Day du tinh nang DALI-2 Application Controller |
 | **Nguon DALI** | Tich hop PSU 250mA cho moi line DALI | Khong can nguon DALI ngoai |
-| **Gia muc tieu** | 180-300 USD [A] | Tridonic DALI Gateway: 300-500 USD |
+| **Giá mục tiêu** | 180-300 USD [A] | Tridonic DALI Gateway: 300-500 USD |
 | **Ung dung** | Toa nha van phong, khach san, benh vien can dieu khien chieu sang thong minh |
 
 #### Gia tri Cua Dong Gateway Thong nhat
@@ -1789,10 +1840,10 @@ Hien nay, khach hang phai mua 5-6 gateway tu 5-6 hang khac nhau (Intesis, Loytec
 
 Hien tai MekongOS (phan 2.2.9) la nen tang IoT Cloud — tap trung vao **giam sat** (monitoring) thiet bi IoT va robot. De tro thanh nha cung cap BMS/SCADA toan dien, Mekong phat trien them 3 san pham phan mem:
 
-| San pham | Phan khuc | Mo ta | Mo hinh ban |
+| Sản phẩm | Phân khúc | Mô tả | Mô hình bán |
 |---|---|---|---|
-| **MekongBMS** | Toa nha thuong mai | Phan mem quan ly toa nha (Building Management Software) | License per-point + SaaS |
-| **MekongSCADA** | Nha may cong nghiep | Phan mem giam sat va dieu khien nha may (SCADA) | License per-tag + On-premise |
+| **MekongBMS** | Tòa nhà thương mại | Phần mềm quản lý tòa nhà (Building Management Software) | License per-point + SaaS |
+| **MekongSCADA** | Nhà máy công nghiệp | Phần mềm giám sát và điều khiển nhà máy (SCADA) | License per-tag + On-premise |
 | **MekongET** | Ky su BMS/SCADA | Cong cu cau hinh, lap trinh, commissioning DDC va I/O | Mien phi (di kem san pham) |
 
 #### a) MekongBMS — Phan mem Quan ly Toa nha
@@ -1812,42 +1863,42 @@ Hien tai MekongOS (phan 2.2.9) la nen tang IoT Cloud — tap trung vao **giam sa
 | Tinh nang | Mo ta | Loi the so voi doi thu |
 |---|---|---|
 | **Graphic Editor** | Ve so do mat bang (floor plan), P&ID, keo tha thiet bi | WYSIWYG, vay moi ky su VN deu su dung duoc |
-| **Alarm Management** | Phan loai alarm (Critical/Major/Minor), escalation, SMS/email/push | Thong bao bang tieng Viet, phan quyen theo vai tro |
-| **Trend Logging** | Luu du lieu lich su (1 phut/diem), ve do thi, xuat Excel/CSV | Luu tru tren MekongOS Cloud (khong gioi han dung luong) |
+| **Alarm Management** | Phân loại alarm (Critical/Major/Minor), escalation, SMS/email/push | Thông báo bằng tiếng Việt, phân quyền theo vai trò |
+| **Trend Logging** | Lưu dữ liệu lịch sử (1 phút/điểm), vẽ đồ thị, xuất Excel/CSV | Lưu trữ trên MekongOS Cloud (không giới hạn dung lượng) |
 | **Scheduling** | Lich dieu khien HVAC/den theo gio/ngay/mua/ngay le | Lich Viet Nam co san (Tet, le 30/4...) |
 | **Report tự dong** | Tao bao cao PDF/Excel tu dong (nang luong, su co, hieu suat) | Template bao cao tieng Viet chuan |
 | **Multi-site** | Quan ly nhieu toa nha tu 1 giao dien | Cho nha quan ly BDS, tap doan |
 | **Tieng Viet 100%** | Giao dien, bao cao, alarm deu bang tieng Viet | Doi thu (Siemens, Schneider, Honeywell): KHONG co tieng Viet |
 | **Mobile App** | iOS + Android (React Native) | Nhan alarm, xem dashboard tren dien thoai |
-| **AI Energy** | Du doan tieu thu nang luong, de xuat tiet kiem | Tich hop AI tu MekongOS Engine |
+| **AI Energy** | Dự đoán tiêu thụ năng lượng, đề xuất tiết kiệm | Tích hợp AI từ MekongOS Engine |
 
 **Mo hinh Ban hang:**
 
-| Goi | So diem BMS | Gia license (USD) | Gia SaaS/thang (USD) | Doi tuong |
+| Gói | Số điểm BMS | Giá license (USD) | Giá SaaS/tháng (USD) | Đối tượng |
 |---|---:|---:|---:|---|
 | Starter | 1-200 | 1.500 | 200 | Toa nha nho, mat bang ban le |
 | Professional | 201-1.000 | 5.000 | 500 | Toa nha van phong, khach san |
-| Enterprise | 1.001-5.000 | 15.000 | 800 | Toa nha lon, BV, truong hoc |
-| Campus | 5.001-20.000 | Thuong luong | 1.500 | Khu do thi, tap doan, campus |
+| Enterprise | 1.001-5.000 | 15.000 | 800 | Tòa nhà lớn, BV, trường học |
+| Campus | 5.001-20.000 | Thương lượng | 1.500 | Khu đô thị, tập đoàn, campus |
 
-*[A — Gia dua tren benchmark: Siemens Desigo CC 3-8 USD/diem, Honeywell Niagara 5-10 USD/diem. Mekong dinh gia 1-3 USD/diem, thap hon 50-70%]*
+*[A — Giá dựa trên benchmark: Siemens Desigo CC 3-8 USD/điểm, Honeywell Niagara 5-10 USD/điểm. Mekong định giá 1-3 USD/điểm, thấp hơn 50-70%]*
 
-**Diem Khac Biet Lon:** MekongBMS chay duoc tren MK-DDC-64 (on-premise, khong can may chu rieng) **HOAC** tren MekongOS Cloud (SaaS) — khach hang tu chon. Doi thu nhu Siemens Desigo dan can may chu Windows rieng, tang chi phi 3.000-5.000 USD.
+**Điểm Khác Biệt Lớn:** MekongBMS chạy được trên MK-DDC-64 (on-premise, không cần máy chủ riêng) **HOẶC** trên MekongOS Cloud (SaaS) — khách hàng tự chọn. Đối thủ như Siemens Desigo cần máy chủ Windows riêng, tăng chi phí 3.000-5.000 USD.
 
-#### b) MekongSCADA — Phan mem Giam sat Cong nghiep
+#### b) MekongSCADA — Phần mềm Giám sát Công nghiệp
 
 | Tinh nang | Mo ta |
 |---|---|
-| **Giao thuc** | OPC UA, Modbus TCP/RTU, PROFINET, EtherCAT, BACnet, MQTT | 
+| **Giao thức** | OPC UA, Modbus TCP/RTU, PROFINET, EtherCAT, BACnet, MQTT | 
 | **Tag capacity** | 10.000-100.000 tag (tuy license) |
 | **HMI** | Web-based, SVG graphics, P&ID interactive |
 | **Historian** | TimescaleDB, luu tru 5+ nam, compression 10:1 |
-| **AI tich hop** | Predictive maintenance (du doan hong hoc), anomaly detection (phat hien bat thuong), energy optimization | 
-| **Digital Twin** | Mo phong day chuyen san xuat, toi uu hoa throughput |
-| **Reporting** | Bao cao nang luong ISO 50001, OEE, SPC |
-| **Gia muc tieu** | 3.000-20.000 USD tuy quy mo [A] | 
+| **AI tich hop** | Predictive maintenance (dự đoán hỏng hóc), anomaly detection (phát hiện bất thường), energy optimization | 
+| **Digital Twin** | Mô phỏng dây chuyền sản xuất, tối ưu hóa throughput |
+| **Reporting** | Báo cáo năng lượng ISO 50001, OEE, SPC |
+| **Giá mục tiêu** | 3.000-20.000 USD tuy quy mo [A] | 
 
-*[A — Wonderware InTouch: 15.000-50.000 USD, Ignition: 5.000-30.000 USD. Mekong dinh vi phan khuc tam trung]*
+*[A — Wonderware InTouch: 15.000-50.000 USD, Ignition: 5.000-30.000 USD. Mekong định vị phân khúc tầm trung]*
 
 #### c) MekongET — Engineering Tool
 
@@ -2220,6 +2271,73 @@ Chi tiết tại Mục 2.2.5.
 
 *[C — Dựa trên 50 Rack, pre-lease strategy: LOI từ Q1/2028. Khi occupancy > 85%, chuyển sang lease GPU Cloud cho đơn hàng vượt capacity]*
 
+### 2.4.6. Dich vu Phan mem va R&D Phan mem (Software Services)
+
+Tan dung ha tang Datacenter, GPU cluster, va doi ngu R&D Lab (Tang 3 — 1.500 m2) da co san, Mekong bo sung 3 dich vu phan mem nham mo rong co hoi kinh doanh cho Tru cot 3 ma **KHONG phat sinh CAPEX bo sung**. Toan bo chi phi la OPEX nhan su (nam trong ngan sach R&D 5-8% doanh thu).
+
+#### A. MekongSoft — Phát triển Phần mềm theo Yêu cầu (Custom Software Development)
+
+| Thong so | Gia tri |
+|---|---|
+| **Doi tuong khach hang** | DN trong KCNC can custom MES, ERP module, dashboard, API integration |
+| **Quy mo thi truong** | ~50 DN tiềm năng trong KCNC, ~200 DN FDI khu vực phía Nam |
+| **Mo hinh kinh doanh** | Hop dong du an (T&M hoac Fixed Price), 3-12 thang/du an |
+| **Gia trung binh** | 30.000-80.000 USD/du an (tuy quy mo) |
+| **Cong suat** | 20-30 dự án/năm (doi 5-8 developer) |
+| **Doanh thu mục tiêu (ổn định)** | 0,80 M USD/năm |
+| **VA** | 75% [A] (chi phí chính: nhân sự, không có nguyên vật liệu) |
+| **Co so phap ly** | QD 38/2020, Phụ lục II, Mục 1.2 (Phan mem ung dung CNC) |
+
+**Loi the canh tranh:** Phan mem duoc phat trien va hosting truc tiep tren DC noi bo (latency < 1ms den khach hang trong KCNC), tich hop san voi he sinh thai IoT/BMS cua Mekong, ho tro tieng Viet 100%.
+
+**Quy trinh:**
+1. Khao sat nhu cau khach hang (1-2 tuan)
+2. Proposal + Prototype (2-4 tuan)
+3. Phat trien + Testing (2-6 thang)
+4. Trien khai + Dao tao (2-4 tuan)
+5. Bao tri + Nang cap (hop dong hang nam, 15-20% gia tri du an)
+
+#### B. Managed Application Platform (PaaS)
+
+| Thong so | Gia tri |
+|---|---|
+| **Doi tuong khach hang** | DN can hosting + van hanh ung dung tren ha tang on dinh, bao mat |
+| **Dich vu** | CI/CD pipeline, container orchestration (K8s), monitoring, auto-scale, backup |
+| **Giá** | 500-2.000 USD/tháng/tenant (tùy tài nguyên) |
+| **Cong suat** | 30-50 tenant dong thoi |
+| **Doanh thu mục tiêu (ổn định)** | 0,50 M USD/năm |
+| **VA** | 65% [A] |
+| **Co so phap ly** | QD 38/2020, Phụ lục I, Mục 1.2 (Ha tang CNTT CNC) |
+
+**Loi the:** Su dung ha tang DC Tier III san co (uptime 99,982%), tich hop voi SOC 24/7 va Managed Firewall — khach hang khong can tu van hanh server.
+
+#### C. Dịch vụ Huấn luyện AI/ML Model (AI Model Training Service)
+
+| Thong so | Gia tri |
+|---|---|
+| **Doi tuong khach hang** | AI startup, phong R&D ban dan, DN can Computer Vision / NLP / Predictive Maintenance |
+| **GPU cluster** | NVIDIA DGX H100 (da co), A100 Pool |
+| **Mo hinh kinh doanh** | Du an (50.000-150.000 USD) hoac Retainer thang (5.000-15.000 USD) |
+| **Cong suat** | 15-25 dự án/năm |
+| **Doanh thu mục tiêu (ổn định)** | 0,70 M USD/năm |
+| **VA** | 70% [A] (chi phi: nhan su AI/ML + GPU compute time) |
+| **Co so phap ly** | QD 38/2020, Phụ lục I, Mục 1.3 (AI va Dien toan CNC) |
+
+**Lợi thế:** GPU on-premise (không phụ thuộc cloud nước ngoài), latency thấp cho dữ liệu nhạy cảm (bán dẫn, quốc phòng), giá cạnh tranh hơn AWS/Azure 30-40% nhờ chia sẻ hạ tầng [A].
+
+#### D. Tom tat Tac dong Dich vu Phan mem
+
+| Chi tieu | Gia tri |
+|---|---|
+| **Tong doanh thu bo sung (on dinh)** | 2,00 M USD/nam |
+| **CAPEX bo sung** | 0 (dung ha tang DC + R&D Lab san co) |
+| **OPEX bo sung** | ~400.000 USD/nam (5-10 nhan su phan mem) |
+| **Loi nhuan gop (Gross Margin)** | ~70% |
+| **Thoi diem bat dau** | Từ Y5 (khi DC đã vận hành) |
+| **Tac dong NPV** | +0,50-1,00 M USD (upside, chua tinh vao Base Case) [A] |
+
+> **Ghi chú quan trọng:** Doanh thu từ 3 dịch vụ phần mềm được ghi nhận là **Upside Potential** trong mô hình tài chính. Base Case (Mục 5.2) giữ nguyên để đảm bảo tính bảo thủ của dự án. Chỉ dựa vào Optimistic scenario nếu có LOI/hợp đồng cụ thể [A].
+
 ---
 
 ## 2.5. Hệ sinh thái Tích hợp 3 Trụ cột
@@ -2241,8 +2359,10 @@ Chi tiết tại Mục 2.2.5.
 | MekongOS trên DC nội bộ (thay vì AWS hosting) | 100.000-200.000 | Chênh lệch cloud hosting cost [A] |
 | Cross-sell FDI (CNC → DC) | 300.000-800.000 | Revenue uplift từ khách hàng chung [A] |
 | IoT giám sát CNC (tăng utilization) | 50.000-100.000 | 5-10% Utilization improvement [A] |
-| **Tổng Synergy Value/năm** | **800.000-1.800.000** | |
-| **NPV Synergy 10 năm (WACC 12%)** | **~2.200.000** | [C] |
+| Software Services cross-sell (DC khach hang → custom dev) | 200.000-400.000 | 30-50% khach hang DC mua them dich vu phan mem [A] |
+| AI Training dung GPU noi bo (thay vi ban GPU-aaS thuan tuy) | 150.000-300.000 | Gia tri gia tang cao hon GPU-aaS 2-3 lan [A] |
+| **Tổng Synergy Value/năm** | **1.050.000-2.500.000** | |
+| **NPV Synergy 10 năm (WACC 12%)** | **~3.000.000** | [C] |
 
 ---
 
@@ -2329,7 +2449,7 @@ Mekong Technology xây dựng 5 phòng thí nghiệm chuyên dụng:
 
 ### 2.7.5. Lo trinh R&D San pham BMS/SCADA (Dong MK-DDC, MK-EIO, MK-GW, MekongBMS)
 
-Mekong Technology bo sung lo trinh phat trien he san pham BMS/SCADA. Toan bo R&D BMS/SCADA duoc thuc hien tu **nam 6 (Y6)** — sau khi doi ngu R&D IoT da on dinh va co kinh nghiem 5 nam san xuat Gateway MK-200/MK-300.
+Mekong Technology bổ sung lộ trình phát triển hệ sản phẩm BMS/SCADA. Toàn bộ R&D BMS/SCADA được thực hiện từ **năm 6 (Y6)** — sau khi đội ngũ R&D IoT đã ổn định và có kinh nghiệm 5 năm sản xuất Gateway MK-200/MK-300.
 
 #### Bang Lo trinh Chi tiet
 
@@ -2337,8 +2457,8 @@ Mekong Technology bo sung lo trinh phat trien he san pham BMS/SCADA. Toan bo R&D
 |:---:|---|---|---|---:|---:|---:|---|:---:|
 | 1 | MK-EIO-DI16 + MK-EIO-DO16 | Q1/Y6 | Q3/Y6 | 9 | 80 | 3 | Dung MCU STM32F4 co san, thiet ke I/O board DI + DO | [A] |
 | 2 | MK-EIO-AI8 + MK-EIO-AO4 + MK-EIO-UI8 | Q2/Y6 | Q4/Y6 | 9 | 100 | 4 | ADC/DAC 16-24 bit phuc tap hon, can calibration | [A] |
-| 3 | MK-DDC-24 (24 diem) | Q1/Y6 | Q2/Y7 | 15 | 150 | 5 | Firmware BACnet MS/TP + IEC 61131-3 FBD runtime + Web UI | [A] |
-| 4 | MK-DDC-64 (64 diem) | Q3/Y6 | Q4/Y7 | 15 | 120 | 4 | Dung lai platform MK-200, thiet ke I/O board moi, them BACnet IP + OPC UA | [A] |
+| 3 | MK-DDC-24 (24 điểm) | Q1/Y6 | Q2/Y7 | 15 | 150 | 5 | Firmware BACnet MS/TP + IEC 61131-3 FBD runtime + Web UI | [A] |
+| 4 | MK-DDC-64 (64 điểm) | Q3/Y6 | Q4/Y7 | 15 | 120 | 4 | Dùng lại platform MK-200, thiết kế I/O board mới, thêm BACnet IP + OPC UA | [A] |
 | 5 | MK-GW-BAC + MK-GW-MOD | Q2/Y6 | Q4/Y6 | 9 | 60 | 2 | Dua tren MK-200 lite (giam I/O, them RS485 ports) | [A] |
 | 6 | MK-GW-KNX + MK-GW-DALI | Q1/Y7 | Q3/Y7 | 9 | 80 | 3 | Can hoc KNX TP stack va DALI-2 stack (open-source co san) | [A] |
 | 7 | MekongBMS v1.0 | Q1/Y6 | Q4/Y7 | 24 | 300 | 8-12 | 8-12 developer (full-stack + embedded), 24 thang, san pham lon nhat | [A] |
@@ -2359,14 +2479,14 @@ Mekong Technology bo sung lo trinh phat trien he san pham BMS/SCADA. Toan bo R&D
 
 > **Nhan dinh:** 1.390K USD cho toan bo he san pham BMS/SCADA la con so hop ly — chi chiem 11,1% tong R&D budget 10 nam. So sanh: Schneider Electric chi ~500M USD/nam cho R&D EcoStruxure; Delta Electronics chi ~200M USD/nam. Mekong chi can 1,4M USD vi **tai su dung 60-70% platform MK-200 da co** va su dung **BACnet open-source stack** thay vi phat trien tu dau [A].
 
-#### Phu thuoc va Rui ro R&D
+#### Phụ thuộc và Rủi ro R&D
 
-| Rui ro | Muc do | Bien phap giam thieu |
+| Rủi ro | Mức độ | Biện pháp giảm thiểu |
 |---|:---:|---|
-| Khong tuyen du ky su BACnet | Cao | Dao tao noi bo tu doi ngu IoT + tuyen 2-3 ky su co kinh nghiem BMS tu Siemens/Schneider VN |
+| Không tuyển đủ kỹ sư BACnet | Cao | Đào tạo nội bộ từ đội ngũ IoT + tuyển 2-3 kỹ sư có kinh nghiệm BMS từ Siemens/Schneider VN |
 | Chung nhan BACnet BTL mat nhieu thoi gian | Trung binh | Nop ho so som tu Q1/Y7, lam viec voi BACnet International tu dau |
-| MekongBMS khong du tinh nang canh tranh Desigo/Niagara | Thap | Tap trung phan khuc tam trung (khong canh tranh toan dien voi high-end) |
-| Day chuyen SMT qua tai khi them EIO + DDC | Thap | EIO va DDC san xuat tren cung day chuyen MK-200, chi can them ca san xuat |
+| MekongBMS không đủ tính năng cạnh tranh Desigo/Niagara | Thấp | Tập trung phân khúc tầm trung (không cạnh tranh toàn diện với high-end) |
+| Dây chuyền SMT quá tải khi thêm EIO + DDC | Thấp | EIO và DDC sản xuất trên cùng dây chuyền MK-200, chỉ cần thêm ca sản xuất |
 
 ---
 
@@ -2657,10 +2777,10 @@ graph TB
     style EIO fill:#f5f5f5,stroke:#2c3e50
 ```
 
-> **Diem then chot thiet ke:** Tat ca 5 module dung cung 1 mainboard (MCU + RS485 + Power), chi thay doi daughter board (I/O front-end). Dieu nay cho phep:
-> - San xuat mainboard hang loat tren 1 day chuyen SMT (giam chi phi 30%)
-> - Flash firmware khac nhau cho tung loai module tai buoc cuoi
-> - Giam so luong PCB layout tu 5 xuong 2 (1 mainboard + 1 daughter board/loai)
+> **Điểm then chốt thiết kế:** Tất cả 5 module dùng cùng 1 mainboard (MCU + RS485 + Power), chỉ thay đổi daughter board (I/O front-end). Điều này cho phép:
+> - Sản xuất mainboard hàng loạt trên 1 dây chuyền SMT (giảm chi phí 30%)
+> - Flash firmware khác nhau cho từng loại module tại bước cuối
+> - Giảm số lượng PCB layout từ 5 xuống 2 (1 mainboard + 1 daughter board/loại)
 
 **Thong so Chung:**
 
@@ -2668,7 +2788,7 @@ graph TB
 |---|---|
 | Giao tiep | RS485, 9.600-115.200 bps, Modbus RTU + BACnet MS/TP (dual) |
 | Dia chi | DIP switch 7-bit (1-127) hoac cau hinh phan mem |
-| Nguon | 24VDC (+/-10%), tieu thu 2-5W tuy model |
+| Nguồn | 24VDC (+/-10%), tiêu thụ 2-5W tùy model |
 | Nhiet do | -20 den +60 do C |
 | Do am | 5-95% RH (khong ngung tu) |
 | Lap dat | DIN rail 35 mm, ket noi daisy-chain, toi da 32 module/bus |
@@ -2679,14 +2799,14 @@ graph TB
 
 ```mermaid
 graph TB
-    subgraph DDC24["MK-DDC-24 DDC Controller — 24 diem"]
+    subgraph DDC24["MK-DDC-24 DDC Controller — 24 điểm"]
         subgraph CPU24["CPU Module"]
             M7["STM32H743<br/>Cortex-M7, 480 MHz"]
             RAM24["1 MB SRAM"]
             FL24["2 MB Flash"]
             RTC24["RTC + Battery<br/>backup"]
         end
-        subgraph IO24["I/O Tich hop — 24 diem"]
+        subgraph IO24["I/O Tich hop — 24 điểm"]
             UI8["8x Universal Input<br/>(DI/AI/RTD auto-sense)"]
             AO4_24["4x Analog Output<br/>0-10V / 4-20mA"]
             DO6["6x Digital Output<br/>Relay 5A"]
@@ -2717,20 +2837,20 @@ graph TB
     style DDC24 fill:#eef7ee,stroke:#27ae60
 ```
 
-> Nguon: 24VDC, <8W | -10 den +55 do C | DIN rail / Wall mount | 200 x 120 x 60 mm | CE/BACnet BTL Listed (muc tieu Y7)
+> Nguồn: 24VDC, <8W | -10 đến +55 độ C | DIN rail / Wall mount | 200 x 120 x 60 mm | CE/BACnet BTL Listed (muc tieu Y7)
 
 ### 2.10.6. MK-DDC-64 — Block Diagram
 
 ```mermaid
 graph TB
-    subgraph DDC64["MK-DDC-64 DDC Controller — 64 diem (Platform MK-200)"]
+    subgraph DDC64["MK-DDC-64 DDC Controller — 64 điểm (Platform MK-200)"]
         subgraph CPU64["CPU Module (= MK-200 CPU Board)"]
             A55["ARM Cortex-A55<br/>Quad-core, 1.8 GHz"]
             RAM64["4 GB LPDDR4"]
             EMMC64["32 GB eMMC"]
             TPM64["TPM 2.0<br/>Secure Boot"]
         end
-        subgraph IO64["I/O Tich hop — 64 diem"]
+        subgraph IO64["I/O Tich hop — 64 điểm"]
             UI16["16x Universal Input"]
             AO8_64["8x Analog Output"]
             DO16_64["16x Digital Output<br/>(8 Relay + 8 Transistor)"]
@@ -2766,13 +2886,13 @@ graph TB
 ```
 
 > **CHI RO PHAN DUNG LAI TU MK-200:**
-> - CPU Module (khung do): **100% giu nguyen** tu MK-200 (ARM Cortex-A55, 4 GB RAM, 32 GB eMMC, TPM 2.0)
+> - CPU Module (khung đỏ): **100% giữ nguyên** từ MK-200 (ARM Cortex-A55, 4 GB RAM, 32 GB eMMC, TPM 2.0)
 > - Power supply: **100% giu nguyen**
-> - Ethernet + WiFi: **85% giu nguyen** (them 1 cong Ethernet)
-> - I/O Board: **THIET KE MOI** — 64 diem BMS-grade (thay vi 25-35 diem IoT cua MK-200)
+> - Ethernet + WiFi: **85% giữ nguyên** (thêm 1 cổng Ethernet)
+> - I/O Board: **THIET KE MOI** — 64 điểm BMS-grade (thay vi 25-35 diem IoT cua MK-200)
 > - Firmware: **40% tai su dung** Linux kernel + driver, viet moi BACnet stack + IEC 61131-3 runtime
 
-> Nguon: 24VDC, <15W | -20 den +60 do C | DIN rail / 19" rack 1U / Wall mount | 300 x 180 x 70 mm | CE, BACnet BTL (muc tieu)
+> Nguồn: 24VDC, <15W | -20 đến +60 độ C | DIN rail / 19" rack 1U / Wall mount | 300 x 180 x 70 mm | CE, BACnet BTL (mục tiêu)
 
 ### 2.10.7. MekongBMS — Kien truc Phan mem (So do 5 tang)
 
@@ -2785,7 +2905,7 @@ graph TB
             REPORT["Report Generator<br/>PDF / Excel"]
             MAP["Floor Plan Editor<br/>SVG + Canvas"]
         end
-        subgraph T4["Tang 4: Logic Nghiep vu (Business Logic)"]
+        subgraph T4["Tầng 4: Logic Nghiệp vụ (Business Logic)"]
             ALARM["Alarm Manager<br/>Escalation + Notification"]
             SCHED_BMS["Scheduler<br/>Lich dieu khien"]
             TREND["Trend Engine<br/>Luu + Hien thi du lieu"]
@@ -2814,7 +2934,7 @@ graph TB
     T3 --> T1
     T4 --> T1
     
-    subgraph FIELD["Thiet bi Truong (Field Devices)"]
+    subgraph FIELD["Thiết bị Trường (Field Devices)"]
         DDC["MK-DDC-24/64"]
         EIO["MK-EIO Modules"]
         GW_F["MK-GW-BAC/MOD/KNX/DALI"]
@@ -2829,13 +2949,13 @@ graph TB
 
 | Nen tang chay | CPU | RAM | Disk | Ghi chu |
 |---|---|---:|---:|---|
-| MK-DDC-64 (on-premise) | ARM Cortex-A55 | 4 GB | 32 GB | Cho toa nha < 1.000 diem — chay truc tiep tren DDC |
-| May chu Linux (on-premise) | x86 4 core | 8 GB | 500 GB | Cho toa nha 1.000-10.000 diem |
+| MK-DDC-64 (on-premise) | ARM Cortex-A55 | 4 GB | 32 GB | Cho tòa nhà < 1.000 điểm — chạy trực tiếp trên DDC |
+| Máy chủ Linux (on-premise) | x86 4 core | 8 GB | 500 GB | Cho tòa nhà 1.000-10.000 điểm |
 | MekongOS Cloud (SaaS) | Auto-scale | Auto-scale | S3 | Cho multi-site, khong gioi han |
 
-### 2.10.8. Ma tran Tuong thich Giao thuc (Protocol Compatibility Matrix)
+### 2.10.8. Ma trận Tương thích Giao thức (Protocol Compatibility Matrix)
 
-Bang duoi day the hien tat ca san pham IoT/BMS cua Mekong ho tro giao thuc nao, cho phep ky su he thong thiet ke giai phap ket noi:
+Bảng dưới đây thể hiện tất cả sản phẩm IoT/BMS của Mekong hỗ trợ giao thức nào, cho phép kỹ sư hệ thống thiết kế giải pháp kết nối:
 
 | San pham | Modbus RTU | Modbus TCP | BACnet MS/TP | BACnet IP | BACnet/SC | OPC UA | MQTT | KNX TP | KNX/IP | DALI-2 | EtherCAT | PROFINET | HTTP/REST |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -2856,16 +2976,19 @@ Bang duoi day the hien tat ca san pham IoT/BMS cua Mekong ho tro giao thuc nao, 
 | **MekongSCADA** | Client | Client | Client | Client | — | Client+Server | Sub+Pub | — | — | — | Monitor | Monitor | Server |
 | **MekongOS Cloud** | — | (qua GW) | — | (qua GW) | — | (qua GW) | Broker | — | — | — | — | — | Server |
 
-> **Huong dan doc bang:** "Slave" = thiet bi tra loi khi duoc hoi; "Master/Client" = thiet bi chu dong hoi/dieu khien; "Server" = cung cap du lieu; "Router" = chuyen tiep giua cac mang; "Gateway" = chuyen doi giao thuc; "(qua GW)" = ho tro gian tiep qua Gateway.
+> **Hướng dẫn đọc bảng:** "Slave" = thiết bị trả lời khi được hỏi; "Master/Client" = thiết bị chủ động hỏi/điều khiển; "Server" = cung cấp dữ liệu; "Router" = chuyển tiếp giữa các mạng; "Gateway" = chuyển đổi giao thức; "(qua GW)" = hỗ trợ gián tiếp qua Gateway.
 
-> **Ghi chu giao thuc BMS quan trong:**
-> - **BACnet** (ASHRAE 135): Giao thuc chuan BMS toan cau. BACnet MS/TP (RS485, cho I/O va DDC), BACnet IP (Ethernet, cho server va integration), BACnet/SC (Secure Connect, phien ban bao mat moi nhat).
-> - **KNX** (EN 50090): Giao thuc chuan chieu sang va dien thong minh tai Chau Au, dang pho bien tai VN.
-> - **DALI-2** (IEC 62386): Giao thuc dieu khien den chuyen dung, tiet kiem 30-50% nang luong so voi on/off.
-> - **OPC UA** (IEC 62541): Giao thuc cong nghiep chuan, ket noi PLC/SCADA/MES/ERP.
+> **Ghi chú giao thức BMS quan trọng:**
+> - **BACnet** (ASHRAE 135): Giao thức chuẩn BMS toàn cầu. BACnet MS/TP (RS485, cho I/O và DDC), BACnet IP (Ethernet, cho server và integration), BACnet/SC (Secure Connect, phiên bản bảo mật mới nhất).
+> - **KNX** (EN 50090): Giao thức chuẩn chiếu sáng và điện thông minh tại Châu Âu, đang phổ biến tại VN.
+> - **DALI-2** (IEC 62386): Giao thức điều khiển đèn chuyên dụng, tiết kiệm 30-50% năng lượng so với on/off.
+> - **OPC UA** (IEC 62541): Giao thức công nghiệp chuẩn, kết nối PLC/SCADA/MES/ERP.
 
 ---
 ---
+
+
+<div style="page-break-before: always;"></div>
 
 # PHẦN III: MÔ HÌNH KINH DOANH
 
@@ -2906,6 +3029,16 @@ Mekong Technology vận hành mô hình doanh thu đa dạng từ 3 trụ cột,
 | 10 | SOC/Cybersecurity | 3 | Giám sát 24/7 | 2% |
 | 11 | Bảo trì Robot (AMR/AGV) | 1 | Hợp đồng bảo trì hàng năm | 3% |
 | 12 | Đào tạo CNC | 2 | Khóa đào tạo cho đối tác | 2% |
+
+### Nhom 5: Doanh thu Dich vu Phan mem (Software Services Revenue)
+
+| # | Nguon | Tru cot | Mo hinh | Ty trong Y5 |
+|:---:|---|:---:|---|---:|
+| 13 | MekongSoft — Custom Software Dev | 3 | Hop dong du an (T&M / Fixed Price) | 2% |
+| 14 | Managed Application Platform (PaaS) | 3 | Thue bao thang | 1% |
+| 15 | Dịch vụ Huấn luyện AI/ML Model | 3 | Du an + Retainer | 2% |
+
+> **Ghi chú:** Nhóm 5 bắt đầu từ Y5 (khi DC vận hành). Tỷ trọng Y5 ước tính ~5% tổng doanh thu. Doanh thu này được ghi nhận là **Upside Potential** — chưa tính vào Base Case tài chính (Mục 5.2) để đảm bảo tính bảo thủ. Chi phí OPEX bổ sung ~400K USD/năm (nhân sự phần mềm) nằm trong ngân sách R&D [A].
 
 ### Cơ cấu Doanh thu theo Năm
 
@@ -3576,6 +3709,9 @@ xychart-beta
 
 ---
 ---
+
+
+<div style="page-break-before: always;"></div>
 
 # PHẦN IV: HẠ TẦNG KỸ THUẬT VÀ THIẾT KẾ CƠ SỞ VẬT CHẤT
 
@@ -4410,6 +4546,9 @@ graph TB
 ---
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHẦN V: TÀI CHÍNH VÀ ĐẦU TƯ
 
 ---
@@ -4711,12 +4850,12 @@ Ngoài NPV tài chính thuần túy (2,50M USD trên horizon 50Y), dự án Meko
 | **NPV tài chính (DCF 50Y)** | 2,50 | DCF, WACC 12% | [C] |
 | **Real Options Value** | 3,00 | Black-Scholes | Quyền mở rộng DC lên 200+ Rack (lease GPU Phase 2), quyền mở rộng CNC [C] |
 | **Barrier to Entry** | 2,00 | Cost-to-replicate | Đối thủ cần >50M USD + 5 năm để tái tạo hệ sinh thái 3 trụ cột [A] |
-| **Synergy Premium** | 1,50 | NPV Synergy Cash Flow | Ma trận cộng hưởng 3 trụ cột (~0,5-1,2M/năm) [C] |
-| **Platform/Ecosystem Value** | 3,00 | Revenue multiple | MekongOS platform + KCNC ecosystem lock-in [A] |
+| **Synergy Premium** | 2,00 | NPV Synergy Cash Flow | Ma trận cộng hưởng 3 trụ cột + Software Services (~1,0-2,5M/năm) [C] |
+| **Platform/Ecosystem Value** | 3,50 | Revenue multiple | MekongOS platform + KCNC ecosystem lock-in + Software Services portfolio [A] |
 | **Ưu đãi thuế KCNC** | 5,00 | NPV thuế tiết kiệm | CIT 10% × 15Y, miễn 4Y, giảm 50% × 9Y [C] |
 | **Miễn thuê đất 11Y** | 1,00 | PV tiết kiệm | 120K/năm × 11 năm, PV [C] |
-| **Tổng Giá trị Chiến lược** | **~14,00** | | |
-| **Strategic Value / CAPEX** | **43,8%** | 14,00 / 32,00 | [C] |
+| **Tổng Giá trị Chiến lược** | **~15,00** | | |
+| **Strategic Value / CAPEX** | **46,9%** | 15,00 / 32,00 | [C] |
 
 ---
 
@@ -5100,7 +5239,7 @@ gantt
 | **Revenue Y8** | ~15,00M USD | [C] | IoT 3,0 + CNC 4,0 + DC 8,0 |
 | **Revenue Y12 Steady** | ~21,00M USD | [C] | Steady-state 3 BU |
 | **Revenue 15Y cumulative** | ~180,00M USD | [C] | Sum Y4-Y18 |
-| **Strategic Value** | ~14,00M USD | [C] | NPV + option + barrier + synergy + ecosystem + thuê đất |
+| **Strategic Value** | ~15,00M USD | [C] | NPV + option + barrier + synergy + ecosystem + software svc + thuê đất |
 | **DSCR minimum** | 1,42x (Y7 — năm đầu gốc + lãi) | [C] | > 1,20x covenant → đạt, xem §5.5.2 |
 | **Breakeven Revenue** | ~8-9M USD/năm | [C] | ~55% utilization |
 | **Breakeven Year** | Y7-Y8 (EBIT), Y10 (discounted payback) | [C] | |
@@ -5121,6 +5260,9 @@ gantt
 
 ---
 ---
+
+
+<div style="page-break-before: always;"></div>
 
 # PHẦN VI: PHÁP LÝ, MÔI TRƯỜNG VÀ AN TOÀN
 
@@ -5527,6 +5669,9 @@ gantt
 ---
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHẦN VII: TỔ CHỨC NHÂN SỰ
 
 ---
@@ -5732,6 +5877,9 @@ flowchart LR
 | DC Infrastructure Eng | UPS, Generator, Cooling, Fire suppression | Uptime Institute ATD | 3 ngày | 2.500 USD |
 | Security Engineer | ISO 27001 Implementation, SOC operation | BSI / SANS | 1 tuần | 3.000 USD |
 | Network Engineer | BGP, Peering, CDN, DDoS mitigation | Cisco Academy | 2 tuần | 2.000 USD |
+| Full-stack Developer | React/Node.js, Python, REST API, CI/CD | Noi bo + Cloud partner | 2 tuan | 1.000 USD |
+| AI/ML Engineer (Software Svc) | PyTorch, TensorFlow, MLOps, Model deployment | NVIDIA DLI + Noi bo | 2 tuan | 2.000 USD |
+| DevOps/Cloud Engineer | Kubernetes, Docker, Terraform, Monitoring | AWS/Azure cert + Noi bo | 2 tuan | 1.500 USD |
 
 **C. Ma trận Đào tạo — IoT/Robot Division:**
 
@@ -5845,6 +5993,9 @@ graph TD
 ---
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHẦN VIII: KẾ HOẠCH TRIỂN KHAI
 
 ---
@@ -5924,6 +6075,8 @@ gantt
 | 12 | ISO 27001 đạt | Q1/2031 | P3 | Chứng chỉ ISO 27001 |
 | 13 | Breakeven Company (EBIT > 0) | Y7–Y8 (2032–2033) | P4 | Tháng đầu tiên EBIT dương |
 | 14 | Full 3 BU Steady-state | ~Y10 (2035) | P4 | Revenue ≥ 19,5M/năm |
+| 15 | Ra mat Dich vu Phan mem (Software Services) | Q3/2030 | P3 | 3 khach hang pilot, doanh thu > 0 |
+| 16 | Software Services dat 5+ khach hang | Q2/2031 | P3-P4 | Doanh thu Software >= 0,30M/nam |
 
 ## 8.3. Quản lý Dự án
 
@@ -6108,6 +6261,9 @@ flowchart LR
 ---
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHẦN IX: KẾT LUẬN VÀ KIẾN NGHỊ
 
 ---
@@ -6127,7 +6283,7 @@ Dự án **Mekong Technology Hub** tại Khu Công nghệ cao TP.HCM là dự á
 | **Revenue Y12 Steady** | ~21,00 M USD | Steady-state |
 | **NPV (50Y, WACC 12%)** | 2,50 M USD | > 0, khả thi |
 | **IRR (50Y)** | 14,5% | > WACC 12% |
-| **Strategic Value** | ~14,00 M USD | Giá trị dài hạn |
+| **Strategic Value** | ~15,00 M USD | Giá trị dài hạn |
 | **Probability NPV > 0 (50Y)** | 72% (>92% tính SV) | Chấp nhận được |
 | **Headcount (Y12 steady)** | ~200 người | Tạo việc làm CNC |
 | **VA trung bình** | 42% | Đạt tiêu chí KCNC |
@@ -6192,7 +6348,7 @@ Công ty TNHH Mekong Technology cam kết:
 
 ## 9.4. Lời kết
 
-Dự án Mekong Technology Hub là minh chứng cho tầm nhìn chiến lược kết hợp 3 trụ cột công nghệ — IoT/Robot, CNC chính xác, và Datacenter AI — tạo thành hệ sinh thái sản xuất thông minh đầu tiên tại Khu Công nghệ cao TP.HCM. Với tổng vốn đầu tư 32,00 triệu USD triển khai trong 8 năm qua 5 giai đoạn, doanh thu ổn định ~21 triệu USD/năm từ Y12, và giá trị chiến lược ~14 triệu USD, dự án không chỉ đem lại hiệu quả kinh tế cho nhà đầu tư mà còn đóng góp thiết thực vào chiến lược phát triển công nghệ cao và công nghiệp hỗ trợ của Việt Nam.
+Dự án Mekong Technology Hub là minh chứng cho tầm nhìn chiến lược kết hợp 3 trụ cột công nghệ — IoT/Robot, CNC chính xác, và Datacenter AI — tạo thành hệ sinh thái sản xuất thông minh đầu tiên tại Khu Công nghệ cao TP.HCM. Với tổng vốn đầu tư 32,00 triệu USD triển khai trong 8 năm qua 5 giai đoạn, doanh thu ổn định ~21 triệu USD/năm từ Y12, và giá trị chiến lược ~15 triệu USD, dự án không chỉ đem lại hiệu quả kinh tế cho nhà đầu tư mà còn đóng góp thiết thực vào chiến lược phát triển công nghệ cao và công nghiệp hỗ trợ của Việt Nam.
 
 Đặc biệt, chiến lược tài chính tự chủ 100% vốn CSH trong 5 năm đầu — không vay ngân hàng giai đoạn xây dựng — và việc hoàn công sổ đỏ ngay Y3 thể hiện năng lực tài chính vững chắc và cam kết dài hạn của nhà đầu tư với KCNC TP.HCM.
 
@@ -6322,7 +6478,7 @@ Theo quy tắc RULE 3 trong Copilot Instructions, bảng dưới đây liệt k�
 | **Revenue Y8** | ~15,00 M USD | 5.2.1-5.2.2, 5.17 |
 | **Revenue Y12 Steady** | ~21,00 M USD | 5.2.1, 5.17 |
 | **Revenue 15Y cumulative** | ~180 M USD | 5.2.1-5.2.2, 5.17 |
-| **Strategic Value** | ~14,00 M USD | 5.7.1, 9.1.1 |
+| **Strategic Value** | ~15,00 M USD | 5.7.1, 9.1.1 |
 | **P(NPV>0) Monte Carlo 50Y** | ~72% | 5.8.2, 9.1.1 |
 | **Thuê đất** | 120K USD/năm, miễn 11Y | 5.3.1, 5.17, PHỤ LỤC Y |
 | **DSCR min (từ Y7)** | 1,42x | 5.5.2, 5.11 |
@@ -6354,9 +6510,15 @@ Dự án Mekong Technology Hub được hoàn thiện với sự hỗ trợ và 
 ---
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # CÁC PHỤ LỤC
 
 ---
+
+
+<div style="page-break-before: always;"></div>
 
 # PHỤ LỤC A: BẢNG TÍNH TÀI CHÍNH CHI TIẾT
 
@@ -6529,6 +6691,9 @@ Dự án Mekong Technology Hub được hoàn thiện với sự hỗ trợ và 
 
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC B: PHÂN TÍCH THỊ TRƯỜNG CHI TIẾT
 
 ---
@@ -6613,6 +6778,9 @@ Dự án Mekong Technology Hub được hoàn thiện với sự hỗ trợ và 
 *[A+B — TAM từ IoT Analytics, SOM là ước tính nội bộ]*
 
 ---
+
+
+<div style="page-break-before: always;"></div>
 
 # PHỤ LỤC C: MẪU VĂN BẢN PHÁP LÝ
 
@@ -6761,6 +6929,9 @@ Trân trọng kính chào.
 
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC D: DANH MỤC MÁY MÓC VÀ THIẾT BỊ CHI TIẾT
 
 ---
@@ -6816,6 +6987,9 @@ Trân trọng kính chào.
 
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC E: THÔNG TIN LIÊN HỆ VÀ CƠ QUAN PHỐI HỢP
 
 ---
@@ -6832,6 +7006,9 @@ Trân trọng kính chào.
 | 8 | NATEC (Bộ KH&CN) | Hỗ trợ R&D, grant | 113 Trần Duy Hưng, Cầu Giấy, HN | R&D fund |
 
 ---
+
+
+<div style="page-break-before: always;"></div>
 
 # PHỤ LỤC F: BẢNG ĐỐI CHIẾU SỐ LIỆU
 
@@ -6850,7 +7027,7 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 | **Revenue Y8** | ~15,00 M USD | Mục 5.2.1, 5.2.2 | Da |
 | **Revenue Y12 Steady** | ~21,00 M USD | Mục 5.2.1, 9.1.1 | Da |
 | **Revenue 15Y tích lũy** | ~180 M USD | Mục 5.2.1, 9.1.1 | Da |
-| **Strategic Value** | 14,00 M USD | Mục 5.7.1, 9.1.1, PHỤ LỤC O | Da |
+| **Strategic Value** | 15,00 M USD | Mục 5.7.1, 9.1.1, PHỤ LỤC O | Da |
 | **Von CSH** | 24,00 M USD | Mục 5.1.2, 5.1.3, C.1 | Da |
 | **Vay** | 8,00 M USD (từ Y6) | Mục 5.11.1, A.4 | Da |
 | **PUE** | 1,35 (trung bình) | Mục 2.4, 4.2.3, 9.1.1 | Da |
@@ -6858,22 +7035,25 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 | **VA trung bình** | 42% | Mục 2.1, 9.1.1 | Da |
 | **CNC machines** | 6 may | Mục 2.3.2, 4.3, D.1 | Da |
 | **DC Racks** | 50 | Muc 2.4.1, 4.2.1, D.3 | Da |
-| **Uu dai thue** | ~6,0 M USD | Muc 5.7.1, 9.1.1 | Da |
-| **Land rent exemption** | ~1,32 M USD NPV | Muc 5.7.1 | Da |
-| **PCCC CAPEX** | ~1.550 K USD | Muc 4.7.2 | Da |
-| **Moi truong 10Y** | ~2.427 K USD | Muc 6.3.3 | Da |
-| **Phap ly** | 170-340 K USD | Muc 6.2.3 | Da |
-| **M&E BOQ** | ~9.075 K USD | Muc 4.5.1, 4.5.2 | Da |
+| **Ưu đãi thuế** | ~6,0 M USD | Mục 5.7.1, 9.1.1 | Đã |
+| **Land rent exemption** | ~1,32 M USD NPV | Mục 5.7.1 | Đã |
+| **PCCC CAPEX** | ~1.550 K USD | Mục 4.7.2 | Đã |
+| **Môi trường 10Y** | ~2.427 K USD | Mục 6.3.3 | Đã |
+| **Pháp lý** | 170-340 K USD | Mục 6.2.3 | Đã |
+| **M&E BOQ** | ~9.075 K USD | Mục 4.5.1, 4.5.2 | Đã |
 
 ## F.2. Nhan Du lieu
 
-| Nhan | Y nghia | So luong trong tai lieu |
+| Nhãn | Ý nghĩa | Số lượng trong tài liệu |
 |---|---|---:|
-| **[C] — Calculated** | So lieu tinh toan, co cong thuc | ~45 |
-| **[B] — Benchmarked** | So lieu tham chieu thi truong | ~20 |
+| **[C] — Calculated** | Số liệu tính toán, có công thức | ~45 |
+| **[B] — Benchmarked** | Số liệu tham chiếu thị trường | ~20 |
 | **[A] — Assumed** | So lieu gia dinh, co ly do | ~15 |
 
 ---
+
+
+<div style="page-break-before: always;"></div>
 
 # PHỤ LỤC G: MÔ HÌNH TÀI CHÍNH CHI TIẾT THEO TỪNG KHỐI (B.U)
 
@@ -7434,6 +7614,9 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC H: DANH MỤC SẢN PHẨM CHI TIẾT (PRODUCT CATALOG)
 
 ---
@@ -7644,6 +7827,9 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC I: BẢNG TỔNG HỢP GIẢ ĐỊNH
 
 ---
@@ -7683,6 +7869,9 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC J: TỔNG HỢP CHỈ SỐ ĐẦU TƯ
 
 ---
@@ -7707,11 +7896,14 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 | **Chứng nhận** | ISO 9001 + ISO 27001 + Tier III | Đa tiêu chuẩn |
 | **Xuất khẩu** | 15–20% (CNC) | Linh kiện chính xác |
 | **R&D** | 12,5 M/15Y | ≥5% doanh thu |
-| **Strategic Value** | 14,00 M USD | NPV + Real Options + Barrier + Synergy + Platform + Tax |
+| **Strategic Value** | 15,00 M USD | NPV + Real Options + Barrier + Synergy + Platform + Software Svc + Tax |
 
-**Nhận xét:** NPV 50Y dương (2,50M), phản ánh CAPEX thấp (32M) và triển khai nhanh 8 năm. Strategic Value (14,00M) đánh giá đúng giá trị dự án hạ tầng 50 năm. Nhà đầu tư tự chủ 100% vốn trong 5 năm đầu, giảm rủi ro tín dụng, xây dựng nền tảng 3 trụ cột bền vững.
+**Nhận xét:** NPV 50Y dương (2,50M), phản ánh CAPEX thấp (32M) và triển khai nhanh 8 năm. Strategic Value (15,00M) đánh giá đúng giá trị dự án hạ tầng 50 năm, bao gồm giá trị cộng thêm từ dịch vụ phần mềm. Nhà đầu tư tự chủ 100% vốn trong 5 năm đầu, giảm rủi ro tín dụng, xây dựng nền tảng 3 trụ cột bền vững.
 
 ---
+
+
+<div style="page-break-before: always;"></div>
 
 # PHỤ LỤC K: DANH MỤC TÀI LIỆU THAM KHẢO
 
@@ -7762,6 +7954,9 @@ Phụ lục F thực hiện theo Rule 3 (AGENT_RULES) — kiểm tra tính nhấ
 12. TCVN 9386:2012 — Thiết kế công trình chịu động đất
 
 ---
+
+
+<div style="page-break-before: always;"></div>
 
 # PHỤ LỤC L: THIẾT KẾ HẠ TẦNG M&E CHI TIẾT
 
@@ -8597,6 +8792,9 @@ graph TB
 
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC M: PHÂN TÍCH THỊ TRƯỜNG CNC CHI TIẾT
 
 ---
@@ -8870,6 +9068,9 @@ graph TB
 
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC N: DSCR VÀ CẤU TRÚC NỢ CHI TIẾT
 
 ---
@@ -9003,6 +9204,9 @@ Lý do:
 
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC O: ĐÁNH GIÁ GIÁ TRỊ CHIẾN LƯỢC
 
 ---
@@ -9018,10 +9222,10 @@ Ngoài NPV thuần (Net Present Value = 2,50M USD trên horizon 50Y), dự án c
 | 1. NPV Thuần (FCFF, 50Y, WACC 12%) | DCF standard | 2,50 | [C] |
 | 2. Real Options (P3-P4 expansion) | Black-Scholes adapted | 3,50 | [C] |
 | 3. Barrier to Entry Value | Replacement cost method | 2,00 | [A] |
-| 4. Ecosystem Synergy (3 BU cross-sell) | Revenue uplift NPV | 2,50 | [C] |
-| 5. Platform Value (MekongOS) | Comparable SaaS multiples | 2,00 | [A] |
-| 6. Tax + Land Rent Incentives NPV | KCNC incentive schedule | 1,50 | [C] |
-| **TỔNG STRATEGIC VALUE** | | **14,00** | |
+| 4. Ecosystem Synergy (3 BU cross-sell + Software Svc) | Revenue uplift NPV | 2,50 | [C] |
+| 5. Platform Value (MekongOS + Software portfolio) | Comparable SaaS multiples | 2,50 | [A] |
+| 6. Tax + Land Rent Incentives NPV | KCNC incentive schedule | 2,00 | [C] |
+| **TỔNG STRATEGIC VALUE** | | **15,00** | |
 
 ## O.2. Chi tiết từng Loại Giá trị
 
@@ -9061,11 +9265,12 @@ Ngoài NPV thuần (Net Present Value = 2,50M USD trên horizon 50Y), dự án c
 - Land rent exemption: 11 năm miễn + 4 năm giảm 50% = ~1,32M tiết kiệm
 - Est. tax + land rent savings: ~6M USD tổng 50 năm → NPV ~1,50M
 
-
-
 ---
 
 ---
+
+
+<div style="page-break-before: always;"></div>
 
 # PHỤ LỤC P: MÔ HÌNH DOANH THU CNC OUTSOURCING CHI TIẾT
 
@@ -9345,12 +9550,12 @@ graph TD
     B1["1. Tiep nhan RFQ<br/>1-2 ngay"] --> B2["2. Phan tich ban ve<br/>+ DFM review<br/>2-3 ngay"]
     B2 --> B3["3. Lap chuong trinh CAM<br/>+ mo phong<br/>3-5 ngay"]
     B3 --> B4["4. Bao gia chi tiet<br/>1 ngay"]
-    B4 --> B5["5. Thuong luong + NDA<br/>5-15 ngay"]
+    B4 --> B5["5. Thương lượng + NDA<br/>5-15 ngày"]
     B5 --> B6["6. First Article Production<br/>10-15 ngay"]
     B6 --> B7["7. FAI Report<br/>PPAP Level 3<br/>5-7 ngay"]
     B7 --> B8["8. Audit nha may<br/>1-2 ngay"]
     B8 --> B9["9. Phe duyet NCC<br/>30-90 ngay OEM"]
-    B9 --> B10["10. PO chinh thuc<br/>San xuat hang loat"]
+    B9 --> B10["10. PO chính thức<br/>Sản xuất hàng loạt"]
 
     B10 -.-|"Tong: 3-6 thang RFQ to PO<br/>10-18 thang RFQ to Approved Supplier"| B1
 ```
@@ -9627,6 +9832,9 @@ graph TB
 
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC Q: THIẾT KẾ XƯỞNG CNC TỐI ƯU VÀ DANH MỤC THIẾT BỊ
 
 > Phụ lục này chi tiết hóa bố trí không gian xưởng CNC 800 m², danh mục
@@ -9699,7 +9907,6 @@ graph TD
     subgraph CNC["CNC MACHINING — 6 MAY"]
         ZA["DMU 65 x2 + DVF 5000 x2<br/>5-truc"]
         ZB["DNM 6700 x2<br/>3-truc"]
-    end
         ZE["EDM Area"]
     end
 
@@ -10036,6 +10243,9 @@ graph TD
 > = Vẫn là business unit lớn nhất và có lãi nhất trong 3 BU.
 
 ---
+
+
+<div style="page-break-before: always;"></div>
 
 # PHỤ LỤC R: BÁO CÁO ĐÁNH GIÁ TÁC ĐỘNG MÔI TRƯỜNG (EIA) — TỔ HỢP 3 KHỐI
 
@@ -10988,6 +11198,9 @@ Ngày ___ tháng ___ năm 2026
 
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC S: VẬN HÀNH DATACENTER MACC — CHI TIẾT KỸ THUẬT VÀ THƯƠNG MẠI
 
 ---
@@ -11380,6 +11593,9 @@ graph TB
 
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC T: SẢN PHẨM IOT/ROBOT — THÔNG SỐ KỸ THUẬT CHI TIẾT
 
 ---
@@ -11726,6 +11942,9 @@ graph TB
 
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC U: PHÂN TÍCH RỦI RO TỔNG HỢP VÀ ĐỘ NHẠY
 
 ---
@@ -11867,7 +12086,7 @@ quadrantChart
 | **CAPEX** | +10% từ base (35,2M) | 32,0M | 10% buffer |
 | **WACC** | 14,5% (= IRR 50Y) | 12% | 2,5 pts buffer |
 
-> **[C] NPV nhạy cảm nhất với Revenue Growth Rate và CAPEX Overrun.** 3 biến số quyết định 70% variation NPV: Revenue Growth, CAPEX, và WACC. Biện pháp: (a) Conservative revenue forecast (Y0-Y3 = 0), (b) Fixed-price construction contract, (c) Equity-heavy financing (CSH 75% → WACC thấp). Strategic Value (14,00M) là cơ sở chính cho quyết định.
+> **[C] NPV nhạy cảm nhất với Revenue Growth Rate và CAPEX Overrun.** 3 biến số quyết định 70% variation NPV: Revenue Growth, CAPEX, và WACC. Biện pháp: (a) Conservative revenue forecast (Y0-Y3 = 0), (b) Fixed-price construction contract, (c) Equity-heavy financing (CSH 75% → WACC thấp). Strategic Value (15,00M) là cơ sở chính cho quyết định.
 
 ### U.4.3. Monte Carlo Simulation — Kết quả
 
@@ -11974,6 +12193,9 @@ xychart-beta
 *(Kết thúc Phụ lục U — Phân tích Rủi ro Tổng hợp)*
 
 ---
+
+
+<div style="page-break-before: always;"></div>
 
 # PHỤ LỤC V: QUẢN TRỊ DOANH NGHIỆP VÀ HỆ THỐNG VẬN HÀNH
 
@@ -12332,6 +12554,9 @@ graph TB
 
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC W: BENCHMARKING CẠNH TRANH VÀ THỊ TRƯỜNG ASEAN
 
 ---
@@ -12358,7 +12583,7 @@ graph TB
 quadrantChart
     title CNC Outsourcing — Competitive Positioning
     x-axis "Chi phi thap" --> "Chi phi cao"
-    y-axis "Chat luong thap" --> "Chat luong cao"
+    y-axis "Chất lượng thấp" --> "Chất lượng cao"
     quadrant-1 "Quality Premium"
     quadrant-2 "Best of Both"
     quadrant-3 "Cost Leader"
@@ -12499,6 +12724,9 @@ quadrantChart
 
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC X: KẾ HOẠCH MARKETING VÀ BÁN HÀNG CHI TIẾT
 
 ---
@@ -12624,6 +12852,9 @@ graph LR
 *(Kết thúc Phụ lục X — Kế hoạch Marketing & Bán hàng Chi tiết)*
 
 ---
+
+
+<div style="page-break-before: always;"></div>
 
 # PHỤ LỤC Y: CHI TIẾT XÂY DỰNG VÀ CÔNG TRÌNH
 
@@ -12839,6 +13070,9 @@ gantt
 
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC Z: MẪU HỢP ĐỒNG VÀ KHUNG PHÁP LÝ
 
 ---
@@ -12967,6 +13201,9 @@ gantt
 ---
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC AA: CHUỖI CUNG ỨNG VÀ MUA SẮM (SUPPLY CHAIN & PROCUREMENT)
 
 ## AA.1. Chiến lược Mua sắm Tổng thể
@@ -12986,7 +13223,7 @@ gantt
 
 ```mermaid
 quadrantChart
-    title Mo hinh Kraljic — Phan loai NCC
+    title Mô hình Kraljic — Phân loại NCC
     x-axis "Chi phi thap" --> "Chi phi cao"
     y-axis "Rui ro cung ung thap" --> "Rui ro cung ung cao"
     quadrant-1 "STRATEGIC"
@@ -13175,6 +13412,9 @@ quadrantChart
 ---
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC BB: HỌC VIỆN ĐÀO TẠO VÀ QUẢN LÝ TRI THỨC (TRAINING ACADEMY & KNOWLEDGE MANAGEMENT)
 
 ## BB.1. Chiến lược Đào tạo Tổng thể
@@ -13340,6 +13580,9 @@ quadrantChart
 
 ---
 ---
+
+
+<div style="page-break-before: always;"></div>
 
 # PHỤ LỤC CC: HỆ THỐNG QUẢN LÝ CHẤT LƯỢNG TÍCH HỢP (INTEGRATED QMS)
 
@@ -13537,6 +13780,9 @@ graph TB
 ---
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC DD: LỘ TRÌNH CHUYỂN ĐỔI SỐ VÀ CÔNG NGHIỆP 4.0 (DIGITAL TRANSFORMATION ROADMAP)
 
 ## DD.1. Mô hình Trưởng thành Công nghiệp 4.0
@@ -13727,6 +13973,9 @@ graph TB
 ---
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC EE: DÒNG TIỀN CHI TIẾT VÀ MÔ HÌNH TÀI CHÍNH MỞ RỘNG (DETAILED CASH FLOW & EXTENDED FINANCIAL MODEL)
 
 ## EE.1. Dòng tiền Tháng — Năm 1 (Construction Phase)
@@ -13829,7 +14078,7 @@ graph TB
 
 ### EE.2.4. Valuation Summary
 
-> **Ghi chú:** Valuation dưới đây dựa trên mô hình 32M lean. Số liệu chính thức: NPV(50Y, 12%) = +2,50M, NPV(20Y, 12%) = (-3,20)M. Strategic Value = 14,00M (xem Phụ lục O).
+> **Ghi chú:** Valuation dưới đây dựa trên mô hình 32M lean. Số liệu chính thức: NPV(50Y, 12%) = +2,50M, NPV(20Y, 12%) = (-3,20)M. Strategic Value = 15,00M (xem Phụ lục O).
 
 | Phương pháp | Giá trị (M USD) | Giả định |
 |---|---:|---|
@@ -13838,7 +14087,7 @@ graph TB
 | **DCF (20Y, WACC 10%)** | **NPV = +2,80M** | Optimistic cost of capital |
 | **EV/EBITDA Multiple (Y10)** | **Y10 EBITDA 6,35M × 7× = 44,5M EV** | VN industrial/DC comps: 5-8× |
 | **EV/Revenue Multiple (Y10)** | **Y10 Rev 19,5M × 2× = 39,0M EV** | Tech manufacturing: 1,5-2,5× |
-| **Strategic Value (incl. intangibles)** | **14,00M** | NPV + Real Options + Barrier + Synergy + Platform + Tax/Land — xem Muc 5.7.1 [C] |
+| **Strategic Value (incl. intangibles)** | **15,00M** | NPV + Real Options + Barrier + Synergy + Platform + Software Svc + Tax/Land — xem Mục 5.7.1 [C] |
 | **Replacement Cost** | **> 40M** | Building from scratch today |
 
 ---
@@ -13914,6 +14163,9 @@ graph TB
 
 ---
 ---
+
+
+<div style="page-break-before: always;"></div>
 
 # PHỤ LỤC FF: QUẢN LÝ DỰ ÁN VÀ PMO (PROJECT MANAGEMENT OFFICE)
 
@@ -14129,6 +14381,9 @@ gantt
 ---
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC GG: CHIẾN LƯỢC KHÁCH HÀNG VÀ CRM (CUSTOMER STRATEGY & CRM)
 
 ## GG.1. Phân khúc Khách hàng theo Khối
@@ -14267,6 +14522,9 @@ gantt
 
 ---
 ---
+
+
+<div style="page-break-before: always;"></div>
 
 # PHỤ LỤC HH: KẾ HOẠCH VẬN HÀNH VÀ BẢO TRÌ (OPERATIONS & MAINTENANCE PLAN)
 
@@ -14409,6 +14667,9 @@ gantt
 ---
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC II: CHIẾN LƯỢC XUẤT KHẨU VÀ THỊ TRƯỜNG QUỐC TẾ (EXPORT & INTERNATIONAL MARKET STRATEGY)
 
 ## II.1. Phân tích Thị trường Xuất khẩu
@@ -14526,6 +14787,9 @@ gantt
 
 ---
 ---
+
+
+<div style="page-break-before: always;"></div>
 
 # PHỤ LỤC JJ: ĐÁNH GIÁ TÁC ĐỘNG KINH TẾ - XÃ HỘI (SOCIO-ECONOMIC IMPACT ASSESSMENT)
 
@@ -14657,6 +14921,9 @@ gantt
 ---
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC KK: QUẢN LÝ NƯỚC VÀ CHẤT THẢI TOÀN DIỆN (COMPREHENSIVE WATER & WASTE MANAGEMENT)
 
 ## KK.1. Cân bằng Nước Tổng thể (Water Balance)
@@ -14766,6 +15033,9 @@ graph TD
 
 ---
 ---
+
+
+<div style="page-break-before: always;"></div>
 
 # PHỤ LỤC LL: KẾ HOẠCH PHÁT TRIỂN MỞ RỘNG PHASE 2-3 (EXPANSION ROADMAP)
 
@@ -14891,6 +15161,9 @@ graph TD
 ---
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC MM: BẢNG TỔNG HỢP CHỈ SỐ TOÀN DỰ ÁN (MASTER KPI DASHBOARD)
 
 ## MM.1. Financial KPIs — 10 Year Summary
@@ -14953,7 +15226,7 @@ graph TD
 | **Revenue Y10** | **19,50M USD** | [C] |
 | **Revenue Y15** | **21,00M USD** | [C] |
 | **Revenue 15Y** | **~180M USD** | [C] |
-| **Strategic Value** | **14,00M USD** | [C] |
+| **Strategic Value** | **15,00M USD** | [C] |
 | **Monte Carlo P(NPV>0, 50Y)** | **72%** | [C] |
 | **B/C Ratio (xã hội)** | **24,6×** | [C] |
 | **Việc làm tạo ra (trực tiếp + gián tiếp)** | **700** | [C] |
@@ -14972,7 +15245,7 @@ graph TD
 | 5 | Revenue Y10 | 19,50M USD | 5.4, MM.4 | [C] |
 | 6 | Revenue Y15 | 21,00M USD | 5.4, MM.4 | [C] |
 | 7 | Revenue 15Y tổng | ~180M USD | 5.4, MM.4 | [C] |
-| 8 | Strategic Value | 14,00M USD | Phụ lục O, MM.4 | [C] |
+| 8 | Strategic Value | 15,00M USD | Phụ lục O, MM.4 | [C] |
 | 9 | Vốn CSH | 24,00M USD (75%, Y0-Y5) | 5.2, MM.4 | [C] |
 | 10 | Vay | 8,00M USD (từ Y6, @ 8,5%) | 5.2, A.4, MM.4 | [C] |
 | 11 | CNC machines | 6 (4×5-axis + 2×3-axis) | 4.3, AA.2.1, Q | [C] |
@@ -15002,6 +15275,9 @@ graph TD
 
 ---
 ---
+
+
+<div style="page-break-before: always;"></div>
 
 # PHỤ LỤC NN: CHI TIẾT KỸ THUẬT THIẾT BỊ & DATASHEET (EQUIPMENT SPECIFICATIONS)
 
@@ -15166,6 +15442,9 @@ graph TD
 ---
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC OO: CHIẾN LƯỢC THOÁI VỐN & QUAN HỆ NHÀ ĐẦU TƯ (EXIT STRATEGY & INVESTOR RELATIONS)
 
 ## OO.1. Các Kịch bản Thoái vốn (Exit Scenarios)
@@ -15326,6 +15605,9 @@ graph TD
 ---
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC PP: AN TOÀN LAO ĐỘNG & ỨNG PHÓ KHẨN CẤP (EHS & EMERGENCY RESPONSE)
 
 ## PP.1. Khung Quản lý EHS
@@ -15469,6 +15751,9 @@ graph TD
 ---
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # PHỤ LỤC QQ: QUẢN LÝ DỰ ÁN VÀ PMO (PROJECT MANAGEMENT OFFICE)
 
 ## QQ.1. Cấu trúc PMO
@@ -15604,6 +15889,9 @@ graph TD
 
 ---
 ---
+
+
+<div style="page-break-before: always;"></div>
 
 # PHỤ LỤC RR: KẾ HOẠCH VẬN HÀNH VÀ BẢO TRÌ (OPERATIONS & MAINTENANCE PLAN)
 
@@ -15745,6 +16033,9 @@ graph TD
 ---
 ---
 
+
+<div style="page-break-before: always;"></div>
+
 # BẢNG TỔNG KẾT TÀI LIỆU (DOCUMENT SUMMARY)
 
 ## Thông tin Phiên bản
@@ -15810,7 +16101,7 @@ Theo quy tắc RULE 5 của dự án Mekong:
 | Revenue Y10 | 19,50M USD | [C] | Da |
 | Revenue Y15 | 21,00M USD | [C] | Da |
 | Revenue 15Y | ~180M USD | [C] | Da |
-| Strategic Value | 14,00M USD | [C] | Da |
+| Strategic Value | 15,00M USD | [C] | Da |
 | CNC CAPEX | ~3,00M USD (6 máy) | [C] | Da |
 | DC CAPEX | ~9,40M USD (50 Rack) | [C] | Da |
 | PUE | 1,35 → 1,30 → 1,28 | [C] | Da |

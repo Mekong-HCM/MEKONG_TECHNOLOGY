@@ -1,0 +1,47 @@
+graph TD
+    BOD["Ban Quản trị — BOD<br/>5 thành viên"]
+    CEO["Tổng Giám đốc — CEO<br/>Phạm Xuân Quốc"]
+    CTO["Giám đốc Công nghệ — CTO<br/>Phạm Đình Chương"]
+    CFO["Giám đốc Tài chính — CFO<br/>Phạm Thị Mỹ Phước"]
+    COO["Giám đốc Vận hành — COO<br/>Bùi Thị Bích Thảo"]
+
+    RD["Trung tâm R&D<br/>40–50 kỹ sư"]
+    LAB1["Lab IoT/Embedded — 8 KS"]
+    LAB2["Lab Robotics/SLAM — 6 KS"]
+    LAB3["Lab AI/ML — 8 KS"]
+    LAB4["Lab BMS/SCADA — 6 KS"]
+    LAB5["Lab Cloud/Cybersecurity — 6 KS"]
+    LAB6["Lab Software Services — 8 KS"]
+
+    TC1["Trụ cột 1: IoT/Robot<br/>Tầng 1, Khối C — 80–100 người"]
+    TC2["Trụ cột 2: CNC/MPMC<br/>Tầng 1, Khối B — 10–15 người"]
+    TC3["Trụ cột 3: DC/MACC<br/>Tầng 2–3, Khối A — 30–40 người"]
+
+    FIN["Kế toán, Tài chính, Pháp lý"]
+
+    SX["Sản xuất, Chất lượng — QA/QC"]
+    SC["Chuỗi cung ứng, Kho vận"]
+    HR["Nhân sự, Hành chính"]
+
+    BOD --> CEO
+    CEO --> CTO
+    CEO --> CFO
+    CEO --> COO
+
+    CTO --> RD
+    RD --> LAB1
+    RD --> LAB2
+    RD --> LAB3
+    RD --> LAB4
+    RD --> LAB5
+    RD --> LAB6
+
+    CTO --> TC1
+    CTO --> TC2
+    CTO --> TC3
+
+    CFO --> FIN
+
+    COO --> SX
+    COO --> SC
+    COO --> HR

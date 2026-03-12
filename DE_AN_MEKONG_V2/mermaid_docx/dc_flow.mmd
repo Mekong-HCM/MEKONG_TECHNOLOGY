@@ -1,0 +1,17 @@
+flowchart TD
+    subgraph Infra["Hạ tầng vật lý"]
+        D1["Power<br/>2N UPS LiFePO4 + Diesel Generator"] --> D2["Cooling<br/>Chiller N+1 + In-Row + Liquid Cooling"]
+        D2 --> D3["Rack Installation<br/>50 Rack Phase 1"]
+    end
+
+    subgraph Services["Dịch vụ"]
+        E1["Colocation<br/>Rack + Power + Cooling + Connectivity"]
+        E2["GPU-as-a-Service<br/>NVIDIA H100, Training + Inference"]
+        E3["MekongOS Cloud<br/>SaaS IoT Platform"]
+        E4["Software Services<br/>MekongSoft + PaaS + AI Training"]
+    end
+
+    D3 --> E1
+    D3 --> E2
+    D3 --> E3
+    D3 --> E4

@@ -1,0 +1,46 @@
+graph TB
+    subgraph BMS_ARCH["MekongBMS — Kien truc 5 tang"]
+        subgraph T5["Tang 5: Giao dien Nguoi dung (UI Layer)"]
+            WEB["Web Dashboard<br/>React + WebGL"]
+            MOBILE["Mobile App<br/>React Native"]
+            REPORT["Report Generator<br/>PDF / Excel"]
+            MAP["Floor Plan Editor<br/>SVG + Canvas"]
+        end
+        subgraph T4["Tang 4: Logic Nghiep vu (Business Logic)"]
+            ALARM["Alarm Manager<br/>Escalation + Notification"]
+            SCHED_BMS["Scheduler<br/>Lich dieu khien"]
+            TREND["Trend Engine<br/>Luu + Hien thi du lieu"]
+            ENERGY["Energy Analytics<br/>+ AI Prediction"]
+            RULE["Rule Engine<br/>If-Then + Script"]
+        end
+        subgraph T3["Tang 3: API va Tich hop (Integration)"]
+            REST["REST API<br/>Go / Node.js"]
+            MQTT_BMS["MQTT Broker<br/>EMQX"]
+            OPCUA_BMS["OPC UA Client<br/>open62541"]
+            ERP_BMS["ERP Connector<br/>SAP / Oracle"]
+        end
+        subgraph T2["Tang 2: Protocol Driver"]
+            BAC_DRV["BACnet IP + MS/TP<br/>Driver"]
+            MOD_DRV["Modbus TCP/RTU<br/>Driver"]
+            KNX_DRV["KNX/IP Driver"]
+            DALI_DRV["DALI-2 Driver"]
+        end
+        subgraph T1["Tang 1: Database"]
+            TSDB["TimescaleDB<br/>(Trend data)"]
+            PGDB["PostgreSQL<br/>(Config, Alarm log)"]
+            CACHE["Redis<br/>(Real-time cache)"]
+        end
+    end
+    T5 --> T4 --> T3 --> T2
+    T3 --> T1
+    T4 --> T1
+    
+    subgraph FIELD["Thiet bi Truong (Field Devices)"]
+        DDC["MK-DDC-24/64"]
+        EIO["MK-EIO Modules"]
+        GW_F["MK-GW-BAC/MOD/KNX/DALI"]
+        SENSOR["Cam bien, van, den, HVAC"]
+    end
+    T2 --> FIELD
+    style BMS_ARCH fill:#fafafa,stroke:#2c3e50
+    style FIELD fill:#fff3e0,stroke:#e67e22

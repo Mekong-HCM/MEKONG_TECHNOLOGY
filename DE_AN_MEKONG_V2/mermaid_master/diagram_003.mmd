@@ -1,0 +1,29 @@
+gantt
+    title Lộ trình Triển khai Tổ hợp Mekong Technology (Phương án 32M)
+    dateFormat  YYYY-MM
+    axisFormat  %Y Q%q
+
+    section Phase 0 Pháp lý
+    Công văn đề xuất + Mẫu 1.4           :a1, 2026-04, 2m
+    Điều chỉnh IRC + ERC                    :a2, after a1, 1m
+    EIA bổ sung                              :a3, 2026-06, 6m
+    Giấy phép Viễn thông                     :a4, 2026-07, 12m
+
+    section Phase 1 Xây dựng shell
+    Thiết kế chi tiết tòa nhà 3 tầng     :b1, 2026-05, 4m
+    Thi công shell 3 tầng + M&E + PCCC    :b2, 2026-09, 18m
+    Hoàn công → Sổ đỏ                      :milestone, b3, 2028-03, 0d
+
+    section Phase 2 IoT + DC infra
+    Fit-out IoT Tầng 2                     :c1, 2028-04, 8m
+    Hạ tầng DC Tầng 1 (M&E, cooling)      :c2, 2028-04, 10m
+    IoT commissioning + vận hành            :c3, 2029-01, 3m
+
+    section Phase 3 DC + CNC
+    GPU + Server Datacenter lắp đặt         :d1, 2029-04, 8m
+    DC Tier III commissioning                :d2, 2029-12, 3m
+    CNC 6 máy lắp đặt + vận hành           :d3, 2030-01, 6m
+
+    section Phase 4 Mở rộng
+    Mở rộng rack DC + CNC từ revenue      :e1, 2031-01, 18m
+    Full Operation 3 trụ cột               :e2, 2032-06, 12m

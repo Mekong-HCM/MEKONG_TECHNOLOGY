@@ -1,0 +1,22 @@
+graph TB
+    EVN["EVN 22kV<br/>2 tuyến độc lập"] --> T1["Tuyến 1 — Normal"]
+    EVN --> T2["Tuyến 2 — Reserved/DC"]
+    EVN --> GEN["Generator Yard"]
+
+    T1 --> TBA1["Trạm BA #1<br/>22kV/0,4kV — 2×1.500 kVA"]
+    T2 --> TBA2["Trạm BA #2<br/>22kV/0,4kV — 2×1.000 kVA"]
+
+    TBA1 --> MDB1["MDB-1"]
+    MDB1 --> DBA["DB-DC Khối A"]
+    MDB1 --> DBB["DB-CNC Khối B"]
+    MDB1 --> DBC["DB-IoT Khối C"]
+    MDB1 --> DBAUX["DB-AUX phụ trợ"]
+
+    TBA2 --> MDB2["MDB-2"]
+    MDB2 --> DB2N["DB-DC-2N UPS Feed B"]
+    MDB2 --> DBESS["DB-Essential"]
+
+    GEN --> ATS1["ATS-1 Khối A DC"] --> UPS["UPS 2N"]
+    GEN --> ATS2["ATS-2 Khối B CNC"] --> EMRB["Emergency bus B"]
+    GEN --> ATS3["ATS-3 Khối C IoT"] --> EMRC["Emergency bus C"]
+    GEN --> ATS4["ATS-4 Chung"] --> PCCC["PCCC + BMS"]

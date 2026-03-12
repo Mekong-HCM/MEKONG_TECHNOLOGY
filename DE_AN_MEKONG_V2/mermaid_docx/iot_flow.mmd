@@ -1,0 +1,21 @@
+flowchart LR
+    subgraph IoT["IoT Gateway"]
+        A1["Nhập linh kiện<br/>SMT Components"] --> A2["SMT Assembly<br/>Panasonic NPM-D3, 15K CPH"]
+        A2 --> A3["AOI Inspection<br/>Omron VT-RNS"]
+        A3 --> A4["ICT Testing<br/>Teradyne i3070"]
+        A4 --> A5["Firmware<br/>Programming"]
+        A5 --> A6["Burn-in Test<br/>8–24 giờ"]
+        A6 --> A7["Final QC"]
+        A7 --> A8["Packaging<br/>Anti-static"]
+        A8 --> A9["Warehouse"]
+    end
+
+    subgraph Robot["Robot Assembly"]
+        B1["Chassis Manufacturing<br/>CNC Machining, Trụ cột 2"] --> B2["Electronics Assembly<br/>PCB + Sensors"]
+        B2 --> B3["Mechanical Assembly<br/>Motors + Wheels"]
+        B3 --> B4["Software Integration<br/>SLAM + Navigation"]
+        B4 --> B5["System Testing"]
+        B5 --> B6["Calibration"]
+        B6 --> B7["Final Inspection"]
+        B7 --> B8["Packaging"]
+    end

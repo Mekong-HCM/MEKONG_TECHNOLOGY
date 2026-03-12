@@ -1,0 +1,31 @@
+graph TB
+    subgraph L4["LAYER 4: ANALYTICS"]
+        BI["BI Dashboard"]
+        PBI["Power BI"]
+        PA["Predictive Analytics"]
+        AI["AI/ML"]
+    end
+    subgraph L3["LAYER 3: APPLICATIONS"]
+        ERP["ERP SAP B1"]
+        MES["MES"]
+        CRM["CRM"]
+        DCIM["DCIM"]
+        MOS["MekongOS"]
+        HR["HR"]
+        ACC["Accounting"]
+    end
+    subgraph L2["LAYER 2: INTEGRATION"]
+        API["API Gateway"]
+        MQ["MQ"]
+        ETL["ETL"]
+        SSO["SSO Azure AD"]
+        IAM["IAM"]
+    end
+    subgraph L1["LAYER 1: INFRASTRUCTURE"]
+        DC["On-prem DC"]
+        CLD["Cloud Azure"]
+        NET["Network"]
+        SEC["Security"]
+        BMS["BMS"]
+    end
+    L4 --> L3 --> L2 --> L1

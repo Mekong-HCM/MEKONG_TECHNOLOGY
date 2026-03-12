@@ -1,0 +1,30 @@
+graph TB
+    subgraph DC["DATACENTER MACC — Floor Plan"]
+        subgraph LEFT["Khu Dieu hanh"]
+            NOC["NOC 24/7<br/>8 seats"]
+            STG["Staging Room"]
+            MMR["Meet-Me Room — MMR"]
+            SEC["Security Office + CCTV"]
+        end
+
+        subgraph HALL1["DATA HALL 1 — Phase 1"]
+            RA["Row A<br/>12 Rk"] --- RB["Row B<br/>12 Rk"]
+            RB --- RC["Row C<br/>12 Rk"]
+            RC --- RD["Row D<br/>14 Rk"]
+            HAC1["Hot Aisle Containment — HAC<br/>Raised Floor 600mm"]
+        end
+
+        subgraph HALL2["DATA HALL 2 — Phase 2"]
+            RE["Row E<br/>10 Rk"] --- RF["Row F<br/>10 Rk"]
+            RF --- GPU["GPU Zone<br/>30 Rk<br/>Direct Liquid Cooling — DLC"]
+        end
+
+        subgraph INFRA["Ha tang"]
+            UPS["UPS Room<br/>2N Config"]
+            BAT["Battery Room<br/>VRLA/Li"]
+            COOL["Cooling Plant<br/>Chiller x 3+1<br/>CDU for GPU"]
+            GENY["Generator Yard<br/>2-4 x 750 kVA<br/>24h Fuel Tank"]
+        end
+
+        FIRE["FIRE SUPPRESSION<br/>FM200 Data Halls + Sprinkler Support Areas"]
+    end

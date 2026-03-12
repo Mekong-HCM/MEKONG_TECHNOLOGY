@@ -1,0 +1,23 @@
+flowchart TD
+    A["Q4/2025: Chuẩn bị hồ sơ"] --> B["Nộp BQL KCNC<br/>Công văn + Phụ lục Mẫu 1.4"]
+    B --> C{"BQL KCNC<br/>Xem xét<br/>(15 ngày)"}
+    C -->|Đồng ý| D["Nộp Sở KH&ĐT<br/>Điều chỉnh IRC"]
+    C -->|Yêu cầu bổ sung| B
+    D --> E{"Sở KH&ĐT<br/>(35 ngày)"}
+    E -->|Phê duyệt| F["IRC điều chỉnh"]
+    F --> G["Song song:<br/>Đăng ký ngành nghề<br/>+ EIA + PCCC"]
+
+    G --> H["Nộp EIA<br/>Sở TNMT"]
+    G --> I["Nộp PCCC<br/>C07/PC07"]
+    G --> J["Giấy phép<br/>Viễn thông<br/>Cục VT"]
+    G --> K["Giấy phép<br/>Xây dựng<br/>KCNC"]
+
+    H --> L["Giấy phép MT"]
+    I --> M["Phê duyệt PCCC"]
+    J --> N["GP Viễn thông"]
+    K --> O["GP Xây dựng"]
+
+    L --> P["KHỞI CÔNG<br/>Q2/2026"]
+    M --> P
+    N --> P
+    O --> P

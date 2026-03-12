@@ -1,0 +1,29 @@
+graph TB
+    subgraph PLANT["XUONG CNC 800 m2 — MAT BANG LEAN"]
+        direction TB
+        subgraph WEST["KHO + DOCK — 100 m2"]
+            MAT["NGUYEN LIEU KHO"]
+            RD["Receiving Dock"]
+            SD["SHIPPING DOCK"]
+        end
+        subgraph MACHINING["KHU GIA CONG — 400 m2"]
+            A1["DMG MORI DMU 65 x2<br/>5-truc chinh"]
+            A2["Doosan DVF 5000 x2<br/>5-truc economy"]
+            A3["Doosan DNM 6700 x2<br/>3-truc vertical"]
+        end
+        subgraph QAQC["QA/QC — 60 m2"]
+            CMM2["Hexagon Portable Arm"]
+            GOM["GOM ATOS 3D Scan"]
+            GAUGE["Surface Roughness + Gauges"]
+        end
+        subgraph SUPPORT["PHU TRO — 140 m2"]
+            TC["TOOL CRIB 40 m2"]
+            CAD["CAD/CAM ROOM 40 m2<br/>5 Mastercam seats"]
+            PACK["PACKING + FG 60 m2"]
+        end
+    end
+    MAT -->|"Material Flow"| MACHINING
+    MACHINING --> QAQC
+    MACHINING --> PACK
+    QAQC --> PACK
+    PACK --> SD
