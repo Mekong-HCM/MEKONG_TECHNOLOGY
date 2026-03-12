@@ -41,6 +41,8 @@ export function StrategicValue() {
                                 <YAxis tick={{ fill: '#999', fontSize: 10 }} axisLine={false} tickLine={false} />
                                 <Tooltip
                                     contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '11px', color: '#fff' }}
+                                    itemStyle={{ color: '#76FF03' }}
+                                    labelStyle={{ color: '#ccc' }}
                                     formatter={(v: number, name: string, props: { payload?: { name?: string } }) => {
                                         const note = props.payload?.name ? methodologyNotes[props.payload.name] : '';
                                         return [`${v}M USD${note ? ' — ' + note : ''}`, ''];

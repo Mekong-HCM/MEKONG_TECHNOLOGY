@@ -92,6 +92,8 @@ export function ExecutiveSummary() {
                                 </Pie>
                                 <Tooltip
                                     contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '12px', color: '#fff' }}
+                                    itemStyle={{ color: '#76FF03' }}
+                                    labelStyle={{ color: '#ccc' }}
                                     formatter={(value: number) => [`${value}M USD`, '']}
                                 />
                             </PieChart>
