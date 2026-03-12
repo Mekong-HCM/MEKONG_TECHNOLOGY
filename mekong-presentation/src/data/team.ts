@@ -10,10 +10,9 @@ export const team: TeamData = {
     ],
     cLevel: [
         { role: 'CEO / Tổng Giám đốc', name: 'Phạm Xuân Quốc', profile: 'Founder, 15+ năm IoT/CNC Tech', salary: '120-180K' },
-        { role: 'CTO', name: 'Phạm Đình Chương', profile: '12+ năm Robot/Automation', salary: '96-144K' },
+        { role: 'CTO / R&D Director', name: 'Phạm Đình Chương', profile: '12+ năm Robot/Automation, 5 Labs / ~20 kỹ sư', salary: '96-144K' },
         { role: 'CFO', name: 'Phạm Thị Mỹ Phước', profile: 'CPA, 10+ năm Tài chính doanh nghiệp', salary: '84-120K' },
         { role: 'COO', name: 'Bùi Thị Bích Thảo', profile: '8+ năm Sản xuất & Vận hành', salary: '84-120K' },
-        { role: 'R&D Director', name: 'Nguyễn Văn A', profile: 'Giám đốc R&D, 5 Labs / ~20 kỹ sư', salary: '72-96K' },
     ],
     experts: [
         { role: 'CNC Application Engineer', origin: 'Nhật / Đức', count: 2, duration: '2 năm' },
