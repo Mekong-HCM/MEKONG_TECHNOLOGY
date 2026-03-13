@@ -23,7 +23,7 @@ export const images: Record<string, ImageAsset> = {
     'cnc-03': { id: 'cnc-03', src: `${b}/images/cnc/cnc-03-titanium-machining.jpg`, alt: 'Gia cong titanium 5-axis chinh xac', category: 'cnc', color: '#E040FB', width: 600, height: 400 },
 
     // IoT
-    'iot-01': { id: 'iot-01', src: `${b}/images/iot/iot-01-edge-gateway.png`, alt: 'Industrial IoT edge gateway', category: 'iot', color: '#00E5FF', width: 1200, height: 800 },
+    'iot-01': { id: 'iot-01', src: `${b}/images/iot/IOT-DEVICE.jpg`, alt: 'Industrial IoT edge gateway', category: 'iot', color: '#00E5FF', width: 1417, height: 1004 },
     'iot-03': { id: 'iot-03', src: `${b}/images/iot/iot-03-amr-robot.jpg`, alt: 'AMR robot tu hanh trong nha kho', category: 'iot', color: '#00E5FF', width: 800, height: 500 },
     'iot-04': { id: 'iot-04', src: `${b}/images/iot/AMRRobots_ModernMaterialHandling.jpg`, alt: 'Robot AGV tự hành vận chuyển hàng hóa trong nhà kho thông minh', category: 'iot', color: '#00E5FF', width: 1180, height: 664 },
 
