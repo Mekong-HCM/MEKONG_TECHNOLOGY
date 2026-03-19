@@ -1,5 +1,5 @@
 // ============================================================
-// TypeScript Interfaces — Mekong Technology Hub Presentation V2
+// TypeScript Interfaces — Mekong Technology Hub Presentation V3
 // ============================================================
 
 // --- Financial Types ---
@@ -24,7 +24,6 @@ export interface RevenueYear {
     year: string;
     iot: number;
     cnc: number;
-    dc: number;
     total: number;
 }
 
@@ -152,36 +151,18 @@ export interface CNCData {
     unitEconomics: CNCUnitEconomics;
 }
 
-export interface DCService {
-    name: string;
-    price: string;
-    detail: string;
-}
-
-export interface DCSpecs {
-    tier: string;
-    totalRacks: number;
-    zone1: string;
-    zone2: string;
+export interface DCInternalSpecs {
+    area: string;
+    racks: string;
     power: string;
-    pue: string;
-    cooling: string;
-    network: string;
-}
-
-export interface DCData {
-    title: string;
-    subtitle: string;
-    icon: string;
-    color: string;
-    specs: DCSpecs;
-    services: DCService[];
+    purpose: string;
+    capex: string;
 }
 
 export interface ProductsData {
     iot: IoTData;
     cnc: CNCData;
-    dc: DCData;
+    dcInternal: DCInternalSpecs;
 }
 
 // --- Market Types ---
@@ -231,7 +212,6 @@ export interface HeadcountPhase {
     total: number;
     iot: number;
     cnc: number;
-    dc: number;
     rd: number;
     other: number;
 }
@@ -301,12 +281,28 @@ export interface InfraSpec {
     iconName: string;
 }
 
+export interface BuildingInfo {
+    name: string;
+    dimensions: string;
+    floors: number;
+    height: string;
+    footprint: number;
+    gfa: number;
+    usage: string[];
+    color: string;
+}
+
 export interface InfrastructureData {
-    building: {
+    campus: {
         name: string;
-        totalGFA: string;
-        floors: FloorPlan[];
+        lotArea: number;
+        totalGFA: number;
+        totalFootprint: number;
+        buildingDensity: string;
+        far: string;
+        greenArea: string;
     };
+    buildings: BuildingInfo[];
     specs: InfraSpec[];
 }
 
@@ -353,4 +349,52 @@ export interface ContactInfo {
 export interface ContactData {
     info: ContactInfo;
     tagline: string;
+}
+
+// --- Business Model Types ---
+
+export type BusinessUnit = 'BU1' | 'BU2';
+
+export interface RevenueStream {
+    name: string;
+    bu: BusinessUnit;
+    revenueEstimate: string;
+    marginRange: string;
+    startYear: string;
+}
+
+export interface TargetCustomer {
+    segment: string;
+    region: string;
+    products: string[];
+    dealSize: string;
+}
+
+export interface BusinessModelData {
+    streams: RevenueStream[];
+    targetCustomers: TargetCustomer[];
+    revenueTable: RevenueYear[];
+}
+
+// --- Tax Incentive Types ---
+
+export interface TaxIncentive {
+    name: string;
+    basis: string;
+    estimatedValue: string;
+    period: string;
+}
+
+export interface ROIComparison {
+    metric: string;
+    mekong: string;
+    industry: string;
+    advantage: string;
+}
+
+export interface IncentivesData {
+    taxBenefits: TaxIncentive[];
+    totalEstimated: number;
+    strategicBreakdown: StrategicComponent[];
+    roiComparison: ROIComparison[];
 }

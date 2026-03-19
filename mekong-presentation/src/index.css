@@ -151,6 +151,42 @@ body {
     color: #ccc;
     background: rgba(255,255,255,0.05);
   }
+
+  /* Corporate tone — business/finance/legal slides */
+  .corporate-card {
+    @apply rounded-2xl border border-white/10;
+    background: linear-gradient(135deg, rgba(26,54,93,0.15) 0%, rgba(10,14,42,0.8) 100%);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  }
+  .corporate-card-hover {
+    @apply rounded-2xl border border-white/10 transition-all duration-300;
+    background: linear-gradient(135deg, rgba(26,54,93,0.15) 0%, rgba(10,14,42,0.8) 100%);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  }
+  .corporate-card-hover:hover {
+    border-color: rgba(201,154,46,0.3);
+    box-shadow: 0 4px 30px rgba(26,54,93,0.3);
+    transform: translateY(-2px);
+  }
+
+  .data-highlight {
+    color: #c99a2e;
+    text-shadow: 0 0 8px rgba(201,154,46,0.3);
+  }
+  .data-highlight-lg {
+    @apply text-3xl md:text-4xl font-extrabold;
+    color: #d4af37;
+    text-shadow: 0 0 12px rgba(201,154,46,0.4);
+  }
+
+  .corporate-gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, #c99a2e 0%, #d4af37 50%, #c99a2e 100%);
+  }
+
+  .section-corporate {
+    background: linear-gradient(180deg, rgba(26,54,93,0.05) 0%, transparent 30%, transparent 70%, rgba(26,54,93,0.05) 100%);
+  }
 }
 
 /* Particle canvas */

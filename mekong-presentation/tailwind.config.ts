@@ -25,6 +25,14 @@ export default {
                     green: '#76FF03',
                     orange: '#FF9100',
                 },
+                corporate: {
+                    blue: '#1a365d',
+                    'blue-light': '#2a4a7f',
+                    gold: '#c99a2e',
+                    'gold-light': '#d4af37',
+                    slate: '#64748b',
+                    'slate-light': '#94a3b8',
+                },
                 dark: {
                     50: '#e8eaf0',
                     100: '#c5c8d6',
@@ -65,6 +73,8 @@ export default {
             backgroundImage: {
                 'hero-gradient': 'linear-gradient(135deg, #0a0e2a 0%, #191d44 30%, #0d1b3e 60%, #0a0e2a 100%)',
                 'glass': 'linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.02) 100%)',
+                'finance-gradient': 'linear-gradient(135deg, #191d44 0%, #1a365d 50%, #0a0e2a 100%)',
+                'corporate-gradient': 'linear-gradient(135deg, #1a365d 0%, #0a0e2a 100%)',
             },
         },
     },

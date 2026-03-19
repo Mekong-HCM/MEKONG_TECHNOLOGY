@@ -1,6 +1,6 @@
 /**
  * Vietnamese number formatting utilities
- * Dau phay thap phan kieu Viet: 47,50M (KHONG phai 47.50M)
+ * Dau phay thap phan kieu Viet: 22,00M (KHONG phai 22.00M)
  * Dau cham phan cach hang nghin: 10.000 (KHONG phai 10,000)
  */
 

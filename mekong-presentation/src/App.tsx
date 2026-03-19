@@ -8,31 +8,23 @@ import { SlideIndicator } from './components/ui/SlideIndicator';
 import { SlideOverview } from './components/ui/SlideOverview';
 import { useSlideNavigation, SLIDES } from './hooks/useSlideNavigation';
 
-// Lazy-loaded sections (order matches SLIDES array in useSlideNavigation)
+// Lazy-loaded sections — 18 slides (order matches SLIDES array)
 const Urgency = lazy(() => import('./components/sections/Urgency').then(m => ({ default: m.Urgency })));
-const MarketOpportunity = lazy(() => import('./components/sections/MarketOpportunity').then(m => ({ default: m.MarketOpportunity })));
-const CompetitiveAnalysis = lazy(() => import('./components/sections/CompetitiveAnalysis').then(m => ({ default: m.CompetitiveAnalysis })));
-const ExportStrategy = lazy(() => import('./components/sections/ExportStrategy').then(m => ({ default: m.ExportStrategy })));
-const ThreePillars = lazy(() => import('./components/sections/ThreePillars').then(m => ({ default: m.ThreePillars })));
+const MarketCompetitive = lazy(() => import('./components/sections/MarketCompetitive').then(m => ({ default: m.MarketCompetitive })));
+const ProductEcosystem = lazy(() => import('./components/sections/ProductEcosystem').then(m => ({ default: m.ProductEcosystem })));
 const ProductIoTGateway = lazy(() => import('./components/sections/ProductIoTGateway').then(m => ({ default: m.ProductIoTGateway })));
 const ProductRobotAMR = lazy(() => import('./components/sections/ProductRobotAMR').then(m => ({ default: m.ProductRobotAMR })));
-const ProductOHT = lazy(() => import('./components/sections/ProductOHT').then(m => ({ default: m.ProductOHT })));
-const TechStack = lazy(() => import('./components/sections/TechStack').then(m => ({ default: m.TechStack })));
-const RDStrategy = lazy(() => import('./components/sections/RDStrategy').then(m => ({ default: m.RDStrategy })));
-const RDLabs = lazy(() => import('./components/sections/RDLabs').then(m => ({ default: m.RDLabs })));
-const RDIPPatents = lazy(() => import('./components/sections/RDIPPatents').then(m => ({ default: m.RDIPPatents })));
+const TechRD = lazy(() => import('./components/sections/TechRD').then(m => ({ default: m.TechRD })));
 const Infrastructure = lazy(() => import('./components/sections/Infrastructure').then(m => ({ default: m.Infrastructure })));
 const ProductionCapacity = lazy(() => import('./components/sections/ProductionCapacity').then(m => ({ default: m.ProductionCapacity })));
-const QualityCerts = lazy(() => import('./components/sections/QualityCerts').then(m => ({ default: m.QualityCerts })));
+const BusinessModel = lazy(() => import('./components/sections/BusinessModel').then(m => ({ default: m.BusinessModel })));
 const FinancialOverview = lazy(() => import('./components/sections/FinancialOverview').then(m => ({ default: m.FinancialOverview })));
+const TaxIncentives = lazy(() => import('./components/sections/TaxIncentives').then(m => ({ default: m.TaxIncentives })));
 const LegalESG = lazy(() => import('./components/sections/LegalESG').then(m => ({ default: m.LegalESG })));
-const ESGEnvironment = lazy(() => import('./components/sections/ESGEnvironment').then(m => ({ default: m.ESGEnvironment })));
 const RiskAnalysis = lazy(() => import('./components/sections/RiskAnalysis').then(m => ({ default: m.RiskAnalysis })));
 const TeamOrganization = lazy(() => import('./components/sections/TeamOrganization').then(m => ({ default: m.TeamOrganization })));
-const SocioEconomic = lazy(() => import('./components/sections/SocioEconomic').then(m => ({ default: m.SocioEconomic })));
 const ImplementationRoadmap = lazy(() => import('./components/sections/ImplementationRoadmap').then(m => ({ default: m.ImplementationRoadmap })));
-const StrategicValue = lazy(() => import('./components/sections/StrategicValue').then(m => ({ default: m.StrategicValue })));
-const ContactCTA = lazy(() => import('./components/sections/ContactCTA').then(m => ({ default: m.ContactCTA })));
+const Conclusion = lazy(() => import('./components/sections/Conclusion').then(m => ({ default: m.Conclusion })));
 
 function SectionFallback() {
     return <div className="min-h-screen flex items-center justify-center"><div className="w-8 h-8 border-2 border-neon-cyan/30 border-t-neon-cyan rounded-full animate-spin" /></div>;
@@ -49,36 +41,28 @@ export default function App() {
             <SlideIndicator slides={SLIDES} currentSlide={currentSlide} onGoTo={goToSlide} />
             <SlideOverview isOpen={isOverviewOpen} slides={SLIDES} currentSlide={currentSlide} onGoTo={goToSlide} onClose={toggleOverview} />
             <main className="snap-container">
-                {/* Slide order matches SLIDES array in useSlideNavigation */}
+                {/* 18 slides — order matches SLIDES array */}
                 <HeroSection />
                 <Suspense fallback={<SectionFallback />}>
                     <Urgency />
                 </Suspense>
                 <ExecutiveSummary />
                 <Suspense fallback={<SectionFallback />}>
-                    <MarketOpportunity />
-                    <CompetitiveAnalysis />
-                    <ExportStrategy />
-                    <ThreePillars />
+                    <MarketCompetitive />
+                    <ProductEcosystem />
                     <ProductIoTGateway />
                     <ProductRobotAMR />
-                    <ProductOHT />
-                    <TechStack />
-                    <RDStrategy />
-                    <RDLabs />
-                    <RDIPPatents />
+                    <TechRD />
                     <Infrastructure />
                     <ProductionCapacity />
-                    <QualityCerts />
+                    <BusinessModel />
                     <FinancialOverview />
+                    <TaxIncentives />
                     <LegalESG />
-                    <ESGEnvironment />
                     <RiskAnalysis />
                     <TeamOrganization />
-                    <SocioEconomic />
                     <ImplementationRoadmap />
-                    <StrategicValue />
-                    <ContactCTA />
+                    <Conclusion />
                 </Suspense>
             </main>
             {/* Progress bar */}
