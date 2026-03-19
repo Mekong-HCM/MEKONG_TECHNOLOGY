@@ -23,9 +23,9 @@ function OverviewTab() {
         <div className="space-y-6">
             <div className="grid md:grid-cols-3 gap-6">
                 {[
-                    { title: 'BU1: Điện tử Thông minh', desc: 'Gateway MK-200/300, Robot AMR, MekongOS Platform', color: '#00E5FF', Icon: Cpu },
-                    { title: 'BU2: CNC/MPMC', desc: '10 máy CNC chính xác, ISO 9001, 5-axis', color: '#E040FB', Icon: Cog },
-                    { title: 'DC Nội bộ', desc: '5-8 Rack, 200 m², hỗ trợ R&D và vận hành', color: '#76FF03', Icon: Server },
+                    { title: 'BU1: Điện tử Thông minh', desc: 'Gateway MK-200/300, Robot AMR, MekongOS Platform — 21 sản phẩm', color: '#00E5FF', Icon: Cpu },
+                    { title: 'BU2: CNC/MPMC', desc: '10 máy CNC chính xác, Tolerance ≤5µm, ISO 9001 — 5 sản phẩm', color: '#E040FB', Icon: Cog },
+                    { title: 'Hạ tầng Hỗ trợ', desc: 'DC nội bộ 5-8 rack, 4 Lab R&D, Solar 200 kWp — phục vụ 2 BU', color: '#76FF03', Icon: Server },
                 ].map((pillar, i) => (
                     <GlassCard key={i} hoverEffect className="p-6 text-center h-full">
                         <div className="flex justify-center mb-3">
@@ -113,7 +113,7 @@ function StrategicTab() {
             </h4>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
                 {[
-                    { Icon: Users, label: '200 việc làm chất lượng', desc: 'Lương 25-45K USD/năm, đào tạo tại chỗ', color: '#00E5FF' },
+                    { Icon: Users, label: '100-130 việc làm chất lượng', desc: 'Kỹ sư CNC/IoT, lương 25-45K USD/năm, đào tạo tại chỗ', color: '#00E5FF' },
                     { Icon: GraduationCap, label: 'Chuyển giao công nghệ', desc: 'Hợp tác ĐH Bách Khoa, RMIT, chuyên gia Nhật/Đức', color: '#E040FB' },
                     { Icon: Banknote, label: 'Đóng góp thuế và phí', desc: 'Phí thuê đất + thuế TNDN sau ưu đãi', color: '#76FF03' },
                     { Icon: Cpu, label: 'Chuỗi cung ứng nội địa', desc: 'Nhà cung cấp phụ trợ, dịch vụ kỹ thuật tại KCNC', color: '#FF9100' },

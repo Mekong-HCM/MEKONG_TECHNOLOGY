@@ -2,7 +2,7 @@ import { financials } from '../../data/financials';
 import { AreaChart, Area, XAxis, YAxis, ResponsiveContainer, Tooltip, Legend, BarChart, Bar } from 'recharts';
 import { GlassCard } from '../ui/GlassCard';
 import { TabSlide, type TabConfig } from '../ui/TabSlide';
-import { TrendingUp, BarChart3, Target } from 'lucide-react';
+import { TrendingUp, BarChart3, Target, Layers } from 'lucide-react';
 
 const sensitivityData = financials.sensitivity.map(s => ({
     name: s.variable,
@@ -26,10 +26,6 @@ function RevenueTab() {
                             <stop offset="5%" stopColor="#E040FB" stopOpacity={0.3} />
                             <stop offset="95%" stopColor="#E040FB" stopOpacity={0} />
                         </linearGradient>
-                        <linearGradient id="colorDc" x1="0" y1="0" x2="0" y2="1">
-                            <stop offset="5%" stopColor="#76FF03" stopOpacity={0.3} />
-                            <stop offset="95%" stopColor="#76FF03" stopOpacity={0} />
-                        </linearGradient>
                     </defs>
                     <XAxis dataKey="year" tick={{ fill: '#999', fontSize: 11 }} axisLine={false} tickLine={false} />
                     <YAxis tick={{ fill: '#999', fontSize: 11 }} axisLine={false} tickLine={false} unit="M" />
@@ -40,9 +36,8 @@ function RevenueTab() {
                         formatter={(v: number) => [`${v}M USD`]}
                     />
                     <Legend iconType="circle" wrapperStyle={{ fontSize: '12px', paddingTop: '10px', color: '#fff' }} />
-                    <Area type="monotone" dataKey="iot" name="IoT/Robot" stackId="1" stroke="#00E5FF" fill="url(#colorIot)" strokeWidth={2} />
-                    <Area type="monotone" dataKey="cnc" name="CNC" stackId="1" stroke="#E040FB" fill="url(#colorCnc)" strokeWidth={2} />
-                    <Area type="monotone" dataKey="dc" name="Datacenter" stackId="1" stroke="#76FF03" fill="url(#colorDc)" strokeWidth={2} />
+                    <Area type="monotone" dataKey="iot" name="BU1 Điện tử thông minh" stackId="1" stroke="#00E5FF" fill="url(#colorIot)" strokeWidth={2} />
+                    <Area type="monotone" dataKey="cnc" name="BU2 CNC/MPMC" stackId="1" stroke="#E040FB" fill="url(#colorCnc)" strokeWidth={2} />
                 </AreaChart>
             </ResponsiveContainer>
         </GlassCard>
@@ -129,11 +124,10 @@ function KPITab() {
             </div>
             <GlassCard className="p-4">
                 <h4 className="text-sm font-semibold text-white mb-3">Hòa vốn theo Trụ cột (Lãi/Lỗ Lũy kế)</h4>
-                <div className="grid sm:grid-cols-3 gap-4">
+                <div className="grid sm:grid-cols-2 gap-4">
                     {[
-                        { bu: 'IoT & Robotics', breakeven: 'Y7', capex: '~3,00M', peakLoss: '-0,8M', color: '#00E5FF' },
-                        { bu: 'CNC Siêu Chính Xác', breakeven: 'Y8', capex: '~5,00M', peakLoss: '-2,5M', color: '#E040FB' },
-                        { bu: 'Datacenter & AI', breakeven: 'Y10-Y11', capex: '~8,00M', peakLoss: '-4,5M', color: '#76FF03' },
+                        { bu: 'BU1 Điện tử thông minh', breakeven: 'Y7', capex: '~9,40M', peakLoss: '-3,5M', color: '#00E5FF' },
+                        { bu: 'BU2 CNC/MPMC', breakeven: 'Y8-Y9', capex: '~5,50M', peakLoss: '-2,5M', color: '#E040FB' },
                     ].map((item, i) => (
                         <div key={i} className="relative p-3 rounded-xl bg-white/[0.03] border border-white/5 overflow-hidden">
                             <div className="absolute top-0 left-0 w-1 h-full" style={{ background: item.color }} />
@@ -151,7 +145,40 @@ function KPITab() {
     );
 }
 
+function CapexTab() {
+    const colors = ['#00E5FF', '#4dd2ff', '#E040FB', '#76FF03'];
+    return (
+        <div className="space-y-4">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                {[
+                    { label: 'Tổng CAPEX', value: '22,00M USD', color: '#FF9100' },
+                    { label: 'Vốn CSH (81,8%)', value: '18,00M USD', color: '#00E5FF' },
+                    { label: 'Vốn vay (18,2%)', value: '4,00M USD', color: '#E040FB' },
+                    { label: 'Giải ngân', value: '4 giai đoạn', color: '#76FF03' },
+                ].map((kpi, i) => (
+                    <GlassCard key={i} className="p-3 text-center">
+                        <div className="text-base font-extrabold" style={{ color: kpi.color }}>{kpi.value}</div>
+                        <div className="text-[10px] text-gray-400 mt-0.5">{kpi.label}</div>
+                    </GlassCard>
+                ))}
+            </div>
+            <div className="grid sm:grid-cols-4 gap-3">
+                {financials.phases.map((p, i) => (
+                    <GlassCard key={i} className="p-3 relative overflow-hidden">
+                        <div className="absolute top-0 left-0 w-1 h-full" style={{ background: colors[i] }} />
+                        <div className="text-[10px] font-bold mb-1" style={{ color: colors[i] }}>{p.name} · {p.period}</div>
+                        <div className="text-lg font-extrabold text-white">{p.amount.toLocaleString('vi-VN', { minimumFractionDigits: 2 })}M</div>
+                        <div className="text-[10px] text-gray-400 mt-0.5">{p.label}</div>
+                        <div className="text-[9px] mt-1 px-1.5 py-0.5 rounded inline-block" style={{ background: `${colors[i]}20`, color: colors[i] }}>{p.source}</div>
+                    </GlassCard>
+                ))}
+            </div>
+        </div>
+    );
+}
+
 const tabs: TabConfig[] = [
+    { key: 'capex', label: 'CAPEX 4 Giai đoạn', icon: Layers, content: <CapexTab /> },
     { key: 'revenue', label: 'Revenue & EBITDA', icon: TrendingUp, content: <RevenueTab /> },
     { key: 'scenarios', label: 'NPV/IRR/Sensitivity', icon: BarChart3, content: <ScenariosTab /> },
     { key: 'kpi', label: 'DSCR/Payback', icon: Target, content: <KPITab /> },

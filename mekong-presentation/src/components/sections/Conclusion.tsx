@@ -28,7 +28,7 @@ function ValueTab() {
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
                 {[
-                    { label: 'NPV (50Y)', value: '1,50M USD', sub: 'P(NPV>0) = 65%' },
+                    { label: 'NPV (50Y)', value: '1,50M USD', sub: 'P(NPV>0) = 68%' },
                     { label: 'IRR (50Y)', value: '13,0%', sub: 'Vượt hurdle 12%' },
                     { label: 'Revenue 15Y', value: '~140M USD', sub: '6,4x CAPEX' },
                     { label: 'Strategic Value', value: '~7,0M USD', sub: '32% CAPEX' },
@@ -92,7 +92,7 @@ const trustSignals = [
     'Vị trí được BQL KCNC TP.HCM phê duyệt',
     'Tự chủ vốn CSH 81,8% — không phụ thuộc ODA',
     'Miễn thuế TNDN 4 năm, giảm 50% trong 9 năm tiếp',
-    'P(NPV>0) = 65% theo mô phỏng Monte Carlo',
+    'P(NPV>0) = 68% theo mô phỏng Monte Carlo',
 ];
 
 function CommitmentTab() {
@@ -245,7 +245,7 @@ function CTATab() {
 
             {/* Footer */}
             <div className="pt-4 border-t border-white/5 text-center">
-                <p className="text-xs text-gray-500">&copy; 2025 Mekong Technology. Confidential — For intended recipients only.</p>
+                <p className="text-xs text-gray-500">&copy; 2026 Mekong Technology. Bảo mật — Chỉ dành cho người nhận được chỉ định.</p>
                 <p className="text-xs text-gray-600 mt-1">Khu Công nghệ Cao TP.HCM (SHTP)</p>
             </div>
         </div>

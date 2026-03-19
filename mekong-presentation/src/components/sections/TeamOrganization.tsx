@@ -1,6 +1,6 @@
 import { team } from '../../data/team';
 import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Tooltip, Legend } from 'recharts';
-import { Globe2, BarChart3, Users } from 'lucide-react';
+import { Globe2, BarChart3, Users, Building2 } from 'lucide-react';
 import { TabSlide, type TabConfig } from '../ui/TabSlide';
 import { GlassCard } from '../ui/GlassCard';
 
@@ -92,10 +92,51 @@ function ESOPTab() {
     );
 }
 
+function SocioEconomicTab() {
+    return (
+        <div className="space-y-3">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                {[
+                    { label: 'Nhân sự ổn định', value: '100-130+', color: '#00E5FF', sub: 'kỹ thuật cao Y10+' },
+                    { label: 'Đóng thuế ước tính', value: '~2,5M USD', color: '#76FF03', sub: 'trong 15 năm' },
+                    { label: 'Xuất khẩu mục tiêu', value: '40-60%', color: '#E040FB', sub: 'doanh thu Y8+' },
+                    { label: 'Chuyển giao CN', value: '4 lab', color: '#FF9100', sub: 'R&D nội địa' },
+                ].map((item, i) => (
+                    <GlassCard key={i} className="p-3 text-center">
+                        <div className="text-xl font-extrabold" style={{ color: item.color }}>{item.value}</div>
+                        <div className="text-xs font-semibold text-white mt-0.5">{item.label}</div>
+                        <div className="text-[9px] text-gray-400">{item.sub}</div>
+                    </GlassCard>
+                ))}
+            </div>
+            <div className="grid sm:grid-cols-2 gap-3">
+                {[
+                    { title: 'Phát triển nguồn nhân lực', items: ['Đào tạo kỹ sư CNC chính xác tại Việt Nam', 'Hợp tác đại học kỹ thuật (thực tập, đề tài)', 'ESOP 3% để giữ nhân tài dài hạn', 'Chuyên gia quốc tế Nhật/Đức chuyển giao'] },
+                    { title: 'Tác động kinh tế vùng', items: ['Doanh thu ổn định ~12M USD/năm từ Y12+', 'Thuế TNDN ưu đãi KCNC → tích lũy sau kỳ miễn', 'Chuỗi cung ứng nội địa: vật tư, logistics, dịch vụ', 'Nâng cao vị thế công nghệ TP.HCM / khu vực'] },
+                ].map((sec, i) => (
+                    <GlassCard key={i} className="p-3">
+                        <h4 className="text-xs font-bold text-white mb-2 flex items-center gap-2">
+                            <Building2 size={12} className="text-neon-cyan" />{sec.title}
+                        </h4>
+                        <ul className="space-y-1">
+                            {sec.items.map((it, j) => (
+                                <li key={j} className="text-[10px] text-gray-300 flex items-start gap-1.5">
+                                    <span className="text-neon-cyan mt-0.5">•</span>{it}
+                                </li>
+                            ))}
+                        </ul>
+                    </GlassCard>
+                ))}
+            </div>
+        </div>
+    );
+}
+
 const tabs: TabConfig[] = [
     { key: 'headcount', label: 'Headcount', icon: BarChart3, content: <HeadcountTab /> },
     { key: 'leadership', label: 'C-level & Experts', icon: Users, content: <LeadershipTab /> },
     { key: 'esop', label: 'ESOP', icon: Globe2, content: <ESOPTab /> },
+    { key: 'socio', label: 'Tác động KT-XH', icon: Building2, content: <SocioEconomicTab /> },
 ];
 
 export function TeamOrganization() {

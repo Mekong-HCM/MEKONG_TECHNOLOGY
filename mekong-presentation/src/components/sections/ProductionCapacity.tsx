@@ -1,7 +1,7 @@
-import { Settings, Clock, Gauge, List } from 'lucide-react';
+import { Settings, Clock, Gauge, ShieldCheck } from 'lucide-react';
 import { TabSlide, type TabConfig } from '../ui/TabSlide';
 import { GlassCard } from '../ui/GlassCard';
-import { cncMachines, cncCapacity, cncSpecs, shiftStructure, totalMachines, totalMachineCost } from '../../data/operations';
+import { cncMachines, cncCapacity, cncSpecs, shiftStructure, totalMachines, totalMachineCost, qualityCerts, as9100Note } from '../../data/operations';
 
 function MachinesTab() {
     return (
@@ -102,10 +102,37 @@ function ShiftTab() {
     );
 }
 
+function CertsTab() {
+    return (
+        <div className="space-y-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                {qualityCerts.map((c, i) => (
+                    <GlassCard key={i} className="p-3">
+                        <div className="flex items-center gap-2 mb-2">
+                            <ShieldCheck size={14} style={{ color: c.color }} />
+                            <span className="text-sm font-bold text-white">{c.cert}</span>
+                            <span className="ml-auto text-[9px] px-1.5 py-0.5 rounded" style={{ background: `${c.color}20`, color: c.color }}>{c.timeline}</span>
+                        </div>
+                        <div className="text-[10px] text-gray-400 mb-1">{c.scope}</div>
+                        <div className="flex gap-4 text-[10px]">
+                            <span className="text-gray-500">Chi phí: <span className="text-white font-semibold">{c.cost} USD</span></span>
+                            {c.hourRate !== '-' && <span className="text-gray-500">Giá dịch vụ: <span className="text-neon-cyan font-semibold">{c.hourRate}</span></span>}
+                        </div>
+                    </GlassCard>
+                ))}
+            </div>
+            <GlassCard className="p-3">
+                <p className="text-[11px] text-gray-400 italic">{as9100Note}</p>
+            </GlassCard>
+        </div>
+    );
+}
+
 const tabs: TabConfig[] = [
     { key: 'machines', label: '10 máy CNC', icon: Settings, content: <MachinesTab /> },
     { key: 'capacity', label: 'Capacity Ramp', icon: Gauge, content: <CapacityTab /> },
     { key: 'shift', label: 'Chế độ vận hành', icon: Clock, content: <ShiftTab /> },
+    { key: 'certs', label: 'QA/QC & Chứng nhận', icon: ShieldCheck, content: <CertsTab /> },
 ];
 
 export function ProductionCapacity() {

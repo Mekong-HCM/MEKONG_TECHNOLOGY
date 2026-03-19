@@ -1,7 +1,7 @@
 import { timeline } from '../../data/timeline';
 import { TabSlide, type TabConfig } from '../ui/TabSlide';
 import { GlassCard } from '../ui/GlassCard';
-import { CalendarDays, Flag } from 'lucide-react';
+import { CalendarDays, Flag, CheckSquare } from 'lucide-react';
 
 function PhasesTab() {
     return (
@@ -59,9 +59,41 @@ function MilestonesTab() {
     );
 }
 
+function KPICheckpointsTab() {
+    const checkpoints = [
+        { year: 'Y1', kpis: ['IRC điều chỉnh phê duyệt', 'ĐTM + PCCC hoàn thành', 'Thiết kế 3/F hoàn chỉnh', 'Khởi công san lấp'] },
+        { year: 'Y3', kpis: ['Shell 3 công trình hoàn thành', 'MEP + Solar 200 kWp vận hành', 'IoT Lab commissioning', 'DC nội bộ 5-8 rack online'] },
+        { year: 'Y4', kpis: ['Doanh thu IoT đầu tiên ≥ 0,7M USD', 'ISO 9001 cấp chứng nhận', 'CNC 10 máy lắp đặt xong', 'Robot AMR/AGV pilot'] },
+        { year: 'Y7', kpis: ['2 BU vận hành đầy đủ', 'Doanh thu ≥ 6,7M USD', 'Vay 4M USD (DSCR ≥ 1,5x)', 'ISO 27001 cấp chứng nhận'] },
+        { year: 'Y10', kpis: ['Breakeven chiết khấu (NPV = 0)', 'CNC utilization ≥ 85%', 'Revenue ≥ 11M USD/năm', 'Trả xong nợ vay'] },
+        { year: 'Y12+', kpis: ['Steady-state ~12M USD/năm', 'EBITDA ~30%', 'NPV(50Y) ≥ 1,5M USD', 'IRR(50Y) ≥ 13,0%'] },
+    ];
+    const colors = ['#00E5FF', '#4dd2ff', '#E040FB', '#76FF03', '#FF9100', '#00E5FF'];
+    return (
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {checkpoints.map((cp, i) => (
+                <GlassCard key={i} className="p-3">
+                    <div className="flex items-center gap-2 mb-2">
+                        <CheckSquare size={12} style={{ color: colors[i] }} />
+                        <span className="text-sm font-bold" style={{ color: colors[i] }}>{cp.year}</span>
+                    </div>
+                    <ul className="space-y-1">
+                        {cp.kpis.map((kpi, j) => (
+                            <li key={j} className="text-[10px] text-gray-300 flex items-start gap-1.5">
+                                <span className="text-green-400 mt-0.5">✓</span>{kpi}
+                            </li>
+                        ))}
+                    </ul>
+                </GlassCard>
+            ))}
+        </div>
+    );
+}
+
 const tabs: TabConfig[] = [
     { key: 'phases', label: 'Gantt 4 Phases', icon: CalendarDays, content: <PhasesTab /> },
     { key: 'milestones', label: 'Milestones', icon: Flag, content: <MilestonesTab /> },
+    { key: 'kpi', label: 'KPI Checkpoints', icon: CheckSquare, content: <KPICheckpointsTab /> },
 ];
 
 export function ImplementationRoadmap() {

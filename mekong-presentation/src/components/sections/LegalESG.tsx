@@ -1,4 +1,4 @@
-import { Leaf, Shield, Users, FileCheck, Award, Check } from 'lucide-react';
+import { Leaf, Shield, Users, FileCheck, Award, Check, ClipboardCheck } from 'lucide-react';
 import { TabSlide, type TabConfig } from '../ui/TabSlide';
 import { GlassCard } from '../ui/GlassCard';
 import { OptimizedImage } from '../ui/OptimizedImage';
@@ -75,9 +75,76 @@ function CertsTab() {
     );
 }
 
+function KCNCCriteriaTab() {
+    const criteria = [
+        {
+            group: 'Tiêu chí Sản phẩm & Công nghệ',
+            color: '#00E5FF',
+            items: [
+                { label: 'Sản phẩm thuộc danh mục công nghệ cao (Quyết định 38/2020/QĐ-TTg)', met: true },
+                { label: 'Giá trị gia tăng (VA) ≥ 30% doanh thu', met: true, note: 'Cam kết VA ≥ 30%' },
+                { label: 'Hàm lượng R&D ≥ 1% doanh thu (yêu cầu tối thiểu)', met: true, note: 'Cam kết 8-12%' },
+                { label: 'Sản phẩm ứng dụng công nghệ cao thuộc ≥ 1 lĩnh vực ưu tiên', met: true, note: 'IoT + CNC chính xác' },
+            ],
+        },
+        {
+            group: 'Tiêu chí Nhân lực & Đào tạo',
+            color: '#E040FB',
+            items: [
+                { label: 'Nhân sự kỹ thuật được đào tạo chuyên ngành ≥ 5%', met: true, note: '100% kỹ sư có bằng ĐH+' },
+                { label: 'Có chương trình đào tạo tại chỗ hoặc hợp tác đại học', met: true, note: 'Hợp tác ĐHBK + RMIT' },
+                { label: 'Chuyên gia nước ngoài chuyển giao công nghệ', met: true, note: 'Chuyên gia Nhật/Đức' },
+            ],
+        },
+        {
+            group: 'Tiêu chí Tài chính & Cam kết',
+            color: '#76FF03',
+            items: [
+                { label: 'Vốn đầu tư ≥ ngưỡng tối thiểu KCNC', met: true, note: '22,00M USD >> ngưỡng' },
+                { label: 'Chứng minh năng lực tài chính vốn tự có', met: true, note: 'CSH 18,00M USD (81,8%)' },
+                { label: 'Không sử dụng vốn ODA hoặc ngân sách nhà nước', met: true },
+                { label: 'Cam kết tiến độ triển khai và giải ngân theo giai đoạn', met: true, note: '4 giai đoạn P0-P3' },
+            ],
+        },
+        {
+            group: 'Tiêu chí Môi trường & ESG',
+            color: '#FF9100',
+            items: [
+                { label: 'Đánh giá tác động môi trường (ĐTM) được phê duyệt', met: true, note: 'Y0-Y1' },
+                { label: 'PCCC đạt tiêu chuẩn QCVN', met: true },
+                { label: 'Không xả thải lỏng (ZLD) cho xưởng CNC', met: true },
+                { label: 'Năng lượng tái tạo — Solar 200 kWp', met: true },
+            ],
+        },
+    ];
+    return (
+        <div className="space-y-4">
+            {criteria.map((group, gi) => (
+                <GlassCard key={gi} className="p-4">
+                    <h4 className="text-xs font-bold mb-3 flex items-center gap-2" style={{ color: group.color }}>
+                        <ClipboardCheck size={13} style={{ color: group.color }} />{group.group}
+                    </h4>
+                    <div className="space-y-2">
+                        {group.items.map((item, ii) => (
+                            <div key={ii} className="flex items-start gap-2">
+                                <Check size={12} className="text-green-400 mt-0.5 flex-shrink-0" />
+                                <span className="text-[11px] text-gray-300 flex-1">{item.label}</span>
+                                {item.note && (
+                                    <span className="text-[10px] px-1.5 py-0.5 rounded ml-1 flex-shrink-0" style={{ background: `${group.color}15`, color: group.color }}>{item.note}</span>
+                                )}
+                            </div>
+                        ))}
+                    </div>
+                </GlassCard>
+            ))}
+        </div>
+    );
+}
+
 const tabs: TabConfig[] = [
+    { key: 'kcnc', label: 'Tiêu chí KCNC', icon: ClipboardCheck, content: <KCNCCriteriaTab /> },
     { key: 'permits', label: 'Cơ sở pháp lý', icon: FileCheck, content: <PermitsTab /> },
-    { key: 'esg', label: 'Solar/EDGE/ESG', icon: Leaf, content: <ESGTab /> },
+    { key: 'esg', label: 'Năng lượng & Môi trường', icon: Leaf, content: <ESGTab /> },
     { key: 'certs', label: 'Chứng nhận', icon: Award, content: <CertsTab /> },
 ];
 
@@ -86,7 +153,7 @@ export function LegalESG() {
         <TabSlide
             id="legal-esg"
             title="Pháp lý & ESG"
-            subtitle={`${legal.totalPermits} giấy phép — Zero Liquid Discharge — ESG commitment đầy đủ`}
+            subtitle={`${legal.totalPermits} giấy phép — Không xả thải lỏng — Cam kết môi trường và xã hội đầy đủ`}
             tabs={tabs}
         />
     );
