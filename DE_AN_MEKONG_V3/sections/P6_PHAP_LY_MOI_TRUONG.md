@@ -117,7 +117,7 @@ Dự án Mekong V3 thuộc **đồng thời 2 loại hình** theo NĐ 10/2024:
 | Thủ tục | Float | Rủi ro delay | Biện pháp giảm thiểu |
 |---|:---:|---|---|
 | **IRC** | 0 ngày | Thấp (BQL KCNC 1 cửa) | Tư vấn chuyên nghiệp, hồ sơ chuẩn |
-| **ĐTM** | 0 ngày | **Trung bình-Cao** | Thuê EIA consultant có track record KCNC |
+| **ĐTM** | 0 ngày | **Trung bình-Cao** | Thuê EIA consultant có thành tích đã kiểm chứng KCNC |
 | **PCCC TK** | 15 ngày | **Trung bình** | PCCC expert tham gia từ giai đoạn thiết kế |
 | **Nghiệm thu PCCC** | 0 ngày | **Cao** | Thi công đúng TK, self-check trước khi nộp |
 
@@ -165,7 +165,7 @@ Dự án thuộc **Nhóm I — Đối tượng phải lập ĐTM** theo Phụ l�
 | **Tổng** | **770** | **92** |
 | **Tổng 10 năm** | | **~1.690** |
 
-> CAPEX môi trường = 3,5% tổng CAPEX 22M. OPEX MT = ~0,8% doanh thu steady-state. Mức đầu tư phù hợp cho dự án CNC tại KCNC [C].
+> CAPEX môi trường = 3,5% tổng CAPEX 22M. OPEX MT = ~0,8% doanh thu ổn định. Mức đầu tư phù hợp cho dự án CNC tại KCNC [C].
 
 ### 6.3.4. Cam kết Môi trường (V3)
 
@@ -190,13 +190,13 @@ Mekong Technology cam kết:
 
 | Giai đoạn | GHG Dự kiến (tCO₂e/năm) | Mục tiêu giảm | Biện pháp chính |
 |---|---:|:---:|---|
-| **Y1-Y3 (Baseline)** | 2.500-4.000 | — | Đo đạc, lập baseline Scope 1/2/3 |
+| **Y1-Y3 (Mức cơ sở)** | 2.500-4.000 | — | Đo đạc, lập baseline Scope 1/2/3 |
 | **Y4-Y5** | 4.000-5.500 | **-15% vs BAU** | Solar rooftop 200 kWp (→ ~25% điện), LED 100%, VFD các motor |
 | **Y6-Y10** | 5.500-7.000 | **-30% vs BAU** | Green Power PPA 30%, waste heat recovery CNC, EV xe nội bộ |
 | **Y11-Y20** | 7.000-8.000 | **-50% vs BAU** | Green Power PPA 60%+, RECs mua bổ sung, carbon offset |
 | **Y20-Y45** | 8.000+ | **Net Zero** | Green energy 100%, carbon sequestration, circular economy toàn diện |
 
-> GHG V3 thấp hơn V2 khoảng 60-70% vì không có DC thương mại (DC 50 rack = 8.000-20.000 tCO₂e/năm riêng mình). Baseline V3 chỉ khoảng 2.500-4.000 tCO₂e/năm — dễ đạt Net Zero hơn đáng kể [C].
+> GHG V3 thấp hơn V2 khoảng 60-70% vì không có DC thương mại (DC 50 rack = 8.000-20.000 tCO₂e/năm riêng mình). Mức cơ sở V3 chỉ khoảng 2.500-4.000 tCO₂e/năm — dễ đạt Net Zero hơn đáng kể [C].
 
 ### 6.4.2. Năng lượng Tái tạo (≥ 20% vào 2030)
 
@@ -214,9 +214,9 @@ Mekong Technology cam kết:
 
 | Tiêu chí EDGE | Yêu cầu | Thiết kế Mekong V3 | Đáp ứng |
 |---|---|---|:---:|
-| Tiết kiệm Năng lượng | ≥ 20% so với baseline | LED 100%, VFD, Solar 200 kWp, thiết kế passive cooling | **25-30%** ✓ |
-| Tiết kiệm Nước | ≥ 20% so với baseline | ZLD, thu nước mưa, thiết bị tiết kiệm nước | **25-35%** ✓ |
-| Tiết kiệm Vật liệu | ≥ 20% so với baseline | Thép tái chế 30%+, panel cách nhiệt PU | **22-28%** ✓ |
+| Tiết kiệm Năng lượng | ≥ 20% so với mức cơ sở | LED 100%, VFD, Solar 200 kWp, thiết kế passive cooling | **25-30%** ✓ |
+| Tiết kiệm Nước | ≥ 20% so với mức cơ sở | ZLD, thu nước mưa, thiết bị tiết kiệm nước | **25-35%** ✓ |
+| Tiết kiệm Vật liệu | ≥ 20% so với mức cơ sở | Thép tái chế 30%+, panel cách nhiệt PU | **22-28%** ✓ |
 
 > **EDGE (Excellence in Design for Greater Efficiencies)** — chứng nhận của IFC/World Bank, phổ biến hơn LEED cho dự án công nghiệp quy mô vừa tại Việt Nam. Chi phí chứng nhận: 20-35K USD. Timeline: 6-9 tháng (kết hợp với giai đoạn thiết kế) [B].
 
@@ -283,12 +283,12 @@ Mekong Technology cam kết:
 
 | TT | Tài sản IP | Loại bảo hộ | Cơ quan | Timeline | Ghi chú |
 |:---:|---|---|---|---|---|
-| 1 | MekongOS Platform | Đăng ký bản quyền phần mềm | Cục SHTT | Y3 | Mã nguồn + tài liệu |
+| 1 | MekongOS Nền tảng | Đăng ký bản quyền phần mềm | Cục SHTT | Y3 | Mã nguồn + tài liệu |
 | 2 | MekongBMS/SCADA | Đăng ký bản quyền phần mềm | Cục SHTT | Y3 | Firmware + UI |
 | 3 | IoT Gateway HW design | Sáng chế (utility patent) | Cục SHTT + PCT | Y4 | Thiết kế PCB + antenna |
 | 4 | SLAM Algorithm (Robot) | Bí mật kinh doanh + Sáng chế | Nội bộ + Cục SHTT | Y5 | Thuật toán AI navigation |
 | 5 | Thương hiệu "MekongOS" | Đăng ký nhãn hiệu | Cục SHTT | Y2 | Nhóm 9, 42 |
-| 6 | CNC Process Know-how | Bí mật kinh doanh | Nội bộ (NDA) | Liên tục | G-code library, toolpath |
+| 6 | CNC Process Bí quyết công nghệ | Bí mật kinh doanh | Nội bộ (NDA) | Liên tục | G-code library, toolpath |
 
 > Ngân sách IP: ~30–50K USD giai đoạn Y2–Y5. Giá trị IP ước tính đóng góp vào Giá trị Chiến lược 7,00M USD [C].
 
@@ -307,7 +307,7 @@ Mekong Technology cam kết:
 | 7 | D&O Insurance | Trách nhiệm Ban Giám đốc | 2,00 | 5–8 |
 | | **Tổng phí bảo hiểm/năm** | | | **~80–116** |
 
-> Phí bảo hiểm ~80–116K USD/năm (~0,7–1,0% doanh thu steady-state). Bảo hiểm CAR chỉ áp dụng giai đoạn xây dựng (2 năm). Tổng chi phí bảo hiểm 10 năm: ~700–900K USD [A].
+> Phí bảo hiểm ~80–116K USD/năm (~0,7–1,0% doanh thu ổn định). Bảo hiểm CAR chỉ áp dụng giai đoạn xây dựng (2 năm). Tổng chi phí bảo hiểm 10 năm: ~700–900K USD [A].
 
 ### 6.6.1. An ninh Vật lý (Physical Security)
 
@@ -366,7 +366,7 @@ Mekong Technology cam kết:
 | **Thu nhập gián tiếp** (nhà cung cấp, dịch vụ) | 8-12 | [A] multiplier 1,5× |
 | **Đào tạo nguồn nhân lực CNC/IoT** | 1-2 | [C] training budget |
 | **Xuất khẩu ròng** (CNC + IoT) | 10-18 | [C] 15-20% revenue target |
-| **Chuyển giao công nghệ** (IP + know-how) | 3-5 | [A] |
+| **Chuyển giao công nghệ** (IP + bí quyết công nghệ) | 3-5 | [A] |
 | **Tổng đóng góp 10 năm** | **~46-71** | |
 
 > Đóng góp V3 thấp hơn V2 (~85-120M) tương ứng với quy mô CAPEX nhỏ hơn, nhưng **hiệu quả trên mỗi USD đầu tư** tương đương: V3 = 46-71M / 22M = 2,1-3,2× CAPEX, V2 = 85-120M / 32M = 2,7-3,8× CAPEX [C].

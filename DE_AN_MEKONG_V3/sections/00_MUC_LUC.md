@@ -30,15 +30,15 @@
 
 - [3.1. Tổng quan Mô hình Doanh thu](P3_MO_HINH_KINH_DOANH.md#31-tổng-quan-mô-hình-doanh-thu)
 - [3.2. Khách hàng Mục tiêu và Chiến lược Tiếp cận](P3_MO_HINH_KINH_DOANH.md#32-khách-hàng-mục-tiêu-và-chiến-lược-tiếp-cận)
-- [3.3. Chiến lược Phát triển Theo Giai đoạn (V3)](P3_MO_HINH_KINH_DOANH.md#33-chiến-lược-phát-triển-theo-giai-đoạn-v3)
+- [3.3. Chiến lược Phát triển Theo Giai đoạn](P3_MO_HINH_KINH_DOANH.md#33-chiến-lược-phát-triển-theo-giai-đoạn)
 - [3.4. Đối tác Chiến lược và Business Model Canvas](P3_MO_HINH_KINH_DOANH.md#34-đối-tác-chiến-lược-và-business-model-canvas)
-- [3.5. Chiến lược Giá Chi tiết (Pricing Strategy)](P3_MO_HINH_KINH_DOANH.md#35-chiến-lược-giá-chi-tiết-pricing-strategy)
+- [3.5. Chiến lược Giá Chi tiết (Chiến lược Định giá)](P3_MO_HINH_KINH_DOANH.md#35-chiến-lược-giá-chi-tiết-pricing-strategy)
 - [3.6. Kinh tế Đơn vị (Unit Economics)](P3_MO_HINH_KINH_DOANH.md#36-kinh-tế-đơn-vị-unit-economics)
 - [3.7. Chiến lược Xuất khẩu và Mở rộng ASEAN](P3_MO_HINH_KINH_DOANH.md#37-chiến-lược-xuất-khẩu-và-mở-rộng-asean)
-- [3.8. Pipeline Khách hàng CNC (Pre-operation)](P3_MO_HINH_KINH_DOANH.md#38-pipeline-khách-hàng-cnc-pre-operation)
+- [3.8. Chuỗi đơn hàng Khách hàng CNC (Pre-operation)](P3_MO_HINH_KINH_DOANH.md#38-pipeline-khách-hàng-cnc-pre-operation)
 - [3.9. Customer Acquisition Cost (CAC) theo Trụ cột](P3_MO_HINH_KINH_DOANH.md#39-customer-acquisition-cost-cac-theo-trụ-cột)
 - [3.10. Chiến lược Cạnh tranh](P3_MO_HINH_KINH_DOANH.md#310-chiến-lược-cạnh-tranh)
-- [3.11. Dự báo Doanh thu 15 Năm — V3](P3_MO_HINH_KINH_DOANH.md#311-dự-báo-doanh-thu-15-năm--v3)
+- [3.11. Dự báo Doanh thu 15 Năm](P3_MO_HINH_KINH_DOANH.md#311-dự-báo-doanh-thu-15-năm)
 
 ## PHẦN IV: HẠ TẦNG KỸ THUẬT
 
@@ -74,7 +74,7 @@
 
 - [6.1. Khung Pháp lý Áp dụng](P6_PHAP_LY_MOI_TRUONG.md#61-khung-pháp-lý-áp-dụng)
 - [6.2. Chiến lược Pháp lý](P6_PHAP_LY_MOI_TRUONG.md#62-chiến-lược-pháp-lý)
-- [6.3. Đánh giá Tác động Môi trường (ĐTM)](P6_PHAP_LY_MOI_TRUONG.md#63-đánh-giá-tác-động-môi-trường-đtm--v3)
+- [6.3. Đánh giá Tác động Môi trường (ĐTM)](P6_PHAP_LY_MOI_TRUONG.md#63-đánh-giá-tác-động-môi-trường-đtm)
 - [6.4. Lộ trình Net Zero 2045](P6_PHAP_LY_MOI_TRUONG.md#64-lộ-trình-net-zero-2045-và-năng-lượng-tái-tạo)
 - [6.5. An toàn Lao động](P6_PHAP_LY_MOI_TRUONG.md#65-an-toàn-lao-động)
 - [6.6. An ninh Vật lý và Thông tin](P6_PHAP_LY_MOI_TRUONG.md#66-an-ninh-vật-lý-và-thông-tin)
@@ -120,17 +120,17 @@
 - [Phụ lục M: Lộ trình Công nghệ 4.0](PHU_LUC.md#phụ-lục-m-lộ-trình-công-nghệ-40-industry-40-roadmap)
 - [Phụ lục N: Kế hoạch Vận hành và Bảo trì](PHU_LUC.md#phụ-lục-n-kế-hoạch-vận-hành-và-bảo-trì)
 - [Phụ lục O: Phân tích Thị trường Chi tiết](PHU_LUC.md#phụ-lục-o-phân-tích-thị-trường-chi-tiết)
-- [Phụ lục P: Benchmarking ASEAN](PHU_LUC.md#phụ-lục-p-benchmarking-asean--doanh-nghiệp-sản-xuất-cnc-tại-kcnc)
+- [Phụ lục P: Đối chiếu chuẩn ngành ASEAN](PHU_LUC.md#phụ-lục-p-benchmarking-asean--doanh-nghiệp-sản-xuất-cnc-tại-kcnc)
 - [Phụ lục Q: Chiến lược Chuỗi Cung ứng và CRM](PHU_LUC.md#phụ-lục-q-chiến-lược-chuỗi-cung-ứng-và-crm)
 - [Phụ lục R: Bảng Giả định Tài chính Chi tiết](PHU_LUC.md#phụ-lục-r-bảng-giả-định-tài-chính-chi-tiết)
 - [Phụ lục S: Dòng tiền Chi tiết 15 Năm (FCFF)](PHU_LUC.md#phụ-lục-s-dòng-tiền-chi-tiết-15-năm-fcff)
 - [Phụ lục T: Phân tích Tài chính Per-BU Chi tiết](PHU_LUC.md#phụ-lục-t-phân-tích-tài-chính-per-bu-chi-tiết)
 - [Phụ lục U: KPI Dashboard và Báo cáo](PHU_LUC.md#phụ-lục-u-kpi-dashboard-và-báo-cáo)
-- [Phụ lục V: Bảng Đối chiếu Số liệu Canonical V3](PHU_LUC.md#phụ-lục-v-bảng-đối-chiếu-số-liệu-canonical-v3)
+- [Phụ lục V: Bảng Đối chiếu Số liệu Canonical](PHU_LUC.md#phụ-lục-v-bảng-đối-chiếu-số-liệu-canonical)
 - [Phụ lục W: Danh mục Tài liệu Tham khảo](PHU_LUC.md#phụ-lục-w-danh-mục-tài-liệu-tham-khảo)
 - [Phụ lục X: Ma trận Hồ sơ Nộp và Chứng cứ Thẩm định KCNC](PHU_LUC.md#phụ-lục-x-ma-trận-hồ-sơ-nộp-và-chứng-cứ-thẩm-định-kcnc)
 - [Phụ lục Y: Lộ trình Chứng nhận, Qualification và Customer Readiness](PHU_LUC.md#phụ-lục-y-lộ-trình-chứng-nhận-qualification-và-customer-readiness)
 
 ## BẢNG ĐỐI CHIẾU
 
-- [Bảng Đối chiếu Số liệu Chính thức V3](BANG_DOI_CHIEU.md)
+- [Bảng Đối chiếu Số liệu Chính thức](BANG_DOI_CHIEU.md)

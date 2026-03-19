@@ -17,7 +17,7 @@
 | IRR | 13,0% [C] | Đầu tư |
 | WACC | 12,0% [C] | Đầu tư |
 | DSCR trung bình (Y7-Y16) | ≥ 1,50× [C] | Tài chính |
-| EBITDA margin (steady state) | ~30% [C] | Kinh doanh |
+| EBITDA margin (ổn định) | ~30% [C] | Kinh doanh |
 | Việc làm tạo ra | 100–130 vị trí (ổn định) | Xã hội |
 | Sản phẩm công nghệ cao | 14 danh mục thuộc QĐ 38/2020 | Pháp lý |
 | VA/Revenue | ≥ 42% | Cam kết |
@@ -27,6 +27,49 @@
 ### 9.1.2. Hai Trụ cột Sản xuất
 
 Dự án Mekong Technology phương án 22,00M USD [C] là một **dự án sản xuất công nghệ cao** thực sự, tập trung vào 2 trụ cột chính:
+
+```mermaid
+graph LR
+    MEKONG["Mekong Technology<br/>22,00M USD"]
+
+    BU1["BU1: Điện tử Thông minh<br/>8,50M — 70,8%"]
+    BU2["BU2: CNC Chính xác<br/>3,50M — 29,2%"]
+    DC["DC Nội bộ<br/>2,20M — 10,0%"]
+
+    IoT["IoT Gateway"]
+    BMS["BMS / SCADA"]
+    Robot["Robot AMR/AGV"]
+    CNC10["10 máy CNC 5-trục"]
+    EDM["EDM + Grinder"]
+    FDI["Gia công FDI"]
+    ERP["ERP/MES/CAD"]
+    RD["R&D Repository"]
+
+    MEKONG --> BU1
+    MEKONG --> BU2
+    MEKONG --> DC
+    BU1 --> IoT
+    BU1 --> BMS
+    BU1 --> Robot
+    BU2 --> CNC10
+    BU2 --> EDM
+    BU2 --> FDI
+    DC --> ERP
+    DC --> RD
+
+    style MEKONG fill:#1e3a5f,color:#fff
+    style BU1 fill:#166534,color:#fff
+    style BU2 fill:#b45309,color:#fff
+    style DC fill:#6b21a8,color:#fff
+    style IoT fill:#22c55e,color:#fff
+    style BMS fill:#22c55e,color:#fff
+    style Robot fill:#22c55e,color:#fff
+    style CNC10 fill:#f59e0b,color:#000
+    style EDM fill:#f59e0b,color:#000
+    style FDI fill:#f59e0b,color:#000
+    style ERP fill:#a78bfa,color:#000
+    style RD fill:#a78bfa,color:#000
+```
 
 **Trụ cột 1 — Sản phẩm Điện tử Thông minh (BU1: 8,50M, chiếm 70,8% doanh thu)** [C]
 
@@ -47,7 +90,7 @@ Dự án Mekong Technology phương án 22,00M USD [C] là một **dự án sả
 Datacenter nội bộ (5–8 rack, **200 m² T2**, CAPEX **2,20M chiếm 10,0%** [C]) phục vụ hoàn toàn nội bộ:
 
 - ERP/MES/CAD-CAM cho quản lý sản xuất.
-- Lưu trữ dữ liệu R&D, firmware repository, CI/CD pipeline.
+- Lưu trữ dữ liệu R&D, firmware repository, CI/CD chuỗi đơn hàng.
 - BMS/SCADA monitoring cho toàn nhà máy.
 - Không kinh doanh dịch vụ DC thương mại, không cung cấp GPU-aaS, colocation, hay dịch vụ viễn thông.
 
@@ -60,18 +103,35 @@ Datacenter nội bộ (5–8 rack, **200 m² T2**, CAPEX **2,20M chiếm 10,0%**
 | Đào tạo nhân lực | 100–130 kỹ sư/công nhân CNC + IoT, hợp tác Đại học SHTP |
 | R&D và IP | ≥ 8% doanh thu cho R&D, tạo sản phẩm IP nội địa (firmware, thuật toán) |
 | Xuất khẩu | Robot AMR/AGV qua ASEAN, linh kiện CNC cho chuỗi cung ứng toàn cầu |
-| Green Manufacturing | Solar 200 kWp [C], EDGE Certification, Net Zero roadmap 2045 |
+| Green Manufacturing | Solar 200 kWp [C], EDGE Certification, Net Zero lộ trình 2045 |
 
-### 9.1.5. So sánh V3 (22M) với Phương án Gốc
-
-| Tiêu chí | Phương án Gốc | V3 (22M) | Nhận xét |
-|---|---|---|---|
-| Tổng CAPEX | ~32M USD | 22,00M USD | Giảm 31%, tập trung hơn |
-| DC thương mại | Có (GPU-aaS, colocation) | Không | Loại bỏ hoàn toàn |
-| CNC | 6 máy | 10 máy | Tăng 67% năng lực |
-| Trụ cột | 3 trụ cột (thêm DC) | 2 trụ cột (ĐT + CNC) | Rõ ràng, không xung đột |
-| Rủi ro đầu tư | Cao (CAPEX lớn, DC rủi ro) | Trung bình (CAPEX hợp lý) | Giảm rủi ro đáng kể |
-| Phù hợp KCNC | Vấn đề GP Viễn thông | Hoàn toàn phù hợp | Tuân thủ 100% |
+```mermaid
+mindmap
+  root((Mekong Technology<br/>Đóng góp KCNC))
+    Chuỗi cung ứng
+      Gia công CNC tại chỗ
+      Giảm phụ thuộc NK
+      Intel Samsung Bosch
+    Chuyển đổi số
+      IoT Gateway
+      BMS SCADA
+      Made-in-SHTP
+    Nhân lực
+      100–130 việc làm
+      Kỹ sư CNC + IoT
+      Hợp tác ĐH SHTP
+    R&D và IP
+      R&D ≥ 8% doanh thu
+      Firmware IP
+      Thuật toán SLAM
+    Xuất khẩu
+      Robot AMR ASEAN
+      Linh kiện CNC
+    Green Mfg
+      Solar 200 kWp
+      EDGE Cert
+      Net Zero 2045
+```
 
 ---
 
@@ -147,7 +207,7 @@ Mekong Technology kính đề nghị xem xét chấp thuận dự án trên cơ 
 2. **Đáp ứng NĐ 10/2024/NĐ-CP:** đồng thời thuộc Điều 29 (R&D CNC) và Điều 31 (Sản xuất SP CNC), VA/Revenue ≥ 42%, R&D/Revenue ≥ 8% — vượt ngưỡng tối thiểu Điều 28.
 3. **Tài chính khả thi và bền vững:** NPV = 1,50M USD, IRR = 13,0% > WACC 12%, DSCR ≥ 1,50×, CSH 81,8% — đảm bảo không phụ thuộc vay nợ giai đoạn xây dựng [C].
 4. **Tạo giá trị cho hệ sinh thái KCNC:** 100–130 việc làm CNC, chuỗi cung ứng nội địa cho FDI (Intel, Samsung), sản phẩm IP Việt Nam (firmware, thuật toán SLAM) [C].
-5. **Cam kết Green Manufacturing:** Solar 200 kWp, EDGE Certification, Net Zero roadmap 2045 — phù hợp tiêu chí ưu tiên mới của SHTP 2026 [C].
+5. **Cam kết Green Manufacturing:** Solar 200 kWp, EDGE Certification, Net Zero lộ trình 2045 — phù hợp tiêu chí ưu tiên mới của SHTP 2026 [C].
 
 ### 9.4.2. KPI Dashboard — 24 Tháng Đầu Vận hành (Y4–Y5)
 
@@ -156,10 +216,10 @@ Mekong Technology kính đề nghị xem xét chấp thuận dự án trên cơ 
 | 1 | Doanh thu tổng | ≥ 1,00M USD | ≥ 2,50M USD [C] | Báo cáo tài chính tháng | CFO |
 | 2 | CNC Utilization Rate | ≥ 40% | ≥ 60% | MES/OEE dashboard | BU2 Director |
 | 3 | IoT Gateway units shipped | ≥ 200 units | ≥ 800 units | ERP delivery log | BU1 Director |
-| 4 | Hợp đồng FDI signed | ≥ 2 | ≥ 5 | CRM pipeline | VP Sales |
+| 4 | Hợp đồng FDI signed | ≥ 2 | ≥ 5 | CRM chuỗi đơn hàng | VP Sales |
 | 5 | First Pass Yield (CNC) | ≥ 92% | ≥ 96% | QC report | QA Manager |
 | 6 | Customer NPS | ≥ 30 | ≥ 50 | Survey quý | VP Sales |
-| 7 | R&D milestones hit | 3/5 | 4/5 | CTO roadmap review | CTO |
+| 7 | R&D các mốc tiến độ hit | 3/5 | 4/5 | CTO lộ trình review | CTO |
 | 8 | Headcount | 50–65 | 65–80 | HR system | HR Director |
 | 9 | Turnover rate | < 15% | < 10% | HR system | HR Director |
 | 10 | HSSE incidents | 0 Lost Time Injury | 0 LTI | HSE log | HSE Officer |
@@ -172,13 +232,29 @@ Mekong Technology kính đề nghị xem xét chấp thuận dự án trên cơ 
 
 | Kịch bản | Trigger | Hành động | Nguồn lực dự phòng |
 |---|---|---|---|
-| **A — Doanh thu chậm 30%** | Revenue Y5 < 1,75M | Cắt giảm OPEX 15%, đẩy mạnh OEM/outsource CNC, hoãn tuyển dụng Phase 3 | Dự phòng CAPEX 1,35M [C] |
-| **B — Mất khách hàng FDI lớn** | > 20% revenue concentration rời | Đa dạng hóa KH, tăng marketing nội địa, mở kênh SI/VAR | Pipeline CRM + BU1 nội địa |
+| **A — Doanh thu chậm 30%** | Revenue Y5 < 1,75M | Cắt giảm OPEX 15%, đẩy mạnh OEM/thuê ngoài CNC, hoãn tuyển dụng Phase 3 | Dự phòng CAPEX 0,65M [C] |
+| **B — Mất khách hàng FDI lớn** | > 20% revenue concentration rời | Đa dạng hóa KH, tăng marketing nội địa, mở kênh SI/VAR | Chuỗi đơn hàng CRM + BU1 nội địa |
 | **C — Thiếu nhân sự CNC trầm trọng** | Turnover CNC > 25% | Tăng lương 15%, ký hợp đồng dài hạn, thuê chuyên gia JP bổ sung | Budget đào tạo 100–160K [C] |
 | **D — Biến động tỷ giá > 10%** | VND mất giá > 10% | Hedge hợp đồng FX forward, điều chỉnh giá bán CNC | Natural hedge (thu USD) |
 | **E — Thay đổi ưu đãi KCNC** | Luật mới thu hẹp ưu đãi | Vận động, tối ưu hóa chi phí, review business case | IRC đã cấp là cơ sở pháp lý [B] |
 
-### 9.4.4. Điều kiện Tiên quyết để Giữ đúng Cam kết V3
+```mermaid
+quadrantChart
+    title Kịch bản Dự phòng — Xác suất vs Tác động
+    x-axis "Xác suất thấp" --> "Xác suất cao"
+    y-axis "Tác động thấp" --> "Tác động cao"
+    quadrant-1 "Giám sát chặt"
+    quadrant-2 "Hành động ngay"
+    quadrant-3 "Theo dõi"
+    quadrant-4 "Chuẩn bị sẵn"
+    "A: DT chậm 30%": [0.55, 0.80]
+    "B: Mất KH FDI lớn": [0.35, 0.75]
+    "C: Thiếu NS CNC": [0.60, 0.60]
+    "D: Tỷ giá > 10%": [0.40, 0.50]
+    "E: Ưu đãi thu hẹp": [0.25, 0.70]
+```
+
+### 9.4.4. Điều kiện Tiên quyết để Giữ đúng Cam kết Dự án
 
 | TT | Điều kiện | Trách nhiệm chính | Deadline |
 |:---:|---|---|---|
@@ -202,14 +278,14 @@ Mekong Technology kính đề nghị xem xét chấp thuận dự án trên cơ 
 2. **Hiệu quả đầu tư chấp nhận được:** CAPEX 22,00M USD [C], NPV dương 1,50M USD [C], IRR 13,0% > WACC 12,0% [C], cấu trúc vốn bảo thủ.
 3. **Phù hợp pháp lý và môi trường:** bám Mẫu 1.4, NĐ 31/2021, NĐ 10/2024, và phạm vi ĐTM/PCCC đã được thu hẹp hợp lý do DC chỉ dùng nội bộ.
 4. **Đóng góp thực chất cho hệ sinh thái SHTP:** tăng nội địa hóa chuỗi cung ứng CNC, phát triển sản phẩm IoT/BMS/Robot mang IP Việt Nam, tạo 100-130 việc làm chất lượng.
-5. **Rủi ro đã được nhận diện và có cơ chế kiểm soát:** dự phòng CAPEX 1,35M USD [C], covenant tài chính, PMO đa tầng, lộ trình ESG và Net Zero rõ ràng.
+5. **Rủi ro đã được nhận diện và có cơ chế kiểm soát:** dự phòng CAPEX 0,65M USD [C], covenant tài chính, PMO đa tầng, lộ trình ESG và Net Zero rõ ràng.
 
 ### 9.4.2. Kế hoạch 180 ngày Sau khi Được Chấp thuận
 
 | Giai đoạn | Công việc trọng tâm | Đầu ra bắt buộc |
 |---|---|---|
 | 0-30 ngày | Hoàn thiện hồ sơ pháp lý chi tiết, ký tư vấn ĐTM/PCCC | Kế hoạch pháp lý tích hợp |
-| 30-60 ngày | Khóa thiết kế cơ sở, BOQ, cấu trúc PMO | Baseline ngân sách + tiến độ |
+| 30-60 ngày | Khóa thiết kế cơ sở, BOQ, cấu trúc PMO | Mức cơ sở ngân sách + tiến độ |
 | 60-90 ngày | Chuẩn bị RFQ gói xây dựng, utility, thiết bị dài hạn | Danh mục tender package |
 | 90-120 ngày | Mở thầu / đàm phán nhà thầu chính, tuyển core team | Shortlist nhà thầu + nhân sự chủ chốt |
 | 120-180 ngày | Khởi động Phase 0-1, thiết lập cơ chế báo cáo với BQL KCNC | Báo cáo khởi động dự án |
@@ -221,19 +297,19 @@ Mekong Technology kính đề nghị xem xét chấp thuận dự án trên cơ 
 | KPI | Mục tiêu sau 12 tháng | Mục tiêu sau 24 tháng |
 |---|---:|---:|
 | % hoàn tất thủ tục pháp lý lõi | 100% | 100% |
-| % giải ngân so với baseline | ≥ 90% | ≥ 95% |
+| % giải ngân so với mức cơ sở | ≥ 90% | ≥ 95% |
 | % hoàn thành xây dựng / utility | ≥ 40% | ≥ 85% |
 | Số hợp đồng / LOI thương mại ký trước vận hành | ≥ 3 | ≥ 6 |
 | Tỷ lệ nhân sự core tuyển đủ | ≥ 70% | ≥ 90% |
-| Chênh lệch CAPEX so với baseline | ≤ +5% | ≤ +7,5% |
+| Chênh lệch CAPEX so với mức cơ sở | ≤ +5% | ≤ +7,5% |
 
 > Bộ KPI này là thước đo hậu phê duyệt để chứng minh dự án không chỉ “được chấp thuận trên giấy” mà thực sự chuyển hóa thành năng lực sản xuất và thương mại hóa theo đúng cam kết với KCNC [A].
 
-### 9.4.4. Điều kiện Tiên quyết để Giữ đúng Cam kết V3
+### 9.4.4. Điều kiện Tiên quyết để Giữ đúng Cam kết Dự án
 
 | Điều kiện tiên quyết | Hàm ý quản trị |
 |---|---|
-| Không mở rộng lại sang DC thương mại | Giữ nhất quán phạm vi V3 |
+| Không mở rộng lại sang DC thương mại | Giữ nhất quán phạm vi dự án |
 | Không vượt CAPEX 22,00M USD [C] nếu chưa có phê duyệt mới | Bảo vệ hiệu quả đầu tư |
 | Ưu tiên đầu tư sâu cho 2 trụ cột hiện hữu | Tránh phân tán nguồn lực |
 | Giữ kỷ luật PMO + covenant tài chính | Hạn chế trượt tiến độ và dòng tiền |

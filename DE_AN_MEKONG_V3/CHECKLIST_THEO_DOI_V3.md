@@ -17,7 +17,8 @@
 7. [Sơ đồ Mermaid (12 sơ đồ chính)](#7-sơ-đồ-mermaid)
 8. [Cross-reference (6 vùng nguy hiểm)](#8-cross-reference)
 9. [Final QC (15 hạng mục)](#9-final-qc)
-10. [Nhật ký Thay đổi](#10-nhật-ký-thay-đổi)
+10. Kế hoạch xử lý lỗi ngôn ngữ thuần Việt
+11. Nhật ký Thay đổi
 
 ---
 ---
@@ -214,19 +215,26 @@ Kết quả đúng: 0 dòng
 | 1 | Không emoji | 0 emoji trong toàn bộ file | [ ] |
 | 2 | Tiếng Việt có dấu | Toàn bộ nội dung tiếng Việt phải có dấu đầy đủ | [ ] |
 | 3 | Văn phong trang trọng | Phong cách văn bản trình cơ quan nhà nước | [ ] |
-| 4 | Dấu phẩy thập phân kiểu Việt | 22,00M (KHÔNG phải 22.00M) | [ ] |
-| 5 | Đơn vị đầy đủ | Mỗi số có đơn vị: USD, m2, kW, MW, kWh | [ ] |
-| 6 | Nhãn dữ liệu [C]/[B]/[A] | Mỗi số liệu tài chính phải có nhãn nguồn gốc | [ ] |
-| 7 | Heading đúng cấp bậc | H1 > H2 > H3 > H4 — không nhảy cấp | [ ] |
-| 8 | Bảng có header rõ ràng | Tất cả bảng Markdown có hàng tiêu đề | [ ] |
-| 9 | Mục lục khớp nội dung | 100% heading trong mục lục trùng khớp nội dung thực tế | [ ] |
-| 10 | Header/Footer mỗi file | Mỗi file có header (tên, ngày) và footer (cập nhật, tác giả) | [ ] |
+| 4 | Không chêm Anh-Việt trong một câu | Chỉ chấp nhận viết tắt, tên riêng, mã sản phẩm, tên chuẩn/chứng nhận | [ ] |
+| 5 | Dấu phẩy thập phân kiểu Việt | 22,00M (KHÔNG phải 22.00M) | [ ] |
+| 6 | Đơn vị đầy đủ | Mỗi số có đơn vị: USD, m2, kW, MW, kWh | [ ] |
+| 7 | Nhãn dữ liệu [C]/[B]/[A] | Mỗi số liệu tài chính phải có nhãn nguồn gốc | [ ] |
+| 8 | Heading đúng cấp bậc | H1 > H2 > H3 > H4 — không nhảy cấp | [ ] |
+| 9 | Bảng có header rõ ràng | Tất cả bảng Markdown có hàng tiêu đề | [ ] |
+| 10 | Mục lục khớp nội dung | 100% heading trong mục lục trùng khớp nội dung thực tế | [ ] |
+| 11 | Header/Footer mỗi file | Mỗi file có header (tên, ngày) và footer (cập nhật, tác giả) | [ ] |
 
 ### Cách kiểm tra emoji
 ```
 grep -P "[\x{1F600}-\x{1F64F}\x{1F300}-\x{1F5FF}\x{1F680}-\x{1F6FF}\x{2600}-\x{26FF}]" MASTER_FILE
 ```
 Kết quả đúng: 0 dòng
+
+### Cách kiểm tra chêm Anh-Việt
+```
+grep -Ein "steady-state|platform|fit-out|business model|pricing|roadmap|milestone|gate|cash flow|payback|break-even|commitment|scenario|sensitivity|first revenue|outsource|support team|digital marketing|self-service|community|hosting|subscription" DE_AN_MEKONG_V3/sections/*.md
+```
+Kết quả đúng: chỉ còn viết tắt hợp lệ hoặc 0 dòng sau khi Việt hóa
 
 ---
 ---
@@ -316,7 +324,64 @@ Bước 4: PM xác nhận → báo cáo CEO
 ---
 ---
 
-# 10. NHẬT KÝ THAY ĐỔI
+## 10. KẾ HOẠCH XỬ LÝ LỖI NGÔN NGỮ THUẦN VIỆT
+
+> Mục tiêu: loại bỏ hoàn toàn hiện tượng chêm tiếng Anh vào câu tiếng Việt trong nội dung nộp chính thức.
+
+### 10.1. Quy tắc xử lý
+
+1. Giữ nguyên số liệu, cấu trúc và ý nghĩa; chỉ Việt hóa cách diễn đạt.
+2. Chỉ giữ lại viết tắt, mã sản phẩm, tên riêng, tên chuẩn/chứng nhận và trường thông tin song ngữ riêng biệt.
+3. Thuật ngữ nước ngoài nếu thực sự cần thiết phải được giải nghĩa trong phụ lục hoặc tại lần xuất hiện đầu tiên.
+4. Ưu tiên thay theo cặp chuẩn:
+
+   - `steady-state` → `ổn định`
+   - `business model` → `mô hình kinh doanh`
+   - `pricing` → `định giá`
+   - `roadmap` → `lộ trình`
+   - `milestone` / `gate` → `mốc tiến độ` / `mốc quyết định`
+   - `cash flow` → `dòng tiền`
+   - `payback` / `break-even` → `thời gian hoàn vốn` / `điểm hòa vốn`
+   - `fit-out` → `hoàn thiện lắp đặt`
+   - `platform` → `nền tảng`
+
+### 10.2. Danh sách file ưu tiên sửa
+
+- **P1** — `sections/00_TOM_TAT_DIEU_HANH.md`: mật độ lỗi cao, nhiều bảng và đoạn tóm tắt dùng cụm Anh-Việt.
+- **P1** — `sections/00_THONG_TIN_DU_AN.md`: nhiều dòng thông tin nền, bảng sản phẩm và ghi chú đang chêm tiếng Anh.
+- **P1** — `sections/P5_TAI_CHINH_DAU_TU.md`: tập trung nhiều thuật ngữ tài chính lai ngôn ngữ.
+- **P2** — `sections/P3_MO_HINH_KINH_DOANH.md`: nhiều cụm kinh doanh, bán hàng, định giá và biểu bảng cần Việt hóa.
+- **P2** — `sections/P2_SAN_PHAM_CONG_NGHE.md`: dễ lẫn thuật ngữ kỹ thuật, cần chuẩn hóa theo phụ lục viết tắt.
+- **P2** — `sections/P4_HA_TANG_KY_THUAT.md`: dễ lẫn thuật ngữ hạ tầng, vận hành và nghiệm thu.
+- **P3** — `sections/P7_NHAN_SU_TO_CHUC.md`: cần Việt hóa chức danh, mô tả vai trò, chỉ giữ tên riêng/chức danh quốc tế khi bắt buộc.
+- **P3** — `sections/P8_KE_HOACH_TRIEN_KHAI.md`: cần Việt hóa mốc tiến độ, quản trị triển khai và điều kiện qua cổng.
+- **P3** — `sections/P9_KET_LUAN_KIEN_NGHI.md`: ít thuật ngữ hơn nhưng cần rà soát sạch hoàn toàn trước khi nộp.
+
+### 10.3. Trình tự thực hiện đề xuất
+
+- **Đợt 1** — `00_TOM_TAT_DIEU_HANH`, `00_THONG_TIN_DU_AN`, `P5_TAI_CHINH_DAU_TU`  
+  Mục tiêu: dọn các điểm xuất hiện nhiều nhất và ảnh hưởng lớn nhất đến bản nộp.  
+  Kết quả cần đạt: giảm trên 70% lỗi lai ngôn ngữ.
+
+- **Đợt 2** — `P3_MO_HINH_KINH_DOANH`, `P2_SAN_PHAM_CONG_NGHE`, `P4_HA_TANG_KY_THUAT`  
+  Mục tiêu: chuẩn hóa thuật ngữ kinh doanh, kỹ thuật, hạ tầng.  
+  Kết quả cần đạt: thuần Việt ở toàn bộ phần cốt lõi.
+
+- **Đợt 3** — `P7`, `P8`, `P9`, `PHU_LUC`  
+  Mục tiêu: rà soát vòng cuối và thống nhất phụ lục giải nghĩa.  
+  Kết quả cần đạt: sẵn sàng final QC.
+
+### 10.4. Tiêu chí nghiệm thu riêng cho đợt sửa này
+
+- Không còn câu tiếng Việt chứa cụm Anh không thuộc nhóm ngoại lệ.
+- Không còn ô bảng tiếng Việt nhưng tiêu đề cột hoặc mô tả dùng cụm Anh không cần thiết.
+- Viết tắt được dùng nhất quán và có chỗ giải nghĩa.
+- Sau mỗi đợt phải chạy lại grep các cụm lai ngôn ngữ và cập nhật trạng thái.
+
+---
+---
+
+## 11. NHẬT KÝ THAY ĐỔI
 
 > Ghi lại mọi thay đổi quan trọng trong quá trình hoàn thiện hồ sơ.
 
@@ -325,11 +390,12 @@ Bước 4: PM xác nhận → báo cáo CEO
 | 2026-03-16 | Khởi tạo V3 — 8 file quản lý | Giám Đốc Dự Án | Backbone + quản lý |
 | 2026-03-16 | Chuyển đổi tiếng Việt có dấu: QUY_TAC (726 dòng), KE_HOACH (707 dòng) | Giám Đốc Dự Án | 100% hoàn thành |
 | 2026-03-16 | Tạo CHECKLIST_THEO_DOI_V3.md | Giám Đốc Dự Án | File mới |
+| 2026-03-19 | Bổ sung quy tắc thuần Việt và kế hoạch xử lý lỗi chêm Anh-Việt | GitHub Copilot | Thêm checklist, ưu tiên file sửa |
 | | | | |
 | | | | |
 
 ---
 
-*Cập nhật: 2026-03-16*
+*Cập nhật: 2026-03-19*
 *Tác giả: Giám Đốc Dự Án (Agent 1)*
 *File này được cập nhật sau mỗi Sprint hoàn thành.*

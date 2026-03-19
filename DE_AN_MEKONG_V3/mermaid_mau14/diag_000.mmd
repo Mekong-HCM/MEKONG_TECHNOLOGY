@@ -1,0 +1,21 @@
+flowchart TD
+    CEO[Tổng Giám đốc] --> PGD1[Phó Tổng Giám đốc Sản xuất]
+    CEO --> PGD2[Phó Tổng Giám đốc Kinh doanh]
+    CEO --> CFO[Giám đốc Tài chính]
+    CEO --> CTO[Giám đốc Công nghệ — R&D]
+
+    PGD1 --> SX1[Khối IoT/SMT — Điện tử]
+    PGD1 --> SX2[Khối CNC/MPMC — Cơ khí]
+    PGD1 --> SX3[Khối Lắp ráp Robot]
+    PGD1 --> QA[Khối QA/QC]
+
+    PGD2 --> KD1[Kinh doanh IoT/BMS]
+    PGD2 --> KD2[Kinh doanh CNC/FDI]
+    PGD2 --> MKT[Marketing]
+
+    CTO --> RD1[Nghiên cứu IoT/Phần cứng]
+    CTO --> RD2[Nghiên cứu Robot/Trí tuệ nhân tạo]
+    CTO --> RD3[Nghiên cứu Phần mềm BMS/SCADA]
+
+    CEO --> HC[Hành chính — Nhân sự]
+    CEO --> IT[Hạ tầng dữ liệu nội bộ]

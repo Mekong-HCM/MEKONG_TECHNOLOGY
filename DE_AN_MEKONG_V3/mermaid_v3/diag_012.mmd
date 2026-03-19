@@ -1,0 +1,57 @@
+flowchart LR
+    subgraph FACTORY[" NHÀ MÁY FDI — Ví dụ: SMT + Assembly, 200 thiết bị"]
+        subgraph PROD_LINE["Dây chuyền sản xuất"]
+            MACHINE1["Máy SMT Yamaha<br/>OPC UA"]
+            MACHINE2["Reflow oven Heller<br/>Modbus TCP"]
+            MACHINE3["AOI Koh Young<br/>OPC UA"]
+            ROBOT_FACTORY["AMR-500 ×3<br/>WiFi 6 Fleet"]
+            AGV_FACTORY["AGV-1000 ×2<br/>WiFi + UWB"]
+        end
+        subgraph UTIL_FACTORY["Utility & Môi trường"]
+            PWR_METER["Power meter<br/>Modbus TCP"]
+            ENV_SENSOR["Env sensor<br/>Temp/Humid MQTT"]
+            COMPRESS["Máy nén khí<br/>Modbus RTU"]
+        end
+        subgraph CTRL_ROOM["Phòng điều khiển"]
+            MK300_FAC["MK-300 AI Gateway<br/>5G + OPC UA + MQTT<br/>40 TOPS edge AI"]
+            MK_EIO_FAC["MK-EIO-AI8 ×4<br/>Analog sensor bus"]
+        end
+    end
+
+    subgraph MEKONOS_FACTORY["️ MEKONG PLATFORM (DC nội bộ)"]
+        MES_MODULE["MES Module<br/>Work order + WIP<br/>yield tracking"]
+        OEE_ENGINE["OEE Analytics<br/>Availability, Performance<br/>Quality real-time"]
+        AI_PREDICT["AI Predictive<br/>Machine health score<br/>MTBF prediction"]
+        FLEET_MGR["Fleet Manager<br/>AMR/AGV dispatch<br/>traffic control"]
+        ENERGY_MGR["Energy Manager<br/>kWh per machine<br/>Carbon footprint"]
+    end
+
+    subgraph KH_SYSTEMS[" HỆ THỐNG KHÁCH HÀNG"]
+        ERP_KH["ERP KH<br/>(SAP / Oracle)"]
+        MES_KH["MES KH<br/>(Siemens Opcenter)"]
+        CLOUD_KH["Cloud KH<br/>(Azure / AWS)"]
+    end
+
+    MACHINE1 --> MK300_FAC
+    MACHINE2 --> MK300_FAC
+    MACHINE3 --> MK300_FAC
+    MACHINE1 & MACHINE2 --> MK_EIO_FAC --> MK300_FAC
+    ROBOT_FACTORY & AGV_FACTORY --> |WiFi MQTT| FLEET_MGR
+    PWR_METER --> MK300_FAC
+    ENV_SENSOR --> MK300_FAC
+    COMPRESS --> MK300_FAC
+
+    MK300_FAC --> |5G/WiFi6 MQTT+OPC UA| MES_MODULE
+    MK300_FAC --> OEE_ENGINE
+    MK300_FAC --> AI_PREDICT
+    MK300_FAC --> ENERGY_MGR
+
+    MES_MODULE --> ERP_KH
+    MES_MODULE --> MES_KH
+    OEE_ENGINE --> CLOUD_KH
+    FLEET_MGR --> CLOUD_KH
+    ENERGY_MGR --> CLOUD_KH
+
+    style FACTORY fill:#e8f5e9,stroke:#2e7d32
+    style MEKONOS_FACTORY fill:#ede7f6,stroke:#4a148c
+    style KH_SYSTEMS fill:#e3f2fd,stroke:#1565c0

@@ -61,17 +61,17 @@ flowchart TD
 | Hạng mục | CAPEX (M USD) | Tỷ trọng | Giai đoạn |
 |---|---:|:---:|---|
 | Pháp lý + Thiết kế + San lấp | 1,50 | 6,8% | Phase 0 |
-| Xây dựng (VP 3T + Xưởng SX **2T** + Utility **2T** + M&E + PCCC + Solar 200 kWp + EDGE) | 8,45 | 38,4% | Phase 1 |
-| Thiết bị IoT/SMT | 2,50 | 11,4% | Phase 2 |
+| Xây dựng (VP 3T + Xưởng SX **2T** + Utility **2T** + M&E + PCCC + Solar 200 kWp + EDGE) | 8,40 | 38,2% | Phase 1 |
+| Thiết bị IoT/SMT | 2,40 | 10,9% | Phase 2 |
 | Thiết bị CNC (10 máy) | 3,50 | 15,9% | Phase 2 |
 | Robot Assembly Line | 0,50 | 2,3% | Phase 2 |
 | Hạ tầng DC nội bộ (**200 m²** T2, 5-8 rack) | 2,20 | 10,0% | Phase 2 |
 | QA/QC Lab + Phần mềm | 1,00 | 4,5% | Phase 2 |
 | Vốn lưu động vận hành | 1,85 | 8,4% | Phase 3 |
-| Dự phòng rủi ro (~2,7% CAPEX — tái phân bổ cho T2) | 0,60 | 2,7% | Phase 3 |
+| Dự phòng rủi ro (~3,0% CAPEX) | 0,65 | 3,0% | Phase 3 |
 | **Tổng** | **22,00** | **100%** | |
 
-> **Kiểm tra tỷ trọng DC:** Hạ tầng DC nội bộ = 2,20M / 22,00M = **10,0%** — nằm trong giới hạn 10-15% theo đề xuất BQL KCNC [C]. Xây dựng 2 tầng (xưởng + utility) = 3,90M (17,7% CAPEX). Dự phòng giảm từ 1,35M → 0,60M do tái phân bổ cho T2.
+> **Kiểm tra tỷ trọng DC:** Hạ tầng DC nội bộ = 2,20M / 22,00M = **10,0%** — nằm trong giới hạn 10-15% theo đề xuất BQL KCNC [C]. Xây dựng 2 tầng (xưởng + utility) = 3,90M (17,7% CAPEX). Dự phòng = 0,65M (3,0% CAPEX) [C].
 
 ### Cấu trúc Vốn
 
@@ -94,10 +94,10 @@ flowchart TD
 
 | Chỉ số Bổ sung | Giá trị | Nhãn |
 |---|---:|:---:|
-| Payback (chiết khấu) | 10 năm | [C] |
+| Thời gian hoàn vốn (chiết khấu) | 10 năm | [C] |
 | DSCR min (vay từ Y7) | 1,50x | [C] |
 | Revenue 15 năm tích lũy | ~140M USD | [C] |
-| EBITDA steady-state (Y12+) | ~30% | [C] |
+| EBITDA ổn định (Y12+) | ~30% | [C] |
 | Giá trị Chiến lược (Adjusted) | 7,00M USD | [C] |
 
 ### Phân bổ Giá trị Chiến lược
@@ -108,7 +108,7 @@ flowchart TD
 | Tax + Land Rent Exemption | 2,00 | NPV ưu đãi thuế + miễn đất, chiết khấu 12% |
 | Real Options Value | 1,00 | Quyền mở rộng CNC + nâng cấp IoT line |
 | Synergy Value (CNC-Robot-IoT) | 1,50 | DCF incremental: CNC làm khung Robot + IoT giám sát CNC |
-| Platform Value | 1,00 | EBITDA multiple: Đa trụ cột = 8-10x vs Đơn trụ = 5-7x |
+| Nền tảng Value | 1,00 | EBITDA multiple: Đa trụ cột = 8-10x vs Đơn trụ = 5-7x |
 | **Tổng Giá trị Chiến lược** | **7,00** | [C] |
 
 ---
@@ -172,9 +172,9 @@ gantt
 | Tài chính | CAPEX 22,00M USD [C], CSH 81,8% [C], vay chỉ từ Y7 khi có doanh thu |
 | Công nghệ | 2 trụ cột rõ ràng: Điện tử thông minh + CNC 10 máy [C] |
 | Môi trường / ESG | Net Zero 2045, Solar 200 kWp [C], EDGE, ZLD CNC |
-| Quản trị triển khai | PMO, decision gate, covenant tài chính, milestone theo phase |
+| Quản trị triển khai | PMO, cổng quyết định, covenant tài chính, mốc tiến độ theo phase |
 
-> **Thông điệp điều hành:** V3 không theo hướng “đầu tư lớn để bao phủ nhiều mảng”, mà theo hướng **đầu tư đủ sâu vào 2 năng lực cốt lõi**, giảm rủi ro pháp lý, tăng tính khả thi vận hành và vẫn giữ dư địa tăng trưởng dài hạn cho Mekong Technology.
+> **Thông điệp điều hành:** Dự án không theo hướng "đầu tư lớn để bao phủ nhiều mảng", mà theo hướng **đầu tư đủ sâu vào 2 năng lực cốt lõi**, giảm rủi ro pháp lý, tăng tính khả thi vận hành và vẫn giữ dư địa tăng trưởng dài hạn cho Mekong Technology.
 
 ---
 
@@ -186,7 +186,7 @@ gantt
 | IoT công nghiệp (IIoT) | ~150M USD | 25-30% | 2,00M USD | 0,5-1,0% |
 | Robot AMR/AGV (nội địa + FDI) | ~80M USD | 30-35% | 2,40M USD | 1,5-2,0% |
 | Gia công CNC precision (FDI tại VN) | ~500M USD | 12-15% | 3,40M USD | 0,5-0,7% |
-| SaaS IoT/BMS Platform | ~50M USD | 35-40% | 1,05M USD | 1,0-1,5% |
+| SaaS IoT/BMS Nền tảng | ~50M USD | 35-40% | 1,05M USD | 1,0-1,5% |
 
 > Tổng thị trường khả dụng ~980M USD (2025), dự kiến tăng lên 2.500-3.000M USD (2030). Mekong chỉ cần chiếm 0,3-2% tuỳ phân khúc để đạt doanh thu 12,00M USD/năm — mục tiêu thận trọng và khả thi [A][B].
 
@@ -203,9 +203,9 @@ gantt
 | 5 | OEM/ODM Điện tử | BU1 | Theo BOM | 1,10 | 25-35% | Tối ưu công suất SMT |
 | 6 | Khung Robot + FDI Parts (CNC) | BU2 | 50-1.000 | 2,20 | 42-55% | Backbone doanh thu CNC |
 | 7 | Jig/Fixture CNC | BU2 | 150-800 | 0,40 | 50-60% | Biên cao, niche ít cạnh tranh |
-| 8 | CNC Outsource (giờ máy) | BU2 | 55-95/giờ | 0,80 | 35-45% | Tận dụng công suất dư |
+| 8 | CNC Thuê ngoài (giờ máy) | BU2 | 55-95/giờ | 0,80 | 35-45% | Tận dụng công suất dư |
 
-> 8 nhóm sản phẩm trên chiếm 77% doanh thu steady-state (9,05M / 12,00M). 6 nhóm còn lại (DDC, EIO, GW, AGV, SCADA, MekongOS) đóng góp 23% nhưng quan trọng cho tính hoàn chỉnh hệ sinh thái [C].
+> 8 nhóm sản phẩm trên chiếm 77% doanh thu ổn định (9,05M / 12,00M). 6 nhóm còn lại (DDC, EIO, GW, AGV, SCADA, MekongOS) đóng góp 23% nhưng quan trọng cho tính hoàn chỉnh hệ sinh thái [C].
 
 ---
 
@@ -213,13 +213,13 @@ gantt
 
 | Mốc | Thời điểm | Điều kiện qua cổng | Rủi ro nếu không đạt |
 |---|---|---|---|
-| **Gate 0: Phê duyệt đầu tư** | Q2/2026 | BQL KCNC chấp thuận, IRC/ERC điều chỉnh | Delay toàn bộ dự án |
-| **Gate 1: Khởi công xây dựng** | Q3/2026 | Giấy phép xây dựng, thiết kế chi tiết hoàn tất | Trượt tiến độ Phase 1 |
-| **Gate 2: Hoàn công nhà xưởng** | Q1/2028 | Nghiệm thu xây dựng, PCCC pass, EDGE pre-assessment | Delay lắp máy |
-| **Gate 3: CNC + SMT commissioning** | Q1/2029 | 10 máy CNC chạy, SMT line đạt yield ≥ 92% | Delay doanh thu Y4 |
-| **Gate 4: First Revenue** | Q2/2029 | ≥ 3 PO CNC ký, ≥ 5 KH IoT pilot | Ramp-up chậm |
-| **Gate 5: Breakeven** | Q2/2031 | Doanh thu ≥ 5,09M (Cash BEP) | Cần tái cấu trúc chi phí |
-| **Gate 6: Steady-state** | 2035+ | Doanh thu ≥ 12M, EBITDA ≥ 30% | Xem lại target |
+| **Mốc quyết định 0: Phê duyệt đầu tư** | Q2/2026 | BQL KCNC chấp thuận, IRC/ERC điều chỉnh | Delay toàn bộ dự án |
+| **Mốc quyết định 1: Khởi công xây dựng** | Q3/2026 | Giấy phép xây dựng, thiết kế chi tiết hoàn tất | Trượt tiến độ Phase 1 |
+| **Mốc quyết định 2: Hoàn công nhà xưởng** | Q1/2028 | Nghiệm thu xây dựng, PCCC pass, EDGE pre-assessment | Delay lắp máy |
+| **Mốc quyết định 3: CNC + SMT commissioning** | Q1/2029 | 10 máy CNC chạy, SMT line đạt yield ≥ 92% | Delay doanh thu Y4 |
+| **Mốc quyết định 4: First Revenue** | Q2/2029 | ≥ 3 PO CNC ký, ≥ 5 KH IoT pilot | Ramp-up chậm |
+| **Mốc quyết định 5: Breakeven** | Q2/2031 | Doanh thu ≥ 5,09M (Cash BEP) | Cần tái cấu trúc chi phí |
+| **Mốc quyết định 6: Ổn định** | 2035+ | Doanh thu ≥ 12M, EBITDA ≥ 30% | Xem lại target |
 
 ---
 
@@ -227,8 +227,8 @@ gantt
 
 | TT | Rủi ro | Mức | Giảm thiểu |
 |:---:|---|:---:|---|
-| 1 | Doanh thu ramp-up chậm hơn kế hoạch | Cao | Pipeline CNC + IoT sẵn có, penetration pricing Y4-Y5 |
-| 2 | CAPEX phát sinh vượt dự toán | Trung bình | Quỹ dự phòng 1,35M (6,1%), value engineering |
+| 1 | Doanh thu ramp-up chậm hơn kế hoạch | Cao | Chuỗi đơn hàng CNC + IoT sẵn có, giá thâm nhập thị trường Y4-Y5 |
+| 2 | CAPEX phát sinh vượt dự toán | Trung bình | Quỹ dự phòng 0,65M (3,0%) [C], value engineering |
 | 3 | Cạnh tranh giá từ sản phẩm Trung Quốc | Trung bình | Tập trung giá trị tích hợp + hậu mãi + localization |
 | 4 | Chip shortage / gián đoạn chuỗi cung ứng | Trung bình | Dual-source AVL, safety stock 3 tháng |
 | 5 | Key person risk (nhân sự R&D chủ chốt) | Trung bình | Cross-training, equity incentive, documentation culture |
@@ -237,6 +237,7 @@ gantt
 > Monte Carlo simulation (10.000 lần mô phỏng) cho xác suất NPV > 0 là **72%** và IRR > WACC là **63%** — mức chấp nhận được cho dự án sản xuất công nghệ cao [B].
 
 ---
+
 ## Cam kết Chính của Chủ đầu tư
 
 1. Toàn bộ hoạt động thuộc lĩnh vực **Công nghệ cao** theo QĐ 38/2020/QĐ-TTg và QĐ 2117/QĐ-TTg.

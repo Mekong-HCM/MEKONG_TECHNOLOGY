@@ -1,0 +1,60 @@
+graph TB
+    subgraph DC["DC NOI BO — XUONG SONG THONG MINH (5-8 Rack, 160m2)"]
+        direction LR
+        GPU["GPU Cluster\nA100/H100 — AI Training"]
+        COMPUTE["App Servers\nMekongOS / BMS / ERP / MES"]
+        STORAGE["Storage and DR\nNAS 200TB — 5yr retention"]
+        NET["Network and Security\nSD-WAN / Firewall / VPN"]
+    end
+
+    subgraph USE1["R&D and PHAT TRIEN SAN PHAM"]
+        direction LR
+        U1A["AI SLAM / Vision\nRobot AMR training"]
+        U1B["Digital Twin\nCNC + SMT sim"]
+        U1C["CI/CD and OTA\nFirmware pipeline"]
+    end
+
+    subgraph USE2["VAN HANH SAN XUAT"]
+        direction LR
+        U2A["MES and ERP\nWork order / BOM"]
+        U2B["OEE and SPC\nPredictive QC"]
+        U2C["IoT giam sat\n10 CNC + nha xuong"]
+    end
+
+    subgraph USE3["GIA CONG PHAN MEM"]
+        direction LR
+        U3A["Dev / Staging\nDocker / K8s"]
+        U3B["GPU-as-a-Tool\nAI/ML contracting"]
+        U3C["Security Lab\nPen test / IEC 62443"]
+    end
+
+    subgraph USE4["SAAS and KHACH HANG"]
+        direction LR
+        U4A["MekongOS SaaS\n500+ tenant"]
+        U4B["MekongBMS SaaS\n80-120 toa nha"]
+        U4C["API Gateway\nFDI integration"]
+    end
+
+    GPU -->|AI jobs| U1A
+    GPU -->|CV batch| U1B
+    GPU -->|GPU tool| U3B
+    COMPUTE -->|CI/CD| U1C
+    COMPUTE -->|MES/ERP| U2A
+    COMPUTE -->|OEE/SPC| U2B
+    COMPUTE -->|Dev env| U3A
+    COMPUTE -->|SaaS host| U4A
+    COMPUTE -->|BMS SaaS| U4B
+    COMPUTE -->|API GW| U4C
+    STORAGE -->|Twin data| U1B
+    STORAGE -->|QC log| U2B
+    STORAGE -->|Test data| U3C
+    NET -->|Pipeline| U1C
+    NET -->|IoT stream| U2C
+    NET -->|Staging net| U3A
+    NET -->|CDN| U4C
+
+    style DC fill:#ede7f6,stroke:#4a148c,color:#000
+    style USE1 fill:#e3f2fd,stroke:#1565c0,color:#000
+    style USE2 fill:#e8f5e9,stroke:#2e7d32,color:#000
+    style USE3 fill:#fff3e0,stroke:#e65100,color:#000
+    style USE4 fill:#fce4ec,stroke:#880e4f,color:#000

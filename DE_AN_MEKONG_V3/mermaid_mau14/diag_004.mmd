@@ -1,0 +1,17 @@
+flowchart TB
+    subgraph T1["Tầng 1 — Khu nặng (8 m)"]
+        CNC["CNC 10 máy — 1.800 m²\n5x5-trục + 3x3-trục\n1xEDM + 1xMài\nCrane 5T"]
+        QAQC["QA/QC Lab — 250 m²\nCMM, AOI, Đo 2D/3D"]
+        KHO["Kho kim loại — 500 m²"]
+    end
+    
+    subgraph T2["Tầng 2 — Khu nhẹ (5 m)"]
+        SMT["IoT/SMT — 1.000 m²\n2 dây chuyền SMT"]
+        ROBOT["Lắp ráp Robot — 600 m²\n6 trạm"]
+        DC["DC Nội bộ — 200 m²\n5-8 rack 42U"]
+    end
+
+    SMT --> ROBOT
+    CNC --> ROBOT
+    ROBOT --> QAQC
+    SMT --> QAQC

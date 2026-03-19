@@ -9,9 +9,9 @@
 | Giai đoạn | Thời gian | Nội dung chính | CAPEX (M USD) | Nguồn |
 |---|---|---|---:|---|
 | **Phase 0** | Y0–Y1 | Pháp lý, EIA, thiết kế, san lấp mặt bằng | 1,50 | CSH |
-| **Phase 1** | Y1–Y3 | Xây dựng: VP 3 tầng + Xưởng SX **2 tầng** + Utility **2 tầng** + M&E + PCCC + Solar 200 kWp + EDGE | 8,45 | CSH |
+| **Phase 1** | Y1–Y3 | Xây dựng: VP 3 tầng + Xưởng SX **2 tầng** + Utility **2 tầng** + M&E + PCCC + Solar 200 kWp + EDGE | 8,40 | CSH |
 | **Phase 2** | Y3–Y5 | Thiết bị: SMT + CNC 10 máy + Robot + DC nội bộ + QA Lab + Software | 9,60 | CSH |
-| **Phase 3** | Y5–Y7 | Vốn lưu động vận hành + Dự phòng rủi ro | 2,45 | CSH + Vay |
+| **Phase 3** | Y5–Y7 | Vốn lưu động vận hành + Dự phòng rủi ro | 2,50 | CSH + Vay |
 | **Tổng** | **Y0–Y7** | | **22,00** | |
 
 ### 5.1.2. CAPEX Chi tiết theo Hạng mục
@@ -27,11 +27,11 @@
 | 6 | Nhà xưởng SX **2 tầng** (T1: 3.360 m² sàn PEB + T2: 3.360 m² sàn BTCT, cao 14 m) | 3,60 | 16,4% | P1 | [C] |
 | 7 | Khu Utility **2 tầng** (T1: 280 m² + T2: 280 m², cao 8 m) | 0,30 | 1,4% | P1 | [C] |
 | 8 | Hệ thống M&E tổng thể (điện 1.250 kVA, nước, điều hòa T1+T2, BMS ~550 I/O) | 1,10 | 5,0% | P1 | [C] |
-| 9 | Hệ thống PCCC toàn khu (sprinkler T1+T2, FM-200, báo cháy, thoát nạn T2) | 0,50 | 2,3% | P1 | [C] |
+| 9 | Hệ thống PCCC toàn khu (sprinkler T1+T2, FM-200, báo cháy, thoát nạn T2) | 0,45 | 2,0% | P1 | [C] |
 | 10 | Đường nội bộ, sân bãi, cảnh quan | 0,30 | 1,4% | P1 | [C] |
 | 11 | Solar PV Rooftop 200 kWp + EDGE certification | 0,30 | 1,4% | P1 | [B] |
 | 12 | Nội thất VP + Phòng họp + Showroom | 0,35 | 1,6% | P1 | [A] |
-| **Subtotal Phase 1** | | **8,45** | **38,4%** | | |
+| **Subtotal Phase 1** | | **8,40** | **38,2%** | | |
 | 13 | Dây chuyền SMT (Pick & Place + Reflow + AOI) | 1,50 | 6,8% | P2 | [B] |
 | 14 | Thiết bị BMS/SCADA R&D + Testing | 0,40 | 1,8% | P2 | [A] |
 | 15 | OEM electronics testing equipment | 0,50 | 2,3% | P2 | [B] |
@@ -46,11 +46,36 @@
 | 24 | Lắp đặt, calibration, commissioning | 0,40 | 1,8% | P2 | [A] |
 | **Subtotal Phase 2** | | **9,60** | **43,6%** | | |
 | 25 | Vốn lưu động vận hành (3 năm ramp-up) | 1,85 | 8,4% | P3 | [C] |
-| 26 | Dự phòng rủi ro (~2,7% CAPEX — tái phân bổ cho xây dựng T2) | 0,60 | 2,7% | P3 | [C] |
-| **Subtotal Phase 3** | | **2,45** | **11,1%** | | |
+| 26 | Dự phòng rủi ro (~3,0% CAPEX) | 0,65 | 3,0% | P3 | [C] |
+| **Subtotal Phase 3** | | **2,50** | **11,4%** | | |
 | | **TỔNG CAPEX** | **22,00** | **100%** | | |
 
-> **Kiểm tra:** Tổng = 1,50 + 8,45 + 9,60 + 2,45 = **22,00M USD** [C]. DC nội bộ = 2,20M / 22,00M = **10,0%** (trong giới hạn 10–15%; điều chỉnh từ 11,4% để tài trợ xây dựng T2) [C]. CNC tổng = items 16–19 = 3,50M (15,9%). IoT/Electronics tổng = items 13–15 = 2,40M (10,9%). Sản xuất (CNC + IoT + Robot) = 6,90M (31,4%) — tập trung vào năng lực sản xuất. Nhà xưởng 2 tầng (items 6+7) = 3,90M thu chiếm 17,7% CAPEX [C].
+> **Kiểm tra:** Tổng = 1,50 + 8,40 + 9,60 + 2,50 = **22,00M USD** [C]. DC nội bộ = 2,20M / 22,00M = **10,0%** (trong giới hạn 10–15%) [C]. CNC tổng = items 16–19 = 3,50M (15,9%). IoT/Electronics tổng = items 13–15 = 2,40M (10,9%). Sản xuất (CNC + IoT + Robot) = 6,90M (31,4%) — tập trung vào năng lực sản xuất. Nhà xưởng 2 tầng (items 6+7) = 3,90M chiếm 17,7% CAPEX [C].
+
+#### Biểu đồ Cơ cấu CAPEX theo Giai đoạn
+
+```mermaid
+pie title Cơ cấu CAPEX 22,00M USD theo Phase
+    "Phase 0 — Chuẩn bị" : 6.8
+    "Phase 1 — Xây dựng" : 38.2
+    "Phase 2 — Thiết bị" : 43.6
+    "Phase 3 — Vận hành" : 11.4
+```
+
+#### Biểu đồ Cơ cấu CAPEX theo Nhóm Đầu tư
+
+```mermaid
+pie title Phân bổ CAPEX theo Nhóm chức năng
+    "Pháp lý + Site" : 6.8
+    "Xây dựng 3 công trình" : 26.8
+    "M&E + PCCC" : 8.4
+    "Nội thất + Solar" : 3.0
+    "Thiết bị sản xuất" : 29.1
+    "DC Nội bộ" : 10.0
+    "QA + Software" : 4.5
+    "Vốn lưu động" : 8.4
+    "Dự phòng" : 3.0
+```
 
 ### 5.1.3. Cấu trúc Nguồn vốn
 
@@ -81,8 +106,8 @@
 | Y9 | 5,80 | 1,20 | 3,00 | **10,00** | Tiếp cận 80% công suất |
 | Y10 | 6,50 | 1,30 | 3,20 | **11,00** | Ổn định |
 | Y11 | 7,00 | 1,50 | 3,50 | **12,00** | Ổn định |
-| Y12 | 7,00 | 1,50 | 3,50 | **12,00** | Steady-state |
-| Y13–Y18 | 7,00 | 1,50 | 3,50 | **12,00** | Steady-state |
+| Y12 | 7,00 | 1,50 | 3,50 | **12,00** | Ổn định |
+| Y13–Y18 | 7,00 | 1,50 | 3,50 | **12,00** | Ổn định |
 
 | Chỉ số tổng hợp | Giá trị | Nhãn |
 |---|---:|:---:|
@@ -94,12 +119,23 @@
 
 > **Tính toán 15Y:** Y4(1,00) + Y5(2,50) + Y6(4,50) + Y7(6,70) + Y8(8,70) + Y9(10,00) + Y10(11,00) + Y11(12,00) + Y12–Y18(12,00 × 7 = 84,00) = 56,40 + 84,00 = **140,40M USD** [C].
 
-### 5.2.2. Phân bổ Doanh thu theo BU (Steady-state Y12+)
+#### Biểu đồ Doanh thu theo Năm (M USD)
+
+```mermaid
+xychart-beta
+    title "Doanh thu Dự kiến Y4 – Y18 (M USD)"
+    x-axis ["Y4", "Y5", "Y6", "Y7", "Y8", "Y9", "Y10", "Y11", "Y12", "Y13", "Y14", "Y15", "Y16", "Y17", "Y18"]
+    y-axis "Doanh thu (M USD)" 0 --> 14
+    bar [1.00, 2.50, 4.50, 6.70, 8.70, 10.00, 11.00, 12.00, 12.00, 12.00, 12.00, 12.00, 12.00, 12.00, 12.00]
+    line [1.00, 2.50, 4.50, 6.70, 8.70, 10.00, 11.00, 12.00, 12.00, 12.00, 12.00, 12.00, 12.00, 12.00, 12.00]
+```
+
+### 5.2.2. Phân bổ Doanh thu theo BU (Ổn định Y12+)
 
 | Trụ cột | Doanh thu (M USD/năm) | Tỷ trọng | Sản phẩm chính |
 |---|---:|:---:|---|
 | **BU1: Điện tử Thông minh** | 8,50 | 70,8% | IoT Gateway (2,00M), BMS/SCADA (1,15M), I/O+DDC+GW (1,14M), Robot (1,50M theo công suất + 1,50M theo phát triển), OEM (1,10M), MekongOS (0,30M) |
-| **BU2: CNC/MPMC** | 3,50 | 29,2% | Khung Robot (0,70M), FDI parts (1,50M), Jig (0,40M), Outsource (0,80M), Chi tiết khác (0,10M) |
+| **BU2: CNC/MPMC** | 3,50 | 29,2% | Khung Robot (0,70M), FDI parts (1,50M), Jig (0,40M), Thuê ngoài (0,80M), Chi tiết khác (0,10M) |
 | **Tổng** | **12,00** | **100%** | |
 
 > **Nhận xét:** BU1 (Điện tử) chiếm ~71% doanh thu — phù hợp định hướng CEO "tập trung phần nhiều vào sản phẩm điện tử". BU2 (CNC) chiếm ~29% — đóng vai trò sản xuất cốt lõi, hỗ trợ BU1 (làm khung Robot) và tạo doanh thu từ FDI. Không có doanh thu DC thương mại.
@@ -108,7 +144,7 @@
 
 ## 5.3. Chi phí Hoạt động (OPEX)
 
-### 5.3.1. OPEX Steady-state (Y12+)
+### 5.3.1. OPEX Ổn định (Y12+)
 
 | Hạng mục | M USD/năm | % Doanh thu | Ghi chú |
 |---|---:|---:|---|
@@ -152,7 +188,7 @@
 
 ---
 
-## 5.5. Dòng tiền Dự kiến (Projected Cash Flow)
+## 5.5. Dòng tiền Dự kiến (Projected Dòng Tiền)
 
 | Hạng mục | Y0–Y3 | Y4 | Y5 | Y6 | Y7 | Y8 | Y10 | Y12+ |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -163,7 +199,7 @@
 | **FCF** | -15,50 | -3,95 | -2,43 | -1,23 | 1,08 | 1,78 | 2,83 | 3,20 |
 | FCF tích lũy | -15,50 | -19,45 | -21,88 | -23,11 | -22,03 | -20,25 | -15,87 | hòa vốn ~Y10 |
 
-> **Hòa vốn tích lũy (undiscounted):** Khoảng Y10. Hòa vốn chiết khấu (discounted payback): **Y10** [C].
+> **Hòa vốn tích lũy (undiscounted):** Khoảng Y10. Hòa vốn chiết khấu (discounted thời gian hoàn vốn): **Y10** [C].
 
 ---
 
@@ -175,7 +211,7 @@
 |---|---:|:---:|---|
 | NPV (WACC 12%, 50Y) | 1,50M USD | [C] | Dương → dự án có giá trị |
 | IRR (50Y) | 13,0% | [C] | > WACC 12% → chấp nhận được |
-| Payback (chiết khấu) | 10 năm | [C] | Tại Y10 |
+| Thời gian hoàn vốn (chiết khấu) | 10 năm | [C] | Tại Y10 |
 | DSCR min (vay từ Y7) | 1,50× | [C] | > 1,2× yêu cầu ngân hàng |
 | ROE (Y12+ steady) | 8,9% | [C] | Lợi nhuận ròng / Vốn CSH |
 | EBITDA margin (steady) | ~30% | [C] | |
@@ -201,7 +237,7 @@
 | WACC +2pp (14%) | | NPV giảm 1,00M |
 | Delay 1 năm | | NPV giảm 0,80M |
 
-> **Rủi ro lớn nhất:** Vượt CAPEX (+10%) hoặc doanh thu thấp hơn kỳ vọng (-10%). Cần quản lý chi phí xây dựng chặt chẽ và đảm bảo pipeline khách hàng trước khi commissioning.
+> **Rủi ro lớn nhất:** Vượt CAPEX (+10%) hoặc doanh thu thấp hơn kỳ vọng (-10%). Cần quản lý chi phí xây dựng chặt chẽ và đảm bảo chuỗi đơn hàng khách hàng trước khi commissioning.
 
 ---
 
@@ -213,10 +249,10 @@
 | Tax + Land Rent Exemption | 2,00 | NPV ưu đãi thuế KCNC + miễn tiền thuê đất 11 năm [C] |
 | Real Options Value | 1,00 | Quyền mở rộng: thêm máy CNC, nâng cấp SMT line, mở rộng xưởng [C] |
 | Synergy Value (CNC–Robot–IoT) | 1,50 | DCF incremental: CNC làm khung Robot tiết kiệm 15–20% + IoT giám sát CNC [A] |
-| Platform Value | 1,00 | EBITDA multiple premium: Đa trụ cột = 8–10× vs Đơn trụ = 5–7× [A] |
+| Nền tảng Value | 1,00 | EBITDA multiple premium: Đa trụ cột = 8–10× vs Đơn trụ = 5–7× [A] |
 | **Tổng Giá trị Chiến lược** | **7,00** | [C] |
 
-> **Ý nghĩa:** NPV tài chính thuần túy đạt 1,50M USD. Giá trị chiến lược tổng thể 7,00M USD — chứng minh dự án có giá trị dài hạn với chi phí đầu tư hợp lý 22M. So với phương án cũ 32M (giá trị chiến lược 15M), phương án 22M có NPV/CAPEX ratio tốt hơn (7/22 = 31,8% vs 15/32 = 46,9%).
+> **Ý nghĩa:** NPV tài chính thuần túy đạt 1,50M USD. Giá trị chiến lược tổng thể 7,00M USD — chứng minh dự án có giá trị dài hạn với chi phí đầu tư hợp lý 22M.
 
 ---
 
@@ -274,7 +310,7 @@
 > - DSCR min canonical = **1,50×** [C] — đây là giá trị sàn trong kịch bản Conservative (doanh thu -15%, OPEX +10%).
 > - DSCR Base Case min (Y9) = 2,98× — vượt xa yêu cầu ngân hàng thương mại (thường ≥ 1,2×).
 > - EBITDA Y7 = 1,08M tính theo P&L mục 5.4. Y9 = 10,00M × 25% (EBITDA margin Y9 khi OPEX vẫn cao) ≈ 2,50M.
-> - EBITDA Y10 = 11,00M × ~25,7% ≈ 2,83M; Y11 trở đi tăng dần đến ~30% tại steady-state Y12+ = 3,38M.
+> - EBITDA Y10 = 11,00M × ~25,7% ≈ 2,83M; Y11 trở đi tăng dần đến ~30% tại ổn định Y12+ = 3,38M.
 > - Kịch bản Conservative: EBITDA Y9 giảm còn ~1,26M, DSCR = 1,26M / 0,84M = **1,50×** [C] — phù hợp canonical.
 
 ### 5.8.4. Phân tích Khả năng Trả nợ trong Kịch bản Stress
@@ -341,21 +377,21 @@
 
 | Hạng | Biến số | Đóng góp vào Phương sai NPV | Xu hướng |
 |:---:|---|---:|---|
-| 1 | Doanh thu steady-state | 42% | NPV rất nhạy cảm với doanh thu |
+| 1 | Doanh thu ổn định | 42% | NPV rất nhạy cảm với doanh thu |
 | 2 | Tốc độ ramp-up | 22% | Chậm ramp-up ảnh hưởng lớn đến dòng tiền |
 | 3 | CAPEX tổng | 18% | Vượt CAPEX giảm NPV trực tiếp |
 | 4 | COGS margin | 10% | Ảnh hưởng trung bình |
 | 5 | Delay khởi động | 6% | Tác động qua thời giá tiền |
 | 6 | WACC | 2% | Ít nhạy nhất (biên ±2pp nhỏ) |
 
-> **Hàm ý quản lý rủi ro:** Ba yếu tố hàng đầu (doanh thu + ramp-up + CAPEX) chiếm **82%** phương sai NPV. Chiến lược giảm rủi ro cần tập trung vào: (1) chốt hợp đồng/pipeline trước khi vận hành, (2) đảm bảo tiến độ thi công đúng kế hoạch, (3) kiểm soát chi phí xây dựng qua hợp đồng EPC lump-sum [A].
+> **Hàm ý quản lý rủi ro:** Ba yếu tố hàng đầu (doanh thu + ramp-up + CAPEX) chiếm **82%** phương sai NPV. Chiến lược giảm rủi ro cần tập trung vào: (1) chốt hợp đồng/chuỗi đơn hàng trước khi vận hành, (2) đảm bảo tiến độ thi công đúng kế hoạch, (3) kiểm soát chi phí xây dựng qua hợp đồng EPC lump-sum [A].
 
 ### 5.9.5. Ma trận Rủi ro Tài chính Tổng hợp
 
 | TT | Rủi ro | Xác suất | Tác động NPV | Mức rủi ro | Biện pháp Giảm thiểu |
 |:---:|---|:---:|:---:|:---:|---|
-| R1 | Doanh thu thấp hơn -20% | Trung bình | -3,60M | **Cao** | Pipeline khách hàng đa dạng, hợp đồng khung FDI |
-| R2 | CAPEX vượt +15% (25,3M) | Trung bình | -3,30M | **Cao** | Hợp đồng EPC lump-sum, dự phòng 1,35M (6,1%) |
+| R1 | Doanh thu thấp hơn -20% | Trung bình | -3,60M | **Cao** | Chuỗi đơn hàng khách hàng đa dạng, hợp đồng khung FDI |
+| R2 | CAPEX vượt +15% (25,3M) | Trung bình | -3,30M | **Cao** | Hợp đồng EPC lump-sum, dự phòng 0,65M (3,0%) |
 | R3 | Delay 1 năm khởi đầu | Trung bình | -0,80M | Trung bình | Quản lý pháp lý song song, nhà thầu dự phòng |
 | R4 | COGS tăng 5pp (50% thay vì 45%) | Thấp | -1,50M | Trung bình | Hợp đồng mua NVL dài hạn, multiple supplier |
 | R5 | WACC tăng 2pp (14%) | Thấp | -1,00M | Thấp | Cố định lãi suất vay, duy trì nợ/vốn thấp |
@@ -369,7 +405,7 @@
 
 | Tầng | Cơ chế | Chi tiết | Chi phí |
 |:---:|---|---|---|
-| 1 | Dự phòng CAPEX | 1,35M USD (6,1% CAPEX cứng) | Đã tính trong CAPEX |
+| 1 | Dự phòng CAPEX | 0,65M USD (3,0% CAPEX cứng) | Đã tính trong CAPEX |
 | 2 | Bảo thủ về nợ | Nợ/Vốn = 0,22; vay chỉ từ Y7 khi đã có doanh thu | Không phát sinh |
 | 3 | Đa dạng doanh thu | 2 trụ cột, 9 nguồn, 5 segment khách hàng | Chi phí bán hàng ~6% DT |
 | 4 | Linh hoạt đầu tư | Phân kỳ 4 phase; Phase 2-3 có thể điều chỉnh theo nhu cầu thực | Không phát sinh |
@@ -381,7 +417,7 @@
 | DSCR < 2,0× trong 2 quý liên tiếp | Rà soát chi phí, tạm dừng mở rộng Phase 3 | CFO + CEO |
 | EBITDA < 0 sau Y7 | Cắt giảm chi phí 15%, cơ cấu lại nợ | Ban Giám đốc |
 | CAPEX Phase 1 vượt 10% | Đánh giá lại scope Phase 2, xem xét giảm 1–2 máy CNC | Ban Giám đốc + Hội đồng Sáng lập |
-| Pipeline CNC < 300K USD/năm | Tăng cường marketing, chuyển hướng máy sang outsource | Giám đốc BU2 |
+| Chuỗi đơn hàng CNC < 300K USD/năm | Tăng cường marketing, chuyển hướng máy sang thuê ngoài | Giám đốc BU2 |
 
 ---
 
@@ -433,7 +469,7 @@
 | DPO (Days Payable Outstanding) | 45 ngày | 30 ngày | 41 ngày |
 | **CCC (Cash Conversion Cycle)** | **60 ngày** | **20 ngày** | **49 ngày** |
 
-> **Giải thích:** BU1 có CCC dài hơn (60 ngày) do chuỗi cung ứng phức tạp hơn (PCB import 4-6 tuần lead time, khách hàng project-based thanh toán chậm). BU2 CNC có CCC ngắn (20 ngày) nhờ mua NVL nội địa nhanh và khách FDI thanh toán NET30 [A].
+> **Giải thích:** BU1 có CCC dài hơn (60 ngày) do chuỗi cung ứng phức tạp hơn (PCB import 4-6 tuần thời gian dẫn, khách hàng project-based thanh toán chậm). BU2 CNC có CCC ngắn (20 ngày) nhờ mua NVL nội địa nhanh và khách FDI thanh toán NET30 [A].
 
 ### 5.11.2. Nhu cầu Vốn lưu động theo Giai đoạn
 
@@ -445,7 +481,7 @@
 | Y10 (ổn định) | 11,00 | 49 | 1,48 | |
 | Y12+ (steady) | 12,00 | 49 | 1,61 | Trong phạm vi WC 2,00M (Phase 3) |
 
-> **Kết luận:** Vốn lưu động được cấp 2,00M trong Phase 3 [C] — đủ cho nhu cầu cao nhất 1,61M tại steady-state, với bộ đệm 0,39M cho các dao động mùa vụ (xem P3 mục 3.12) [B].
+> **Kết luận:** Vốn lưu động được cấp 2,00M trong Phase 3 [C] — đủ cho nhu cầu cao nhất 1,61M tại ổn định, với bộ đệm 0,39M cho các dao động mùa vụ (xem P3 mục 3.12) [B].
 
 ---
 
@@ -492,7 +528,7 @@
 | Tiền thuê đất (11 năm) | ~0,40 |
 | **Tổng giá trị ưu đãi** | **~4,30** |
 
-> Tổng ưu đãi ~4,30M USD ≈ 19,5% CAPEX — yếu tố quan trọng cải thiện NPV và rút ngắn payback [B].
+> Tổng ưu đãi ~4,30M USD ≈ 19,5% CAPEX — yếu tố quan trọng cải thiện NPV và rút ngắn thời gian hoàn vốn [B].
 
 ---
 
@@ -502,7 +538,7 @@
 
 | Thông số | Giá trị |
 |---|---|
-| EBITDA steady-state (Y12+) | 3,60M USD/năm (~30% × 12M) |
+| EBITDA ổn định (Y12+) | 3,60M USD/năm (~30% × 12M) |
 | Terminal Growth Rate (g) | 2,0% |
 | WACC | 12,0% [C] |
 | Terminal Value | EBITDA × (1+g) / (WACC - g) = 3,67 / 0,10 = **36,7M USD** |
@@ -514,7 +550,7 @@
 
 | Thông số | Giá trị |
 |---|---|
-| EBITDA steady-state | 3,60M USD/năm |
+| EBITDA ổn định | 3,60M USD/năm |
 | EV/EBITDA multiple ngành sản xuất CNC ASEAN | 6–8× |
 | **EV range** | **21,6 – 28,8M USD** |
 | Trung bình | **25,2M USD** |
@@ -542,7 +578,7 @@
 | Variable Cost / Revenue | 55% (NVL 40% + nhân công biến đổi 10% + khác 5%) |
 | Contribution Margin | 45% |
 | **BEP Revenue BU1** | 1,20 / 0,45 = **2,67M USD/năm** |
-| Doanh thu BU1 steady-state | 8,50M USD/năm [C] |
+| Doanh thu BU1 ổn định | 8,50M USD/năm [C] |
 | **Safety Margin** | (8,50 - 2,67) / 8,50 = **68,6%** |
 
 ### 5.14.2. BU2 — Chế tạo CNC
@@ -553,7 +589,7 @@
 | Variable Cost / Revenue | 50% (NVL thép 30% + tool/jig 10% + năng lượng CNC 10%) |
 | Contribution Margin | 50% |
 | **BEP Revenue BU2** | 0,90 / 0,50 = **1,80M USD/năm** |
-| Doanh thu BU2 steady-state | 3,50M USD/năm [C] |
+| Doanh thu BU2 ổn định | 3,50M USD/năm [C] |
 | **Safety Margin** | (3,50 - 1,80) / 3,50 = **48,6%** |
 
 ### 5.14.3. Tổng hợp BEP
@@ -564,11 +600,11 @@
 | BU2 — CNC | 1,80 | 3,50 [C] | 48,6% | ~Y7 |
 | **Toàn DN** | **4,47** | **12,00** [C] | **62,8%** | **~Y6–Y7** |
 
-> **Nhận xét:** Cả 2 BU đều có Safety Margin > 40%, cho thấy khả năng chống chịu tốt khi doanh thu sụt giảm. BU1 đạt BEP sớm hơn (Y6) nhờ contribution margin cao và quy mô lớn hơn. BU2 đạt BEP tại Y7 khi pipeline FDI ổn định [B].
+> **Nhận xét:** Cả 2 BU đều có Safety Margin > 40%, cho thấy khả năng chống chịu tốt khi doanh thu sụt giảm. BU1 đạt BEP sớm hơn (Y6) nhờ contribution margin cao và quy mô lớn hơn. BU2 đạt BEP tại Y7 khi chuỗi đơn hàng FDI ổn định [B].
 
 ### 5.14.4. Cash Waterfall và Thứ tự Phân bổ Dòng tiền
 
-Để bảo đảm tính kỷ luật tài chính trong giai đoạn tăng trưởng, Mekong áp dụng cơ chế **cash waterfall** cho dòng tiền tự do sau vận hành. Cách làm này đặc biệt quan trọng vì V3 có cấu trúc vốn bảo thủ nhưng vẫn sử dụng 4,00M USD nợ từ Y7 [C].
+Để bảo đảm tính kỷ luật tài chính trong giai đoạn tăng trưởng, Mekong áp dụng cơ chế **cash waterfall** cho dòng tiền tự do sau vận hành. Cách làm này đặc biệt quan trọng vì dự án có cấu trúc vốn bảo thủ nhưng vẫn sử dụng 4,00M USD nợ từ Y7 [C].
 
 | Thứ tự | Mục đích sử dụng tiền | Nguyên tắc |
 |---|---|---|
@@ -609,31 +645,31 @@
 | Revenue miss 15–25% | Kích hoạt cost review 30 ngày, tăng direct-sales conversion |
 | CAPEX overrun > 7,5% | Yêu cầu phê duyệt đầu tư lại và dùng quỹ dự phòng trước |
 | Current ratio < 1,3× | Tăng thu hồi công nợ, đàm phán supplier terms, giảm tồn kho |
-| EBITDA margin < 22% | Rà soát pricing, mix doanh thu, warranty/RMA losses |
+| EBITDA margin < 22% | Rà soát định giá, mix doanh thu, warranty/RMA losses |
 
-> **Mục tiêu quản trị:** Covenant không chỉ để “đối phó ngân hàng” mà là bảng điều khiển sớm cho Ban điều hành. Với dự án có NPV dương nhưng không quá dư địa như V3, kỷ luật kích hoạt sớm quan trọng hơn phản ứng muộn [A][C].
+> **Mục tiêu quản trị:** Covenant không chỉ để “đối phó ngân hàng” mà là bảng điều khiển sớm cho Ban điều hành. Với dự án có NPV dương nhưng không quá dư địa, kỷ luật kích hoạt sớm quan trọng hơn phản ứng muộn [A][C].
 
-### 5.14.6. Khả năng Hấp thụ Shock Tài chính — Stress Response Framework
+### 5.14.6. Khả năng Hấp thụ Shock Tài chính — Stress Response Khung
 
 | Kịch bản shock | Mức độ | Tác động sơ bộ | Ứng phó cấp 1 | Ứng phó cấp 2 |
 |---|---|---|---|---|
 | Doanh thu giảm 10% trong 2 quý liên tiếp | Trung bình | EBITDA giảm mạnh do DOL cao | Cắt marketing hiệu quả thấp, tối ưu BOM | Lùi CAPEX mở rộng / tái cấu trúc deal |
 | Giá linh kiện tăng 8-12% | Trung bình | Giảm GM BU1 | Điều chỉnh giá OEM mới, dual sourcing | Thay thế thiết kế theo AVL |
-| Tỷ giá USD/VND tăng >5% | Thấp-Trung bình | Tăng chi phí nhập máy/linh kiện | Chốt mua forward / điều chỉnh pricing | Dời đơn hàng không critical |
+| Tỷ giá USD/VND tăng >5% | Thấp-Trung bình | Tăng chi phí nhập máy/linh kiện | Chốt mua forward / điều chỉnh định giá | Dời đơn hàng không critical |
 | Khách hàng FDI chậm thanh toán 30-45 ngày | Trung bình | Thiếu vốn lưu động ngắn hạn | Siết credit limit, dùng DSRA nội bộ | Factoring chọn lọc / bridge line |
-| CAPEX phát sinh cuối dự án | Thấp-Trung bình | Ăn vào quỹ dự phòng 1,35M | Rà soát value engineering | Cắt hạng mục không critical |
+| CAPEX phát sinh cuối dự án | Thấp-Trung bình | Ăn vào quỹ dự phòng 0,65M | Rà soát value engineering | Cắt hạng mục không critical |
 
-> Framework này giúp liên kết trực tiếp giữa Phần III (mô hình doanh thu), Phần IV (đầu tư kỹ thuật) và Phần V (tài chính) — bảo đảm đề án không chỉ “đẹp trên Excel” mà còn có cơ chế phòng thủ khi triển khai thực tế [A].
+> Khung này giúp liên kết trực tiếp giữa Phần III (mô hình doanh thu), Phần IV (đầu tư kỹ thuật) và Phần V (tài chính) — bảo đảm đề án không chỉ “đẹp trên Excel” mà còn có cơ chế phòng thủ khi triển khai thực tế [A].
 
 ### 5.14.7. Sensitivity Matrix — Độ nhạy các biến số chính
 
 | Biến số thay đổi | Kịch bản | Tác động lên NPV | Tác động lên IRR | Nhận xét |
 |---|---|---:|---:|---|
-| Doanh thu steady-state | -10% | ~-2,0M USD | -1,1 đến -1,4 điểm % | Biến nhạy nhất |
+| Doanh thu ổn định | -10% | ~-2,0M USD | -1,1 đến -1,4 điểm % | Biến nhạy nhất |
 | CAPEX tổng | +10% | ~-1,5M USD | -0,8 đến -1,0 điểm % | Đứng thứ hai |
 | EBITDA margin | -3 điểm % | ~-1,1M USD | -0,5 đến -0,7 điểm % | Ảnh hưởng đáng kể |
 | WACC | +1 điểm % | ~-1,0M USD | Không đổi | Ảnh hưởng valuation |
-| Ramp-up chậm 1 năm | Delay | ~-0,9M USD | -0,4 đến -0,6 điểm % | Có thể kiểm soát bằng pipeline |
+| Ramp-up chậm 1 năm | Delay | ~-0,9M USD | -0,4 đến -0,6 điểm % | Có thể kiểm soát bằng chuỗi đơn hàng |
 
 > Kết quả sensitivity nhất quán với Monte Carlo: ba biến quan trọng nhất vẫn là **doanh thu, CAPEX và tiến độ ramp-up**. Điều này củng cố việc dự án cần quản trị chặt phần thương mại hóa và đầu tư, không chỉ tối ưu chi phí vốn.
 
@@ -651,16 +687,16 @@
 
 ### 5.14.9. Bankability Checklist — Góc nhìn Nhà tài trợ vốn
 
-| Tiêu chí | Trạng thái V3 |
+| Tiêu chí | Trạng thái |
 |---|---|
 | Equity ratio cao | Đạt (81,8% CSH) [C] |
 | DSCR tối thiểu an toàn | Đạt (≥ 1,50×) [C] |
-| CAPEX có dự phòng | Đạt (1,35M; 6,1%) [C] |
+| CAPEX có dự phòng | Đạt (0,65M; 3,0%) [C] |
 | Có audit trail số liệu | Đạt |
 | Có covenant và trigger quản trị | Đạt |
 
-> Xét dưới góc nhìn ngân hàng/tổ chức tài trợ, V3 không phải dự án “tăng trưởng quá nhanh dựa vào nợ”, mà là dự án có vốn chủ sở hữu cao, nợ vào muộn, quy mô đầu tư đã nén phù hợp 1 ha và có đủ cơ chế kiểm soát để được xem là **bankable ở mức thận trọng**.
-### 5.14.10. Phân tích Dòng tiền Tự do (Free Cash Flow Analysis)
+> Xét dưới góc nhìn ngân hàng/tổ chức tài trợ, dự án không phải loại "tăng trưởng quá nhanh dựa vào nợ", mà là dự án có vốn chủ sở hữu cao, nợ vào muộn, quy mô đầu tư đã nén phù hợp 1 ha và có đủ cơ chế kiểm soát để được xem là **bankable ở mức thận trọng**.
+### 5.14.10. Phân tích Dòng tiền Tự do (Free Dòng Tiền Analysis)
 
 #### A. FCF Projection (K USD)
 
@@ -674,9 +710,9 @@
 | Trả nợ gốc + lãi | 0 | 0 | 0 | -580 | -580 | -580 | -580 | -580 |
 | **FCF to Equity** | **-400** | **-50** | **500** | **540** | **1.250** | **1.790** | **2.020** | **2.410** |
 
-> FCF chuyển dương từ Y6. FCF to Equity dương ổn định từ Y7 (sau khi bắt đầu trả nợ). Tại steady-state, FCF to Equity ~2,41M USD/năm — tạo dư địa cho tái đầu tư hoặc chia cổ tức [A][C].
+> FCF chuyển dương từ Y6. FCF to Equity dương ổn định từ Y7 (sau khi bắt đầu trả nợ). Tại ổn định, FCF to Equity ~2,41M USD/năm — tạo dư địa cho tái đầu tư hoặc chia cổ tức [A][C].
 
-#### B. Cumulative Free Cash Flow
+#### B. Cumulative Free Dòng Tiền
 
 | Mốc | FCF tích lũy (M USD) | Ý nghĩa |
 |---|---:|---|
@@ -691,7 +727,7 @@
 |---|---|---:|---|
 | Y4-Y7 | Giữ lại toàn bộ | 0% | Tái đầu tư, trả nợ, xây dựng vốn lưu động |
 | Y8-Y10 | Chia cổ tức tối thiểu | 10-20% lợi nhuận sau thuế | Bắt đầu trả lại cho cổ đông |
-| Y10+ | Chia cổ tức ổn định | 30-40% lợi nhuận sau thuế | Cash flow đã ổn định |
+| Y10+ | Chia cổ tức ổn định | 30-40% lợi nhuận sau thuế | Dòng tiền đã ổn định |
 
 > Chính sách chia cổ tức bảo thủ (0% trong 4 năm đầu hoạt động) phù hợp với dự án công nghệ cao có vòng đầu tư dài. Giữ lại lợi nhuận giúp duy trì D/E < 0,40× và khoản vay 4,00M USD có DSCR an toàn [C].
 
@@ -707,31 +743,31 @@
 
 > Cash BEP thấp hơn Accounting BEP (4,47M) vì không bao gồm khấu hao. Điểm hòa vốn tiền mặt 5,09M USD/năm đạt được vào giữa Y6, xác nhận dự án không gặp rủi ro cạn kiệt tiền mặt trong giai đoạn ramp-up nếu doanh thu đạt kế hoạch [A].
 
-### 5.14.12. So sánh Hiệu quả Tài chính với Benchmark Ngành
+### 5.14.12. So sánh Hiệu quả Tài chính với Chuẩn ngành Ngành
 
-| Chỉ tiêu | Mekong V3 | Benchmark SX CNC ASEAN | Benchmark IoT/BMS Global | Đánh giá |
+| Chỉ tiêu | Mekong Technology | Chuẩn ngành SX CNC ASEAN | Chuẩn ngành IoT/BMS Global | Đánh giá |
 |---|---:|---:|---:|---|
 | CAPEX / Doanh thu steady | 1,83× | 1,5-2,5× | 1,0-2,0× | Trong khoảng |
 | IRR | 13,0% | 10-18% | 12-25% | Phù hợp |
 | EBITDA margin | ~30% | 15-25% | 20-35% | Trên TB do software mix |
-| Payback (chiết khấu) | 10 năm | 7-12 năm | 5-8 năm | Chấp nhận được |
+| Thời gian hoàn vốn (chiết khấu) | 10 năm | 7-12 năm | 5-8 năm | Chấp nhận được |
 | D/E max | 0,40 | 0,5-1,5 | 0,2-0,8 | Bảo thủ |
 | R&D / Doanh thu | ≥ 5% | 2-5% | 5-15% | Phù hợp CNC |
 | DSCR min | 1,50× | ≥ 1,2× | ≥ 1,3× | An toàn |
 
-> Mekong V3 có profile tài chính "thận trọng" — D/E thấp, equity ratio cao, DSCR an toàn. Trade-off: IRR 13% không quá ấn tượng so với startup IoT thuần túy (15-25%), nhưng phù hợp với dự án sản xuất nặng vốn (CAPEX 22M) có thành phần manufacturing chiếm 70% đầu tư [A][B].
+> Mekong Technology có profile tài chính "thận trọng" — D/E thấp, equity ratio cao, DSCR an toàn. Trade-off: IRR 13% không quá ấn tượng so với startup IoT thuần túy (15-25%), nhưng phù hợp với dự án sản xuất nặng vốn (CAPEX 22M) có thành phần manufacturing chiếm 70% đầu tư [A][B].
 ---
 
 ## 5.15. Tiểu kết Phần V
 
-### So sánh Tổng hợp Các Chỉ số Tài chính V3
+### So sánh Tổng hợp Các Chỉ số Tài chính
 
-| Chỉ tiêu | Giá trị V3 | Nhãn | Chuẩn ngành | Đánh giá |
+| Chỉ tiêu | Giá trị | Nhãn | Chuẩn ngành | Đánh giá |
 |---|---:|:---:|---|---|
 | CAPEX | 22,00M USD | [C] | — | Phù hợp quy mô 1 ha |
 | NPV (WACC 12%, 50Y) | 1,50M USD | [C] | > 0 | Dương, chấp nhận được |
 | IRR | 13,0% | [C] | > WACC = 12% | Vượt ngưỡng |
-| Payback (chiết khấu) | 10 năm | [C] | ≤ 12 năm | Trong giới hạn |
+| Thời gian hoàn vốn (chiết khấu) | 10 năm | [C] | ≤ 12 năm | Trong giới hạn |
 | DSCR min | 1,50× | [C] | ≥ 1,2× | An toàn |
 | D/E max (Y7) | 0,40 | [B] | < 1,0 | Bảo thủ |
 | EBITDA margin (steady) | ~30% | [C] | 15–25% (SX) | Trên trung bình |
@@ -746,4 +782,4 @@
 
 ### Kết luận Tài chính
 
-> **Tổng kết Phần V:** Phương án V3 với CAPEX 22,00M USD đạt NPV 1,50M, IRR 13,0%, hòa vốn năm thứ 10 — đáp ứng tiêu chí hiệu quả đầu tư. Cấu trúc vốn bảo thủ (CSH 81,8%, vay 18,2% từ Y7). DSCR min 1,50× đảm bảo khả năng trả nợ ngay cả kịch bản Conservative. Monte Carlo xác nhận 72% khả năng NPV > 0. Ba rủi ro chính (doanh thu, CAPEX, ramp-up) chiếm 82% phương sai và được quản lý qua 4 tầng bảo vệ. Ưu đãi thuế/đất ~4,30M (19,5% CAPEX) hỗ trợ đáng kể. Enterprise Value 22,5–29,5M (1,0–1,34× CAPEX) xác nhận giá trị. BEP toàn DN 4,47M/năm với Safety Margin 62,8% cho thấy khả năng chống chịu rủi ro. Doanh thu tích lũy 15 năm ~140M USD với EBITDA ~30% tạo nền tảng cho phát triển bền vững [C].
+> **Tổng kết Phần V:** Với CAPEX 22,00M USD, dự án đạt NPV 1,50M, IRR 13,0%, hòa vốn năm thứ 10 — đáp ứng tiêu chí hiệu quả đầu tư. Cấu trúc vốn bảo thủ (CSH 81,8%, vay 18,2% từ Y7). DSCR min 1,50× đảm bảo khả năng trả nợ ngay cả kịch bản Conservative. Monte Carlo xác nhận 72% khả năng NPV > 0. Ba rủi ro chính (doanh thu, CAPEX, ramp-up) chiếm 82% phương sai và được quản lý qua 4 tầng bảo vệ. Ưu đãi thuế/đất ~4,30M (19,5% CAPEX) hỗ trợ đáng kể. Enterprise Value 22,5–29,5M (1,0–1,34× CAPEX) xác nhận giá trị. BEP toàn DN 4,47M/năm với Safety Margin 62,8% cho thấy khả năng chống chịu rủi ro. Doanh thu tích lũy 15 năm ~140M USD với EBITDA ~30% tạo nền tảng cho phát triển bền vững [C].

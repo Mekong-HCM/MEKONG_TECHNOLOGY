@@ -1,4 +1,4 @@
-import { Building2, Zap, Droplets, Sun, Shield, Thermometer, Layout, Image } from 'lucide-react';
+import { Building2, Zap, Droplets, Sun, Shield, Thermometer, Layout, Image, Cog, Server } from 'lucide-react';
 import { TabSlide, type TabConfig } from '../ui/TabSlide';
 import { GlassCard } from '../ui/GlassCard';
 import { OptimizedImage } from '../ui/OptimizedImage';
@@ -60,9 +60,81 @@ function PhotosTab() {
     );
 }
 
+function CNCLineTab() {
+    return (
+        <div className="space-y-4">
+            <GlassCard className="p-5">
+                <h4 className="text-sm font-bold text-white mb-3 flex items-center gap-2"><Cog size={16} className="text-neon-magenta" /> Dây chuyền CNC — Tầng 1 Xưởng</h4>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
+                    {[
+                        { label: 'Tổng máy', value: '10', color: '#E040FB' },
+                        { label: 'Clear height', value: '8 m', color: '#00E5FF' },
+                        { label: 'Diện tích', value: '3.360 m²', color: '#76FF03' },
+                        { label: 'Crane', value: '5T overhead', color: '#FF9100' },
+                    ].map((item, i) => (
+                        <div key={i} className="p-3 rounded-xl bg-white/[0.03] border border-white/5 text-center">
+                            <div className="text-lg font-extrabold" style={{ color: item.color }}>{item.value}</div>
+                            <div className="text-[9px] text-gray-400">{item.label}</div>
+                        </div>
+                    ))}
+                </div>
+                <div className="text-xs text-gray-400">
+                    <p className="mb-1">Layout: 5-axis CNC cluster + Wire EDM + Grinding — flow luồn từ raw material → milling → EDM → finishing → QA</p>
+                    <p>Utility: khí nén 8 bar, coolant ZLD recirculation, chip conveyor tự động</p>
+                </div>
+            </GlassCard>
+            <GlassCard className="p-4">
+                <h4 className="text-xs font-bold text-white mb-2">Quy trình gia công</h4>
+                <div className="flex flex-wrap items-center gap-2 text-[10px]">
+                    {['Nhập liệu', 'Phôi/Cắt', '5-Axis Milling', 'Wire EDM', 'Grinding', 'QA/QC CMM', 'Xuất hàng'].map((step, i) => (
+                        <span key={i} className="flex items-center gap-1">
+                            <span className="px-2 py-1 rounded bg-neon-magenta/10 border border-neon-magenta/20 text-gray-300">{step}</span>
+                            {i < 6 && <span className="text-gray-600">→</span>}
+                        </span>
+                    ))}
+                </div>
+            </GlassCard>
+        </div>
+    );
+}
+
+function DCTab() {
+    return (
+        <GlassCard className="p-5">
+            <h4 className="text-sm font-bold text-white mb-3 flex items-center gap-2"><Server size={16} className="text-green-400" /> Datacenter Nội bộ</h4>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
+                {[
+                    { label: 'Diện tích', value: '200 m²', color: '#76FF03' },
+                    { label: 'Rack', value: '5–8', color: '#00E5FF' },
+                    { label: 'Công suất', value: '30–50 kW', color: '#E040FB' },
+                    { label: 'Vị trí', value: 'Tầng 2 Xưởng', color: '#FF9100' },
+                ].map((item, i) => (
+                    <div key={i} className="p-3 rounded-xl bg-white/[0.03] border border-white/5 text-center">
+                        <div className="text-lg font-extrabold" style={{ color: item.color }}>{item.value}</div>
+                        <div className="text-[9px] text-gray-400">{item.label}</div>
+                    </div>
+                ))}
+            </div>
+            <div className="space-y-2 text-xs text-gray-300">
+                <div className="p-2 rounded-lg bg-white/[0.03] border border-white/5">
+                    <span className="text-green-400 font-semibold">Mục đích:</span> Hỗ trợ nội bộ R&D, MekongOS hosting, AI training, BMS/SCADA
+                </div>
+                <div className="p-2 rounded-lg bg-white/[0.03] border border-white/5">
+                    <span className="text-green-400 font-semibold">Hạ tầng:</span> UPS 50 kVA, CRAC cooling, NOVEC 1230, VESDA, Access control, CCTV
+                </div>
+                <div className="p-2 rounded-lg bg-red-500/5 border border-red-500/10">
+                    <span className="text-red-400 font-semibold">Lưu ý:</span> Không thương mại hóa — chỉ sử dụng nội bộ, không GPU-aaS, không colocation
+                </div>
+            </div>
+        </GlassCard>
+    );
+}
+
 const tabs: TabConfig[] = [
     { key: 'layout', label: 'Layout tổng', icon: Layout, content: <LayoutTab /> },
     { key: 'specs', label: 'Thông số Kỹ thuật', icon: Zap, content: <SpecsTab /> },
+    { key: 'cnc-line', label: 'CNC Line', icon: Cog, content: <CNCLineTab /> },
+    { key: 'dc', label: 'DC Nội bộ', icon: Server, content: <DCTab /> },
     { key: 'photos', label: 'Hình ảnh', icon: Image, content: <PhotosTab /> },
 ];
 

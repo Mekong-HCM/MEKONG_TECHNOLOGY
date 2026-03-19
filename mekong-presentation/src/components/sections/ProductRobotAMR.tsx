@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Bot, Navigation, Battery, Gauge, Check, Package, DollarSign } from 'lucide-react';
+import { Bot, Navigation, Battery, Gauge, Check, Package, DollarSign, Route } from 'lucide-react';
 import { TabSlide, type TabConfig } from '../ui/TabSlide';
 import { GlassCard } from '../ui/GlassCard';
 import { OptimizedImage } from '../ui/OptimizedImage';
@@ -104,8 +104,69 @@ function PricingTab() {
     );
 }
 
+function AGVTab() {
+    const agvModels = robots.filter(r => r.type === 'AGV');
+    return (
+        <div className="space-y-4">
+            <GlassCard className="p-4">
+                <h4 className="text-sm font-bold text-white mb-3 flex items-center gap-2"><Route size={16} className="text-neon-magenta" /> AGV — Dẫn đường Cố định</h4>
+                <div className="grid sm:grid-cols-2 gap-3">
+                    {agvModels.map((robot, i) => (
+                        <div key={i} className="p-4 rounded-xl bg-white/[0.03] border border-neon-magenta/20">
+                            <div className="flex items-center gap-2 mb-3">
+                                <Bot size={16} className="text-neon-magenta" />
+                                <span className="text-sm font-bold text-white">{robot.name}</span>
+                            </div>
+                            <div className="grid grid-cols-2 gap-2">
+                                {[
+                                    { label: 'Payload', value: robot.payload },
+                                    { label: 'Navigation', value: robot.navigation },
+                                    { label: 'Speed', value: robot.speed },
+                                    { label: 'Battery', value: robot.battery },
+                                    { label: 'Giá', value: robot.price },
+                                    { label: 'SL/năm', value: robot.capacity },
+                                ].map((s, j) => (
+                                    <div key={j} className="text-[10px]">
+                                        <span className="text-gray-500">{s.label}: </span>
+                                        <span className="text-gray-300 font-medium">{s.value}</span>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </GlassCard>
+            <GlassCard className="p-4">
+                <h4 className="text-xs font-bold text-white mb-2">So sánh AMR vs AGV</h4>
+                <table className="w-full text-[10px]">
+                    <thead><tr className="border-b border-white/10 text-gray-400">
+                        <th className="text-left py-1.5">Tiêu chí</th>
+                        <th className="text-center py-1.5 text-neon-cyan">AMR</th>
+                        <th className="text-center py-1.5 text-neon-magenta">AGV</th>
+                    </tr></thead>
+                    <tbody>
+                        {[
+                            ['Dẫn đường', 'LiDAR 3D + AI SLAM', 'Magnetic / QR / Vision'],
+                            ['Linh hoạt', 'Cao — tự lập tuyến', 'Trung bình — tuyến cố định'],
+                            ['Chi phí', '18–38K USD', '12–28K USD'],
+                            ['Ứng dụng', 'Sản xuất linh hoạt', 'Dây chuyền ổn định'],
+                        ].map((row, i) => (
+                            <tr key={i} className="border-b border-white/5">
+                                <td className="py-1.5 text-gray-400">{row[0]}</td>
+                                <td className="text-center text-gray-300">{row[1]}</td>
+                                <td className="text-center text-gray-300">{row[2]}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            </GlassCard>
+        </div>
+    );
+}
+
 const tabs: TabConfig[] = [
-    { key: 'specs', label: 'AMR / AGV Specs', icon: Bot, content: <SpecsTab /> },
+    { key: 'specs', label: 'AMR Specs', icon: Bot, content: <SpecsTab /> },
+    { key: 'agv', label: 'AGV Navigation', icon: Route, content: <AGVTab /> },
     { key: 'usecases', label: 'Ứng dụng', icon: Package, content: <UseCasesTab /> },
     { key: 'pricing', label: 'Giá & Sản lượng', icon: DollarSign, content: <PricingTab /> },
 ];

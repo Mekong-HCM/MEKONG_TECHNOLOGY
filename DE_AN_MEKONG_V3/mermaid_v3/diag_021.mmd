@@ -1,0 +1,40 @@
+graph LR
+    MEKONG["Mekong Technology<br/>22,00M USD"]
+
+    BU1["BU1: Điện tử Thông minh<br/>8,50M — 70,8%"]
+    BU2["BU2: CNC Chính xác<br/>3,50M — 29,2%"]
+    DC["DC Nội bộ<br/>2,20M — 10,0%"]
+
+    IoT["IoT Gateway"]
+    BMS["BMS / SCADA"]
+    Robot["Robot AMR/AGV"]
+    CNC10["10 máy CNC 5-trục"]
+    EDM["EDM + Grinder"]
+    FDI["Gia công FDI"]
+    ERP["ERP/MES/CAD"]
+    RD["R&D Repository"]
+
+    MEKONG --> BU1
+    MEKONG --> BU2
+    MEKONG --> DC
+    BU1 --> IoT
+    BU1 --> BMS
+    BU1 --> Robot
+    BU2 --> CNC10
+    BU2 --> EDM
+    BU2 --> FDI
+    DC --> ERP
+    DC --> RD
+
+    style MEKONG fill:#1e3a5f,color:#fff
+    style BU1 fill:#166534,color:#fff
+    style BU2 fill:#b45309,color:#fff
+    style DC fill:#6b21a8,color:#fff
+    style IoT fill:#22c55e,color:#fff
+    style BMS fill:#22c55e,color:#fff
+    style Robot fill:#22c55e,color:#fff
+    style CNC10 fill:#f59e0b,color:#000
+    style EDM fill:#f59e0b,color:#000
+    style FDI fill:#f59e0b,color:#000
+    style ERP fill:#a78bfa,color:#000
+    style RD fill:#a78bfa,color:#000

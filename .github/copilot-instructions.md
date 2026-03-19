@@ -19,6 +19,9 @@
 
 - Chỉ chỉnh sửa/tạo file `.md` trong các tác vụ biên soạn đề án.
 - Văn phong tiếng Việt trang trọng, rõ nghĩa, có dấu đầy đủ.
+- Nội dung nộp chính thức phải dùng **tiếng Việt thuần nhất**; không chêm tiếng Anh trong cùng một câu hoặc cùng một mệnh đề tiếng Việt.
+- Chỉ cho phép giữ **viết tắt, mã sản phẩm, tên riêng, tên pháp lý, tên tiêu chuẩn/chứng nhận quốc tế** hoặc trường thông tin riêng như `Tên tiếng Anh`; mọi thuật ngữ nước ngoài khác phải được Việt hóa trong nội dung chính.
+- Nếu bắt buộc dùng thuật ngữ nước ngoài, chỉ nêu tại **lần xuất hiện đầu tiên** theo dạng “thuật ngữ tiếng Việt (viết tắt/tên gốc)” và các lần sau ưu tiên dùng tiếng Việt hoặc viết tắt đã giải nghĩa.
 - Không dùng emoji trong tài liệu chính thức.
 - Định dạng số theo chuẩn Việt: dùng dấu phẩy thập phân (ví dụ: `22,00M`).
 - Mỗi số liệu tài chính/kỹ thuật quan trọng phải có đơn vị và nhãn `[C]`, `[B]`, hoặc `[A]` khi phù hợp.
@@ -35,7 +38,7 @@
 
 - Trước khi viết: kiểm kê nguồn vào theo sprint và xác nhận phạm vi section.
 - Trong khi viết: bám mapping của kế hoạch V3, không bỏ section quan trọng.
-- Sau khi viết: chạy QC nhất quán số liệu, thuật ngữ, định dạng số và đơn vị.
+- Sau khi viết: chạy QC nhất quán số liệu, thuật ngữ, định dạng số, đơn vị và lỗi chêm Anh-Việt trong cùng câu.
 - Nếu phát hiện mâu thuẫn dữ liệu giữa các file nguồn, dừng và yêu cầu xác nhận.
 - Khi chỉnh sửa nội dung: sửa trực tiếp file con trong `sections/`, không sửa MASTER hub.
 

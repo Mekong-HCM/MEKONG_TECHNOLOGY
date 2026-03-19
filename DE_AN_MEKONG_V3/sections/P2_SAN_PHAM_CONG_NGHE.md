@@ -1,4 +1,4 @@
-﻿# PHẦN II: SẢN PHẨM VÀ CÔNG NGHỆ
+# PHẦN II: SẢN PHẨM VÀ CÔNG NGHỆ
 
 ---
 
@@ -12,9 +12,9 @@ Mekong Technology vận hành mô hình sản xuất–dịch vụ tích hợp d
 |:---:|---|---|---:|
 | **BU1** | Điện tử Thông minh (IoT/BMS/Robot) | Thiết kế, sản xuất IoT Gateway, BMS Controller, Robot AMR/AGV | 70,8% |
 | **BU2** | Chế tạo Cơ khí Siêu Chính xác (CNC/MPMC) | Gia công khung robot, linh kiện FDI, jig/fixture | 29,2% |
-| **Hỗ trợ** | Datacenter Nội bộ | Hosting MekongOS, AI training, ERP, lưu trữ dữ liệu | (chi phí nội bộ) |
+| **Hỗ trợ** | Datacenter Nội bộ | Lưu trữ MekongOS, AI training, ERP, lưu trữ dữ liệu | (chi phí nội bộ) |
 
-> **Khác biệt so với Phương án V2 (32M USD):** V2 có 3 trụ cột bao gồm Datacenter thương mại Tier III 50 rack (CAPEX ~12M USD). V3 loại bỏ hoàn toàn dịch vụ DC thương mại, chuyển sang DC nội bộ 5-8 rack (CAPEX 2,50M USD — 11,4% tổng đầu tư) nhằm giảm rủi ro cấp phép viễn thông và tập trung nguồn lực vào 2 trụ cột sản xuất cốt lõi [C].
+> Datacenter chỉ phục vụ nội bộ (5-8 rack, **200 m² T2**, CAPEX **2,20M USD — 10,0%** tổng đầu tư), không kinh doanh dịch vụ DC thương mại — giảm rủi ro cấp phép viễn thông và tập trung nguồn lực vào 2 trụ cột sản xuất cốt lõi [C].
 
 ### 2.1.2. Danh mục Sản phẩm Tổng hợp
 
@@ -28,16 +28,16 @@ Mekong Technology vận hành mô hình sản xuất–dịch vụ tích hợp d
 | 6 | Dịch vụ BMS/SCADA | BU1 | 0,40 | [C] |
 | 7 | Robot AMR (tự hành) | BU1 | 1,80 | [C] |
 | 8 | Robot AGV (dẫn đường) | BU1 | 0,60 | [C] |
-| 9 | MekongOS IoT Platform (SaaS) | BU1 | 0,30 | [C] |
+| 9 | MekongOS IoT Nền tảng (SaaS) | BU1 | 0,30 | [C] |
 | 10 | OEM/ODM Điện tử | BU1 | 1,10 | [C] |
 | 11 | Khung Robot AMR/AGV (CNC) | BU2 | 0,70 | [C] |
 | 12 | Linh kiện chính xác FDI | BU2 | 1,50 | [C] |
 | 13 | Jig/Fixture | BU2 | 0,40 | [C] |
-| 14 | CNC outsource (giờ máy) | BU2 | 0,80 | [C] |
+| 14 | CNC thuê ngoài (giờ máy) | BU2 | 0,80 | [C] |
 | 15 | Chi tiết cơ khí khác | BU2 | 0,10 | [C] |
 | | **Tổng** | | **11,59** | |
 
-> Doanh thu thiết kế 11,59M USD từ 15 dòng sản phẩm. Doanh thu thực tế steady-state đạt 12,00M USD/năm khi tính tăng trưởng đơn hàng và điều chỉnh giá [C].
+> Doanh thu thiết kế 11,59M USD từ 15 dòng sản phẩm. Doanh thu thực tế ổn định đạt 12,00M USD/năm khi tính tăng trưởng đơn hàng và điều chỉnh giá [C].
 
 ### 2.1.3. Sơ đồ Tổ chức Sản xuất
 
@@ -142,7 +142,7 @@ DDC (Direct Digital Controller) là bộ điều khiển trung tâm cho hệ th�
 |---|---|---|
 | **Số điểm I/O** | 24 (có thể mở rộng đến 48 qua EIO) | 64 (có thể mở rộng đến 128 qua EIO) |
 | **I/O tích hợp** | 8 UI + 4 AO + 4 DO + 8 DI | 16 UI + 8 AO + 8 DO + 16 DI + 8 AI + 8 DI dự phòng |
-| **CPU** | STM32F4, 168 MHz | NXP i.MX8M (dùng lại platform MK-200) |
+| **CPU** | STM32F4, 168 MHz | NXP i.MX8M (dùng lại nền tảng MK-200) |
 | **Giao thức** | BACnet MS/TP, Modbus RTU | BACnet IP, BACnet MS/TP, Modbus TCP/RTU, OPC UA |
 | **Lập trình** | IEC 61131-3 FBD (MekongET) | IEC 61131-3 FBD + ST (MekongET) |
 | **Web UI** | Có (embedded web server) | Có (HTML5 dashboard) |
@@ -178,7 +178,7 @@ MK-GW là gateway chuyển đổi giao thức, kết nối thiết bị bên th�
 | **AI tích hợp** | Predictive maintenance, Energy optimization, Anomaly detection |
 | **Ứng dụng** | Tòa nhà thương mại, nhà máy, bệnh viện, khách sạn |
 | **Giá license** | 5.000-15.000 USD/building (tùy quy mô) |
-| **SaaS** | 500-2.000 USD/tháng (hosting trên DC nội bộ Mekong) |
+| **SaaS** | 500-2.000 USD/tháng (lưu trữ trên DC nội bộ Mekong) |
 | **Đối thủ** | Schneider EcoStruxure, Siemens Desigo CC, Honeywell Niagara |
 | **Định vị** | Phân khúc tầm trung — giá thấp hơn 40-60% so với đối thủ quốc tế |
 
@@ -267,7 +267,7 @@ MekongOS là nền tảng phần mềm IoT Cloud chạy trên DC nội bộ, cun
 | Enterprise | Full AI, Digital Twin, SLA 99,9%, 1 năm | 999 USD | 500 |
 | Custom | Theo yêu cầu, on-premise option | Thương lượng | Không giới hạn |
 
-> MekongOS chạy trên DC nội bộ — latency < 1ms đến khách hàng trong KCNC, chi phí hosting thấp hơn 50% so với AWS/GCP [A].
+> MekongOS chạy trên DC nội bộ — latency < 1ms đến khách hàng trong KCNC, chi phí lưu trữ thấp hơn 50% so với AWS/GCP [A].
 
 ### 2.2.9. OEM/ODM Điện tử — Dòng Sản phẩm Gia công Theo Yêu cầu
 
@@ -290,8 +290,8 @@ Ngoài sản phẩm mang nhãn Mekong, BU1 cung cấp dịch vụ OEM/ODM cho kh
 | Thành phần tối thiểu | 0201 (0,6 × 0,3 mm), QFP, BGA, CSP |
 | Kiểm tra | AOI 3D, ICT, Functional Test, Programming |
 | Chứng nhận | ISO 9001:2015, IPC-A-610 Class 2/Class 3 |
-| Lead time NPI | 4-6 tuần (bao gồm DFM review) |
-| Lead time sản xuất | 2-3 tuần sau NPI pass |
+| Thời gian dẫn NPI | 4-6 tuần (bao gồm DFM review) |
+| Thời gian dẫn sản xuất | 2-3 tuần sau NPI pass |
 | MOQ | 100 board/lần |
 
 #### C. Quy trình OEM/ODM
@@ -394,7 +394,7 @@ flowchart TB
 
 Trung tâm Chế tạo Linh kiện Chính xác (Mekong Precision Manufacturing Center — MPMC) là xưởng CNC tại Nhà xưởng Sản xuất, chuyên gia công khung robot AMR/AGV nội bộ và linh kiện chính xác cho khách hàng FDI, đạt chuẩn ISO 9001:2015.
 
-| Thông số | Giá trị V3 | Ghi chú |
+| Thông số | Giá trị | Ghi chú |
 |---|---|---|
 | **Diện tích** | ~1.000 m² (khu CNC + QC Corner) | Tầng 1 Nhà xưởng |
 | **Số máy CNC** | **10 máy** | 5×5-trục + 3×3-trục + 1×EDM + 1×Grinder |
@@ -405,7 +405,7 @@ Trung tâm Chế tạo Linh kiện Chính xác (Mekong Precision Manufacturing C
 | **Chứng nhận** | ISO 9001:2015 (sẵn có). IATF/AS9100 là option Y10+ | |
 | **Nhân sự** | 15-20 người (2 ca) | |
 
-> **Khác biệt V3 vs V2:** Nâng từ 6 máy lên 10 máy (thêm 2×5-trục Doosan, 1×3-trục, 1×Wire EDM, 1×Surface Grinder) nhằm mở rộng năng lực gia công và tự chủ quy trình xử lý bề mặt [C].
+> Cấu hình 10 máy CNC (5×5-trục Doosan + 3×3-trục + 1×Wire EDM + 1×Surface Grinder) cho phép mở rộng năng lực gia công và tự chủ quy trình xử lý bề mặt [C].
 
 ### 2.3.2. Danh mục Máy móc Chi tiết (10 máy)
 
@@ -437,13 +437,13 @@ Trung tâm Chế tạo Linh kiện Chính xác (Mekong Precision Manufacturing C
 | SolidWorks Standard (viewer) | Dassault | 3 | 12-18 |
 | **Tổng** | | | **112-138** |
 
-**Tổng CAPEX CNC (máy + QC + phần mềm + fit-out + tooling):** ~3.800K USD [C].
+**Tổng CAPEX CNC (máy + QC + phần mềm + hoàn thiện lắp đặt + tooling):** ~3.800K USD [C].
 
 ### 2.3.3. Quy trình Gia công Tiêu biểu — ISO 9001:2015
 
 1. **Nhận bản vẽ** từ khách hàng → 2. **Kiểm tra phôi** đầu vào (thước cặp, panme) → 3. **Lập trình CNC** trên Mastercam (5-trục/3-trục) → 4. **Gia công CNC** trên DMG MORI/Doosan → 5. **Kiểm tra QC** bằng Hexagon Arm (in-process) → 6. **Xử lý bề mặt** (EDM/mài/anodize nếu yêu cầu — xử lý tại chỗ với Wire EDM và Grinder) → 7. **Kiểm tra cuối** bằng Hexagon Arm + báo cáo đo → 8. **Đóng gói + Giao hàng**
 
-**Thời gian chu kỳ (Lead time):**
+**Thời gian chu kỳ (Thời gian dẫn):**
 - Chi tiết đơn giản (khung robot, bracket): 1-2 tuần
 - Chi tiết chính xác (encoder mount, jig): 2-3 tuần
 - Sản phẩm mới (NPI): 4-6 tuần (bao gồm thiết kế fixture + FAI)
@@ -507,7 +507,7 @@ Trung tâm Chế tạo Linh kiện Chính xác (Mekong Precision Manufacturing C
 
 DC nội bộ phục vụ toàn bộ nhu cầu CNTT của Mekong Technology — **KHÔNG kinh doanh dịch vụ colocation hay cloud thương mại**, do đó không cần Giấy phép Viễn thông và không thuộc phạm vi điều chỉnh của Luật Viễn thông 2023.
 
-| Thông số | Giá trị V3 | Ghi chú |
+| Thông số | Giá trị | Ghi chú |
 |---|---|---|
 | **Diện tích** | **200 m²** (T2) | Nhà xưởng SX — Tầng 2 |
 | **Số rack** | 5-8 rack 42U | [A] |
@@ -516,7 +516,7 @@ DC nội bộ phục vụ toàn bộ nhu cầu CNTT của Mekong Technology — 
 | **UPS** | 1× 80 kVA, Li-ion 15 phút | |
 | **Generator** | Dùng chung máy phát nhà xưởng | |
 | **PUE mục tiêu** | < 1,50 | [A] |
-| **Uptime mục tiêu** | 99,9% (Tier I+) | Đủ cho nội bộ |
+| **Thời gian hoạt động mục tiêu** | 99,9% (Tier I+) | Đủ cho nội bộ |
 | **CAPEX** | **2,20M USD (10,0% tổng)** | [C] |
 | **OPEX/năm** | 0,40M USD | [C] |
 
@@ -545,23 +545,23 @@ DC nội bộ phục vụ toàn bộ nhu cầu CNTT của Mekong Technology — 
 | **BU2 — CNC** | Khung, vỏ, trục robot AMR | — | IoT giám sát hiệu suất CNC |
 | **DC Nội bộ** | GPU cho AI SLAM training | Dữ liệu OEE cho tối ưu CNC | — |
 
-### 2.5.2. Lượng hóa Giá trị Cộng hưởng (V3)
+### 2.5.2. Lượng hóa Giá trị Cộng hưởng
 
 | Liên kết | Giá trị/năm (USD) | Phương pháp | Nhãn |
 |---|---:|---|:---:|
-| CNC chế tạo khung Robot (thay vì outsource) | 150.000-200.000 | Tiết kiệm 15-20% COGS khung | [A] |
+| CNC chế tạo khung Robot (thay vì thuê ngoài) | 150.000-200.000 | Tiết kiệm 15-20% COGS khung | [A] |
 | DC nội bộ cung cấp GPU cho AI SLAM | 100.000-200.000 | So sánh với thuê AWS | [A] |
-| MekongOS hosting trên DC nội bộ | 80.000-150.000 | Chênh lệch cloud cost | [A] |
+| MekongOS lưu trữ trên DC nội bộ | 80.000-150.000 | Chênh lệch cloud cost | [A] |
 | Cross-sell FDI (CNC → IoT) | 200.000-500.000 | Revenue uplift KH chung | [A] |
 | IoT giám sát CNC (tăng utilization) | 50.000-100.000 | 5-10% OEE improvement | [A] |
 | **Tổng Synergy Value/năm** | **580.000-1.150.000** | | |
 | **NPV Synergy 10 năm (WACC 12%)** | **~2.000.000** | | [C] |
 
-> Synergy V3 thấp hơn V2 (~3M USD) do không có cross-sell DC thương mại, nhưng vẫn đủ lớn để biện minh cho mô hình tích hợp [C].
+> Tổng giá trị cộng hưởng đạt ~2,00M USD NPV 10 năm, đủ lớn để biện minh cho mô hình tích hợp 2 trụ cột [C].
 
 ---
 
-## 2.6. Lộ trình Trưởng thành Công nghệ (V3)
+## 2.6. Lộ trình Trưởng thành Công nghệ
 
 | Giai đoạn | Thời gian | Sản phẩm chính | Chứng nhận |
 |---|---|---|---|
@@ -618,7 +618,7 @@ Toàn bộ R&D BMS/SCADA thực hiện từ Y6, sau khi đội ngũ IoT ổn đ�
 | 10 | MekongSCADA v1.0 | Q1-Q4/Y8 | 250 | 6 | [A] |
 | | **Tổng R&D BMS/SCADA** | **3 năm (Y6-Y8)** | **1.390** | **Peak: 25** | |
 
-> 1.390K USD chiếm ~23% tổng R&D 10 năm (6.000K). Hợp lý vì tái sử dụng 60-70% platform MK-200 và BACnet open-source stack [A].
+> 1.390K USD chiếm ~23% tổng R&D 10 năm (6.000K). Hợp lý vì tái sử dụng 60-70% nền tảng MK-200 và BACnet open-source stack [A].
 
 ### 2.7.4. Sở hữu Trí tuệ
 
@@ -641,7 +641,7 @@ Toàn bộ R&D BMS/SCADA thực hiện từ Y6, sau khi đội ngũ IoT ổn đ�
 
 ### 2.7.6. Kinh tế Đơn vị Sản phẩm (Unit Economics) — Nhóm chủ lực
 
-Để bảo đảm cơ sở tài chính của từng dòng sản phẩm là khả thi, Mekong chuẩn hóa mô hình tính **Unit Economics** theo 5 lớp: BOM vật tư trực tiếp, gia công/lắp ráp, kiểm thử, overhead sản xuất và chi phí bảo hành dự phòng. Cách tiếp cận này phù hợp thực hành quản trị sản xuất điện tử theo **IPC-A-610**, **ISO 9001:2015** và benchmark EMS/ODM khu vực ASEAN [B].
+Để bảo đảm cơ sở tài chính của từng dòng sản phẩm là khả thi, Mekong chuẩn hóa mô hình tính **Unit Economics** theo 5 lớp: BOM vật tư trực tiếp, gia công/lắp ráp, kiểm thử, overhead sản xuất và chi phí bảo hành dự phòng. Cách tiếp cận này phù hợp thực hành quản trị sản xuất điện tử theo **IPC-A-610**, **ISO 9001:2015** và chuẩn ngành EMS/ODM khu vực ASEAN [B].
 
 #### A. BOM và biên gộp ước tính — MK-200
 
@@ -666,7 +666,7 @@ Toàn bộ R&D BMS/SCADA thực hiện từ Y6, sau khi đội ngũ IoT ổn đ�
 | COGS | 190 USD [C] |
 | Gross profit / bộ | 200-230 USD |
 | Biên gộp | 48-51% [C] |
-| Payback R&D (ước tính) | ~7.000-8.500 bộ |
+| Thời gian hoàn vốn R&D (ước tính) | ~7.000-8.500 bộ |
 
 #### B. BOM và biên gộp ước tính — MK-300
 
@@ -678,7 +678,7 @@ Toàn bộ R&D BMS/SCADA thực hiện từ Y6, sau khi đội ngũ IoT ổn đ�
 | 5G + WiFi 6E module | 48 | Option thị trường FDI [A] |
 | Thermal / heatsink / enclosure | 32 | Tản nhiệt chủ động |
 | Cổng công nghiệp + nguồn | 26 | 6× RS485 + 2× GbE |
-| Assembly + AI validation | 22 | Benchmark image/model test [A] |
+| Assembly + AI validation | 22 | Chuẩn ngành image/model test [A] |
 | QA + burn-in + packaging | 18 | 48 giờ burn-in |
 | Overhead + bảo hành reserve | 27 | |
 | **Tổng COGS ước tính** | **460** | |
@@ -708,22 +708,22 @@ Toàn bộ R&D BMS/SCADA thực hiện từ Y6, sau khi đội ngũ IoT ổn đ�
 | ASP trung bình | 20.500 USD [C] |
 | Gross profit / bộ | ~9.750 USD |
 | Biên gộp | ~47,6% |
-| Giá trị synergy BU2 | ~15-20% COGS khung tiết kiệm so với outsource [A] |
+| Giá trị synergy BU2 | ~15-20% COGS khung tiết kiệm so với thuê ngoài [A] |
 
-> **Nhận xét quản trị:** Dòng phần cứng có biên gộp 40-50% chỉ bền vững khi Mekong kiểm soát được 3 yếu tố: (1) BOM chuẩn hóa theo platform dùng chung, (2) yield SMT/CNC cao, và (3) doanh thu phần mềm/dịch vụ đi kèm. Đây cũng là lý do P3 đặt trọng tâm vào mix doanh thu SaaS + SI + aftersales thay vì chỉ bán thiết bị [A][C].
+> **Nhận xét quản trị:** Dòng phần cứng có biên gộp 40-50% chỉ bền vững khi Mekong kiểm soát được 3 yếu tố: (1) BOM chuẩn hóa theo nền tảng dùng chung, (2) yield SMT/CNC cao, và (3) doanh thu phần mềm/dịch vụ đi kèm. Đây cũng là lý do P3 đặt trọng tâm vào mix doanh thu SaaS + SI + aftersales thay vì chỉ bán thiết bị [A][C].
 
 ### 2.7.7. Mô hình OEM/ODM và Quy trình Thương mại hóa Sản phẩm
 
-Ngoài bán sản phẩm chuẩn mang thương hiệu Mekong, BU1 triển khai thêm mô hình **OEM/ODM điện tử công nghiệp** cho khách hàng FDI và SI trong nước. Đây là mảng doanh thu 1,10M USD/năm steady-state [C], đồng thời giúp tối ưu công suất SMT line và giảm rủi ro phụ thuộc vào 1-2 SKU chủ lực.
+Ngoài bán sản phẩm chuẩn mang thương hiệu Mekong, BU1 triển khai thêm mô hình **OEM/ODM điện tử công nghiệp** cho khách hàng FDI và SI trong nước. Đây là mảng doanh thu 1,10M USD/năm ổn định [C], đồng thời giúp tối ưu công suất SMT line và giảm rủi ro phụ thuộc vào 1-2 SKU chủ lực.
 
 #### A. Phạm vi dịch vụ OEM/ODM
 
-| Mô hình | Mekong cung cấp | Tài sản trí tuệ | Biên gộp mục tiêu | Thời gian lead time |
+| Mô hình | Mekong cung cấp | Tài sản trí tuệ | Biên gộp mục tiêu | Thời gian thời gian dẫn |
 |---|---|---|---:|---|
 | **OEM** | Sản xuất theo thiết kế khách hàng | IP thuộc khách hàng | 18-25% | 6-10 tuần |
-| **ODM-lite** | Tùy biến từ platform MK-200/MK-DDC | Shared IP / licensing | 28-35% | 8-12 tuần |
+| **ODM-lite** | Tùy biến từ nền tảng MK-200/MK-DDC | Shared IP / licensing | 28-35% | 8-12 tuần |
 | **ODM-full** | Thiết kế phần cứng + firmware + enclosure | IP Mekong, KH license độc quyền có điều kiện | 35-45% | 12-20 tuần |
-| **JDM / Co-development** | Đồng phát triển với FDI / SI | Đồng sở hữu / theo milestone | 30-40% | Theo dự án |
+| **JDM / Co-development** | Đồng phát triển với FDI / SI | Đồng sở hữu / theo mốc tiến độ | 30-40% | Theo dự án |
 
 #### B. Quy trình Stage-Gate cho dự án OEM/ODM
 
@@ -738,7 +738,7 @@ Ngoài bán sản phẩm chuẩn mang thương hiệu Mekong, BU1 triển khai t
 
 #### C. Mẫu cấu trúc hợp đồng OEM/ODM
 
-| Điều khoản | Nguyên tắc V3 |
+| Điều khoản | Nguyên tắc |
 |---|---|
 | NRE (Non-Recurring Engineering) | Thu upfront 30-50% để giảm áp lực dòng tiền |
 | MOQ | Thiết lập theo BOM critical components |
@@ -786,7 +786,7 @@ Ngoài bán sản phẩm chuẩn mang thương hiệu Mekong, BU1 triển khai t
 | Y8-Y10 | IATF 16949 readiness | CNC cung ứng ô tô | Chỉ kích hoạt khi volume phù hợp |
 | Y10+ | AS9100 option | Aerospace CNC | Chỉ triển khai nếu có anchor customer |
 
-> **Nguyên tắc V3:** Không “ôm” quá nhiều chứng nhận sớm gây tăng OPEX vô ích. Chỉ kích hoạt IATF/AS9100 khi có doanh thu neo (anchor revenue) đủ hấp thụ chi phí duy trì chứng nhận [A].
+> **Nguyên tắc:** Không “ôm” quá nhiều chứng nhận sớm gây tăng OPEX vô ích. Chỉ kích hoạt IATF/AS9100 khi có doanh thu neo (anchor revenue) đủ hấp thụ chi phí duy trì chứng nhận [A].
 
 ### 2.7.9. Quản trị Vòng đời Sản phẩm (PLM), IP và Cybersecurity by Design
 
@@ -826,7 +826,7 @@ Ngoài bán sản phẩm chuẩn mang thương hiệu Mekong, BU1 triển khai t
 
 > Cách tiếp cận này phù hợp xu hướng **secure-by-design** cho thiết bị công nghiệp và giúp Mekong nâng vị thế khi làm việc với khách hàng FDI có yêu cầu cao về OT security, đặc biệt trong nhà máy thông minh và hạ tầng tòa nhà [B — IEC 62443 guidance, NIST IoT baseline].
 
-### 2.7.10. Roadmap Sản phẩm và Danh mục Ưu tiên 2026-2035
+### 2.7.10. Lộ trình Sản phẩm và Danh mục Ưu tiên 2026-2035
 
 | Giai đoạn | SKU / nền tảng ưu tiên | Mục tiêu thương mại | Chỉ số thành công |
 |---|---|---|---|
@@ -835,20 +835,20 @@ Ngoài bán sản phẩm chuẩn mang thương hiệu Mekong, BU1 triển khai t
 | 2028-2029 | MK-EIO, MK-DDC-24, MekongET, AGV-500 | Hoàn thiện hệ sinh thái BMS/SCADA lõi | 500 controller/module shipped |
 | 2029-2031 | MK-DDC-64, MekongBMS v1.0, AMR-1000 | Tăng tỷ trọng software + service | SaaS ARR > 0,50M |
 | 2031-2033 | MekongSCADA, Fleet Manager, predictive quality | Bán giải pháp tích hợp cấp nhà máy | 3-5 dự án quy mô lớn |
-| 2033-2035 | Digital Twin, AI quality, cobot-ready platform | Vươn ra ASEAN / OEM regional | Xuất khẩu ≥ 15% DT |
+| 2033-2035 | Digital Twin, AI quality, cobot-ready nền tảng | Vươn ra ASEAN / OEM regional | Xuất khẩu ≥ 15% DT |
 
 #### Danh mục ưu tiên theo ma trận “Doanh thu × Khả năng thắng”
 
 | Ưu tiên | Sản phẩm / nhóm | Lý do |
 |---|---|---|
-| **P1** | MK-200 / OEM Gateway | Time-to-market nhanh, reuse platform cao |
+| **P1** | MK-200 / OEM Gateway | Time-to-market nhanh, reuse nền tảng cao |
 | **P1** | Jig/Fixture + CNC FDI parts | Doanh thu sớm, ít phụ thuộc chứng nhận phức tạp |
 | **P2** | AMR-500 | Giá trị tích hợp 2 BU rõ nhất |
 | **P2** | MK-EIO / MK-DDC-24 | Mở cửa thị trường BMS trung cấp |
 | **P3** | MK-300 | Flagship hình ảnh thương hiệu, nhưng cần sales kỹ thuật mạnh |
 | **P3** | AMR-1000 / MekongSCADA | Nên scale sau khi nền tảng vận hành ổn định |
 
-> **Kết luận Phần II:** Hệ sinh thái 21 sản phẩm IoT/BMS/Robot (BU1) + 10 máy CNC (BU2) + DC nội bộ tạo nền tảng vững chắc cho doanh thu steady-state 12,00M USD/năm. Mô hình 2 trụ cột tập trung, giảm rủi ro phân tán nguồn lực so với mô hình 3 trụ cột V2. Synergy nội bộ ~2,00M USD NPV bổ sung giá trị tích hợp [C].
+> **Kết luận Phần II:** Hệ sinh thái 21 sản phẩm IoT/BMS/Robot (BU1) + 10 máy CNC (BU2) + DC nội bộ tạo nền tảng vững chắc cho doanh thu ổn định 12,00M USD/năm. Mô hình 2 trụ cột tập trung, giảm rủi ro phân tán nguồn lực. Synergy nội bộ ~2,00M USD NPV bổ sung giá trị tích hợp [C].
 
 ---
 
@@ -908,7 +908,7 @@ flowchart TB
     M4 --> R3
 ```
 
-> Quy trình CNC áp dụng ISO 9001:2015 với kiểm soát chặt: 100% FAI cho part mới, SPC cho part lặp lại. Lead time trung bình 2-3 tuần (NPI 4-6 tuần). EDM và Grinder phục vụ part yêu cầu xử lý bề mặt đặc biệt — khác biệt V3 so với V2 nhờ bổ sung 2 máy này [C].
+> Quy trình CNC áp dụng ISO 9001:2015 với kiểm soát chặt: 100% FAI cho part mới, SPC cho part lặp lại. Thời gian dẫn trung bình 2-3 tuần (NPI 4-6 tuần). EDM và Grinder phục vụ part yêu cầu xử lý bề mặt đặc biệt, nâng cao năng lực gia công chính xác [C].
 
 ---
 
@@ -927,18 +927,18 @@ Bảng dưới đây tổng hợp toàn bộ 14 nhóm sản phẩm/dịch vụ M
 | 7 | Dịch vụ BMS/SCADA tích hợp | BU1 | Mục 2.2 — Dịch vụ CNTT | HĐ 3.1 | dự án | 15-25 | 15.000-40.000 | 0,40 | 60-70 | [C] |
 | 8 | Robot AMR (tự hành) | BU1 | Mục 1.1 — Robot công nghiệp CNC | HĐ 2.2 | bộ | 200 | 18.000-38.000 | 1,80 | 40-47 | [C] |
 | 9 | Robot AGV (dẫn đường) | BU1 | Mục 1.1 — Robot công nghiệp CNC | HĐ 2.2 | bộ | 100 | 12.000-28.000 | 0,60 | 38-45 | [C] |
-| 10 | MekongOS IoT Platform (SaaS) | BU1 | Mục 2.1 — Nền tảng IoT CNC | HĐ 1.1 | thuê bao | 500+ | 99-999/tháng | 0,30 | 85-92 | [C] |
+| 10 | MekongOS IoT Nền tảng (SaaS) | BU1 | Mục 2.1 — Nền tảng IoT CNC | HĐ 1.1 | thuê bao | 500+ | 99-999/tháng | 0,30 | 85-92 | [C] |
 | 11 | OEM/ODM Điện tử | BU1 | Mục 1.2 — Sản xuất linh kiện CNC | HĐ 2.1 | board | 30.000 | Theo BOM | 1,10 | 25-35 | [C] |
 | 12 | Khung Robot + Linh kiện CNC (FDI) | BU2 | Mục 1.3 — Chi tiết cơ khí CNC | HĐ 2.3 | chi tiết | 4.000-5.000 | 50-1.000 | 2,20 | 42-55 | [C] |
 | 13 | Jig/Fixture/Pallet CNC | BU2 | Mục 1.3 — Dụng cụ gia công CNC | HĐ 2.3 | chi tiết | 700 | 150-800 | 0,40 | 50-60 | [C] |
-| 14 | CNC outsource (giờ máy) | BU2 | Mục 1.3 — Dịch vụ gia công CNC | HĐ 2.3 | giờ | 8.000+ | 55-95 | 0,80 | 35-45 | [C] |
+| 14 | CNC thuê ngoài (giờ máy) | BU2 | Mục 1.3 — Dịch vụ gia công CNC | HĐ 2.3 | giờ | 8.000+ | 55-95 | 0,80 | 35-45 | [C] |
 | | **TỔNG** | | | | | | | **11,59** | **~46** | |
 
-> Doanh thu thiết kế 11,59M từ 14 nhóm. Doanh thu thực tế steady-state 12,00M/năm [C]. Tỷ lệ VA bình quân gia quyền ~46% — vượt ngưỡng 30% theo NĐ 76/2018 và cam kết ≥ 42% [C].
+> Doanh thu thiết kế 11,59M từ 14 nhóm. Doanh thu thực tế ổn định 12,00M/năm [C]. Tỷ lệ VA bình quân gia quyền ~46% — vượt ngưỡng 30% theo NĐ 76/2018 và cam kết ≥ 42% [C].
 
 ### 2.9.1. Đối chiếu Tiêu chí Doanh nghiệp CNC theo NĐ 76/2018/NĐ-CP
 
-| TT | Tiêu chí NĐ 76/2018 | Ngưỡng tối thiểu | Giá trị Mekong V3 | Đạt/Chưa | Cơ sở |
+| TT | Tiêu chí NĐ 76/2018 | Ngưỡng tối thiểu | Giá trị Mekong | Đạt/Chưa | Cơ sở |
 |:---:|---|---:|---:|:---:|---|
 | 1 | Tỷ lệ chi phí R&D / Doanh thu | ≥ 0,5% | ~8% (6,00M/10Y ÷ ~75M/10Y) | Vượt xa | §2.7.1 [C] |
 | 2 | Tỷ lệ nhân lực R&D / Tổng LĐ | ≥ 5% | ~20-25% (25-30 R&D / 115) | Vượt xa | §7.2 [C] |
@@ -949,7 +949,7 @@ Bảng dưới đây tổng hợp toàn bộ 14 nhóm sản phẩm/dịch vụ M
 
 ---
 
-## 2.10. Bảng Nguyên Vật liệu Tổng hợp Hàng năm (Steady-state Y12+)
+## 2.10. Bảng Nguyên Vật liệu Tổng hợp Hàng năm (Ổn định Y12+)
 
 ### 2.10.1. BOM Tổng hợp theo Nhóm Nguyên liệu
 
@@ -960,7 +960,7 @@ Bảng dưới đây tổng hợp toàn bộ 14 nhóm sản phẩm/dịch vụ M
 | 3 | PCB (4-12 lớp) + SMT assembly | board | 50.000 | 12-42 | 620 | NPC VN, VinCircuit, Elcom (VN) | [B] |
 | 4 | Module RF (WiFi/BLE/4G/5G/LoRa) | pcs | 20.000 | 8-48 | 320 | Quectel (CN), u-blox (CH) | [B] |
 | 5 | Connector, terminal, nguồn | pcs | 80.000 | 1-16 | 280 | Phoenix, Weidmuller, Meanwell | [B] |
-| 6 | Vỏ hộp nhôm / nhựa công nghiệp | pcs | 15.000 | 8-32 | 200 | CNC nội bộ MPMC + outsource VN | [B] |
+| 6 | Vỏ hộp nhôm / nhựa công nghiệp | pcs | 15.000 | 8-32 | 200 | CNC nội bộ MPMC + thuê ngoài VN | [B] |
 | 7 | Cảm biến, LiDAR, Camera | pcs | 1.500 | 50-1.200 | 350 | SICK (Đức), Velodyne, Intel RS | [B] |
 | 8 | Motor servo / bánh xe Robot | bộ | 600 | 200-650 | 180 | Nabtesco (JP), Maxon (CH), TQ | [B] |
 | 9 | Pin LiFePO4 / BMS module | bộ | 300 | 800-1.250 | 280 | CATL (CN), EVE (CN) | [B] |
@@ -971,19 +971,19 @@ Bảng dưới đây tổng hợp toàn bộ 14 nhóm sản phẩm/dịch vụ M
 | 14 | Vật tư đóng gói, ESD, nhãn | set | 40.000 | 1-5 | 80 | Nội địa VN | [B] |
 | | **TỔNG COGS NGUYÊN VẬT LIỆU** | | | | **3.950** | | |
 
-> Tổng chi phí NVL: ~3,95M USD/năm tại steady-state (33% doanh thu 12,00M) — nhất quán với dòng COGS 3,60M ước tính tại P5 (sai lệch ~10% do P5 không tính tooling tiêu hao) [C].
+> Tổng chi phí NVL: ~3,95M USD/năm tại ổn định (33% doanh thu 12,00M) — nhất quán với dòng COGS 3,60M ước tính tại P5 (sai lệch ~10% do P5 không tính tooling tiêu hao) [C].
 
 ### 2.10.2. Phân tích Nguồn cung theo Xuất xứ
 
 | Xuất xứ | Tỷ trọng giá trị | Nhóm chính | Rủi ro |
 |---|---:|---|---|
-| Mỹ / EU | ~35% | IC, module cao cấp, connector, LiDAR | Biến động chip lead time |
+| Mỹ / EU | ~35% | IC, module cao cấp, connector, LiDAR | Biến động chip thời gian dẫn |
 | Nhật / Hàn | ~20% | RAM, motor servo, dụng cụ cắt, đo lường | Ổn định, giá cao |
 | Trung Quốc | ~25% | Pin, module RF phổ thông, phôi nhôm | Giá cạnh tranh, cần QC chặt |
 | Việt Nam | ~15% | PCB, vỏ hộp, đóng gói, phôi thép | Gần nguồn, localization ưu tiên |
 | Khác (Thụy Sĩ, Đài Loan) | ~5% | Motor cao cấp, dụng cụ cắt đặc biệt | Ổn định |
 
-### 2.10.3. Kế hoạch Nội địa hóa (Localization Roadmap)
+### 2.10.3. Kế hoạch Nội địa hóa (Localization Lộ trình)
 
 | Giai đoạn | Tỷ lệ NVL nội địa | Hành động chính |
 |---|---:|---|
@@ -1081,11 +1081,11 @@ MekongOS là middleware đa giao thức kết nối tất cả thiết bị Meko
 | **Enterprise** | 1.000 | AI, fleet management, API mở rộng | 599 | Campus, khu công nghiệp |
 | **Custom** | Unlimited | Triển khai on-premise hoặc hybrid | 999+ | FDI, dự án đặc biệt |
 
-> Doanh thu MekongOS SaaS mục tiêu: 0,30M USD/năm steady-state từ 500+ thuê bao [C]. Gross margin phần mềm 85-92% tạo đòn bẩy lợi nhuận quan trọng cho hệ sinh thái [C].
+> Doanh thu MekongOS SaaS mục tiêu: 0,30M USD/năm ổn định từ 500+ thuê bao [C]. Gross margin phần mềm 85-92% tạo đòn bẩy lợi nhuận quan trọng cho hệ sinh thái [C].
 
 ### 2.12.2. MekongBMS — Phần mềm Quản trị Tòa nhà
 
-MekongBMS là giải pháp Building Management System tích hợp, thiết kế cho thị trường Việt Nam với giao diện tiếng Việt, tuân thủ QCVN 09:2017/BXD, và tối ưu chi phí vận hành tòa nhà 15-25% so với baseline.
+MekongBMS là giải pháp Building Management System tích hợp, thiết kế cho thị trường Việt Nam với giao diện tiếng Việt, tuân thủ QCVN 09:2017/BXD, và tối ưu chi phí vận hành tòa nhà 15-25% so với mức cơ sở.
 
 #### A. Module chức năng
 
@@ -1096,7 +1096,7 @@ MekongBMS là giải pháp Building Management System tích hợp, thiết kế 
 | **Energy Management** | Giám sát điện năng, phân tích tiêu thụ | kWh per zone, power factor, demand | MK-GW-PM, Modbus meter |
 | **Fire Alarm Interface** | Hiển thị trạng thái, liên động tắt AHU | Read-only alarm, zone status | Protocol converter |
 | **Access Control Interface** | Tích hợp kiểm soát ra vào | Event log, occupancy data | MK-GW-SEC |
-| **Reporting & Analytics** | Báo cáo tuân thủ, benchmark năng lượng | Monthly/quarterly report, KPI dashboard | Tất cả module |
+| **Reporting & Analytics** | Báo cáo tuân thủ, chuẩn ngành năng lượng | Monthly/quarterly report, KPI dashboard | Tất cả module |
 | **Mobile Operations** | App vận hành cho kỹ thuật viên | Work order, alarm push, control override | iOS/Android native |
 
 #### B. Điểm khác biệt so với BMS nhập khẩu
@@ -1134,7 +1134,7 @@ MekongSCADA phục vụ giám sát và điều khiển hệ thống công nghi�
 | Historical trending | Lưu trữ dữ liệu 5+ năm, truy vấn tốc độ cao | TimescaleDB |
 | Report generation | Báo cáo ca/ngày/tháng, compliance, KPI | Tùy biến |
 | Remote access | Web-based HMI, VPN + 2FA | IEC 62443 security |
-| Redundancy | Server hot-standby, automatic failover | 99,9% uptime target |
+| Redundancy | Server hot-standby, automatic failover | 99,9% thời gian hoạt động target |
 
 ### 2.12.4. MekongET — Quản lý Năng lượng
 
@@ -1146,7 +1146,7 @@ MekongET (Energy Technology) chuyên biệt cho giám sát và tối ưu tiêu t
 | Load profiling | Phân tích mẫu tiêu thụ 24h/7 ngày | Phát hiện bất thường |
 | Demand response | Cắt tải thông minh khi peak | Giảm 10-15% tiền điện |
 | Carbon footprint | Quy đổi kWh → CO₂ theo hệ số EVN | Báo cáo ESG / QCVN |
-| Benchmarking | So sánh EUI giữa các tòa nhà | Xác định building kém hiệu quả |
+| Đối chiếu chuẩn ngành | So sánh EUI giữa các tòa nhà | Xác định building kém hiệu quả |
 | AI optimization | Dự đoán phụ tải + tối ưu schedule HVAC/lighting | Tiết kiệm thêm 5-8% |
 
 > Doanh thu MekongET tích hợp trong dòng "Dịch vụ BMS/SCADA tích hợp" 0,40M USD/năm [C] và license MekongBMS 0,75M USD/năm [C].
@@ -1189,13 +1189,13 @@ MekongET (Energy Technology) chuyên biệt cho giám sát và tối ưu tiêu t
 
 | Tiêu chí | Mekong MPMC | Lập Phúc (VN) | CNC Vina (VN) | Misumi (JP tại VN) | Foxconn CNC (nội bộ) |
 |---|---|---|---|---|---|
-| Số máy CNC | 10 (5-axis × 2) | 15-20 (chủ yếu 3-axis) | 8-12 (3-axis) | Outsource | 50+ (nội bộ) |
+| Số máy CNC | 10 (5-axis × 2) | 15-20 (chủ yếu 3-axis) | 8-12 (3-axis) | Thuê ngoài | 50+ (nội bộ) |
 | 5-axis capability | DMU 65, DVF 5000 | Hạn chế | Không | Không | Có |
 | Tolerance | ±0,01 mm | ±0,02-0,05 mm | ±0,03-0,05 mm | ±0,01 mm | ±0,005 mm |
 | Vật liệu đặc biệt | Nhôm, Inox, Ti (option) | Nhôm, thép thường | Nhôm, nhựa | Đa dạng | Đa dạng |
 | Synergy với IoT/Robot | Có (khung AMR, jig BMS) | Không | Không | Không | Nội bộ |
 | Chứng nhận | ISO 9001 (Y4) | ISO 9001 | Chưa | ISO 9001 | ISO 9001, IATF |
-| Lead time NPI | 4-6 tuần | 3-5 tuần | 3-4 tuần | 2-3 tuần | 2-4 tuần |
+| Thời gian dẫn NPI | 4-6 tuần | 3-5 tuần | 3-4 tuần | 2-3 tuần | 2-4 tuần |
 | Phân khúc mục tiêu | Robot, IoT, FDI mid-tier | Khuôn mẫu | Gia công chung | Linh kiện chuẩn | Nội bộ + OEM |
 
 > **Chiến lược CNC:** Mekong không cạnh tranh volume với các xưởng CNC 3-axis phổ thông. Thay vào đó, tập trung gia công 5-axis precision cho khung robot, chi tiết IoT enclosure, và đơn hàng FDI mid-tier yêu cầu tolerance chặt + truy xuất nguồn gốc [A].
@@ -1225,7 +1225,7 @@ MekongET (Energy Technology) chuyên biệt cho giám sát và tối ưu tiêu t
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | Khung Robot + Linh kiện FDI | 250 | 600 | 1.000 | 1.350 | 1.700 | 1.900 | 2.050 | 2.100 | 2.200 | 2.200 |
 | Jig/Fixture/Pallet | 50 | 120 | 200 | 280 | 340 | 370 | 380 | 390 | 400 | 400 |
-| CNC outsource (giờ máy) | 100 | 250 | 400 | 560 | 670 | 750 | 780 | 790 | 800 | 800 |
+| CNC thuê ngoài (giờ máy) | 100 | 250 | 400 | 560 | 670 | 750 | 780 | 790 | 800 | 800 |
 | **Subtotal BU2** | **400** | **970** | **1.600** | **2.190** | **2.710** | **3.020** | **3.210** | **3.280** | **3.400** | **3.400** |
 
 ### 2.14.3. Tổng hợp và Đối chiếu Canonical
@@ -1251,7 +1251,7 @@ MekongET (Energy Technology) chuyên biệt cho giám sát và tối ưu tiêu t
 | **Service (SI + maintenance)** | 8% | 12% | 14% | Ổn định — doanh thu recurring |
 | **CNC manufacturing** | 18% | 20% | 22% | Tăng nhẹ theo OEE |
 
-> Chiến lược chuyển dịch mix doanh thu từ hardware-heavy (72% Y4) sang cân bằng hơn tại steady-state (hardware 52% + software/service 26% + CNC 22%) giúp nâng EBITDA margin từ ~18% (Y4) lên ~30% (Y12) [C]. Mô hình recurring revenue (SaaS + maintenance) tạo dòng tiền dự báo được — điều kiện tiên quyết cho khả năng DSCR ≥ 1,50× đối với khoản vay 4,00M USD [C].
+> Chiến lược chuyển dịch mix doanh thu từ hardware-heavy (72% Y4) sang cân bằng hơn tại ổn định (hardware 52% + software/service 26% + CNC 22%) giúp nâng EBITDA margin từ ~18% (Y4) lên ~30% (Y12) [C]. Mô hình recurring revenue (SaaS + maintenance) tạo dòng tiền dự báo được — điều kiện tiên quyết cho khả năng DSCR ≥ 1,50× đối với khoản vay 4,00M USD [C].
 
 ---
 
@@ -1259,14 +1259,14 @@ MekongET (Energy Technology) chuyên biệt cho giám sát và tối ưu tiêu t
 
 ### 2.15.1. Mô hình Tích hợp Dọc — Mekong Technology
 
-| Công đoạn | Mekong làm nội bộ | Outsource | Lý do |
+| Công đoạn | Mekong làm nội bộ | Thuê ngoài | Lý do |
 |---|---|---|---|
 | R&D / Thiết kế sản phẩm | Firmware, phần mềm, thiết kế PCB, cơ khí | Thiết kế IC (fabless) | Năng lực lõi cần giữ |
 | Sản xuất PCB | SMT assembly nội bộ | Laminate PCB bare board | SMT là COGS chính, cần kiểm soát |
 | Sản xuất cơ khí | CNC 10 máy, lắp ráp khung | Anodize, plating bề mặt | 5-axis precision = USP |
 | Lắp ráp sản phẩm | Gateway, controller, robot | Không | Kiểm soát chất lượng cuối |
 | Kiểm tra QA/QC | AOI, ICT, CMM, burn-in | EMC test (giai đoạn đầu) | Trong nhà máy 100% |
-| Phần mềm platform | MekongOS, BMS, SCADA, ET | Không | IP lõi |
+| Phần mềm nền tảng | MekongOS, BMS, SCADA, ET | Không | IP lõi |
 | Triển khai / SI | Đội kỹ thuật trực tiếp | Sub-contractor cáp, điện | Giữ quan hệ KH trực tiếp |
 | Hậu mãi | Warranty, training, spare | Không | Doanh thu recurring |
 
@@ -1276,18 +1276,18 @@ MekongET (Energy Technology) chuyên biệt cho giám sát và tối ưu tiêu t
 |---|---:|---:|---:|
 | Biên gộp sản phẩm phần cứng | 40-50% | 15-25% | +20-25 pp |
 | Kiểm soát chất lượng | Toàn bộ chuỗi | Incoming + final | Giảm 60% field return |
-| Lead time NPI | 8-12 tuần | 12-20 tuần | Nhanh hơn 40% |
-| Chi phí khung robot (so với outsource) | Giảm 15-20% | Baseline | Synergy BU1-BU2 |
+| Thời gian dẫn NPI | 8-12 tuần | 12-20 tuần | Nhanh hơn 40% |
+| Chi phí khung robot (so với thuê ngoài) | Giảm 15-20% | Mức cơ sở | Synergy BU1-BU2 |
 | Khả năng customize | Cao | Hạn chế | Lợi thế ODM |
 | Phụ thuộc nhà cung cấp | Thấp (critical components) | Cao | Giảm rủi ro chuỗi cung ứng |
 
-> **Kết luận §2.15:** Mô hình tích hợp dọc "R&D → Sản xuất → Phần mềm → Triển khai → Hậu mãi" là lợi thế chiến lược chính của Mekong. So với mô hình thuần lắp ráp, tích hợp dọc giúp nâng biên gộp +20 pp, giảm NPI lead time 40%, và tạo lock-in từ hệ sinh thái phần mềm đi kèm. Đây cũng là cơ sở để Mekong duy trì biên EBITDA ~30% tại steady-state [A][C].
+> **Kết luận §2.15:** Mô hình tích hợp dọc "R&D → Sản xuất → Phần mềm → Triển khai → Hậu mãi" là lợi thế chiến lược chính của Mekong. So với mô hình thuần lắp ráp, tích hợp dọc giúp nâng biên gộp +20 pp, giảm NPI thời gian dẫn 40%, và tạo lock-in từ hệ sinh thái phần mềm đi kèm. Đây cũng là cơ sở để Mekong duy trì biên EBITDA ~30% tại ổn định [A][C].
 
 ---
 
 ## 2.16. Chi tiết Nền tảng Công nghệ theo Dòng Sản phẩm
 
-### 2.16.1. Technology Stack — IoT Gateway Platform
+### 2.16.1. Technology Stack — IoT Gateway Nền tảng
 
 | Lớp | MK-200 | MK-300 | Ghi chú |
 |---|---|---|---|
@@ -1295,7 +1295,7 @@ MekongET (Energy Technology) chuyên biệt cho giám sát và tối ưu tiêu t
 | **NPU / AI accelerator** | 2 TOPS (integrated NPU) | 40 TOPS (Ampere GPU) | MK-300: vision + anomaly detection |
 | **RAM** | 2 GB LPDDR4 | 8 GB LPDDR5 | |
 | **Storage** | 16 GB eMMC 5.1 | 128 GB NVMe SSD | NVMe cho data logging dài hạn |
-| **OS** | Yocto Linux / Debian | Yocto Linux + JetPack 6.x | JetPack cho AI framework |
+| **OS** | Yocto Linux / Debian | Yocto Linux + JetPack 6.x | JetPack cho AI khung |
 | **Connectivity** | WiFi 5 + BLE 5.0 + 4G LTE + Ethernet | WiFi 6E + BLE 5.3 + 5G NR + 2× GbE | 5G option cho FDI factory |
 | **Industrial I/O** | 4× RS485, 2× DI, 2× DO, 1× CAN | 6× RS485, 4× DI, 4× DO, 2× CAN, 1× USB3 | |
 | **Protocol stack** | MQTT, Modbus, BACnet, KNX | MQTT, OPC UA, BACnet, Modbus, KNX, EtherNet/IP | OPC UA cho MES integration |
@@ -1306,7 +1306,7 @@ MekongET (Energy Technology) chuyên biệt cho giám sát và tối ưu tiêu t
 
 #### Firmware Architecture — Chung cho MK-200/MK-300
 
-| Module firmware | Chức năng | Ngôn ngữ / framework |
+| Module firmware | Chức năng | Ngôn ngữ / khung |
 |---|---|---|
 | **Boot loader** | Secure boot, hardware init, firmware validate | U-Boot + HAB / secureboot |
 | **Device manager** | Config, OTA update, heartbeat, diagnostics | C/C++ |
@@ -1317,7 +1317,7 @@ MekongET (Energy Technology) chuyên biệt cho giám sát và tối ưu tiêu t
 | **Communication** | MQTT client, HTTP client, WebSocket | C + libmosquitto |
 | **Data buffer** | Ring buffer cho offline operation | SQLite embedded |
 
-### 2.16.2. Technology Stack — Robot AMR Platform
+### 2.16.2. Technology Stack — Robot AMR Nền tảng
 
 | Hệ thống con | Công nghệ | Nhà cung cấp / Nguồn | Phát triển nội bộ |
 |---|---|---|---|
@@ -1353,7 +1353,7 @@ MekongET (Energy Technology) chuyên biệt cho giám sát và tối ưu tiêu t
 | COGS ước tính | 10.750 | 19.500 | USD [A] |
 | Biên gộp | ~47,6% | ~44,3% | |
 
-### 2.16.3. Technology Stack — MK-DDC Controller Platform
+### 2.16.3. Technology Stack — MK-DDC Controller Nền tảng
 
 | Thông số | MK-DDC-24 | MK-DDC-64 | Ghi chú |
 |---|---|---|---|
@@ -1397,7 +1397,7 @@ MekongET (Energy Technology) chuyên biệt cho giám sát và tối ưu tiêu t
 | Y6 | CE + FCC cho MK-300, MK-DDC | 100 | R&D budget — Dịch vụ |
 | Y7 | BACnet BTL cho DDC-24/64, CE robot | 120 | R&D budget — Dịch vụ |
 | Y8-Y9 | UL cho gateway + controller | 150 | R&D budget — Dịch vụ |
-| Y10 | IEC 62443 scope software/platform | 80 | R&D budget — Dịch vụ |
+| Y10 | IEC 62443 scope software/nền tảng | 80 | R&D budget — Dịch vụ |
 | **Tổng** | | **530** | Nằm trong 1.200K dịch vụ R&D [C] |
 
 > Ngân sách chứng nhận 530K USD chiếm ~44% quỹ dịch vụ R&D (1.200K / 10 năm). Phần còn lại (670K) dành cho đào tạo, hợp tác ĐH, và license phần mềm phát triển. Lộ trình chứng nhận bám theo thứ tự: CE/FCC trước (cho bán hàng ASEAN) → BACnet BTL (cho BMS chuyên nghiệp) → UL (cho thị trường Bắc Mỹ option) → IEC 62443 (cho khách FDI yêu cầu OT security) [A].
@@ -1413,7 +1413,7 @@ MekongET (Energy Technology) chuyên biệt cho giám sát và tối ưu tiêu t
 | **Standard Warranty** | 24 tháng bảo hành phần cứng, 12 tháng firmware update | Bao gồm trong ASP | Tất cả sản phẩm |
 | **Extended Warranty** | Gia hạn thêm 12-24 tháng phần cứng + firmware | 8-12% ASP | Gateway, controller |
 | **Annual Maintenance** | Preventive maintenance + calibration + firmware | 5-8% ASP | Robot AMR/AGV |
-| **SaaS Subscription** | MekongOS / MekongBMS license hàng tháng/năm | 99-999/tháng | Tòa nhà, nhà máy |
+| **SaaS Thuê bao** | MekongOS / MekongBMS license hàng tháng/năm | 99-999/tháng | Tòa nhà, nhà máy |
 | **Training** | Vận hành, lập trình, bảo trì | 500-2.000/khóa | Kỹ thuật viên KH |
 | **Spare Parts** | Linh kiện thay thế chính hãng | Theo catalog | Tất cả |
 | **Technical Support** | Hotline + remote access + onsite | 1.500-5.000/năm | Enterprise KH |
@@ -1431,7 +1431,7 @@ MekongET (Energy Technology) chuyên biệt cho giám sát và tối ưu tiêu t
 | **Tổng Recurring** | **85** | **640** | **1.200** | **2.020** | **100%** |
 | % Tổng doanh thu | 3,4% | 9,1% | 12,0% | 16,8% | |
 
-> Doanh thu recurring từ 3,4% (Y5) tăng lên 16,8% (Y12) nhờ tích lũy installed base. Tại steady-state, ~2,00M USD recurring bổ sung vào dòng tiền dự báo được, góp phần duy trì DSCR ≥ 1,50× [C]. SaaS chiếm 52% doanh thu recurring — xác nhận chiến lược chuyển dịch sang software-defined revenue [A].
+> Doanh thu recurring từ 3,4% (Y5) tăng lên 16,8% (Y12) nhờ tích lũy installed base. Tại ổn định, ~2,00M USD recurring bổ sung vào dòng tiền dự báo được, góp phần duy trì DSCR ≥ 1,50× [C]. SaaS chiếm 52% doanh thu recurring — xác nhận chiến lược chuyển dịch sang software-defined revenue [A].
 
 ### 2.18.3. Customer Lifetime Value (CLV) theo Phân khúc
 
@@ -1443,7 +1443,7 @@ MekongET (Energy Technology) chuyên biệt cho giám sát và tối ưu tiêu t
 | SME sản xuất (IoT + OEM) | 5.000-20.000 | 1.000-3.000 | 15.000-35.000 | 50-100 |
 | OEM/ODM partner | 50.000-200.000/năm | Recurring by nature | 250.000-1.000.000 | 5-10 |
 
-> **Chiến lược khách hàng:** Ưu tiên "land and expand" — bắt đầu bằng pilot nhỏ (5-20K USD), chứng minh giá trị, sau đó mở rộng ra full deployment + SaaS. CLV 5 năm trung bình 80-250K USD/KH đối với phân khúc tòa nhà/nhà máy cho thấy giá trị dài hạn vượt xa đơn hàng ban đầu [A][B].
+> **Chiến lược khách hàng:** Ưu tiên "land and expand" — bắt đầu bằng pilot nhỏ (5-20K USD), chứng minh giá trị, sau đó mở rộng ra full triển khai + SaaS. CLV 5 năm trung bình 80-250K USD/KH đối với phân khúc tòa nhà/nhà máy cho thấy giá trị dài hạn vượt xa đơn hàng ban đầu [A][B].
 
 ---
 
@@ -1453,13 +1453,13 @@ MekongET (Energy Technology) chuyên biệt cho giám sát và tối ưu tiêu t
 
 | TT | Rủi ro | Xác suất | Tác động | Mức RPN | Biện pháp giảm thiểu | Chỉ số giám sát |
 |:---:|---|:---:|:---:|:---:|---|---|
-| 1 | Chip shortage / EOL linh kiện chủ lực (NXP, NVIDIA) | Trung bình | Cao | 12 | Dual-source AVL, safety stock 3 tháng, redesign plan sẵn | Lead time > 16 tuần → cảnh báo |
+| 1 | Chip shortage / EOL linh kiện chủ lực (NXP, NVIDIA) | Trung bình | Cao | 12 | Dual-source AVL, safety stock 3 tháng, redesign plan sẵn | Thời gian dẫn > 16 tuần → cảnh báo |
 | 2 | Yield SMT thấp hơn kỳ vọng (< 92%) | Thấp | Cao | 8 | Pilot line trước MP, AOI + ICT 100%, training operator | First pass yield weekly |
 | 3 | Sản phẩm không đạt CE/FCC certification | Thấp | Rất cao | 10 | Pre-compliance test in-house, EMC consultant, design margin | Pre-scan pass/fail |
 | 4 | Robot AMR không đạt safety PLd (ISO 13849) | Thấp | Rất cao | 10 | Safety LiDAR certified, redundant e-stop, FMEA từ EVT | Safety validation report |
-| 5 | Khách hàng FDI delay/cancel đơn hàng CNC | Trung bình | Trung bình | 9 | Pipeline đa dạng (≥ 20 KH active), NRE upfront 30%, MOQ | Pipeline coverage ratio ≥ 3× |
+| 5 | Khách hàng FDI delay/cancel đơn hàng CNC | Trung bình | Trung bình | 9 | Chuỗi đơn hàng đa dạng (≥ 20 KH active), NRE upfront 30%, MOQ | Chuỗi đơn hàng coverage ratio ≥ 3× |
 | 6 | Cạnh tranh giá từ gateway Trung Quốc | Cao | Trung bình | 12 | Tập trung giá trị tích hợp + hậu mãi, không cạnh tranh giá thuần | Win rate, churn rate |
-| 7 | Firmware bug gây lỗi tại site khách hàng | Trung bình | Cao | 12 | OTA rollback, blue/green deployment, staging test | Field failure rate < 1% |
+| 7 | Firmware bug gây lỗi tại site khách hàng | Trung bình | Cao | 12 | OTA rollback, blue/green triển khai, staging test | Field failure rate < 1% |
 | 8 | IP bị sao chép / reverse engineering | Trung bình | Trung bình | 9 | Secure boot, code obfuscation, đăng ký bản quyền, NDA chặt | Số sáng chế/bản quyền đăng ký |
 | 9 | Tỷ giá USD/VND biến động > 5% | Trung bình | Trung bình | 9 | Hợp đồng USD, hedge tự nhiên (import-export cân bằng) | Tỷ giá spot vs budget |
 | 10 | Key person risk — R&D lead nghỉ việc | Trung bình | Cao | 12 | Documentation culture, cross-training, equity incentive | Retention rate R&D |
@@ -1468,7 +1468,7 @@ MekongET (Energy Technology) chuyên biệt cho giám sát và tối ưu tiêu t
 
 | Kịch bản | Trigger | Hành động dự phòng | Thời gian phản hồi |
 |---|---|---|---|
-| **Chip shortage kéo dài > 6 tháng** | Lead time > 26 tuần | Kích hoạt redesign sang chip thay thế (đã chuẩn bị BOM B) | 8-12 tuần redesign |
+| **Chip shortage kéo dài > 6 tháng** | Thời gian dẫn > 26 tuần | Kích hoạt redesign sang chip thay thế (đã chuẩn bị BOM B) | 8-12 tuần redesign |
 | **Nhà cung cấp PCB chính gặp sự cố** | Không giao hàng > 2 tuần | Chuyển sang backup vendor (VinCircuit / Elcom) | 2-3 tuần chuyển đổi |
 | **Giá nguyên liệu nhôm tăng > 20%** | LME > 2.800 USD/tấn | Tối ưu BOM, giảm scrap rate, negotiate long-term contract | Ngay lập tức |
 | **Mất điện DC nội bộ > 4 giờ** | UPS depleted | Chuyển workload sang cloud backup (AWS/Azure spot) | 30 phút failover |
@@ -1497,7 +1497,7 @@ MekongET (Energy Technology) chuyên biệt cho giám sát và tối ưu tiêu t
 |---|---|---|
 | Tổng số nhóm sản phẩm/dịch vụ | 14 (Bảng 2.9) | [C] |
 | Tổng số SKU (kể cả biến thể) | 21+ | [B] |
-| Doanh thu mục tiêu steady-state | 12,00M USD/năm | [C] |
+| Doanh thu mục tiêu ổn định | 12,00M USD/năm | [C] |
 | Doanh thu BU1 (điện tử) / BU2 (CNC) | ~70% / ~30% (Y12) | [A] |
 | Biên gộp bình quân gia quyền | ~46% | [C] |
 | R&D 10 năm | 6,00M USD | [C] |
@@ -1516,7 +1516,7 @@ MekongET (Energy Technology) chuyên biệt cho giám sát và tối ưu tiêu t
 
 ---
 
-> **TỔNG KẾT PHẦN II:** Hệ sinh thái sản phẩm Mekong Technology được thiết kế theo nguyên tắc **platform-based**, trong đó mỗi nền tảng (IoT Gateway, DDC Controller, Robot, Software) chia sẻ linh kiện, firmware module, và hạ tầng sản xuất chung. Kết hợp với mô hình tích hợp dọc R&D-sản xuất-phần mềm-triển khai, hệ sinh thái này tạo ra: (1) biên gộp bền vững 40-50% phần cứng + 80-90% phần mềm, (2) synergy hai BU trị giá ~2,00M USD NPV, (3) doanh thu recurring tăng dần đến 16,8% tổng doanh thu, và (4) nền tảng để đạt steady-state 12,00M USD/năm với EBITDA ~30% [C].
+> **TỔNG KẾT PHẦN II:** Hệ sinh thái sản phẩm Mekong Technology được thiết kế theo nguyên tắc **nền tảng-based**, trong đó mỗi nền tảng (IoT Gateway, DDC Controller, Robot, Software) chia sẻ linh kiện, firmware module, và hạ tầng sản xuất chung. Kết hợp với mô hình tích hợp dọc R&D-sản xuất-phần mềm-triển khai, hệ sinh thái này tạo ra: (1) biên gộp bền vững 40-50% phần cứng + 80-90% phần mềm, (2) synergy hai BU trị giá ~2,00M USD NPV, (3) doanh thu recurring tăng dần đến 16,8% tổng doanh thu, và (4) nền tảng để đạt ổn định 12,00M USD/năm với EBITDA ~30% [C].
 
 ---
 
@@ -1736,7 +1736,7 @@ flowchart LR
     A5 --> U3 & U4
 ```
 
-> Kiến trúc phân lớp đảm bảo: độ trễ edge < 10ms (local automation), độ trễ platform < 100ms (dashboard update), và khả năng offline hoạt động đầy đủ 72 giờ khi mất kết nối internet. Toàn bộ lưu lượng mã hoá TLS 1.3 end-to-end [A].
+> Kiến trúc phân lớp đảm bảo: độ trễ edge < 10ms (local automation), độ trễ nền tảng < 100ms (dashboard update), và khả năng offline hoạt động đầy đủ 72 giờ khi mất kết nối internet. Toàn bộ lưu lượng mã hoá TLS 1.3 end-to-end [A].
 
 ### 2.21.3. Sơ đồ Vòng đời Sản phẩm Tích hợp (Integrated Product Lifecycle)
 
@@ -1811,7 +1811,7 @@ flowchart TD
     PL1 --> |Feedback loop| R4
 ```
 
-> Vòng đời sản phẩm khép kín — từ concept đến EOL — được quản lý nội bộ 100%, loại bỏ rủi ro phụ thuộc vào đơn vị thiết kế bên ngoài và rút ngắn NPI lead time xuống còn 8–12 tuần cho dòng tái sử dụng platform [A].
+> Vòng đời sản phẩm khép kín — từ concept đến EOL — được quản lý nội bộ 100%, loại bỏ rủi ro phụ thuộc vào đơn vị thiết kế bên ngoài và rút ngắn NPI thời gian dẫn xuống còn 8–12 tuần cho dòng tái sử dụng nền tảng [A].
 
 ---
 
@@ -1825,7 +1825,7 @@ DC nội bộ với GPU cluster và Lab Cloud & Cybersecurity (LAB4) tạo ra ti
 |---|---|
 | **Chuyên môn sâu IoT/Embedded** | Đội ngũ R&D đang phát triển firmware MK-200/DDC/Robot — năng lực sẵn có |
 | **Lab AI/GPU nội bộ** | GPU A100 để huấn luyện mô hình, không cần thuê cloud tốn kém |
-| **Platform tích hợp** | MekongOS là staging environment thực tế để test tích hợp ngay |
+| **Nền tảng tích hợp** | MekongOS là staging environment thực tế để test tích hợp ngay |
 | **Khách hàng giao thoa** | FDI mua CNC/IoT hardware → thường cần cả phần mềm quản lý, dashboard, app |
 | **Vị trí KCNC** | Các tenant SHTP/KCNC là khách hàng tự nhiên cho IT outsourcing nội khu |
 
@@ -1840,7 +1840,7 @@ DC nội bộ với GPU cluster và Lab Cloud & Cybersecurity (LAB4) tạo ra ti
 | 3 | **AI/ML Model Development** | Phát triển mô hình AI: predictive maintenance, anomaly detection, computer vision | FDI smart factory, robot SI | 20.000-150.000/dự án | 55-70% |
 | 4 | **System Integration (SI) Software** | Tích hợp BMS + ERP + MES + SCADA (API bridge, middleware) | Nhà máy FDI, khu đô thị thông minh | 10.000-50.000/dự án | 50-65% |
 | 5 | **OPC UA / Modbus / BACnet Driver** | Phát triển driver giao thức cho thiết bị bên thứ 3 | Siemens, Schneider integrator | 8.000-25.000/driver | 60-70% |
-| 6 | **Cloud & Dashboard Development** | Xây dựng dashboard Grafana/React, data pipeline, cloud API | Tất cả | 5.000-30.000/dự án | 55-65% |
+| 6 | **Cloud & Dashboard Development** | Xây dựng dashboard Grafana/React, data chuỗi đơn hàng, cloud API | Tất cả | 5.000-30.000/dự án | 55-65% |
 | 7 | **Cybersecurity Assessment & Hardening** | Pen testing, IEC 62443 gap analysis, OT security design | FDI có yêu cầu ISO 27001/IEC 62443 | 5.000-20.000/assessment | 65-75% |
 | 8 | **Digital Twin Prototype** | Xây dựng Digital Twin cho thiết bị/quy trình sản xuất | Nhà máy FDI tầm trung | 30.000-120.000/dự án | 50-60% |
 
@@ -1851,7 +1851,7 @@ DC nội bộ với GPU cluster và Lab Cloud & Cybersecurity (LAB4) tạo ra ti
 | Y3 | 2-3 | 30-50 | Pilot nội bộ + KH đầu tiên trong KCNC |
 | Y5 | 5-8 | 100-180 | Mở rộng ra FDI tenant SHTP |
 | Y7 | 10-15 | 250-400 | Scale, thêm AI/ML contracting |
-| Y10 | 15-20 | 400-600 | Steady-state, tích hợp với MekongOS SaaS |
+| Y10 | 15-20 | 400-600 | Ổn định, tích hợp với MekongOS SaaS |
 | **Y12+** | **18-25** | **500-700** | **Ổn định, recurring SI maintenance** |
 
 > Doanh thu gia công phần mềm **chưa tính vào 12,00M USD canonical** — đây là upside tiềm năng nếu mảng này phát triển tốt. Khi có doanh thu thực tế từ Y5, sẽ điều chỉnh vào canonical [A].
@@ -1914,12 +1914,12 @@ flowchart LR
 | **Fixed Price** | Dự án scope rõ ràng, ≤ 3 tháng | Giá cố định theo SoW | Dự báo doanh thu dễ dàng |
 | **Time & Material (T&M)** | Dự án dài hạn, scope hay thay đổi | Rate × giờ làm việc | Linh hoạt, giảm rủi ro scope creep |
 | **Retainer** | Duy trì hệ thống, support liên tục | Phí cố định/tháng | Doanh thu recurring, ổn định |
-| **Milestone-Based** | AI/ML project, Digital Twin | Thanh toán theo cột mốc | Dòng tiền sớm, giảm rủi ro |
+| **Mốc tiến độ-Based** | AI/ML project, Digital Twin | Thanh toán theo cột mốc | Dòng tiền sớm, giảm rủi ro |
 | **Revenue Share** | Startup IoT có tiềm năng | % doanh thu sản phẩm | Upside tiềm năng cao |
 
 ### 2.22.4. Năng lực Kỹ thuật Đội Gia công Phần mềm
 
-| Lĩnh vực | Ngôn ngữ / Framework | Chứng nhận mục tiêu | Năng lực hiện tại |
+| Lĩnh vực | Ngôn ngữ / Khung | Chứng nhận mục tiêu | Năng lực hiện tại |
 |---|---|---|---|
 | **Embedded / Firmware** | C, C++, FreeRTOS, Zephyr, MicroPython | Arm Certified Developer | Sẵn có (từ R&D team) |
 | **IoT Backend** | Python, Go, Node.js, MQTT, Kafka | AWS IoT, Azure IoT cert | Xây dựng Y4-Y5 |
@@ -2052,9 +2052,9 @@ journey
 | **Pack C — FDI Premium** | 800+ giờ CNC 5-axis + Custom app + AMR 1 bộ + SLA | 120.000-200.000 | FDI tầm cao |
 | **Pack D — Full Integration** | CNC full-time + SW team dedicated + Robot fleet + AI | > 300.000 | KH neo lớn |
 
-> Chiến lược "bundled service" giúp tăng deal size trung bình từ 20-30K USD (CNC thuần) lên 50-150K USD (tích hợp), đồng thời tạo lock-in dài hạn thông qua SaaS subscription và maintenance contract. Tỷ lệ chuyển đổi từ CNC-only sang integrated package mục tiêu: 30% KH từ Y7 [A].
+> Chiến lược "bundled service" giúp tăng deal size trung bình từ 20-30K USD (CNC thuần) lên 50-150K USD (tích hợp), đồng thời tạo lock-in dài hạn thông qua SaaS thuê bao và maintenance contract. Tỷ lệ chuyển đổi từ CNC-only sang integrated package mục tiêu: 30% KH từ Y7 [A].
 
-### 2.23.4. Roadmap Phát triển Mảng Gia công Phần mềm (Y3-Y12)
+### 2.23.4. Lộ trình Phát triển Mảng Gia công Phần mềm (Y3-Y12)
 
 ```mermaid
 gantt
@@ -2087,7 +2087,7 @@ gantt
 
 ---
 
-## 2.24. Sơ đồ Hệ thống Chi tiết — BMS + SCADA + IoT (Deployment View)
+## 2.24. Sơ đồ Hệ thống Chi tiết — BMS + SCADA + IoT (Triển khai View)
 
 ### 2.24.1. Sơ đồ Triển khai Điển hình — Tòa nhà Thương mại (BMS Full)
 
@@ -2240,7 +2240,7 @@ flowchart LR
 
 ## 2.25. Tổng hợp Giá trị Mảng Phát triển Mới — R&D + DC + Gia công Phần mềm
 
-### 2.25.1. Ma trận Nguồn Doanh thu Mới (Upside V3)
+### 2.25.1. Ma trận Nguồn Doanh thu Mới (Upside)
 
 | Nguồn | Năm bắt đầu | DT ổn định (K USD/năm) | CAPEX bổ sung | Biên gộp | Trạng thái |
 |---|:---:|---:|---:|:---:|:---:|
@@ -2254,7 +2254,7 @@ flowchart LR
 | Integrated CNC + SW packages | Y6 | 200-400 | 0 | Mix | Upside |
 | **Tổng upside tiềm năng** | | **800-1.330** | **~50K** | | |
 
-> Tổng upside doanh thu từ gia công phần mềm và gói tích hợp tích luỹ đến steady-state ước tính **0,80-1,33M USD/năm**, tương đương 6,7-11,1% doanh thu canonical 12,00M USD. Đây là **upside phi canonical** — sẽ bổ sung vào canonical chỉ khi có hợp đồng thực tế ký kết từ Y5 [A].
+> Tổng upside doanh thu từ gia công phần mềm và gói tích hợp tích luỹ đến ổn định ước tính **0,80-1,33M USD/năm**, tương đương 6,7-11,1% doanh thu canonical 12,00M USD. Đây là **upside phi canonical** — sẽ bổ sung vào canonical chỉ khi có hợp đồng thực tế ký kết từ Y5 [A].
 
 ### 2.25.2. Tác động lên IRR nếu Upside Thực hiện được
 
@@ -2272,8 +2272,8 @@ flowchart LR
 | Mảng | Độ ưu tiên | Hành động ngay (Y3-Y4) | Điều kiện kích hoạt đầy đủ |
 |---|:---:|---|---|
 | Embedded firmware contracting | **P1** | Phân công 2 kỹ sư từ R&D team, thiết lập billing/contract template | 2+ KH ký hợp đồng |
-| Custom IoT app (Dashboard, Mobile) | **P1** | Xây dựng reusable framework từ MekongOS | 3+ KH pilot |
-| AI/ML contracting | **P2** | Chuẩn bị GPU usage metering, pricing model | 1 AI project anchor |
+| Custom IoT app (Dashboard, Mobile) | **P1** | Xây dựng reusable khung từ MekongOS | 3+ KH pilot |
+| AI/ML contracting | **P2** | Chuẩn bị GPU usage metering, định giá model | 1 AI project anchor |
 | SI + BMS integration | **P2** | Package template + SoW template chuẩn | BMS deal > 50K |
 | Digital Twin service | **P3** | Sau khi MekongOS v2.0 stable | Smart factory anchor KH |
 | OT Security | **P3** | Sau khi có OSCP/CEH certified engineer | FDI yêu cầu IEC 62443 |

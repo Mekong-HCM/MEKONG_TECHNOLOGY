@@ -24,7 +24,7 @@ Chiến tranh thương mại Mỹ-Trung, đại dịch COVID-19, và xung đột
 |---|---|
 | China Plus One | FDI dịch chuyển sang VN, tăng nhu cầu CNC outsourcing |
 | Smart Factory Adoption | Doanh nghiệp sản xuất cần IoT + Robot + BMS |
-| Semiconductor Supply Chain | Chuỗi cung ứng bán dẫn cần CNC precision |
+| Semiconductor Chuỗi Cung ứng | Chuỗi cung ứng bán dẫn cần CNC precision |
 | ESG Requirements | Yêu cầu sản xuất xanh, thúc đẩy BMS/SCADA |
 | AI/ML trong sản xuất | Nhu cầu IoT Gateway + Edge AI tăng mạnh |
 
@@ -113,7 +113,7 @@ Thị trường BMS Việt Nam đạt 550-750 triệu USD (2025), dự báo 1.10
 | MiR (Teradyne) | Đan Mạch | AMR | Brand mạnh | Giá cao (>50.000 USD/bộ), không local support |
 | Siemens | Đức | BMS Desigo CC | Brand mạnh, hệ sinh thái | Đắt nhất, không tiếng Việt |
 | Schneider | Pháp | EcoStruxure BMS | Mạng lưới SI rộng | Đắt, phần mềm phức tạp |
-| Honeywell | Mỹ | Niagara N4 BMS | Framework linh hoạt | Khó lập trình, license cao |
+| Honeywell | Mỹ | Niagara N4 BMS | Khung linh hoạt | Khó lập trình, license cao |
 | **Mekong Technology** | **Việt Nam** | **IoT + BMS + AMR + AGV + OHT** | **Hệ sinh thái đầy đủ 5 tầng, tiếng Việt 100%, giá thấp hơn 40-60%** | — |
 
 > **Lợi thế cạnh tranh cốt lõi:** Mekong Technology là doanh nghiệp DUY NHẤT tại Việt Nam sở hữu **Hệ sinh thái 5 tầng** (Field Devices + Controller/IO + Gateway + Software + Cloud) — cho phép cung cấp giải pháp chuyển đổi số từ A đến Z cho khách hàng sản xuất và tòa nhà.
@@ -128,7 +128,7 @@ Thị trường BMS Việt Nam đạt 550-750 triệu USD (2025), dự báo 1.10
 | BMS/SCADA tầm trung VN | 400 | 150 | 1,50 | 1,0% |
 | **Tổng** | **1.845** | **620** | **8,50** | — |
 
-*[A — Ước tính dựa trên capacity plan và pipeline khách hàng]*
+*[A — Ước tính dựa trên capacity plan và chuỗi đơn hàng khách hàng]*
 
 ### 1.3.5. Phân tích Chi tiết Thị trường BMS/SCADA Việt Nam
 
@@ -156,7 +156,7 @@ Thị trường BMS Việt Nam đạt 550-750 triệu USD (2025), dự báo 1.10
 | Đà Nẵng + Miền Trung | 10% | 6-22 | Tăng vừa — du lịch + đô thị hóa |
 | Các tỉnh khác | 10% | 6-22 | Tăng chậm |
 
-> **Phát hiện chiến lược:** TP.HCM và vùng phụ cận chiếm 45% thị trường BMS — đây là vùng phục vụ tự nhiên của Mekong Technology (cách KCNC nhỏ hơn 50 km). Với 200-400 nhà máy mới/năm cần SCADA tại miền Nam, pipeline BU1 rất dồi dào.
+> **Phát hiện chiến lược:** TP.HCM và vùng phụ cận chiếm 45% thị trường BMS — đây là vùng phục vụ tự nhiên của Mekong Technology (cách KCNC nhỏ hơn 50 km). Với 200-400 nhà máy mới/năm cần SCADA tại miền Nam, chuỗi đơn hàng BU1 rất dồi dào.
 
 **Giao thức BMS phổ biến và lộ trình Mekong:**
 
@@ -168,7 +168,7 @@ Thị trường BMS Việt Nam đạt 550-750 triệu USD (2025), dự báo 1.10
 | MQTT / OPC-UA | 10% | Tăng mạnh (IoT convergence) | Y4 — Có |
 | Matter (mới) | nhỏ hơn 5% | Mới nổi, tiềm năng lớn | Y6 — Lộ trình |
 
-> Mekong Technology hỗ trợ **4/5 giao thức phổ biến ngay từ Y4**, dùng MK-GW-50 IoT Gateway làm protocol converter trung tâm — lợi thế so với các hãng BMS truyền thống chỉ hỗ trợ 1-2 giao thức riêng. Strategy: **protocol-agnostic platform** [A].
+> Mekong Technology hỗ trợ **4/5 giao thức phổ biến ngay từ Y4**, dùng MK-GW-50 IoT Gateway làm protocol converter trung tâm — lợi thế so với các hãng BMS truyền thống chỉ hỗ trợ 1-2 giao thức riêng. Strategy: **protocol-agnostic nền tảng** [A].
 
 **Quy định pháp luật thúc đẩy BMS:**
 
@@ -183,19 +183,19 @@ Thị trường BMS Việt Nam đạt 550-750 triệu USD (2025), dự báo 1.10
 
 ### 1.3.6. Xu hướng Hội tụ SCADA — IoT — BMS (Industry 4.0)
 
-Thị trường đang chứng kiến sự hội tụ (convergence) giữa ba hệ thống truyền thống riêng biệt — SCADA công nghiệp, IoT platform, và BMS tòa nhà — thành một nền tảng thống nhất. Xu hướng này tạo cơ hội lớn cho Mekong Technology với kiến trúc 5 tầng:
+Thị trường đang chứng kiến sự hội tụ (convergence) giữa ba hệ thống truyền thống riêng biệt — SCADA công nghiệp, IoT nền tảng, và BMS tòa nhà — thành một nền tảng thống nhất. Xu hướng này tạo cơ hội lớn cho Mekong Technology với kiến trúc 5 tầng:
 
 | Hệ thống truyền thống | Chức năng | Giao thức legacy | Xu hướng hội tụ 2025-2030 |
 |---|---|---|---|
 | SCADA | Giám sát & điều khiển nhà máy | Modbus, OPC-DA | OPC-UA + MQTT, Edge computing |
 | BMS | Quản lý tòa nhà (HVAC, ánh sáng) | BACnet, LonWorks | IP-based, Cloud BMS |
-| IoT Platform | Thu thập dữ liệu sensor, analytics | MQTT, HTTP REST | Unified data lake, AI/ML |
+| IoT Nền tảng | Thu thập dữ liệu sensor, analytics | MQTT, HTTP REST | Unified data lake, AI/ML |
 
 **Cơ hội cho Mekong Technology từ convergence:**
 
 | Cơ hội | Mô tả | Giá trị thị trường (M USD) | Lợi thế Mekong |
 |---|---|---:|---|
-| Unified Platform | KH muốn 1 dashboard thay vì 3 hệ thống | 200-400 (VN, 2030) | MekongOS = SCADA + BMS + IoT trên 1 nền tảng |
+| Unified Nền tảng | KH muốn 1 dashboard thay vì 3 hệ thống | 200-400 (VN, 2030) | MekongOS = SCADA + BMS + IoT trên 1 nền tảng |
 | Edge-to-Cloud | SCADA chuyển từ on-prem lên hybrid cloud | 150-300 (VN, 2030) | MK-GW-50 Gateway = edge node thống nhất |
 | Brownfield Retrofit | 2.000+ nhà máy cũ cần IoT hóa từng phần | 100-250 (VN, 2030) | Protocol-agnostic gateway kết nối legacy + mới |
 | IT/OT Convergence | Kết nối ERP/MES với SCADA/BMS | 80-150 (VN, 2030) | OPC-UA + REST API trên MekongOS |
@@ -206,7 +206,7 @@ Thị trường đang chứng kiến sự hội tụ (convergence) giữa ba h�
 
 **Quy mô thị trường convergence tại Việt Nam:**
 
-| Năm | SCADA truyền thống (M) | BMS truyền thống (M) | IoT Platform (M) | Unified/Converged (M) | Tỷ lệ hội tụ |
+| Năm | SCADA truyền thống (M) | BMS truyền thống (M) | IoT Nền tảng (M) | Unified/Converged (M) | Tỷ lệ hội tụ |
 |---|---:|---:|---:|---:|---:|
 | 2024 | 120 | 550 | 250 | 50 | 5% |
 | 2027 | 100 | 650 | 500 | 200 | 16% |
@@ -214,7 +214,7 @@ Thị trường đang chứng kiến sự hội tụ (convergence) giữa ba h�
 
 *[B — ARC Advisory Group, IDC Vietnam IoT Spending Tracker 2024]*
 
-> Đến 2030, phân khúc Unified/Converged platform sẽ đạt ~500M USD tại Việt Nam, chiếm 24% tổng chi tiêu OT+BMS+IoT. Mekong Technology nhắm mục tiêu 0,5-1,0% phân khúc này (~2,5-5,0M USD) — đóng góp đáng kể vào doanh thu BU1 steady-state [A].
+> Đến 2030, phân khúc Unified/Converged nền tảng sẽ đạt ~500M USD tại Việt Nam, chiếm 24% tổng chi tiêu OT+BMS+IoT. Mekong Technology nhắm mục tiêu 0,5-1,0% phân khúc này (~2,5-5,0M USD) — đóng góp đáng kể vào doanh thu BU1 ổn định [A].
 
 ---
 
@@ -289,7 +289,7 @@ Thị trường CNC Việt Nam đạt 1,85 tỷ USD (2024), dự báo 3,865 tỷ
 | **Tổng** | **2.700** | **480** | **3,50** | — |
 
 *[A — Ước tính dựa trên capacity 10 máy, ASP 40-55 USD/giờ]*
-### 1.4.6. Benchmark Cấu hình 10 Máy CNC — So sánh Ngành
+### 1.4.6. Chuẩn ngành Cấu hình 10 Máy CNC — So sánh Ngành
 
 **Cấu hình CNC V3 của Mekong Technology:**
 
@@ -357,7 +357,7 @@ Thị trường CNC Việt Nam đạt 1,85 tỷ USD (2024), dự báo 3,865 tỷ
 | **Chứng nhận (ISO 9001)** | ISO 9001 sẵn có, option IATF/AS9100 | 2-3 năm |
 | **Hệ sinh thái 2 B.U + DC nội bộ** | IoT/BMS + CNC tích hợp trên cùng site | 3-5 năm |
 | **Quan hệ FDI** | Hợp đồng 3-5 năm với khách hàng CNC | 2-3 năm |
-| **MekongOS Platform** | Nền tảng IoT/BMS Cloud tự phát triển, IP riêng | 3-5 năm |
+| **MekongOS Nền tảng** | Nền tảng IoT/BMS Cloud tự phát triển, IP riêng | 3-5 năm |
 | **5-tầng sản phẩm IoT/BMS** | Từ Field Device đến Cloud — hệ sinh thái khép kín | 4-5 năm |
 
 > **Tổng hợp:** Một đối thủ muốn sao chép hoàn toàn mô hình Mekong Technology (2 trụ cột + DC nội bộ + vị trí KCNC) cần ít nhất **50 M USD và 4-5 năm** [A]. Đây là rào cản gia nhập cao, tạo lợi thế cạnh tranh bền vững.
@@ -367,7 +367,7 @@ Thị trường CNC Việt Nam đạt 1,85 tỷ USD (2024), dự báo 3,865 tỷ
 |             | **Thuận lợi** | **Bất lợi** |
 |:-----------:|:---:|:---:|
 | **Nội bộ** | **STRENGTHS (S)** | **WEAKNESSES (W)** |
-| | S1. Vị trí KCNC, 3 công trình riêng biệt GFA 6.664 m2 | W1. Công ty mới, chưa có track record |
+| | S1. Vị trí KCNC, 3 công trình riêng biệt GFA 6.664 m2 | W1. Công ty mới, chưa có thành tích đã kiểm chứng |
 | | S2. Mô hình 2 B.U tích hợp + DC nội bộ | W2. Vốn CSH 18,00M — cần quản lý CF chặt |
 | | S3. Đội ngũ sáng lập có kinh nghiệm quốc tế | W3. CNC 10 máy, chưa có IATF/AS9100 |
 | | S4. 10 máy CNC (5x5-trục + 3x3-trục + EDM + Grinder) | W4. Chưa xây dựng thương hiệu trong nước |
@@ -390,18 +390,18 @@ Thị trường CNC Việt Nam đạt 1,85 tỷ USD (2024), dự báo 3,865 tỷ
 | S5+S6+O3+O5 | Dùng hệ sinh thái 5 tầng IoT/BMS + QCVN bắt buộc để chiếm thị phần BMS | Triển khai pilot BMS 3-5 tòa nhà trong Y4-Y5 |
 | S2+O6 | Tận dụng mô hình 2 B.U tích hợp + CPTPP/EVFTA để xuất khẩu | Đạt CE marking Y5, xuất khẩu IoT Gateway sang ASEAN Y6 |
 | **W-O (Khắc phục)** | | |
-| W1+O1 | Bù đắp "chưa có track record" bằng FDI partnership | Hợp đồng gia công đầu tiên từ FDI làm case study |
+| W1+O1 | Bù đắp "chưa có thành tích đã kiểm chứng" bằng FDI partnership | Hợp đồng gia công đầu tiên từ FDI làm case study |
 | W3+O4 | Từ ISO 9001 lên IATF 16949 khi CNC đủ volume | Lộ trình IATF Y6-Y7, AS9100 Y8 |
 | W5+W6+O2 | Giảm thiểu rủi ro doanh thu chậm bằng ưu đãi thuế KCNC | Miễn thuế 4 năm bù lỗ giai đoạn đầu (~1,6M USD) [C] |
 | **S-T (Phòng thủ)** | | |
 | S4+T1 | Chống cạnh tranh giá TQ bằng chất lượng 5-axis + dung sai ≤5μm | Tập trung phân khúc cao cấp, không cạnh tranh giá |
-| S6+T5 | Chống obsolescence bằng MekongOS platform — update phần mềm | R&D 11% OPEX, OTA firmware update [B] |
+| S6+T5 | Chống obsolescence bằng MekongOS nền tảng — update phần mềm | R&D 11% OPEX, OTA firmware update [B] |
 | S3+T2 | Chống thiếu nhân sự bằng đào tạo nội bộ + quan hệ ĐH | MOU với ĐH Bách khoa, ĐH CNTT — 20 thực tập/năm |
 | **W-T (Né tránh)** | | |
 | W2+T3 | Vốn CSH hạn chế + biến động tỷ giá | Hợp đồng FDI denominate USD; vay 4M bằng USD [C] |
 | W4+T1 | Chưa có thương hiệu + cạnh tranh TQ | Trì hoãn thị trường đại trà, tập trung niche B2B |
 
-### 1.5.4. Phân tích Chuỗi Giá trị (Value Chain) — 2 Trụ cột
+### 1.5.4. Phân tích Chuỗi Giá trị (Chuỗi Giá trị) — 2 Trụ cột
 
 **Trụ cột 1 — Sản phẩm Điện tử Thông minh (IoT/BMS/Robot):**
 
@@ -412,9 +412,9 @@ Thị trường CNC Việt Nam đạt 1,85 tỷ USD (2024), dự báo 3,865 tỷ
 | Sản xuất / Lắp ráp SMT | Pick & Place, Reflow, AOI, Testing | 15-20% | Năng lực sản xuất in-house |
 | Phần mềm / MekongOS | Dashboard, Analytics, Cloud, App | 25-35% | **Giá trị cao nhất** — SaaS recurring revenue |
 | Bán hàng + SI | System Integration, Installation, Training | 10-15% | Quan hệ khách hàng, dịch vụ |
-| Hậu mãi / SaaS | Subscription, Maintenance, OTA update | 10-15% | Recurring revenue stream |
+| Hậu mãi / SaaS | Thuê bao, Maintenance, OTA update | 10-15% | Recurring revenue stream |
 
-> **Phát hiện quan trọng:** R&D + Phần mềm chiếm **50-65% giá trị** trong chuỗi IoT/BMS — đây là lý do Mekong tập trung đầu tư vào R&D (11% OPEX) và MekongOS Platform thay vì chỉ bán phần cứng [A]. Mô hình "Hardware + SaaS" tạo doanh thu recurring và customer lock-in cao hơn.
+> **Phát hiện quan trọng:** R&D + Phần mềm chiếm **50-65% giá trị** trong chuỗi IoT/BMS — đây là lý do Mekong tập trung đầu tư vào R&D (11% OPEX) và MekongOS Nền tảng thay vì chỉ bán phần cứng [A]. Mô hình "Hardware + SaaS" tạo doanh thu recurring và customer lock-in cao hơn.
 
 **Trụ cột 2 — Chế tạo Cơ khí Chính xác (CNC/MPMC):**
 
@@ -423,7 +423,7 @@ Thị trường CNC Việt Nam đạt 1,85 tỷ USD (2024), dự báo 3,865 tỷ
 | Tiếp nhận RFQ + DFM | Phân tích bản vẽ, tư vấn tối ưu | 10-15% | Chuyên môn kỹ thuật |
 | Lập trình CAM | G-code, toolpath optimization | 15-20% | Kỹ sư CNC trình độ cao |
 | Gia công CNC (5-trục, 3-trục) | Phay, tiện, cắt dây EDM, mài | 30-40% | **Giá trị cao nhất** — thiết bị + kỹ thuật |
-| Xử lý bề mặt | Anodize, mạ Ni, passivation | 5-10% | Outsource |
+| Xử lý bề mặt | Anodize, mạ Ni, passivation | 5-10% | Thuê ngoài |
 | QC / Đo lường CMM | Kiểm tra dung sai, báo cáo PPAP | 10-15% | Năng lực đo lường chính xác |
 | Logistics / Giao hàng | Đóng gói, vận chuyển, customs | 3-5% | Giá trị thấp |
 
@@ -456,7 +456,7 @@ Thị trường CNC Việt Nam đạt 1,85 tỷ USD (2024), dự báo 3,865 tỷ
 
 *[A — Ước tính từ công suất 10 máy × 4.800 giờ/năm × ASP 40-55 USD/giờ]*
 
-> **Cross-sell:** Tier 5 (nội bộ) đảm bảo ~14% công suất CNC luôn được sử dụng. Khách hàng CNC Tier 1-2 là pipeline tự nhiên cho BU1 (bán IoT Gateway, BMS). Synergy 2 BU tạo LTV/CAC ratio 4,8-35× (xem P3 §3.11) [A].
+> **Cross-sell:** Tier 5 (nội bộ) đảm bảo ~14% công suất CNC luôn được sử dụng. Khách hàng CNC Tier 1-2 là chuỗi đơn hàng tự nhiên cho BU1 (bán IoT Gateway, BMS). Synergy 2 BU tạo LTV/CAC ratio 4,8-35× (xem P3 §3.11) [A].
 
 ### 1.5.6. Technology Radar 2025-2035 — Xu hướng Ảnh hưởng đến Mekong
 
@@ -475,7 +475,7 @@ Thị trường CNC Việt Nam đạt 1,85 tỷ USD (2024), dự báo 3,865 tỷ
 
 *[B — Gartner Top 10 Strategic Technology Trends 2025, McKinsey Technology Trends Outlook 2024, IFR World Robotics 2024]*
 
-> **Chiến lược R&D:** Mekong phân bổ R&D ~11% OPEX (~930K USD/năm tại steady-state, tương đương ~9,3M USD/10 năm). Focus: 60% BU1 (IoT/BMS platform), 30% BU2 (CNC automation + MES), 10% R&D mới (Cobot, Digital Twin). Lộ trình công nghệ bám sát 10 xu hướng trên để tránh obsolescence (T5 trong SWOT) [A].
+> **Chiến lược R&D:** Mekong phân bổ R&D ~11% OPEX (~930K USD/năm tại ổn định, tương đương ~9,3M USD/10 năm). Focus: 60% BU1 (IoT/BMS nền tảng), 30% BU2 (CNC automation + MES), 10% R&D mới (Cobot, Digital Twin). Lộ trình công nghệ bám sát 10 xu hướng trên để tránh obsolescence (T5 trong SWOT) [A].
 
 ### 1.5.7. Đánh giá Rủi ro Thị trường — Định lượng
 
@@ -512,7 +512,7 @@ Thị trường CNC Việt Nam đạt 1,85 tỷ USD (2024), dự báo 3,865 tỷ
 | **SOM** (VN Smart Factory IoT devices) | 120 | 400 | 27,2% |
 | Mekong Target Y8 | | ~5,20 | 1,30% SOM |
 
-> **Kiểm chứng mục tiêu:** Tất cả market share mục tiêu Y8 đều < 2% SOM — hoàn toàn khả thi và conservative. Ngay cả khi market growth chậm hơn dự kiến 30%, Mekong vẫn chỉ cần < 3% SOM. Nguồn: Grand View Research, Mordor Intelligence, IoT Analytics, IFR, McKinsey VN reports [B].
+> **Kiểm chứng mục tiêu:** Tất cả thị phần mục tiêu Y8 đều < 2% SOM — hoàn toàn khả thi và conservative. Ngay cả khi market growth chậm hơn dự kiến 30%, Mekong vẫn chỉ cần < 3% SOM. Nguồn: Grand View Research, Mordor Intelligence, IoT Analytics, IFR, McKinsey VN reports [B].
 
 ### 1.5.9. Phân tích Porter's Five Forces — 2 Ngành chính
 
@@ -542,7 +542,7 @@ Thị trường CNC Việt Nam đạt 1,85 tỷ USD (2024), dự báo 3,865 tỷ
 
 | Nhóm khách hàng | 3 tiêu chí mua hàng quan trọng nhất | Hàm ý cho Mekong |
 |---|---|---|
-| FDI CNC | Chất lượng lặp lại, lead time, bảo mật bản vẽ | Ưu tiên QC/CMM, NDA, giao hàng đúng hẹn |
+| FDI CNC | Chất lượng lặp lại, thời gian dẫn, bảo mật bản vẽ | Ưu tiên QC/CMM, NDA, giao hàng đúng hẹn |
 | Nhà máy Smart Factory | Tính mở giao thức, ROI tiết kiệm năng lượng, hỗ trợ local | Đẩy mạnh BMS/MES integration và case study |
 | SI / Integrator | Giá cạnh tranh, tài liệu kỹ thuật, support commissioning | Chuẩn hóa datasheet, training, hotline kỹ thuật |
 | Logistics / kho vận | Độ ổn định robot, safety, tổng chi phí sở hữu | Tập trung AMR/AGV pilot có KPI rõ |
@@ -583,7 +583,7 @@ Dữ liệu mới nhất khẳng định Việt Nam tiếp tục là điểm đ�
 **Hàm ý chiến lược:**
 - Tổng nhu cầu CNC outsourcing riêng từ 6 dự án trên ước tính 120-200 M USD/năm — Mekong chỉ cần 1,5-3% để đạt target BU2 [A].
 - Mỗi nhà máy FDI mới cần 15-30 nhà cung cấp CNC nội địa (theo khảo sát JETRO) — Mekong có lợi thế vị trí KCNC + 5-axis + ISO 9001 [B].
-- FDI sản xuất kéo theo nhu cầu BMS/SCADA cho nhà máy lớn hơn 5.000 m² sàn (bắt buộc theo QCVN 09:2017) — pipeline tự nhiên cho BU1 [B].
+- FDI sản xuất kéo theo nhu cầu BMS/SCADA cho nhà máy lớn hơn 5.000 m² sàn (bắt buộc theo QCVN 09:2017) — chuỗi đơn hàng tự nhiên cho BU1 [B].
 
 ### 1.5.12. Tác động NĐ 10/2024/NĐ-CP đến Nhu cầu Thị trường
 
@@ -594,25 +594,25 @@ Nghị định 10/2024/NĐ-CP (có hiệu lực 25/3/2024) thay thế NĐ 99/200
 | Điều 28: Tiêu chí dự án CNC | Tăng rào cản — chỉ dự án có VA/Revenue lớn hơn hoặc bằng 30% + R&D lớn hơn hoặc bằng 5% | Lọc đối thủ yếu, ít xưởng CNC đạt chuẩn [A] |
 | Điều 29: Ưu đãi đặc biệt | CIT 10% / 15 năm + miễn 4 năm — hấp dẫn hơn KCN thường | Thu hút thêm DN CNC vào KCNC, tăng hệ sinh thái |
 | Điều 30: Chuỗi giá trị CNC | Khuyến khích cung ứng nội bộ KCNC (VA localization) | Mekong có cross-sell 2 BU trong cùng KCNC |
-| Điều 31: Ươm tạo CNC | KCNC phải có Trung tâm ươm tạo CNC — SHTP đang xây | Mekong tham gia mentoring, tiếp cận deal pipeline |
+| Điều 31: Ươm tạo CNC | KCNC phải có Trung tâm ươm tạo CNC — SHTP đang xây | Mekong tham gia mentoring, tiếp cận deal chuỗi đơn hàng |
 | Điều 33: Thu hồi / chế tài | DN không đạt cam kết R&D/VA bị thu hồi ưu đãi | Tăng compliance cost cho đối thủ yếu, consolidation |
 
 *[B — NĐ 10/2024/NĐ-CP, Phân tích trong CAP_NHAT_THONG_BAO_SHTP_2026.md]*
 
 **Tác động ròng đến quy mô thị trường:** NĐ 10/2024 tạo hiệu ứng kép: (1) tăng nhu cầu từ DN mới vào KCNC, và (2) giảm cung từ đối thủ không đạt chuẩn — net effect: SAM tăng ước 15-20% cho phân khúc CNC precision tại KCNC TP.HCM [A].
 
-### 1.5.13. Benchmark Quốc tế — Mô hình 2 Trụ cột Tương tự
+### 1.5.13. Chuẩn ngành Quốc tế — Mô hình 2 Trụ cột Tương tự
 
 | Công ty | Quốc gia | Mô hình | Revenue | Bài học cho Mekong |
 |---|---|---|---:|---|
-| Proto Labs | Mỹ | CNC + 3D Printing + Injection Molding — digital manufacturing platform | 502M USD (2023) | Nền tảng số hóa CNC quoting là key differentiator |
+| Proto Labs | Mỹ | CNC + 3D Printing + Injection Molding — digital manufacturing nền tảng | 502M USD (2023) | Nền tảng số hóa CNC quoting là key differentiator |
 | Jabil Inc. | Mỹ | EMS + precision machining — 2 BU tích hợp | 34,7B USD | Cross-sell giữa BU electronics và BU machining |
 | Venture Corp | Singapore | EMS + IoT — thiết kế + sản xuất cho khách FDI | 3,2B USD SGD | Model gần nhất với Mekong, chứng minh viability |
 | Cal-Comp Electronics | Thái Lan | EMS + CNC — ASEAN-based, phục vụ FDI Nhật, Mỹ | 4,5B USD | Quy mô ASEAN khả thi, FDI customer base |
 
 *[B — Bloomberg, company annual reports 2023]*
 
-> **Kết luận từ benchmark:** Mô hình "Electronics + Precision Machining" đã được chứng minh hiệu quả ở nhiều quy mô (từ 500M đến 35B USD). Mekong V3 ở giai đoạn khởi đầu (22M CAPEX, target 12M revenue) — nhỏ hơn nhiều so với các benchmark, nhưng mô hình 2 trụ cột là validated pathway, đặc biệt trong bối cảnh ASEAN/VN đang hấp thụ FDI mạnh.
+> **Kết luận từ chuẩn ngành:** Mô hình "Electronics + Precision Machining" đã được chứng minh hiệu quả ở nhiều quy mô (từ 500M đến 35B USD). Mekong V3 ở giai đoạn khởi đầu (22M CAPEX, target 12M revenue) — nhỏ hơn nhiều so với các chuẩn ngành, nhưng mô hình 2 trụ cột là validated pathway, đặc biệt trong bối cảnh ASEAN/VN đang hấp thụ FDI mạnh.
 
 ### 1.5.14. Ma trận BCG — Phân loại Portfolio 21 Sản phẩm
 
@@ -635,7 +635,7 @@ Nghị định 10/2024/NĐ-CP (có hiệu lực 25/3/2024) thay thế NĐ 99/200
 
 ### 1.5.15. Lộ trình Thâm nhập Thị trường — 4 Giai đoạn
 
-| Giai đoạn | Thời gian | Trọng tâm | Milestone | Revenue (M USD) |
+| Giai đoạn | Thời gian | Trọng tâm | Mốc tiến độ | Revenue (M USD) |
 |---|---|---|---|---:|
 | **Phase 1: Seed** | Y3-Y4 | CNC prototype + IoT pilot | 3 HĐ CNC, 2 pilot BMS | 0,5-1,5 |
 | **Phase 2: Traction** | Y5-Y6 | Mở rộng KH FDI + BMS scale | 10+ KH CNC, 5+ BMS site | 3,0-5,0 |
@@ -654,7 +654,7 @@ Nghị định 10/2024/NĐ-CP (có hiệu lực 25/3/2024) thay thế NĐ 99/200
 | Sản xuất loạt nhỏ IoT Gateway | | | | | x |
 | Bắt đầu bán hàng chính thức 2 BU | | | | | x |
 
-> **Nguyên tắc GTM:** "Land and Expand" — mỗi khách hàng bắt đầu từ 1 sản phẩm/dịch vụ, sau đó cross-sell sang sản phẩm khác, rồi upsell full BMS + SaaS subscription. LTV/CAC target: lớn hơn 5x cho BU1, lớn hơn 3x cho BU2 [A].
+> **Nguyên tắc GTM:** "Land and Expand" — mỗi khách hàng bắt đầu từ 1 sản phẩm/dịch vụ, sau đó cross-sell sang sản phẩm khác, rồi upsell full BMS + SaaS thuê bao. LTV/CAC target: lớn hơn 5x cho BU1, lớn hơn 3x cho BU2 [A].
 
 ### 1.5.16. Phân tích Kịch bản Thị trường — Sensitivity
 
@@ -667,4 +667,4 @@ Nghị định 10/2024/NĐ-CP (có hiệu lực 25/3/2024) thay thế NĐ 99/200
 
 > **Điểm hòa vốn thị trường:** Mekong cần đạt tối thiểu ~6,0M USD doanh thu/năm tại Y8 để duy trì NPV dương — tức chỉ cần 69% kịch bản cơ sở. Với DSCR mục tiêu lớn hơn bằng 1,50x [C] và dự phòng CAPEX 1,35M USD, Mekong có đủ buffer ngay cả ở kịch bản bi quan [A].
 
-> **Kết luận Phần I:** Với TAM tổng hợp 2 ngành > 4.500 M USD (VN), SOM ~2.900M, market share mục tiêu Y8 chỉ 0,14–1,30% SOM (xem §1.5.8), rào cản gia nhập cao (KCNC + certifications + 2 B.U integration), và dự báo xu hướng công nghệ thuận lợi (10 xu hướng Technology Radar), Mekong Technology có vị trí thuận lợi để đạt doanh thu 8,70M USD vào Y8 và steady-state 12,00M USD/năm từ Y12. Expected loss rủi ro thị trường ~0,94M USD nằm trong dự phòng 1,35M USD.
+> **Kết luận Phần I:** Với TAM tổng hợp 2 ngành > 4.500 M USD (VN), SOM ~2.900M, thị phần mục tiêu Y8 chỉ 0,14–1,30% SOM (xem §1.5.8), rào cản gia nhập cao (KCNC + certifications + 2 B.U integration), và dự báo xu hướng công nghệ thuận lợi (10 xu hướng Technology Radar), Mekong Technology có vị trí thuận lợi để đạt doanh thu 8,70M USD vào Y8 và ổn định 12,00M USD/năm từ Y12. Expected loss rủi ro thị trường ~0,94M USD nằm trong dự phòng 1,35M USD.

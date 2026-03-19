@@ -1,0 +1,68 @@
+flowchart TD
+    subgraph CONCEPT[" KHÁI NIỆM & NGHIÊN CỨU"]
+        C1["Market Research<br/>Voice of Customer"]
+        C2["Feasibility Study<br/>Tech + Business case"]
+        C3["IP Landscape<br/>Patent search"]
+    end
+
+    subgraph RD[" R&D — 4 PHÒNG LAB"]
+        R1["Lab Phần cứng IoT<br/>Schematic + PCB layout<br/>BOM + DFM review"]
+        R2["Lab AI & Robotics<br/>Algorithm prototyping<br/>Simulation ROS2"]
+        R3["Lab Vật liệu CNC<br/>Material testing<br/>Toolpath optimization"]
+        R4["Lab Cloud & Cyber<br/>Software architecture<br/>Security hardening"]
+        R5[" EVT Prototype<br/>Engineering Validation<br/>5–10 bộ"]
+        R6[" DVT Sample<br/>Design Validation<br/>50–100 bộ"]
+    end
+
+    subgraph PROD[" SẢN XUẤT"]
+        direction LR
+        P1["SMT Line<br/>Pick & Place<br/>Reflow + AOI"]
+        P2["CNC MPMC<br/>10 máy gia công<br/>5-trục + EDM"]
+        P3["Assembly Line<br/>Board + Chassis<br/>+ Sensor + Pin"]
+        P4["Test & QC<br/>ICT + Functional<br/>Burn-in 72h"]
+        P5["AI Training<br/>GPU A100 nội bộ<br/>SLAM + Vision"]
+    end
+
+    subgraph CERT[" CHỨNG NHẬN"]
+        CE1["CE + FCC<br/>Y5–Y6"]
+        CE2["BACnet BTL<br/>Y7"]
+        CE3["ISO 13849 PLd<br/>Robot Y7"]
+        CE4["IEC 62443<br/>Y10"]
+    end
+
+    subgraph MARKET[" RA THỊ TRƯỜNG"]
+        M1["Pilot KH đầu tiên<br/>5–8 KH Y4"]
+        M2["Volume Sales<br/>OEM/ODM + Direct"]
+        M3["SaaS Rollout<br/>MekongOS recurring"]
+        M4["ASEAN Export<br/>Y10+"]
+    end
+
+    subgraph PLM[" QUẢN LÝ VÒNG ĐỜI"]
+        PL1["OTA Firmware Update<br/>Continuous improvement"]
+        PL2["ECO/ECN Process<br/>Change control board"]
+        PL3["End-of-Life Planning<br/>Last-time-buy"]
+    end
+
+    C1 --> C2 --> C3 --> R1
+    C3 --> R2
+    C3 --> R3
+    R1 --> R5
+    R2 --> R5
+    R3 --> R5
+    R4 --> R5
+    R5 --> R6
+    R6 --> P1 & P2
+    P1 --> P3
+    P2 --> P3
+    P3 --> P4
+    P4 --> P5
+    P4 --> CE1 & CE3
+    P5 --> CE1
+    CE1 --> M1
+    CE2 --> M2
+    CE3 --> M1
+    M1 --> M2 --> M3 --> M4
+    M2 --> PL1 --> PL2
+    M3 --> PL1
+    PL2 --> PL3
+    PL1 --> |Feedback loop| R4

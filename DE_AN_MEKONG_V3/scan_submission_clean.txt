@@ -1,0 +1,271 @@
+﻿00_CO_SO_PHAP_LY.md:22: > **Ghi chú V3:** Luật Viễn thông 24/2023/QH15 KHÔNG áp dụng cho V3 vì Datacenter chỉ phục vụ nội bộ (không kinh doanh d
+00_CO_SO_PHAP_LY.md:49: > Thông báo SHTP 2026 yêu cầu dự án phải đáp ứng **đồng thời** các Điều 28-33 NĐ 10/2024/NĐ-CP. Mekong V3 thuộc **đồng t
+00_CO_SO_PHAP_LY.md:51: ## 4. Đối chiếu V3 với Tiêu chí NĐ 10/2024/NĐ-CP
+00_CO_SO_PHAP_LY.md:53: | Điều | Nội dung | Áp dụng cho V3? | Chứng cứ |
+00_CO_SO_PHAP_LY.md:62: ## 5. Ma trận Áp dụng Pháp lý — V3 (2 Trụ cột + DC Nội bộ)
+00_CO_SO_PHAP_LY.md:78: | Ưu đãi | Cơ sở pháp lý | Giá trị cho V3 |
+00_CO_SO_PHAP_LY.md:86: ## 7. Phạm vi Pháp lý Không Áp dụng cho V3
+00_CO_SO_PHAP_LY.md:88: | Nội dung pháp lý | Lý do loại bỏ so với V2 |
+00_CO_SO_PHAP_LY.md:95: > Việc loại bỏ các nghĩa vụ pháp lý trên là hệ quả trực tiếp của quyết định chuyển DC từ mô hình thương mại (V2) sang nộ
+00_CO_SO_PHAP_LY.md:97: ## 8. Kết luận Pháp lý V3
+00_MUC_LUC.md:33: - [3.3. Chiến lược Phát triển Theo Giai đoạn (V3)](P3_MO_HINH_KINH_DOANH.md#33-chiến-lược-phát-triển-theo-giai-đoạn-v3)
+00_MUC_LUC.md:41: - [3.11. Dự báo Doanh thu 15 Năm — V3](P3_MO_HINH_KINH_DOANH.md#311-dự-báo-doanh-thu-15-năm--v3)
+00_MUC_LUC.md:77: - [6.3. Đánh giá Tác động Môi trường (ĐTM)](P6_PHAP_LY_MOI_TRUONG.md#63-đánh-giá-tác-động-môi-trường-đtm--v3)
+00_MUC_LUC.md:129: - [Phụ lục V: Bảng Đối chiếu Số liệu Canonical V3](PHU_LUC.md#phụ-lục-v-bảng-đối-chiếu-số-liệu-canonical-v3)
+00_MUC_LUC.md:136: - [Bảng Đối chiếu Số liệu Chính thức V3](BANG_DOI_CHIEU.md)
+00_THONG_TIN_DU_AN.md:106: > Snapshot này dùng như “phiếu nhận diện nhanh” của dự án cho bước rà soát ban đầu: quy mô phù hợp 1 ha, rủi ro được nén
+00_THONG_TIN_DU_AN.md:130: > **Ghi chú:** Tổng 11,49M USD/năm là công suất thiết kế khi toàn bộ 2 trụ cột vận hành 80-90% công suất (mục tiêu Y10-Y
+00_TOM_TAT_DIEU_HANH.md:71: | Dự phòng rủi ro (~3,0% CAPEX — tái phân bổ cho T2) | 0,65 | 3,0% | Phase 3 |
+00_TOM_TAT_DIEU_HANH.md:74: > **Kiểm tra tỷ trọng DC:** Hạ tầng DC nội bộ = 2,20M / 22,00M = **10,0%** — nằm trong giới hạn 10-15% theo đề xuất BQL 
+00_TOM_TAT_DIEU_HANH.md:177: > **Thông điệp điều hành:** V3 không theo hướng “đầu tư lớn để bao phủ nhiều mảng”, mà theo hướng **đầu tư đủ sâu vào 2 
+BANG_DOI_CHIEU.md:1: # BẢNG ĐỐI CHIẾU SỐ LIỆU CHÍNH THỨC — V3 (22M)
+BANG_DOI_CHIEU.md:3: > Bảng này là **nguồn số liệu duy nhất (canonical source)** cho toàn bộ tài liệu V3. Mọi số liệu trong các mục khác PHẢI
+BANG_DOI_CHIEU.md:87: | CNC count | Tìm "10 máy" hoặc "10 machines" | Không có nơi nào ghi 6 máy (V2 cũ) |
+BANG_DOI_CHIEU.md:88: | DC nội bộ | Tìm "DC thương mại", "colocation", "GPU-aaS", "Tier III" | Không xuất hiện trong narrative V3 (chỉ ở ghi c
+BANG_DOI_CHIEU.md:100: *File V3 Backbone — Cập nhật: 2026-03-17*
+BANG_DOI_CHIEU.md:102: *Phiên bản: V3-22M-DRAFT-002*
+BANG_DOI_CHIEU.md:103: *Nguồn gốc: Tái cấu trúc từ V2 (32M) theo định hướng CEO — giảm CAPEX, tập trung điện tử + CNC, DC nội bộ only*
+P1_BOI_CANH_THI_TRUONG.md:199: | Edge-to-Cloud | SCADA chuyển từ on-prem lên hybrid cloud | 150-300 (VN, 2030) | MK-GW-50 Gateway = edge node thống nhấ
+P1_BOI_CANH_THI_TRUONG.md:280: > **Định vị V3:** Mekong MPMC định vị là xưởng CNC tinh gọn với 10 máy (5x5-trục + 3x3-trục + EDM + Grinder), đạt chuẩn 
+P1_BOI_CANH_THI_TRUONG.md:294: **Cấu hình CNC V3 của Mekong Technology:**
+P1_BOI_CANH_THI_TRUONG.md:306: *[C — CAPEX CNC xem SO_LIEU_CO_DINH_V3.md: BU2 Equipment 3.030K]*
+P1_BOI_CANH_THI_TRUONG.md:310: | Tiêu chí | Mekong V3 (10 máy) | Xưởng VN TB (10 máy) | Xưởng FDI-JP (10 máy) |
+P1_BOI_CANH_THI_TRUONG.md:320: > **Phát hiện:** Mekong V3 định vị ở phân khúc **"mid-premium"** — thiết bị 100% mới + tỷ lệ 5-trục cao nhất (50%) + IoT
+P1_BOI_CANH_THI_TRUONG.md:365: ### 1.5.2. Phân tích SWOT — V3 (22M, 2 Trụ cột)
+P1_BOI_CANH_THI_TRUONG.md:386: | Kết hợp | Chiến lược | Hành động cụ thể V3 |
+P1_BOI_CANH_THI_TRUONG.md:430: > **Phát hiện:** Gia công CNC + Lập trình CAM chiếm **45-60% giá trị** — đúng với chiến lược V3 tập trung vào năng lực 5
+P1_BOI_CANH_THI_TRUONG.md:615: > **Kết luận từ benchmark:** Mô hình "Electronics + Precision Machining" đã được chứng minh hiệu quả ở nhiều quy mô (từ 
+P1_BOI_CANH_THI_TRUONG.md:634: > **Chiến lược Portfolio V3:** Tập trung ~60% R&D cho Stars (IoT Gateway + AMR + BMS), dùng Cash Cows (CNC + DDC + OEM) 
+P1_BOI_CANH_THI_TRUONG.md:664: | **Cơ sở (V3)** | CAGR IoT 25%, FDI ổn định 10% | 8,70 | 12,00 | 1,50M [C] |
+P2_SAN_PHAM_CONG_NGHE.md:17: > **Khác biệt so với Phương án V2 (32M USD):** V2 có 3 trụ cột bao gồm Datacenter thương mại Tier III 50 rack (CAPEX ~12
+P2_SAN_PHAM_CONG_NGHE.md:103: MK-300 là phiên bản nâng cấp cao cấp, tích hợp 5G và AI Edge mạnh hơn, phục vụ khách hàng yêu cầu xử lý thời gian thực:
+P2_SAN_PHAM_CONG_NGHE.md:397: | Thông số | Giá trị V3 | Ghi chú |
+P2_SAN_PHAM_CONG_NGHE.md:408: > **Khác biệt V3 vs V2:** Nâng từ 6 máy lên 10 máy (thêm 2×5-trục Doosan, 1×3-trục, 1×Wire EDM, 1×Surface Grinder) nhằm 
+P2_SAN_PHAM_CONG_NGHE.md:510: | Thông số | Giá trị V3 | Ghi chú |
+P2_SAN_PHAM_CONG_NGHE.md:548: ### 2.5.2. Lượng hóa Giá trị Cộng hưởng (V3)
+P2_SAN_PHAM_CONG_NGHE.md:560: > Synergy V3 thấp hơn V2 (~3M USD) do không có cross-sell DC thương mại, nhưng vẫn đủ lớn để biện minh cho mô hình tích 
+P2_SAN_PHAM_CONG_NGHE.md:564: ## 2.6. Lộ trình Trưởng thành Công nghệ (V3)
+P2_SAN_PHAM_CONG_NGHE.md:569: | **Tăng trưởng** | Y4-Y8 | AMR-500/1000, AGV, CNC mở rộng 10 máy, MekongOS v2.0 (AI) | BACnet BTL |
+P2_SAN_PHAM_CONG_NGHE.md:571: | **Dẫn đầu** | Y12+ | Xuất khẩu ASEAN, Digital Twin, MekongOS v3.0, CNC Hybrid | AS9100 option |
+P2_SAN_PHAM_CONG_NGHE.md:741: | Điều khoản | Nguyên tắc V3 |
+P2_SAN_PHAM_CONG_NGHE.md:789: > **Nguyên tắc V3:** Không “ôm” quá nhiều chứng nhận sớm gây tăng OPEX vô ích. Chỉ kích hoạt IATF/AS9100 khi có doanh th
+P2_SAN_PHAM_CONG_NGHE.md:793: Để tránh rủi ro lỗi phiên bản, obsolescence linh kiện và tranh chấp IP, Mekong áp dụng mô hình quản trị vòng đời sản phẩ
+P2_SAN_PHAM_CONG_NGHE.md:799: | BOM Master | BOM version-controlled, approved vendor list (AVL) | Không sai lệch BOM khi mass production |
+P2_SAN_PHAM_CONG_NGHE.md:851: > **Kết luận Phần II:** Hệ sinh thái 21 sản phẩm IoT/BMS/Robot (BU1) + 10 máy CNC (BU2) + DC nội bộ tạo nền tảng vững ch
+P2_SAN_PHAM_CONG_NGHE.md:911: > Quy trình CNC áp dụng ISO 9001:2015 với kiểm soát chặt: 100% FAI cho part mới, SPC cho part lặp lại. Lead time trung b
+P2_SAN_PHAM_CONG_NGHE.md:941: | TT | Tiêu chí NĐ 76/2018 | Ngưỡng tối thiểu | Giá trị Mekong V3 | Đạt/Chưa | Cơ sở |
+P2_SAN_PHAM_CONG_NGHE.md:1065: | Giao thức | Phiên bản hỗ trợ | Tầng tích hợp | Use case chính |
+P2_SAN_PHAM_CONG_NGHE.md:1072: | RESTful API | v2 | Application | Third-party integration |
+P2_SAN_PHAM_CONG_NGHE.md:1438: | Phân khúc khách hàng | Giá trị đơn hàng ban đầu | Doanh thu recurring/năm | CLV 5 năm (ước tính) | Số KH mục tiêu Y12 
+P2_SAN_PHAM_CONG_NGHE.md:1446: > **Chiến lược khách hàng:** Ưu tiên "land and expand" — bắt đầu bằng pilot nhỏ (5-20K USD), chứng minh giá trị, sau đó 
+P2_SAN_PHAM_CONG_NGHE.md:1462: | 7 | Firmware bug gây lỗi tại site khách hàng | Trung bình | Cao | 12 | OTA rollback, blue/green deployment, staging te
+P2_SAN_PHAM_CONG_NGHE.md:1488: | Cash conversion cycle | ≤ 60 ngày | Mục tiêu tối thiểu từ Y6 |
+P2_SAN_PHAM_CONG_NGHE.md:1578: SRV2["🤖 AI/GPU Server<br/>NVIDIA A100 — SLAM + DL"]
+P2_SAN_PHAM_CONG_NGHE.md:1579: SRV3["💾 Data / Backup<br/>NAS + DR"]
+P2_SAN_PHAM_CONG_NGHE.md:1621: SRV2 --> |AI SLAM training| HW5
+P2_SAN_PHAM_CONG_NGHE.md:1622: SRV2 --> |Deep Learning| HW6
+P2_SAN_PHAM_CONG_NGHE.md:1627: LAB2 --> |GPU workload| SRV2
+P2_SAN_PHAM_CONG_NGHE.md:1628: LAB3 --> |Material data| SRV3
+P2_SAN_PHAM_CONG_NGHE.md:1632: SRV2 --> |GPU compute| SWS3
+P2_SAN_PHAM_CONG_NGHE.md:1660: class SRV1,SRV2,SRV3,SRV4 dc
+P2_SAN_PHAM_CONG_NGHE.md:1866: T3["NDA + SoW<br/>Ký kết ban đầu"]
+P2_SAN_PHAM_CONG_NGHE.md:1876: subgraph DEV["⚙️ PHÁT TRIỂN (AGILE SPRINT)"]
+P2_SAN_PHAM_CONG_NGHE.md:1877: SP1["Sprint 1<br/>2 tuần<br/>Foundation + PoC"]
+P2_SAN_PHAM_CONG_NGHE.md:1878: SP2["Sprint 2-N<br/>2 tuần/sprint<br/>Feature dev + Test"]
+P2_SAN_PHAM_CONG_NGHE.md:1931: > **Nhân sự:** Mảng phần mềm vận hành với 8-12 kỹ sư từ **Lab Cloud & Cyber (LAB4)** và phần từ R&D team. Không cần tuyể
+P2_SAN_PHAM_CONG_NGHE.md:2243: ### 2.25.1. Ma trận Nguồn Doanh thu Mới (Upside V3)
+P2_SAN_PHAM_CONG_NGHE.md:2278: | Digital Twin service | **P3** | Sau khi MekongOS v2.0 stable | Smart factory anchor KH |
+P3_MO_HINH_KINH_DOANH.md:38: > **Khác biệt V3 vs V2:** V2 có 12 nguồn doanh thu bao gồm Colocation, GPU-as-a-Service, Managed Services DC, Internet T
+P3_MO_HINH_KINH_DOANH.md:40: ### Cơ cấu Doanh thu theo Năm (V3 — 2 Trụ cột)
+P3_MO_HINH_KINH_DOANH.md:59: ### 3.2.1. Phân loại Khách hàng (V3 — 2 Trụ cột)
+P3_MO_HINH_KINH_DOANH.md:85: ## 3.3. Chiến lược Phát triển Theo Giai đoạn (V3)
+P3_MO_HINH_KINH_DOANH.md:102: ### 3.4.1. Đối tác Chiến lược (V3)
+P3_MO_HINH_KINH_DOANH.md:114: > V3 không có đối tác NVIDIA (DGX) và FPT Telecom (Dark fiber) vì không có DC thương mại. GPU nội bộ mua lẻ theo nhu cầu
+P3_MO_HINH_KINH_DOANH.md:116: ### 3.4.2. Business Model Canvas (V3 — 2 Trụ cột)
+P3_MO_HINH_KINH_DOANH.md:169: > Biên gộp CNC trung bình: 35-42%. V3 có thêm Wire EDM và Surface Grinder — tăng khả năng tự chủ xử lý bề mặt, giảm outs
+P3_MO_HINH_KINH_DOANH.md:220: ### 3.6.4. OEE máy CNC (10 máy V3)
+P3_MO_HINH_KINH_DOANH.md:250: **Doanh thu Xuất khẩu Dự kiến (V3):**
+P3_MO_HINH_KINH_DOANH.md:299: | Tiêu chí | Mekong V3 | VPIC | Cosmos | TQ Competition |
+P3_MO_HINH_KINH_DOANH.md:322: ## 3.11. Dự báo Doanh thu 15 Năm — V3
+P3_MO_HINH_KINH_DOANH.md:337: **Xu hướng chiến lược:** BU1 (IoT/BMS/Robot) tăng tỷ trọng nhờ recurring revenue (SaaS compound). BU2 (CNC) ổn định — ba
+P3_MO_HINH_KINH_DOANH.md:418: > **Đòn bẩy hoạt động:** Khi DT giảm 20%, EBITDA giảm từ 3,38M xuống 0,66M (giảm 80%) — DOL (Degree of Operating Leverag
+P3_MO_HINH_KINH_DOANH.md:429: | **Launch** | Y4 | MK-200 v2 (Modbus+BACnet), MekongBMS v1, MK-EIO | CNC 7/10 máy chạy, khung Robot MVP | Doanh thu 1,0
+P3_MO_HINH_KINH_DOANH.md:432: | **Mature** | Y10+ | MekongBMS Enterprise, Robot v3 (AI navigation) | CNC precision parts export ASEAN | Steady-state 1
+P3_MO_HINH_KINH_DOANH.md:467: > **Nguyên tắc V3:** Tăng trưởng doanh thu không đánh đổi bằng kéo dài công nợ. Với CAPEX 22,00M USD và giai đoạn đầu do
+P3_MO_HINH_KINH_DOANH.md:504: 5. **Conversion:** chuyển sang MSA / supply agreement / subscription agreement.
+P3_MO_HINH_KINH_DOANH.md:509: ### 3.14.6. SWOT Tổng hợp Mô hình Kinh doanh V3
+P3_MO_HINH_KINH_DOANH.md:515: | **Nội bộ** | **Strengths:** Full-stack (HW+SW+CNC), tích hợp dọc, biên gộp ~46%, 2 BU synergy ~2,00M NPV, vị trí KCNC 
+P3_MO_HINH_KINH_DOANH.md:516: | **Bên ngoài** | **Opportunities:** Smart Factory VN tăng 25%/năm, FDI dịch chuyển từ TQ, NĐ 76 ưu đãi CNC, BMS/SCADA V
+P3_MO_HINH_KINH_DOANH.md:587: ### Tổng hợp Mô hình Kinh doanh V3
+P3_MO_HINH_KINH_DOANH.md:604: > **Kết luận Phần III:** Mô hình kinh doanh V3 với 9 nguồn doanh thu từ 2 trụ cột tạo cấu trúc doanh thu cân đối (BU1: 7
+P4_HA_TANG_KY_THUAT.md:30: > **Tăng tầng (CEO 2026-03-18):** KCNC cho phép chiều cao tối đa 14 m. Nhà xưởng tăng từ 1 tầng (12 m) lên **2 tầng (14 
+P4_HA_TANG_KY_THUAT.md:297: > Khu Utility tăng từ 1 tầng (4 m) lên **2 tầng (8 m)**, GFA 560 m² (footprint 280 m²). Tầng 1: hệ thống năng lượng, xử 
+P4_HA_TANG_KY_THUAT.md:346: | Lưới điện KCNC 22kV | **1.250 kVA transformer** | Nguồn chính (tăng từ 1.000 kVA do T2 +82 kW) |
+P4_HA_TANG_KY_THUAT.md:601: > Công suất: 6 trạm × 1 ca/ngày = **3-4 robot/tuần** (cycle time 12,5 giờ/robot). Năm sản xuất ~150-200 robot Y5-Y8, tăn
+P4_HA_TANG_KY_THUAT.md:692: | **Network Level** | Gateway + Protocol conversion | MK-GW × 4 (Modbus/BACnet → MQTT) |
+P4_HA_TANG_KY_THUAT.md:795: **Tổng hợp ~550 điểm I/O (nhà xưởng 2 tầng — V3):**
+P4_HA_TANG_KY_THUAT.md:810: > Chi tiết ~550 điểm I/O trên cho thấy MekongBMS đạt mức giám sát toàn diện cho nhà máy quy mô GFA **10.304 m²** (2 tầng
+P4_HA_TANG_KY_THUAT.md:892: | TT | Module ISA-95 | Mô tả V3 | Phạm vi |
+P4_HA_TANG_KY_THUAT.md:901: | 8 | Document Control | Bản vẽ CNC (DXF/STEP), WI, Recipe | Version control |
+P4_HA_TANG_KY_THUAT.md:915: Do V3 không vận hành Datacenter thương mại, triết lý thiết kế hạ tầng không đi theo Tier III/IV mà theo nguyên tắc **"fi
+P4_HA_TANG_KY_THUAT.md:917: | Hệ thống | Mức dự phòng | Cấu hình V3 | Mục tiêu |
+P4_HA_TANG_KY_THUAT.md:927: > **Nguyên tắc đầu tư:** Hệ thống nào có thể dừng ngắn hạn mà không làm hỏng sản phẩm hoặc không ảnh hưởng an toàn thì k
+P4_HA_TANG_KY_THUAT.md:985: > **Nguyên tắc O&M:** Bảo trì phòng ngừa phải rẻ hơn nhiều so với downtime. Với V3, downtime 1 ngày ở khu CNC + SMT có t
+P4_HA_TANG_KY_THUAT.md:1001: > Bộ KPI này là đầu vào trực tiếp cho dashboard BMS/MES và là cơ sở để đánh giá đội Facility, IT/OT và Utility theo quý.
+P4_HA_TANG_KY_THUAT.md:1384: | Thành phẩm | S/N, MAC address, firmware version, test result | MES + ERP | Vĩnh viễn |
+P4_HA_TANG_KY_THUAT.md:1448: > Giá bán MK-200: 350-450 USD → Biên gộp 48-51% [C]. Khi sản lượng tăng từ 8.000 (Y4) lên 50.000 board/năm (Y12+), hiệu 
+P4_HA_TANG_KY_THUAT.md:1491: Hạ tầng kỹ thuật V3 được thiết kế cho **3 công trình riêng biệt** trên lô đất 1 ha. Tổng GFA **10.304 m²** (nhà xưởng 2 
+P4_HA_TANG_KY_THUAT.md:1495: | Chỉ tiêu | Giá trị V3 | So sánh V2/Gốc | Ghi chú |
+P4_HA_TANG_KY_THUAT.md:1497: | Tổng GFA | **10.304 m²** (2T xưởng + 2T Utility + 3T VP) | 21.000 m² (Gốc) | -50,9% vs Gốc; +54,6% vs V3-1T; 3 CT [C] 
+P4_HA_TANG_KY_THUAT.md:1498: | Phụ tải điện | **732 kW** (dự phòng 20%) | 3+ MVA (Gốc) | Tăng từ 660 kW V3-1T do bổ sung T2 |
+P4_HA_TANG_KY_THUAT.md:1504: | Điểm I/O BMS | **~550** | ~2.000 (Gốc, gồm DCIM) | +31% vs V3-1T; đủ cho 10.304 m² [B] |
+P4_HA_TANG_KY_THUAT.md:1506: > V3 2-tầng tăng GFA 54,6% trong cùng diện tích đất (footprint không đổi), duy trì CAPEX 22,00M USD nhờ tái phân bổ ngân
+P4_HA_TANG_KY_THUAT.md:1508: **Bổ sung V3 — Nguyên vật liệu, Quy trình công nghệ, Năng lực sản xuất:**
+P5_TAI_CHINH_DAU_TU.md:49: | 26 | Dự phòng rủi ro (~3,0% CAPEX — tái phân bổ cho xây dựng T2) | 0,65 | 3,0% | P3 | [C] |
+P5_TAI_CHINH_DAU_TU.md:53: > **Kiểm tra:** Tổng = 1,50 + 8,40 + 9,60 + 2,50 = **22,00M USD** [C]. DC nội bộ = 2,20M / 22,00M = **10,0%** (trong giớ
+P5_TAI_CHINH_DAU_TU.md:219: > **Ý nghĩa:** NPV tài chính thuần túy đạt 1,50M USD. Giá trị chiến lược tổng thể 7,00M USD — chứng minh dự án có giá tr
+P5_TAI_CHINH_DAU_TU.md:404: | Vốn góp ban đầu | 18,00 | 18,00 | 18,00 | 18,00 |
+P5_TAI_CHINH_DAU_TU.md:434: | **CCC (Cash Conversion Cycle)** | **60 ngày** | **20 ngày** | **49 ngày** |
+P5_TAI_CHINH_DAU_TU.md:571: Để bảo đảm tính kỷ luật tài chính trong giai đoạn tăng trưởng, Mekong áp dụng cơ chế **cash waterfall** cho dòng tiền tự
+P5_TAI_CHINH_DAU_TU.md:609: | Revenue miss 15–25% | Kích hoạt cost review 30 ngày, tăng direct-sales conversion |
+P5_TAI_CHINH_DAU_TU.md:614: > **Mục tiêu quản trị:** Covenant không chỉ để “đối phó ngân hàng” mà là bảng điều khiển sớm cho Ban điều hành. Với dự á
+P5_TAI_CHINH_DAU_TU.md:644: | CAPEX 22,00M USD | Đối chiếu `SO_LIEU_CO_DINH_V3.md`, P5 §5.1, Phụ lục A, Bảng đối chiếu |
+P5_TAI_CHINH_DAU_TU.md:654: | Tiêu chí | Trạng thái V3 |
+P5_TAI_CHINH_DAU_TU.md:662: > Xét dưới góc nhìn ngân hàng/tổ chức tài trợ, V3 không phải dự án “tăng trưởng quá nhanh dựa vào nợ”, mà là dự án có vố
+P5_TAI_CHINH_DAU_TU.md:712: | Chỉ tiêu | Mekong V3 | Benchmark SX CNC ASEAN | Benchmark IoT/BMS Global | Đánh giá |
+P5_TAI_CHINH_DAU_TU.md:722: > Mekong V3 có profile tài chính "thận trọng" — D/E thấp, equity ratio cao, DSCR an toàn. Trade-off: IRR 13% không quá ấ
+P5_TAI_CHINH_DAU_TU.md:727: ### So sánh Tổng hợp Các Chỉ số Tài chính V3
+P5_TAI_CHINH_DAU_TU.md:729: | Chỉ tiêu | Giá trị V3 | Nhãn | Chuẩn ngành | Đánh giá |
+P5_TAI_CHINH_DAU_TU.md:749: > **Tổng kết Phần V:** Phương án V3 với CAPEX 22,00M USD đạt NPV 1,50M, IRR 13,0%, hòa vốn năm thứ 10 — đáp ứng tiêu chí
+P6_PHAP_LY_MOI_TRUONG.md:29: > **Khác biệt V3 vs Gốc:** V3 bổ sung 4 văn bản pháp lý mới (NĐ 10/2024, NĐ 239/2025, Luật 57/2024, Luật 90/2025) theo y
+P6_PHAP_LY_MOI_TRUONG.md:33: Dự án Mekong V3 thuộc **đồng thời 2 loại hình** theo NĐ 10/2024:
+P6_PHAP_LY_MOI_TRUONG.md:40: > **Kết luận:** Mekong V3 đáp ứng đồng thời Điều 29 (R&D) và Điều 31 (Sản xuất SP CNC) của NĐ 10/2024/NĐ-CP — phù hợp vớ
+P6_PHAP_LY_MOI_TRUONG.md:51: ### 6.1.4. Mã ngành Kinh doanh (V3)
+P6_PHAP_LY_MOI_TRUONG.md:62: > V3 cần đăng ký bổ sung 3 mã VSIC (so với V2 cần 7 mã vì có thêm 6110, 6120, 6311, 6312 cho DC thương mại).
+P6_PHAP_LY_MOI_TRUONG.md:72: | A | Nộp hồ sơ đầu tư mới — IRC + Mẫu 1.4 | Rõ ràng, 1 lần cho dự án V3 | Cần chuẩn bị đầy đủ hồ sơ | **Ưu tiên** |
+P6_PHAP_LY_MOI_TRUONG.md:82: ### 6.2.2. Danh mục 14 Giấy phép và Thủ tục (V3)
+P6_PHAP_LY_MOI_TRUONG.md:102: > V3 giảm từ 18 giấy phép (V2) xuống 14 — loại bỏ: GP Viễn thông, ISO 27001 DC, PCI DSS, SOC 2 Type II. Tổng chi phí phá
+P6_PHAP_LY_MOI_TRUONG.md:104: ### 6.2.3. Timeline Pháp lý Tổng hợp (V3)
+P6_PHAP_LY_MOI_TRUONG.md:126: ## 6.3. Đánh giá Tác động Môi trường (ĐTM) — V3
+P6_PHAP_LY_MOI_TRUONG.md:136: ### 6.3.2. Ma trận Tác động Môi trường (V3 — 2 Trụ cột)
+P6_PHAP_LY_MOI_TRUONG.md:150: > V3 có tác động môi trường **thấp hơn đáng kể** so với V2 vì không có DC thương mại 50 rack (giảm heat rejection 2-5 MW
+P6_PHAP_LY_MOI_TRUONG.md:152: ### 6.3.3. Ngân sách Môi trường (V3)
+P6_PHAP_LY_MOI_TRUONG.md:170: ### 6.3.4. Cam kết Môi trường (V3)
+P6_PHAP_LY_MOI_TRUONG.md:199: > GHG V3 thấp hơn V2 khoảng 60-70% vì không có DC thương mại (DC 50 rack = 8.000-20.000 tCO₂e/năm riêng mình). Baseline 
+P6_PHAP_LY_MOI_TRUONG.md:215: | Tiêu chí EDGE | Yêu cầu | Thiết kế Mekong V3 | Đáp ứng |
+P6_PHAP_LY_MOI_TRUONG.md:250: > Chi phí ATVSLĐ ~28K USD/năm, thấp hơn V2 (~39K) do quy mô nhân sự nhỏ hơn (100-130 vs 150-250 người) [C].
+P6_PHAP_LY_MOI_TRUONG.md:323: > V3 giảm phạm vi bảo mật so với V2 (không có DC Tier III cần Level 4 retina scan + dual-auth). CNC NDA zone là khu vực 
+P6_PHAP_LY_MOI_TRUONG.md:337: > V3 giảm chi phí InfoSec từ ~100-155K/năm (V2) xuống ~28-46K/năm vì không có DC thương mại cần SOC 24/7, SIEM, PCI DSS,
+P6_PHAP_LY_MOI_TRUONG.md:343: ### 6.7.1. Cam kết ESG (V3)
+P6_PHAP_LY_MOI_TRUONG.md:360: ### 6.7.2. Đóng góp Kinh tế — Xã hội (V3)
+P6_PHAP_LY_MOI_TRUONG.md:372: > Đóng góp V3 thấp hơn V2 (~85-120M) tương ứng với quy mô CAPEX nhỏ hơn, nhưng **hiệu quả trên mỗi USD đầu tư** tương đư
+P6_PHAP_LY_MOI_TRUONG.md:387: > **Kết luận Phần VI:** Khung pháp lý V3 đã cập nhật 4 văn bản mới (NĐ 10/2024, NĐ 239/2025, Luật 57/2024, Luật 90/2025)
+P7_NHAN_SU_TO_CHUC.md:68: | **Tổng** | | **4** | | Giảm từ 5 (Gốc) do không cần DC Commissioning Engineer |
+P7_NHAN_SU_TO_CHUC.md:173: | CNC 5-Axis Operator (Lv3) | Cao | Rất cao | 6–12 tháng | 15–25 K USD |
+P7_NHAN_SU_TO_CHUC.md:283: | Technical sharing sessions | 2 tuần/lần | Luân phiên | Slide deck + Recording |
+P7_NHAN_SU_TO_CHUC.md:305: | Chỉ tiêu | Giá trị V3 |
+P7_NHAN_SU_TO_CHUC.md:315: > **Kết luận:** Kế hoạch nhân sự V3 tối ưu cho quy mô 22,00M USD với 100–130 nhân sự ổn định, tập trung vào 2 trụ cột sả
+P8_KE_HOACH_TRIEN_KHAI.md:272: > Checklist này là “cửa cuối” trước khi chuyển từ trạng thái dự án sang trạng thái nhà máy vận hành. Nếu một trong 5 nhó
+P9_KET_LUAN_KIEN_NGHI.md:65: ### 9.1.5. So sánh V3 (22M) với Phương án Gốc
+P9_KET_LUAN_KIEN_NGHI.md:67: | Tiêu chí | Phương án Gốc | V3 (22M) | Nhận xét |
+P9_KET_LUAN_KIEN_NGHI.md:181: ### 9.4.4. Điều kiện Tiên quyết để Giữ đúng Cam kết V3
+P9_KET_LUAN_KIEN_NGHI.md:217: > **Cam kết thực thi:** Trong vòng 180 ngày kể từ ngày được chấp thuận, nhà đầu tư sẽ hoàn thành toàn bộ công tác chuẩn 
+P9_KET_LUAN_KIEN_NGHI.md:232: ### 9.4.4. Điều kiện Tiên quyết để Giữ đúng Cam kết V3
+P9_KET_LUAN_KIEN_NGHI.md:236: | Không mở rộng lại sang DC thương mại | Giữ nhất quán phạm vi V3 |
+P9_KET_LUAN_KIEN_NGHI.md:240: | Biến reference customer thành hợp đồng dài hạn | Chuyển từ “đề án tốt” sang “doanh nghiệp tốt” |
+PHU_LUC.md:67: | 26 | Vốn lưu động | 2,000 | 3 | [C] | NVL ban đầu + lương 6 tháng |
+PHU_LUC.md:89: | Q1/Y4 | 2–3 | Hoàn tất commissioning, NVL ban đầu | 1,00 | 18,65 |
+PHU_LUC.md:134: | **Mekong V3 (dự án này)** | **KCNC TP.HCM** | **Nội địa** | **22,00** | **10.304** | **3.302** | **2026** |
+PHU_LUC.md:137: > **Nhận xét:** CAPEX/m² của V3 = 3.302 USD/m² nằm trong dải cạnh tranh so với các dự án tương đương. Lưu ý: KCNC có ưu 
+PHU_LUC.md:141: | Chỉ số | V3 | Benchmark SME | Benchmark FDI | Nhận xét |
+PHU_LUC.md:219: > **Nhận xét:** Tổng KH 15 năm ≈ 14,9M > nguyên giá ban đầu 11,9M do tái đầu tư (DC refresh Y8, IoT/SMT thay thế Y9). Sa
+PHU_LUC.md:252: | Vốn lưu động ban đầu | 0 | 600 | 280 | 880 |
+PHU_LUC.md:317: > **Chênh lệch với CAPEX:** IoT trong CAPEX = 2,50M (items 13–15). Thực tế equipment = 1,79M. Chênh lệch 0,71M cho: phụ 
+PHU_LUC.md:354: > Robot Assembly CAPEX = 0,50M trong ngân sách. Equipment = 333K, còn lại cho phụ kiện, vận chuyển, lắp đặt, consumables
+PHU_LUC.md:1014: | Waste diversion rate (%) | 60% | 75% | 85% | 90% |
+PHU_LUC.md:1154: > **Tổng PCCC đầu tư (~435K + 15K bình) = ~450K**, nhất quán với CAPEX item 9 = 0,45M USD [C]. Tăng từ 0,40M do bổ sung 
+PHU_LUC.md:1162: | Đội PCCC cơ sở (8 người) | Trưởng đội PCCC | Nội bộ | Chữa cháy ban đầu, hướng dẫn sơ tán |
+PHU_LUC.md:1465: | UPS DC nội bộ | 2 × 60 kVA (N+1) | Online double conversion, 15 phút |
+PHU_LUC.md:1567: | Trạm điện | 630 kVA ban đầu | Giám sát + PM | Nâng 1.000 kVA nếu cần | Upgrade smart grid |
+PHU_LUC.md:1780: - Backlog > 3 tháng capacity
+PHU_LUC.md:2012: | Sản phẩm | Y3 (MVP) | Y4 (V1.0) | Y5 (V2.0) | Y7+ (V3.0) |
+PHU_LUC.md:2025: | Y5 | 12–15 | 400–500 | V2.0, AI/ML features, platform |
+PHU_LUC.md:2026: | Y7+ | 15–20 | 500–600 | V3.0, next-gen, patent portfolio |
+PHU_LUC.md:2032: **Sản phẩm 1: I-BMS Gateway v3.0**
+PHU_LUC.md:2323: | Chi phí ban đầu | 2.820K [C] | 0 | 282K (10% deposit) |
+PHU_LUC.md:2338: | Chi phí ban đầu | 2.820K [C] | 0 | 282K (10% deposit) |
+PHU_LUC.md:2434: > **Xác nhận:** GFA = **10.304 m²** nhất quán với SO_LIEU_CO_DINH_V3 và P4 §4.1 [C]. Nhà xưởng 2 tầng = 3.360 × 2 = 6.72
+PHU_LUC.md:2728: | Ưu đãi thuế KCNC (NĐ 74) | Thiếu kỹ sư kinh nghiệm ban đầu |
+PHU_LUC.md:3169: | Đối thủ / Phân khúc | Lợi thế đối thủ | Lợi thế Mekong V3 | Chiến lược đối phó |
+PHU_LUC.md:3346: | Tiêu chí | Mekong V3 | DN A (KCNC) | DN B (KCNC) | DN C (KCX Linh Trung) |
+PHU_LUC.md:3357: | Lợi thế V3 | IoT+CNC synergy, R&D cao, Green | — | — | — |
+PHU_LUC.md:3884: | Biện pháp | Tăng vốn CSH 3,00M + tái phân bổ dự phòng 1,35M [C] + giảm scope Phase 3 |
+PHU_LUC.md:3891: | Giả định | VND mất giá 15% (29.325 VND/USD), lãi suất vay tăng từ 8% lên 12% |
+PHU_LUC.md:3935: 1. **Version control:** Mỗi lần thay đổi giả định phải tạo version mới (v3.1, v3.2...) với changelog.
+PHU_LUC.md:3939: 5. **Audit trail:** Lưu giữ tất cả version cũ và email/memo phê duyệt tối thiểu 5 năm.
+PHU_LUC.md:3942: > **Tham chiếu chéo:** Kết quả sensitivity analysis này được sử dụng trong P5 §5.9 (Phân tích rủi ro tài chính) và Phụ l
+PHU_LUC.md:4002: | **CCC (Cash Conversion Cycle)** | **DSO + DIO − DPO** | **60 ngày** | **55–75 ngày** | **Mục tiêu giảm xuống 55 ngày (
+PHU_LUC.md:4035: > Tỷ lệ WC/Revenue giảm từ 18% (N1) xuống 12% (N5) nhờ tối ưu CCC, đảm bảo DSCR ≥ 1,50x [C] và thanh khoản cho hoạt động
+PHU_LUC.md:4039: | Giả định Mekong | Giá trị V3 | Benchmark ngành CNC VN | Nguồn | Đánh giá |
+PHU_LUC.md:4052: > **Kết luận:** Toàn bộ giả định V3 nằm trong biên độ benchmark ngành. Hai chỉ số tham vọng nhất: Revenue growth Y1-Y3 v
+PHU_LUC.md:4246: > **Nhận xét:** Cash flow tích lũy chuyển dương từ Y2-Q4. Payback period ≈ 2,75 năm (thoả mãn < 8 năm theo chuẩn KCNC). 
+PHU_LUC.md:4402: | Y5 | 1,50 | 32% | 0,08 | 5% | 25 | IoT Gateway v2, BMS, Robot assembly v1 |
+PHU_LUC.md:4404: | Y7 | 4,50 | 38% | 0,68 | 15% | 42 | Smart Factory kit, Robot v2, ASEAN export |
+PHU_LUC.md:4679: | 3. Revenue Pipeline | Bookings, backlog, win rate, pipeline value | 1 | VP Sales |
+PHU_LUC.md:4749: ### U.10. Phiên bản Báo cáo và Chu kỳ Cập nhật
+PHU_LUC.md:4760: > **Data governance:** Mọi báo cáo có version control, audit trail, và sign-off. Dữ liệu tài chính reconcile với sổ kế t
+PHU_LUC.md:4812: ## Phụ lục V: Bảng Đối chiếu Số liệu Canonical V3
+PHU_LUC.md:4814: *(Bảng đối chiếu toàn bộ số liệu [C] giữa SO_LIEU_CO_DINH_V3.md và các file sections/)*
+PHU_LUC.md:4843: > **Kết luận:** Tất cả 24 chỉ số canonical [C] nhất quán trên toàn bộ tài liệu V3 [C].
+PHU_LUC.md:4852: | 2 | So sánh với `SO_LIEU_CO_DINH_V3.md` (master) | Diff comparison script | Tự động |
+PHU_LUC.md:4880: | Không còn số liệu V2 (47M, 32M, 6 máy CNC) | Grep toàn bộ `sections/` | 0 match |
+PHU_LUC.md:4895: | 1 | Canonical check | Script Python | So khớp mọi số liệu [C] với SO_LIEU_CO_DINH_V3.md | Pass/Fail + diff list |
+PHU_LUC.md:4918: > **Tần suất:** QC pipeline chạy mỗi khi có commit vào nhánh main. Kết quả lưu tại CHECKLIST_THEO_DOI_V3.md và BANG_DOI_
+PHU_LUC.md:4920: ### V.4. Lịch sử Phiên bản Đề án
+PHU_LUC.md:4922: | Phiên bản | Ngày | Thay đổi chính | Tác giả |
+PHU_LUC.md:4925: | V2.0 | 2025-10 | Giảm CAPEX 37M, thêm datacenter TM | Team cố vấn |
+PHU_LUC.md:4926: | V2.1 | 2026-01 | Điều chỉnh tài chính, loại DC TM | CFO |
+PHU_LUC.md:4927: | V3.0 | 2026-03 | Cấu trúc lại 22M, 2 trụ cột, 10 CNC | Team dự án |
+PHU_LUC.md:4928: | V3.1 | 2026-03 | Bổ sung phụ lục A-Y, QC nhất quán | AI + Review |
+PHU_LUC.md:4930: > **Nguyên tắc:** Mọi thay đổi số liệu canonical phải cập nhật SO_LIEU_CO_DINH_V3.md trước, sau đó cascade xuống tất cả 
+PHU_LUC.md:4941: - `MEK-FIN-001-Bao_cao_tai_chinh_Q1_2027-v2.0.pdf`
+PHU_LUC.md:4978: | Hệ thống PLM (Teamcenter) | Quản lý bản vẽ + phiên bản | 5 TB | Daily backup | 12.000 (license) |
+PHU_LUC.md:4984: | 1 | CAPEX tổng | SO_LIEU_CO_DINH_V3.md | 22.000.000 USD | |
+PHU_LUC.md:4985: | 2 | Vốn CSH | SO_LIEU_CO_DINH_V3.md | 18.000.000 USD (81,8%) | |
+PHU_LUC.md:4986: | 3 | Vốn vay | SO_LIEU_CO_DINH_V3.md | 4.000.000 USD (18,2%) | |
+PHU_LUC.md:4987: | 4 | NPV | SO_LIEU_CO_DINH_V3.md | 1.500.000 USD | |
+PHU_LUC.md:4988: | 5 | IRR | SO_LIEU_CO_DINH_V3.md | 13,0% | |
+PHU_LUC.md:4989: | 6 | WACC | SO_LIEU_CO_DINH_V3.md | 12,0% | |
+PHU_LUC.md:4990: | 7 | Doanh thu ổn định | SO_LIEU_CO_DINH_V3.md | 12.000.000 USD/năm | |
+PHU_LUC.md:4991: | 8 | GFA | SO_LIEU_CO_DINH_V3.md | 6.664 m2 | |
+PHU_LUC.md:4992: | 9 | Số máy CNC | SO_LIEU_CO_DINH_V3.md | 10 máy | |
+PHU_LUC.md:4993: | 10 | Nhân sự | SO_LIEU_CO_DINH_V3.md | 100-130 người | |
+PHU_LUC.md:4994: | 11 | DSCR | SO_LIEU_CO_DINH_V3.md | >= 1,50x | |
+PHU_LUC.md:4995: | 12 | EBITDA margin | SO_LIEU_CO_DINH_V3.md | ~30% | |
+PHU_LUC.md:4996: | 13 | Giá trị chiến lược | SO_LIEU_CO_DINH_V3.md | 7.000.000 USD | |
+PHU_LUC.md:4997: | 14 | Datacenter | Quy tắc V3 | Chỉ nội bộ, KHÔNG thương mại | |
+PHU_LUC.md:4998: | 15 | Cấu trúc 2 trụ cột | Quy tắc V3 | ĐTTM + CNC/MPMC | |
+PHU_LUC.md:5063: 1. `SO_LIEU_CO_DINH_V3.md` — Bảng số liệu canonical V3.
+PHU_LUC.md:5064: 2. `YEU_CAU_GOC_V3.md` — Ràng buộc nghiệp vụ V3.
+PHU_LUC.md:5065: 3. `KE_HOACH_V3_IMPLEMENTATION.md` — Kế hoạch triển khai V3.
+PHU_LUC.md:5067: 5. `SO_SANH_V2_V3.md` — Bảng so sánh V2 ↔ V3.
+PHU_LUC.md:5069: 7. `CHECKLIST_THEO_DOI_V3.md` — Checklist theo dõi tiến độ.
+PHU_LUC.md:5145: > **Ghi chú:** Bảng thuật ngữ này bao gồm tất cả viết tắt sử dụng trong đề án V3. Được sắp xếp theo thứ tự ABC. Nhãn [C]
+PHU_LUC.md:5173: > **Ghi chú:** Tất cả nguồn được gắn nhãn [A] (analysis/tính toán) hoặc [B] (benchmark) theo quy ước V3. Văn bản pháp lu
+PHU_LUC.md:5215: | Chỉ tiêu | Mekong (V3) | Công ty A (Điện tử FDI, SHTP) | Công ty B (CNC nội địa, SHTP) | Công ty C (IoT startup, KCNC 
+PHU_LUC.md:5264: | 2 | Tóm tắt điều hành V3 | Giúp đọc nhanh logic dự án | `00_TOM_TAT_DIEU_HANH.md` | Rất cao |
+PHU_LUC.md:5266: | 4 | Đề án chi tiết V3 | Hồ sơ thẩm định nội dung kỹ thuật, tài chính, pháp lý | Các file `sections/` | Rất cao |
+PHU_LUC.md:5267: | 5 | Bảng số liệu canonical | Khóa nhất quán số liệu | `SO_LIEU_CO_DINH_V3.md` | Rất cao |
+PHU_LUC.md:5280: | Phù hợp định hướng KCNC | Dự án có đúng “công nghệ cao” không? | 2 trụ cột V3, danh mục QĐ 38, tỷ trọng R&D | P2, Phụ 
+PHU_LUC.md:5286: | Nhất quán dữ liệu | Có mâu thuẫn giữa các phần không? | Bảng canonical + bảng đối chiếu | `SO_LIEU_CO_DINH_V3.md`, Phụ
+PHU_LUC.md:5292: | Chốt phạm vi V3 và số liệu canonical | Ban dự án | Tài chính, kỹ thuật | T-30 ngày | Baseline freeze |
+PHU_LUC.md:5306: | Không còn nội dung DC thương mại trong narrative V3 | Bắt buộc |
+PHU_LUC.md:5323: | 5 | Datacenter có thương mại hóa không? | Không. DC hoàn toàn nội bộ (MES, ERP, BMS, R&D). Không GPU-aaS, colocation, 
+PHU_LUC.md:5337: | Câu hỏi về DC thương mại (legacy V2) | Thấp | Trung bình | 3 | Audit DC removal toàn bộ file V3 |
+PHU_LUC.md:5377: | 2 | Đề án V3 đầy đủ (toàn bộ sections/) | 3 | 1 PDF + 1 MD | Đóng quyển, bìa cứng |
+PHU_LUC.md:5408: | T-10 | Tháng 3 | Hoàn thiện đề án (văn bản này) | PMO | Đề án V3 đầy đủ |
+PHU_LUC.md:5609: | 6-12 tháng | Chuyển từ pilot sang PO lặp lại | Reference account, monthly QBR | OTD ≥ 90%, return thấp |
+PHU_LUC.md:5631: > Nếu P8 là “readiness để vận hành nhà máy”, thì phụ lục này là “readiness để khách hàng dám mua”. Hai lớp readiness này
+PHU_LUC.md:5700: | 2 | SOP chưa cập nhật phiên bản mới nhất | Minor | Cập nhật + đào tạo lại operator | 14 ngày |
+PHU_LUC.md:5726: | **Prospecting** | Tháng 0–3 | Tiếp cận, demo, NDA, gửi capability pack | Số lead, conversion rate | Sales VP |
+PHU_LUC.md:5797: | Chứng chỉ / Tiêu chuẩn | Chi phí ban đầu (K USD) | Duy trì/năm (K USD) | Tổng 5Y (K USD) | Ghi chú |

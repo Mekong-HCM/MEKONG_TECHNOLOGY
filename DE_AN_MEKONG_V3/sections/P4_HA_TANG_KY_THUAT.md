@@ -187,11 +187,11 @@ R&D Lab là khu vực chiến lược phục vụ phát triển sản phẩm IoT
 | 6 | 3D Printer (FDM + SLA) | 2 | 10 | Prototype vỏ/jig nhanh |
 | 7 | PCB CNC router (ProtoMat) | 1 | 25 | Prototype PCB nội bộ 24h |
 | 8 | RF Test Equipment (Vector Network Analyzer) | 1 | 20 | Antenna design IoT |
-| 9 | Software License (SolidWorks, Altium, NX, MATLAB) | — | 50 | Annual subscription |
+| 9 | Software License (SolidWorks, Altium, NX, MATLAB) | — | 50 | Annual thuê bao |
 | 10 | Hệ thống CI/CD + Git Server + NAS | 1 set | 15 | Build automation, backup |
 | | **Tổng R&D Equipment** | | **209** | Nằm trong CAPEX Phase 2 |
 
-> R&D Lab phục vụ nhóm 20-30 kỹ sư R&D (mục tiêu Y5-Y8, xem P7 §7.3). Năng lực prototype: từ ý tưởng → schematic → PCB prototype → firmware → functional test trong **4-6 tuần** nội bộ, không cần outsource. Đây là lợi thế speed-to-market quan trọng so với đối thủ phải gửi PCB ra ngoài (lead time 2-4 tuần chỉ riêng fab) [A].
+> R&D Lab phục vụ nhóm 20-30 kỹ sư R&D (mục tiêu Y5-Y8, xem P7 §7.3). Năng lực prototype: từ ý tưởng → schematic → PCB prototype → firmware → functional test trong **4-6 tuần** nội bộ, không cần thuê ngoài. Đây là lợi thế speed-to-market quan trọng so với đối thủ phải gửi PCB ra ngoài (thời gian dẫn 2-4 tuần chỉ riêng fab) [A].
 
 ---
 
@@ -912,7 +912,7 @@ Hệ thống MES phục vụ 2 BU sản xuất, kết nối ERP (tầng trên) v
 
 ### 4.13.4. Triết lý Dự phòng (Redundancy Philosophy) cho Hạ tầng Sản xuất
 
-Do V3 không vận hành Datacenter thương mại, triết lý thiết kế hạ tầng không đi theo Tier III/IV mà theo nguyên tắc **"fit-for-purpose redundancy"**: chỉ áp dụng N+1 hoặc dual-path ở các hệ thống có tác động trực tiếp đến an toàn, chất lượng sản xuất hoặc dữ liệu vận hành cốt lõi. Cách tiếp cận này tối ưu CAPEX nhưng vẫn bảo đảm uptime nội bộ ở mức phù hợp [B].
+Do V3 không vận hành Datacenter thương mại, triết lý thiết kế hạ tầng không đi theo Tier III/IV mà theo nguyên tắc **"fit-for-purpose redundancy"**: chỉ áp dụng N+1 hoặc dual-path ở các hệ thống có tác động trực tiếp đến an toàn, chất lượng sản xuất hoặc dữ liệu vận hành cốt lõi. Cách tiếp cận này tối ưu CAPEX nhưng vẫn bảo đảm thời gian hoạt động nội bộ ở mức phù hợp [B].
 
 | Hệ thống | Mức dự phòng | Cấu hình V3 | Mục tiêu |
 |---|---|---|---|
@@ -975,25 +975,25 @@ Do V3 không vận hành Datacenter thương mại, triết lý thiết kế h�
 
 | Nhóm | Mức tồn kho khuyến nghị | Lý do |
 |---|---|---|
-| Filter HVAC / Precision AC | 3-6 tháng | Lead time ngắn nhưng thay thường xuyên |
-| Contactor / MCCB / relay | 2 bộ critical | Tránh downtime kéo dài |
+| Filter HVAC / Precision AC | 3-6 tháng | Thời gian dẫn ngắn nhưng thay thường xuyên |
+| Contactor / MCCB / relay | 2 bộ critical | Tránh thời gian dừng máy kéo dài |
 | Cảm biến nhiệt / áp / lưu lượng | 5-10% installed base | Thiết bị trường dễ hỏng |
 | Switch / transceiver mạng | 1-2 bộ critical | Bảo vệ backbone IT/OT |
 | Linh kiện UPS tiêu hao | Theo khuyến nghị OEM | Bảo vệ tải số liệu |
 | Coolant / mist collector consumables | 2-3 tháng | Ảnh hưởng trực tiếp CNC |
 
-> **Nguyên tắc O&M:** Bảo trì phòng ngừa phải rẻ hơn nhiều so với downtime. Với V3, downtime 1 ngày ở khu CNC + SMT có thể làm trễ giao hàng, ảnh hưởng RFQ/renewal của khách FDI và chi phí cơ hội lớn hơn chi phí PM thường kỳ [A].
+> **Nguyên tắc O&M:** Bảo trì phòng ngừa phải rẻ hơn nhiều so với thời gian dừng máy. Với V3, thời gian dừng máy 1 ngày ở khu CNC + SMT có thể làm trễ giao hàng, ảnh hưởng RFQ/renewal của khách FDI và chi phí cơ hội lớn hơn chi phí PM thường kỳ [A].
 
 ### 4.13.7. Bộ KPI Vận hành Hạ tầng Kỹ thuật
 
 | KPI | Mục tiêu Y4-Y6 | Mục tiêu Y8+ | Ghi chú |
 |---|---:|---:|---|
-| Uptime điện khu sản xuất | ≥ 99,5% | ≥ 99,7% | Không tính dừng bảo trì kế hoạch |
-| Uptime DC nội bộ / MES | ≥ 99,0% | ≥ 99,5% | Phù hợp hạ tầng nội bộ |
+| Thời gian hoạt động điện khu sản xuất | ≥ 99,5% | ≥ 99,7% | Không tính dừng bảo trì kế hoạch |
+| Thời gian hoạt động DC nội bộ / MES | ≥ 99,0% | ≥ 99,5% | Phù hợp hạ tầng nội bộ |
 | Nhiệt độ khu SMT | 23 ± 2°C | 23 ± 1,5°C | Phục vụ chất lượng hàn |
 | Độ ẩm khu SMT | 45-60%RH | 45-55%RH | Giảm rủi ro ESD |
 | Rò rỉ khí nén | < 15% | < 10% | Energy efficiency |
-| Điện năng / doanh thu | Theo baseline Y4 | Giảm 8-12% đến Y10 | Nhờ BMS + Solar + OEE |
+| Điện năng / doanh thu | Theo mức cơ sở Y4 | Giảm 8-12% đến Y10 | Nhờ BMS + Solar + OEE |
 | Tỷ lệ bảo trì đúng hạn PM compliance | ≥ 90% | ≥ 95% | Tất cả asset critical |
 | Mean Time To Repair (MTTR) tài sản critical | < 8 giờ | < 4 giờ | Với spare và SOP sẵn |
 | Số sự cố P1 (mức nghiêm trọng cao) / quý | ≤ 2 | ≤ 1 | Theo incident classification |
@@ -1011,7 +1011,7 @@ Do V3 không vận hành Datacenter thương mại, triết lý thiết kế h�
 | **BU1: Điện tử Thông minh** | Linh kiện điện tử, PCB, module RF, vỏ | ~60% | Nhập khẩu 70%, nội địa 30% | Chu kỳ mua: 8-16 tuần |
 | **BU2: CNC/MPMC** | Kim loại (nhôm, thép, inox), dụng cụ cắt, coolant | ~40% | Nội địa 50%, nhập khẩu 50% | Chu kỳ mua: 2-6 tuần |
 
-> **Chi phí NVL steady-state (Y12+):** 3,60M USD/năm = 30% doanh thu 12,00M [C]. Quản lý NVL hiệu quả là yếu tố quyết định biên lợi nhuận gộp 55% mục tiêu.
+> **Chi phí NVL ổn định (Y12+):** 3,60M USD/năm = 30% doanh thu 12,00M [C]. Quản lý NVL hiệu quả là yếu tố quyết định biên lợi nhuận gộp 55% mục tiêu.
 
 ### 4.14.2. Nguyên Vật Liệu — Trụ cột CNC/MPMC
 
@@ -1027,7 +1027,7 @@ Do V3 không vận hành Datacenter thương mại, triết lý thiết kế h�
 | 6 | **Inconel 718** | AMS 5662/5663 | Linh kiện chịu nhiệt (option Y10+) | 2% | Nhập (Special Metals, VDM) | 45-70 USD/kg |
 | 7 | **Nhựa kỹ thuật (POM, PEEK)** | — | Jig, fixture, cách điện | 5% | Nhập (Ensinger, Mitsubishi Chemical) | 15-80 USD/kg |
 
-> **Khối lượng kim loại ước tính (Y12+ steady-state):** ~80-100 tấn/năm (chủ yếu nhôm 6061-T6: ~50 tấn, thép S45C: ~20 tấn, inox: ~10 tấn, còn lại: ~10 tấn). Chi phí NVL kim loại: ~0,50-0,70M USD/năm [A].
+> **Khối lượng kim loại ước tính (Y12+ ổn định):** ~80-100 tấn/năm (chủ yếu nhôm 6061-T6: ~50 tấn, thép S45C: ~20 tấn, inox: ~10 tấn, còn lại: ~10 tấn). Chi phí NVL kim loại: ~0,50-0,70M USD/năm [A].
 
 #### B. Dụng cụ Cắt gọt (Cutting Tools)
 
@@ -1061,7 +1061,7 @@ Do V3 không vận hành Datacenter thương mại, triết lý thiết kế h�
 
 #### A. Linh kiện Điện tử Chính (BOM Tiêu biểu)
 
-| TT | Nhóm linh kiện | Nhà cung cấp chính | Thay thế (dual source) | Lead time | Tỷ trọng BOM |
+| TT | Nhóm linh kiện | Nhà cung cấp chính | Thay thế (dual source) | Thời gian dẫn | Tỷ trọng BOM |
 |:---:|---|---|---|---:|---:|
 | 1 | **MCU/SoC** (NXP i.MX8M, STM32F4) | NXP, STMicroelectronics | Microchip (SAM-series) | 12-16 tuần | 15-20% |
 | 2 | **AI Module** (NVIDIA Jetson Orin Nano) | NVIDIA | Google Coral (Edge TPU) | 8-12 tuần | 10-15% (MK-300) |
@@ -1071,7 +1071,7 @@ Do V3 không vận hành Datacenter thương mại, triết lý thiết kế h�
 | 6 | **Power** (DCDC, LDO, POE) | Texas Instruments, MPS | Analog Devices, Rohm | 8-12 tuần | 4-6% |
 | 7 | **Memory** (eMMC, LPDDR4/5) | Samsung, SK Hynix | Micron, Kingston | 6-10 tuần | 3-5% |
 | 8 | **PCB** (4-12 lớp, FR4/Rogers) | PCBWay, JLCPCB (Trung Quốc) | KingBoard (HK), VN PCB | 5-10 ngày (proto), 3-4 tuần (production) | 8-12% |
-| 9 | **Vỏ & Cơ khí** (nhôm CNC, nhựa ép) | CNC nội bộ (BU2), nhựa outsource | Foxconn VN, local injection | 2-4 tuần | 5-8% |
+| 9 | **Vỏ & Cơ khí** (nhôm CNC, nhựa ép) | CNC nội bộ (BU2), nhựa thuê ngoài | Foxconn VN, local injection | 2-4 tuần | 5-8% |
 | 10 | **Quang điện** (LiDAR, camera, lens) | Livox, Intel RealSense | Velodyne, Ouster | 6-10 tuần | 10-15% (Robot) |
 
 > **Tổng BOM cost (COGS đơn vị):** MK-200 Gateway = 190 USD/bộ [C], MK-300 Gateway = 350 USD/bộ [C], Robot AMR-500 = 10.800-14.000 USD/bộ [C]. BOM chiếm 55-65% COGS, phần còn lại là nhân công trực tiếp + overhead.
@@ -1097,7 +1097,7 @@ Do V3 không vận hành Datacenter thương mại, triết lý thiết kế h�
 | 5 | Hút ẩm silica gel | — | Chống ẩm trong vận chuyển | 0,10-0,30 |
 | 6 | Nhãn sản phẩm (QR + S/N + CE) | ISO 22742 | Truy xuất nguồn gốc | 0,05-0,15 |
 
-### 4.14.4. Tổng hợp Chi phí Nguyên Vật Liệu (Steady-state Y12+)
+### 4.14.4. Tổng hợp Chi phí Nguyên Vật Liệu (Ổn định Y12+)
 
 | Nhóm NVL | M USD/năm | % COGS | Ghi chú |
 |---|---:|---:|---|
@@ -1116,15 +1116,15 @@ Do V3 không vận hành Datacenter thương mại, triết lý thiết kế h�
 
 | Nhóm NVL | Mức tồn kho mục tiêu | Phương pháp | Lý do |
 |---|---|---|---|
-| IC/SoC critical | 8-12 tuần safety stock | MRP + Buffer stock | Lead time dài, single-source risk |
+| IC/SoC critical | 8-12 tuần safety stock | MRP + Buffer stock | Thời gian dẫn dài, single-source risk |
 | Passive/Connector | 4-6 tuần | Kanban + VMI | Multi-source, dễ bổ sung |
-| PCB | 3-4 tuần (production), JIT (proto) | MRP | Cân đối cost vs. lead time |
-| Kim loại (nhôm, thép) | 2-4 tuần | Hợp đồng khung quý | Nội địa, lead time ngắn |
+| PCB | 3-4 tuần (production), JIT (proto) | MRP | Cân đối cost vs. thời gian dẫn |
+| Kim loại (nhôm, thép) | 2-4 tuần | Hợp đồng khung quý | Nội địa, thời gian dẫn ngắn |
 | Dụng cụ cắt | 4-6 tuần | Tool vending machine | Tự động reorder |
 | LiDAR/Camera | 6-8 tuần | PO theo lô, dual-source | Công nghệ cao, ít NCC |
 | Thành phẩm | 2-3 tuần | Make-to-order (CNC), ATO (IoT) | Giảm vốn lưu động |
 
-> **Giá trị tồn kho trung bình (Y12+):** ~0,50-0,70M USD = ~14-19% COGS/năm. Quay vòng tồn kho mục tiêu: 5-7 vòng/năm. ERP (SAP B1/Odoo) quản lý MRP, BOM explosion, AVL, và PO approval workflow [B].
+> **Giá trị tồn kho trung bình (Y12+):** ~0,50-0,70M USD = ~14-19% COGS/năm. Quay vòng tồn kho mục tiêu: 5-7 vòng/năm. ERP (SAP B1/Odoo) quản lý MRP, BOM explosion, AVL, và quy trình phê duyệt [B].
 
 ### 4.14.6. Tỷ lệ Nội địa hóa và Lộ trình Localization
 
@@ -1511,7 +1511,7 @@ Hạ tầng kỹ thuật V3 được thiết kế cho **3 công trình riêng bi
 | --- | --- |
 | **NVL CNC** | 80-100 tấn kim loại/năm (chủ yếu Al 6061-T6); dụng cụ cắt 138-210K USD/năm (§4.14.2) |
 | **NVL Điện tử** | 50.000 board/năm BOM; dual-sourcing 100% linh kiện critical (§4.14.3) |
-| **COGS NVL steady-state** | 3,60M USD/năm = 30% doanh thu 12,00M [C] (§4.14.4) |
+| **COGS NVL ổn định** | 3,60M USD/năm = 30% doanh thu 12,00M [C] (§4.14.4) |
 | **Nội địa hóa** | 25-30% (Y4) → 50-60% (Y10+) (§4.14.6) |
 | **Quy trình CNC** | 10 bước, 5 QC gates, ISO 9001:2015, dung sai ≤ 5 µm (§4.15.2) |
 | **Quy trình SMT** | 12 bước, 7 QC gates, IPC-A-610, yield ≥ 98% (§4.15.3) |

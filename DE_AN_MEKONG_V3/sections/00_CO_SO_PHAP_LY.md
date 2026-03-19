@@ -19,7 +19,7 @@
 | 9 | Luật 57/2024/QH15 | 57/2024/QH15 | 2024 | Khoản 8 Điều 2: bổ sung Điều 36a (thủ tục đầu tư đặc biệt tại KCNC) |
 | 10 | Luật 90/2025/QH15 | 90/2025/QH15 | 2025 | Điểm c khoản 13 Điều 6: bổ sung quy định thủ tục đầu tư đặc biệt |
 
-> **Ghi chú V3:** Luật Viễn thông 24/2023/QH15 KHÔNG áp dụng cho V3 vì Datacenter chỉ phục vụ nội bộ (không kinh doanh dịch vụ viễn thông/colocation thương mại). Đây là điểm khác biệt quan trọng so với phương án V2 (32M) vốn có cấu phần DC thương mại.
+> **Ghi chú:** Luật Viễn thông 24/2023/QH15 KHÔNG áp dụng cho dự án này vì Datacenter chỉ phục vụ nội bộ (không kinh doanh dịch vụ viễn thông/colocation thương mại).
 
 ## 2. Nghị định và Quyết định
 
@@ -46,11 +46,11 @@
 | 24 | Quy chế nội bộ Ban Quản lý KCNC TP.HCM | Quy trình thẩm định, tiêu chí nhà đầu tư, sử dụng đất |
 | 25 | Thông báo SHTP ngày 08/01/2026 về Danh mục dự án thu hút đầu tư 2026 | Công bố tiêu chí bắt buộc theo NĐ 10/2024 + tiêu chí ưu tiên Net Zero, Năng lượng tái tạo, R&D |
 
-> Thông báo SHTP 2026 yêu cầu dự án phải đáp ứng **đồng thời** các Điều 28-33 NĐ 10/2024/NĐ-CP. Mekong V3 thuộc **đồng thời** Điều 29 (R&D CNC) và Điều 31 (SX sản phẩm CNC), đã được phân tích tại `CAP_NHAT_THONG_BAO_SHTP_2026.md` và tại P6 §6.1.
+> Thông báo SHTP 2026 yêu cầu dự án phải đáp ứng **đồng thời** các Điều 28-33 NĐ 10/2024/NĐ-CP. Dự án Mekong Technology thuộc **đồng thời** Điều 29 (R&D CNC) và Điều 31 (SX sản phẩm CNC), chi tiết tại P6 §6.1.
 
-## 4. Đối chiếu V3 với Tiêu chí NĐ 10/2024/NĐ-CP
+## 4. Đối chiếu Dự án với Tiêu chí NĐ 10/2024/NĐ-CP
 
-| Điều | Nội dung | Áp dụng cho V3? | Chứng cứ |
+| Điều | Nội dung | Áp dụng | Chứng cứ |
 |---|---|:---:|---|
 | Điều 28 | Hoạt động CNC trong KCNC | Toàn dự án | 2 trụ cột thuộc công nghệ cao |
 | Điều 29 | Dự án R&D CNC | BU1 (IoT/BMS/Robot) | R&D ≥ 8% doanh thu [C] |
@@ -59,7 +59,7 @@
 | Điều 32 | Cung ứng dịch vụ CNC | Không áp dụng | — |
 | Điều 33 | Đào tạo nhân lực CNC | Không áp dụng | — |
 
-## 5. Ma trận Áp dụng Pháp lý — V3 (2 Trụ cột + DC Nội bộ)
+## 5. Ma trận Áp dụng Pháp lý (2 Trụ cột + DC Nội bộ)
 
 | Văn bản | IoT/BMS/Robot | CNC/MPMC | DC Nội bộ | Phạm vi |
 |---|:---:|:---:|:---:|---|
@@ -75,7 +75,7 @@
 
 ## 6. Ưu đãi Đầu tư Áp dụng
 
-| Ưu đãi | Cơ sở pháp lý | Giá trị cho V3 |
+| Ưu đãi | Cơ sở pháp lý | Giá trị áp dụng |
 |---|---|---|
 | Thuế TNDN 10% trong 15 năm | Luật Thuế TNDN, NĐ 218/2013 | Giảm 50% so với thuế suất phổ thông 20% |
 | Miễn thuế TNDN 4 năm + giảm 50% trong 9 năm | NĐ 218/2013, NĐ 94/2020 | Thuế thực tế 0% bốn năm đầu, 5% chín năm tiếp |
@@ -83,17 +83,17 @@
 | Miễn thuế nhập khẩu thiết bị | Luật Đầu tư, Điều 33 | Áp dụng cho CNC, SMT, DC equipment |
 | Hỗ trợ đào tạo nhân lực CNC | Quy chế KCNC | Hỗ trợ một phần chi phí đào tạo |
 
-## 7. Phạm vi Pháp lý Không Áp dụng cho V3
+## 7. Phạm vi Pháp lý Không Áp dụng
 
-| Nội dung pháp lý | Lý do loại bỏ so với V2 |
+| Nội dung pháp lý | Lý do không áp dụng |
 |---|---|
 | GP Viễn thông (Luật 24/2023) | DC nội bộ, không colocation thương mại |
-| Tiêu chuẩn Tier III/IV (Uptime Institute) | Chỉ áp dụng DC thương mại |
+| Tiêu chuẩn Tier III/IV (Thời gian hoạt động Institute) | Chỉ áp dụng DC thương mại |
 | GP kinh doanh dịch vụ CNTT | Không bán dịch vụ DC, không GPU-aaS |
 | Quy hoạch tần số | Không phát sóng viễn thông |
 
-> Việc loại bỏ các nghĩa vụ pháp lý trên là hệ quả trực tiếp của quyết định chuyển DC từ mô hình thương mại (V2) sang nội bộ (V3), giúp giảm đáng kể rủi ro cấp phép và thời gian chuẩn bị hồ sơ.
+> Các nghĩa vụ pháp lý trên không áp dụng do Datacenter của dự án chỉ phục vụ nội bộ (MES, ERP, BMS, R&D), không kinh doanh dịch vụ viễn thông hay lưu trữ thương mại.
 
-## 8. Kết luận Pháp lý V3
+## 8. Kết luận Pháp lý
 
 Cả 2 trụ cột đều nằm trong phạm vi hoạt động được phép tại KCNC theo Luật Công nghệ cao 2008, QĐ 38/2020, và NĐ 10/2024/NĐ-CP (Điều 29 — R&D CNC và Điều 31 — Sản xuất sản phẩm CNC). Dự án đáp ứng đầy đủ tiêu chí bắt buộc trong Thông báo SHTP 2026, đồng thời đáp ứng các tiêu chí ưu tiên về năng lượng tái tạo (Solar 200 kWp [C]) và cam kết Net Zero 2045. Datacenter chỉ phục vụ nội bộ, không cần giấy phép viễn thông. Chiến lược triển khai chi tiết tại [Phần VI](P6_PHAP_LY_MOI_TRUONG.md) và [Phụ lục D](PHU_LUC.md#phụ-lục-d-khung-pháp-lý-và-giấy-phép-chi-tiết).

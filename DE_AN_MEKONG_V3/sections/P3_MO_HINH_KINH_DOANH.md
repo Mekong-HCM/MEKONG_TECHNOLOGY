@@ -19,7 +19,7 @@ Mekong Technology vận hành mô hình doanh thu đa dạng từ **2 trụ cộ
 | # | Nguồn | Trụ cột | Mô hình | Tỷ trọng Y12+ |
 |:---:|---|:---:|---|---:|
 | 4 | MekongOS SaaS | BU1 | Thuê bao tháng/năm | 6% |
-| 5 | MekongBMS License + SaaS | BU1 | License + subscription hosting | 6% |
+| 5 | MekongBMS License + SaaS | BU1 | License + thuê bao lưu trữ | 6% |
 
 ### Nhóm 3: Doanh thu Components (OEM/ODM)
 
@@ -50,7 +50,7 @@ Mekong Technology vận hành mô hình doanh thu đa dạng từ **2 trụ cộ
 | Y10 | 7,80 | 3,20 | **11,00** |
 | Y12+ | 8,50 | 3,50 | **12,00** |
 
-> Doanh thu Y4 = 1,00M (IoT khai trương), Y8 = 8,70M, steady-state Y12+ = 12,00M USD/năm. Doanh thu 15Y tích lũy: ~140M USD [C].
+> Doanh thu Y4 = 1,00M (IoT khai trương), Y8 = 8,70M, ổn định Y12+ = 12,00M USD/năm. Doanh thu 15Y tích lũy: ~140M USD [C].
 
 ---
 
@@ -129,18 +129,18 @@ Mekong Technology vận hành mô hình doanh thu đa dạng từ **2 trụ cộ
 
 ---
 
-## 3.5. Chiến lược Giá Chi tiết (Pricing Strategy)
+## 3.5. Chiến lược Giá Chi tiết (Chiến lược Định giá)
 
 ### 3.5.1. Nguyên tắc Định giá
 
-1. **Cost-Plus Baseline:** Giá sàn = chi phí biến đổi + phân bổ cố định + biên lợi nhuận tối thiểu 15%
-2. **Value-Based Ceiling:** Giá trần theo willingness-to-pay, benchmark đối thủ khu vực
+1. **Cost-Plus Mức cơ sở:** Giá sàn = chi phí biến đổi + phân bổ cố định + biên lợi nhuận tối thiểu 15%
+2. **Value-Based Ceiling:** Giá trần theo willingness-to-pay, chuẩn ngành đối thủ khu vực
 3. **Penetration Entry:** Y4-Y5 giá thâm nhập thấp hơn 10-15% thị trường
 4. **Premium Upsell:** Từ Y6+ sau khi có chứng nhận ISO 9001, nâng giá ngang hoặc cao hơn 5-10%
 
 ### 3.5.2. Bảng Giá BU1 — IoT/Robot
 
-| Sản phẩm | Giá Bán (USD) | COGS (USD) | Biên Gộp | Benchmark | Chiến lược |
+| Sản phẩm | Giá Bán (USD) | COGS (USD) | Biên Gộp | Chuẩn ngành | Chiến lược |
 |---|---:|---:|:---:|---|---|
 | MK-200 (cơ bản) | 350-450 | 190 | 48-51% | Advantech: 500-700 | Thấp hơn 30% → thâm nhập |
 | MK-300 (nâng cao) | 650-850 | 320-400 | 50-53% | Cisco IR1101: 900-1.200 | Thấp hơn 25% |
@@ -154,7 +154,7 @@ Mekong Technology vận hành mô hình doanh thu đa dạng từ **2 trụ cộ
 
 ### 3.5.3. Bảng Giá BU2 — CNC Outsourcing
 
-| Dịch vụ | Đơn giá (USD) | Chi phí (USD) | Biên Gộp | Benchmark |
+| Dịch vụ | Đơn giá (USD) | Chi phí (USD) | Biên Gộp | Chuẩn ngành |
 |---|---:|---:|:---:|---|
 | CNC 3 trục — Nhôm | 28-40/giờ máy | 18-22 | 36-45% | VN market: 25-35 |
 | CNC 3 trục — Thép | 30-42/giờ máy | 20-25 | 33-40% | VN market: 28-38 |
@@ -166,7 +166,7 @@ Mekong Technology vận hành mô hình doanh thu đa dạng từ **2 trụ cộ
 | Đo lường CMM (FAI) | 150-300/báo cáo | 80-150 | 47-50% | Thị trường: 200-500 |
 | Đào tạo CNC (3 tháng) | 3.000-5.000/người | 1.500-2.500 | 50% | DMG MORI: 8.000-12.000 |
 
-> Biên gộp CNC trung bình: 35-42%. V3 có thêm Wire EDM và Surface Grinder — tăng khả năng tự chủ xử lý bề mặt, giảm outsource [C].
+> Biên gộp CNC trung bình: 35-42%. V3 có thêm Wire EDM và Surface Grinder — tăng khả năng tự chủ xử lý bề mặt, giảm thuê ngoài [C].
 
 **Lộ trình Giá CNC:**
 
@@ -203,7 +203,7 @@ Mekong Technology vận hành mô hình doanh thu đa dạng từ **2 trụ cộ
 | COGS/năm | 156 USD | Cloud + Support |
 | **Gross Margin/năm** | **792 USD (83,5%)** | SaaS margin cao |
 | Customer Acquisition Cost (CAC) | 500 USD | Digital marketing + Sales |
-| Payback Period | 7,6 tháng | CAC / Monthly Contribution |
+| Thời gian hoàn vốn | 7,6 tháng | CAC / Monthly Contribution |
 | Lifetime Value (LTV, 3 năm) | 2.376 USD | 3 × 792 |
 | **LTV/CAC** | **4,8×** | > 3× là tốt cho SaaS [C] |
 
@@ -219,7 +219,7 @@ Mekong Technology vận hành mô hình doanh thu đa dạng từ **2 trụ cộ
 
 ### 3.6.4. OEE máy CNC (10 máy V3)
 
-| Chỉ số | Y4 | Y6 | Y8 | Y12+ | Benchmark |
+| Chỉ số | Y4 | Y6 | Y8 | Y12+ | Chuẩn ngành |
 |---|---:|---:|---:|---:|---|
 | Availability | 80% | 85% | 90% | 92% | World-class: 90% |
 | Performance | 75% | 80% | 85% | 88% | World-class: 95% |
@@ -243,7 +243,7 @@ Mekong Technology vận hành mô hình doanh thu đa dạng từ **2 trụ cộ
 | Quốc gia | Nhu cầu CNC | Ngành chính | Lợi thế Mekong | Ưu tiên |
 |---|---|---|---|:---:|
 | **Thái Lan** | Cao | Ô tô (2.500+ NSX) | Giá thấp hơn 10-15%, FTA 0% | ★★★★★ |
-| **Singapore** | Thấp (outsource) | Bán dẫn, Aerospace | Gần (2h bay), SG outsource VN | ★★★★☆ |
+| **Singapore** | Thấp (thuê ngoài) | Bán dẫn, Aerospace | Gần (2h bay), SG thuê ngoài VN | ★★★★☆ |
 | **Malaysia** | Trung bình-Cao | Bán dẫn, E&E | Giá cạnh tranh, gần Penang | ★★★☆☆ |
 | **Indonesia** | Trung bình | Ô tô, Đóng tàu | Market 280M dân, chi phí VN thấp | ★★★☆☆ |
 
@@ -261,7 +261,7 @@ Mekong Technology vận hành mô hình doanh thu đa dạng từ **2 trụ cộ
 
 ---
 
-## 3.8. Pipeline Khách hàng CNC (Pre-operation)
+## 3.8. Chuỗi đơn hàng Khách hàng CNC (Pre-operation)
 
 | # | Khách hàng | Ngành | Sản phẩm cần gia công | Xác suất | Revenue/năm (K USD) |
 |:---:|---|---|---|:---:|---:|
@@ -274,7 +274,7 @@ Mekong Technology vận hành mô hình doanh thu đa dạng từ **2 trụ cộ
 | 7 | FDI Hàn (qua KOTRA) | Điện tử | Bracket, chassis | 25% | 80-150 |
 | | **Weighted Total** | | | | **~700K** |
 
-> Weighted pipeline CNC ~700K/năm — đủ để đạt target Y4 CNC = 0,50M khi tính thêm khách hàng ngoài pipeline [A].
+> Weighted chuỗi đơn hàng CNC ~700K/năm — đủ để đạt target Y4 CNC = 0,50M khi tính thêm khách hàng ngoài chuỗi đơn hàng [A].
 
 ---
 
@@ -331,10 +331,10 @@ Mekong Technology vận hành mô hình doanh thu đa dạng từ **2 trụ cộ
 | Y8 | 6,20 | 2,50 | 8,70 | Robot bắt đầu bán tốt |
 | Y9 | 7,00 | 3,00 | 10,00 | Tiếp cận 80% công suất |
 | Y10 | 7,80 | 3,20 | 11,00 | Ổn định |
-| Y12+ | 8,50 | 3,50 | 12,00 | Steady-state |
+| Y12+ | 8,50 | 3,50 | 12,00 | Ổn định |
 | **Tổng 15Y** | **~100** | **~40** | **~140** | [C] |
 
-**Xu hướng chiến lược:** BU1 (IoT/BMS/Robot) tăng tỷ trọng nhờ recurring revenue (SaaS compound). BU2 (CNC) ổn định — backbone cash flow. Mô hình V3 đơn giản hơn V2 nhưng ít rủi ro hơn do tập trung nguồn lực [A].
+**Xu hướng chiến lược:** BU1 (IoT/BMS/Robot) tăng tỷ trọng nhờ recurring revenue (SaaS compound). BU2 (CNC) ổn định — backbone dòng tiền. Mô hình V3 đơn giản hơn V2 nhưng ít rủi ro hơn do tập trung nguồn lực [A].
 
 ---
 
@@ -350,7 +350,7 @@ Mekong Technology vận hành mô hình doanh thu đa dạng từ **2 trụ cộ
 | Q4 (Oct–Dec) | 1,10× | 1,15× | 1,12× | Xả ngân sách cuối năm, FDI chốt PO trước Noel |
 | **Tổng 4 quý** | **4,00×** | **4,00×** | **4,00×** | Bình quân = 1,00× |
 
-> **Ghi chú:** Hệ số mùa vụ (×) là thừa số nhân với doanh thu quý bình quân. Ví dụ: Y12+ steady-state 12,00M/năm → quý bình quân = 3,00M. Q4 đạt 3,00M × 1,12 = 3,36M. Q1 = 3,00M × 0,83 = 2,49M. Biên độ dao động ±17% — nằm trong khả năng quản lý vốn lưu động [A].
+> **Ghi chú:** Hệ số mùa vụ (×) là thừa số nhân với doanh thu quý bình quân. Ví dụ: Y12+ ổn định 12,00M/năm → quý bình quân = 3,00M. Q4 đạt 3,00M × 1,12 = 3,36M. Q1 = 3,00M × 0,83 = 2,49M. Biên độ dao động ±17% — nằm trong khả năng quản lý vốn lưu động [A].
 
 ### 3.12.2. Tác động đến Dòng tiền
 
@@ -368,14 +368,14 @@ Mekong Technology vận hành mô hình doanh thu đa dạng từ **2 trụ cộ
 |---|---|---|
 | Hợp đồng BMS bảo trì hàng năm (recurring) | BU1 | Đều đặn 12 tháng, giảm biên độ Q1 |
 | MekongOS SaaS thu phí tháng | BU1 | Doanh thu đều, không theo mùa |
-| Chạy CNC outsource (giờ máy) khi rảnh Q1 | BU2 | Tận dụng công suất thấp điểm |
+| Chạy CNC thuê ngoài (giờ máy) khi rảnh Q1 | BU2 | Tận dụng công suất thấp điểm |
 | Ưu đãi đặt hàng sớm Q1 (chiết khấu 3-5%) | BU2 | Kéo doanh thu từ Q2 về Q1 |
 
 ---
 
 ## 3.13. OPEX Dự kiến theo Trụ cột
 
-### 3.13.1. Phân bổ OPEX theo BU (Steady-state Y12+)
+### 3.13.1. Phân bổ OPEX theo BU (Ổn định Y12+)
 
 | Hạng mục | BU1 (M/năm) | % DT BU1 | BU2 (M/năm) | % DT BU2 | Tổng (M/năm) | % DT Tổng |
 |---|---:|---:|---:|---:|---:|---:|
@@ -419,7 +419,7 @@ Mekong Technology vận hành mô hình doanh thu đa dạng từ **2 trụ cộ
 
 ---
 
-## 3.14. Lộ trình Phát triển Sản phẩm (Product Roadmap)
+## 3.14. Lộ trình Phát triển Sản phẩm (Product Lộ trình)
 
 ### 3.14.1. Giai đoạn theo Năm
 
@@ -428,10 +428,10 @@ Mekong Technology vận hành mô hình doanh thu đa dạng từ **2 trụ cộ
 | **Seed** | Y1–Y3 | IoT Gateway MK-200 v1, MekongBMS alpha | Setup 4 máy CNC đầu tiên | Chạy thử, lấy phản hồi |
 | **Launch** | Y4 | MK-200 v2 (Modbus+BACnet), MekongBMS v1, MK-EIO | CNC 7/10 máy chạy, khung Robot MVP | Doanh thu 1,00M [C] |
 | **Scale** | Y5–Y6 | MK-300 (WiFi+4G), Robot AMR v1, MekongOS SaaS | CNC 10/10 máy, Jig/Fixture mở rộng | Doanh thu 2,50–4,50M [C] |
-| **Expand** | Y7–Y9 | Robot AGV v1, AI Predictive Maintenance, OEM ramp | FDI part đa dạng, outsource CNC giờ | Doanh thu 6,70–10,00M [C] |
-| **Mature** | Y10+ | MekongBMS Enterprise, Robot v3 (AI navigation) | CNC precision parts export ASEAN | Steady-state 12,00M [C] |
+| **Expand** | Y7–Y9 | Robot AGV v1, AI Predictive Maintenance, OEM ramp | FDI part đa dạng, thuê ngoài CNC giờ | Doanh thu 6,70–10,00M [C] |
+| **Mature** | Y10+ | MekongBMS Enterprise, Robot v3 (AI navigation) | CNC precision parts export ASEAN | Ổn định 12,00M [C] |
 
-### 3.14.2. Pipeline Sản phẩm Mới (Y5–Y8)
+### 3.14.2. Chuỗi đơn hàng Sản phẩm Mới (Y5–Y8)
 
 | Sản phẩm | BU | Năm dự kiến | DT tiềm năng (M/năm) | Rủi ro | Đầu tư R&D |
 |---|:---:|:---:|---:|:---:|---|
@@ -444,15 +444,15 @@ Mekong Technology vận hành mô hình doanh thu đa dạng từ **2 trụ cộ
 | OEM batch production | BU1 | Y6 | 1,10 | Thấp | 100K (SMT setup) |
 | **Tổng DT tiềm năng** | | | **3,80** | | **900K** |
 
-> ROI R&D pipeline: 3,80M DT tiềm năng / 0,90M đầu tư = **4,2×** — hấp dẫn. Ưu tiên sản phẩm rủi ro thấp-trung bình trước (MK-300, OEM, SaaS) [A].
+> ROI R&D chuỗi đơn hàng: 3,80M DT tiềm năng / 0,90M đầu tư = **4,2×** — hấp dẫn. Ưu tiên sản phẩm rủi ro thấp-trung bình trước (MK-300, OEM, SaaS) [A].
 
 ### 3.14.3. Cấu trúc Hợp đồng Thương mại theo Nhóm Doanh thu
 
 | Nhóm doanh thu | Cấu trúc hợp đồng | Điều khoản thanh toán | Mục tiêu quản trị |
 |---|---|---|---|
 | Bán Gateway / DDC / GW | PO + SLA bảo hành | 50% đặt cọc, 50% trước giao hàng hoặc Net 30 | Hạn chế công nợ với KH mới |
-| MekongOS SaaS / BMS hosting | Subscription 12-36 tháng | Thu trước theo quý/năm | Tăng recurring cash flow |
-| Robot AMR/AGV | Hợp đồng dự án + FAT/SAT | 30% đặt cọc, 40% FAT, 20% SAT, 10% retention | Khóa dòng tiền theo milestone |
+| MekongOS SaaS / BMS lưu trữ | Thuê bao 12-36 tháng | Thu trước theo quý/năm | Tăng recurring dòng tiền |
+| Robot AMR/AGV | Hợp đồng dự án + FAT/SAT | 30% đặt cọc, 40% FAT, 20% SAT, 10% retention | Khóa dòng tiền theo mốc tiến độ |
 | CNC B2B | Supply agreement 1-3 năm + call-off PO | Net 30-60 sau FAI pass | Ổn định utilization máy |
 | OEM/ODM điện tử | NRE + Pilot + Mass Production | 40% NRE upfront, phần còn lại theo EVT/DVT/PVT | Không để R&D treo vốn |
 | Bảo trì / AMC | Hợp đồng 12 tháng gia hạn | Thu trước 6-12 tháng | Doanh thu ít mùa vụ |
@@ -501,7 +501,7 @@ Mekong Technology vận hành mô hình doanh thu đa dạng từ **2 trụ cộ
 2. **Technical qualification:** presales + application engineering đánh giá fit sản phẩm.
 3. **Commercial qualification:** kiểm tra GM, CAC, rủi ro công nợ, mức độ customization.
 4. **Pilot / quotation:** ưu tiên pilot trả phí thay vì PoC miễn phí kéo dài.
-5. **Conversion:** chuyển sang MSA / supply agreement / subscription agreement.
+5. **Conversion:** chuyển sang MSA / supply agreement / thuê bao agreement.
 6. **Expansion:** cross-sell từ CNC sang IoT/BMS và ngược lại.
 
 > Mô hình funnel này phù hợp doanh nghiệp công nghệ công nghiệp B2B, nơi presales và application engineering quyết định phần lớn xác suất chốt deal chứ không chỉ marketing thuần túy [B].
@@ -512,7 +512,7 @@ Mekong Technology vận hành mô hình doanh thu đa dạng từ **2 trụ cộ
 
 | | **Tích cực** | **Tiêu cực** |
 |---|---|---|
-| **Nội bộ** | **Strengths:** Full-stack (HW+SW+CNC), tích hợp dọc, biên gộp ~46%, 2 BU synergy ~2,00M NPV, vị trí KCNC TP.HCM, R&D 6,00M/10yr | **Weaknesses:** Thương hiệu mới, chưa có track record sản xuất, phụ thuộc import IC 85%, đội sales nhỏ giai đoạn đầu, cash conversion cycle dài |
+| **Nội bộ** | **Strengths:** Full-stack (HW+SW+CNC), tích hợp dọc, biên gộp ~46%, 2 BU synergy ~2,00M NPV, vị trí KCNC TP.HCM, R&D 6,00M/10yr | **Weaknesses:** Thương hiệu mới, chưa có thành tích đã kiểm chứng sản xuất, phụ thuộc import IC 85%, đội sales nhỏ giai đoạn đầu, cash conversion cycle dài |
 | **Bên ngoài** | **Opportunities:** Smart Factory VN tăng 25%/năm, FDI dịch chuyển từ TQ, NĐ 76 ưu đãi CNC, BMS/SCADA VN 50→500M USD 2024-2030, ASEAN IoT gateway market | **Threats:** Cạnh tranh giá TQ, chip shortage, biến động tỷ giá, thay đổi chính sách ưu đãi CNC, key person risk R&D |
 
 #### B. Chiến lược SO-ST-WO-WT
@@ -521,7 +521,7 @@ Mekong Technology vận hành mô hình doanh thu đa dạng từ **2 trụ cộ
 |---|---|:---:|
 | **SO: Tấn công** | Tận dụng full-stack + FDI dịch chuyển để chiếm phân khúc mid-tier BMS/CNC | P1 |
 | **SO: Mở rộng** | Dùng synergy 2 BU để cross-sell robot + IoT cho khách CNC | P1 |
-| **WO: Khắc phục** | Xây dựng reference case 3-5 KH đầu tiên tại KCNC để bù "thiếu track record" | P1 |
+| **WO: Khắc phục** | Xây dựng reference case 3-5 KH đầu tiên tại KCNC để bù "thiếu thành tích đã kiểm chứng" | P1 |
 | **WO: Phòng ngừa** | Diversify nhà cung cấp IC (dual-source AVL) qua DigiKey + Mouser + Arrow | P2 |
 | **ST: Phản ứng** | Không cạnh tranh giá thuần với TQ — tập trung giá trị tích hợp + hậu mãi + localization | P1 |
 | **ST: Bảo vệ** | Equity incentive + cross-training để giảm key person risk | P2 |
@@ -542,20 +542,20 @@ Mekong Technology vận hành mô hình doanh thu đa dạng từ **2 trụ cộ
 | 8 | Full product portfolio + ASEAN export pilot | +1,00 | 11,00 |
 | 9 | Recurring base tích lũy + expansion revenue | +1,00 | **12,00** |
 
-> Revenue bridge cho thấy không có "bước nhảy phi thực tế" — mỗi bước tăng 1,0-1,5M USD, phù hợp quy mô tổ chức 100-130 nhân sự và 14 nhóm sản phẩm. Rủi ro lớn nhất tập trung ở bước 3 (robot) và bước 4 (BMS) — hai dòng sản phẩm mới chưa có track record thương mại [A].
+> Revenue bridge cho thấy không có "bước nhảy phi thực tế" — mỗi bước tăng 1,0-1,5M USD, phù hợp quy mô tổ chức 100-130 nhân sự và 14 nhóm sản phẩm. Rủi ro lớn nhất tập trung ở bước 3 (robot) và bước 4 (BMS) — hai dòng sản phẩm mới chưa có thành tích đã kiểm chứng thương mại [A].
 
 ### 3.14.8. Chiến lược Giá Đặc biệt theo Giai đoạn Phát triển
 
 | Giai đoạn | Chiến lược giá | Áp dụng cho | Lý do |
 |---|---|---|---|
-| **Y4-Y5 (Launch)** | Penetration pricing: giảm 10-15% so với ASP target | IoT Gateway, BMS pilot | Xây dựng installed base, lấy reference |
+| **Y4-Y5 (Launch)** | Giá thâm nhập thị trường: giảm 10-15% so với ASP target | IoT Gateway, BMS pilot | Xây dựng installed base, lấy reference |
 | **Y4-Y5 (Launch)** | Cost-plus 25% (thấp) | CNC parts FDI | Chiếm volume, chứng minh chất lượng |
-| **Y5-Y7 (Scale)** | Value-based pricing | BMS SI project, Robot | Giá dựa trên tiết kiệm năng lượng / ROI KH |
+| **Y5-Y7 (Scale)** | Định giá theo giá trị | BMS SI project, Robot | Giá dựa trên tiết kiệm năng lượng / ROI KH |
 | **Y6-Y8 (Scale)** | Freemium → Premium | MekongOS SaaS | 50 device miễn phí → nâng cấp trả phí |
-| **Y7+ (Mature)** | Standard pricing + volume discount | Tất cả | Bảng giá niêm yết, discount theo cam kết volume |
+| **Y7+ (Mature)** | Standard định giá + volume discount | Tất cả | Bảng giá niêm yết, discount theo cam kết volume |
 | **Y8+ (Export)** | Market parity + localization premium | ASEAN CNC | Giá ngang thị trường + dịch vụ địa phương |
 
-> **Tín hiệu quan trọng:** Chiến lược penetration pricing giai đoạn đầu sẽ ảnh hưởng biên gộp Y4-Y5 (có thể thấp hơn 46% target 3-5%). Đây là đánh đổi có chủ đích — ưu tiên installed base và reference case hơn profit margin ngắn hạn. Từ Y6 trở đi, chuyển sang value-based pricing để phục hồi biên [A].
+> **Tín hiệu quan trọng:** Chiến lược giá thâm nhập thị trường giai đoạn đầu sẽ ảnh hưởng biên gộp Y4-Y5 (có thể thấp hơn 46% target 3-5%). Đây là đánh đổi có chủ đích — ưu tiên installed base và reference case hơn profit margin ngắn hạn. Từ Y6 trở đi, chuyển sang định giá theo giá trị để phục hồi biên [A].
 
 ### 3.14.9. Quản trị Churn và Customer Success
 
@@ -565,7 +565,7 @@ Mekong Technology vận hành mô hình doanh thu đa dạng từ **2 trụ cộ
 | **Logo Churn Rate** (SaaS) | ≤ 10%/năm | Onboarding chất lượng, health score giám sát |
 | **GRR (Gross Revenue Retention)** | ≥ 90% | Support SLA, QBR định kỳ |
 | **CSAT (Customer Satisfaction)** | ≥ 4,2/5 | Survey sau triển khai + hàng quý |
-| **CNC repeat order rate** | ≥ 70% | Chất lượng nhất quán, lead time đúng hẹn |
+| **CNC repeat order rate** | ≥ 70% | Chất lượng nhất quán, thời gian dẫn đúng hẹn |
 | **Thời gian phản hồi support** | ≤ 4 giờ (SaaS), ≤ 24 giờ (HW) | Tiered support model |
 
 #### Mô hình Customer Success Team
@@ -590,15 +590,15 @@ Mekong Technology vận hành mô hình doanh thu đa dạng từ **2 trụ cộ
 |---|---:|:---:|
 | Số trụ cột kinh doanh | 2 | [C] |
 | Số nguồn doanh thu | 9 (4 nhóm) | [C] |
-| Doanh thu steady-state | 12,00M USD/năm | [C] |
+| Doanh thu ổn định | 12,00M USD/năm | [C] |
 | BU1 tỷ trọng | 70,8% (8,50M) | [C] |
 | BU2 tỷ trọng | 29,2% (3,50M) | [C] |
 | EBITDA margin | ~30% | [C] |
 | Doanh thu tích lũy 15Y | ~140M USD | [C] |
 | Số segment khách hàng | 5 tầng | [B] |
-| CNC pipeline weighted | ~700K/năm | [B] |
+| CNC chuỗi đơn hàng weighted | ~700K/năm | [B] |
 | LTV/CAC cao nhất (MekongOS) | 35× | [B] |
 | ASEAN export (Y8+) | 15–20% DT BU2 | [A] |
-| Product pipeline ROI | 4,2× | [A] |
+| Product chuỗi đơn hàng ROI | 4,2× | [A] |
 
-> **Kết luận Phần III:** Mô hình kinh doanh V3 với 9 nguồn doanh thu từ 2 trụ cột tạo cấu trúc doanh thu cân đối (BU1: 71%, BU2: 29%). Pipeline CNC weighted ~700K/năm và LTV/CAC cao (4,8–35×) cho thấy khả năng thương mại hóa tốt. OPEX phân bổ hợp lý giữa 2 BU — BU1 biên cao hơn nhờ phần mềm, BU2 ổn định nhờ CNC. Tính mùa vụ dao động ±17%, trong khả năng quản lý vốn lưu động 2,00M. Doanh thu steady-state 12,00M USD/năm, tổng 15Y ~140M USD — đủ cơ sở cho NPV 1,50M USD và IRR 13,0% [C].
+> **Kết luận Phần III:** Mô hình kinh doanh V3 với 9 nguồn doanh thu từ 2 trụ cột tạo cấu trúc doanh thu cân đối (BU1: 71%, BU2: 29%). Chuỗi đơn hàng CNC weighted ~700K/năm và LTV/CAC cao (4,8–35×) cho thấy khả năng thương mại hóa tốt. OPEX phân bổ hợp lý giữa 2 BU — BU1 biên cao hơn nhờ phần mềm, BU2 ổn định nhờ CNC. Tính mùa vụ dao động ±17%, trong khả năng quản lý vốn lưu động 2,00M. Doanh thu ổn định 12,00M USD/năm, tổng 15Y ~140M USD — đủ cơ sở cho NPV 1,50M USD và IRR 13,0% [C].

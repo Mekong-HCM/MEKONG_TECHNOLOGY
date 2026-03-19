@@ -1,0 +1,33 @@
+flowchart TD
+    subgraph BU1["Trụ cột 1 — Điện tử Thông minh"]
+        A1[IoT Gateway<br/>MK-200/300]
+        A2[Robot AMR/AGV]
+        A3[BMS/SCADA<br/>MekongBMS]
+        A4[MekongOS<br/>IoT Platform]
+    end
+
+    subgraph BU2["Trụ cột 2 — CNC/MPMC"]
+        B1[CNC 5+3 trục<br/>10 máy, 1.800 m² T1]
+        B2[QA/QC Lab<br/>CMM Hexagon]
+        B3[Chứng nhận<br/>ISO 9001:2015]
+    end
+
+    subgraph INFRA["Hạ tầng Nội bộ"]
+        C1[Server Room<br/>5-8 Rack]
+        C2[MES/ERP<br/>Hệ thống quản lý]
+        C3[AI Training<br/>Robot SLAM]
+    end
+
+    B1 -->|Khung/vỏ Robot| A2
+    C3 -->|Huấn luyện AI SLAM| A2
+    A4 -->|Giám sát hiệu suất| B1
+    C2 -->|Quản lý sản xuất| B1
+    B3 -->|Cross-sell FDI| A1
+
+    FDI["Khách hàng FDI<br/>Samsung, Intel,<br/>Bosch, Nidec"]
+    DNVN["DN Việt Nam<br/>Nhà máy, Tòa nhà,<br/>Logistics"]
+
+    B1 -->|Gia công linh kiện| FDI
+    A1 -->|Thiết bị IoT/BMS| DNVN
+    A2 -->|Robot tự hành| FDI
+    A3 -->|Giải pháp BMS| DNVN

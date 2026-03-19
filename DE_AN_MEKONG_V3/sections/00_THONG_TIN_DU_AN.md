@@ -52,7 +52,7 @@
 | Cơ khí chính xác — Tự động hóa | Trụ cột 2 (CNC) | Chế tạo linh kiện siêu chính xác (dung sai nhỏ hơn hoặc bằng 5 micromet) |
 | Hạ tầng CNTT nội bộ | Hỗ trợ | Server nội bộ, mạng, hệ thống quản lý sản xuất (KHÔNG kinh doanh DC) |
 
-> **Lưu ý quan trọng:** Theo đề xuất của Ban Quản lý KCNC TP.HCM, thành phần hạ tầng số (Datacenter) của dự án chỉ phục vụ **nội bộ** (ERP, MES, AI training cho Robot), **KHÔNG kinh doanh dịch vụ Datacenter** để tránh xung đột lợi ích với các nhà cung cấp DC hiện hữu tại KCNC (CMC, FPT). Tỷ trọng CAPEX cho hạ tầng DC nội bộ: **11,4%** (nằm trong giới hạn 10-15% theo khuyến nghị của BQL KCNC).
+> **Lưu ý quan trọng:** Theo đề xuất của Ban Quản lý KCNC TP.HCM, thành phần hạ tầng số (Datacenter) của dự án chỉ phục vụ **nội bộ** (ERP, MES, AI training cho Robot), **KHÔNG kinh doanh dịch vụ Datacenter** để tránh xung đột lợi ích với các nhà cung cấp DC hiện hữu tại KCNC (CMC, FPT). Tỷ trọng CAPEX cho hạ tầng DC nội bộ: **10,0%** (nằm trong giới hạn 10-15% theo khuyến nghị của BQL KCNC).
 
 ---
 
@@ -87,7 +87,7 @@
 | Nhân sự (ổn định) | 100 — 130 người | Từ năm 10 | [C] |
 | Thuê đất KCNC | 120.000 USD/năm | Miễn 11 năm đầu | [B] |
 
-> **Ghi chú:** Phương án 22M tập trung vào **sản xuất điện tử** (IoT/BMS/Robot) và **chế tạo cơ khí chính xác** (CNC). Hạ tầng DC chỉ phục vụ nội bộ (11,4% CAPEX). Không có doanh thu từ dịch vụ Datacenter thương mại. NPV dương nhờ doanh thu bắt đầu từ Y4, IRR = 13,0% > WACC 12% - dự án có giá trị.
+> **Ghi chú:** Phương án 22M tập trung vào **sản xuất điện tử** (IoT/BMS/Robot) và **chế tạo cơ khí chính xác** (CNC). Hạ tầng DC chỉ phục vụ nội bộ (10,0% CAPEX). Không có doanh thu từ dịch vụ Datacenter thương mại. NPV dương nhờ doanh thu bắt đầu từ Y4, IRR = 13,0% > WACC 12% - dự án có giá trị.
 
 > **Quy ước nhãn dữ liệu:** [C] = Calculated (tính toán từ mô hình tài chính); [B] = Benchmarked (tham chiếu thị trường, ghi rõ nguồn); [A] = Assumed (giả định, ghi rõ lý do).
 
@@ -119,14 +119,14 @@
 | 6 | BMS/SCADA Service & Maintenance | 1 | Bảo trì, nâng cấp, hỗ trợ kỹ thuật | Recurring | 0,40 | 70% | Phụ lục II, Mục 1.2 |
 | 7 | Robot AMR-500/1000 | 1 | LiDAR 3D, AI SLAM, tải 500-1.000 kg | 60 bộ | 1,80 | 40% | Phụ lục II, Mục 2.1 |
 | 8 | Robot AGV-500/1000 | 1 | Vision-based, tải 500-1.000 kg | 30 bộ | 0,60 | 35% | Phụ lục II, Mục 2.1 |
-| 9 | MekongOS IoT Platform (SaaS nội bộ) | 1 | Nền tảng quản lý IoT, MQTT/OPC UA | 500 thuê bao | 0,30 | 70% | Phụ lục II, Mục 1.2 |
+| 9 | MekongOS IoT Nền tảng (SaaS nội bộ) | 1 | Nền tảng quản lý IoT, MQTT/OPC UA | 500 thuê bao | 0,30 | 70% | Phụ lục II, Mục 1.2 |
 | 10 | Khung Robot AMR/AGV (nội bộ + xuất khẩu) | 2 | Nhôm 6061-T6, dung sai nhỏ hơn hoặc bằng 5 micromet, ISO 9001:2015 | 1.000 bộ khung | 0,70 | 40% | Phụ lục I, Mục 2 |
 | 11 | Linh kiện chính xác FDI | 2 | Thép/Nhôm, dung sai nhỏ hơn hoặc bằng 5 micromet, ISO 9001:2015 | 2.000 chi tiết | 1,50 | 35% | Phụ lục I, Mục 2 |
 | 12 | Jig/Fixture cho SMT + chi tiết gia công FDI | 2 | Al 6061/SUS304, gia công 5 trục | 500 bộ | 0,40 | 30% | Phụ lục I, Mục 2 |
-| 13 | Gia công CNC outsource (giờ máy) | 2 | 5-trục + 3-trục, 2 ca/ngày | 20.000 giờ | 0,80 | 25% | Phụ lục I, Mục 2 |
+| 13 | Gia công CNC thuê ngoài (giờ máy) | 2 | 5-trục + 3-trục, 2 ca/ngày | 20.000 giờ | 0,80 | 25% | Phụ lục I, Mục 2 |
 | 14 | OEM/ODM linh kiện điện tử | 1 | PCB assembly, testing, OEM cho đối tác | 500 lô | 1,10 | 30% | Phụ lục II, Mục 1.1 |
 | | **Tổng cộng (công suất thiết kế tối đa)** | | | | **11,49** | **42%** | |
 
-> **Ghi chú:** Tổng 11,49M USD/năm là công suất thiết kế khi toàn bộ 2 trụ cột vận hành 80-90% công suất (mục tiêu Y10-Y12). Doanh thu ổn định (steady-state) thực tế đạt **12,00M USD/năm từ Y12** khi tính thêm tăng trưởng số lượng đơn hàng và giá bán [C]. Trong giai đoạn ramp-up (Y4-Y7), doanh thu tăng từ 1,00M lên 6,70M USD/năm [C].
+> **Ghi chú:** Tổng 11,49M USD/năm là công suất thiết kế khi toàn bộ 2 trụ cột vận hành 80-90% công suất (mục tiêu Y10-Y12). Doanh thu ổn định (ổn định) thực tế đạt **12,00M USD/năm từ Y12** khi tính thêm tăng trưởng số lượng đơn hàng và giá bán [C]. Trong giai đoạn ramp-up (Y4-Y7), doanh thu tăng từ 1,00M lên 6,70M USD/năm [C].
 
 > **Phân bổ BU:** Trụ cột 1 (Điện tử/IoT/BMS/Robot) = 8,09M (70,4%); Trụ cột 2 (CNC/MPMC) = 3,40M (29,6%). Tập trung phần lớn vào sản phẩm điện tử theo định hướng CEO.

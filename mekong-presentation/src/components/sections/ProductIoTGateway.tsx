@@ -1,7 +1,7 @@
-import { Cpu, Wifi, Shield, Zap, Check, BarChart3, Settings } from 'lucide-react';
+import { Cpu, Wifi, Shield, Zap, Check, BarChart3, Settings, Layers } from 'lucide-react';
 import { TabSlide, type TabConfig } from '../ui/TabSlide';
 import { GlassCard } from '../ui/GlassCard';
-import { gatewaySpecs, gatewayCapacity } from '../../data/productDetails';
+import { gatewaySpecs, gatewayCapacity, mekongOSTiers } from '../../data/productDetails';
 
 function MK200Tab() {
     return (
@@ -76,10 +76,46 @@ function CapacityTab() {
     );
 }
 
+function PlatformTab() {
+    return (
+        <div className="space-y-4">
+            <GlassCard className="p-4">
+                <h4 className="text-sm font-bold text-white mb-3 flex items-center gap-2"><Layers size={16} className="text-neon-cyan" /> MekongOS — Nền tảng IoT SaaS</h4>
+                <div className="grid md:grid-cols-3 gap-3">
+                    {mekongOSTiers.map((tier, i) => {
+                        const colors = ['#00E5FF', '#E040FB', '#76FF03'];
+                        return (
+                            <div key={i} className="p-4 rounded-xl bg-white/[0.03] border border-white/5" style={{ borderTopColor: colors[i], borderTopWidth: 3 }}>
+                                <div className="text-sm font-bold mb-1" style={{ color: colors[i] }}>{tier.name}</div>
+                                <div className="text-lg font-extrabold text-white mb-2">{tier.price}</div>
+                                <div className="text-[10px] text-gray-400 mb-3">≤ {tier.devices} thiết bị</div>
+                                <ul className="space-y-1">
+                                    {tier.features.map((f, j) => (
+                                        <li key={j} className="text-[10px] text-gray-300 flex items-start gap-1.5">
+                                            <Check size={10} className="text-green-400 mt-0.5 flex-shrink-0" />{f}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        );
+                    })}
+                </div>
+            </GlassCard>
+            <GlassCard className="p-3">
+                <div className="flex items-center justify-between text-xs">
+                    <span className="text-gray-400">Mô hình doanh thu</span>
+                    <span className="text-neon-cyan font-semibold">Recurring SaaS + Hardware bundle</span>
+                </div>
+            </GlassCard>
+        </div>
+    );
+}
+
 const tabs: TabConfig[] = [
     { key: 'specs', label: 'MK-200 / MK-300', icon: Cpu, content: <MK200Tab /> },
     { key: 'features', label: 'Đặc điểm nổi bật', icon: Settings, content: <FeaturesTab /> },
     { key: 'capacity', label: 'Công suất', icon: BarChart3, content: <CapacityTab /> },
+    { key: 'platform', label: 'MekongOS', icon: Layers, content: <PlatformTab /> },
 ];
 
 export function ProductIoTGateway() {

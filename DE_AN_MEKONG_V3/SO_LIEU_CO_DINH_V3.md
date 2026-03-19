@@ -39,12 +39,12 @@
 | Giai đoạn | CAPEX (M USD) | Tỷ trọng | Nhãn |
 |---|---:|---:|:---:|
 | Phase 0 (Y0-Y1) | 1,50 | 6,8% | [C] |
-| Phase 1 (Y1-Y3) | 7,15 | 32,5% | [C] |
-| Phase 2 (Y3-Y5) | 10,00 | 45,5% | [C] |
-| Phase 3 (Y5-Y7) | 3,35 | 15,2% | [C] |
+| Phase 1 (Y1-Y3) | 8,40 | 38,2% | [C] |
+| Phase 2 (Y3-Y5) | 9,60 | 43,6% | [C] |
+| Phase 3 (Y5-Y7) | 2,50 | 11,4% | [C] |
 | **Tổng** | **22,00** | **100%** | |
 
-> **Kiểm tra:** 1,50 + 7,15 + 10,00 + 3,35 = 22,00M USD
+> **Kiểm tra:** 1,50 + 8,40 + 9,60 + 2,50 = 22,00M USD
 
 ---
 
@@ -164,6 +164,7 @@
 | 2026-03-16 | Khởi tạo V3 | — | Tất cả số liệu trên | Chuyển từ V2 (32M) sang V3 (22M) | CEO |
 | 2026-03-17 | Phase 1 CAPEX | 7,00M | 7,15M | Tăng Solar PV 100→200 kWp (+0,15M) + EDGE cert, theo Thông báo SHTP 2026 (NLTT >=20%, Công trình xanh) | GĐ Dự Án |
 | 2026-03-17 | Phase 3 CAPEX | 3,50M | 3,35M | Giảm Dự phòng từ 1,50M xuống 1,35M để bù đắp tăng Phase 1. Tổng CAPEX vẫn = 22,00M | GĐ Dự Án |
+| 2026-03-18 | Tái cấu trúc CAPEX | P1 7,15M / P2 10,00M / P3 3,35M / DP 1,35M | P1 8,40M / P2 9,60M / P3 2,50M / DP 0,65M | Nhà xưởng 2 tầng (GFA 10.304 m²), tái cân đối Phase. Tổng vẫn = 22,00M | CEO |
 
 ---
 

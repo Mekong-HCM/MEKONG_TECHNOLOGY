@@ -106,7 +106,7 @@
 | **Nội thất + Khác** | Nội thất VP, commissioning | 0,735 | 3,3% | — |
 | **Tổng** | | **22,00** | **100%** | |
 
-> **Nhận xét:** Thiết bị sản xuất chiếm 30,9% — tỷ trọng lớn nhất, phản ánh đúng tính chất dự án công nghệ cao. Tỷ lệ xây dựng 25% là hợp lý cho KCNC (benchmark: 20–30% theo BQL KCNC) [B].
+> **Nhận xét:** Thiết bị sản xuất chiếm 30,9% — tỷ trọng lớn nhất, phản ánh đúng tính chất dự án công nghệ cao. Tỷ lệ xây dựng 25% là hợp lý cho KCNC (chuẩn ngành: 20–30% theo BQL KCNC) [B].
 
 ### A.5. Giá trị Còn lại (Residual Value) Ước tính sau 15 Năm
 
@@ -132,24 +132,24 @@
 | VSIP Bình Dương (OEM máy) | VSIP II-A | FDI | 28–32 | 12.000 | 2.300–2.700 | 2023 |
 | Long Hau Automation Park | Long An | Nội địa | 15–18 | 5.000 | 3.000–3.600 | 2024 |
 | **Mekong V3 (dự án này)** | **KCNC TP.HCM** | **Nội địa** | **22,00** | **6.664** | **3.302** | **2026** |
-| Đài Loan benchmark (TW SME, CNC) | Kaohsiung | FDI | 18–25 | 4.000–6.000 | 3.500–5.000 | 2023 |
+| Đài Loan chuẩn ngành (TW SME, CNC) | Kaohsiung | FDI | 18–25 | 4.000–6.000 | 3.500–5.000 | 2023 |
 
 > **Nhận xét:** CAPEX/m² của V3 = 3.302 USD/m² nằm trong dải cạnh tranh so với các dự án tương đương. Lưu ý: KCNC có ưu đãi về giá thuê đất và thuế nhưng chi phí xây dựng cao hơn do yêu cầu CLĐT KCNC [A].
 
-**Phân tích CAPEX Intensity per Revenue Dollar (Y5 steady-state):**
+**Phân tích CAPEX Intensity per Revenue Dollar (Y5 ổn định):**
 
-| Chỉ số | V3 | Benchmark SME | Benchmark FDI | Nhận xét |
+| Chỉ số | V3 | Chuẩn ngành SME | Chuẩn ngành FDI | Nhận xét |
 |---|---:|---:|---:|---|
 | CAPEX / Revenue (Y5) | 1,83x | 1,5–2,5x | 2,0–3,0x | Trong dải hợp lý |
 | CAPEX / Employee (K) | 169–220 | 120–200 | 200–350 | Hợp lý |
 | CAPEX / Machine-hour (Y5 48K hrs) | 458 | 300–600 | 400–800 | Phù hợp |
-| Payback period (đơn giản) | 5–6 năm | 4–7 năm | 5–8 năm | Tốt |
+| Thời gian hoàn vốn (đơn giản) | 5–6 năm | 4–7 năm | 5–8 năm | Tốt |
 
-### A.7. Lịch Giải ngân Chi tiết theo Milestone và Nguồn vốn
+### A.7. Lịch Giải ngân Chi tiết theo Mốc tiến độ và Nguồn vốn
 
-**A.7.1. Ma trận Giải ngân Milestone × Nguồn vốn (M USD):**
+**A.7.1. Ma trận Giải ngân Mốc tiến độ × Nguồn vốn (M USD):**
 
-| Milestone | Mô tả | CSH (18,00M) | Vay (4,00M) | Tổng | % CAPEX | Thời điểm |
+| Mốc tiến độ | Mô tả | CSH (18,00M) | Vay (4,00M) | Tổng | % CAPEX | Thời điểm |
 |---|---|---:|---:|---:|---:|---|
 | MS-1 | Ký hợp đồng thuê đất + thiết kế | 1,50 | 0 | 1,50 | 6,8% | Q1 Y1 |
 | MS-2 | Khởi công + nền móng | 2,50 | 0,50 | 3,00 | 13,6% | Q2 Y1 |
@@ -165,10 +165,10 @@
 
 **A.7.2. Điều kiện Giải ngân vốn Vay:**
 
-| Điều kiện | Mô tả | Milestone liên quan |
+| Điều kiện | Mô tả | Mốc tiến độ liên quan |
 |---|---|---|
 | CP-1 | Hoàn tất giấy phép xây dựng + ĐTM | MS-2 |
-| CP-2 | Chứng nhận CSH đã giải ngân ≥ 50% milestone tương ứng | MS-2–MS-7 |
+| CP-2 | Chứng nhận CSH đã giải ngân ≥ 50% mốc tiến độ tương ứng | MS-2–MS-7 |
 | CP-3 | Báo cáo tiến độ công trình đạt ≥ 80% so với kế hoạch | MS-3–MS-7 |
 | CP-4 | Không có NPL/nợ quá hạn tại thời điểm giải ngân | Tất cả |
 | CP-5 | Bảo hiểm công trình còn hiệu lực | Tất cả |
@@ -234,7 +234,7 @@
 | Y8 | 571 | 571 | 49 | 620 | 0 | 2,30x |
 | **Tổng** | | **4.000** | **1.700** | **5.700** | | |
 
-> **Tổng lãi vay 8 năm:** 1.700K. DSCR tăng dần từ 1,25x (Y2) lên 2,30x (Y8), vượt ngưỡng covenant 1,50x [C] từ Y3. Chi phí lãi vay chiếm ~7,7% tổng CAPEX. Từ Y9 trở đi, toàn bộ cash flow là free cash. Xem A.1-A.9, S.9 (quarterly FCFF), R.9 (recovery) [A].
+> **Tổng lãi vay 8 năm:** 1.700K. DSCR tăng dần từ 1,25x (Y2) lên 2,30x (Y8), vượt ngưỡng covenant 1,50x [C] từ Y3. Chi phí lãi vay chiếm ~7,7% tổng CAPEX. Từ Y9 trở đi, toàn bộ dòng tiền là free cash. Xem A.1-A.9, S.9 (quarterly FCFF), R.9 (recovery) [A].
 
 ---
 
@@ -409,7 +409,7 @@
 | Espec chamber | Testing | | P | P | P | | | P |
 | Atlas Copco | Compressed air | P | P | P | | P | P | |
 
-> Lý giải: P = Sử dụng chính (primary). S = Sử dụng phụ (secondary). Ma trận cho thấy CNC machines phục vụ đa sản phẩm, tối ưu OEE. Zeiss CMM là "cổng chất lượng" cho toàn bộ CNC output. Xem K (datasheets) và I (workflow) [A].
+> Lý giải: P = Sử dụng chính (primary). S = Sử dụng phụ (secondary). Ma trận cho thấy CNC machines phục vụ đa sản phẩm, tối ưu OEE. Zeiss CMM là "cổng chất lượng" cho toàn bộ CNC output. Xem K (datasheets) và I (quy trình) [A].
 
 ### B.10. Kế hoạch Commissioning và Nghiệm thu Thiết bị
 
@@ -698,7 +698,7 @@ Mẫu 1.4 → Chấp thuận → IRC → ERC → Thiết kế → ĐTM → PCCC 
 | PCCC thẩm duyệt chậm | Trung bình | Chậm 1–2 tháng | Song song với ĐTM, thiết kế theo QCVN 06 |
 | Thay đổi chính sách ưu đãi | Thấp | Giảm lợi ích thuế | Lock-in qua IRC, NĐ 94/2020 bảo hộ |
 | Tranh chấp hợp đồng thuê đất | Rất thấp | Gián đoạn vận hành | HĐ 50 năm qua BQL KCNC (nhà nước) |
-| Yêu cầu mới về an ninh mạng | Thấp | Phải nâng cấp OT security | IEC 62443 roadmap từ đầu |
+| Yêu cầu mới về an ninh mạng | Thấp | Phải nâng cấp OT security | IEC 62443 lộ trình từ đầu |
 | Vi phạm bản quyền IP (bị kiện) | Thấp | Chi phí pháp lý | Freedom-to-operate search trước SX |
 
 ### D.7. Lịch Theo dõi Tuân thủ Hàng năm (Compliance Calendar)
@@ -762,7 +762,7 @@ Mẫu 1.4 → Chấp thuận → IRC → ERC → Thiết kế → ĐTM → PCCC 
 | Y3 | Full integration | API hub, IoT data -> ERP -> BI | 15 | T12/Y3 |
 | **Tổng** | | | **138** | |
 
-> **Tổng IT/digital:** 138K (0,6% CAPEX [C]). Năm Y3 trở đi chỉ còn license + maintenance 35K/năm. Hệ thống IT hỗ trợ các chứng chỉ ISO (D.7), dashboard (U.9-U.10), và QC pipeline (V.3). Xem D.1-D.9 [A].
+> **Tổng IT/digital:** 138K (0,6% CAPEX [C]). Năm Y3 trở đi chỉ còn license + maintenance 35K/năm. Hệ thống IT hỗ trợ các chứng chỉ ISO (D.7), dashboard (U.9-U.10), và QC chuỗi đơn hàng (V.3). Xem D.1-D.9 [A].
 
 ---
 
@@ -883,11 +883,11 @@ Mẫu 1.4 → Chấp thuận → IRC → ERC → Thiết kế → ĐTM → PCCC 
 | 6. Khử trùng | UV + NaOCl | Diệt khuẩn | 15 phút |
 | 7. Tái sử dụng | Bể chứa nước sạch | Tưới cây, rửa sàn (ZLD target) | — |
 
-> **Chi phí XLNT:** Đầu tư 220K [C] + vận hành ~15K/năm. Tiết kiệm ~8K/năm nhờ tái sử dụng nước. Payback của ZLD upgrade: ~8–10 năm, nhưng bắt buộc theo quy định KCNC [A].
+> **Chi phí XLNT:** Đầu tư 220K [C] + vận hành ~15K/năm. Tiết kiệm ~8K/năm nhờ tái sử dụng nước. Thời gian hoàn vốn của ZLD upgrade: ~8–10 năm, nhưng bắt buộc theo quy định KCNC [A].
 
 ### E.9. Kế hoạch ESG Reporting và Carbon Credit
 
-| Hạng mục | Y3 (Baseline) | Y5 | Y10 | Y15 |
+| Hạng mục | Y3 (Mức cơ sở) | Y5 | Y10 | Y15 |
 |---|---:|---:|---:|---:|
 | Carbon footprint (tCO₂e/năm) | 855 | 770 (−10%) | 600 (−30%) | 430 (−50%) |
 | Năng lượng tái tạo (% tổng) | 5% (solar rooftop) | 15% | 30% | 50% |
@@ -897,7 +897,7 @@ Mẫu 1.4 → Chấp thuận → IRC → ERC → Thiết kế → ĐTM → PCCC 
 | Carbon credit potential (tCO₂e) | 0 | 0 | 100–200 | 300–400 |
 | Giá trị carbon credit (ước, K USD) | 0 | 0 | 5–10 | 15–20 |
 
-> **Lộ trình Net Zero:** Mục tiêu giảm 50% emission tại Y15 so với baseline. Phương án: (1) Solar rooftop 200 kWp giai đoạn 1 + 300 kWp giai đoạn 2; (2) Chuyển đổi coolant CNC sang loại sinh học; (3) Mua carbon credit cho phần còn lại. Không cam kết Net Zero vì chưa đủ điều kiện [A].
+> **Lộ trình Net Zero:** Mục tiêu giảm 50% emission tại Y15 so với mức cơ sở. Phương án: (1) Solar rooftop 200 kWp giai đoạn 1 + 300 kWp giai đoạn 2; (2) Chuyển đổi coolant CNC sang loại sinh học; (3) Mua carbon credit cho phần còn lại. Không cam kết Net Zero vì chưa đủ điều kiện [A].
 
 ### E.10. Kế hoạch Quản lý Chất thải 3R (Reduce - Reuse - Recycle)
 
@@ -1167,7 +1167,7 @@ Mẫu 1.4 → Chấp thuận → IRC → ERC → Thiết kế → ĐTM → PCCC 
 | 9 | Bảo hiểm Cyber | Tấn công mạng, data breach | 0,50 | 4 | Từ Y5 |
 | | **Tổng bảo hiểm/năm** | | | **~98K** | |
 
-> **Tỷ lệ:** Bảo hiểm ~98K/năm = ~0,45% CAPEX, phù hợp ngành chế tạo (benchmark 0,3–0,7%) [B].
+> **Tỷ lệ:** Bảo hiểm ~98K/năm = ~0,45% CAPEX, phù hợp ngành chế tạo (chuẩn ngành 0,3–0,7%) [B].
 
 ### G.4. Chiến lược Bảo hộ Sở hữu Trí tuệ (IP)
 
@@ -1177,7 +1177,7 @@ Mẫu 1.4 → Chấp thuận → IRC → ERC → Thiết kế → ĐTM → PCCC 
 | Kiểu dáng CN | Vỏ IoT Gateway, Robot AMR | Cục SHTT VN | Y4 | 2K USD/kiểu dáng |
 | Nhãn hiệu (Trademark) | Mekong Technology, MekongBMS, MekongOS | Cục SHTT VN + Madrid | Phase 0 | 3K USD/nhãn hiệu |
 | Bản quyền phần mềm | MekongBMS, MekongSCADA, MekongOS | Cục Bản quyền | Y4–Y5 | 1K USD/phần mềm |
-| Bí mật kinh doanh | Quy trình CNC, BOM, pricing | NDA + internal policy | Liên tục | — |
+| Bí mật kinh doanh | Quy trình CNC, BOM, định giá | NDA + internal policy | Liên tục | — |
 | Tên miền + Brand | mekongtech.vn, .com | NIC.VN + registrar | Phase 0 | 0,5K USD |
 
 > **Tổng ngân sách IP (5 năm đầu):** ~60K USD, nằm trong hạng mục "Pháp lý" CAPEX Phase 0 [A].
@@ -1187,12 +1187,12 @@ Mẫu 1.4 → Chấp thuận → IRC → ERC → Thiết kế → ĐTM → PCCC 
 | Điều khoản | HĐ Gia công CNC (FDI) | HĐ OEM/ODM IoT | HĐ BMS/SCADA Project |
 |---|---|---|---|
 | Loại hình | Gia công theo drawing | OEM: theo spec khách, ODM: Mekong design | Lump-sum turnkey |
-| Giá | Theo giờ máy + markup | Theo BOM + engineering fee | Theo scope + milestone |
-| Thanh toán | NET 30–60 ngày | 30% advance – 50% delivery – 20% warranty | Theo milestone payment |
+| Giá | Theo giờ máy + markup | Theo BOM + engineering fee | Theo scope + mốc tiến độ |
+| Thanh toán | NET 30–60 ngày | 30% advance – 50% delivery – 20% warranty | Theo mốc tiến độ payment |
 | Bảo hành | 6 tháng (linh kiện) | 12 tháng (sản phẩm) | 24 tháng (hệ thống) |
 | NDA | Bắt buộc | Bắt buộc | Bắt buộc |
-| IP ownership | Khách hàng giữ IP drawing | OEM: khách, ODM: Mekong | Mekong giữ platform IP |
-| SLA | OTD ≥ 95%, PPM ≤ 200 | DOA ≤ 1%, MTBF ≥ 50K giờ | Uptime ≥ 99,5% |
+| IP ownership | Khách hàng giữ IP drawing | OEM: khách, ODM: Mekong | Mekong giữ nền tảng IP |
+| SLA | OTD ≥ 95%, PPM ≤ 200 | DOA ≤ 1%, MTBF ≥ 50K giờ | Thời gian hoạt động ≥ 99,5% |
 | Phạt | 1%/tuần chậm | Refund/replace | SLA credit |
 | Luật | Việt Nam, VIAC | Việt Nam, VIAC | Việt Nam, VIAC |
 
@@ -1237,7 +1237,7 @@ Mẫu 1.4 → Chấp thuận → IRC → ERC → Thiết kế → ĐTM → PCCC 
 |---|---:|---|---|
 | CNC OEM Supply Agreement | 18 | Cao (2-4/năm) | 12 tháng |
 | IoT Product License | 15 | Trung bình (1-2/năm) | 6 tháng |
-| MPMC Framework Agreement | 20 | Cao (3-5/năm) | 12 tháng |
+| MPMC Khung Agreement | 20 | Cao (3-5/năm) | 12 tháng |
 | NDA (Mutual) | 8 | Rất cao (10+/năm) | 24 tháng |
 | Service Level Agreement | 12 | Trung bình | 12 tháng |
 
@@ -1504,7 +1504,7 @@ Mẫu 1.4 → Chấp thuận → IRC → ERC → Thiết kế → ĐTM → PCCC 
 | Tải trọng sàn | ≥ 2.000 kg/m² | Khu vực 5-trục |
 | Tiếp địa | ≤ 5 Ω | Cho CNC control + EMI |
 
-### I.3. Luồng Sản xuất CNC (Workflow)
+### I.3. Luồng Sản xuất CNC (quy trình)
 
 ```
 Nhận NVL → Kiểm tra NVL → Lập trình CAM → Setup máy → Gia công thô →
@@ -1536,7 +1536,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Giá trung bình/giờ CNC | 45–65 USD/giờ | 5-trục cao hơn 3-trục |
 | **Doanh thu CNC tiềm năng** | **1,5–2,5M USD/năm** | Phù hợp BU2 target 3,50M [C] |
 
-> **Ghi chú:** Doanh thu BU2 steady-state 3,50M [C] bao gồm cả giá trị gia tăng (thiết kế, QC, logistic). Riêng giờ máy CNC đóng góp 1,5–2,5M, phần còn lại từ engineering service + markup [B].
+> **Ghi chú:** Doanh thu BU2 ổn định 3,50M [C] bao gồm cả giá trị gia tăng (thiết kế, QC, logistic). Riêng giờ máy CNC đóng góp 1,5–2,5M, phần còn lại từ engineering service + markup [B].
 
 ### I.5. Quản lý Tooling và Consumables CNC
 
@@ -1556,7 +1556,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 
 > **Chiến lược tooling:** Ưu tiên tool có tuổi thọ cao (coated carbide), theo dõi tool life qua MTConnect. Mục tiêu giảm 15% chi phí tooling bằng tối ưu cutting parameter và regrinding service [B].
 
-### I.6. Cơ cấu Nhân sự Xưởng CNC (Steady State)
+### I.6. Cơ cấu Nhân sự Xưởng CNC (Ổn định)
 
 | Vị trí | SL | Ca làm việc | Lương trung bình (USD/tháng) | Ghi chú |
 |---|---:|---|---:|---|
@@ -1571,7 +1571,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Packing + Shipping | 2 | 1 ca | 700 | Đóng gói, dán nhãn |
 | **Tổng nhân sự CNC** | **25** | | **Lương BQ: ~1.200** | **~360K/năm** |
 
-> **Nhân sự CNC = 25 người** trong tổng 100–130 nhân sự toàn nhà máy. Lương CNC workshop = ~360K/năm, chiếm ~10% doanh thu BU2 (3,50M) — phù hợp benchmark ngành (8–15%) [B].
+> **Nhân sự CNC = 25 người** trong tổng 100–130 nhân sự toàn nhà máy. Lương CNC workshop = ~360K/năm, chiếm ~10% doanh thu BU2 (3,50M) — phù hợp chuẩn ngành ngành (8–15%) [B].
 
 ### I.7. Kế hoạch Mở rộng Công suất CNC
 
@@ -1655,7 +1655,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Hạng mục | Chi phí (USD/năm) | Ghi chú |
 |----------|-------------------|---------|
 | Mua mới dụng cụ cắt | 85.000 | Bao gồm insert thay thế |
-| Dịch vụ mài lại | 12.000 | ~60% mài nội bộ, 40% outsource |
+| Dịch vụ mài lại | 12.000 | ~60% mài nội bộ, 40% thuê ngoài |
 | Dụng cụ đo kiểm (thay thế) | 8.000 | Caliper, micrometer, gauge |
 | Holder và collet thay thế | 6.000 | Thay khi độ đảo > 5 µm |
 | **Tổng chi phí dụng cụ/năm** | **111.000** | Từ N3 trở đi (full capacity) |
@@ -1679,7 +1679,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 |---|---|---|---:|---|
 | MK-BMS-1 | Mekong BMS Controller | Quản lý điện/HVAC/camera 1 tòa nhà | 5.000 | Tòa nhà nhỏ |
 | MK-BMS-3 | Mekong BMS Enterprise | Multi-site, 1.000+ data points, AI analytics | 15.000 | Enterprise |
-| MK-SCADA | Mekong SCADA Platform | Giám sát nhà máy, 10.000+ tags, OPC-UA | 25.000 | Nhà máy |
+| MK-SCADA | Mekong SCADA Nền tảng | Giám sát nhà máy, 10.000+ tags, OPC-UA | 25.000 | Nhà máy |
 | MK-EMS | Mekong Energy Management | Quản lý năng lượng, KPI, dự báo AI | 8.000 | Mọi phân khúc |
 
 ### J.3. Sản phẩm Robot
@@ -1690,7 +1690,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | MK-AMR-2 | Mekong AMR Pro | AMR SLAM + AI, 500 kg, fleet management | 35.000 | Y6 |
 | MK-ARM-1 | Mekong Cobot Arm | 6-axis, 5 kg payload, collaborative | 25.000 | Y7 |
 
-### J.4. Roadmap Sản phẩm 5 năm
+### J.4. Lộ trình Sản phẩm 5 năm
 
 | Năm | Sản phẩm mới | Công nghệ | Doanh thu mục tiêu BU1 |
 |---|---|---|---:|
@@ -1705,11 +1705,11 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | TT | Danh mục QĐ 38 | Sản phẩm Mekong tương ứng |
 |:---:|---|---|
 | 1 | Thiết bị điều khiển tự động | IoT Gateway (GW-100 đến GW-500) |
-| 2 | Thiết bị giám sát thông minh | BMS Controller, SCADA Platform |
+| 2 | Thiết bị giám sát thông minh | BMS Controller, SCADA Nền tảng |
 | 3 | Robot công nghiệp | AMR Lite, AMR Pro, Cobot Arm |
 | 4 | Board mạch điện tử | PCB assembly qua SMT line |
 | 5 | Phần mềm nhúng | Firmware IoT, SCADA software |
-| 6 | Thiết bị quản lý năng lượng | EMS Platform |
+| 6 | Thiết bị quản lý năng lượng | EMS Nền tảng |
 | 7 | Linh kiện siêu chính xác CNC | Linh kiện cho FDI (bán dẫn, điện tử) |
 
 > Tổng **14 danh mục** sản phẩm thuộc QĐ 38/2020, đủ tiêu chí doanh nghiệp công nghệ cao [C].
@@ -1751,7 +1751,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | **Tổng COGS** | **17.100** | **48,9%** | |
 | **Gross margin** | **17.900** | **51,1%** | |
 
-> **Nhận xét:** IoT Gateway có gross margin rất cao (69%) nhờ giá trị phần mềm + firmware. Robot AMR cũng đạt 51% nhờ tích hợp dọc (khung CNC nội bộ, software nội bộ). Benchmark ngành: IoT device 55–65%, Robot 35–45% — Mekong vượt trội nhờ R&D nội bộ [B].
+> **Nhận xét:** IoT Gateway có gross margin rất cao (69%) nhờ giá trị phần mềm + firmware. Robot AMR cũng đạt 51% nhờ tích hợp dọc (khung CNC nội bộ, software nội bộ). Chuẩn ngành ngành: IoT device 55–65%, Robot 35–45% — Mekong vượt trội nhờ R&D nội bộ [B].
 
 ### J.7. Chiến lược Giá theo Giai đoạn và Thị trường
 
@@ -1761,12 +1761,12 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | MK-GW-200 | 450 | 500 | 550 | Value-based |
 | MK-GW-300 | 1.000 | 1.200 | 1.400 | Premium, cạnh tranh Advantech |
 | MK-BMS-1 | 4.000 | 5.000 | — | Project-based |
-| MK-BMS-3 | 12.000 | 15.000 | — | Enterprise, subscription option |
+| MK-BMS-3 | 12.000 | 15.000 | — | Enterprise, thuê bao option |
 | MK-AMR-1 | 12.000 | 15.000 | — | MVP, feedback-driven |
 | MK-AMR-2 | 30.000 | 35.000 | 40.000 | Cạnh tranh Geek+ |
 | CNC Service | 45–65/giờ | — | — | Cost-plus |
 
-### J.8. Roadmap Chi tiết Sản phẩm IoT theo Năm
+### J.8. Lộ trình Chi tiết Sản phẩm IoT theo Năm
 
 | Sản phẩm | Y3 (MVP) | Y4 (V1.0) | Y5 (V2.0) | Y7+ (V3.0) |
 |---|---|---|---|---|
@@ -1780,8 +1780,8 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Năm | FTE R&D | Budget R&D (K USD) | Focus chính |
 |---|---:|---:|---|
 | Y3 | 5–8 | 200–300 | MVP 3 dòng SP, firmware, test bench |
-| Y4 | 8–12 | 300–400 | V1.0, certification, pilot deployment |
-| Y5 | 12–15 | 400–500 | V2.0, AI/ML features, platform |
+| Y4 | 8–12 | 300–400 | V1.0, certification, pilot triển khai |
+| Y5 | 12–15 | 400–500 | V2.0, AI/ML features, nền tảng |
 | Y7+ | 15–20 | 500–600 | V3.0, next-gen, patent portfolio |
 
 > **Tổng R&D 5 năm đầu:** ~1,4–1,8M USD = 6,4–8,2% CAPEX 22,00M [C]. Phù hợp tiêu chuẩn DN CNC (yêu cầu R&D ≥ 5% doanh thu). Nguồn: lợi nhuận giữ lại + một phần OPEX dự phòng [A].
@@ -1980,7 +1980,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 
 **Tổng chi phí PM/năm:** 77K USD (phụ tùng + lao động). Chiếm 1,2% giá trị thiết bị 6.336K [C].
 
-> **Mục tiêu OEE:** PM đúng lịch giúp đạt OEE > 75% (Y3) và > 85% (Y5). Downtime không kế hoạch < 3% tổng giờ vận hành. Xem B.7 (equipment lifecycle) và I.7 (capacity expansion) [A].
+> **Mục tiêu OEE:** PM đúng lịch giúp đạt OEE > 75% (Y3) và > 85% (Y5). Thời gian dừng máy không kế hoạch < 3% tổng giờ vận hành. Xem B.7 (equipment lifecycle) và I.7 (capacity expansion) [A].
 
 ### K.10. Chính sách Quản lý Tồn kho
 
@@ -1995,11 +1995,11 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 #### K.10.2. Điểm đặt hàng lại (Reorder Point) và Tồn kho an toàn
 
 **Công thức:**
-- Reorder Point (ROP) = (Demand trung bình/ngày × Lead time) + Safety Stock
-- Safety Stock = Z × σ_demand × √(Lead time)
+- Reorder Point (ROP) = (Demand trung bình/ngày × Thời gian dẫn) + Safety Stock
+- Safety Stock = Z × σ_demand × √(Thời gian dẫn)
   - Z = 1,65 (service level 95%)
 
-| Nhóm vật tư | Demand TB (đơn vị/ngày) | Lead time (ngày) | σ_demand | Safety Stock | ROP |
+| Nhóm vật tư | Demand TB (đơn vị/ngày) | Thời gian dẫn (ngày) | σ_demand | Safety Stock | ROP |
 |-------------|------------------------|------------------|----------|-------------|-----|
 | IC/chip chính (A) | 500 | 45 | 80 | 885 | 23.385 |
 | Linh kiện thụ động (B) | 2.000 | 21 | 300 | 2.268 | 44.268 |
@@ -2182,7 +2182,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Contingency xây dựng (5%) | | | | 150 |
 | **Tổng xây dựng** | | | | **2.649** |
 
-> **Kiểm tra:** Tổng XD 2.649K + Thiết bị 6.336K + IT/DC 2.800K + Soft cost 1.215K + Contingency 1.000K ≈ 14,0M. Phần còn lại là vốn lưu động, đất, và dự phòng bổ sung để đạt 22,00M [C]. Chi tiết xem A.7 (milestone disbursement) [A].
+> **Kiểm tra:** Tổng XD 2.649K + Thiết bị 6.336K + IT/DC 2.800K + Soft cost 1.215K + Contingency 1.000K ≈ 14,0M. Phần còn lại là vốn lưu động, đất, và dự phòng bổ sung để đạt 22,00M [C]. Chi tiết xem A.7 (mốc tiến độ disbursement) [A].
 
 ### L.9. Tiêu chuẩn Xanh và Vật liệu Bền vững trong Xây dựng
 
@@ -2236,7 +2236,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 
 ---
 
-## Phụ lục M: Lộ trình Công nghệ 4.0 (Industry 4.0 Roadmap)
+## Phụ lục M: Lộ trình Công nghệ 4.0 (Industry 4.0 Lộ trình)
 
 ### M.1. Hiện trạng và Mục tiêu
 
@@ -2265,14 +2265,14 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | KPI | Y5 | Y7 | Y10 | Y12+ |
 |---|---:|---:|---:|---:|
 | OEE CNC | 60% | 75% | 80% | 85% |
-| Unplanned Downtime | 8% | 4% | 2% | 1% |
+| Unplanned Thời gian dừng máy | 8% | 4% | 2% | 1% |
 | Defect Rate (PPM) | 500 | 200 | 100 | 50 |
 | Energy per Unit (kWh) | 15 | 12 | 10 | 8 |
 | PUE DC nội bộ | 1,8 | 1,5 | 1,3 | 1,2 |
 
 ### M.4. Kiến trúc Dữ liệu Nhà máy (Data Architecture)
 
-| Tầng | Thành phần | Protocol / Platform | Dữ liệu | Tần suất |
+| Tầng | Thành phần | Protocol / Nền tảng | Dữ liệu | Tần suất |
 |---|---|---|---|---|
 | Edge (L0) | Sensor, PLC, CNC controller | Modbus RTU, MTConnect | Rung, nhiệt, dòng, vị trí | 1–10 Hz |
 | Gateway (L1) | MK-GW-300 (nội bộ) | MQTT, OPC-UA | Aggregation + Edge AI | 1 Hz |
@@ -2284,13 +2284,13 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 
 ### M.5. ROI theo Từng Sáng kiến 4.0
 
-| Sáng kiến | Đầu tư (K USD) | Tiết kiệm/năm (K USD) | Payback | Cơ chế tạo giá trị |
+| Sáng kiến | Đầu tư (K USD) | Tiết kiệm/năm (K USD) | Thời gian hoàn vốn | Cơ chế tạo giá trị |
 |---|---:|---:|---|---|
 | OPC-UA → MES (OEE tracking) | 80 | 60 | 1,3 năm | Giảm setup, tăng utilization +10% |
-| Predictive Maintenance AI | 120 | 90 | 1,3 năm | Giảm unplanned downtime 50% |
+| Predictive Maintenance AI | 120 | 90 | 1,3 năm | Giảm unplanned thời gian dừng máy 50% |
 | Computer Vision AOI 2.0 | 100 | 45 | 2,2 năm | Giảm rework 60%, FPY +3% |
 | BMS Energy Optimization | 50 | 30 | 1,7 năm | Giảm 15% điện HVAC (VFD + AI schedule) |
-| Digital Twin (phase Y8+) | 200 | 80 | 2,5 năm | Giảm NPI lead time 30%, scrap -20% |
+| Digital Twin (phase Y8+) | 200 | 80 | 2,5 năm | Giảm NPI thời gian dẫn 30%, scrap -20% |
 | AMR Fleet (phase Y10+) | 200 | 70 | 2,9 năm | Giảm 6 nhân công logistics nội bộ |
 | **Tổng** | **750** | **375** | **~2 năm TB** | |
 
@@ -2364,9 +2364,9 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 
 | Strengths | Weaknesses |
 |---|---|
-| I-BMS là sản phẩm IP độc quyền | Chưa có track record thương mại |
+| I-BMS là sản phẩm IP độc quyền | Chưa có thành tích đã kiểm chứng thương mại |
 | R&D team đủ năng lực thiết kế PCB | Chiểu sâu thị trường BMS VN còn nhỏ |
-| Xu hướng smart building tăng mạnh | Phụ thuộc chip import (lead time dài) |
+| Xu hướng smart building tăng mạnh | Phụ thuộc chip import (thời gian dẫn dài) |
 
 | Opportunities | Threats |
 |---|---|
@@ -2379,14 +2379,14 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Phân khúc | Sản phẩm chủ lực | Chiến lược giá | Gross Margin mục tiêu | Revenue share (Y5) |
 |---|---|---|---:|---:|
 | Tier-1 OEM (Samsung, LG) | CNC precision parts | Cost-plus 25-30% | 28-32% | 35% |
-| Tier-2 OEM (nội địa) | CNC standard parts | Competitive pricing | 22-28% | 20% |
-| Smart building | I-BMS Gateway | Value-based pricing | 55-60% | 20% |
+| Tier-2 OEM (nội địa) | CNC standard parts | Competitive định giá | 22-28% | 20% |
+| Smart building | I-BMS Gateway | Định giá theo giá trị | 55-60% | 20% |
 | Industrial IoT | MK-Sensor Kit | Volume discount | 42-48% | 15% |
 | Dịch vụ kỹ thuật | OEM design, retrofit | Time & material + retainer | 60-70% | 10% |
 
-**Pricing playbook:**
+**Định giá playbook:**
 - **CNC:** Định giá theo complexity index (CI = số axis x tolerance grade x material factor). CI 1.0 = đơn giản, CI > 3.0 = cao cấp.
-- **IoT:** Bundle pricing: Gateway + 10 Sensors + 1Y cloud license = giảm 15% vs mua lẻ.
+- **IoT:** Bundle định giá: Gateway + 10 Sensors + 1Y cloud license = giảm 15% vs mua lẻ.
 - **Dịch vụ:** Retainer 3K-8K/tháng tùy quy mô khách hàng, bao gồm support SLA 8x5.
 
 > **Blended gross margin:** 38-42% (Y3-Y5), tăng dần khi IoT chiếm tỷ trọng cao hơn. Revenue 12,00M [C] đạt từ Y5 với mix trên. Xem T.8 (BEP) và S.9 (FCFF) [A].
@@ -2464,7 +2464,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 
 ### N.4. Quản lý Phụ tùng Thay thế (Spare Parts Management)
 
-| Nhóm phụ tùng | Mục tiêu tồn kho | Giá trị tồn kho (K USD) | Lead time bổ sung | Chiến lược |
+| Nhóm phụ tùng | Mục tiêu tồn kho | Giá trị tồn kho (K USD) | Thời gian dẫn bổ sung | Chiến lược |
 |---|---|---:|---|---|
 | CNC critical (spindle, bearing, ball screw) | 1 set mỗi loại × 10 máy cơ bản | 120 | 8–12 tuần | Buffer stock + Vendor consignment |
 | CNC consumable (tool holder, collet, way cover) | 3 tháng sử dụng | 30 | 2–4 tuần | Kanban reorder |
@@ -2513,7 +2513,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | BHXH + phúc lợi (+30%) | 0,10 | 0,29 | 0,39 | 0,51 |
 | **Tổng chi nhân sự** | **0,44** | **1,24** | **1,70** | **2,20** |
 
-> **Liên kết:** Tổng chi nhân sự Y5 = 1,70M ≈ 14,2% doanh thu 12,00M [C]. Tỷ lệ này phù hợp với benchmark ngành sản xuất công nghệ cao (12–18%). Xem P3 — Phân tích tài chính chi tiết [A].
+> **Liên kết:** Tổng chi nhân sự Y5 = 1,70M ≈ 14,2% doanh thu 12,00M [C]. Tỷ lệ này phù hợp với chuẩn ngành ngành sản xuất công nghệ cao (12–18%). Xem P3 — Phân tích tài chính chi tiết [A].
 
 ### N.7. Kế hoạch Đào tạo và Phát triển Chuyên sâu
 
@@ -2560,7 +2560,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Team building | 2 lần/năm + family day | Toàn bộ | 12 |
 | Retention bonus | 1-2 tháng lương/năm (cliff 2Y) | Senior engineers | 30 |
 
-**Mục tiêu turnover:** < 12% (Y1-Y3), < 8% (Y5+). Benchmark SHTP trung bình 15-18%.
+**Mục tiêu turnover:** < 12% (Y1-Y3), < 8% (Y5+). Chuẩn ngành SHTP trung bình 15-18%.
 
 > **Tổng chi phí đãi ngộ ngoài lương:** ~212K/năm (Y3). Chiếm ~10% tổng quỹ lương 2.200K/năm (130 người [C]). Xem N.6-N.7 và Phụ lục P (ERM) cho risk mất nhân sự then chốt [A].
 
@@ -2606,7 +2606,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 
 #### N.9.3. Tỷ lệ quản lý chủ chốt
 
-| Chỉ tiêu | Giá trị | Benchmark ngành |
+| Chỉ tiêu | Giá trị | Chuẩn ngành ngành |
 |----------|---------|----------------|
 | Tổng quản lý cấp cao (C-suite) | 6 | 5–7 |
 | Tổng quản lý cấp trung | 18 | 15–20 |
@@ -2725,7 +2725,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 
 **Chỉ số chất lượng mục tiêu:**
 
-| KPI | Y1 | Y3 | Y5 | Benchmark ngành |
+| KPI | Y1 | Y3 | Y5 | Chuẩn ngành ngành |
 |---|---:|---:|---:|---:|
 | DPPM (defect parts per million) | < 5.000 | < 2.000 | < 500 | < 1.000 |
 | First Pass Yield (%) | > 92% | > 96% | > 98% | > 95% |
@@ -2772,7 +2772,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | UL Listed | IoT products (US) | Y2-Q3 | 12 | 6 tháng | Phase 2 |
 | QD 38/SHTP | Nhà máy công nghệ cao | Y1-Q1 | 5 | 3 tháng | Ưu tiên |
 
-> **Tổng ngân sách chứng chỉ 5Y:** 157K. Chiếm 0.7% CAPEX 22.000K [C]. Lộ trình phân kỳ giúp không quá tải team QA (5-7 người Y1-Y3). AS9100D và IATF 16949 là điều kiện tiên quyết để vào supply chain aerospace + automotive Tier-1. Xem Y.11 (cert-customer matrix) [A].
+> **Tổng ngân sách chứng chỉ 5Y:** 157K. Chiếm 0.7% CAPEX 22.000K [C]. Lộ trình phân kỳ giúp không quá tải team QA (5-7 người Y1-Y3). AS9100D và IATF 16949 là điều kiện tiên quyết để vào chuỗi cung ứng aerospace + automotive Tier-1. Xem Y.11 (cert-customer matrix) [A].
 
 ### O.12. Chương trình Quản lý Hiệu chuẩn Thiết bị
 
@@ -2812,7 +2812,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 
 ---
 
-## Phụ lục P: Benchmarking ASEAN — Doanh nghiệp Sản xuất CNC tại KCNC
+## Phụ lục P: Đối chiếu chuẩn ngành ASEAN — Doanh nghiệp Sản xuất CNC tại KCNC
 
 ### P.1. So sánh với Doanh nghiệp Tương đồng
 
@@ -2829,9 +2829,9 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Green | Solar + EDGE | Không | Solar | Không |
 | Lợi thế V3 | IoT+CNC synergy, R&D cao, Green | — | — | — |
 
-### P.2. Benchmarking CNC Pricing ASEAN
+### P.2. Đối chiếu chuẩn ngành CNC Định giá ASEAN
 
-| Quốc gia | Giá gia công CNC 5 trục (USD/giờ) | Infrastructure | Chất lượng | Lead time |
+| Quốc gia | Giá gia công CNC 5 trục (USD/giờ) | Infrastructure | Chất lượng | Thời gian dẫn |
 |---|---:|---|---|---|
 | Nhật Bản | 120–180 | Tốt nhất | Tốt nhất | 2–4 tuần |
 | Singapore | 90–130 | Rất tốt | Rất tốt | 2–3 tuần |
@@ -2841,7 +2841,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Trung Quốc | 35–55 | Biến thiên | Biến thiên | 2–4 tuần |
 | Indonesia | 40–60 | Trung bình | Trung bình | 3–5 tuần |
 
-> **Lợi thế Mekong:** Giá cạnh tranh nhất ASEAN sau TQ, nhưng chất lượng (ISO 9001 + AS9100) và lead time (1–2 tuần nhờ ở KCNC) vượt trội so với TQ. Đây là value proposition chính cho FDI [B].
+> **Lợi thế Mekong:** Giá cạnh tranh nhất ASEAN sau TQ, nhưng chất lượng (ISO 9001 + AS9100) và thời gian dẫn (1–2 tuần nhờ ở KCNC) vượt trội so với TQ. Đây là value proposition chính cho FDI [B].
 
 ### P.3. Chiến lược Marketing và Bán hàng
 
@@ -2878,7 +2878,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 
 > **Tỷ trọng xuất khẩu:** Y5: 5% → Y8: 14% (~1,1M / 8,0M) → Y12: 20% (~2,4M / 12,0M) [B]. Phù hợp chiến lược "VN first, ASEAN second" của P3 §3.5 .
 
-### P.6. Quy trình Quản lý Rủi ro Toàn diện (ERM Framework)
+### P.6. Quy trình Quản lý Rủi ro Toàn diện (ERM Khung)
 
 **Ma trận rủi ro — Xác suất × Tác động:**
 
@@ -2888,7 +2888,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | R02 | Vượt CAPEX > 10% | 2 | 5 | 10 | CAO | Contingency 1,00M [C], GMP contract |
 | R03 | Thiếu nhân sự kỹ thuật | 3 | 3 | 9 | TRUNG BÌNH | Đào tạo nội bộ, hợp tác ĐH |
 | R04 | Biến động tỷ giá USD/VND | 3 | 3 | 9 | TRUNG BÌNH | Hedge 50% exposure, xem A.8 |
-| R05 | Doanh thu Y1–Y2 thấp hơn kỳ vọng | 4 | 3 | 12 | CAO | Pipeline đa dạng, MOU sớm |
+| R05 | Doanh thu Y1–Y2 thấp hơn kỳ vọng | 4 | 3 | 12 | CAO | Chuỗi đơn hàng đa dạng, MOU sớm |
 | R06 | Thay đổi chính sách KCNC | 2 | 4 | 8 | TRUNG BÌNH | Theo dõi sát, lobby hiệp hội |
 | R07 | Sự cố thiết bị CNC lớn | 2 | 4 | 8 | TRUNG BÌNH | Bảo trì dự phòng, bảo hiểm |
 | R08 | An ninh mạng / mất dữ liệu | 2 | 5 | 10 | CAO | ISO 27001, backup 3-2-1 |
@@ -2972,7 +2972,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 
 ### Q.1. Chuỗi Cung ứng NVL Chính
 
-| NVL | Nhà cung cấp | Nguồn gốc | Lead time | Tồn kho chiến lược |
+| NVL | Nhà cung cấp | Nguồn gốc | Thời gian dẫn | Tồn kho chiến lược |
 |---|---|---|---|---|
 | Thép hợp kim (CNC) | POSCO, Nippon Steel | Hàn Quốc, Nhật | 4–6 tuần | 2–3 tháng |
 | Nhôm 6061/7075 (CNC) | Chalco, Alcoa | TQ, Mỹ | 3–4 tuần | 2 tháng |
@@ -3002,7 +3002,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | After-sales | Warranty tracking, remote support BMS | Ticketing system |
 | Customer Analytics | RFM analysis, churn prediction | BI Dashboard |
 
-> **CCC mục tiêu:** 49 ngày tại steady-state (xem P5 §5.11). AR 30 ngày, Inventory 35 ngày, AP 16 ngày [B].
+> **CCC mục tiêu:** 49 ngày tại ổn định (xem P5 §5.11). AR 30 ngày, Inventory 35 ngày, AP 16 ngày [B].
 
 ### Q.4. Bảng Đánh giá Nhà Cung cấp (Vendor Scorecard)
 
@@ -3010,7 +3010,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 |---|---:|---|---|
 | Chất lượng (Quality) | 30% | 1–5 | PPM, tỷ lệ hàng lỗi, đáp ứng spec |
 | Giao hàng đúng hạn (OTD) | 25% | 1–5 | % đơn hàng giao đúng/sớm hạn |
-| Giá cạnh tranh (Cost) | 20% | 1–5 | So sánh giá vs. benchmark thị trường |
+| Giá cạnh tranh (Cost) | 20% | 1–5 | So sánh giá vs. chuẩn ngành thị trường |
 | Năng lực kỹ thuật | 10% | 1–5 | Khả năng hỗ trợ kỹ thuật, R&D co-dev |
 | Tài chính ổn định | 10% | 1–5 | Doanh thu, biên lợi nhuận, tính liên tục |
 | ESG / Compliance | 5% | 1–5 | RoHS, REACH, conflict mineral, ISO 14001 |
@@ -3046,19 +3046,19 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 
 **Kiến trúc SCM:**
 
-| Module | Chức năng | Platform | Triển khai | Chi phí (K USD) |
+| Module | Chức năng | Nền tảng | Triển khai | Chi phí (K USD) |
 |---|---|---|---|---:|
 | Procurement | RFQ, PO, vendor rating | SAP MM / Odoo | Y1 | 40 |
 | Inventory | WMS, barcode, FIFO | SAP WM / custom | Y1 | 25 |
 | Planning | MRP, capacity planning | SAP PP | Y2 | 35 |
 | Logistics | Inbound/outbound tracking | TMS integré | Y2 | 20 |
-| Analytics | Spend analysis, lead time KPI | BI dashboard | Y2–Y3 | 15 |
+| Analytics | Spend analysis, thời gian dẫn KPI | BI dashboard | Y2–Y3 | 15 |
 | Supplier Portal | Self-service, document exchange | Web portal | Y3 | 20 |
 | **Tổng** | | | | **155** |
 
 **KPI Cung Ứng mục tiêu:**
 
-| Chỉ số | Y1 | Y3 | Y5 | Benchmark |
+| Chỉ số | Y1 | Y3 | Y5 | Chuẩn ngành |
 |---|---:|---:|---:|---:|
 | Inventory Turnover (lần/năm) | 6 | 8 | 12 | 10–15 |
 | Supplier On-time Delivery (%) | 85% | 92% | 96% | > 95% |
@@ -3090,7 +3090,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Local vendor incubation | Liên tục | Phát triển 3–5 vendor VN/năm | 10K |
 | **Tổng** | | | **58K/năm** |
 
-> **Chiến lược nội địa hóa:** Mục tiêu tăng tỷ lệ vendor VN từ 30% (Y1) lên 55% (Y5). Điều này giúp giảm lead time, giảm FX risk (xem A.8), và tăng điểm ưu đãi KCNC cho nội dung địa phương hóa [A].
+> **Chiến lược nội địa hóa:** Mục tiêu tăng tỷ lệ vendor VN từ 30% (Y1) lên 55% (Y5). Điều này giúp giảm thời gian dẫn, giảm FX risk (xem A.8), và tăng điểm ưu đãi KCNC cho nội dung địa phương hóa [A].
 
 ### Q.9. Chuẩn hóa QC Nhà cung cấp (Supplier Quality Manual)
 
@@ -3136,7 +3136,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Chi phí cố định | Thấp (biến phí) | Cao (xe, kho, nhân sự) | 3PL cho outbound |
 | Kiểm soát chất lượng | Trung bình | Cao | In-house cho inbound NVL nhạy cảm |
 | Linh hoạt mở rộng | Cao | Thấp | 3PL cho peak season |
-| Lead time nội địa | 1–3 ngày | 1–2 ngày | In-house cho khách hàng VIP |
+| Thời gian dẫn nội địa | 1–3 ngày | 1–2 ngày | In-house cho khách hàng VIP |
 | Xuất khẩu | Chuyên nghiệp | Cần đầu tư | 3PL cho xuất khẩu |
 
 #### Q.10.3. Quy cách đóng gói theo sản phẩm
@@ -3160,7 +3160,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Bảo hiểm hàng hóa vận chuyển | 12.000 | 0,1% |
 | **Tổng chi phí logistics/năm** | **290.000** | **2,4%** |
 
-> Chi phí logistics 2,4% doanh thu nằm trong benchmark ngành sản xuất high-tech ASEAN (2,0–3,5%).
+> Chi phí logistics 2,4% doanh thu nằm trong chuẩn ngành ngành sản xuất high-tech ASEAN (2,0–3,5%).
 
 ---
 
@@ -3243,7 +3243,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Tỷ giá USD/VND (±10%) | 22.950 | 28.050 | 0,50 | 2,50 | 2,00 |
 | Thuế suất ưu đãi bị rút (15 → 20%) | 10% suốt | 20% từ Y8 | 1,50 | -0,80 | 2,30 |
 
-> **Nhận xét:** Biến nhạy nhất là Doanh thu steady và WACC. Việc đảm bảo pipeline khách hàng (xem Phụ lục O, P) và duy trì cấu trúc vốn tối ưu (CSH 81,8% [C]) là hai đòn bẩy quan trọng nhất [A].
+> **Nhận xét:** Biến nhạy nhất là Doanh thu steady và WACC. Việc đảm bảo chuỗi đơn hàng khách hàng (xem Phụ lục O, P) và duy trì cấu trúc vốn tối ưu (CSH 81,8% [C]) là hai đòn bẩy quan trọng nhất [A].
 
 **R.5.2. Ma trận Kịch bản Hai Biến (DT × CAPEX)**
 
@@ -3257,9 +3257,9 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 
 > Vùng đỏ (NPV < 0): Xảy ra khi DT giảm ≥ 10% đồng thời CAPEX tăng ≥ 10%. Xác suất đồng thời ước tính ≤ 15% [A].
 
-**R.5.3. Break-even Sensitivity trên Biến chính**
+**R.5.3. Điểm hòa vốn Sensitivity trên Biến chính**
 
-| Biến số | Giá trị Break-even (NPV = 0) | So với Base | Margin of Safety |
+| Biến số | Giá trị Điểm hòa vốn (NPV = 0) | So với Base | Margin of Safety |
 |---|---:|---:|---:|
 | Doanh thu steady tối thiểu | 10,80M/năm | -10% so với 12,00M [C] | 10% headroom |
 | CAPEX tối đa chấp nhận | 24,50M | +11,4% so với 22,00M [C] | 11,4% headroom |
@@ -3312,7 +3312,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Giả định | Thuế TNDN 20% từ Y4 (không được ưu đãi KCNC) |
 | NPV | -1,80M |
 | IRR | 11,0% |
-| Biện pháp | Tăng giá bán 3–5%, tối ưu cấu trúc thuế qua transfer pricing hợp pháp |
+| Biện pháp | Tăng giá bán 3–5%, tối ưu cấu trúc thuế qua transfer định giá hợp pháp |
 | Kết quả sau điều chỉnh | NPV = -0,50M |
 
 > **Kết luận Stress Test:** Dự án chịu được hầu hết các cú sốc đơn lẻ. Rủi ro lớn nhất là suy thoái DT kéo dài kết hợp CAPEX overrun. Dự phòng 1,35M [C] (6,1%) và cấu trúc vốn CSH cao (81,8% [C]) là hai lớp đệm chính [A].
@@ -3337,7 +3337,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Tỷ giá | SBV corridor | Bloomberg, Reuters | Real-time |
 | FDI vào VN | MPI, UNCTAD | Japan JETRO, Korea KOTRA | Hàng quý |
 | Giá NVL (thép, chip) | Bloomberg Commodity | Alibaba index, nhà cung cấp | Hàng tháng |
-| Giá CNC machining | Xometry, Protolabs pricing | Quote từ đối thủ ASEAN | Hàng quý |
+| Giá CNC machining | Xometry, Protolabs định giá | Quote từ đối thủ ASEAN | Hàng quý |
 | Thị trường IoT/BMS | IoT Analytics, MarketsAndMarkets | Khảo sát khách hàng Mekong | Hàng năm |
 | Lãi suất USD | Fed Funds rate + credit spread | Ngân hàng đầu mối (Vietcombank, HSBC) | Hàng quý |
 
@@ -3345,7 +3345,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 
 1. **Version control:** Mỗi lần thay đổi giả định phải tạo version mới (v3.1, v3.2...) với changelog.
 2. **Dual sign-off:** Mọi thay đổi giả định ảnh hưởng NPV > 0,50M phải có chữ ký CEO + CFO.
-3. **Freeze period:** 30 ngày trước nộp hồ sơ KCNC — đóng băng toàn bộ giả định (baseline freeze, xem X.3).
+3. **Freeze period:** 30 ngày trước nộp hồ sơ KCNC — đóng băng toàn bộ giả định (mức cơ sở freeze, xem X.3).
 4. **Traceability:** Mỗi giả định phải có nhãn [A]/[B]/[C] và link tới nguồn kiểm chứng cụ thể.
 5. **Audit trail:** Lưu giữ tất cả version cũ và email/memo phê duyệt tối thiểu 5 năm.
 6. **Escalation rule:** Nếu actual deviation > 20% so với forecast 2 quý liên tiếp, kích hoạt Board review.
@@ -3364,7 +3364,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Severe | -20% | +5pp | +10% | +8% | -0,45 | 0,92 |
 | Catastrophic | -30% | +7pp | +15% | +10% | -1,65 | 0,68 |
 
-**Phân tích điểm gãy (Break-even sensitivity):**
+**Phân tích điểm gãy (Điểm hòa vốn sensitivity):**
 
 | Biến | Ngưỡng NPV = 0 | Ngưỡng DSCR = 1.0 | Buffer từ Base |
 |---|---:|---:|---:|
@@ -3391,7 +3391,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Revenue < 80% kế hoạch | 2 quý liên tiếp | Cắt OPEX 15%, freeze hiring | Pivot marketing, giảm giá spot | Revenue > 90% quý kế tiếp |
 | DSCR < 1.20x | Bất kỳ quý nào | Bơm CSH bổ sung từ reserve | Đàm phán reschedule nợ | DSCR > 1.50x [C] |
 | Mất khách hàng lớn | > 15% revenue | Div acquisition team, đa dạng KH | Key account re-engagement | Revenue replace 6 tháng |
-| Thiên tai / dịch | Nhà máy ngưng > 15 ngày | Insurance claim, BCP activate | Thuê outsource capacity | Hoạt động lại 30 ngày |
+| Thiên tai / dịch | Nhà máy ngưng > 15 ngày | Insurance claim, BCP activate | Thuê thuê ngoài capacity | Hoạt động lại 30 ngày |
 | FX shock > 10% | VND mất giá > 10% | Hedge forward 6M, giá bán điều chỉnh | Natural hedge (tăng XK) | FX impact < 3% NP |
 
 **Capital reserve policy:**
@@ -3405,7 +3405,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 
 #### R.10.1. Mục tiêu DSO/DIO/DPO
 
-| Chỉ tiêu | Định nghĩa | Mục tiêu (N3+) | Benchmark ngành | Ghi chú |
+| Chỉ tiêu | Định nghĩa | Mục tiêu (N3+) | Chuẩn ngành ngành | Ghi chú |
 |----------|-----------|----------------|----------------|---------|
 | DSO (Days Sales Outstanding) | Kỳ thu tiền bình quân | 45 ngày | 40–60 ngày | Áp dụng chính sách tín dụng nghiêm ngặt |
 | DIO (Days Inventory Outstanding) | Kỳ tồn kho bình quân | 50 ngày | 45–65 ngày | Kanban + JIT cho nhóm A |
@@ -3482,8 +3482,8 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 |---|---|---|
 | NPV (50 năm, WACC 12%) | 1,50M USD [C] | Chiết khấu FCFF Y1–Y50 + Terminal Value |
 | IRR | 13,0% [C] | Internal Rate of Return trên FCFF |
-| Payback (chiết khấu) | 10 năm (từ khi vận hành) [C] | FCFF tích lũy chiết khấu = 0 |
-| Payback (không chiết khấu) | ~8 năm (từ khi vận hành) | FCFF tích lũy = 0 (Y14) |
+| Thời gian hoàn vốn (chiết khấu) | 10 năm (từ khi vận hành) [C] | FCFF tích lũy chiết khấu = 0 |
+| Thời gian hoàn vốn (không chiết khấu) | ~8 năm (từ khi vận hành) | FCFF tích lũy = 0 (Y14) |
 | PI (Profitability Index) | 1,07 | PV(FCFF) / Initial Investment |
 
 ### S.3. Phân tích Kịch bản
@@ -3637,7 +3637,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Y3-Q4 | 3.000 | 1.710 | 225 | 1.065 | 53 | 722 | 2.420 |
 | **Y3 cả năm** | **10.500** | **6.129** | **870** | **3.501** | **176** | **2.210** | **2.420** |
 
-> **Nhận xét:** Cash flow tích lũy chuyển dương từ Y2-Q4. Payback period ≈ 2,75 năm (thoả mãn < 8 năm theo chuẩn KCNC). EBITDA margin tăng từ 8,5% (Y1) lên 33,3% (Y3) — tiến về 30% target [C]. Xem S.1–S.8 cho FCFF 15Y và terminal value [A].
+> **Nhận xét:** Dòng tiền tích lũy chuyển dương từ Y2-Q4. Thời gian hoàn vốn ≈ 2,75 năm (thoả mãn < 8 năm theo chuẩn KCNC). EBITDA margin tăng từ 8,5% (Y1) lên 33,3% (Y3) — tiến về 30% target [C]. Xem S.1–S.8 cho FCFF 15Y và terminal value [A].
 
 ### S.10. Phân tích Bootstrap Độ nhạy NPV (1.000 vòng mô phỏng)
 
@@ -3694,7 +3694,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Lợi nhuận giữ lại | 0 | (300) | 900 | 2.200 | 2.700 | 1.900 |
 | **Tổng nguồn vốn** | **22.000** | **21.300** | **21.300** | **21.000** | **20.700** | **19.900** |
 
-> **Ghi chú:** CAPEX 22.000K [C], CSH 18.000K (81,8%) [C], Vay 4.000K (18,2%) [C]. Vay trả hết Y8. D/E peak = 0.22 (Y0), giảm về 0 từ Y8. Bảng cân đối cho thấy dự án accumulate cash mạnh từ Y5, hỗ trợ expansion Phase 2-3 mà không cần thêm vay. Xem S.1-S.10, T.9 (revenue roadmap) [A].
+> **Ghi chú:** CAPEX 22.000K [C], CSH 18.000K (81,8%) [C], Vay 4.000K (18,2%) [C]. Vay trả hết Y8. D/E peak = 0.22 (Y0), giảm về 0 từ Y8. Bảng cân đối cho thấy dự án accumulate cash mạnh từ Y5, hỗ trợ expansion Phase 2-3 mà không cần thêm vay. Xem S.1-S.10, T.9 (revenue lộ trình) [A].
 
 ### S.12. Chi tiết Ưu đãi Thuế tại KCNC (SHTP)
 
@@ -3739,7 +3739,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 
 ## Phụ lục T: Phân tích Tài chính Per-BU Chi tiết
 
-### T.1. P&L BU1 — Điện tử Thông minh (Steady State Y12+)
+### T.1. P&L BU1 — Điện tử Thông minh (Ổn định Y12+)
 
 | Hạng mục | M USD/năm | % Doanh thu |
 |---|---:|---:|
@@ -3755,7 +3755,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Khấu hao (add back) | +0,60 | |
 | **EBIT BU1** | **1,40** | **16,5%** |
 
-### T.2. P&L BU2 — CNC (Steady State Y12+)
+### T.2. P&L BU2 — CNC (Ổn định Y12+)
 
 | Hạng mục | M USD/năm | % Doanh thu |
 |---|---:|---:|
@@ -3800,7 +3800,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Y9 | 6,50 | 40% | 1,43 | 22% | 48 | Recurring revenue (SaaS license + support) |
 | Y10 | 7,50 | 40% | 1,73 | 23% | 50 | Expanded EMS, AI edge module |
 | Y11 | 8,00 | 41% | 1,88 | 23,5% | 50 | Mature portfolio, channel expansion |
-| Y12+ | 8,50 [C] | 41% | 2,00 | 23,5% | 50 | Steady state, 2% annual growth |
+| Y12+ | 8,50 [C] | 41% | 2,00 | 23,5% | 50 | Ổn định, 2% annual growth |
 
 **BU2 — CNC/MPMC:**
 
@@ -3834,7 +3834,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 
 > **Phương pháp:** Activity-Based Costing (ABC) kết hợp driver phù hợp theo hạng mục. BU1 chịu tỷ trọng cao hơn do doanh thu lớn hơn (70,8% [C]) nhưng BU2 chịu tỷ trọng Utility và M&E cao hơn do CNC tiêu thụ điện nhiều [A].
 
-### T.6. Phân tích Break-even theo BU
+### T.6. Phân tích Điểm hòa vốn theo BU
 
 | Chỉ số | BU1 | BU2 | Phương pháp |
 |---|---:|---:|---|
@@ -3865,12 +3865,12 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Shared utility & DC | Hạ tầng điện, nước, DC nội bộ chia sẻ chi phí | 0,12 (tiết kiệm) |
 | Brand halo effect | Khách FDI tin tưởng vendor có cả sản xuất + công nghệ | Khó lượng hóa (qualitative) |
 | Talent sharing | Kỹ sư IoT hỗ trợ tích hợp CNC, kỹ sư CNC hỗ trợ prototype | 0,05 (tiết kiệm) |
-| Supply chain leverage | Volume mua NVL lớn hơn → bargaining power tốt hơn | 0,05–0,08 (tiết kiệm) |
+| Chuỗi cung ứng leverage | Volume mua NVL lớn hơn → bargaining power tốt hơn | 0,05–0,08 (tiết kiệm) |
 | **Tổng synergy ước tính** | | **0,60–0,83** |
 
 > **Tham chiếu:** Giá trị chiến lược tổng thể ước tính 7,00M [C] (xem P5 §5.7) bao gồm cả synergy dài hạn này (DCF hóa ~0,70M/năm × 10 năm). Hai trụ cột tạo hệ sinh thái tự bổ trợ — thiếu một trong hai sẽ giảm giá trị tổng thể ước tính 25–30% [A].
 
-### T.8. Phân tích Break-even theo BU và Sản phẩm
+### T.8. Phân tích Điểm hòa vốn theo BU và Sản phẩm
 
 | BU / Sản phẩm | Fixed Cost/năm (K) | CM % | BEP Doanh thu (K) | Thời điểm BEP | Số KH cần |
 |---|---:|---:|---:|---|---:|
@@ -3885,9 +3885,9 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | **MPMC/Điện tử** | 280 | 32% | 875 | Y2-Q4 | 3–5 |
 | **Tổng công ty** | 1.050 | 38% | 2.763 | Y2-Q2 | 12–15 |
 
-> **Nhận xét:** BEP toàn công ty = 2,763M/năm ≈ 23% doanh thu steady-state 12,00M [C]. IoT có contribution margin cao nhất (55%), đạt BEP sớm nhất. CNC cần số KH ít hơn nhưng giá trị/KH lớn hơn. Liên kết: T.1–T.7 (P&L chi tiết), R (giả định), S (FCFF) [A].
+> **Nhận xét:** BEP toàn công ty = 2,763M/năm ≈ 23% doanh thu ổn định 12,00M [C]. IoT có contribution margin cao nhất (55%), đạt BEP sớm nhất. CNC cần số KH ít hơn nhưng giá trị/KH lớn hơn. Liên kết: T.1–T.7 (P&L chi tiết), R (giả định), S (FCFF) [A].
 
-### T.9. Roadmap Doanh thu 15 Năm theo BU
+### T.9. Lộ trình Doanh thu 15 Năm theo BU
 
 | Năm | CNC (M) | IoT (M) | MPMC (M) | Khác (M) | Tổng (M) | EBITDA % |
 |---:|---:|---:|---:|---:|---:|---:|
@@ -3998,7 +3998,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Báo cáo tháng | Hàng tháng | CEO + Board | PDF + Excel |
 | Báo cáo BQL KCNC | Hàng quý | BQL KCNC | Theo mẫu BQL |
 | Báo cáo kiểm toán | Hàng năm | Board + Cơ quan thuế | Kiểm toán độc lập |
-| Báo cáo ESG | Hàng năm | Stakeholders | GRI Standards |
+| Báo cáo ESG | Hàng năm | Các bên liên quan | GRI Standards |
 
 ### U.5. Kiến trúc Dashboard Kỹ thuật số
 
@@ -4007,7 +4007,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Lớp (Layer) | Thành phần | Vai trò | Nguồn dữ liệu |
 |---|---|---|---|
 | Data Collection | BMS/SCADA, ERP, MES, IoT sensors | Thu thập real-time từ shop floor + enterprise | OPC-UA, Modbus, REST API |
-| Data Pipeline | MQTT broker → Edge gateway → Time-series DB | Truyền tải, xử lý, buffer | Xem Phụ lục M.4 |
+| Data Chuỗi đơn hàng | MQTT broker → Edge gateway → Time-series DB | Truyền tải, xử lý, buffer | Xem Phụ lục M.4 |
 | Data Storage | InfluxDB (time-series) + PostgreSQL (master data) | Lưu trữ lịch sử + tham chiếu | DC nội bộ (Phụ lục B.3) |
 | Analytics | Python/R + Grafana + custom AI models | Tính toán KPI, anomaly detection, forecasting | Kết nối trực tiếp DB |
 | Presentation | Web dashboard (React) + Power BI (finance) | Hiển thị cho từng vai trò/đối tượng | API từ Analytics layer |
@@ -4032,7 +4032,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Doanh thu MTD vs. Forecast | ≥ 90% | 75–90% | < 75% | Họp Sales + CEO tuần |
 | EBITDA margin | ≥ 25% | 18–25% | < 18% | Cost review toàn diện |
 | OEE CNC | ≥ 75% | 60–75% | < 60% | Bảo trì khẩn + OT plan |
-| CNC Utilization | ≥ 70% | 50–70% | < 50% | Pipeline review + Sales push |
+| CNC Utilization | ≥ 70% | 50–70% | < 50% | Chuỗi đơn hàng review + Sales push |
 | FPY | ≥ 95% | 90–95% | < 90% | QC meeting + CAPA |
 | On-time Delivery | ≥ 92% | 85–92% | < 85% | Capacity planning review |
 | DSCR | ≥ 2,0× | 1,5–2,0× | < 1,50× [C] | Cash management + defer CAPEX |
@@ -4050,10 +4050,10 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 |---|---|---:|---|
 | 1. Executive Summary | KPI highlights, key wins, key risks | 1 | CEO |
 | 2. Financial Performance | P&L MTD/YTD vs. budget, variance analysis | 2 | CFO |
-| 3. Revenue Pipeline | Bookings, backlog, win rate, pipeline value | 1 | VP Sales |
+| 3. Revenue Chuỗi đơn hàng | Bookings, backlog, win rate, chuỗi đơn hàng value | 1 | VP Sales |
 | 4. Production Report | OEE, utilization, FPY, capacity vs. actual | 2 | Plant Manager |
 | 5. Quality Report | NCR summary, customer complaints, CAPA status | 1 | QA Director |
-| 6. HR Report | Headcount, attrition, training hours, hiring pipeline | 1 | HR Manager |
+| 6. HR Report | Headcount, attrition, training hours, hiring chuỗi đơn hàng | 1 | HR Manager |
 | 7. ESG Update | Energy, water, waste, safety incidents | 1 | ESG Officer |
 | 8. Risk Register | Top 5 risks, mitigation status, new risks | 1 | PMO |
 | 9. Action Items | Carry-over from last month + new | 1 | CEO |
@@ -4076,7 +4076,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | CEO / Board | Full | Full | Summary | Summary | Full |
 | CFO | Full | Full | Summary | Payroll only | Full |
 | Plant Manager | Production KPIs | Budget only | Full | Team only | Full |
-| Sales VP | Revenue KPIs | Pipeline only | Capacity only | No | No |
+| Sales VP | Revenue KPIs | Chuỗi đơn hàng only | Capacity only | No | No |
 | QA Director | Quality KPIs | No | QC full | No | No |
 | HR Manager | HR KPIs | No | No | Full | Safety only |
 | BQL KCNC (external) | Submission KPIs | Aggregated only | Aggregated only | No | ESG report |
@@ -4112,13 +4112,13 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 
 | Thành phần | Lựa chọn | Lý do |
 |---|---|---|
-| BI Platform | Power BI / Grafana | Power BI cho Executive, Grafana cho shop floor |
-| Data pipeline | MQTT → InfluxDB → Grafana | Realtime cho OEE, SPC |
+| BI Nền tảng | Power BI / Grafana | Power BI cho Executive, Grafana cho shop floor |
+| Data chuỗi đơn hàng | MQTT → InfluxDB → Grafana | Realtime cho OEE, SPC |
 | Reporting | Power BI → PDF auto | Báo cáo định kỳ KCNC |
 | Mobile | PWA responsive | Xem trên tablet, điện thoại |
 | Auth | SSO + RBAC | 4 role: Admin, Manager, Engineer, Viewer |
 
-> **Liên kết:** Dashboard sử dụng data từ Phụ lục U.1–U.8 (KPI framework). Chi phí BI platform ≈ 20–35K/năm, nằm trong IT OPEX. Xem Phụ lục H (M&E) cho BMS integration [A].
+> **Liên kết:** Dashboard sử dụng data từ Phụ lục U.1–U.8 (KPI khung). Chi phí BI nền tảng ≈ 20–35K/năm, nằm trong IT OPEX. Xem Phụ lục H (M&E) cho BMS integration [A].
 
 ### U.10. Phiên bản Báo cáo và Chu kỳ Cập nhật
 
@@ -4203,7 +4203,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | 12 | NPV (50Y, 12%) | 1.500.000 | [C] | P5 §5.5 |
 | 13 | IRR | 13,0% | [C] | P5 §5.5 |
 | 14 | WACC | 12,0% | [C] | P5 §5.5 |
-| 15 | Payback (chiết khấu) | 10 năm | [C] | P5 §5.5 |
+| 15 | Thời gian hoàn vốn (chiết khấu) | 10 năm | [C] | P5 §5.5 |
 | 16 | DSCR min | ≥ 1,50× | [C] | P5 §5.8 |
 | 17 | EBITDA margin | ~30% | [C] | P5 §5.12 |
 | 18 | CNC | 10 máy | [C] | P2, P4, Phụ lục B, I |
@@ -4260,7 +4260,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 
 > **Lưu ý:** Quy trình QC này được thực hiện tại mốc T-7 ngày (xem X.3) bởi PMO/QC team. Bảng Phụ lục V.1 ở trên là kết quả của lần QC gần nhất [A].
 
-### V.3. Quy trình Kiểm tra Số liệu Tự động (Automated QC Pipeline)
+### V.3. Quy trình Kiểm tra Số liệu Tự động (Automated QC Chuỗi đơn hàng)
 
 **Các bước kiểm tra:**
 
@@ -4289,7 +4289,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | DSCR | ≥ 1,50× | 3+ lần |
 | EBITDA | ~30% | 5+ lần |
 
-> **Tần suất:** QC pipeline chạy mỗi khi có commit vào nhánh main. Kết quả lưu tại CHECKLIST_THEO_DOI_V3.md và BANG_DOI_CHIEU.md. Xem V.1–V.2 cho chi tiết canonical crosscheck [A].
+> **Tần suất:** QC chuỗi đơn hàng chạy mỗi khi có commit vào nhánh main. Kết quả lưu tại CHECKLIST_THEO_DOI_V3.md và BANG_DOI_CHIEU.md. Xem V.1–V.2 cho chi tiết canonical crosscheck [A].
 
 ### V.4. Lịch sử Phiên bản Đề án
 
@@ -4301,7 +4301,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | V3.0 | 2026-03 | Cấu trúc lại 22M, 2 trụ cột, 10 CNC | Team dự án |
 | V3.1 | 2026-03 | Bổ sung phụ lục A-Y, QC nhất quán | AI + Review |
 
-> **Nguyên tắc:** Mọi thay đổi số liệu canonical phải cập nhật SO_LIEU_CO_DINH_V3.md trước, sau đó cascade xuống tất cả sections. QC pipeline (V.3) kiểm tra nhất quán số liệu sau mỗi lần sửa [A].
+> **Nguyên tắc:** Mọi thay đổi số liệu canonical phải cập nhật SO_LIEU_CO_DINH_V3.md trước, sau đó cascade xuống tất cả sections. QC chuỗi đơn hàng (V.3) kiểm tra nhất quán số liệu sau mỗi lần sửa [A].
 
 ### V.5. Quy ước Đặt tên Tài liệu và Chính sách Lưu trữ
 
@@ -4432,7 +4432,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | BU | Business Unit | Đơn vị Kinh doanh |
 | CAGR | Compound Annual Growth Rate | Tốc độ Tăng trưởng Bình quân Hàng năm |
 | CAPEX | Capital Expenditure | Chi phí Đầu tư |
-| CAPM | Capital Asset Pricing Model | Mô hình Định giá Tài sản Vốn |
+| CAPM | Capital Asset Định giá Model | Mô hình Định giá Tài sản Vốn |
 | CMM | Coordinate Measuring Machine | Máy Đo Tọa độ |
 | CNC | Computer Numerical Control | Điều khiển Số bằng Máy tính |
 | CSH | — | Chủ Sở Hữu (Owner's Equity) |
@@ -4450,7 +4450,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | ESG | Environmental, Social, Governance | Môi trường, Xã hội, Quản trị |
 | FAI | First Article Inspection | Kiểm tra Sản phẩm Đầu tiên |
 | FAT | Factory Acceptance Test | Nghiệm thu Tại Xưởng |
-| FCFF | Free Cash Flow to Firm | Dòng tiền Tự do cho Doanh nghiệp |
+| FCFF | Free Dòng Tiền to Firm | Dòng tiền Tự do cho Doanh nghiệp |
 | FDI | Foreign Direct Investment | Đầu tư Trực tiếp Nước ngoài |
 | FPY | First Pass Yield | Tỷ lệ Đạt Ngay Lần đầu |
 | GFA | Gross Floor Area | Tổng Diện tích Sàn |
@@ -4494,7 +4494,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | WACC | Weighted Average Cost of Capital | Chi phí Vốn Bình quân Gia quyền |
 | ZLD | Zero Liquid Discharge | Xả Lỏng Bằng Không |
 
-> **Ghi chú:** Bảng thuật ngữ này bao gồm tất cả viết tắt sử dụng trong đề án V3. Được sắp xếp theo thứ tự ABC. Nhãn [C] = Canonical, [B] = Benchmark/External, [A] = AI-generated analysis [A].
+> **Ghi chú:** Bảng thuật ngữ này bao gồm tất cả viết tắt sử dụng trong đề án V3. Được sắp xếp theo thứ tự ABC. Nhãn [C] = Canonical, [B] = Chuẩn ngành/External, [A] = AI-generated analysis [A].
 
 > **Ghi chú chung W:** Danh mục trên bao gồm các nguồn chính được trích dẫn trong đề án. Các số liệu thị trường có nhãn [B], số liệu canonical có nhãn [C], và nội dung phân tích do AI biên soạn có nhãn [A].
 
@@ -4520,15 +4520,15 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | 4 | Smart Building Vietnam | BMI Research | 2025 | J, M |
 | 5 | FDI into Vietnam Technology Sector | JETRO | 2025 | M.8 |
 | 6 | Carbon Credit Market SE Asia | BloombergNEF | 2024 | E.9 |
-| 7 | Semiconductor Supply Chain Resilience | McKinsey | 2024 | Q.8 |
+| 7 | Semiconductor Chuỗi Cung ứng Resilience | McKinsey | 2024 | Q.8 |
 
-> **Ghi chú:** Tất cả nguồn được gắn nhãn [A] (analysis/tính toán) hoặc [B] (benchmark) theo quy ước V3. Văn bản pháp luật là nguồn gốc [C] khi được viện dẫn trực tiếp. Xem W.1–W.5 cho danh mục đầy đủ [A].
+> **Ghi chú:** Tất cả nguồn được gắn nhãn [A] (analysis/tính toán) hoặc [B] (chuẩn ngành) theo quy ước V3. Văn bản pháp luật là nguồn gốc [C] khi được viện dẫn trực tiếp. Xem W.1–W.5 cho danh mục đầy đủ [A].
 
 ### W.7. Danh mục Thuật ngữ viết tắt
 
 | Viết tắt | Tiếng Anh | Tiếng Việt |
 |---|---|---|
-| BEP | Break-Even Point | Điểm hòa vốn |
+| BEP | Điểm Hòa vốn Point | Điểm hòa vốn |
 | BMS | Building Management System | Hệ thống quản lý tòa nhà |
 | CAPEX | Capital Expenditure | Chi phí đầu tư |
 | CMM | Coordinate Measuring Machine | Máy đo tọa độ |
@@ -4539,7 +4539,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | ERM | Enterprise Risk Management | Quản lý rủi ro doanh nghiệp |
 | ERP | Enterprise Resource Planning | Hoạch định nguồn lực doanh nghiệp |
 | ESG | Environmental, Social, Governance | Môi trường, Xã hội, Quản trị |
-| FCFF | Free Cash Flow to Firm | Dòng tiền tự do |
+| FCFF | Free Dòng Tiền to Firm | Dòng tiền tự do |
 | GFA | Gross Floor Area | Tổng diện tích sàn |
 | IATF | International Automotive Task Force | Tiêu chuẩn ô tô quốc tế |
 | IoT | Internet of Things | Vạn vật kết nối |
@@ -4560,7 +4560,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 
 > **Tổng cộng 28 thuật ngữ.** Danh mục này bổ sung cho W.1-W.6 và giúp người đọc tra cứu nhanh [A].
 
-### W.8. So sánh Benchmark: Mekong vs Doanh nghiệp Tương đương tại SHTP/KCNC
+### W.8. So sánh Chuẩn ngành: Mekong vs Doanh nghiệp Tương đương tại SHTP/KCNC
 
 #### W.8.1. Bảng so sánh tổng quan
 
@@ -4582,7 +4582,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | NPV (M USD) | 1,50 [C] | 8,20 | 0,45 | 1,80 | 2,10 | — |
 | EBITDA margin | ~30% [C] | 25% | 18% | 35% | 22% | 25% |
 | DSCR | ≥ 1,50x [C] | 2,20x | 1,35x | N/A (no debt) | 1,80x | 1,60x |
-| Payback period | 7,5 năm | 5,2 năm | 8,8 năm | 4,0 năm | 6,5 năm | 6,5 năm |
+| Thời gian hoàn vốn | 7,5 năm | 5,2 năm | 8,8 năm | 4,0 năm | 6,5 năm | 6,5 năm |
 | Equity ratio | 81,8% [C] | 60% | 70% | 100% | 55% | 65% |
 
 #### W.8.3. So sánh năng lực công nghệ
@@ -4632,7 +4632,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | Phù hợp định hướng KCNC | Dự án có đúng “công nghệ cao” không? | 2 trụ cột V3, danh mục QĐ 38, tỷ trọng R&D | P2, Phụ lục J.5 |
 | Tính khả thi kỹ thuật | Thiết bị, layout, utility có đủ để vận hành không? | BOQ, M&E, CNC layout, utility sizing | P4, Phụ lục B, H, I, L |
 | Tính khả thi tài chính | 22,00M USD [C] có đủ và có sinh lời không? | CAPEX, FCFF, NPV 1,50M, IRR 13,0%, DSCR ≥ 1,50× [C] | P5, Phụ lục A, R, S |
-| Tính khả thi thị trường | Ai sẽ mua sản phẩm và vì sao? | TAM/SAM/SOM, pipeline, benchmarking ASEAN | P1, P3, Phụ lục O, P |
+| Tính khả thi thị trường | Ai sẽ mua sản phẩm và vì sao? | TAM/SAM/SOM, chuỗi đơn hàng, đối chiếu chuẩn ngành ASEAN | P1, P3, Phụ lục O, P |
 | Tuân thủ pháp lý - môi trường | Có rủi ro bị ách ở ĐTM/PCCC không? | Lộ trình pháp lý, ĐTM sơ bộ, PCCC | P6, Phụ lục D, E, F |
 | Năng lực tổ chức thực thi | Ai chịu trách nhiệm triển khai? | Org chart, PMO, hiring, go-live readiness | P7, P8 |
 | Nhất quán dữ liệu | Có mâu thuẫn giữa các phần không? | Bảng canonical + bảng đối chiếu | `SO_LIEU_CO_DINH_V3.md`, Phụ lục V |
@@ -4641,7 +4641,7 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 
 | Hạng mục | Đơn vị chủ trì | Đơn vị phối hợp | Mốc hoàn thành nội bộ | Đầu ra kiểm chứng |
 |---|---|---|---|---|
-| Chốt phạm vi V3 và số liệu canonical | Ban dự án | Tài chính, kỹ thuật | T-30 ngày | Baseline freeze |
+| Chốt phạm vi V3 và số liệu canonical | Ban dự án | Tài chính, kỹ thuật | T-30 ngày | Mức cơ sở freeze |
 | Rà soát pháp lý đầu vào | Pháp chế | Tư vấn KCNC | T-25 ngày | Legal memo |
 | Chốt layout và nhu cầu utility | Kỹ thuật | Thiết kế, M&E | T-21 ngày | Site/layout pack |
 | Chốt danh mục thiết bị & vendor shortlist | Kỹ thuật sản xuất | Mua sắm | T-18 ngày | Equipment pack |
@@ -4669,10 +4669,10 @@ Gia công tinh → Đo QC (CMM) → Rửa → Đóng gói → Giao hàng
 | TT | Câu hỏi dự kiến từ Hội đồng Thẩm định | Nội dung trả lời tóm tắt | Chứng cứ đính kèm |
 |:---:|---|---|---|
 | 1 | Tại sao cần 2 trụ cột thay vì chỉ 1? | Synergy cross-sell, chia sẻ hạ tầng, giảm rủi ro tập trung. BU1 margin cao (23,5%), BU2 ổn định doanh thu FDI. Giá trị synergy ~0,70M/năm | P2, Phụ lục T.7 |
-| 2 | CAPEX 22M có đủ không? Có rủi ro overrun? | Dự phòng 1,35M (6,1%) [C]. Stress test CAPEX +30%: NPV = -0,80M, IRR = 11,5% (sau điều chỉnh). Baseline dựa trên vendor quotation | P5, Phụ lục A, R.6 |
+| 2 | CAPEX 22M có đủ không? Có rủi ro overrun? | Dự phòng 1,35M (6,1%) [C]. Stress test CAPEX +30%: NPV = -0,80M, IRR = 11,5% (sau điều chỉnh). Mức cơ sở dựa trên vendor quotation | P5, Phụ lục A, R.6 |
 | 3 | IRR 13% chỉ nhỉnh hơn WACC 12%. Tại sao đáng đầu tư? | NPV > 0 (1,50M [C]). Giá trị chiến lược 7,00M [C] chưa tính vào DCF. Monte Carlo: P(NPV>0)=72% | P5 §5.7, Phụ lục S.8 |
-| 4 | Doanh thu 12M/năm có thực tế không? | Ramp 10 năm, steady chỉ từ Y12. TAM IoT VN: 2 tỷ, SAM: 200M, SOM 12M = chỉ 6% SAM. CNC: FDI pipeline mạnh | P3, Phụ lục O.8, P |
-| 5 | Datacenter có thương mại hóa không? | Không. DC hoàn toàn nội bộ (MES, ERP, BMS, R&D). Không GPU-aaS, colocation, Tier III hosting | P4, YEU_CAU_GOC_V3 |
+| 4 | Doanh thu 12M/năm có thực tế không? | Ramp 10 năm, steady chỉ từ Y12. TAM IoT VN: 2 tỷ, SAM: 200M, SOM 12M = chỉ 6% SAM. CNC: FDI chuỗi đơn hàng mạnh | P3, Phụ lục O.8, P |
+| 5 | Datacenter có thương mại hóa không? | Không. DC hoàn toàn nội bộ (MES, ERP, BMS, R&D). Không GPU-aaS, colocation, Tier III lưu trữ | P4, YEU_CAU_GOC_V3 |
 | 6 | Tại sao 10 máy CNC, không phải ít hơn? | 10 máy = 48K machine-hours/year. Target utilization 80% steady. Đa chủng loại (5-axis, EDM, high-speed) đáp ứng nhiều segment | P2, Phụ lục B, I |
 | 7 | Rủi ro lớn nhất là gì? | Delay ramp-up + FDI slowdown đồng thời. Mitigant: CSH 81,8%, dự phòng 6,1%, phân phase CAPEX | P5, Phụ lục R.5, R.6 |
 | 8 | R&D cam kết bao nhiêu? | 8% doanh thu (mục tiêu), tối thiểu 5% (cam kết). Focus: firmware, AI edge, robot integration | P2, Phụ lục R.3 |
@@ -4704,7 +4704,7 @@ T-60              T-45            T-30            T-14      T-7    T-0
   |  |              |               |               |        |      |
   |  |  +-- Pre-consult BQL KCNC --+               |        |      |
   |  |  |           |               |               |        |      |
-  |  |  |  +-- Baseline freeze (scope + canonical) -+        |      |
+  |  |  |  +-- Chốt mức cơ sở (scope + canonical) -+        |      |
   |  |  |  |        |               |               |        |      |
   |  |  |  |        +-- Chốt layout/utility --------+        |      |
   |  |  |  |        |               |               |        |      |
@@ -4719,7 +4719,7 @@ T-60              T-45            T-30            T-14      T-7    T-0
   |  |  |  |        |  |            |  |            |  +- Final - NỘP
 ```
 
-> **Ghi chú:** T = ngày nộp hồ sơ. Tất cả mốc tính ngược từ T-0. Đường găng: Pháp nhân -> Baseline freeze -> Financial model -> QC -> Nộp. Buffer tối thiểu 7 ngày cho QC cuối [A].
+> **Ghi chú:** T = ngày nộp hồ sơ. Tất cả mốc tính ngược từ T-0. Đường găng: Pháp nhân -> Mức cơ sở freeze -> Financial model -> QC -> Nộp. Buffer tối thiểu 7 ngày cho QC cuối [A].
 
 ### X.8. Danh mục Bản cứng và Bản mềm khi Nộp
 
@@ -4765,7 +4765,7 @@ T-60              T-45            T-30            T-14      T-7    T-0
 | T-5 | Tháng 8 | Xét duyệt hội đồng KCNC | KCNC | Phê duyệt / yêu cầu bổ sung |
 | T-4 | Tháng 9 | Nhận GCN KCNC + GPXD | KCNC + Sở XD | Giấy phép |
 | T-3 | Tháng 10 | Khởi công xây dựng | PMO + Nhà thầu | Lễ khởi công |
-| T-2 | Tháng 11 | Đặt mua thiết bị CNC (lead time 4–6 tháng) | Procurement | PO confirm |
+| T-2 | Tháng 11 | Đặt mua thiết bị CNC (thời gian dẫn 4–6 tháng) | Procurement | PO confirm |
 | T-1 | Tháng 12 | Hoàn thiện nội thất, M&E | Nhà thầu | Nghiệm thu giai đoạn |
 | D-Day | Q1 Y1 | Vận hành thử | Tất cả | SOP, trial run |
 
@@ -4791,7 +4791,7 @@ T-60              T-45            T-30            T-14      T-7    T-0
 | U-V | Tất cả | Dashboard và QC kiểm tra nhất quán toàn bộ |
 | W-X-Y | Tất cả | Tham khảo, FAQ, chứng chỉ là phần tra cứu |
 
-> **Nguyên tắc:** Khi thay đổi số liệu tại một phụ lục, phải cascade kiểm tra tất cả phụ lục liên kết. QC pipeline (V.3) tự động kiểm tra nhất quán số liệu canonical [C] [A].
+> **Nguyên tắc:** Khi thay đổi số liệu tại một phụ lục, phải cascade kiểm tra tất cả phụ lục liên kết. QC chuỗi đơn hàng (V.3) tự động kiểm tra nhất quán số liệu canonical [C] [A].
 
 ### X.12. Checklist Hoàn thiện Hồ sơ Trước khi Nộp (50 mục)
 
@@ -4878,7 +4878,7 @@ T-60              T-45            T-30            T-14      T-7    T-0
 | ISO 9001:2015 | Hệ thống quản lý chất lượng nền tảng | Trong 12 tháng đầu vận hành | Điều kiện tối thiểu cho đa số khách hàng B2B |
 | ISO 14001:2015 | Quản lý môi trường | Trong 18 tháng | Tăng khả năng qua ESG/vendor screening |
 | ISO 45001:2018 | ATVSLĐ | Trong 18 tháng | Giảm rủi ro HSE khi tiếp khách FDI audit |
-| IEC 62443 roadmap | An ninh OT/ICS | Khởi động trong 12 tháng, hoàn thiện theo module | Quan trọng với BMS/SCADA và nhà máy thông minh |
+| IEC 62443 lộ trình | An ninh OT/ICS | Khởi động trong 12 tháng, hoàn thiện theo module | Quan trọng với BMS/SCADA và nhà máy thông minh |
 | UL/CE/RoHS cho sản phẩm điện tử phù hợp | Tuân thủ sản phẩm theo thị trường đích | Theo từng dòng sản phẩm | Bắt buộc nếu xuất khẩu hoặc bán cho OEM |
 | AS9100 / IATF readiness (nếu mở rộng) | Chuẩn cao hơn cho aerospace/automotive | Giai đoạn mở rộng sau Y6 | Mở khóa nhóm khách hàng yêu cầu audit sâu |
 
@@ -4888,7 +4888,7 @@ T-60              T-45            T-30            T-14      T-7    T-0
 |---|---|---|---|
 | Nhà máy FDI điện tử | ISO 9001, hồ sơ năng lực, NDA | Pilot thành công + OTD > 90% | QBR định kỳ + PPM ổn định |
 | Chủ đầu tư / tòa nhà | Demo BMS/EMS, hồ sơ kỹ thuật, SLA support | FAT/SAT pass tại site | Service response SLA + reference project |
-| Khách CNC chính xác | Capability list máy, sample part, QC plan | PPAP/FAI hoặc sample approved | OTD, repeatability, cost-down roadmap |
+| Khách CNC chính xác | Capability list máy, sample part, QC plan | PPAP/FAI hoặc sample approved | OTD, repeatability, cost-down lộ trình |
 | OEM robot / tự động hóa | BOM control, firmware control, traceability | EVT/DVT/PVT pass | Engineering change control + field support |
 | Khách ASEAN phân phối | CE/RoHS, bộ tài liệu bán hàng, bảo hành | Đơn hàng pilot + đào tạo đại lý | Spare stock + chính sách hậu mãi |
 
@@ -4898,17 +4898,17 @@ T-60              T-45            T-30            T-14      T-7    T-0
 |---|---|
 | Hồ sơ công ty | Giới thiệu doanh nghiệp, sơ đồ tổ chức, năng lực nhân sự chủ chốt |
 | Hồ sơ hệ thống | Quy trình ISO, CAPA, kiểm soát tài liệu, đánh giá nội bộ |
-| Hồ sơ năng lực thiết bị | Danh mục máy, datasheet, lịch calibration, OEE baseline |
+| Hồ sơ năng lực thiết bị | Danh mục máy, datasheet, lịch calibration, OEE mức cơ sở |
 | Hồ sơ chất lượng | Control plan, IQC/IPQC/OQC, NCR log, action tracking |
 | Hồ sơ truy xuất | Lot/batch, serial, revision control, BOM và ECO |
 | Hồ sơ HSE/ESG | PCCC, môi trường, ATVSLĐ, waste handling, energy KPI |
-| Hồ sơ thương mại | Lead time cam kết, MOQ, Incoterms, warranty, SLA |
+| Hồ sơ thương mại | Thời gian dẫn cam kết, MOQ, Incoterms, warranty, SLA |
 
-### Y.4. Qualification Roadmap theo Mốc 24 Tháng Sau Go-Live
+### Y.4. Qualification Lộ trình theo Mốc 24 Tháng Sau Go-Live
 
 | Giai đoạn | Trọng tâm | Deliverable chính | KPI kiểm soát |
 |---|---|---|---|
-| 0-3 tháng | Ổn định quy trình nội bộ | SOP pack, QC pack, vendor list | FPY, NCR, downtime |
+| 0-3 tháng | Ổn định quy trình nội bộ | SOP pack, QC pack, vendor list | FPY, NCR, thời gian dừng máy |
 | 3-6 tháng | Đón audit khách đầu tiên | Audit binder, demo cell, pilot sample | Audit findings ≤ mức cho phép |
 | 6-12 tháng | Chuyển từ pilot sang PO lặp lại | Reference account, monthly QBR | OTD ≥ 90%, return thấp |
 | 12-18 tháng | Mở rộng khách hàng FDI/OEM | Approved supplier status | 3-5 khách active |
@@ -4919,7 +4919,7 @@ T-60              T-45            T-30            T-14      T-7    T-0
 | Trụ cột | Readiness kỹ thuật | Readiness chất lượng | Readiness thương mại | Ghi chú |
 |---|---|---|---|---|
 | IoT/BMS/Robot | Prototype + firmware + test bench | ISO 9001 + test report + EMC plan | Demo site + channel partner | Cần ưu tiên hồ sơ CE/RoHS theo SKU |
-| CNC/MPMC | 10 máy + CAM + QC room | FAI/PPAP-lite + calibration + traceability | Sample part + OTD + pricing sheet | Cần reference customer đầu tiên trong KCNC |
+| CNC/MPMC | 10 máy + CAM + QC room | FAI/PPAP-lite + calibration + traceability | Sample part + OTD + định giá sheet | Cần reference customer đầu tiên trong KCNC |
 
 ### Y.6. Bộ KPI Customer Readiness nên theo dõi hàng quý
 
@@ -4943,7 +4943,7 @@ T-60              T-45            T-30            T-14      T-7    T-0
 | CE marking (per product line) | 15–25 | 4–6 | Xuất khẩu EU/ASEAN | Cao nếu xuất khẩu |
 | RoHS compliance testing | 8–12 | 2–3 | Yêu cầu bắt buộc cho điện tử | Bắt buộc |
 | UL recognition (selected SKU) | 20–35 | 6–12 | Thị trường Mỹ/Japan | Trung bình (phụ thuộc volume) |
-| IEC 62443 gap assessment | 10–15 | 3–6 | OT security roadmap | Cao (trust building) |
+| IEC 62443 gap assessment | 10–15 | 3–6 | OT security lộ trình | Cao (trust building) |
 | FAI/PPAP per customer | 3–5/lần | 1–2/lần | Approve supplier status | Rất cao (trực tiếp DT) |
 | Phòng thí nghiệm accredited (ISO 17025) | 30–50 | 12–18 | In-house calibration, giảm outsourcing | Trung bình–Cao |
 | **Tổng ngân sách chứng nhận Y1–Y3** | **~150–200** | — | — | — |
@@ -4958,7 +4958,7 @@ T-60              T-45            T-30            T-14      T-7    T-0
 | Re-certification audit (3 năm/lần, amortized) | 5–8 | Hàng năm (phân bổ) |
 | CE/RoHS update khi thay đổi product line | 5–10 | Khi cần |
 | Internal audit team (1 FTE equivalent) | 18–22 | Hàng năm |
-| Calibration & metrology (outsourced items) | 8–15 | Hàng năm |
+| Calibration & metrology (hạng mục thuê ngoài) | 8–15 | Hàng năm |
 | **Tổng duy trì/năm** | **~45–65** | — |
 
 ### Y.8. Quy trình Chuẩn bị Audit Khách hàng (Vendor Audit Playbook)
@@ -4979,7 +4979,7 @@ T-60              T-45            T-30            T-14      T-7    T-0
 
 | Phần | Thời lượng | Nội dung | Lead |
 |---|---|---|---|
-| Opening meeting | 30 phút | Giới thiệu DN, năng lực, roadmap chất lượng | CEO / VP Sales |
+| Opening meeting | 30 phút | Giới thiệu DN, năng lực, lộ trình chất lượng | CEO / VP Sales |
 | Document review | 1,5 giờ | ISO docs, CAPA log, NCR, calibration records | QA Director |
 | Shop floor tour | 2 giờ | CNC area → SMT line → QC room → warehouse | Plant Manager |
 | Process audit (deep dive) | 1,5 giờ | Chọn 1–2 quy trình: truy xuất nguồn gốc, kiểm soát đo lường | QA + Production |
@@ -5011,15 +5011,15 @@ T-60              T-45            T-30            T-14      T-7    T-0
 
 | Dòng sản phẩm | ISO 9001 | CE | RoHS | UL | IPC | PPAP | IEC 62443 |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| IoT Gateway MK-GW | Bắt buộc | Cần | Cần | Tùy TT | — | — | Roadmap |
+| IoT Gateway MK-GW | Bắt buộc | Cần | Cần | Tùy TT | — | — | Lộ trình |
 | BMS Controller MK-BMS | Bắt buộc | Cần | Cần | Tùy TT | — | — | Cần |
-| EMS Module MK-EMS | Bắt buộc | Cần | Cần | — | — | — | Roadmap |
+| EMS Module MK-EMS | Bắt buộc | Cần | Cần | — | — | — | Lộ trình |
 | Robot Assembly (OEM) | Bắt buộc | — | Cần | — | IPC-A-610 | — | — |
 | CNC Part (precision, FDI) | Bắt buộc | — | — | — | — | Cần | — |
 | CNC Part (general, nội địa) | Bắt buộc | — | — | — | — | Tùy khách | — |
 | CNC Mold/Tooling (OEM) | Bắt buộc | — | — | — | — | Cần | — |
 
-> **Chú giải:** “Bắt buộc” = cần trước khi bán. “Cần” = cần cho thị trường đích cụ thể. “Roadmap” = đang triển khai. “Tùy TT” = tùy thị trường xuất khẩu. Tham chiếu chéo: Phụ lục J (sản phẩm IoT), Phụ lục B & K (thiết bị CNC), Phụ lục W.2 (tiêu chuẩn kỹ thuật) [A].
+> **Chú giải:** “Bắt buộc” = cần trước khi bán. “Cần” = cần cho thị trường đích cụ thể. “Lộ trình” = đang triển khai. “Tùy TT” = tùy thị trường xuất khẩu. Tham chiếu chéo: Phụ lục J (sản phẩm IoT), Phụ lục B & K (thiết bị CNC), Phụ lục W.2 (tiêu chuẩn kỹ thuật) [A].
 
 ### Y.10. Lộ trình Customer Success — Từ First Order đến Strategic Partner
 
@@ -5029,7 +5029,7 @@ T-60              T-45            T-30            T-14      T-7    T-0
 |---|---|---|---|---|
 | **Prospecting** | Tháng 0–3 | Tiếp cận, demo, NDA, gửi capability pack | Số lead, conversion rate | Sales VP |
 | **Pilot / Sample** | Tháng 3–6 | Sản xuất mẫu, FAI/PPAP, pilot delivery | OTD pilot, sample quality | Sales + QA |
-| **First PO** | Tháng 6–9 | Đơn hàng đầu tiên, negotiation SLA/pricing | Revenue, GM% | Sales + Production |
+| **First PO** | Tháng 6–9 | Đơn hàng đầu tiên, negotiation SLA/định giá | Revenue, GM% | Sales + Production |
 | **Repeat Order** | Tháng 9–18 | Đơn hàng lặp lại, QBR, cost-down discussion | Repeat ratio, CSAT | Account Manager |
 | **Strategic Partner** | Tháng 18+ | Long-term agreement, VMI, co-development | Annual contract value, NPS | Sales VP + CEO |
 

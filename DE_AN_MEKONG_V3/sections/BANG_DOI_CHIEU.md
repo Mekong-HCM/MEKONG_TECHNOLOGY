@@ -32,7 +32,7 @@
 | 19 | Doanh thu 15Y tích lũy | ~140 | M USD | [C] |
 | 20 | NPV (50Y, WACC 12%) | 1,50 | M USD | [C] |
 | 21 | IRR (50Y) | 13,0% | | [C] |
-| 22 | Payback (chiết khấu) | 10 | năm | [C] |
+| 22 | Thời gian hoàn vốn (chiết khấu) | 10 | năm | [C] |
 | 23 | EBITDA margin (steady) | ~30% | | [C] |
 | 24 | WACC | 12% | | [C] |
 | 25 | Nhân sự ổn định | 100–130 | người | [C] |
@@ -48,7 +48,7 @@
 | 35 | VA/Revenue | lớn hơn hoặc bằng 42% | | [C] |
 | 36 | R&D/Revenue | lớn hơn hoặc bằng 8% | | [C] |
 | 37 | DSCR min | lớn hơn hoặc bằng 1,50x | | [C] |
-| 38 | Dự phòng CAPEX | 0,60 (2,7%) | M USD | [C] |
+| 38 | Dự phòng CAPEX | 0,65 (3,0%) | M USD | [C] |
 | 39 | Solar | 200 | kWp | [C] |
 | 40 | BU1 DT steady | 8,50 | M USD/năm | [C] |
 | 41 | BU2 DT steady | 3,50 | M USD/năm | [C] |
@@ -65,12 +65,12 @@
 | 14 | CNC 10 máy | | x | | x | | x | | | | | | B, I |
 | 15-18 | Doanh thu Y5-Y12 | | x | | | x | | x | | | | x | R, S |
 | 19 | DT 15Y ~140M | | x | | | | | x | | | | x | S |
-| 20-22 | NPV/IRR/Payback | | x | | | | | x | | | | x | S |
+| 20-22 | NPV/IRR/Thời gian hoàn vốn | | x | | | | | x | | | | x | S |
 | 23 | EBITDA ~30% | | | | | | | x | | | | | R |
 | 24 | WACC 12% | | | | | | | x | | | | | R |
 | 25 | Nhân sự 100-130 | | x | | | | | | | x | | x | |
 | 37 | DSCR min 1,50x | | | | | | | x | | | | | S |
-| 38 | Dự phòng 1,35M | | | | | | | x | | | | | A |
+| 38 | Dự phòng 0,65M (3,0%) | | | | | | | x | | | | | A |
 | 39 | Solar 200 kWp | | x | | | | x | | x | | | | H |
 | 40-41 | BU1/BU2 steady | | x | | | x | | x | | | | x | T |
 

@@ -1,0 +1,46 @@
+flowchart LR
+    subgraph INTAKE[" TIẾP NHẬN"]
+        T1["RFI / RFQ<br/>từ khách hàng"]
+        T2["Technical<br/>Qualification<br/>Fit với stack VN?"]
+        T3["NDA + SoW<br/>Ký kết ban đầu"]
+    end
+
+    subgraph DISCOVERY[" KHÁM PHÁ"]
+        D1["Requirement<br/>Workshop<br/>2-5 ngày"]
+        D2["Architecture<br/>Design<br/>HLD + LLD"]
+        D3["Estimate &<br/>Proposal<br/>Fixed/T&M"]
+        D4["Contract<br/>Sign-off<br/>Milestone plan"]
+    end
+
+    subgraph DEV["️ PHÁT TRIỂN (AGILE SPRINT)"]
+        SP1["Sprint 1<br/>2 tuần<br/>Foundation + PoC"]
+        SP2["Sprint 2-N<br/>2 tuần/sprint<br/>Feature dev + Test"]
+        SP3["Integration<br/>Testing<br/>Staging DC nội bộ"]
+        SP4["UAT<br/>User Acceptance<br/>KH review"]
+    end
+
+    subgraph DELIVERY[" BÀN GIAO"]
+        DL1["Code Handover<br/>Git + Docs<br/>Runbook"]
+        DL2["Training<br/>KH team<br/>1-3 ngày"]
+        DL3["Go-Live<br/>Support 30 ngày<br/>Hypercare"]
+    end
+
+    subgraph MAINTAIN[" DUY TRÌ & MỞ RỘNG"]
+        M1["SLA Support<br/>8×5 hoặc 24×7"]
+        M2["Monthly<br/>Retainer<br/>Bug fix + Minor feat"]
+        M3["Phase 2<br/>Proposal<br/>Upsell"]
+    end
+
+    T1 --> T2 --> T3
+    T3 --> D1 --> D2 --> D3 --> D4
+    D4 --> SP1 --> SP2 --> SP3 --> SP4
+    SP4 --> |Approved| DL1 --> DL2 --> DL3
+    SP4 --> |Change request| SP2
+    DL3 --> M1 --> M2 --> M3
+    M3 --> |New SoW| D1
+
+    style INTAKE fill:#e3f2fd,stroke:#1565c0
+    style DISCOVERY fill:#e8f5e9,stroke:#2e7d32
+    style DEV fill:#fff3e0,stroke:#e65100
+    style DELIVERY fill:#f3e5f5,stroke:#6a1b9a
+    style MAINTAIN fill:#e0f2f1,stroke:#00695c

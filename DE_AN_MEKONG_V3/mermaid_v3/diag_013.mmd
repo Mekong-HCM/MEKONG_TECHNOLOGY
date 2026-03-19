@@ -1,0 +1,86 @@
+block-beta
+    columns 6
+
+    %% ── Hàng tiêu đề ──
+    TITLE["LÔ ĐẤT 10.000 m² — Lô E2-03, Đường D1, KCNC\n100 m × 100 m | Mật độ XD 46,5% | Cây xanh 20% | FAR 1,03"]:6
+
+    %% ── Khoảng lùi 6 m phía Bắc ──
+    LUI_BAC["⬆ Khoảng lùi 6 m — ĐƯỜNG D1 (mặt tiền phía Bắc)"]:6
+
+    %% ── Tòa nhà Văn phòng ──
+    LUI_L1[" "]:1
+    VP[" TÒA NHÀ VĂN PHÒNG\n21 m × 48 m — 3 tầng (14 m)\nFootprint 1.008 m² | GFA 3.024 m²\n─────────────────────\nTầng 1: Sảnh · Showroom · Phòng họp\nTầng 2: R&D Lab · Kỹ thuật · Design\nTầng 3: VP Điều hành · Đào tạo · Canteen"]:4
+    LUI_R1[" "]:1
+
+    %% ── Khu Utility — 2 tầng ──
+    LUI_L2[" "]:1
+    UT[" KHU UTILITY — 5 m × 56 m — 2 tầng (8 m)\nFootprint 280 m² | GFA 560 m²\nT1: Xử lý nước · Trạm biến áp 1.000 kVA · Bơm PCCC\nT2: Kỹ thuật điện · Bảo trì · Rác thải"]:4
+    LUI_R2[" "]:1
+
+    %% ── Nhà xưởng — Header ──
+    LUI_L3[" "]:1
+    XU_HEADER[" NHÀ XƯỞNG SẢN XUẤT — 48 m × 70 m — 2 tầng (14 m) — PEB Steel\nFootprint 3.360 m² | GFA 6.720 m² · T1: 8 m (BTCT 10T/m²) + T2: 5 m (BTCT 500 kg/m²) + sàn 1 m"]:4
+    LUI_R3[" "]:1
+
+    %% ── Tầng 1 (khu nặng — 8 m) ──
+    LUI_L4[" "]:1
+    CNC["️ TẦNG 1 — Khu CNC\n1.800 m² | 10 máy\n5×5-trục · 3×3-trục\n1×EDM · 1×Grinder\nCrane 5T | Sàn BTCT 10T/m²"]:2
+    QA[" QA/QC Lab\n250 m²\nCMM · AOI · RF Test\nClimate Chamber\nPhòng sạch mini"]:1
+    KHO_KL[" Kho Kim loại\n500 m²\nThép · Nhôm\nLoading dock\nCrane 3T"]:1
+    LUI_R4[" "]:1
+
+    LUI_L45[" "]:1
+    T1_SUB["T1 phụ trợ:\n Tooling 150 m²\n️ Workspace 200 m²\n Thang+Elevator 200 m²\nDự trữ T1: 260 m²\nTổng T1: 3.360 m²"]:4
+    LUI_R45[" "]:1
+
+    %% ── Tầng 2 (khu nhẹ — 5 m) ──
+    LUI_L5[" "]:1
+    SMT[" TẦNG 2 — IoT/SMT\n1.000 m²\n2 dây chuyền SMT\n100K board/năm\nESD + Cleanroom"]:2
+    ROBOT[" Robot Assembly\n600 m² | 6 trạm\n500 robot/năm\nAGV logistics"]:1
+    DC["️ DC Nội bộ\n200 m² | 8 rack 42U\n50 kW | FM-200\nPUE < 1,5"]:1
+    LUI_R5[" "]:1
+
+    LUI_L55[" "]:1
+    T2_SUB["T2 phụ trợ:\n Kho DT 300 m² ·  Đào tạo 160 m²\n OEM + SMT mở rộng: 1.100 m² dự trữ\nTổng T2: 3.360 m²"]:4
+    LUI_R55[" "]:1
+
+    %% ── Sân bãi + Hạ tầng ngoài trời ──
+    LUI_L6[" "]:1
+    NGOAI[" SÂN BÃI & HẠ TẦNG NGOÀI TRỜI — 5.352 m²\n🅿️ Bãi xe 800 m² |  Cây xanh 2.000 m² (20%) |  PCCC lane 4 m (700 m²)\n️ Đường nội bộ + Loading dock 1.500 m² | Dự trữ 352 m²"]:4
+    LUI_R6[" "]:1
+
+    %% ── Tổng hợp ──
+    FOOTER["Tổng footprint XD: 4.648 m² (46,5%) | Tổng GFA: 10.304 m² | FAR 1,03 | Solar PV 200 kWp trên mái"]:6
+
+    %% ── Style ──
+    style TITLE fill:#1a365d,color:#fff,stroke:#1a365d
+    style LUI_BAC fill:#e2e8f0,color:#4a5568,stroke:#cbd5e0
+    style VP fill:#2b6cb0,color:#fff,stroke:#2c5282
+    style UT fill:#c05621,color:#fff,stroke:#9c4221
+    style XU_HEADER fill:#2f855a,color:#fff,stroke:#276749
+    style CNC fill:#4a5568,color:#fff,stroke:#2d3748
+    style T1_SUB fill:#4a5568,color:#e2e8f0,stroke:#2d3748,stroke-dasharray:5 5
+    style SMT fill:#2b6cb0,color:#fff,stroke:#2c5282
+    style ROBOT fill:#6b46c1,color:#fff,stroke:#553c9a
+    style DC fill:#c53030,color:#fff,stroke:#9b2c2c
+    style T2_SUB fill:#2b6cb0,color:#e2e8f0,stroke:#2c5282,stroke-dasharray:5 5
+    style QA fill:#d69e2e,color:#000,stroke:#b7791f
+    style KHO_KL fill:#718096,color:#fff,stroke:#4a5568
+    style NGOAI fill:#48bb78,color:#000,stroke:#38a169
+    style FOOTER fill:#1a365d,color:#fff,stroke:#1a365d
+    style LUI_L1 fill:none,stroke:none
+    style LUI_R1 fill:none,stroke:none
+    style LUI_L2 fill:none,stroke:none
+    style LUI_R2 fill:none,stroke:none
+    style LUI_L3 fill:none,stroke:none
+    style LUI_R3 fill:none,stroke:none
+    style LUI_L4 fill:none,stroke:none
+    style LUI_R4 fill:none,stroke:none
+    style LUI_L45 fill:none,stroke:none
+    style LUI_R45 fill:none,stroke:none
+    style LUI_L5 fill:none,stroke:none
+    style LUI_R5 fill:none,stroke:none
+    style LUI_L55 fill:none,stroke:none
+    style LUI_R55 fill:none,stroke:none
+    style LUI_L6 fill:none,stroke:none
+    style LUI_R6 fill:none,stroke:none

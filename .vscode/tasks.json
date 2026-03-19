@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Convert V3 to DOCX/PDF",
+			"type": "shell",
+			"command": "node",
+			"args": [
+				"DE_AN_MEKONG_V3/convert_v3_master.js"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Export V3 DOCX PDF",
+			"type": "shell",
+			"command": "node",
+			"args": [
+				"DE_AN_MEKONG_V3/convert_v3_master.js"
+			],
+			"isBackground": false
+		}
+	]
+}

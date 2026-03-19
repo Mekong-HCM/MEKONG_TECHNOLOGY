@@ -1,0 +1,66 @@
+flowchart LR
+    subgraph FIELD[" HIỆN TRƯỜNG"]
+        F1["Cảm biến<br/>Temp/Humid/Pressure"]
+        F2["PLC / VFD<br/>Modbus RTU"]
+        F3["HVAC / Chiller<br/>BACnet MS/TP"]
+        F4["Máy CNC<br/>OPC UA / RS485"]
+        F5["Robot AMR<br/>WiFi 6 / UWB"]
+    end
+
+    subgraph EDGE[" EDGE LAYER (MK-200/300)"]
+        E1["Protocol<br/>Normalization<br/>Modbus→MQTT"]
+        E2["Edge Rule<br/>Engine<br/>Local Automaton"]
+        E3["AI Inference<br/>TF Lite / ONNX<br/>Anomaly Detection"]
+        E4["Offline Buffer<br/>SQLite Ring<br/>72h offline OK"]
+    end
+
+    subgraph GATEWAY_LAYER[" GATEWAY LAYER"]
+        G1["MK-GW-BAC<br/>BACnet→IP"]
+        G2["MK-GW-MOD<br/>Modbus→TCP"]
+        G3["MK-GW-KNX<br/>KNX→BACnet"]
+    end
+
+    subgraph DC_INTERNAL["️ DC NỘI BỘ — PLATFORM LAYER"]
+        P1["MQTT Broker<br/>EMQX Cluster<br/>1M msg/sec"]
+        P2["Stream Processing<br/>Apache Kafka<br/>Real-time analytics"]
+        P3["Time-series DB<br/>TimescaleDB<br/>5-year retention"]
+        P4["AI/ML Engine<br/>GPU A100<br/>Training + Serving"]
+        P5["API Gateway<br/>REST / GraphQL<br/>Rate limiting"]
+    end
+
+    subgraph APP_LAYER[" APPLICATION LAYER"]
+        A1["MekongBMS<br/>Dashboard Web"]
+        A2["MekongOS<br/>Fleet Manager"]
+        A3["MekongSCADA<br/>HMI Real-time"]
+        A4["MekongET<br/>Energy Report"]
+        A5["ERP / MES<br/>SAP B1 / Odoo"]
+    end
+
+    subgraph USER_LAYER[" NGƯỜI DÙNG CUỐI"]
+        U1["Facility Manager<br/>️ Web Browser"]
+        U2["Kỹ thuật viên<br/> Mobile App"]
+        U3["KH FDI<br/> API Integration"]
+        U4["CEO / CFO<br/> BI Dashboard"]
+    end
+
+    F1 & F2 --> E1
+    F3 --> G1 --> E1
+    F2 --> G2 --> E1
+    F4 --> E1
+    F5 --> E2
+
+    E1 --> E2 --> E3 --> E4
+    E4 --> |TLS 1.3 MQTT| P1
+
+    G3 --> P1
+    P1 --> P2 --> P3
+    P2 --> P4
+    P3 --> P5
+    P4 --> |AI Model Serve| P5
+    P5 --> A1 & A2 & A3 & A4 & A5
+
+    A1 --> U1
+    A2 --> U2
+    A3 --> U1 & U2
+    A4 --> U4
+    A5 --> U3 & U4

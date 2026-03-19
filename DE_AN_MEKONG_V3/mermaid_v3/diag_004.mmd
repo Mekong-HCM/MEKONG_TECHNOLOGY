@@ -1,0 +1,134 @@
+graph TB
+    classDef bu1 fill:#1a6e9e,stroke:#0d3f5c,color:#fff
+    classDef bu2 fill:#2e7d32,stroke:#1b5e20,color:#fff
+    classDef dc  fill:#6a1b9a,stroke:#4a148c,color:#fff
+    classDef rd  fill:#e65100,stroke:#bf360c,color:#fff
+    classDef ext fill:#37474f,stroke:#263238,color:#fff
+    classDef sw  fill:#00695c,stroke:#004d40,color:#fff
+
+    subgraph KHACH_HANG["KHÁCH HÀNG & THỊ TRƯỜNG"]
+        KH1[" Tòa nhà thương mại<br/>(BMS/SCADA)"]
+        KH2[" Nhà máy FDI<br/>(IoT + Robot + CNC)"]
+        KH3[" SME sản xuất<br/>(OEM/ODM + CNC)"]
+        KH4[" Startup / SI<br/>(Gia công phần mềm)"]
+        KH5[" Thị trường ASEAN<br/>(Y10+ xuất khẩu)"]
+    end
+
+    subgraph BU1["BU1 — ĐIỆN TỬ THÔNG MINH"]
+        direction TB
+        subgraph HW["Phần cứng IoT/BMS/Robot"]
+            HW1[" IoT Gateway<br/>MK-200 / MK-300"]
+            HW2["️ I/O Module<br/>MK-EIO (5 loại)"]
+            HW3["️ DDC Controller<br/>MK-DDC-24 / 64"]
+            HW4[" Gateway Giao thức<br/>MK-GW (BAC/MOD/KNX/DALI)"]
+            HW5[" Robot AMR<br/>AMR-500 / AMR-1000"]
+            HW6[" Robot AGV<br/>AGV-500 / AGV-1000"]
+        end
+        subgraph SW_BU1["Phần mềm & Dịch vụ BU1"]
+            SW1["️ MekongBMS<br/>License + SaaS"]
+            SW2[" MekongSCADA<br/>Giám sát công nghiệp"]
+            SW3[" MekongET<br/>Quản lý năng lượng"]
+            SW4["️ MekongOS<br/>IoT Platform SaaS"]
+            SW5["️ OEM / ODM<br/>Điện tử theo yêu cầu"]
+        end
+    end
+
+    subgraph BU2["BU2 — CNC / MPMC (10 MÁY)"]
+        direction TB
+        CNC1[" Gia công 5-trục<br/>DMG MORI + Doosan (5 máy)"]
+        CNC2[" Gia công 3-trục<br/>Doosan VMC (3 máy)"]
+        CNC3[" Wire EDM<br/>Sodick (1 máy)"]
+        CNC4[" CNC Surface Grinder<br/>Okamoto (1 máy)"]
+        QC_CNC[" QA/QC<br/>Hexagon CMM + SPC"]
+    end
+
+    subgraph DC_HUB["DC NỘI BỘ + R&D HUB (160 m²)"]
+        direction TB
+        subgraph SERVER["Hạ tầng DC (5–8 Rack)"]
+            SRV1["️ App Server<br/>MekongOS / BMS / ERP"]
+            SRV2[" AI/GPU Server<br/>NVIDIA A100 — SLAM + DL"]
+            SRV3[" Data / Backup<br/>NAS + DR"]
+            SRV4[" Security / Network<br/>Firewall + VPN"]
+        end
+        subgraph RD_LAB["R&D Labs (500 m², Tầng 2 VP)"]
+            LAB1[" Lab Phần cứng IoT<br/>Prototype + EMC pre-check"]
+            LAB2[" Lab AI & Robotics<br/>ROS2 + SLAM + Vision"]
+            LAB3[" Lab Vật liệu CNC<br/>Metallography + Tests"]
+            LAB4[" Lab Cloud & Cyber<br/>DevOps + Pen Testing"]
+        end
+    end
+
+    subgraph SW_SERVICES["DỊCH VỤ GIA CÔNG PHẦN MỀM (Mảng mới)"]
+        SWS1[" Custom App Dev<br/>IoT / Industrial apps"]
+        SWS2[" System Integration<br/>BMS + ERP + MES"]
+        SWS3[" AI/ML Contracting<br/>SLAM / Predictive / Vision"]
+        SWS4["️ Cloud Migration<br/>DC nội bộ → Hybrid"]
+        SWS5[" Embedded Firmware<br/>MCU / RTOS outsource"]
+    end
+
+    subgraph SMT_LINE["DÂY CHUYỀN SMT (50K board/năm)"]
+        SMT1["️ Stencil Printer"]
+        SMT2[" Pick & Place"]
+        SMT3[" Reflow Oven"]
+        SMT4["️ AOI 3D"]
+        SMT5[" ICT + Burn-in"]
+    end
+
+    %% Luồng sản xuất
+    SMT1 --> SMT2 --> SMT3 --> SMT4 --> SMT5
+    SMT5 --> HW1
+    SMT5 --> HW2
+    SMT5 --> HW3
+    SMT5 --> HW4
+
+    %% CNC cung cấp cho Robot
+    CNC1 --> HW5
+    CNC1 --> HW6
+    CNC2 --> QC_CNC
+    CNC3 --> QC_CNC
+    CNC4 --> QC_CNC
+
+    %% DC phục vụ AI training cho Robot
+    SRV2 --> |AI SLAM training| HW5
+    SRV2 --> |Deep Learning| HW6
+    SRV1 --> |MekongOS host| SW4
+
+    %% R&D Lab tương tác DC
+    LAB1 --> |Firmware testing| SRV4
+    LAB2 --> |GPU workload| SRV2
+    LAB3 --> |Material data| SRV3
+    LAB4 --> |DevOps pipeline| SRV1
+
+    %% Dịch vụ phần mềm dùng DC
+    SRV2 --> |GPU compute| SWS3
+    SRV1 --> |Dev environment| SWS1
+    SRV1 --> |Integration testing| SWS2
+    SRV4 --> |Security baseline| SWS4
+
+    %% BU1 → Khách hàng
+    HW1 --> KH1
+    HW1 --> KH2
+    SW1 --> KH1
+    SW2 --> KH2
+    HW5 --> KH2
+    SW5 --> KH3
+    SW5 --> KH4
+    SW4 --> KH5
+
+    %% BU2 → Khách hàng
+    CNC1 --> KH2
+    CNC2 --> KH2
+    CNC2 --> KH3
+
+    %% Dịch vụ phần mềm → Khách hàng
+    SWS1 --> KH4
+    SWS2 --> KH2
+    SWS3 --> KH4
+    SWS5 --> KH3
+
+    class HW1,HW2,HW3,HW4,HW5,HW6,SW1,SW2,SW3,SW4,SW5 bu1
+    class CNC1,CNC2,CNC3,CNC4,QC_CNC bu2
+    class SRV1,SRV2,SRV3,SRV4 dc
+    class LAB1,LAB2,LAB3,LAB4 rd
+    class KH1,KH2,KH3,KH4,KH5 ext
+    class SWS1,SWS2,SWS3,SWS4,SWS5 sw

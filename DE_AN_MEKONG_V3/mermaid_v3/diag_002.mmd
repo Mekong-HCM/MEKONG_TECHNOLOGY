@@ -1,0 +1,52 @@
+flowchart TB
+    subgraph INPUT["NGUYÊN LIỆU ĐẦU VÀO"]
+        A1[Linh kiện điện tử<br/>PCB, IC, Connector]
+        A2[Module RF<br/>WiFi, BLE, 4G, 5G]
+        A3[Vỏ, khung, cơ khí<br/>CNC từ MPMC]
+        A4[Pin, nguồn, cảm biến]
+    end
+
+    subgraph SMT["DÂY CHUYỀN SMT (50K board/năm)"]
+        B1[In kem hàn<br/>Stencil Printer]
+        B2[Gắn linh kiện<br/>Pick & Place]
+        B3[Hàn Reflow<br/>Reflow Oven]
+        B4[Kiểm tra AOI 3D]
+        B5[Hàn THT + Wave]
+    end
+
+    subgraph ASSY["LẮP RÁP & TEST"]
+        C1[Lắp ráp PCB → Vỏ]
+        C2[Flash Firmware<br/>MekongOS Runtime]
+        C3[Calibration<br/>I/O + RF + Sensor]
+        C4[ICT + Functional Test]
+        C5[Burn-in 72h]
+    end
+
+    subgraph QC["QA/QC + ĐÓNG GÓI"]
+        D1[Final QC<br/>Visual + Function]
+        D2[Đóng gói<br/>ESD bag + Box]
+        D3[Gắn label<br/>S/N + QR + CE]
+    end
+
+    subgraph ROBOT["SẢN XUẤT ROBOT AMR/AGV"]
+        E1[CNC gia công khung<br/>Al 6061-T6]
+        E2[Lắp ráp cơ khí<br/>Motor + LiDAR + Camera]
+        E3[Lắp PCB điều khiển]
+        E4[AI SLAM training<br/>GPU tại DC nội bộ]
+        E5[System test<br/>Navigation + Safety]
+    end
+
+    A1 --> B1 --> B2 --> B3 --> B4 --> B5
+    A2 --> B2
+    B5 --> C1
+    A3 --> C1
+    A4 --> C1
+    C1 --> C2 --> C3 --> C4 --> C5
+    C5 --> D1 --> D2 --> D3
+    D3 --> F1[Kho thành phẩm<br/>IoT Gateway / Module]
+
+    A3 --> E1 --> E2
+    C5 --> E3
+    E3 --> E2
+    E2 --> E4 --> E5
+    E5 --> F2[Kho thành phẩm<br/>Robot AMR / AGV]

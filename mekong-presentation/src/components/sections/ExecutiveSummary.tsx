@@ -62,6 +62,41 @@ function OverviewTab() {
     );
 }
 
+function PillarsTab() {
+    return (
+        <div className="space-y-4">
+            <div className="grid md:grid-cols-2 gap-4">
+                <GlassCard className="p-5 border-l-4 border-neon-cyan">
+                    <h4 className="text-base font-bold text-neon-cyan mb-2">BU1: Điện tử Thông minh</h4>
+                    <div className="text-2xl font-extrabold text-white mb-3">70,8% <span className="text-sm text-gray-400 font-normal">doanh thu</span></div>
+                    <ul className="space-y-1.5 text-xs text-gray-300">
+                        <li className="flex items-center gap-2"><Cpu size={12} className="text-neon-cyan" /> IoT Gateway MK-200/MK-300 — 3.000 bộ/năm</li>
+                        <li className="flex items-center gap-2"><Cpu size={12} className="text-neon-cyan" /> Robot AMR/AGV — 300 bộ/năm</li>
+                        <li className="flex items-center gap-2"><Cpu size={12} className="text-neon-cyan" /> MekongOS SaaS Platform — 3 tiers</li>
+                        <li className="flex items-center gap-2"><Cpu size={12} className="text-neon-cyan" /> MekongBMS — giám sát nhà máy</li>
+                    </ul>
+                    <div className="mt-3 text-[10px] text-gray-500">21 sản phẩm — Hardware + Software + Services</div>
+                </GlassCard>
+                <GlassCard className="p-5 border-l-4 border-neon-magenta">
+                    <h4 className="text-base font-bold text-neon-magenta mb-2">BU2: CNC Siêu Chính Xác</h4>
+                    <div className="text-2xl font-extrabold text-white mb-3">29,2% <span className="text-sm text-gray-400 font-normal">doanh thu</span></div>
+                    <ul className="space-y-1.5 text-xs text-gray-300">
+                        <li className="flex items-center gap-2"><Cog size={12} className="text-neon-magenta" /> 10 máy CNC 5-axis — Tolerance ≤5µm</li>
+                        <li className="flex items-center gap-2"><Cog size={12} className="text-neon-magenta" /> Vật liệu: Al, SS, Ti, Inconel, Cu</li>
+                        <li className="flex items-center gap-2"><Cog size={12} className="text-neon-magenta" /> Khách hàng: FDI + Bán dẫn + Y tế</li>
+                        <li className="flex items-center gap-2"><Cog size={12} className="text-neon-magenta" /> OEM/ODM cho Samsung, Foxconn...</li>
+                    </ul>
+                    <div className="mt-3 text-[10px] text-gray-500">5 sản phẩm — Precision machining + Assembly</div>
+                </GlassCard>
+            </div>
+            <GlassCard className="p-4 text-center">
+                <div className="text-xs text-gray-400 mb-1">Tổng hệ sinh thái</div>
+                <div className="text-lg font-extrabold text-white">26 sản phẩm <span className="text-sm text-neon-cyan">· 2 trụ cột cộng hưởng</span></div>
+            </GlassCard>
+        </div>
+    );
+}
+
 function KPITab() {
     return (
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
@@ -98,6 +133,7 @@ function StrategicTab() {
 
 const tabs: TabConfig[] = [
     { key: 'overview', label: 'Tổng quan 22M', icon: Layout, content: <OverviewTab /> },
+    { key: 'pillars', label: '2 Trụ cột', icon: Cpu, content: <PillarsTab /> },
     { key: 'kpi', label: 'KPI Summary', icon: BarChart3, content: <KPITab /> },
     { key: 'strategic', label: 'Giá trị Chiến lược', icon: Landmark, content: <StrategicTab /> },
 ];

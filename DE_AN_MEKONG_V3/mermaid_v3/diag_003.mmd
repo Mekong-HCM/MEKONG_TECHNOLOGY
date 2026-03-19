@@ -1,0 +1,51 @@
+flowchart TB
+    subgraph INPUT_CNC["NGUYÊN LIỆU CNC"]
+        M1[Phôi nhôm 6061-T6<br/>Thép S45C, SUS304]
+        M2[Dụng cụ cắt<br/>Endmill, Insert, Drill]
+        M3[Dầu cắt + Coolant<br/>Nước pha loãng/dầu]
+        M4[Vật tư đóng gói]
+    end
+
+    subgraph PROG["LẬP TRÌNH + CHUẨN BỊ"]
+        N1[Nhận bản vẽ KH<br/>STEP / IGES / PDF]
+        N2[DFM Review<br/>Tối ưu thiết kế]
+        N3[CAM Programming<br/>Mastercam 5-Axis]
+        N4[Chuẩn bị Fixture<br/>Jig gá tự chế]
+        N5[Simulation<br/>Kiểm va chạm]
+    end
+
+    subgraph MACHINING["GIA CÔNG CNC (10 MÁY)"]
+        P1[Setup máy<br/>Tool offset, WCS]
+        P2[Gia công thô<br/>Roughing 3+2 Axis]
+        P3[Gia công tinh<br/>Finishing 5-Axis]
+        P4[EDM cắt dây<br/>Wire EDM Sodick]
+        P5[Mài phẳng CNC<br/>Surface Grinder]
+    end
+
+    subgraph QC_CNC["QA/QC CNC"]
+        Q1[Đo In-process<br/>Check gauge]
+        Q2[Hexagon CMM<br/>Full dimension]
+        Q3[Đo nhám Ra<br/>Mitutoyo SJ-410]
+        Q4[Báo cáo đo<br/>FAI / Inspection Cert]
+    end
+
+    subgraph POST["XỬ LÝ + GIAO HÀNG"]
+        R1[Rửa + Làm sạch<br/>Ultrasonic cleaner]
+        R2[Xử lý bề mặt<br/>Anodize / Passivation]
+        R3[Đóng gói VCI<br/>Chống oxy hóa]
+        R4[Xuất kho<br/>Delivery note + CoC]
+    end
+
+    M1 --> P1
+    M2 --> P1
+    M3 --> P1
+    N1 --> N2 --> N3 --> N4 --> N5 --> P1
+    P1 --> P2 --> P3
+    P2 --> P4
+    P3 --> P5
+    P3 --> Q1
+    P4 --> Q1
+    P5 --> Q1
+    Q1 --> Q2 --> Q3 --> Q4
+    Q4 --> R1 --> R2 --> R3 --> R4
+    M4 --> R3

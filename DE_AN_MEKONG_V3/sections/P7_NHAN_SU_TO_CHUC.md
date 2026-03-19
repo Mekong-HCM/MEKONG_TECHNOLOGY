@@ -37,35 +37,36 @@ graph TD
 | **Y0–Y1** | Ban Giám đốc + Pháp lý + Thiết kế | 8–10 | Core team |
 | **Y1–Y3** | + Giám sát xây dựng + Mua sắm | 10–15 | Thêm 2–5 người |
 | **Y3–Y4** | + IoT/SMT team + QA | 30–40 | Tuyển 20–25 kỹ sư + công nhân |
-| **Y4–Y5** | + CNC operators + Robot team | 50–65 | Tuyển 20–25 thợ CNC + kỹ sư |
-| **Y5–Y6** | + Sales + Marketing + Thêm SX | 65–80 | Mở rộng kinh doanh |
-| **Y7–Y10** | + Mở rộng theo doanh thu | 85–105 | Tăng dần |
-| **Y10+** | Ổn định | **100–130** | Bao gồm thời vụ |
+| **Y4–Y5** | + CNC operators + Robot team | 55–70 | Tuyển 25–30 thợ CNC + kỹ sư |
+| **Y5–Y6** | + Sales + Marketing + Thêm SX | 70–85 | Mở rộng kinh doanh |
+| **Y7–Y10** | + Mở rộng theo doanh thu | 90–110 | Tăng dần |
+| **Y10+** | Ổn định | **110–135** | Bao gồm thời vụ |
 
 ### Nhân sự theo Bộ phận (Ổn định Y10+)
 
 | Bộ phận | Số lượng | Tỷ lệ |
 |---|---:|---:|
-| Sản xuất IoT/SMT | 25–30 | 24% |
-| Sản xuất CNC | 18–22 | 19% |
-| Sản xuất Robot Assembly | 8–10 | 8% |
-| QA/QC | 5–8 | 6% |
-| R&D + Thiết kế | 12–15 | 12% |
-| Bán hàng + Marketing | 8–10 | 8% |
-| IT / DC nội bộ | 3–5 | 4% |
-| Hành chính + Kế toán + Nhân sự | 8–10 | 8% |
+| Sản xuất IoT/SMT | 28–33 | 25% |
+| Sản xuất CNC | 20–25 | 19% |
+| Sản xuất Robot Assembly | 8–10 | 7% |
+| QA/QC | 6–9 | 6% |
+| R&D + Thiết kế | 13–16 | 12% |
+| Bán hàng + Marketing | 9–11 | 8% |
+| IT / DC nội bộ | 3–5 | 3% |
+| Hành chính + Kế toán + Nhân sự | 8–10 | 7% |
 | Ban Giám đốc + Quản lý | 6–8 | 6% |
-| Kho + Logistics | 4–6 | 5% |
-| **Tổng** | **97–124** | **100%** |
+| Kho + Logistics | 5–8 | 6% |
+| Chuyên gia/Consultant bán thời gian | 2–4 | 2% |
+| **Tổng** | **108–139** | **100%** |
 
 ### 7.2.1. Chuyên gia Nước ngoài
 
 | Vị trí | Quốc tịch | Số lượng | Thời gian | Mục đích |
 |---|---|---:|---|---|
-| CNC Application Engineer | Nhật/Đức | 2 | 2 năm | Đào tạo vận hành DMG MORI 5-trục |
+| CNC Application Engineer | Nhật/Đức | 2 | 2 năm (theo HĐ mua máy) | Đào tạo vận hành DMG MORI 5-trục — điều khoản OEM bắt buộc |
 | AI/ML Lead | Hàn Quốc/Mỹ | 1 | Dài hạn | Phát triển AI SLAM, Computer Vision cho AMR |
 | Quality Manager (ISO 9001) | Nhật/Đức | 1 | 2 năm | Thiết lập QMS, nâng cấp IATF/AS9100 khi có nhu cầu |
-| **Tổng** | | **4** | | Giảm từ 5 (Gốc) do không cần DC Commissioning Engineer |
+| **Tổng** | | **4** | | Phù hợp phạm vi 2 trụ cột (CNC + IoT/BMS) |
 
 ---
 
@@ -89,13 +90,15 @@ graph TD
 
 | Chương trình | Đối tượng | Thời lượng | Đối tác | Chi phí (K USD) |
 |---|---|---|---|---:|
-| CNC 5-Axis Operation | Kỹ sư CNC | 3 tháng | DMG MORI Academy | 50–80 |
+| CNC 5-Axis Operation — **OEM bắt buộc theo hợp đồng mua máy** | Kỹ sư CNC | 3 tháng | DMG MORI Academy (điều khoản trong HĐ mua thiết bị) | 50–80 |
 | CMM Programming (PC-DMIS) | QC Inspector | 1 tháng | Hexagon MI | 15–25 |
 | Robot AI/SLAM Development | Kỹ sư Robot | 2 tháng | NVIDIA DLI | 15–25 |
 | ISO 9001 Internal Auditor | QA team | 1 tuần | TUV/BSI | 5–10 |
 | PCCC + ATVSLĐ | Toàn bộ | 2 ngày/năm | Đơn vị được cấp phép | 5 |
 | Tiếng Anh kỹ thuật | Toàn bộ kỹ thuật | Ongoing | Trung tâm ngoại ngữ | 10–15 |
 | **Tổng ngân sách đào tạo Y3–Y5** | | | | **100–160** |
+
+> **Lưu ý quan trọng:** Toàn bộ chương trình đào tạo CNC 5-trục do OEM (DMG MORI, các nhà cung cấp tương đương) thực hiện được **đàm phán và ký kết như điều khoản bắt buộc trong hợp đồng mua thiết bị** — không phát sinh chi phí đào tạo riêng lẻ. Điều này đảm bảo 100% vận hành viên được chứng nhận bởi OEM trước khi tiếp nhận máy [A].
 
 > Ngân sách đào tạo trung bình ~40–50K USD/năm giai đoạn vận hành ổn định. Tương đương ~400–500 USD/người/năm, đạt chuẩn 40 giờ đào tạo/năm/người [A].
 
@@ -106,7 +109,7 @@ graph TD
 | **Lương** | Cạnh tranh top 25% thị trường TP.HCM, review hàng năm |
 | **Thưởng** | KPI quarterly + Thưởng cuối năm (1–3 tháng lương) |
 | **BHXH + BHYT** | Đầy đủ theo luật + Bảo hiểm sức khỏe premium cho nhân sự chủ chốt |
-| **ESOP** | 5% vốn điều lệ cho nhân sự chủ chốt (vesting 4 năm, cliff 1 năm) |
+| **ESOP** | 5% vốn điều lệ cho nhân sự chủ chốt (vesting 4 năm, cliff 1 năm) — xem mục 7.5.3 |
 | **Đào tạo** | 40 giờ/năm/người tối thiểu |
 | **Nghỉ phép** | 15 ngày/năm (cao hơn luật 3 ngày) |
 | **Shuttle bus** | Tuyến Quận 1/Bình Thạnh → KCNC |
@@ -176,7 +179,7 @@ graph TD
 | Quality Manager (ISO 9001) | Trung bình-Cao | Rất cao | 12–18 tháng | 25–40 K USD |
 | Sales Director (FDI B2B) | Trung bình | Cao | 3–6 tháng | 15–20 K USD |
 
-> Turnover rate mục tiêu: < 10%/năm toàn công ty, < 5% cho Key Position. Benchmark FDI tại KCNC TP.HCM: 12–18% turnover [A].
+> Turnover rate mục tiêu: < 10%/năm toàn công ty, < 5% cho Key Position. Chuẩn ngành FDI tại KCNC TP.HCM: 12–18% turnover [A].
 
 ### 7.6.2. Chương trình Giữ chân
 
@@ -184,6 +187,7 @@ graph TD
 |---|---|---|---:|
 | ESOP 5% | C-Level + Trưởng phòng + Key | Vesting 4 năm | Equity |
 | Retention Bonus | Top 20% performance | 1–3 tháng lương thêm | 80 |
+| **Cam kết phục vụ 1 năm** | Nhân sự được đào tạo OEM/quốc tế | Ký phụ lục HĐLĐ; bồi hoàn chi phí đào tạo nếu nghỉ trước 1 năm sau khi hoàn thành khóa | 0 (bồi hoàn nếu vi phạm) |
 | Career Path (Dual Track) | Tất cả | Management vs Technical Expert | — |
 | Đào tạo quốc tế | Key Engineer | DMG MORI Japan, Hexagon | 50 |
 | Cải thiện môi trường | Tất cả | Canteen + Gym + Recreation + Shuttle | 30 |
@@ -258,7 +262,7 @@ graph TD
 | Tư vấn pháp lý lao động | 5 |
 | **Tổng** | **~315–385** |
 
-> Chiếm ~17-21% tổng chi phí nhân sự 1,80M USD/năm. Phù hợp benchmark ngành sản xuất CNC tại Việt Nam [B — Navigos Salary Survey 2024].
+> Chiếm ~17-21% tổng chi phí nhân sự 1,80M USD/năm. Phù hợp chuẩn ngành ngành sản xuất CNC tại Việt Nam [B — Navigos Salary Survey 2024].
 
 ---
 
@@ -289,12 +293,12 @@ graph TD
 | KPI | Mục tiêu Y4-Y6 | Mục tiêu Y10+ | Ghi chú |
 |---|---:|---:|---|
 | Time-to-fill vị trí kỹ thuật | < 60 ngày | < 45 ngày | CNC / IoT / QA |
-| Tỷ lệ nghỉ việc toàn công ty | < 12% | < 10% | Benchmark FDI KCNC 12-18% |
+| Tỷ lệ nghỉ việc toàn công ty | < 12% | < 10% | Chuẩn ngành FDI KCNC 12-18% |
 | Tỷ lệ nghỉ việc vị trí key | < 8% | < 5% | Theo danh sách critical role |
 | Giờ đào tạo / người / năm | ≥ 32 giờ | ≥ 40 giờ | Bao gồm kỹ thuật + an toàn |
 | Tỷ lệ vị trí key có người kế nhiệm sẵn sàng | ≥ 50% | ≥ 80% | Succession readiness |
 | Tỷ lệ nhân sự đa kỹ năng (cross-trained) | ≥ 25% | ≥ 40% | Đặc biệt ở CNC / QA / SMT |
-| Năng suất doanh thu / nhân sự | > 45K USD | > 90K USD | Theo ramp-up và steady-state |
+| Năng suất doanh thu / nhân sự | > 45K USD | > 90K USD | Theo ramp-up và ổn định |
 
 > Bộ KPI này giúp gắn quản trị nhân sự với hiệu quả vận hành thực tế: tuyển đúng, giữ đúng người, đào tạo đúng kỹ năng và luôn có phương án kế nhiệm cho các vị trí trọng yếu, trên cơ sở giả định vận hành và chỉ tiêu quy mô đã nêu trong đề án.
 
@@ -302,14 +306,16 @@ graph TD
 
 ## 7.8. Tiểu kết Phần VII
 
-| Chỉ tiêu | Giá trị V3 |
+| Chỉ tiêu | Giá trị |
 |---|---|
-| Tổng nhân sự ổn định (Y10+) | 100–130 người [C] |
+| Tổng nhân sự ổn định (Y10+) | 110–135 người [C] |
 | Tổng quỹ lương + phúc lợi (Y10+) | ~1,80M USD/năm [A] |
 | Turnover mục tiêu | < 10%/năm, Key < 5% [A] |
-| Chuyên gia nước ngoài | 4 người (2 CNC + 1 AI + 1 QM) |
+| Chuyên gia nước ngoài | 4 người (2 CNC theo HĐ OEM + 1 AI + 1 QM) |
+| Cam kết phục vụ sau đào tạo OEM | 1 năm (phụ lục HĐLĐ) [A] |
+| Đào tạo OEM CNC | Bắt buộc trong điều khoản hợp đồng mua thiết bị [A] |
 | ESOP pool | 5% vốn điều lệ |
 | Ngân sách đào tạo /năm | ~40–50K USD [A] |
 | Career path | Dual Track (Technical + Management) |
 
-> **Kết luận:** Kế hoạch nhân sự V3 tối ưu cho quy mô 22,00M USD với 100–130 nhân sự ổn định, tập trung vào 2 trụ cột sản xuất. Chi phí nhân sự chiếm ~21% OPEX — hợp lý cho ngành sản xuất công nghệ cao. Chương trình giữ chân (ESOP + Dual Track + Retention Bonus) giúp giảm turnover dưới benchmark FDI tại KCNC [A].
+> **Kết luận:** Kế hoạch nhân sự dự án tối ưu cho quy mô 22,00M USD với 100–130 nhân sự ổn định, tập trung vào 2 trụ cột sản xuất. Chi phí nhân sự chiếm ~21% OPEX — hợp lý cho ngành sản xuất công nghệ cao. Chương trình giữ chân (ESOP + Dual Track + Retention Bonus) giúp giảm turnover dưới chuẩn ngành FDI tại KCNC [A].

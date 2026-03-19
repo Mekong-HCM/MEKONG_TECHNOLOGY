@@ -1,4 +1,5 @@
 {
+    "diffEditor.maxComputationTime": 0,
     "DockerRun.DisableDockerrc": true,
     "chat.tools.terminal.autoApprove": {
         "/^\\$file = \"C:\\\\Users\\\\Dell M4800\\\\Downloads\\\\DE_AN_MEKONG\\\\DE_AN_MEKONG_V2\\\\MEKONG_DE_AN_V2_MASTER\\.md\"; \\$lines = \\(Get-Content \\$file\\)\\.Count; \\$size = \\(Get-Item \\$file\\)\\.Length; Write-Host \"Lines: \\$lines, Size: \\$\\(\\$size / 1MB\\) MB\"$/": {
