@@ -47,14 +47,15 @@ function OverviewTab() {
                             content={({ active, payload }) => {
                                 if (!active || !payload || payload.length === 0) return null;
                                 const item = payload[0];
+                                const itemColor = (item?.payload as { color?: string } | undefined)?.color || '#e5e7eb';
                                 return (
                                     <div
                                         style={{
                                             background: '#191d44',
-                                            border: '1px solid rgba(118,255,3,0.35)',
+                                            border: `1px solid ${itemColor}55`,
                                             borderRadius: '8px',
                                             fontSize: '12px',
-                                            color: '#76FF03',
+                                            color: itemColor,
                                             padding: '6px 10px',
                                             fontWeight: 700,
                                         }}

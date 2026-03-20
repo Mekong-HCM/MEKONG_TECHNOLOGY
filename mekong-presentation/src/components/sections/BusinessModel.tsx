@@ -83,6 +83,8 @@ function RevenueTab() {
                         <YAxis tick={{ fill: '#d1d5db', fontSize: 11 }} axisLine={false} tickLine={false} />
                         <Tooltip
                             contentStyle={{ background: '#191d44', border: '1px solid rgba(201,154,46,0.3)', borderRadius: '8px', fontSize: '11px', color: '#fff' }}
+                            itemStyle={{ color: '#e5e7eb' }}
+                            labelStyle={{ color: '#d1d5db' }}
                             formatter={(v: number) => [`${v.toFixed(1)}M USD`, '']}
                         />
                         <Area type="monotone" dataKey="iot" stackId="1" stroke="#00E5FF" fill="#00E5FF" fillOpacity={0.3} name="BU1 IoT" />

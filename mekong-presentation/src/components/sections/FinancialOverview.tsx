@@ -31,8 +31,8 @@ function RevenueTab() {
                     <YAxis tick={{ fill: '#ccc', fontSize: 11 }} axisLine={false} tickLine={false} unit="M" />
                     <Tooltip
                         contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '12px', color: '#fff' }}
-                        itemStyle={{ color: '#76FF03' }}
-                        labelStyle={{ color: '#ccc' }}
+                        itemStyle={{ color: '#e5e7eb' }}
+                        labelStyle={{ color: '#d1d5db' }}
                         formatter={(v: number) => [`${v}M USD`]}
                     />
                     <Legend iconType="circle" wrapperStyle={{ fontSize: '12px', paddingTop: '10px', color: '#fff' }} />
@@ -92,8 +92,8 @@ function ScenariosTab() {
                         <YAxis type="category" dataKey="name" tick={{ fill: '#ccc', fontSize: 11 }} axisLine={false} tickLine={false} width={70} />
                         <Tooltip
                             contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '11px', color: '#fff' }}
-                            itemStyle={{ color: '#76FF03' }}
-                            labelStyle={{ color: '#ccc' }}
+                            itemStyle={{ color: '#e5e7eb' }}
+                            labelStyle={{ color: '#d1d5db' }}
                         />
                         <Bar dataKey="negative" name="Giảm 20%" stackId="a" fill="#E040FB" radius={[6, 0, 0, 6]} barSize={18} />
                         <Bar dataKey="positive" name="Tăng 20%" stackId="a" fill="#00E5FF" radius={[0, 6, 6, 0]} barSize={18} />

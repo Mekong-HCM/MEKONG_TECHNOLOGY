@@ -75,6 +75,8 @@ function MarketTab() {
                                 <YAxis type="category" dataKey="name" tick={{ fill: '#ccc', fontSize: 12 }} axisLine={false} tickLine={false} width={80} />
                                 <Tooltip
                                     contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '12px', color: '#fff' }}
+                                    itemStyle={{ color: '#e5e7eb' }}
+                                    labelStyle={{ color: '#d1d5db' }}
                                     formatter={(v: number) => [`${v} B USD`]}
                                     cursor={{ fill: 'rgba(255,255,255,0.03)' }}
                                 />

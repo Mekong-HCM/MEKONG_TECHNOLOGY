@@ -20,7 +20,7 @@ function HeadcountTab() {
                 <BarChart data={headcountData} margin={{ left: 0 }}>
                     <XAxis dataKey="phase" tick={{ fill: '#d1d5db', fontSize: 10 }} axisLine={false} tickLine={false} />
                     <YAxis tick={{ fill: '#d1d5db', fontSize: 10 }} axisLine={false} tickLine={false} />
-                    <Tooltip contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '11px', color: '#fff' }} itemStyle={{ color: '#76FF03' }} labelStyle={{ color: '#ccc' }} />
+                    <Tooltip contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '11px', color: '#fff' }} itemStyle={{ color: '#e5e7eb' }} labelStyle={{ color: '#d1d5db' }} />
                     <Legend iconType="circle" wrapperStyle={{ fontSize: '10px', color: '#fff' }} />
                     <Bar dataKey="IoT" stackId="a" fill="#00E5FF" radius={[0, 0, 0, 0]} barSize={30} />
                     <Bar dataKey="CNC" stackId="a" fill="#E040FB" />
