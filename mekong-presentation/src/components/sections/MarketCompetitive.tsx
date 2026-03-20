@@ -166,17 +166,17 @@ function MarketTab() {
                         {[0, 2, 4, 6, 8, 10].map(v => (
                             <g key={`xt${v}`}>
                                 <line x1={80 + v * 59} y1={285} x2={80 + v * 59} y2={291} stroke="rgba(255,255,255,0.3)" strokeWidth={1} />
-                                <text x={80 + v * 59} y={305} textAnchor="middle" fill="#666" fontSize={11}>{v}</text>
+                                <text x={80 + v * 59} y={305} textAnchor="middle" fill="#adb5bd" fontSize={11}>{v}</text>
                             </g>
                         ))}
-                        <text x={375} y={325} textAnchor="middle" fill="#999" fontSize={12}>Quy m&#xF4; s&#x1EA3;n xu&#x1EA5;t &#x2192;</text>
+                        <text x={375} y={325} textAnchor="middle" fill="#adb5bd" fontSize={12}>Quy m&#xF4; s&#x1EA3;n xu&#x1EA5;t &#x2192;</text>
                         {[0, 2, 4, 6, 8, 10].map(c => (
                             <g key={`yt${c}`}>
                                 <line x1={80} y1={20 + (1 - c / 10) * 265} x2={74} y2={20 + (1 - c / 10) * 265} stroke="rgba(255,255,255,0.3)" strokeWidth={1} />
-                                <text x={68} y={20 + (1 - c / 10) * 265 + 4} textAnchor="end" fill="#666" fontSize={11}>{c}</text>
+                                <text x={68} y={20 + (1 - c / 10) * 265 + 4} textAnchor="end" fill="#adb5bd" fontSize={11}>{c}</text>
                             </g>
                         ))}
-                        <text x={22} y={153} textAnchor="middle" fill="#999" fontSize={12} transform="rotate(-90 22 153)">&#x110;&#x1ED9; ph&#x1EE9;c t&#x1EA1;p &#x2192;</text>
+                        <text x={22} y={153} textAnchor="middle" fill="#adb5bd" fontSize={12} transform="rotate(-90 22 153)">&#x110;&#x1ED9; ph&#x1EE9;c t&#x1EA1;p &#x2192;</text>
                         {DOT_DATA.map((dot, i) => (
                             <g key={dot.name} className="cursor-pointer" onMouseEnter={() => setHovered(dot)} onMouseLeave={() => setHovered(null)}>
                                 <circle cx={dot.svgX} cy={dot.svgY} r={20} fill={`${dot.color}18`} />
