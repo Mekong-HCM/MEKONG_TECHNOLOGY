@@ -1,11 +1,19 @@
 import { AlertTriangle, TrendingUp, Factory, Cpu, Globe, MapPin } from 'lucide-react';
 import { TabSlide, type TabConfig } from '../ui/TabSlide';
 import { GlassCard } from '../ui/GlassCard';
+import { OptimizedImage } from '../ui/OptimizedImage';
+import { images } from '../../data/images';
 import { marketGaps, urgencyKPIs, targetIndustries } from '../../data/operations';
 
 function GlobalTab() {
     return (
         <div className="space-y-4">
+            <GlassCard className="p-0 overflow-hidden relative">
+                <OptimizedImage {...images['premium-factory']} placeholderLabel="Nhà máy công nghệ cao hiện đại" placeholderColor="#FF9100" className="w-full h-36 object-cover object-center" aspectRatio="16/5" />
+                <div className="absolute inset-0 bg-gradient-to-r from-dark-950/85 via-dark-950/50 to-transparent flex items-end px-5 pb-3">
+                    <div className="text-[10px] text-gray-300">Nhu cầu điện tử thông minh và gia công CNC chính xác tại Việt Nam đang tăng trưởng mạnh mẽ</div>
+                </div>
+            </GlassCard>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                 {[
                     { icon: Factory, label: 'DNNVV cần IoT', value: urgencyKPIs.smeCount, color: 'text-neon-cyan' },

@@ -1,6 +1,8 @@
 import { Cpu, Layers, Wifi, Beaker, TrendingUp, Target, DollarSign, Microscope, Users, FlaskConical, Award, GraduationCap, Handshake, FileText } from 'lucide-react';
 import { TabSlide, type TabConfig } from '../ui/TabSlide';
 import { GlassCard } from '../ui/GlassCard';
+import { OptimizedImage } from '../ui/OptimizedImage';
+import { images } from '../../data/images';
 import { techStackLayers } from '../../data/operations';
 import { rdBudget, rdTeam, rdLabs, trlRoadmap, partnerships, ipTargets } from '../../data/rdData';
 
@@ -10,8 +12,9 @@ const layerIcons = [Cpu, Wifi, Cpu, Layers, Layers];
 /* ─── Tab 1: Tech Stack ─── */
 function TechStackTab() {
     return (
-        <div className="space-y-3">
-            {techStackLayers.map((layer, i) => {
+        <div className="grid md:grid-cols-3 gap-4">
+            <div className="md:col-span-2 space-y-3">
+                {techStackLayers.map((layer, i) => {
                 const Icon = layerIcons[i];
                 const color = layerColors[i];
                 return (
@@ -34,6 +37,17 @@ function TechStackTab() {
             })}
             <div className="mt-4 text-center text-[10px] text-gray-500">
                 13 giao thức công nghiệp — Tương thích 16 sản phẩm — ROS2 ready
+            </div>
+            </div>
+            {/* Cloud ERP visual */}
+            <div className="flex flex-col gap-3">
+                <GlassCard className="p-0 overflow-hidden flex-1">
+                    <OptimizedImage {...images['cloud-erp']} placeholderLabel="Nền tảng ERP Đám mây" placeholderColor="#76FF03" className="w-full h-full object-cover min-h-[200px]" aspectRatio="4/5" />
+                </GlassCard>
+                <GlassCard className="p-3 text-center">
+                    <div className="text-xs font-bold text-neon-cyan mb-1">MekongOS Platform</div>
+                    <div className="text-[10px] text-gray-400">Cloud-connected · OPC-UA · MQTT · ROS2</div>
+                </GlassCard>
             </div>
         </div>
     );

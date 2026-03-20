@@ -42,4 +42,11 @@ export const images: Record<string, ImageAsset> = {
 
     // ESG
     'esg-01': { id: 'esg-01', src: `${b}/images/esg/esg-01-solar-rooftop.jpg`, alt: 'Mái pin năng lượng mặt trời nhà máy', category: 'esg', color: '#76FF03', width: 1200, height: 600 },
+
+    // Ảnh thực tế — được cung cấp trực tiếp
+    'factory-assembly': { id: 'factory-assembly', src: `${b}/images/5523113274ca586bde68911e5fb831ba.jpg`, alt: 'Dây chuyền lắp ráp điện tử thông minh — nhà máy sản xuất tổng quan', category: 'iot', color: '#00E5FF', width: 1200, height: 600 },
+    'cnc-floor': { id: 'cnc-floor', src: `${b}/images/pexels-yetkin-agac-664866326-34718922.jpg`, alt: 'Xưởng máy CNC công nghiệp — hàng máy gia công chính xác', category: 'cnc', color: '#E040FB', width: 1200, height: 800 },
+    'erp-smart': { id: 'erp-smart', src: `${b}/images/0d06aec40641c42de3956950c7ca2eb2.jpg`, alt: 'Hệ thống ERP quản lý sản xuất thông minh — nhà kho tự động hóa', category: 'iot', color: '#00E5FF', width: 1200, height: 600 },
+    'cloud-erp': { id: 'cloud-erp', src: `${b}/images/655f69bf8888621c99a3ca81dc81fa23.jpg`, alt: 'Nền tảng ERP đám mây — hệ sinh thái phần mềm kết nối', category: 'dc', color: '#76FF03', width: 1200, height: 700 },
+    'premium-factory': { id: 'premium-factory', src: `${b}/images/premium_photo-1661882369766-ff5d3440771c.avif`, alt: 'Khu công nghệ cao — nhà máy sản xuất điện tử hiện đại', category: 'iot', color: '#FF9100', width: 1200, height: 800 },
 };

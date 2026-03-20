@@ -63,6 +63,9 @@ function PhotosTab() {
 function CNCLineTab() {
     return (
         <div className="space-y-4">
+            <GlassCard className="p-0 overflow-hidden">
+                <OptimizedImage {...images['cnc-floor']} placeholderLabel="Xưởng máy CNC công nghiệp" placeholderColor="#E040FB" className="w-full h-48 object-cover object-center" aspectRatio="16/9" />
+            </GlassCard>
             <GlassCard className="p-5">
                 <h4 className="text-sm font-bold text-white mb-3 flex items-center gap-2"><Cog size={16} className="text-neon-magenta" /> Dây chuyền CNC — Tầng 1 Xưởng</h4>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">

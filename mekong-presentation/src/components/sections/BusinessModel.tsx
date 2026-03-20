@@ -1,6 +1,8 @@
 import { DollarSign, Users, TrendingUp, ShoppingBag, Cpu, Cog, Cloud, Wrench, GraduationCap } from 'lucide-react';
 import { TabSlide, type TabConfig } from '../ui/TabSlide';
 import { GlassCard } from '../ui/GlassCard';
+import { OptimizedImage } from '../ui/OptimizedImage';
+import { images } from '../../data/images';
 import { financials } from '../../data/financials';
 import { targetIndustries } from '../../data/operations';
 import { AreaChart, Area, XAxis, YAxis, ResponsiveContainer, Tooltip, CartesianGrid } from 'recharts';
@@ -21,6 +23,15 @@ const revenueStreams = [
 function StreamsTab() {
     return (
         <div className="space-y-4">
+            <GlassCard className="p-0 overflow-hidden relative">
+                <OptimizedImage {...images['erp-smart']} placeholderLabel="Hệ thống ERP thông minh" placeholderColor="#00E5FF" className="w-full h-28 object-cover object-center" aspectRatio="16/5" />
+                <div className="absolute inset-0 bg-gradient-to-r from-dark-950/90 via-dark-950/50 to-transparent flex items-center px-5">
+                    <div>
+                        <div className="text-sm font-extrabold text-white">9 Nguồn Doanh thu</div>
+                        <div className="text-xs text-neon-cyan">BU1 + BU2 — Steady state Y12+: 12,00M USD/năm</div>
+                    </div>
+                </div>
+            </GlassCard>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
                 {revenueStreams.map((s, i) => (
                     <div key={i} className="corporate-card-hover p-4">

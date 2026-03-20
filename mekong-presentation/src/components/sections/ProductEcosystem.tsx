@@ -80,12 +80,15 @@ function OverviewTab() {
 function BU1Tab() {
     return (
         <div className="space-y-4">
-            <div className="grid md:grid-cols-2 gap-4 mb-4">
+            <div className="grid md:grid-cols-3 gap-4 mb-4">
                 <GlassCard className="p-0 overflow-hidden">
-                    <OptimizedImage {...images['iot-01']} placeholderLabel="IoT Edge Gateway" placeholderColor="#00E5FF" className="w-full h-56 object-contain" aspectRatio="16/9" />
+                    <OptimizedImage {...images['factory-assembly']} placeholderLabel="Dây chuyền lắp ráp Điện tử" placeholderColor="#00E5FF" className="w-full h-44 object-cover" aspectRatio="16/9" />
                 </GlassCard>
                 <GlassCard className="p-0 overflow-hidden">
-                    <OptimizedImage {...images['iot-03']} placeholderLabel="Robot AMR Tự hành" placeholderColor="#00E5FF" className="w-full h-56 object-contain" aspectRatio="16/9" />
+                    <OptimizedImage {...images['iot-01']} placeholderLabel="IoT Edge Gateway" placeholderColor="#00E5FF" className="w-full h-44 object-contain" aspectRatio="16/9" />
+                </GlassCard>
+                <GlassCard className="p-0 overflow-hidden">
+                    <OptimizedImage {...images['iot-03']} placeholderLabel="Robot AMR Tự hành" placeholderColor="#00E5FF" className="w-full h-44 object-contain" aspectRatio="16/9" />
                 </GlassCard>
             </div>
             <div className="grid md:grid-cols-3 gap-4 mb-4">
