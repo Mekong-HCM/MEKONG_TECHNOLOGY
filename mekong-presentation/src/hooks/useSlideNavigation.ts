@@ -59,10 +59,12 @@ export function useSlideNavigation(): SlideNavigationState {
         const el = document.getElementById(SECTION_IDS[clampedIndex]);
         const container = getSnapContainer();
         if (!el || !container) return;
-        const containerBox = container.getBoundingClientRect();
-        const elBox = el.getBoundingClientRect();
+
+        const isFullscreenMode = !!document.fullscreenElement || document.querySelector('.fullscreen-mode') !== null;
+        const offset = isFullscreenMode ? 0 : NAVBAR_HEIGHT;
+
         container.scrollTo({
-            top: container.scrollTop + elBox.top - containerBox.top - NAVBAR_HEIGHT,
+            top: Math.max(0, el.offsetTop - offset),
             behavior: 'smooth',
         });
     }, [totalSlides]);

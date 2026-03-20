@@ -31,13 +31,24 @@ function SectionFallback() {
 }
 
 export default function App() {
-    const { currentSlide, totalSlides, progress, isFullscreen, isOverviewOpen, goToSlide, nextSlide, prevSlide, toggleOverview } = useSlideNavigation();
+    const { currentSlide, totalSlides, progress, isFullscreen, isOverviewOpen, goToSlide, nextSlide, prevSlide, toggleOverview, toggleFullscreen } = useSlideNavigation();
 
     return (
         <LoginGate>
         <div className={`bg-dark-950 min-h-screen ${isFullscreen ? 'fullscreen-mode' : ''}`}>
             <Navbar isFullscreen={isFullscreen} currentSlide={currentSlide} totalSlides={totalSlides} onToggleOverview={toggleOverview} />
-            <FloatingNav currentSlide={currentSlide} totalSlides={totalSlides} onPrev={prevSlide} onNext={nextSlide} />
+            <FloatingNav
+                currentSlide={currentSlide}
+                totalSlides={totalSlides}
+                currentLabel={SLIDES[currentSlide]?.label || ''}
+                onPrev={prevSlide}
+                onNext={nextSlide}
+                onFirst={() => goToSlide(0)}
+                onLast={() => goToSlide(totalSlides - 1)}
+                onToggleOverview={toggleOverview}
+                onToggleFullscreen={toggleFullscreen}
+                isFullscreen={isFullscreen}
+            />
             <SlideIndicator slides={SLIDES} currentSlide={currentSlide} onGoTo={goToSlide} />
             <SlideOverview isOpen={isOverviewOpen} slides={SLIDES} currentSlide={currentSlide} onGoTo={goToSlide} onClose={toggleOverview} />
             <main className="snap-container">

@@ -13,10 +13,14 @@ export function scrollToSection(id: string): void {
     const el = document.getElementById(id);
     const container = getSnapContainer();
     if (!el || !container) return;
-    const containerBox = container.getBoundingClientRect();
-    const elBox = el.getBoundingClientRect();
+
+    const isFullscreen = document.body.closest('.fullscreen-mode') !== null
+        || document.querySelector('.fullscreen-mode') !== null
+        || !!document.fullscreenElement;
+    const offset = isFullscreen ? 0 : NAVBAR_HEIGHT;
+
     container.scrollTo({
-        top: container.scrollTop + elBox.top - containerBox.top - NAVBAR_HEIGHT,
+        top: Math.max(0, el.offsetTop - offset),
         behavior: 'smooth',
     });
 }
