@@ -49,12 +49,12 @@ function MonteCarloTab() {
 
 function ScenariosTab() {
     return (
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {scenarioAnalysis.map((s, i) => (
-                <GlassCard key={i} className="p-3 text-center" accentColor={s.color}>
-                    <div className="text-[10px] font-bold" style={{ color: s.color }}>{s.scenario}</div>
-                    <div className="text-[9px] text-gray-400 mb-1">Xác suất: {s.prob}</div>
-                    <div className="space-y-1 text-[9px]">
+                <GlassCard key={i} className="p-4 text-center" accentColor={s.color}>
+                    <div className="text-[12px] font-bold" style={{ color: s.color }}>{s.scenario}</div>
+                    <div className="text-[10px] text-gray-400 mb-2">Xác suất: {s.prob}</div>
+                    <div className="space-y-1.5 text-[10px]">
                         <div><span className="text-gray-400">Rev 15Y:</span> <span className="text-white font-bold">{s.revenue15Y}M</span></div>
                         <div><span className="text-gray-400">NPV:</span> <span className="text-white font-bold">{s.npv50Y}M</span></div>
                         <div><span className="text-gray-400">IRR:</span> <span className="text-white font-bold">{s.irr50Y}</span></div>

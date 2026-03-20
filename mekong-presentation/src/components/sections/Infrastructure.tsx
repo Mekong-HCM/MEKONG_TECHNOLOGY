@@ -14,7 +14,7 @@ function LayoutTab() {
             <div className="space-y-3">
                 {infrastructure.buildings.map((b, i) => (
                     <div key={i} className="flex items-center gap-4 p-4 rounded-xl" style={{ background: `${b.color}08`, border: `1px solid ${b.color}20` }}>
-                        <div className="flex-shrink-0 w-24 text-center">
+                        <div className="flex-shrink-0 w-40 text-center">
                             <div className="text-sm font-black" style={{ color: b.color }}>{b.name}</div>
                             <div className="text-xs text-gray-400">{b.floors} tầng — {b.gfa} m²</div>
                         </div>
@@ -79,17 +79,17 @@ function CNCLineTab() {
                     ))}
                 </div>
                 <div className="text-xs text-gray-400">
-                    <p className="mb-1">Layout: 5-axis CNC cluster + Wire EDM + Grinding — flow luồn từ raw material → milling → EDM → finishing → QA</p>
+                    <p className="mb-1">Layout: 5-axis CNC cluster + Wire EDM + Grinding — luồng quy trình từ raw material → milling → EDM → finishing → QA</p>
                     <p>Utility: khí nén 8 bar, coolant ZLD recirculation, chip conveyor tự động</p>
                 </div>
             </GlassCard>
             <GlassCard className="p-4">
-                <h4 className="text-xs font-bold text-white mb-2">Quy trình gia công</h4>
-                <div className="flex flex-wrap items-center gap-2 text-[10px]">
+                <h4 className="text-sm font-bold text-white mb-3">Quy trình gia công</h4>
+                <div className="flex flex-wrap items-center gap-3 text-[12px]">
                     {['Nhập liệu', 'Phôi/Cắt', '5-Axis Milling', 'Wire EDM', 'Grinding', 'QA/QC CMM', 'Xuất hàng'].map((step, i) => (
-                        <span key={i} className="flex items-center gap-1">
-                            <span className="px-2 py-1 rounded bg-neon-magenta/10 border border-neon-magenta/20 text-gray-300">{step}</span>
-                            {i < 6 && <span className="text-gray-600">→</span>}
+                        <span key={i} className="flex items-center gap-2">
+                            <span className="px-3 py-2 rounded bg-neon-magenta/10 border border-neon-magenta/20 text-gray-300">{step}</span>
+                            {i < 6 && <span className="text-gray-600 font-bold">→</span>}
                         </span>
                     ))}
                 </div>

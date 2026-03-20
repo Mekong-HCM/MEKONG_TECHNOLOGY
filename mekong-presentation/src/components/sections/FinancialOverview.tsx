@@ -27,8 +27,8 @@ function RevenueTab() {
                             <stop offset="95%" stopColor="#E040FB" stopOpacity={0} />
                         </linearGradient>
                     </defs>
-                    <XAxis dataKey="year" tick={{ fill: '#999', fontSize: 11 }} axisLine={false} tickLine={false} />
-                    <YAxis tick={{ fill: '#999', fontSize: 11 }} axisLine={false} tickLine={false} unit="M" />
+                    <XAxis dataKey="year" tick={{ fill: '#ccc', fontSize: 11 }} axisLine={false} tickLine={false} />
+                    <YAxis tick={{ fill: '#ccc', fontSize: 11 }} axisLine={false} tickLine={false} unit="M" />
                     <Tooltip
                         contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '12px', color: '#fff' }}
                         itemStyle={{ color: '#76FF03' }}
@@ -88,7 +88,7 @@ function ScenariosTab() {
                 <h4 className="text-sm font-semibold text-white mb-3">Phân tích Nhạy cảm NPV (M USD)</h4>
                 <ResponsiveContainer width="100%" height={200}>
                     <BarChart data={sensitivityData} layout="vertical" margin={{ left: 10 }}>
-                        <XAxis type="number" tick={{ fill: '#999', fontSize: 10 }} axisLine={false} tickLine={false} domain={[-8, 8]} />
+                        <XAxis type="number" tick={{ fill: '#ccc', fontSize: 10 }} axisLine={false} tickLine={false} domain={[-8, 8]} />
                         <YAxis type="category" dataKey="name" tick={{ fill: '#ccc', fontSize: 11 }} axisLine={false} tickLine={false} width={70} />
                         <Tooltip
                             contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '11px', color: '#fff' }}
