@@ -44,8 +44,25 @@ function OverviewTab() {
                             {pieData.map((entry, index) => (<Cell key={index} fill={entry.color} />))}
                         </Pie>
                         <Tooltip
-                            contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '12px', color: '#fff' }}
-                            formatter={(value: number) => [`${value}M USD`, '']}
+                            content={({ active, payload }) => {
+                                if (!active || !payload || payload.length === 0) return null;
+                                const item = payload[0];
+                                return (
+                                    <div
+                                        style={{
+                                            background: '#191d44',
+                                            border: '1px solid rgba(118,255,3,0.35)',
+                                            borderRadius: '8px',
+                                            fontSize: '12px',
+                                            color: '#76FF03',
+                                            padding: '6px 10px',
+                                            fontWeight: 700,
+                                        }}
+                                    >
+                                        {item?.name}: {item?.value}M USD
+                                    </div>
+                                );
+                            }}
                         />
                     </PieChart>
                 </ResponsiveContainer>

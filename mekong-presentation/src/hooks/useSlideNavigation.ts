@@ -54,6 +54,25 @@ export function useSlideNavigation(): SlideNavigationState {
         setIsOverviewOpen(prev => !prev);
     }, []);
 
+    const resolveCurrentSlideIndex = useCallback(() => {
+        const container = getSnapContainer();
+        if (!container) return 0;
+
+        const isFullscreenMode = !!document.fullscreenElement || document.querySelector('.fullscreen-mode') !== null;
+        const offset = isFullscreenMode ? 16 : NAVBAR_HEIGHT + 16;
+        const refTop = container.scrollTop + offset;
+
+        let index = 0;
+        for (let i = 0; i < SECTION_IDS.length; i++) {
+            const el = document.getElementById(SECTION_IDS[i]);
+            if (!el) continue;
+            if (el.offsetTop <= refTop) index = i;
+            else break;
+        }
+
+        return index;
+    }, []);
+
     const goToSlide = useCallback((index: number) => {
         const clampedIndex = Math.max(0, Math.min(index, totalSlides - 1));
         const el = document.getElementById(SECTION_IDS[clampedIndex]);
@@ -70,12 +89,12 @@ export function useSlideNavigation(): SlideNavigationState {
     }, [totalSlides]);
 
     const nextSlide = useCallback(() => {
-        goToSlide(currentSlide + 1);
-    }, [currentSlide, goToSlide]);
+        goToSlide(resolveCurrentSlideIndex() + 1);
+    }, [goToSlide, resolveCurrentSlideIndex]);
 
     const prevSlide = useCallback(() => {
-        goToSlide(currentSlide - 1);
-    }, [currentSlide, goToSlide]);
+        goToSlide(resolveCurrentSlideIndex() - 1);
+    }, [goToSlide, resolveCurrentSlideIndex]);
 
     const toggleFullscreen = useCallback(() => {
         if (!document.fullscreenElement) {
@@ -157,28 +176,40 @@ export function useSlideNavigation(): SlideNavigationState {
 
     // Track scroll position for current slide and progress
     useEffect(() => {
-        const container = getSnapContainer();
-        if (!container) return;
+        let detach: (() => void) | null = null;
+        let retryTimer: number | null = null;
 
-        const handleScroll = () => {
-            const scrollTop = container.scrollTop;
-            const scrollHeight = container.scrollHeight - container.clientHeight;
-            setProgress(scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0);
+        const attach = () => {
+            const container = getSnapContainer();
+            if (!container) return false;
 
-            const refY = NAVBAR_HEIGHT + 40;
-            for (let i = SECTION_IDS.length - 1; i >= 0; i--) {
-                const el = document.getElementById(SECTION_IDS[i]);
-                if (el && el.getBoundingClientRect().top <= refY) {
-                    setCurrentSlide(i);
-                    break;
-                }
-            }
+            const handleScroll = () => {
+                const scrollTop = container.scrollTop;
+                const scrollHeight = container.scrollHeight - container.clientHeight;
+                setProgress(scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0);
+                setCurrentSlide(resolveCurrentSlideIndex());
+            };
+
+            container.addEventListener('scroll', handleScroll, { passive: true });
+            handleScroll();
+            detach = () => container.removeEventListener('scroll', handleScroll);
+            return true;
         };
 
-        container.addEventListener('scroll', handleScroll, { passive: true });
-        handleScroll();
-        return () => container.removeEventListener('scroll', handleScroll);
-    }, []);
+        if (!attach()) {
+            retryTimer = window.setInterval(() => {
+                if (attach() && retryTimer) {
+                    window.clearInterval(retryTimer);
+                    retryTimer = null;
+                }
+            }, 120);
+        }
+
+        return () => {
+            if (retryTimer) window.clearInterval(retryTimer);
+            if (detach) detach();
+        };
+    }, [resolveCurrentSlideIndex]);
 
     return {
         currentSlide,
