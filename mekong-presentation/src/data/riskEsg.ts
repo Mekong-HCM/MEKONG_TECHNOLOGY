@@ -26,23 +26,23 @@ export const weightedScenario = { revenue15Y: '~130', npv50Y: '~2,0', irr50Y: '~
 
 // Top 10 Risks — Source: V3 P6
 export const topRisks = [
-    { id: 'R-A1', risk: 'CNC demand thap hon du bao', prob: 4, impact: 5, score: 20, mitigation: 'Da dang KH (khong >20%), da nganh' },
-    { id: 'R-B1', risk: 'CNC lap dat cham >6 thang', prob: 4, impact: 5, score: 20, mitigation: 'PO som Q4/2025, dat coc 30%, buffer 3 thang' },
-    { id: 'R-A4', risk: 'IoT canh tranh gia tu TQ', prob: 4, impact: 3, score: 12, mitigation: 'MekongOS tich hop, dich vu dia phuong' },
-    { id: 'R-A2', risk: 'Gia CNC outsource giam', prob: 3, impact: 4, score: 12, mitigation: 'Nang cap ISO, da dang san pham' },
-    { id: 'R-B2', risk: 'CNC chat luong miss (Yield<80%)', prob: 3, impact: 4, score: 12, mitigation: 'Tuyen 2 CNC expert JP/DE, NPI nghiem ngat' },
-    { id: 'R-B10', risk: 'Thieu nguon cap nuoc', prob: 3, impact: 4, score: 12, mitigation: 'ZLD reuse, du tru 3 ngay' },
-    { id: 'R-B3', risk: 'Chay/no CNC (bui Titan)', prob: 2, impact: 5, score: 10, mitigation: 'HEPA H13, NOVEC 1230, bao hiem 100%' },
-    { id: 'R-C1', risk: 'Thay doi chinh sach uu dai KCNC', prob: 2, impact: 4, score: 8, mitigation: 'Cam ket R&D >= 5%, ESG compliance' },
-    { id: 'R-C2', risk: 'Thieu nhan luc CNC tay nghe cao', prob: 3, impact: 3, score: 9, mitigation: 'Dao tao noi bo, hop tac HCMUT' },
-    { id: 'R-B8', risk: 'Data breach/Ransomware', prob: 2, impact: 4, score: 8, mitigation: 'ISO 27001, pen-test hang quy' },
+    { id: 'R-A1', risk: 'CNC demand thấp hơn dự báo', prob: 4, impact: 5, score: 20, mitigation: 'Đa dạng KH (không >20%), đa ngành' },
+    { id: 'R-B1', risk: 'CNC lắp đặt chậm >6 tháng', prob: 4, impact: 5, score: 20, mitigation: 'PO sớm Q4/2025, đặt cọc 30%, buffer 3 tháng' },
+    { id: 'R-A4', risk: 'IoT cạnh tranh giá từ TQ', prob: 4, impact: 3, score: 12, mitigation: 'MekongOS tích hợp, dịch vụ địa phương' },
+    { id: 'R-A2', risk: 'Giá CNC outsource giảm', prob: 3, impact: 4, score: 12, mitigation: 'Nâng cấp ISO, đa dạng sản phẩm' },
+    { id: 'R-B2', risk: 'CNC chất lượng miss (Yield<80%)', prob: 3, impact: 4, score: 12, mitigation: 'Tuyển 2 CNC expert JP/DE, NPI nghiêm ngặt' },
+    { id: 'R-B10', risk: 'Thiếu nguồn cấp nước', prob: 3, impact: 4, score: 12, mitigation: 'ZLD reuse, dự trữ 3 ngày' },
+    { id: 'R-B3', risk: 'Cháy/nổ CNC (bụi Titan)', prob: 2, impact: 5, score: 10, mitigation: 'HEPA H13, NOVEC 1230, bảo hiểm 100%' },
+    { id: 'R-C1', risk: 'Thay đổi chính sách ưu đãi KCNC', prob: 2, impact: 4, score: 8, mitigation: 'Cam kết R&D >= 5%, ESG compliance' },
+    { id: 'R-C2', risk: 'Thiếu nhân lực CNC tay nghề cao', prob: 3, impact: 3, score: 9, mitigation: 'Đào tạo nội bộ, hợp tác HCMUT' },
+    { id: 'R-B8', risk: 'Data breach/Ransomware', prob: 2, impact: 4, score: 8, mitigation: 'ISO 27001, pen-test hằng quý' },
 ];
 
 // ESG — Source: V3 P7
 export const esgMetrics = {
-    solar: { capacity: '200 kWp rooftop', annual: '~260 MWh/nam', saving: '26-30K USD/nam', co2: '~180 tCO\u2082/nam' },
-    zld: { status: 'Cam ket ZLD', cncWastewater: '5-10 m\u00B3/ngay', totalWW: '15-25 m\u00B3/ngay', discharge: '0 m\u00B3' },
-    ghg: { baseline: '~4.500 tCO\u2082e/nam', target: '~3.200 tCO\u2082e/nam', reduction: '-28%', committed: '-25% vs BAU by 2030' },
+    solar: { capacity: '200 kWp rooftop', annual: '~260 MWh/năm', saving: '26-30K USD/năm', co2: '~180 tCO\u2082/năm' },
+    zld: { status: 'Cam kết ZLD', cncWastewater: '5-10 m\u00B3/ngày', totalWW: '15-25 m\u00B3/ngày', discharge: '0 m\u00B3' },
+    ghg: { baseline: '~4.500 tCO\u2082e/năm', target: '~3.200 tCO\u2082e/năm', reduction: '-28%', committed: '-25% vs BAU by 2030' },
     ghgRoadmap: [
         { phase: 'Y3-Y5', target: '-25%' },
         { phase: 'Y6-Y10', target: '-40%' },
@@ -59,7 +59,7 @@ export const jobCreation = [
     { phase: 'Y0-Y1', admin: '8-10', total: '8-10' },
     { phase: 'Y3-Y4', iot: '12', cnc: '5', admin: '13', total: '30-40' },
     { phase: 'Y5-Y6', iot: '25', cnc: '20', admin: '17', total: '65-80' },
-    { phase: 'Y10+ (on dinh)', iot: '40', cnc: '35', admin: '25', total: '100-130' },
+    { phase: 'Y10+ (ổn định)', iot: '40', cnc: '35', admin: '25', total: '100-130' },
 ];
 
 export const socioKPIs = {
@@ -78,12 +78,12 @@ export const socioKPIs = {
 };
 
 export const trainingPrograms = [
-    { program: 'Thuc tap sinh/nam', value: '15-20 SV', source: 'HCMUT, HUTECH, Cao Thang' },
-    { program: 'Chuyen doi full-time', value: '60-70%', source: '-' },
-    { program: 'Hoc bong Mekong', value: '8-10 suat/nam', source: '20M VND/suat' },
-    { program: 'Chung chi quoc te/nam', value: '20-30', source: 'Siemens NX, Six Sigma' },
+    { program: 'Thực tập sinh/năm', value: '15-20 SV', source: 'HCMUT, HUTECH, Cao Thắng' },
+    { program: 'Chuyển đổi full-time', value: '60-70%', source: '-' },
+    { program: 'Học bổng Mekong', value: '8-10 suất/năm', source: '20M VND/suất' },
+    { program: 'Chứng chỉ quốc tế/năm', value: '20-30', source: 'Siemens NX, Six Sigma' },
     { program: 'Gi\u1EDD \u0111\u00E0o t\u1EA1o/ng\u01B0\u1EDDi/n\u0103m', value: '60-80h', source: '130 nh\u00E2n s\u1EF1 x 60h = 7.800h/n\u0103m' },
-    { program: 'Ky su CNC 5-axis', value: '100+', source: 'Dao tao trong 10 nam' },
+    { program: 'Kỹ sư CNC 5-axis', value: '100+', source: 'Đào tạo trong 10 năm' },
 ];
 
-export const csrBudget = '~20K USD/nam';
+export const csrBudget = '~20K USD/năm';

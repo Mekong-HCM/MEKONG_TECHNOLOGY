@@ -25,14 +25,14 @@ export const cncSpecs = {
     wireEDM: '\u00B10,005 mm',
     surfaceRoughness: 'Ra \u2264 0,4 \u00B5m',
     materials: ['Aluminum', 'Alloy Steel', 'Stainless Steel', 'Titan', 'Inconel', 'Copper', 'Engineering Plastics'],
-    designCapacity: '~12.000 chi tiet/nam (Y8+)',
-    staff: '~30-50 nguoi',
+    designCapacity: '~12.000 chi tiết/năm (Y8+)',
+    staff: '~30-50 người',
 };
 
 export const shiftStructure = [
-    { phase: 'Y5', shifts: '1-2 ca/ngay (8-16h)', days: '5 ngay/tuan' },
-    { phase: 'Y7+', shifts: '2 ca', days: '5-6 ngay/tuan' },
-    { phase: 'Y10', shifts: '2-3 ca + automation', days: '6 ngay/tuan' },
+    { phase: 'Y5', shifts: '1-2 ca/ngày (8-16h)', days: '5 ngày/tuần' },
+    { phase: 'Y7+', shifts: '2 ca', days: '5-6 ngày/tuần' },
+    { phase: 'Y10', shifts: '2-3 ca + automation', days: '6 ngày/tuần' },
 ];
 
 // Quality Certifications — Source: V3 model
@@ -66,7 +66,7 @@ export const marketGaps = [
 
 export const urgencyKPIs = {
     smeCount: '83.035',
-    fdiImport: '295-455M USD/nam',
+    fdiImport: '295-455M USD/năm',
     cncMarket2024: '1,85 tỷ USD',
     cncMarket2030: '3,865 tỷ USD',
     cncCAGR: '13,1%',
@@ -75,8 +75,8 @@ export const urgencyKPIs = {
 
 // Target industries — Source: V3 P3
 export const targetIndustries = [
-    { name: 'Electronics (FDI)', customers: 'Samsung, Intel, Bosch, Nidec', spend: '120-180M USD/nam' },
-    { name: 'Semiconductor Equipment', customers: 'Applied Materials, LAM', spend: '40-60M USD/nam' },
-    { name: 'Automotive/EV', customers: 'VinFast, Hyundai, Nidec', spend: '80-120M USD/nam' },
-    { name: 'Medical Devices', customers: 'Growing segment', spend: '20-35M USD/nam' },
+    { name: 'Electronics (FDI)', customers: 'Samsung, Intel, Bosch, Nidec', spend: '120-180M USD/năm' },
+    { name: 'Semiconductor Equipment', customers: 'Applied Materials, LAM', spend: '40-60M USD/năm' },
+    { name: 'Automotive/EV', customers: 'VinFast, Hyundai, Nidec', spend: '80-120M USD/năm' },
+    { name: 'Medical Devices', customers: 'Growing segment', spend: '20-35M USD/năm' },
 ];
