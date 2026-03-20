@@ -44,6 +44,42 @@ html {
   transition: opacity 0.4s ease;
 }
 
+/* FHD readability scale — synchronized typography for presentation slides */
+.snap-container > section .text-\[9px\] {
+  font-size: 0.8125rem !important;
+  line-height: 1.2rem !important;
+}
+
+.snap-container > section .text-\[10px\] {
+  font-size: 0.875rem !important;
+  line-height: 1.25rem !important;
+}
+
+.snap-container > section .text-\[11px\] {
+  font-size: 0.9375rem !important;
+  line-height: 1.35rem !important;
+}
+
+.snap-container > section .text-\[12px\] {
+  font-size: 1rem !important;
+  line-height: 1.45rem !important;
+}
+
+.snap-container > section .text-xs {
+  font-size: 0.9375rem !important;
+  line-height: 1.4rem !important;
+}
+
+.snap-container > section .text-sm {
+  font-size: 1rem !important;
+  line-height: 1.5rem !important;
+}
+
+.snap-container > section .text-base {
+  font-size: 1.0625rem !important;
+  line-height: 1.6rem !important;
+}
+
 body {
   font-family: 'Be Vietnam Pro', 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
   background-color: var(--dark-bg);
