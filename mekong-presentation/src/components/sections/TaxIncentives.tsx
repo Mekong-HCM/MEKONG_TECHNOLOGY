@@ -104,8 +104,8 @@ function StrategicTab() {
                 <h4 className="text-lg font-semibold text-white mb-4">Thành phần Giá trị (M USD)</h4>
                 <ResponsiveContainer width="100%" height={280}>
                     <BarChart data={financials.strategicBreakdown} margin={{ left: 0 }}>
-                        <XAxis dataKey="name" tick={{ fill: '#999', fontSize: 9 }} axisLine={false} tickLine={false} angle={-25} textAnchor="end" height={60} />
-                        <YAxis tick={{ fill: '#999', fontSize: 10 }} axisLine={false} tickLine={false} />
+                        <XAxis dataKey="name" tick={{ fill: '#d1d5db', fontSize: 9 }} axisLine={false} tickLine={false} angle={-25} textAnchor="end" height={60} />
+                        <YAxis tick={{ fill: '#d1d5db', fontSize: 10 }} axisLine={false} tickLine={false} />
                         <Tooltip
                             contentStyle={{ background: '#191d44', border: '1px solid rgba(201,154,46,0.3)', borderRadius: '8px', fontSize: '11px', color: '#fff' }}
                             formatter={(v: number) => [`${v}M USD`, '']}

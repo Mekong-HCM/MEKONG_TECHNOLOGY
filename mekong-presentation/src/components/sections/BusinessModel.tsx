@@ -79,8 +79,8 @@ function RevenueTab() {
                 <ResponsiveContainer width="100%" height={300}>
                     <AreaChart data={financials.revenue15Y} margin={{ top: 10, right: 10, left: 0, bottom: 0 }}>
                         <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.05)" />
-                        <XAxis dataKey="year" tick={{ fill: '#999', fontSize: 11 }} axisLine={false} tickLine={false} />
-                        <YAxis tick={{ fill: '#999', fontSize: 11 }} axisLine={false} tickLine={false} />
+                        <XAxis dataKey="year" tick={{ fill: '#d1d5db', fontSize: 11 }} axisLine={false} tickLine={false} />
+                        <YAxis tick={{ fill: '#d1d5db', fontSize: 11 }} axisLine={false} tickLine={false} />
                         <Tooltip
                             contentStyle={{ background: '#191d44', border: '1px solid rgba(201,154,46,0.3)', borderRadius: '8px', fontSize: '11px', color: '#fff' }}
                             formatter={(v: number) => [`${v.toFixed(1)}M USD`, '']}

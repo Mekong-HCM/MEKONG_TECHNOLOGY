@@ -71,7 +71,7 @@ function MarketTab() {
                         <h4 className="text-lg font-semibold text-white mb-4">Thị trường Việt Nam 2028</h4>
                         <ResponsiveContainer width="100%" height={250}>
                             <BarChart data={vnData} layout="vertical" margin={{ left: 10 }}>
-                                <XAxis type="number" tick={{ fill: '#999', fontSize: 11 }} axisLine={false} tickLine={false} unit="B" />
+                                <XAxis type="number" tick={{ fill: '#d1d5db', fontSize: 11 }} axisLine={false} tickLine={false} unit="B" />
                                 <YAxis type="category" dataKey="name" tick={{ fill: '#ccc', fontSize: 12 }} axisLine={false} tickLine={false} width={80} />
                                 <Tooltip
                                     contentStyle={{ background: '#191d44', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '12px', color: '#fff' }}
