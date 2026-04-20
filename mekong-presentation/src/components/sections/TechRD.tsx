@@ -45,7 +45,7 @@ function TechStackTab() {
                     <OptimizedImage {...images['cloud-erp']} placeholderLabel="Nền tảng ERP Đám mây" placeholderColor="#76FF03" className="w-full h-full object-cover min-h-[200px]" aspectRatio="4/5" />
                 </GlassCard>
                 <GlassCard className="p-3 text-center">
-                    <div className="text-xs font-bold text-neon-cyan mb-1">MekongOS Platform</div>
+                    <div className="text-xs font-bold text-neon-cyan mb-1">KinexusOS Platform</div>
                     <div className="text-[10px] text-gray-400">Cloud-connected · OPC-UA · MQTT · ROS2</div>
                 </GlassCard>
             </div>

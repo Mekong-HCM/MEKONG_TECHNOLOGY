@@ -12,23 +12,23 @@ export const monteCarlo = {
 };
 
 export const monteCarloTable = [
-    { metric: 'NPV 50Y (M USD)', p10: '(1,00)', p25: '0,30', p50: '1,50', p75: '3,50', p90: '5,50' },
+    { metric: 'NPV 50Y (M USD)', p10: '2,00', p25: '6,50', p50: '10,50', p75: '14,50', p90: '18,00' },
     { metric: 'IRR 50Y (%)', p10: '10,0%', p25: '11,5%', p50: '13,0%', p75: '15,0%', p90: '16,5%' },
 ];
 
 export const scenarioAnalysis = [
-    { scenario: 'L\u1EA1c quan', prob: '25%', revenue15Y: '180+', npv50Y: '5,0+', irr50Y: '16,0%+', color: '#22c55e' },
-    { scenario: 'C\u01A1 s\u1EDF', prob: '55%', revenue15Y: '~140', npv50Y: '1,50', irr50Y: '13,0%', color: '#3b82f6' },
-    { scenario: 'Th\u1EADn tr\u1ECDng', prob: '20%', revenue15Y: '90-110', npv50Y: '(1)-(2)', irr50Y: '10-11%', color: '#f59e0b' },
+    { scenario: 'L\u1EA1c quan', prob: '25%', revenue15Y: '180+', npv50Y: '18,0+', irr50Y: '16,0%+', color: '#22c55e' },
+    { scenario: 'C\u01A1 s\u1EDF', prob: '50%', revenue15Y: '~130', npv50Y: '10,50', irr50Y: '13,0%', color: '#3b82f6' },
+    { scenario: 'Th\u1EADn tr\u1ECDng', prob: '25%', revenue15Y: '~100', npv50Y: '(1,00)', irr50Y: '10,5%', color: '#f59e0b' },
 ];
 
-export const weightedScenario = { revenue15Y: '~130', npv50Y: '~2,0', irr50Y: '~13,0%' };
+export const weightedScenario = { revenue15Y: '~130', npv50Y: '~10,5', irr50Y: '~13,0%' };
 
 // Top 10 Risks — Source: V3 P6
 export const topRisks = [
     { id: 'R-A1', risk: 'CNC demand thấp hơn dự báo', prob: 4, impact: 5, score: 20, mitigation: 'Đa dạng KH (không >20%), đa ngành' },
     { id: 'R-B1', risk: 'CNC lắp đặt chậm >6 tháng', prob: 4, impact: 5, score: 20, mitigation: 'PO sớm Q4/2025, đặt cọc 30%, buffer 3 tháng' },
-    { id: 'R-A4', risk: 'IoT cạnh tranh giá từ TQ', prob: 4, impact: 3, score: 12, mitigation: 'MekongOS tích hợp, dịch vụ địa phương' },
+    { id: 'R-A4', risk: 'IoT cạnh tranh giá từ TQ', prob: 4, impact: 3, score: 12, mitigation: 'KinexusOS tích hợp, dịch vụ địa phương' },
     { id: 'R-A2', risk: 'Giá CNC outsource giảm', prob: 3, impact: 4, score: 12, mitigation: 'Nâng cấp ISO, đa dạng sản phẩm' },
     { id: 'R-B2', risk: 'CNC chất lượng miss (Yield<80%)', prob: 3, impact: 4, score: 12, mitigation: 'Tuyển 2 CNC expert JP/DE, NPI nghiêm ngặt' },
     { id: 'R-B10', risk: 'Thiếu nguồn cấp nước', prob: 3, impact: 4, score: 12, mitigation: 'ZLD reuse, dự trữ 3 ngày' },
@@ -80,7 +80,7 @@ export const socioKPIs = {
 export const trainingPrograms = [
     { program: 'Thực tập sinh/năm', value: '15-20 SV', source: 'HCMUT, HUTECH, Cao Thắng' },
     { program: 'Chuyển đổi full-time', value: '60-70%', source: '-' },
-    { program: 'Học bổng Mekong', value: '8-10 suất/năm', source: '20M VND/suất' },
+    { program: 'Học bổng KINEXUS', value: '8-10 suất/năm', source: '20M VND/suất' },
     { program: 'Chứng chỉ quốc tế/năm', value: '20-30', source: 'Siemens NX, Six Sigma' },
     { program: 'Gi\u1EDD \u0111\u00E0o t\u1EA1o/ng\u01B0\u1EDDi/n\u0103m', value: '60-80h', source: '130 nh\u00E2n s\u1EF1 x 60h = 7.800h/n\u0103m' },
     { program: 'Kỹ sư CNC 5-axis', value: '100+', source: 'Đào tạo trong 10 năm' },

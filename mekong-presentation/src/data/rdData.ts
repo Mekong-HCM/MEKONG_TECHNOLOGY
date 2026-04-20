@@ -41,7 +41,7 @@ export const rdLabs: RDLab[] = [
     { name: 'IoT Hardware Lab', area: '120 m\u00B2', budget: '200K USD', team: 4, focus: ['PCB prototyping', 'EMC testing', 'Firmware dev'], color: '#00E5FF' },
     { name: 'AI & Robotics Lab', area: '150 m\u00B2', budget: '280K USD', team: 6, focus: ['SLAM', 'Computer Vision', 'ROS2', 'Deep RL'], color: '#E040FB' },
     { name: 'CNC Materials Lab', area: '80 m\u00B2', budget: '150K USD', team: 3, focus: ['Metallography', 'Material testing', 'Process R&D'], color: '#FF6D00' },
-    { name: 'Cloud & Cybersecurity Lab', area: '50 m\u00B2', budget: '100K USD', team: 4, focus: ['MekongOS dev', 'PenTest', 'ISO 27001 audit'], color: '#76FF03' },
+    { name: 'Cloud & Cybersecurity Lab', area: '50 m\u00B2', budget: '100K USD', team: 4, focus: ['KinexusOS dev', 'PenTest', 'ISO 27001 audit'], color: '#76FF03' },
 ];
 
 export const rdTeam = {
@@ -70,25 +70,25 @@ export const trlRoadmap: TRLPhase[] = [
     {
         phase: 'Foundation',
         timeline: 'Y1-2 (2025-2026)',
-        milestones: ['IoT Gateway MK-200 (TRL 9)', 'CNC ISO 9001', 'MekongOS v1.0'],
+        milestones: ['IoT Gateway KX-200 (TRL 9)', 'CNC ISO 9001', 'KinexusOS v1.0'],
         color: '#00E5FF',
     },
     {
         phase: 'Growth',
         timeline: 'Y3-4 (2027-2028)',
-        milestones: ['AMR-500/AGV-500 (TRL 9)', 'MK-300 AI Edge (TRL 7)', 'MekongOS v2.0 (AI)'],
+        milestones: ['AMR-500/AGV-500 (TRL 9)', 'KX-300 AI Edge (TRL 7)', 'KinexusOS v2.0 (AI)'],
         color: '#E040FB',
     },
     {
         phase: 'Maturity',
         timeline: 'Y5-7 (2029-2031)',
-        milestones: ['AMR-1000 (TRL 9)', 'OHT-100 (TRL 8)', 'AS9100 (n\u1EBFu c\u00F3 nhu c\u1EA7u)', 'MekongOS v3.0 (Digital Twin)'],
+        milestones: ['AMR-1000 (TRL 9)', 'OHT-100 (TRL 8)', 'AS9100 (n\u1EBFu c\u00F3 nhu c\u1EA7u)', 'KinexusOS v3.0 (Digital Twin)'],
         color: '#76FF03',
     },
     {
         phase: 'Leadership',
         timeline: 'Y8-10 (2032-2035)',
-        milestones: ['Autonomous Factory Demo', 'CNC Additive-Subtractive Hybrid', 'MekongOS v4.0 (Industry 5.0)'],
+        milestones: ['Autonomous Factory Demo', 'CNC Additive-Subtractive Hybrid', 'KinexusOS v4.0 (Industry 5.0)'],
         color: '#FFD600',
     },
 ];

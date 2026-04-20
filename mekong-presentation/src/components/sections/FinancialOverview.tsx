@@ -36,8 +36,8 @@ function RevenueTab() {
                         formatter={(v: number) => [`${v}M USD`]}
                     />
                     <Legend iconType="circle" wrapperStyle={{ fontSize: '12px', paddingTop: '10px', color: '#fff' }} />
-                    <Area type="monotone" dataKey="iot" name="BU1 Điện tử thông minh" stackId="1" stroke="#00E5FF" fill="url(#colorIot)" strokeWidth={2} />
-                    <Area type="monotone" dataKey="cnc" name="BU2 CNC/MPMC" stackId="1" stroke="#E040FB" fill="url(#colorCnc)" strokeWidth={2} />
+                    <Area type="monotone" dataKey="nganh1" name="Ngành 1 Điện tử thông minh" stackId="1" stroke="#00E5FF" fill="url(#colorIot)" strokeWidth={2} />
+                    <Area type="monotone" dataKey="nganh2" name="Ngành 2 CNC/MPMC" stackId="1" stroke="#E040FB" fill="url(#colorCnc)" strokeWidth={2} />
                 </AreaChart>
             </ResponsiveContainer>
         </GlassCard>
@@ -111,7 +111,7 @@ function KPITab() {
                 {[
                     { label: 'CAPEX Tổng', value: '22,00M', color: '#FF9100' },
                     { label: 'Hòa vốn', value: '~Y10', color: '#76FF03' },
-                    { label: 'DSCR Min', value: '1,50x', color: '#00E5FF' },
+                    { label: 'DSCR Min', value: '1,36x', color: '#00E5FF' },
                     { label: 'Monte Carlo P(NPV>0)', value: '68%', color: '#E040FB' },
                     { label: 'DT Lũy kế 15Y', value: '~140M', color: '#00E5FF' },
                     { label: 'IRR 50Y', value: '13,0%', color: '#FF9100' },
@@ -126,8 +126,8 @@ function KPITab() {
                 <h4 className="text-sm font-semibold text-white mb-3">Hòa vốn theo Trụ cột (Lãi/Lỗ Lũy kế)</h4>
                 <div className="grid sm:grid-cols-2 gap-4">
                     {[
-                        { bu: 'BU1 Điện tử thông minh', breakeven: 'Y7', capex: '~9,40M', peakLoss: '-3,5M', color: '#00E5FF' },
-                        { bu: 'BU2 CNC/MPMC', breakeven: 'Y8-Y9', capex: '~5,50M', peakLoss: '-2,5M', color: '#E040FB' },
+                        { bu: 'Ngành 1 Điện tử thông minh', breakeven: 'Y7', capex: '~9,40M', peakLoss: '-3,5M', color: '#00E5FF' },
+                        { bu: 'Ngành 2 CNC/MPMC', breakeven: 'Y8-Y9', capex: '~5,50M', peakLoss: '-2,5M', color: '#E040FB' },
                     ].map((item, i) => (
                         <div key={i} className="relative p-3 rounded-xl bg-white/[0.03] border border-white/5 overflow-hidden">
                             <div className="absolute top-0 left-0 w-1 h-full" style={{ background: item.color }} />
@@ -152,8 +152,8 @@ function CapexTab() {
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
                     { label: 'Tổng CAPEX', value: '22,00M USD', color: '#FF9100' },
-                    { label: 'Vốn CSH (81,8%)', value: '18,00M USD', color: '#00E5FF' },
-                    { label: 'Vốn vay (18,2%)', value: '4,00M USD', color: '#E040FB' },
+                    { label: 'VCSH (21,95%)', value: '4,50M USD', color: '#00E5FF' },
+                    { label: 'Vay PF (74,15%)', value: '15,20M USD', color: '#E040FB' },
                     { label: 'Giải ngân', value: '4 giai đoạn', color: '#76FF03' },
                 ].map((kpi, i) => (
                     <GlassCard key={i} className="p-3 text-center">

@@ -143,31 +143,31 @@ function ROITab() {
             <div className="corporate-card p-5 overflow-x-auto">
                 <h4 className="text-sm font-bold text-white mb-4 flex items-center gap-2">
                     <BarChart3 size={16} className="text-corporate-gold" />
-                    So sánh ROI: Mekong vs Đối chuẩn
+                    So sánh ROI: KINEXUS vs Đối chuẩn
                 </h4>
                 <table className="w-full text-xs">
                     <thead>
                         <tr className="border-b border-corporate-slate/20">
                             <th className="text-left py-2 text-gray-400">Chỉ tiêu</th>
-                            <th className="text-right py-2 data-highlight font-bold">Mekong</th>
+                            <th className="text-right py-2 data-highlight font-bold">KINEXUS</th>
                             <th className="text-right py-2 text-gray-400">KCNC trung bình</th>
                             <th className="text-right py-2 text-gray-400">KCN ngoài</th>
                         </tr>
                     </thead>
                     <tbody>
                         {[
-                            { metric: 'IRR 50Y', mekong: '13,0%', kcnc: '10-12%', kcn: '8-10%' },
-                            { metric: 'NPV 50Y', mekong: '1,50M USD', kcnc: '0,5-1,0M', kcn: '<0,5M' },
-                            { metric: 'Payback', mekong: '~10Y', kcnc: '10-15Y', kcn: '12-18Y' },
-                            { metric: 'DSCR', mekong: '≥1,50x', kcnc: '1,2-1,4x', kcn: '1,0-1,2x' },
-                            { metric: 'Revenue/CAPEX 15Y', mekong: '6,4x', kcnc: '3-5x', kcn: '2-4x' },
-                            { metric: 'Tax Savings 15Y', mekong: '~5,2M USD', kcnc: '~3-4M', kcn: '0' },
-                            { metric: 'Strategic Value', mekong: '~7,0M USD', kcnc: '~3-5M', kcn: '~1-2M' },
-                            { metric: 'R&D/Revenue', mekong: '8-12%', kcnc: '3-5%', kcn: '<2%' },
+                            { metric: 'IRR 50Y', kinexus: '13,0%', kcnc: '10-12%', kcn: '8-10%' },
+                            { metric: 'NPV 50Y', kinexus: '1,50M USD', kcnc: '0,5-1,0M', kcn: '<0,5M' },
+                            { metric: 'Payback', kinexus: '~10Y', kcnc: '10-15Y', kcn: '12-18Y' },
+                            { metric: 'DSCR', kinexus: '≥1,50x', kcnc: '1,2-1,4x', kcn: '1,0-1,2x' },
+                            { metric: 'Revenue/CAPEX 15Y', kinexus: '6,4x', kcnc: '3-5x', kcn: '2-4x' },
+                            { metric: 'Tax Savings 15Y', kinexus: '~5,2M USD', kcnc: '~3-4M', kcn: '0' },
+                            { metric: 'Strategic Value', kinexus: '~7,0M USD', kcnc: '~3-5M', kcn: '~1-2M' },
+                            { metric: 'R&D/Revenue', kinexus: '8-12%', kcnc: '3-5%', kcn: '<2%' },
                         ].map((row, i) => (
                             <tr key={i} className="border-b border-white/5">
                                 <td className="py-2 text-gray-300">{row.metric}</td>
-                                <td className="text-right py-2 data-highlight font-bold">{row.mekong}</td>
+                                <td className="text-right py-2 data-highlight font-bold">{row.kinexus}</td>
                                 <td className="text-right py-2 text-gray-400">{row.kcnc}</td>
                                 <td className="text-right py-2 text-gray-500">{row.kcn}</td>
                             </tr>

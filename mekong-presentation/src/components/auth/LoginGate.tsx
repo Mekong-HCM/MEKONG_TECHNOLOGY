@@ -1,7 +1,7 @@
 import { useState, useEffect, type ReactNode, type FormEvent } from 'react';
 
-const ACCESS_KEY = 'mekong_auth';
-const PASSCODE = 'mekong2026';
+const ACCESS_KEY = 'kinexus_auth';
+const PASSCODE = 'kinexus2026';
 
 export function LoginGate({ children }: { children: ReactNode }) {
     const [authenticated, setAuthenticated] = useState(false);
@@ -50,7 +50,7 @@ export function LoginGate({ children }: { children: ReactNode }) {
                         </svg>
                     </div>
 
-                    <h1 className="text-2xl font-bold text-white mb-2">Mekong Technology Hub</h1>
+                    <h1 className="text-2xl font-bold text-white mb-2">KINEXUS Technology Hub</h1>
                     <p className="text-sm text-gray-400 mb-8">Nhập mật khẩu để xem bài trình bày</p>
 
                     <form onSubmit={handleSubmit}>

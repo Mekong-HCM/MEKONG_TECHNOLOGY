@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Shield, Lock, Swords, Globe, TrendingUp, Target, FileCheck } from 'lucide-react';
 import { useInView, useCountUp } from '../../hooks/useInView';
 import { market } from '../../data/market';
-import { competitors, mekongAdvantages, moatLayers, moatSummary, exportRings, exportKPIs } from '../../data/competitive';
+import { competitors, kinexusAdvantages, moatLayers, moatSummary, exportRings, exportKPIs } from '../../data/competitive';
 import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Tooltip, Cell } from 'recharts';
 import { TabSlide, type TabConfig } from '../ui/TabSlide';
 import { GlassCard } from '../ui/GlassCard';
@@ -120,7 +120,7 @@ function MarketTab() {
                 <div className="flex items-start justify-between mb-4 gap-3">
                     <div>
                         <h4 className="text-lg font-semibold text-white mb-1">Định vị Cạnh tranh — Độ phức tạp vs. Quy mô</h4>
-                        <p className="text-xs text-gray-400">Mekong chiếm vị trí &quot;High Complexity, Niche Volume&quot; — ít cạnh tranh trực tiếp</p>
+                        <p className="text-xs text-gray-400">KINEXUS chiếm vị trí &quot;High Complexity, Niche Volume&quot; — ít cạnh tranh trực tiếp</p>
                     </div>
                     <div className="flex-shrink-0 rounded-lg px-3 py-1.5" style={{ background: 'rgba(0,229,255,0.12)', border: '1px solid rgba(0,229,255,0.35)' }}>
                         <span className="text-[10px] font-bold tracking-widest" style={{ color: '#00E5FF' }}>SWEET SPOT</span>
@@ -129,7 +129,7 @@ function MarketTab() {
                 <div className="relative">
                     <svg viewBox="0 0 720 360" className="w-full" role="img" aria-label="Biểu đồ định vị cạnh tranh">
                         <defs>
-                            <radialGradient id="cpMekongHalo" cx="50%" cy="50%" r="50%">
+                            <radialGradient id="cpKinexusHalo" cx="50%" cy="50%" r="50%">
                                 <stop offset="0%" stopColor="#00E5FF" stopOpacity="0.35" />
                                 <stop offset="100%" stopColor="#00E5FF" stopOpacity="0" />
                             </radialGradient>
@@ -186,13 +186,13 @@ function MarketTab() {
                                 <text x={dot.svgX + (i < 2 ? -20 : 20)} y={dot.svgY - 15} textAnchor={i < 2 ? 'end' : 'start'} fill={dot.color} fontSize={10} fontWeight="700">{dot.name}</text>
                             </g>
                         ))}
-                        <circle cx={316} cy={44} r={48} fill="url(#cpMekongHalo)" />
+                        <circle cx={316} cy={44} r={48} fill="url(#cpKinexusHalo)" />
                         <g className="cursor-pointer"
-                            onMouseEnter={() => setHovered({ name: 'Mekong Tech', complexity: 9, volume: 4, color: '#00E5FF', desc: 'Gia công 5 trục, IoT & Datacenter — độ phức tạp cao nhất VN', tag: 'Sweet Spot', svgX: 316, svgY: 44 })}
+                            onMouseEnter={() => setHovered({ name: 'KINEXUS', complexity: 9, volume: 4, color: '#00E5FF', desc: 'Gia công 5 trục, IoT & Datacenter — độ phức tạp cao nhất VN', tag: 'Sweet Spot', svgX: 316, svgY: 44 })}
                             onMouseLeave={() => setHovered(null)}>
                             <circle cx={316} cy={44} r={15} fill="#00E5FF" filter="url(#cpGlowCyan)" />
                         </g>
-                        <text x={337} y={32} textAnchor="start" fill="#00E5FF" fontSize={15} fontWeight="800">Mekong Tech</text>
+                        <text x={337} y={32} textAnchor="start" fill="#00E5FF" fontSize={15} fontWeight="800">KINEXUS</text>
                         <text x={337} y={50} textAnchor="start" fill="#00E5FF" fontSize={10} opacity={0.7}>Ph&#x1EE9;c t&#x1EA1;p cao &middot; Niche Volume</text>
                     </svg>
                     <AnimatePresence>
@@ -268,14 +268,14 @@ function MoatTab() {
             </motion.div>
 
             <div className="grid md:grid-cols-2 gap-4">
-                {/* Mekong advantages */}
+                {/* KINEXUS advantages */}
                 <motion.div initial={{ opacity: 0, x: -20 }} animate={isInView ? { opacity: 1, x: 0 } : {}} transition={{ delay: 0.2, duration: 0.5 }}>
                     <GlassCard className="p-5 h-full">
                         <h4 className="text-sm font-bold text-white mb-3 flex items-center gap-2">
-                            <Shield size={16} className="text-neon-cyan" /> Lợi thế Mekong
+                            <Shield size={16} className="text-neon-cyan" /> Lợi thế KINEXUS
                         </h4>
                         <div className="space-y-3">
-                            {mekongAdvantages.map((adv, i) => (
+                            {kinexusAdvantages.map((adv, i) => (
                                 <div key={i} className="flex items-center gap-3">
                                     <div className="text-right w-24">
                                         <div className="text-sm font-bold text-neon-cyan">{adv.value}</div>

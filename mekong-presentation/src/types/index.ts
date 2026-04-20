@@ -1,8 +1,17 @@
 // ============================================================
-// TypeScript Interfaces — Mekong Technology Hub Presentation V3
+// TypeScript Interfaces — KINEXUS Technology Hub Presentation V3
 // ============================================================
 
 // --- Financial Types ---
+
+export interface Tranche {
+    name: string;
+    amount: number;
+    pct: number;
+    rate: number;
+    grace: string;
+    repay: string;
+}
 
 export interface CapexStructure {
     total: number;
@@ -10,6 +19,10 @@ export interface CapexStructure {
     debt: number;
     equityPct: number;
     debtPct: number;
+    tranches: Tranche[];
+    grantNATIF: number;
+    wacc: number;
+    deRatio: number;
 }
 
 export interface InvestmentPhase {
@@ -22,8 +35,8 @@ export interface InvestmentPhase {
 
 export interface RevenueYear {
     year: string;
-    iot: number;
-    cnc: number;
+    nganh1: number;
+    nganh2: number;
     total: number;
 }
 
@@ -39,10 +52,12 @@ export interface FinancialKPIs {
     npv20: number;
     irr50: number;
     irr20: number;
+    irrEquity: string;
     paybackSimple: string;
-    paybackDiscounted: number;
+    paybackDiscounted: string;
     ebitdaSteady: string;
     dscrMin: number;
+    dscrMinYear: string;
     revenueY10: number;
     revenueY15: number;
     revenue10YCumulative: number;
@@ -86,6 +101,13 @@ export interface LongTermVision {
     ev: string;
 }
 
+export interface DSCRYear {
+    year: string;
+    ebitda: number;
+    totalDS: number;
+    dscr: number;
+}
+
 export interface FinancialsData {
     capex: CapexStructure;
     phases: InvestmentPhase[];
@@ -96,6 +118,7 @@ export interface FinancialsData {
     sensitivity: SensitivityRow[];
     strategicBreakdown: StrategicComponent[];
     capexByBlock: CapexBlock[];
+    dscrTimeline: DSCRYear[];
     investorCommitments: string[];
     longTermVision: LongTermVision[];
 }
@@ -199,7 +222,7 @@ export interface MarketData {
     global: GlobalMarketSegment[];
     vietnam: VietnamMarketSegment[];
     positioning: {
-        mekong: PositionPoint;
+        kinexus: PositionPoint;
         competitors: PositionPoint[];
     };
     swot: SWOTAnalysis;
@@ -353,11 +376,11 @@ export interface ContactData {
 
 // --- Business Model Types ---
 
-export type BusinessUnit = 'BU1' | 'BU2';
+export type Nganh = 'nganh1' | 'nganh2';
 
 export interface RevenueStream {
     name: string;
-    bu: BusinessUnit;
+    nganh: Nganh;
     revenueEstimate: string;
     marginRange: string;
     startYear: string;
@@ -387,7 +410,7 @@ export interface TaxIncentive {
 
 export interface ROIComparison {
     metric: string;
-    mekong: string;
+    kinexus: string;
     industry: string;
     advantage: string;
 }

@@ -1,15 +1,14 @@
-// CNC Production Capacity — Source: DE_AN_MEKONG_V3 (22M model)
+// CNC Production Capacity — Source: MAU_1.4_HOAN_TAT.md (canonical)
 export const cncMachines = [
-    { model: 'DMG MORI CMX 70 U', origin: 'JP/DE', type: '5-axis VMC', qty: 2, price: 350 },
-    { model: 'Mazak VARIAXIS i-600', origin: 'JP', type: '5-axis VMC', qty: 2, price: 320 },
-    { model: 'DMG MORI NLX 2500', origin: 'JP/DE', type: '5-axis Turn-Mill', qty: 1, price: 280 },
-    { model: 'Haas VF-3SS', origin: 'US', type: '3-axis VMC', qty: 2, price: 120 },
-    { model: 'Mazak VCN-530C', origin: 'JP', type: '3-axis VMC', qty: 1, price: 180 },
-    { model: 'Sodick ALC400G', origin: 'JP', type: 'Wire EDM', qty: 1, price: 120 },
-    { model: 'Studer S33', origin: 'CH', type: 'CNC Grinder', qty: 1, price: 160 },
+    { model: 'DMG MORI DMU 65 monoBLOCK', origin: 'Đức/Nhật', type: '5-axis VMC', qty: 2, price: 800 },
+    { model: 'Doosan DVF 5000', origin: 'Hàn Quốc', type: '5-axis VMC', qty: 3, price: 900 },
+    { model: 'Doosan DNM 6700 / Haas VF-3', origin: 'Hàn Quốc/Mỹ', type: '3-axis VMC', qty: 3, price: 750 },
+    { model: 'Sodick ALC600G / Mitsubishi MV1200R', origin: 'Nhật Bản', type: 'Wire EDM', qty: 1, price: 300 },
+    { model: 'Okamoto ACC-63DX / Chevalier FSG-1640ADIII', origin: 'Nhật/Đài Loan', type: 'CNC Grinder', qty: 1, price: 150 },
+    { model: 'Schunk / Erowa (dụng cụ, đồ gá)', origin: 'Đa quốc gia', type: 'Tooling & Fixtures', qty: 1, price: 300 },
 ];
 export const totalMachines = 10;
-export const totalMachineCost = '~2,05M USD';
+export const totalMachineCost = '3.500K USD (10 máy + 1 bộ gá + phần mềm CAM)';
 
 export const cncCapacity = [
     { year: 'Y5', machines: 10, utilization: '40%', machineHrs: '14.016', revenue: '1.000K' },
@@ -50,8 +49,8 @@ export const techStackLayers = [
     { layer: 'Hardware', items: ['NXP i.MX8M Quad A53 (Gateway)', 'STM32F407 Cortex-M4 (I/O)', 'NVIDIA Jetson Orin (AI Edge)', 'LiDAR 3D 360\u00B0 (Robot)'] },
     { layer: 'Protocols', items: ['MQTT', 'OPC UA', 'Modbus RTU/TCP', 'BACnet IP/SC', 'EtherCAT', 'PROFINET', 'KNX/IP', 'DALI-2'] },
     { layer: 'Robot/AI', items: ['AI SLAM + LiDAR 3D 360\u00B0', 'Deep Reinforcement Learning', 'TensorFlow Lite / PyTorch', 'ROS2 Compatible'] },
-    { layer: 'Platform', items: ['MekongOS IoT Cloud', 'Kafka + Flink (Stream)', 'EMQX MQTT Broker', 'MinIO S3 Data Lake'] },
-    { layer: 'Applications', items: ['MekongBMS (5 lớp)', 'MekongSCADA', 'MekongET Config Tool', 'Node-RED Rule Engine'] },
+    { layer: 'Platform', items: ['KinexusOS IoT Cloud', 'Kafka + Flink (Stream)', 'EMQX MQTT Broker', 'MinIO S3 Data Lake'] },
+    { layer: 'Applications', items: ['KinexusBMS (5 lớp)', 'KinexusSCADA', 'KinexusET Config Tool', 'Node-RED Rule Engine'] },
 ];
 
 // Market Gap — Source: V3 model (no DC commercial gap)
@@ -70,7 +69,7 @@ export const urgencyKPIs = {
     cncMarket2024: '1,85 tỷ USD',
     cncMarket2030: '3,865 tỷ USD',
     cncCAGR: '13,1%',
-    mekongTarget: '2-5% thị phần = 3-10M USD/năm',
+    kinexusTarget: '2-5% thị phần = 3-10M USD/năm',
 };
 
 // Target industries — Source: V3 P3

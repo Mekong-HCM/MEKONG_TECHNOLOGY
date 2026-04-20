@@ -101,7 +101,7 @@ function KCNCCriteriaTab() {
             color: '#76FF03',
             items: [
                 { label: 'Vốn đầu tư ≥ ngưỡng tối thiểu KCNC', met: true, note: '22,00M USD >> ngưỡng' },
-                { label: 'Chứng minh năng lực tài chính vốn tự có', met: true, note: 'CSH 18,00M USD (81,8%)' },
+                { label: 'Chứng minh năng lực tài chính vốn tự có', met: true, note: 'VCSH 4,50M USD + vay 15,20M USD (3 Tranche)' },
                 { label: 'Không sử dụng vốn ODA hoặc ngân sách nhà nước', met: true },
                 { label: 'Cam kết tiến độ triển khai và giải ngân theo giai đoạn', met: true, note: '4 giai đoạn P0-P3' },
             ],

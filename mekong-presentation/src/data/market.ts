@@ -12,7 +12,7 @@ export const market: MarketData = {
         { segment: 'Robot VN', value: 0.8, unit: 'B USD (2028)', growth: '20%/n\u0103m' },
     ],
     positioning: {
-        mekong: { complexity: 9, volume: 4, label: 'Mekong Tech' },
+        kinexus: { complexity: 9, volume: 4, label: 'KINEXUS Tech' },
         competitors: [
             { complexity: 3, volume: 9, label: 'Foxconn' },
             { complexity: 4, volume: 8, label: 'Samsung VN' },
@@ -23,10 +23,10 @@ export const market: MarketData = {
     },
     swot: {
         strengths: [
-            '2 B.U. c\u1ED9ng h\u01B0\u1EDFng (IoT+CNC) \u2014 duy nh\u1EA5t t\u1EA1i KCNC',
-            'T\u1EF1 ch\u1EE7 v\u1ED1n 81,8% \u2014 kh\u00F4ng ph\u1EE5 thu\u1ED9c ODA',
+            '2 tr\u1EE5 c\u1ED9t c\u1ED9ng h\u01B0\u1EDFng (\u0110i\u1EC7n t\u1EED th\u00F4ng minh + CNC/MPMC) \u2014 duy nh\u1EA5t t\u1EA1i KCNC',
+            'VCSH 4,5M + Project Finance Tranche \u2014 WACC 7,9%',
             '\u0110\u1ED9i ng\u0169 CNC g\u1ED1c Nh\u1EADt/\u0110\u1EE9c',
-            'N\u1EC1n t\u1EA3ng MekongOS \u0111\u00E3 l\u00E0m t\u1EEB 2023',
+            'N\u1EC1n t\u1EA3ng KinexusOS \u0111\u00E3 l\u00E0m t\u1EEB 2023',
             'V\u1ECB tr\u00ED KCNC TP.HCM \u2014 h\u1EC7 sinh th\u00E1i R&D',
         ],
         weaknesses: [

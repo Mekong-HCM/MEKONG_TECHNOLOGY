@@ -8,7 +8,7 @@ export interface ImageAsset {
     id: string;
     src: string;
     alt: string;
-    category: 'cnc' | 'iot' | 'dc' | 'location' | 'brand' | 'esg';
+    category: 'cnc' | 'iot' | 'dc' | 'location' | 'brand' | 'esg' | 'products' | 'robot' | 'dashboard' | 'factory';
     color: string;
     width: number;
     height: number;
@@ -49,4 +49,27 @@ export const images: Record<string, ImageAsset> = {
     'erp-smart': { id: 'erp-smart', src: `${b}/images/0d06aec40641c42de3956950c7ca2eb2.jpg`, alt: 'Hệ thống ERP quản lý sản xuất thông minh — nhà kho tự động hóa', category: 'iot', color: '#00E5FF', width: 1200, height: 600 },
     'cloud-erp': { id: 'cloud-erp', src: `${b}/images/655f69bf8888621c99a3ca81dc81fa23.jpg`, alt: 'Nền tảng ERP đám mây — hệ sinh thái phần mềm kết nối', category: 'dc', color: '#76FF03', width: 1200, height: 700 },
     'premium-factory': { id: 'premium-factory', src: `${b}/images/premium_photo-1661882369766-ff5d3440771c.avif`, alt: 'Khu công nghệ cao — nhà máy sản xuất điện tử hiện đại', category: 'iot', color: '#FF9100', width: 1200, height: 800 },
+
+    // Product renders — from DE_AN_MEKONG_V3/HINH ANH
+    'kx200-gateway': { id: 'kx200-gateway', src: `${b}/images/products/kx200-gateway.png`, alt: 'KX-200 Industrial IoT Gateway — render chính diện', category: 'products', color: '#00E5FF', width: 800, height: 600 },
+    'kx300-gateway': { id: 'kx300-gateway', src: `${b}/images/products/kx300-gateway.png`, alt: 'KX-300 Edge AI Gateway — render chính diện', category: 'products', color: '#00E5FF', width: 800, height: 600 },
+    'ddc-family': { id: 'ddc-family', src: `${b}/images/products/ddc-family.png`, alt: 'DDC Controller Family — KX-DDC-24, KX-DDC-32', category: 'products', color: '#00BCD4', width: 800, height: 600 },
+    'kx-eio-module': { id: 'kx-eio-module', src: `${b}/images/products/kx-eio-module.png`, alt: 'KX-EIO Module I/O — DI16 điều khiển công nghiệp', category: 'products', color: '#00BCD4', width: 800, height: 600 },
+
+    // Robot AMR
+    'amr-500-render': { id: 'amr-500-render', src: `${b}/images/robot/amr-500-render.png`, alt: 'Robot AMR-500 tự hành — render chính diện 500kg payload', category: 'robot', color: '#E040FB', width: 800, height: 600 },
+    'smart-warehouse-amr': { id: 'smart-warehouse-amr', src: `${b}/images/robot/smart-warehouse-amr.png`, alt: 'Nhà kho thông minh sử dụng Robot AMR/AGV', category: 'robot', color: '#E040FB', width: 1200, height: 800 },
+
+    // Dashboard / BMS
+    'kinexusbms-dashboard': { id: 'kinexusbms-dashboard', src: `${b}/images/dashboard/kinexusbms-dashboard.png`, alt: 'KinexusBMS Dashboard — giám sát năng lượng BMS', category: 'dashboard', color: '#FFD600', width: 1200, height: 800 },
+    'kinexusbms-hero': { id: 'kinexusbms-hero', src: `${b}/images/dashboard/kinexusbms-hero.png`, alt: 'KinexusBMS Hero — giao diện quản lý tòa nhà thông minh', category: 'dashboard', color: '#FFD600', width: 1200, height: 800 },
+
+    // Factory
+    'factory-overview': { id: 'factory-overview', src: `${b}/images/factory/factory-overview-render.png`, alt: 'Phối cảnh tổng thể nhà máy KINEXUS Technologies tại KCNC', category: 'factory', color: '#00E5FF', width: 1200, height: 800 },
+
+    // IoT System
+    'iot-system-diagram': { id: 'iot-system-diagram', src: `${b}/images/iot/iot-system-diagram.png`, alt: 'Sơ đồ kết nối IoT từ thiết bị đến đám mây', category: 'iot', color: '#00E5FF', width: 800, height: 600 },
+
+    // Brand / Logo
+    'kinexus-logo': { id: 'kinexus-logo', src: `${b}/images/brand/kinexus-logo.png`, alt: 'KINEXUS Technologies — logo ngang nền đen', category: 'brand', color: '#FFFFFF', width: 400, height: 100 },
 };

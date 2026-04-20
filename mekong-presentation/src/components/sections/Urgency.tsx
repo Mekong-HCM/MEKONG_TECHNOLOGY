@@ -21,7 +21,7 @@ function GlobalTab() {
                     { icon: Cpu, label: 'CNC VN 2024', value: urgencyKPIs.cncMarket2024, color: 'text-green-400' },
                     { icon: TrendingUp, label: 'CNC VN 2030', value: urgencyKPIs.cncMarket2030, color: 'text-yellow-400' },
                     { icon: TrendingUp, label: 'CAGR', value: urgencyKPIs.cncCAGR, color: 'text-blue-400' },
-                    { icon: Factory, label: 'Mekong target', value: urgencyKPIs.mekongTarget, color: 'text-purple-400' },
+                    { icon: Factory, label: 'KINEXUS target', value: urgencyKPIs.kinexusTarget, color: 'text-purple-400' },
                 ].map((kpi, i) => (
                     <GlassCard key={i} className="p-3 text-center">
                         <kpi.icon size={16} className={`mx-auto mb-1 ${kpi.color}`} />

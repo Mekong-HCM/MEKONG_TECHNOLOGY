@@ -34,7 +34,7 @@ export const gatewaySpecs: GatewaySpec[] = [
     { label: 'AI at Edge', mk200: 'Kh\u00F4ng', mk300: '40 TOPS INT8, Vision AI, Predictive Maintenance' },
     { label: 'Protection', mk200: 'IP65, -10 to 60\u00B0C', mk300: 'IP67, -20 to 70\u00B0C, vibration-rated' },
     { label: 'Security', mk200: 'TLS 1.3, TPM 2.0', mk300: '+ Secure Boot, encrypted OTA' },
-    { label: 'Price', mk200: '350-450 USD', mk300: '800-1.200 USD' },
+    { label: 'Price', mk200: '390-420 USD', mk300: '760 USD (ASP)' },
 ];
 
 export const gatewayCapacity = {
@@ -42,7 +42,7 @@ export const gatewayCapacity = {
     mk200: '2.000 units',
     mk300: '1.000 units',
     shifts: '1 ca',
-    margin: '50-60%',
+    margin: '48-51% (KX-200), 39-42% (KX-300)',
 };
 
 export const robots: RobotModel[] = [
@@ -53,9 +53,9 @@ export const robots: RobotModel[] = [
         navigation: 'LiDAR 3D + AI SLAM',
         speed: '1,5 m/s',
         battery: 'LiFePO4 8h',
-        price: '18.000-25.000 USD',
+        price: '20.500 USD (ASP)',
         capacity: '100 b\u1ED9/n\u0103m',
-        highlight: 'Deep Reinforcement Learning path planning',
+        highlight: 'Deep Reinforcement Learning path planning, COGS 10.750 USD',
     },
     {
         name: 'AMR-1000',
@@ -106,12 +106,12 @@ export const ohtSpec = {
         '4 tr\u1EE5c \u0111i\u1EC1u khi\u1EC3n \u0111\u1ED3ng th\u1EDDi',
         'Precision positioning \u00B10,1 mm',
         'FOUP handling cho semiconductor',
-        'Integrated v\u1EDBi MekongOS Fleet Manager',
+        'Integrated v\u1EDBi KinexusOS Fleet Manager',
         'Clean room Class 100 compatible',
     ],
 };
 
-export const mekongOSTiers: PlatformTierDetail[] = [
+export const KinexusOSTiers: PlatformTierDetail[] = [
     {
         name: 'Starter',
         price: '99 USD/th\u00E1ng',
@@ -133,9 +133,25 @@ export const mekongOSTiers: PlatformTierDetail[] = [
 ];
 
 export const ecosystemLayers = [
-    { layer: 'Field Layer', items: 'MK-EIO Modules (DI/DO/AI/AO/UI), Sensors, Actuators', color: '#00E5FF' },
-    { layer: 'Control Layer', items: 'MK-DDC Controllers, PLC Interface, BACnet/Modbus', color: '#00BCD4' },
-    { layer: 'Network Layer', items: 'MK-200/300 Gateways, MK-GW Protocol Converters', color: '#E040FB' },
-    { layer: 'Software Layer', items: 'MekongBMS, SCADA, Fleet Manager', color: '#FFD600' },
-    { layer: 'Cloud Layer', items: 'MekongOS Platform (IoT Cloud, AI/ML, Digital Twin)', color: '#76FF03' },
+    { layer: 'Field Layer', items: 'KX-EIO Modules (DI/DO/AI/AO/UI), Sensors, Actuators', color: '#00E5FF' },
+    { layer: 'Control Layer', items: 'KX-DDC Controllers, PLC Interface, BACnet/Modbus', color: '#00BCD4' },
+    { layer: 'Network Layer', items: 'KX-200/300 Gateways, KX-GW Protocol Converters', color: '#E040FB' },
+    { layer: 'Software Layer', items: 'KinexusBMS, SCADA, Fleet Manager', color: '#FFD600' },
+    { layer: 'Cloud Layer', items: 'KinexusOS Platform (IoT Cloud, AI/ML, Digital Twin)', color: '#76FF03' },
 ];
+
+export const amr500Cogs = {
+    asp: 20500,
+    totalCogs: 10750,
+    grossMargin: '47,6%',
+    breakdown: [
+        { component: 'LiDAR & Navigation sensors', cost: 2800 },
+        { component: 'Drive unit & Motor', cost: 2200 },
+        { component: 'LiFePO4 Battery 8h', cost: 1800 },
+        { component: 'Controller & Edge compute', cost: 1500 },
+        { component: 'Frame & Chassis (CNC nội bộ)', cost: 1200 },
+        { component: 'Safety system', cost: 650 },
+        { component: 'Wiring & Assembly', cost: 600 },
+    ],
+    cncValueAdd: 'Chassis & bracket gia công nội bộ — tiết kiệm ~15% so với outsource',
+};

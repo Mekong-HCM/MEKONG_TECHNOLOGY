@@ -6,8 +6,8 @@ import { GlassCard } from '../ui/GlassCard';
 import { KPICard } from '../ui/KPICard';
 
 const pieData = [
-    { name: 'Vốn CSH', value: financials.capex.equity, color: '#00E5FF' },
-    { name: 'Vay NH (từ Y7)', value: financials.capex.debt, color: '#E040FB' },
+    { name: 'VCSH', value: financials.capex.equity, color: '#00E5FF' },
+    { name: 'Vay PF (3 Tranche)', value: financials.capex.debt, color: '#E040FB' },
 ];
 
 const kpis = [
@@ -23,9 +23,9 @@ function OverviewTab() {
         <div className="space-y-6">
             <div className="grid md:grid-cols-3 gap-6">
                 {[
-                    { title: 'BU1: Điện tử Thông minh', desc: 'Gateway MK-200/300, Robot AMR, MekongOS Platform — 21 sản phẩm', color: '#00E5FF', Icon: Cpu },
-                    { title: 'BU2: CNC/MPMC', desc: '10 máy CNC chính xác, Tolerance ≤5µm, ISO 9001 — 5 sản phẩm', color: '#E040FB', Icon: Cog },
-                    { title: 'Hạ tầng Hỗ trợ', desc: 'DC nội bộ 5-8 rack, 4 Lab R&D, Solar 200 kWp — phục vụ 2 BU', color: '#76FF03', Icon: Server },
+                    { title: 'Trụ cột 1: Điện tử Thông minh', desc: 'Gateway KX-200/300, Robot AMR, KinexusOS Platform — 21 sản phẩm', color: '#00E5FF', Icon: Cpu },
+                    { title: 'Trụ cột 2: CNC/MPMC', desc: '10 máy CNC chính xác, Tolerance ≤5µm, ISO 9001 — 5 sản phẩm', color: '#E040FB', Icon: Cog },
+                    { title: 'Hạ tầng Hỗ trợ', desc: 'DC nội bộ 5-8 rack, 4 Lab R&D, Solar 200 kWp — phục vụ 2 trụ cột', color: '#76FF03', Icon: Server },
                 ].map((pillar, i) => (
                     <GlassCard key={i} hoverEffect className="p-6 text-center h-full">
                         <div className="flex justify-center mb-3">
@@ -85,18 +85,18 @@ function PillarsTab() {
         <div className="space-y-4">
             <div className="grid md:grid-cols-2 gap-4">
                 <GlassCard className="p-5 border-l-4 border-neon-cyan">
-                    <h4 className="text-base font-bold text-neon-cyan mb-2">BU1: Điện tử Thông minh</h4>
+                    <h4 className="text-base font-bold text-neon-cyan mb-2">Trụ cột 1: Điện tử Thông minh</h4>
                     <div className="text-2xl font-extrabold text-white mb-3">70,8% <span className="text-sm text-gray-400 font-normal">doanh thu</span></div>
                     <ul className="space-y-1.5 text-xs text-gray-300">
-                        <li className="flex items-center gap-2"><Cpu size={12} className="text-neon-cyan" /> IoT Gateway MK-200/MK-300 — 3.000 bộ/năm</li>
+                        <li className="flex items-center gap-2"><Cpu size={12} className="text-neon-cyan" /> IoT Gateway KX-200/KX-300 — 3.000 bộ/năm</li>
                         <li className="flex items-center gap-2"><Cpu size={12} className="text-neon-cyan" /> Robot AMR/AGV — 300 bộ/năm</li>
-                        <li className="flex items-center gap-2"><Cpu size={12} className="text-neon-cyan" /> MekongOS SaaS Platform — 3 tiers</li>
-                        <li className="flex items-center gap-2"><Cpu size={12} className="text-neon-cyan" /> MekongBMS — giám sát nhà máy</li>
+                        <li className="flex items-center gap-2"><Cpu size={12} className="text-neon-cyan" /> KinexusOS SaaS Platform — 3 tiers</li>
+                        <li className="flex items-center gap-2"><Cpu size={12} className="text-neon-cyan" /> KinexusBMS — giám sát nhà máy</li>
                     </ul>
                     <div className="mt-3 text-[10px] text-gray-500">21 sản phẩm — Hardware + Software + Services</div>
                 </GlassCard>
                 <GlassCard className="p-5 border-l-4 border-neon-magenta">
-                    <h4 className="text-base font-bold text-neon-magenta mb-2">BU2: CNC Siêu Chính Xác</h4>
+                    <h4 className="text-base font-bold text-neon-magenta mb-2">Trụ cột 2: CNC/MPMC</h4>
                     <div className="text-2xl font-extrabold text-white mb-3">29,2% <span className="text-sm text-gray-400 font-normal">doanh thu</span></div>
                     <ul className="space-y-1.5 text-xs text-gray-300">
                         <li className="flex items-center gap-2"><Cog size={12} className="text-neon-magenta" /> 10 máy CNC 5-axis — Tolerance ≤5µm</li>
@@ -161,7 +161,7 @@ export function ExecutiveSummary() {
         <TabSlide
             id="summary"
             title="Tóm tắt Điều hành"
-            subtitle="Dự án hạ tầng công nghệ tích hợp 22,00M USD — 2 trụ cột cộng hưởng — Tự chủ vốn 81,8% — vay 18,2% từ Y7"
+            subtitle="Dự án hạ tầng công nghệ tích hợp 22,00M USD — 2 trụ cột cộng hưởng — VCSH 4,5M + Project Finance Tranche"
             tabs={tabs}
             className="section-corporate"
         />

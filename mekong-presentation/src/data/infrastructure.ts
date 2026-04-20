@@ -2,7 +2,7 @@ import type { InfrastructureData } from '../types';
 
 export const infrastructure: InfrastructureData = {
     campus: {
-        name: 'Mekong Technology Hub',
+        name: 'KINEXUS Technology Hub',
         lotArea: 10000,
         totalGFA: 10304,
         totalFootprint: 4648,

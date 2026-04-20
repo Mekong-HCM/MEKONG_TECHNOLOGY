@@ -79,7 +79,7 @@ export function Navbar({ isFullscreen = false, currentSlide = 0, totalSlides = 2
         >
             <div className="max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between h-20">
                 <a href="#hero" onClick={(e) => { e.preventDefault(); setActive('hero'); scrollToSection('hero'); }} className="flex flex-col leading-tight gap-0.5">
-                    <span className="text-sm font-black gradient-text tracking-tight">MEKONG TECH</span>
+                    <span className="text-sm font-black gradient-text tracking-tight">KINEXUS</span>
                     <span className="text-[10px] text-gray-300 tracking-wide">ĐỀ ÁN ĐẦU TƯ — KCNC TP.HCM</span>
                 </a>
 

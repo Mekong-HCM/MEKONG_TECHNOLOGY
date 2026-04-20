@@ -1,19 +1,19 @@
 import { Cpu, Wifi, Shield, Zap, Check, BarChart3, Settings, Layers } from 'lucide-react';
 import { TabSlide, type TabConfig } from '../ui/TabSlide';
 import { GlassCard } from '../ui/GlassCard';
-import { gatewaySpecs, gatewayCapacity, mekongOSTiers } from '../../data/productDetails';
+import { gatewaySpecs, gatewayCapacity, KinexusOSTiers } from '../../data/productDetails';
 
 function MK200Tab() {
     return (
         <div className="space-y-4">
             <GlassCard className="p-4 overflow-x-auto">
-                <h4 className="text-sm font-bold text-neon-cyan mb-2">MK-200 Standard vs MK-300 AI Edge</h4>
+                <h4 className="text-sm font-bold text-neon-cyan mb-2">KX-200 Standard vs KX-300 AI Edge</h4>
                 <table className="w-full text-xs">
                     <thead>
                         <tr className="border-b border-white/10">
                             <th className="text-left py-2 px-3 text-gray-400 font-medium w-1/3">Thông số</th>
-                            <th className="text-left py-2 px-3 font-bold text-neon-cyan">MK-200 Standard</th>
-                            <th className="text-left py-2 px-3 font-bold text-neon-magenta">MK-300 AI Edge</th>
+                            <th className="text-left py-2 px-3 font-bold text-neon-cyan">KX-200 Standard</th>
+                            <th className="text-left py-2 px-3 font-bold text-neon-magenta">KX-300 AI Edge</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -59,8 +59,8 @@ function CapacityTab() {
             <div className="grid grid-cols-2 gap-3">
                 {[
                     { label: 'Tổng/năm', value: gatewayCapacity.total, color: 'text-neon-cyan' },
-                    { label: 'MK-200', value: gatewayCapacity.mk200, color: 'text-neon-cyan' },
-                    { label: 'MK-300', value: gatewayCapacity.mk300, color: 'text-neon-magenta' },
+                    { label: 'KX-200', value: gatewayCapacity.mk200, color: 'text-neon-cyan' },
+                    { label: 'KX-300', value: gatewayCapacity.mk300, color: 'text-neon-magenta' },
                     { label: 'Gross margin', value: gatewayCapacity.margin, color: 'text-green-400' },
                 ].map((item, i) => (
                     <div key={i} className="p-3 rounded-xl bg-white/[0.03] border border-white/5 text-center">
@@ -80,9 +80,9 @@ function PlatformTab() {
     return (
         <div className="space-y-4">
             <GlassCard className="p-4">
-                <h4 className="text-sm font-bold text-white mb-3 flex items-center gap-2"><Layers size={16} className="text-neon-cyan" /> MekongOS — Nền tảng IoT SaaS</h4>
+                <h4 className="text-sm font-bold text-white mb-3 flex items-center gap-2"><Layers size={16} className="text-neon-cyan" /> KinexusOS — Nền tảng IoT SaaS</h4>
                 <div className="grid md:grid-cols-3 gap-3">
-                    {mekongOSTiers.map((tier, i) => {
+                    {KinexusOSTiers.map((tier, i) => {
                         const colors = ['#00E5FF', '#E040FB', '#76FF03'];
                         return (
                             <div key={i} className="p-4 rounded-xl bg-white/[0.03] border border-white/5" style={{ borderTopColor: colors[i], borderTopWidth: 3 }}>
@@ -112,10 +112,10 @@ function PlatformTab() {
 }
 
 const tabs: TabConfig[] = [
-    { key: 'specs', label: 'MK-200 / MK-300', icon: Cpu, content: <MK200Tab /> },
+    { key: 'specs', label: 'KX-200 / KX-300', icon: Cpu, content: <MK200Tab /> },
     { key: 'features', label: 'Đặc điểm nổi bật', icon: Settings, content: <FeaturesTab /> },
     { key: 'capacity', label: 'Công suất', icon: BarChart3, content: <CapacityTab /> },
-    { key: 'platform', label: 'MekongOS', icon: Layers, content: <PlatformTab /> },
+    { key: 'platform', label: 'KinexusOS', icon: Layers, content: <PlatformTab /> },
 ];
 
 export function ProductIoTGateway() {

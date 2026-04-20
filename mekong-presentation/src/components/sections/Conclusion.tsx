@@ -22,7 +22,7 @@ function ValueTab() {
     return (
         <div className="space-y-4">
             <div className="corporate-card p-5 text-center">
-                <h4 className="text-lg font-bold text-white mb-1">Tại sao chọn Mekong?</h4>
+                <h4 className="text-lg font-bold text-white mb-1">Tại sao chọn KINEXUS?</h4>
                 <p className="text-xs text-gray-400">{contact.tagline}</p>
             </div>
 
@@ -56,7 +56,7 @@ function ValueTab() {
                     ))}
                 </div>
                 <div className="mt-3 p-3 rounded-lg bg-corporate-gold/5 border border-corporate-gold/10 text-center">
-                    <div className="text-xs text-gray-400">Mekong Y15 EBITDA ~9M x 15x =</div>
+                    <div className="text-xs text-gray-400">KINEXUS Y15 EBITDA ~9M x 15x =</div>
                     <div className="text-lg font-black text-corporate-gold">~135M USD (conservative EV)</div>
                 </div>
             </div>
@@ -90,7 +90,7 @@ function ValueTab() {
 /* ─── Tab 2: Cam kết R&D & VA ─── */
 const trustSignals = [
     'Vị trí được BQL KCNC TP.HCM phê duyệt',
-    'Tự chủ vốn CSH 81,8% — không phụ thuộc ODA',
+    'VCSH 4,5M + Project Finance 3 Tranche — WACC 7,9%',
     'Miễn thuế TNDN 4 năm, giảm 50% trong 9 năm tiếp',
     'P(NPV>0) = 68% theo mô phỏng Monte Carlo',
 ];
@@ -183,10 +183,10 @@ function CommitmentTab() {
 
 /* ─── Tab 3: Call-to-Action ─── */
 const nextSteps = [
-    { step: 1, label: 'Gửi yêu cầu thông tin', desc: 'Email invest@mekongtech.vn — nhận Investor Packet trong 24h', Icon: ClipboardList, color: '#00E5FF' },
+    { step: 1, label: 'Gửi yêu cầu thông tin', desc: 'Email invest@kinexus.com.vn — nhận Investor Packet trong 24h', Icon: ClipboardList, color: '#00E5FF' },
     { step: 2, label: 'Họp trình bày 1:1', desc: 'Trình bày chi tiết + Q&A với đội ngũ điều hành', Icon: PhoneCall, color: '#E040FB' },
     { step: 3, label: 'Ký NDA & Due Diligence', desc: 'Truy cập mô hình tài chính đầy đủ, báo cáo kỹ thuật', Icon: FileSignature, color: '#76FF03' },
-    { step: 4, label: 'Term Sheet & Hợp tác', desc: 'Thỏa thuận điều khoản — bắt đầu hành trình cùng Mekong', Icon: Building2, color: '#FF9100' },
+    { step: 4, label: 'Term Sheet & Hợp tác', desc: 'Thỏa thuận điều khoản — bắt đầu hành trình cùng KINEXUS', Icon: Building2, color: '#FF9100' },
 ];
 
 function CTATab() {
@@ -226,7 +226,7 @@ function CTATab() {
                             <Mail size={14} className="text-neon-cyan flex-shrink-0 mt-0.5" />
                             <div className="text-xs text-gray-400">
                                 <div>{contact.info.email} (Đầu tư)</div>
-                                <div>partner@mekongtech.vn (Hợp tác Kỹ thuật)</div>
+                                <div>partner@kinexus.com.vn (Hợp tác Kỹ thuật)</div>
                             </div>
                         </div>
                     </div>
@@ -235,7 +235,7 @@ function CTATab() {
                 <div className="corporate-card p-5 flex flex-col items-center justify-center text-center">
                     <div className="text-3xl font-black corporate-gradient-text mb-2">22,00M USD</div>
                     <div className="text-sm text-gray-400 mb-4">Tổng mức đầu tư — 2 Trụ cột Công nghệ</div>
-                    <a href="mailto:invest@mekongtech.vn" className="btn-primary inline-flex items-center gap-2 text-sm px-6 py-3">
+                    <a href="mailto:invest@kinexus.com.vn" className="btn-primary inline-flex items-center gap-2 text-sm px-6 py-3">
                         Gửi yêu cầu Investor Packet
                         <ArrowUpRight size={16} />
                     </a>
@@ -245,7 +245,7 @@ function CTATab() {
 
             {/* Footer */}
             <div className="pt-4 border-t border-white/5 text-center">
-                <p className="text-xs text-gray-500">&copy; 2026 Mekong Technology. Bảo mật — Chỉ dành cho người nhận được chỉ định.</p>
+                <p className="text-xs text-gray-500">&copy; 2026 KINEXUS Technologies. Bảo mật — Chỉ dành cho người nhận được chỉ định.</p>
                 <p className="text-xs text-gray-600 mt-1">Khu Công nghệ Cao TP.HCM (SHTP)</p>
             </div>
         </div>
@@ -254,7 +254,7 @@ function CTATab() {
 
 /* ─── Main Export ─── */
 const tabs: TabConfig[] = [
-    { key: 'value', label: 'Tại sao Mekong?', icon: Rocket, content: <ValueTab /> },
+    { key: 'value', label: 'Tại sao KINEXUS?', icon: Rocket, content: <ValueTab /> },
     { key: 'commitment', label: 'Cam kết R&D & VA', icon: ShieldCheck, content: <CommitmentTab /> },
     { key: 'cta', label: 'Liên hệ & Hợp tác', icon: Mail, content: <CTATab /> },
 ];
@@ -264,7 +264,7 @@ export function Conclusion() {
         <TabSlide
             id="conclusion"
             title="Kết luận & Cam kết"
-            subtitle="Mekong Technology Hub — nền tảng công nghệ cho tương lai sản xuất Việt Nam"
+            subtitle="KINEXUS Technology Hub — nền tảng công nghệ cho tương lai sản xuất Việt Nam"
             tabs={tabs}
             className="section-corporate"
         />

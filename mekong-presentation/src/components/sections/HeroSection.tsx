@@ -54,7 +54,7 @@ export function HeroSection() {
                     transition={{ duration: 0.8, delay: 0.4 }}
                     className="text-5xl md:text-7xl lg:text-8xl font-black mb-6 leading-tight"
                 >
-                    <span className="gradient-text">Mekong</span>{' '}
+                    <span className="gradient-text">KINEXUS</span>{' '}
                     <span className="text-white">Technology</span>
                     <br />
                     <span className="text-white/90 text-3xl md:text-5xl lg:text-6xl font-bold">Hub</span>

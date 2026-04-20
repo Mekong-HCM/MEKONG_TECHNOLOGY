@@ -4,7 +4,7 @@ import { GlassCard } from '../ui/GlassCard';
 import { PillBadge } from '../ui/PillBadge';
 import { OptimizedImage } from '../ui/OptimizedImage';
 import { products } from '../../data/products';
-import { ohtSpec, mekongOSTiers, ecosystemLayers } from '../../data/productDetails';
+import { ohtSpec, KinexusOSTiers, ecosystemLayers } from '../../data/productDetails';
 import { images } from '../../data/images';
 
 /* ─── Tab 1: Tổng quan 2 Trụ cột ─── */
@@ -19,11 +19,11 @@ function OverviewTab() {
                             <Cpu size={20} className="text-neon-cyan" />
                         </div>
                         <div>
-                            <h3 className="text-lg font-bold text-white">BU1: Điện tử Thông minh</h3>
+                            <h3 className="text-lg font-bold text-white">Ngành 1: Điện tử Thông minh</h3>
                             <span className="text-xs text-neon-cyan font-semibold">70,8% doanh thu</span>
                         </div>
                     </div>
-                    <p className="text-sm text-gray-400 mb-3">IoT Gateway, BMS/SCADA, Robot AMR/AGV, MekongOS Platform</p>
+                    <p className="text-sm text-gray-400 mb-3">IoT Gateway, BMS/SCADA, Robot AMR/AGV, KinexusOS Platform</p>
                     <div className="flex gap-2 flex-wrap">
                         <PillBadge text="21 sản phẩm" color="#00E5FF" />
                         <PillBadge text="Margin 35-65%" color="#76FF03" />
@@ -38,7 +38,7 @@ function OverviewTab() {
                             <Cog size={20} className="text-pink-400" />
                         </div>
                         <div>
-                            <h3 className="text-lg font-bold text-white">BU2: CNC/MPMC</h3>
+                            <h3 className="text-lg font-bold text-white">Năng lực CNC/MPMC</h3>
                             <span className="text-xs text-pink-400 font-semibold">29,2% doanh thu</span>
                         </div>
                     </div>
@@ -60,11 +60,11 @@ function OverviewTab() {
                 <div className="grid sm:grid-cols-3 gap-3 text-center">
                     <div className="p-3 rounded-xl bg-white/[0.03] border border-white/5">
                         <div className="text-2xl font-extrabold text-neon-cyan">21</div>
-                        <div className="text-xs text-gray-400">Sản phẩm BU1</div>
+                        <div className="text-xs text-gray-400">Sản phẩm Ngành 1</div>
                     </div>
                     <div className="p-3 rounded-xl bg-white/[0.03] border border-white/5">
                         <div className="text-2xl font-extrabold text-pink-400">5</div>
-                        <div className="text-xs text-gray-400">Sản phẩm BU2</div>
+                        <div className="text-xs text-gray-400">Sản phẩm CNC/MPMC</div>
                     </div>
                     <div className="p-3 rounded-xl bg-white/[0.03] border border-white/5">
                         <div className="text-2xl font-extrabold gradient-text">100%</div>
@@ -113,7 +113,7 @@ function BU1Tab() {
             </div>
             <GlassCard className="p-5">
                 <h4 className="text-base font-bold text-neon-cyan mb-3 flex items-center gap-2">
-                    <Globe size={18} className="text-neon-cyan" /> MekongOS Platform
+                    <Globe size={18} className="text-neon-cyan" /> KinexusOS Platform
                 </h4>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                     {products.iot.platform.tiers.map((tier, i) => (
@@ -252,14 +252,14 @@ function SynergyTab() {
                 </GlassCard>
             </div>
 
-            {/* MekongOS Platform */}
+            {/* KinexusOS Platform */}
             <GlassCard className="p-5 mb-4">
                 <div className="flex items-center gap-2 mb-4">
                     <Cloud size={18} className="text-neon-cyan" />
-                    <h3 className="text-lg font-bold text-white">MekongOS Platform</h3>
+                    <h3 className="text-lg font-bold text-white">KinexusOS Platform</h3>
                 </div>
                 <div className="grid sm:grid-cols-3 gap-3">
-                    {mekongOSTiers.map((tier, i) => (
+                    {KinexusOSTiers.map((tier, i) => (
                         <div key={i} className="p-3 rounded-xl bg-white/[0.03] border border-white/5">
                             <div className="flex justify-between items-center mb-2">
                                 <span className="text-sm font-bold text-white">{tier.name}</span>
@@ -283,7 +283,7 @@ function SynergyTab() {
                 </h4>
                 <div className="grid sm:grid-cols-2 gap-3">
                     {[
-                        { name: 'MekongOS & IoT Cloud', detail: 'Hosting nội bộ cho nền tảng IoT, BMS/SCADA, AI analytics' },
+                        { name: 'KinexusOS & IoT Cloud', detail: 'Hosting nội bộ cho nền tảng IoT, BMS/SCADA, AI analytics' },
                         { name: 'CNC/CAM Computing', detail: 'Xử lý CAM, mô phỏng gia công, quản lý chất lượng' },
                         { name: 'R&D & AI Training', detail: 'GPU cluster cho AI/ML model training, Computer Vision' },
                         { name: 'ERP & Backup', detail: 'Hệ thống ERP, backup dữ liệu, disaster recovery nội bộ' },
@@ -319,8 +319,8 @@ function SynergyTab() {
 /* ─── Main Export ─── */
 const tabs: TabConfig[] = [
     { key: 'overview', label: '2 Trụ cột', icon: Globe, content: <OverviewTab /> },
-    { key: 'bu1', label: 'BU1 Điện tử (21 SP)', icon: Cpu, content: <BU1Tab /> },
-    { key: 'bu2', label: 'BU2 CNC (5 SP)', icon: Cog, content: <BU2Tab /> },
+    { key: 'bu1', label: 'Ngành 1: Điện tử Thông minh', icon: Cpu, content: <BU1Tab /> },
+    { key: 'bu2', label: 'Năng lực CNC/MPMC', icon: Cog, content: <BU2Tab /> },
     { key: 'synergy', label: 'Synergy & DC', icon: Server, content: <SynergyTab /> },
 ];
 

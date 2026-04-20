@@ -120,7 +120,7 @@ function DCTab() {
             </div>
             <div className="space-y-2 text-xs text-gray-300">
                 <div className="p-2 rounded-lg bg-white/[0.03] border border-white/5">
-                    <span className="text-green-400 font-semibold">Mục đích:</span> Hỗ trợ nội bộ R&D, MekongOS hosting, AI training, BMS/SCADA
+                    <span className="text-green-400 font-semibold">Mục đích:</span> Hỗ trợ nội bộ R&D, KinexusOS hosting, AI training, BMS/SCADA
                 </div>
                 <div className="p-2 rounded-lg bg-white/[0.03] border border-white/5">
                     <span className="text-green-400 font-semibold">Hạ tầng:</span> UPS 50 kVA, CRAC cooling, NOVEC 1230, VESDA, Access control, CCTV
