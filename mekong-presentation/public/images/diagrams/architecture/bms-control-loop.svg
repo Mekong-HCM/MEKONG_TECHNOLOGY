@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500">
+  <defs>
+    <style>
+      .title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 16px; font-weight: 600; fill: #0A2240; }
+      .subtitle { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; fill: #555; }
+      .label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 10px; fill: #333; }
+      .label-white { font-family: 'Segoe UI', Arial, sans-serif; font-size: 10px; fill: #FFF; }
+      .label-sm { font-family: 'Segoe UI', Arial, sans-serif; font-size: 9px; fill: #666; }
+      .box-primary { fill: #0A2240; }
+      .box-accent { fill: #FF6B00; }
+      .step { fill: #FFFFFF; stroke: #D0D8E0; stroke-width: 1.5; }
+      .step-input { fill: #E3F2FD; stroke: #2196F3; stroke-width: 1.5; }
+      .step-process { fill: #E8F5E9; stroke: #4CAF50; stroke-width: 1.5; }
+      .step-output { fill: #FFF3E0; stroke: #FF9800; stroke-width: 1.5; }
+      .step-decision { fill: #F3E5F5; stroke: #9C27B0; stroke-width: 1.5; }
+      .connector { stroke: #0A2240; stroke-width: 2; fill: none; }
+      .connector-yes { stroke: #4CAF50; stroke-width: 2; fill: none; }
+      .connector-no { stroke: #F44336; stroke-width: 2; fill: none; }
+    </style>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FAFBFC"/>
+      <stop offset="100%" style="stop-color:#EEF1F5"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#0A2240"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#4CAF50"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#F44336"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="500" fill="url(#bgGrad)"/>
+  
+  <!-- Title -->
+  <text x="450" y="28" text-anchor="middle" class="title">BMS CONTROL LOOP — HVAC TEMPERATURE REGULATION</text>
+  <text x="450" y="45" text-anchor="middle" class="subtitle">Closed-Loop PID Control with KX-DDC-64 Controller</text>
+  
+  <!-- ============ MAIN FLOW ============ -->
+  
+  <!-- Step 1: Sensor Input -->
+  <rect x="50" y="80" width="140" height="70" rx="8" class="step-input" filter="url(#shadow)"/>
+  <text x="120" y="105" text-anchor="middle" class="label" font-weight="bold">SENSOR INPUT</text>
+  <text x="120" y="122" text-anchor="middle" class="label-sm">Room Temp: 26.5°C</text>
+  <text x="120" y="137" text-anchor="middle" class="label-sm">NTC / PT100 / 4-20mA</text>
+  
+  <!-- Step 2: Signal Conditioning -->
+  <rect x="220" y="80" width="140" height="70" rx="8" class="step" filter="url(#shadow)"/>
+  <text x="290" y="105" text-anchor="middle" class="label" font-weight="bold">A/D CONVERSION</text>
+  <text x="290" y="122" text-anchor="middle" class="label-sm">16-bit ADC</text>
+  <text x="290" y="137" text-anchor="middle" class="label-sm">0.1°C Resolution</text>
+  
+  <!-- Step 3: Setpoint Compare -->
+  <polygon points="450,75 530,115 450,155 370,115" class="step-decision" filter="url(#shadow)"/>
+  <text x="450" y="112" text-anchor="middle" class="label" font-weight="bold">T > SP?</text>
+  <text x="450" y="127" text-anchor="middle" class="label-sm">SP = 24°C</text>
+  
+  <!-- Step 4a: PID Calculate (YES - needs cooling) -->
+  <rect x="560" y="80" width="140" height="70" rx="8" class="step-process" filter="url(#shadow)"/>
+  <text x="630" y="100" text-anchor="middle" class="label" font-weight="bold">PID ALGORITHM</text>
+  <text x="630" y="117" text-anchor="middle" class="label-sm">Kp=2, Ki=0.5, Kd=0.1</text>
+  <text x="630" y="132" text-anchor="middle" class="label-sm">Output: 75%</text>
+  <text x="630" y="147" text-anchor="middle" class="label-sm" fill="#4CAF50">COOLING</text>
+  
+  <!-- Step 4b: PID Calculate (NO - needs heating or hold) -->
+  <rect x="560" y="180" width="140" height="70" rx="8" class="step" filter="url(#shadow)"/>
+  <text x="630" y="205" text-anchor="middle" class="label" font-weight="bold">PID ALGORITHM</text>
+  <text x="630" y="222" text-anchor="middle" class="label-sm">Error negative</text>
+  <text x="630" y="237" text-anchor="middle" class="label-sm" fill="#F44336">HEATING / HOLD</text>
+  
+  <!-- Step 5: Output Control -->
+  <rect x="730" y="80" width="140" height="70" rx="8" class="step-output" filter="url(#shadow)"/>
+  <text x="800" y="105" text-anchor="middle" class="label" font-weight="bold">OUTPUT SIGNAL</text>
+  <text x="800" y="122" text-anchor="middle" class="label-sm">AO: 0-10V → VFD</text>
+  <text x="800" y="137" text-anchor="middle" class="label-sm">DO: Valve On/Off</text>
+  
+  <!-- Connectors Row 1 -->
+  <path d="M 190 115 L 220 115" class="connector" marker-end="url(#arrow)"/>
+  <path d="M 360 115 L 370 115" class="connector" marker-end="url(#arrow)"/>
+  <path d="M 530 115 L 560 115" class="connector-yes" marker-end="url(#arrow-green)"/>
+  <text x="545" y="108" class="label-sm" fill="#4CAF50">YES</text>
+  <path d="M 700 115 L 730 115" class="connector" marker-end="url(#arrow)"/>
+  
+  <!-- Connector to NO path -->
+  <path d="M 450 155 L 450 215 L 560 215" class="connector-no" marker-end="url(#arrow-red)"/>
+  <text x="460" y="180" class="label-sm" fill="#F44336">NO</text>
+  
+  <!-- ============ ACTUATOR SECTION ============ -->
+  <rect x="50" y="280" width="820" height="90" rx="8" fill="#E8EDF2" stroke="#B8C4D0" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="50" y="280" width="820" height="25" rx="8" class="box-primary"/>
+  <text x="460" y="298" text-anchor="middle" class="label-white">FIELD ACTUATORS — Controlled by KX-DDC-64</text>
+  
+  <!-- VFD -->
+  <rect x="70" y="315" width="130" height="45" rx="5" fill="#FFF" stroke="#DDD" filter="url(#shadow)"/>
+  <text x="135" y="335" text-anchor="middle" class="label" font-weight="bold">VFD Fan</text>
+  <text x="135" y="350" text-anchor="middle" class="label-sm">0-10V → 0-60Hz</text>
+  
+  <!-- Chilled Water Valve -->
+  <rect x="220" y="315" width="130" height="45" rx="5" fill="#FFF" stroke="#DDD" filter="url(#shadow)"/>
+  <text x="285" y="335" text-anchor="middle" class="label" font-weight="bold">CHW Valve</text>
+  <text x="285" y="350" text-anchor="middle" class="label-sm">2-way Modulating</text>
+  
+  <!-- Damper -->
+  <rect x="370" y="315" width="130" height="45" rx="5" fill="#FFF" stroke="#DDD" filter="url(#shadow)"/>
+  <text x="435" y="335" text-anchor="middle" class="label" font-weight="bold">OA Damper</text>
+  <text x="435" y="350" text-anchor="middle" class="label-sm">Economizer Control</text>
+  
+  <!-- Heating Valve -->
+  <rect x="520" y="315" width="130" height="45" rx="5" fill="#FFF" stroke="#DDD" filter="url(#shadow)"/>
+  <text x="585" y="335" text-anchor="middle" class="label" font-weight="bold">Hot Water Valve</text>
+  <text x="585" y="350" text-anchor="middle" class="label-sm">Winter Mode</text>
+  
+  <!-- Humidifier -->
+  <rect x="670" y="315" width="130" height="45" rx="5" fill="#FFF" stroke="#DDD" filter="url(#shadow)"/>
+  <text x="735" y="335" text-anchor="middle" class="label" font-weight="bold">Humidifier</text>
+  <text x="735" y="350" text-anchor="middle" class="label-sm">Steam Inject</text>
+  
+  <!-- Feedback Loop Arrow -->
+  <path d="M 800 150 L 830 150 L 830 410 L 120 410 L 120 150" class="connector" stroke-dasharray="5,3" marker-end="url(#arrow)"/>
+  <text x="600" y="430" class="label-sm">CLOSED LOOP FEEDBACK — Continuous Monitoring</text>
+  
+  <!-- ============ DDC CONTROLLER BOX ============ -->
+  <rect x="300" y="395" width="300" height="85" rx="8" fill="#FFF" stroke="#0A2240" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="300" y="395" width="300" height="22" rx="8" class="box-primary"/>
+  <text x="450" y="411" text-anchor="middle" class="label-white" font-weight="bold">KX-DDC-64 CONTROLLER</text>
+  
+  <text x="315" y="435" class="label-sm">• 24 Universal Inputs (UI)</text>
+  <text x="315" y="450" class="label-sm">• 24 Digital Inputs (DI)</text>
+  <text x="315" y="465" class="label-sm">• 8 Digital Outputs (DO)</text>
+  <text x="450" y="435" class="label-sm">• 8 Analog Outputs (AO)</text>
+  <text x="450" y="450" class="label-sm">• BACnet/Modbus</text>
+  <text x="450" y="465" class="label-sm">• Programmable Logic</text>
+  
+  <!-- Legend -->
+  <rect x="50" y="175" width="280" height="85" rx="5" fill="#FFF" stroke="#DDD" filter="url(#shadow)"/>
+  <text x="190" y="195" text-anchor="middle" class="label" font-weight="bold">LEGEND</text>
+  
+  <rect x="65" y="205" width="20" height="12" class="step-input"/>
+  <text x="95" y="215" class="label-sm">Input / Sensor</text>
+  
+  <rect x="65" y="222" width="20" height="12" class="step-process"/>
+  <text x="95" y="232" class="label-sm">Process / Algorithm</text>
+  
+  <rect x="65" y="239" width="20" height="12" class="step-output"/>
+  <text x="95" y="249" class="label-sm">Output / Control</text>
+  
+  <polygon points="200,211 220,218 200,225 180,218" class="step-decision"/>
+  <text x="230" y="220" class="label-sm">Decision</text>
+  
+  <line x1="175" y1="240" x2="215" y2="240" class="connector-yes"/>
+  <text x="230" y="243" class="label-sm" fill="#4CAF50">Yes Path</text>
+  
+  <line x1="175" y1="255" x2="215" y2="255" class="connector-no"/>
+  <text x="230" y="258" class="label-sm" fill="#F44336">No Path</text>
+  
+  <!-- KINEXUS Logo -->
+  <rect x="760" y="395" width="110" height="50" fill="#0A2240" rx="5"/>
+  <text x="815" y="420" fill="#FFF" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">MEKONG</text>
+  <text x="815" y="435" fill="#FF6B00" font-family="Arial" font-size="8" text-anchor="middle">TECHNOLOGY</text>
+  
+</svg>

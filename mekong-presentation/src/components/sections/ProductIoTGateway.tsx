@@ -1,11 +1,23 @@
 import { Cpu, Wifi, Shield, Zap, Check, BarChart3, Settings, Layers } from 'lucide-react';
 import { TabSlide, type TabConfig } from '../ui/TabSlide';
 import { GlassCard } from '../ui/GlassCard';
+import { OptimizedImage } from '../ui/OptimizedImage';
 import { gatewaySpecs, gatewayCapacity, KinexusOSTiers } from '../../data/productDetails';
+import { images } from '../../data/images';
 
 function MK200Tab() {
     return (
         <div className="space-y-4">
+            <div className="grid grid-cols-2 gap-4">
+                <GlassCard className="p-0 overflow-hidden">
+                    <OptimizedImage {...images['kx200-gateway']} placeholderLabel="KX-200 IoT Gateway" placeholderColor="#00E5FF" className="w-full h-40 object-contain bg-white/[0.03]" aspectRatio="4/3" />
+                    <div className="px-3 py-2 text-center text-xs font-semibold text-neon-cyan">KX-200 Standard</div>
+                </GlassCard>
+                <GlassCard className="p-0 overflow-hidden">
+                    <OptimizedImage {...images['kx300-gateway']} placeholderLabel="KX-300 AI Edge Gateway" placeholderColor="#E040FB" className="w-full h-40 object-contain bg-white/[0.03]" aspectRatio="4/3" />
+                    <div className="px-3 py-2 text-center text-xs font-semibold text-neon-magenta">KX-300 AI Edge</div>
+                </GlassCard>
+            </div>
             <GlassCard className="p-4 overflow-x-auto">
                 <h4 className="text-sm font-bold text-neon-cyan mb-2">KX-200 Standard vs KX-300 AI Edge</h4>
                 <table className="w-full text-xs">
@@ -27,12 +39,21 @@ function MK200Tab() {
                     </tbody>
                 </table>
             </GlassCard>
+            <div className="grid grid-cols-2 gap-4">
+                <GlassCard className="p-0 overflow-hidden">
+                    <OptimizedImage {...images['diag-kx200-connection']} placeholderLabel="Sơ đồ kết nối KX-200" placeholderColor="#00E5FF" className="w-full h-36 object-contain bg-white/[0.03] p-2" aspectRatio="16/10" />
+                </GlassCard>
+                <GlassCard className="p-0 overflow-hidden">
+                    <OptimizedImage {...images['diag-kx300-connection']} placeholderLabel="Sơ đồ kết nối KX-300" placeholderColor="#E040FB" className="w-full h-36 object-contain bg-white/[0.03] p-2" aspectRatio="16/10" />
+                </GlassCard>
+            </div>
         </div>
     );
 }
 
 function FeaturesTab() {
     return (
+        <div className="space-y-4">
         <GlassCard className="p-5">
             <h4 className="text-sm font-bold text-white mb-3 flex items-center gap-2"><Cpu size={16} className="text-neon-cyan" /> Đặc điểm nổi bật</h4>
             <ul className="space-y-2">
@@ -49,6 +70,15 @@ function FeaturesTab() {
                 ))}
             </ul>
         </GlassCard>
+        <div className="grid grid-cols-2 gap-4">
+            <GlassCard className="p-0 overflow-hidden">
+                <OptimizedImage {...images['kx200-gateway-context']} placeholderLabel="KX-200 lắp đặt thực tế" placeholderColor="#00E5FF" className="w-full h-36 object-cover" aspectRatio="16/10" />
+            </GlassCard>
+            <GlassCard className="p-0 overflow-hidden">
+                <OptimizedImage {...images['diag-iot-gateway-arch']} placeholderLabel="Kiến trúc IoT Gateway 5 tầng" placeholderColor="#00E5FF" className="w-full h-36 object-contain bg-white/[0.03] p-2" aspectRatio="16/10" />
+            </GlassCard>
+        </div>
+        </div>
     );
 }
 
@@ -79,6 +109,20 @@ function CapacityTab() {
 function PlatformTab() {
     return (
         <div className="space-y-4">
+            <div className="grid grid-cols-3 gap-3">
+                <GlassCard className="p-0 overflow-hidden">
+                    <OptimizedImage {...images['mekongbms-dashboard']} placeholderLabel="MekongBMS Dashboard" placeholderColor="#FFD600" className="w-full h-32 object-cover" aspectRatio="16/9" />
+                    <div className="px-2 py-1.5 text-center text-[10px] font-semibold text-yellow-400">KinexusBMS</div>
+                </GlassCard>
+                <GlassCard className="p-0 overflow-hidden">
+                    <OptimizedImage {...images['mekongfleet-dashboard']} placeholderLabel="MekongFleet Dashboard" placeholderColor="#E040FB" className="w-full h-32 object-cover" aspectRatio="16/9" />
+                    <div className="px-2 py-1.5 text-center text-[10px] font-semibold text-pink-400">KinexusFleet</div>
+                </GlassCard>
+                <GlassCard className="p-0 overflow-hidden">
+                    <OptimizedImage {...images['mekongstudio-hero']} placeholderLabel="MekongStudio IDE" placeholderColor="#FFD600" className="w-full h-32 object-cover" aspectRatio="16/9" />
+                    <div className="px-2 py-1.5 text-center text-[10px] font-semibold text-yellow-400">MekongStudio</div>
+                </GlassCard>
+            </div>
             <GlassCard className="p-4">
                 <h4 className="text-sm font-bold text-white mb-3 flex items-center gap-2"><Layers size={16} className="text-neon-cyan" /> KinexusOS — Nền tảng IoT SaaS</h4>
                 <div className="grid md:grid-cols-3 gap-3">

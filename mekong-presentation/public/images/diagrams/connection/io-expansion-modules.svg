@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550" width="900" height="550">
+  <defs>
+    <style>
+      .title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 16px; font-weight: 600; fill: #0A2240; }
+      .subtitle { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; fill: #555; }
+      .label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 10px; fill: #333; }
+      .label-white { font-family: 'Segoe UI', Arial, sans-serif; font-size: 10px; fill: #FFF; }
+      .label-sm { font-family: 'Segoe UI', Arial, sans-serif; font-size: 9px; fill: #666; }
+      .box-primary { fill: #0A2240; }
+      .box-accent { fill: #FF6B00; }
+      .module { fill: #FFFFFF; stroke: #D0D8E0; stroke-width: 1.5; }
+      .io-ui { fill: #2196F3; }
+      .io-di { fill: #4CAF50; }
+      .io-do { fill: #9C27B0; }
+      .io-ao { fill: #FF9800; }
+      .connector { stroke: #0A2240; stroke-width: 2; fill: none; }
+      .connector-bus { stroke: #4CAF50; stroke-width: 3; fill: none; }
+    </style>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FAFBFC"/>
+      <stop offset="100%" style="stop-color:#EEF1F5"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#0A2240"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#4CAF50"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="550" fill="url(#bgGrad)"/>
+  
+  <!-- Title -->
+  <text x="450" y="28" text-anchor="middle" class="title">KX-EIO I/O EXPANSION MODULES — CONNECTION DIAGRAM</text>
+  <text x="450" y="45" text-anchor="middle" class="subtitle">Modular I/O Expansion for KX-DDC Controllers via RS-485 Bus</text>
+  
+  <!-- ============ MAIN DDC CONTROLLER ============ -->
+  <rect x="350" y="70" width="200" height="100" rx="10" class="module" filter="url(#shadow)"/>
+  <rect x="350" y="70" width="200" height="30" rx="10" class="box-primary"/>
+  <rect x="350" y="94" width="200" height="6" class="box-primary"/>
+  <text x="450" y="92" text-anchor="middle" class="label-white" font-weight="bold" font-size="12">KX-DDC-64</text>
+  
+  <!-- DDC ports -->
+  <text x="365" y="125" class="label-sm">Master Controller</text>
+  <text x="365" y="140" class="label-sm">Built-in: 24 UI + 24 DI + 8 DO + 8 AO</text>
+  <text x="365" y="155" class="label-sm">RS-485 Expansion Bus (32 devices max)</text>
+  
+  <!-- Orange accent -->
+  <rect x="350" y="164" width="200" height="6" rx="3" class="box-accent"/>
+  
+  <!-- RS-485 Expansion Ports on DDC -->
+  <rect x="320" y="140" width="30" height="15" rx="2" fill="#4CAF50"/>
+  <text x="335" y="150" text-anchor="middle" fill="#FFF" font-size="6">BUS A</text>
+  <rect x="550" y="140" width="30" height="15" rx="2" fill="#4CAF50"/>
+  <text x="565" y="150" text-anchor="middle" fill="#FFF" font-size="6">BUS B</text>
+  
+  <!-- ============ RS-485 BUS LINE ============ -->
+  <line x1="100" y1="200" x2="800" y2="200" class="connector-bus" stroke-dasharray="0"/>
+  <text x="450" y="195" text-anchor="middle" fill="#4CAF50" font-size="10" font-weight="bold">RS-485 EXPANSION BUS (9600-115200 bps)</text>
+  
+  <!-- Bus Connection from DDC -->
+  <path d="M 335 155 L 335 200" class="connector-bus"/>
+  <path d="M 565 155 L 565 200" class="connector-bus"/>
+  
+  <!-- ============ EXPANSION MODULES ============ -->
+  
+  <!-- KX-EIO-UI8 (Universal Input) -->
+  <rect x="50" y="230" width="150" height="150" rx="8" class="module" filter="url(#shadow)"/>
+  <rect x="50" y="230" width="150" height="28" rx="8" class="io-ui"/>
+  <text x="125" y="250" text-anchor="middle" class="label-white" font-weight="bold">KX-EIO-UI8</text>
+  
+  <text x="65" y="275" class="label" font-weight="bold">8× Universal Input</text>
+  <text x="65" y="292" class="label-sm">• 0-10V / 4-20mA</text>
+  <text x="65" y="307" class="label-sm">• NTC 10K / PT100</text>
+  <text x="65" y="322" class="label-sm">• Dry Contact</text>
+  <text x="65" y="337" class="label-sm">• 16-bit ADC</text>
+  <text x="65" y="357" class="label-sm" fill="#2196F3">Price: $220</text>
+  <text x="65" y="372" class="label-sm">Addr: 01-08</text>
+  
+  <!-- Connection to bus -->
+  <line x1="125" y1="200" x2="125" y2="230" class="connector-bus" marker-end="url(#arrow-green)"/>
+  
+  <!-- KX-EIO-DI8 (Digital Input) -->
+  <rect x="230" y="230" width="150" height="150" rx="8" class="module" filter="url(#shadow)"/>
+  <rect x="230" y="230" width="150" height="28" rx="8" class="io-di"/>
+  <text x="305" y="250" text-anchor="middle" class="label-white" font-weight="bold">KX-EIO-DI8</text>
+  
+  <text x="245" y="275" class="label" font-weight="bold">8× Digital Input</text>
+  <text x="245" y="292" class="label-sm">• Dry Contact / Wet</text>
+  <text x="245" y="307" class="label-sm">• 24V DC Input</text>
+  <text x="245" y="322" class="label-sm">• Pulse Counter</text>
+  <text x="245" y="337" class="label-sm">• Status/Alarm</text>
+  <text x="245" y="357" class="label-sm" fill="#4CAF50">Price: $180</text>
+  <text x="245" y="372" class="label-sm">Addr: 09-16</text>
+  
+  <line x1="305" y1="200" x2="305" y2="230" class="connector-bus" marker-end="url(#arrow-green)"/>
+  
+  <!-- KX-EIO-DO8 (Digital Output) -->
+  <rect x="410" y="230" width="150" height="150" rx="8" class="module" filter="url(#shadow)"/>
+  <rect x="410" y="230" width="150" height="28" rx="8" class="io-do"/>
+  <text x="485" y="250" text-anchor="middle" class="label-white" font-weight="bold">KX-EIO-DO8</text>
+  
+  <text x="425" y="275" class="label" font-weight="bold">8× Relay Output</text>
+  <text x="425" y="292" class="label-sm">• NO/NC Contact</text>
+  <text x="425" y="307" class="label-sm">• 5A @ 250V AC</text>
+  <text x="425" y="322" class="label-sm">• LED Status</text>
+  <text x="425" y="337" class="label-sm">• Manual Override</text>
+  <text x="425" y="357" class="label-sm" fill="#9C27B0">Price: $250</text>
+  <text x="425" y="372" class="label-sm">Addr: 17-24</text>
+  
+  <line x1="485" y1="200" x2="485" y2="230" class="connector-bus" marker-end="url(#arrow-green)"/>
+  
+  <!-- KX-EIO-AO4 (Analog Output) -->
+  <rect x="590" y="230" width="150" height="150" rx="8" class="module" filter="url(#shadow)"/>
+  <rect x="590" y="230" width="150" height="28" rx="8" class="io-ao"/>
+  <text x="665" y="250" text-anchor="middle" class="label-white" font-weight="bold">KX-EIO-AO4</text>
+  
+  <text x="605" y="275" class="label" font-weight="bold">4× Analog Output</text>
+  <text x="605" y="292" class="label-sm">• 0-10V DC</text>
+  <text x="605" y="307" class="label-sm">• 12-bit DAC</text>
+  <text x="605" y="322" class="label-sm">• VFD/Valve</text>
+  <text x="605" y="337" class="label-sm">• Proportional Ctrl</text>
+  <text x="605" y="357" class="label-sm" fill="#FF9800">Price: $280</text>
+  <text x="605" y="372" class="label-sm">Addr: 25-28</text>
+  
+  <line x1="665" y1="200" x2="665" y2="230" class="connector-bus" marker-end="url(#arrow-green)"/>
+  
+  <!-- KX-EIO-MIX (Mixed I/O) -->
+  <rect x="770" y="230" width="110" height="150" rx="8" class="module" filter="url(#shadow)"/>
+  <rect x="770" y="230" width="110" height="28" rx="8" class="box-accent"/>
+  <text x="825" y="250" text-anchor="middle" class="label-white" font-weight="bold">KX-EIO-MIX</text>
+  
+  <text x="780" y="275" class="label" font-weight="bold">Mixed I/O</text>
+  <text x="780" y="292" class="label-sm">• 4 UI</text>
+  <text x="780" y="307" class="label-sm">• 4 DI</text>
+  <text x="780" y="322" class="label-sm">• 2 DO</text>
+  <text x="780" y="337" class="label-sm">• 2 AO</text>
+  <text x="780" y="357" class="label-sm" fill="#FF6B00">Price: $320</text>
+  <text x="780" y="372" class="label-sm">Addr: 29-32</text>
+  
+  <line x1="825" y1="200" x2="825" y2="230" class="connector-bus" marker-end="url(#arrow-green)"/>
+  
+  <!-- ============ FIELD DEVICES EXAMPLES ============ -->
+  <rect x="50" y="400" width="800" height="130" rx="8" fill="#E8EDF2" stroke="#B8C4D0" filter="url(#shadow)"/>
+  <rect x="50" y="400" width="800" height="25" rx="8" class="box-primary"/>
+  <text x="450" y="418" text-anchor="middle" class="label-white">FIELD DEVICES CONNECTED TO EXPANSION MODULES</text>
+  
+  <!-- UI8 Devices -->
+  <rect x="65" y="435" width="130" height="80" rx="5" fill="#E3F2FD" stroke="#2196F3"/>
+  <text x="130" y="452" text-anchor="middle" class="label" fill="#2196F3" font-weight="bold">← UI8 Inputs</text>
+  <text x="75" y="470" class="label-sm">• Temperature sensors</text>
+  <text x="75" y="485" class="label-sm">• Pressure transducers</text>
+  <text x="75" y="500" class="label-sm">• Flow meters</text>
+  
+  <!-- DI8 Devices -->
+  <rect x="210" y="435" width="130" height="80" rx="5" fill="#E8F5E9" stroke="#4CAF50"/>
+  <text x="275" y="452" text-anchor="middle" class="label" fill="#4CAF50" font-weight="bold">← DI8 Inputs</text>
+  <text x="220" y="470" class="label-sm">• Door contacts</text>
+  <text x="220" y="485" class="label-sm">• Alarms/status</text>
+  <text x="220" y="500" class="label-sm">• Run feedback</text>
+  
+  <!-- DO8 Devices -->
+  <rect x="355" y="435" width="130" height="80" rx="5" fill="#F3E5F5" stroke="#9C27B0"/>
+  <text x="420" y="452" text-anchor="middle" class="label" fill="#9C27B0" font-weight="bold">DO8 Outputs →</text>
+  <text x="365" y="470" class="label-sm">• Fans On/Off</text>
+  <text x="365" y="485" class="label-sm">• Pumps Start/Stop</text>
+  <text x="365" y="500" class="label-sm">• Lighting relays</text>
+  
+  <!-- AO4 Devices -->
+  <rect x="500" y="435" width="130" height="80" rx="5" fill="#FFF3E0" stroke="#FF9800"/>
+  <text x="565" y="452" text-anchor="middle" class="label" fill="#FF9800" font-weight="bold">AO4 Outputs →</text>
+  <text x="510" y="470" class="label-sm">• VFD speed</text>
+  <text x="510" y="485" class="label-sm">• Valve position</text>
+  <text x="510" y="500" class="label-sm">• Damper actuator</text>
+  
+  <!-- Config Summary -->
+  <rect x="645" y="435" width="190" height="80" rx="5" fill="#FFF" stroke="#0A2240"/>
+  <text x="740" y="452" text-anchor="middle" class="label" font-weight="bold">EXAMPLE CONFIG</text>
+  <text x="655" y="470" class="label-sm">DDC-64: 64 points (built-in)</text>
+  <text x="655" y="485" class="label-sm">+ 3×UI8: 24 UI points</text>
+  <text x="655" y="500" class="label-sm">+ 2×DO8: 16 DO points</text>
+  <text x="655" y="515" class="label-sm" font-weight="bold">= Total: 104 I/O points</text>
+  
+</svg>

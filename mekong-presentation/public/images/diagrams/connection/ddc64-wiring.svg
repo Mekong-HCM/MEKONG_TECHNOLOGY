@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" width="900" height="700">
+  <defs>
+    <style>
+      .title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 18px; font-weight: 600; fill: #0A2240; }
+      .subtitle { font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; fill: #555; }
+      .label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; fill: #333; }
+      .label-white { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; fill: #FFF; }
+      .label-sm { font-family: 'Segoe UI', Arial, sans-serif; font-size: 9px; fill: #666; }
+      .label-xs { font-family: 'Segoe UI', Arial, sans-serif; font-size: 8px; fill: #888; }
+      .label-terminal { font-family: 'Consolas', monospace; font-size: 7px; fill: #333; }
+      .box-primary { fill: #0A2240; }
+      .box-accent { fill: #FF6B00; }
+      .terminal-block { fill: #E5E5E5; stroke: #999; stroke-width: 1; }
+      .terminal { fill: #333; }
+      .wire-ai { stroke: #2196F3; stroke-width: 1.5; fill: none; }
+      .wire-di { stroke: #4CAF50; stroke-width: 1.5; fill: none; }
+      .wire-ao { stroke: #FF9800; stroke-width: 1.5; fill: none; }
+      .wire-do { stroke: #9C27B0; stroke-width: 1.5; fill: none; }
+      .wire-power { stroke: #F44336; stroke-width: 2; fill: none; }
+      .wire-com { stroke: #607D8B; stroke-width: 1.5; fill: none; }
+    </style>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FAFBFC"/>
+      <stop offset="100%" style="stop-color:#EEF1F5"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="700" fill="url(#bgGrad)"/>
+  
+  <!-- Title -->
+  <text x="450" y="30" text-anchor="middle" class="title">KX-DDC-64 WIRING DIAGRAM</text>
+  <text x="450" y="48" text-anchor="middle" class="subtitle">64-Point DDC Controller — Terminal Block Configuration</text>
+  
+  <!-- CONTROLLER MAIN BODY -->
+  <rect x="250" y="70" width="400" height="550" rx="8" class="box-primary" filter="url(#shadow)"/>
+  
+  <!-- Orange Accent -->
+  <rect x="250" y="78" width="400" height="15" class="box-accent"/>
+  
+  <!-- Product Label -->
+  <rect x="350" y="105" width="200" height="40" rx="5" fill="#1A3A5C"/>
+  <text x="450" y="130" text-anchor="middle" class="label-white" font-size="16" font-weight="600">KX-DDC-64</text>
+  
+  <!-- Display -->
+  <rect x="380" y="155" width="140" height="50" rx="4" fill="#1A1A2E"/>
+  <text x="450" y="178" text-anchor="middle" fill="#4CAF50" font-family="Consolas" font-size="10">ROOM TEMP: 24.5°C</text>
+  <text x="450" y="195" text-anchor="middle" fill="#00BCD4" font-family="Consolas" font-size="9">SETPOINT: 25.0°C</text>
+  
+  <!-- STATUS LEDs -->
+  <circle cx="280" cy="130" r="5" fill="#4CAF50"/>
+  <circle cx="295" cy="130" r="5" fill="#4CAF50"/>
+  <circle cx="310" cy="130" r="5" fill="#FFC107"/>
+  <text x="295" cy="145" text-anchor="middle" class="label-xs" fill="#AAA">PWR RUN COM</text>
+  
+  <!-- ===== LEFT SIDE: Universal Inputs (UI) ===== -->
+  <rect x="255" y="220" width="80" height="330" rx="4" class="terminal-block"/>
+  <rect x="255" y="220" width="80" height="20" rx="4" fill="#2196F3"/>
+  <text x="295" y="234" text-anchor="middle" class="label-white" font-size="9">UNIVERSAL INPUTS</text>
+  
+  <!-- UI Terminals 1-24 -->
+  <g transform="translate(260, 248)">
+    <!-- UI 1-8 -->
+    <rect x="0" y="0" width="70" height="12" class="terminal"/>
+    <text x="5" y="9" class="label-terminal" fill="#FFF">UI1  ●────</text>
+    <rect x="0" y="15" width="70" height="12" class="terminal"/>
+    <text x="5" y="24" class="label-terminal" fill="#FFF">UI2  ●────</text>
+    <rect x="0" y="30" width="70" height="12" class="terminal"/>
+    <text x="5" y="39" class="label-terminal" fill="#FFF">UI3  ●────</text>
+    <rect x="0" y="45" width="70" height="12" class="terminal"/>
+    <text x="5" y="54" class="label-terminal" fill="#FFF">UI4  ●────</text>
+    <rect x="0" y="60" width="70" height="12" class="terminal"/>
+    <text x="5" y="69" class="label-terminal" fill="#FFF">UI5  ●────</text>
+    <rect x="0" y="75" width="70" height="12" class="terminal"/>
+    <text x="5" y="84" class="label-terminal" fill="#FFF">UI6  ●────</text>
+    <rect x="0" y="90" width="70" height="12" class="terminal"/>
+    <text x="5" y="99" class="label-terminal" fill="#FFF">UI7  ●────</text>
+    <rect x="0" y="105" width="70" height="12" class="terminal"/>
+    <text x="5" y="114" class="label-terminal" fill="#FFF">UI8  ●────</text>
+    
+    <!-- Common -->
+    <rect x="0" y="122" width="70" height="10" fill="#607D8B"/>
+    <text x="5" y="130" class="label-terminal" fill="#FFF">COM ●────</text>
+    
+    <!-- UI 9-16 -->
+    <rect x="0" y="137" width="70" height="12" class="terminal"/>
+    <text x="5" y="146" class="label-terminal" fill="#FFF">UI9  ●────</text>
+    <rect x="0" y="152" width="70" height="12" class="terminal"/>
+    <text x="5" y="161" class="label-terminal" fill="#FFF">UI10 ●────</text>
+    <rect x="0" y="167" width="70" height="12" class="terminal"/>
+    <text x="5" y="176" class="label-terminal" fill="#FFF">UI11 ●────</text>
+    <rect x="0" y="182" width="70" height="12" class="terminal"/>
+    <text x="5" y="191" class="label-terminal" fill="#FFF">UI12 ●────</text>
+    <rect x="0" y="197" width="70" height="12" class="terminal"/>
+    <text x="5" y="206" class="label-terminal" fill="#FFF">UI13 ●────</text>
+    <rect x="0" y="212" width="70" height="12" class="terminal"/>
+    <text x="5" y="221" class="label-terminal" fill="#FFF">UI14 ●────</text>
+    <rect x="0" y="227" width="70" height="12" class="terminal"/>
+    <text x="5" y="236" class="label-terminal" fill="#FFF">UI15 ●────</text>
+    <rect x="0" y="242" width="70" height="12" class="terminal"/>
+    <text x="5" y="251" class="label-terminal" fill="#FFF">UI16 ●────</text>
+    
+    <!-- Common -->
+    <rect x="0" y="259" width="70" height="10" fill="#607D8B"/>
+    <text x="5" y="267" class="label-terminal" fill="#FFF">COM ●────</text>
+    
+    <!-- UI 17-24 -->
+    <rect x="0" y="274" width="70" height="12" class="terminal"/>
+    <text x="5" y="283" class="label-terminal" fill="#FFF">UI17 ●────</text>
+    <rect x="0" y="289" width="70" height="12" class="terminal"/>
+    <text x="5" y="298" class="label-terminal" fill="#FFF">UI18 ●────</text>
+  </g>
+  
+  <!-- ===== RIGHT SIDE: Digital I/O ===== -->
+  <rect x="565" y="220" width="80" height="200" rx="4" class="terminal-block"/>
+  <rect x="565" y="220" width="80" height="20" rx="4" fill="#4CAF50"/>
+  <text x="605" y="234" text-anchor="middle" class="label-white" font-size="9">DIGITAL I/O</text>
+  
+  <!-- DI Terminals -->
+  <g transform="translate(570, 248)">
+    <rect x="0" y="0" width="70" height="12" class="terminal"/>
+    <text x="5" y="9" class="label-terminal" fill="#FFF">DI1  ●────</text>
+    <rect x="0" y="15" width="70" height="12" class="terminal"/>
+    <text x="5" y="24" class="label-terminal" fill="#FFF">DI2  ●────</text>
+    <rect x="0" y="30" width="70" height="12" class="terminal"/>
+    <text x="5" y="39" class="label-terminal" fill="#FFF">DI3  ●────</text>
+    <rect x="0" y="45" width="70" height="12" class="terminal"/>
+    <text x="5" y="54" class="label-terminal" fill="#FFF">DI4  ●────</text>
+    <rect x="0" y="60" width="70" height="12" class="terminal"/>
+    <text x="5" y="69" class="label-terminal" fill="#FFF">DI5  ●────</text>
+    <rect x="0" y="75" width="70" height="12" class="terminal"/>
+    <text x="5" y="84" class="label-terminal" fill="#FFF">DI6  ●────</text>
+    <rect x="0" y="90" width="70" height="12" class="terminal"/>
+    <text x="5" y="99" class="label-terminal" fill="#FFF">DI7  ●────</text>
+    <rect x="0" y="105" width="70" height="12" class="terminal"/>
+    <text x="5" y="114" class="label-terminal" fill="#FFF">DI8  ●────</text>
+    
+    <rect x="0" y="122" width="70" height="10" fill="#607D8B"/>
+    <text x="5" y="130" class="label-terminal" fill="#FFF">COM ●────</text>
+    
+    <rect x="0" y="137" width="70" height="12" fill="#9C27B0"/>
+    <text x="5" y="146" class="label-terminal" fill="#FFF">DO1  ●────</text>
+    <rect x="0" y="152" width="70" height="12" fill="#9C27B0"/>
+    <text x="5" y="161" class="label-terminal" fill="#FFF">DO2  ●────</text>
+    <rect x="0" y="167" width="70" height="12" fill="#9C27B0"/>
+    <text x="5" y="176" class="label-terminal" fill="#FFF">DO3  ●────</text>
+  </g>
+  
+  <!-- ===== BOTTOM: Analog Outputs ===== -->
+  <rect x="340" y="530" width="220" height="45" rx="4" class="terminal-block"/>
+  <rect x="340" y="530" width="220" height="18" rx="4" fill="#FF9800"/>
+  <text x="450" y="543" text-anchor="middle" class="label-white" font-size="9">ANALOG OUTPUTS (0-10V)</text>
+  
+  <g transform="translate(350, 552)">
+    <rect x="0" y="0" width="45" height="15" class="terminal"/>
+    <text x="22" y="11" text-anchor="middle" class="label-terminal" fill="#FFF">AO1</text>
+    <rect x="50" y="0" width="45" height="15" class="terminal"/>
+    <text x="72" y="11" text-anchor="middle" class="label-terminal" fill="#FFF">AO2</text>
+    <rect x="100" y="0" width="45" height="15" class="terminal"/>
+    <text x="122" y="11" text-anchor="middle" class="label-terminal" fill="#FFF">AO3</text>
+    <rect x="150" y="0" width="45" height="15" class="terminal"/>
+    <text x="172" y="11" text-anchor="middle" class="label-terminal" fill="#FFF">AO4</text>
+  </g>
+  
+  <!-- ===== COMMUNICATION ===== -->
+  <rect x="340" y="585" width="220" height="30" rx="4" fill="#607D8B"/>
+  <text x="380" y="604" text-anchor="middle" class="label-white" font-size="9">RS485</text>
+  <text x="450" y="604" text-anchor="middle" class="label-white" font-size="9">ETH</text>
+  <text x="520" y="604" text-anchor="middle" class="label-white" font-size="9">USB</text>
+  
+  <!-- ===== POWER ===== -->
+  <rect x="420" y="470" width="60" height="45" rx="4" fill="#F44336"/>
+  <text x="450" y="488" text-anchor="middle" class="label-white" font-size="9">POWER</text>
+  <text x="450" y="502" text-anchor="middle" class="label-white" font-size="8">24V AC/DC</text>
+  
+  <!-- ===== LEFT SIDE DEVICES ===== -->
+  
+  <!-- Temperature Sensors -->
+  <rect x="30" y="250" width="110" height="70" rx="5" fill="#FFF" stroke="#2196F3" stroke-width="2" filter="url(#shadow)"/>
+  <text x="85" y="268" text-anchor="middle" class="label" fill="#2196F3">Temperature</text>
+  <text x="85" y="285" text-anchor="middle" class="label-sm">NTC 10K</text>
+  <text x="85" y="300" text-anchor="middle" class="label-xs">Zone 1-4</text>
+  <text x="85" y="312" text-anchor="middle" class="label-xs">UI1-UI4</text>
+  
+  <!-- Wires UI -->
+  <path d="M140 280 L250 280" class="wire-ai"/>
+  
+  <!-- Humidity Sensors -->
+  <rect x="30" y="340" width="110" height="60" rx="5" fill="#FFF" stroke="#2196F3" stroke-width="2" filter="url(#shadow)"/>
+  <text x="85" y="358" text-anchor="middle" class="label" fill="#2196F3">Humidity</text>
+  <text x="85" y="375" text-anchor="middle" class="label-sm">0-10V</text>
+  <text x="85" y="390" text-anchor="middle" class="label-xs">UI5-UI8</text>
+  
+  <path d="M140 370 L250 370" class="wire-ai"/>
+  
+  <!-- CO2 Sensors -->
+  <rect x="30" y="420" width="110" height="60" rx="5" fill="#FFF" stroke="#2196F3" stroke-width="2" filter="url(#shadow)"/>
+  <text x="85" y="438" text-anchor="middle" class="label" fill="#2196F3">CO2 Sensor</text>
+  <text x="85" y="455" text-anchor="middle" class="label-sm">4-20mA</text>
+  <text x="85" y="470" text-anchor="middle" class="label-xs">UI9-UI12</text>
+  
+  <path d="M140 450 L250 450" class="wire-ai"/>
+  
+  <!-- ===== RIGHT SIDE DEVICES ===== -->
+  
+  <!-- Status Inputs -->
+  <rect x="760" y="250" width="110" height="70" rx="5" fill="#FFF" stroke="#4CAF50" stroke-width="2" filter="url(#shadow)"/>
+  <text x="815" y="268" text-anchor="middle" class="label" fill="#4CAF50">Status Inputs</text>
+  <text x="815" y="285" text-anchor="middle" class="label-sm">Dry Contact</text>
+  <text x="815" y="300" text-anchor="middle" class="label-xs">Fan Status</text>
+  <text x="815" y="312" text-anchor="middle" class="label-xs">DI1-DI4</text>
+  
+  <path d="M650 280 L760 280" class="wire-di"/>
+  
+  <!-- Alarms -->
+  <rect x="760" y="340" width="110" height="60" rx="5" fill="#FFF" stroke="#4CAF50" stroke-width="2" filter="url(#shadow)"/>
+  <text x="815" y="358" text-anchor="middle" class="label" fill="#4CAF50">Alarm Inputs</text>
+  <text x="815" y="375" text-anchor="middle" class="label-sm">Filter, Freeze</text>
+  <text x="815" y="390" text-anchor="middle" class="label-xs">DI5-DI8</text>
+  
+  <path d="M650 360 L760 360" class="wire-di"/>
+  
+  <!-- Relay Outputs -->
+  <rect x="760" y="420" width="110" height="60" rx="5" fill="#FFF" stroke="#9C27B0" stroke-width="2" filter="url(#shadow)"/>
+  <text x="815" y="438" text-anchor="middle" class="label" fill="#9C27B0">Relay Outputs</text>
+  <text x="815" y="455" text-anchor="middle" class="label-sm">Fan On/Off</text>
+  <text x="815" y="470" text-anchor="middle" class="label-xs">DO1-DO3</text>
+  
+  <path d="M650 440 L760 440" class="wire-do"/>
+  
+  <!-- ===== BOTTOM DEVICES ===== -->
+  
+  <!-- Damper Actuators -->
+  <rect x="280" y="635" width="130" height="50" rx="5" fill="#FFF" stroke="#FF9800" stroke-width="2" filter="url(#shadow)"/>
+  <text x="345" y="655" text-anchor="middle" class="label" fill="#FF9800">Damper Actuators</text>
+  <text x="345" y="672" text-anchor="middle" class="label-sm">0-10V → AO1-AO2</text>
+  
+  <path d="M345 575 L345 635" class="wire-ao"/>
+  
+  <!-- Valve Actuators -->
+  <rect x="490" y="635" width="130" height="50" rx="5" fill="#FFF" stroke="#FF9800" stroke-width="2" filter="url(#shadow)"/>
+  <text x="555" y="655" text-anchor="middle" class="label" fill="#FF9800">Valve Actuators</text>
+  <text x="555" y="672" text-anchor="middle" class="label-sm">0-10V → AO3-AO4</text>
+  
+  <path d="M555 575 L555 635" class="wire-ao"/>
+  
+  <!-- Legend -->
+  <rect x="30" y="520" width="180" height="100" rx="5" fill="#FFF" stroke="#DDD" filter="url(#shadow)"/>
+  <text x="120" y="540" text-anchor="middle" class="label">Wire Color Legend</text>
+  <line x1="45" y1="555" x2="75" y2="555" class="wire-ai" stroke-width="3"/>
+  <text x="80" y="559" class="label-sm">Analog Input (0-10V, 4-20mA)</text>
+  <line x1="45" y1="575" x2="75" y2="575" class="wire-di" stroke-width="3"/>
+  <text x="80" y="579" class="label-sm">Digital Input (Dry Contact)</text>
+  <line x1="45" y1="595" x2="75" y2="595" class="wire-ao" stroke-width="3"/>
+  <text x="80" y="599" class="label-sm">Analog Output (0-10V)</text>
+  <line x1="45" y1="615" x2="75" y2="615" class="wire-do" stroke-width="3"/>
+  <text x="80" y="619" class="label-sm">Digital Output (Relay)</text>
+  
+</svg>

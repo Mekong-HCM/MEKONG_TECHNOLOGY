@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <defs>
+    <style>
+      .title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 18px; font-weight: 600; fill: #0A2240; }
+      .subtitle { font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; fill: #555; }
+      .label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; fill: #333; }
+      .label-white { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; fill: #FFF; }
+      .label-sm { font-family: 'Segoe UI', Arial, sans-serif; font-size: 9px; fill: #666; }
+      .box-primary { fill: #0A2240; stroke: none; }
+      .box-accent { fill: #FF6B00; stroke: none; }
+      .box-light { fill: #E8EDF2; stroke: #B8C4D0; stroke-width: 1; }
+      .box-white { fill: #FFFFFF; stroke: #D0D8E0; stroke-width: 1; }
+      .connector { stroke: #0A2240; stroke-width: 2; fill: none; }
+      .connector-data { stroke: #FF6B00; stroke-width: 2; fill: none; stroke-dasharray: 6,3; }
+      .protocol-tag { fill: #4CAF50; }
+      .cloud-tag { fill: #2196F3; }
+    </style>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FAFBFC"/>
+      <stop offset="100%" style="stop-color:#EEF1F5"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#0A2240"/>
+    </marker>
+    <marker id="arrow-orange" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#FF6B00"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="600" fill="url(#bgGrad)"/>
+  
+  <!-- Title -->
+  <text x="450" y="35" text-anchor="middle" class="title">IoT GATEWAY SYSTEM ARCHITECTURE</text>
+  <text x="450" y="52" text-anchor="middle" class="subtitle">KX-200 / KX-300 Industrial IoT Gateway Integration</text>
+  
+  <!-- FIELD LAYER -->
+  <rect x="30" y="80" width="200" height="200" rx="8" class="box-light" filter="url(#shadow)"/>
+  <rect x="30" y="80" width="200" height="28" rx="8" class="box-primary"/>
+  <rect x="30" y="100" width="200" height="8" class="box-primary"/>
+  <text x="130" y="98" text-anchor="middle" class="label-white">FIELD DEVICES</text>
+  
+  <!-- Field devices -->
+  <rect x="50" y="125" width="70" height="45" rx="5" class="box-white" filter="url(#shadow)"/>
+  <text x="85" y="145" text-anchor="middle" class="label-sm">Modbus RTU</text>
+  <text x="85" y="158" text-anchor="middle" class="label">Sensors</text>
+  
+  <rect x="140" y="125" width="70" height="45" rx="5" class="box-white" filter="url(#shadow)"/>
+  <text x="175" y="145" text-anchor="middle" class="label-sm">BACnet MS/TP</text>
+  <text x="175" y="158" text-anchor="middle" class="label">HVAC</text>
+  
+  <rect x="50" y="185" width="70" height="45" rx="5" class="box-white" filter="url(#shadow)"/>
+  <text x="85" y="205" text-anchor="middle" class="label-sm">Analog 4-20mA</text>
+  <text x="85" y="218" text-anchor="middle" class="label">Meters</text>
+  
+  <rect x="140" y="185" width="70" height="45" rx="5" class="box-white" filter="url(#shadow)"/>
+  <text x="175" y="205" text-anchor="middle" class="label-sm">Digital I/O</text>
+  <text x="175" y="218" text-anchor="middle" class="label">PLCs</text>
+  
+  <!-- Protocol tags -->
+  <rect x="50" y="245" width="50" height="18" rx="9" class="protocol-tag"/>
+  <text x="75" y="258" text-anchor="middle" class="label-white" font-size="9">RS-485</text>
+  <rect x="110" y="245" width="50" height="18" rx="9" class="protocol-tag"/>
+  <text x="135" y="258" text-anchor="middle" class="label-white" font-size="9">RS-232</text>
+  <rect x="170" y="245" width="50" height="18" rx="9" class="protocol-tag"/>
+  <text x="195" y="258" text-anchor="middle" class="label-white" font-size="9">DI/DO</text>
+  
+  <!-- GATEWAY LAYER -->
+  <rect x="290" y="80" width="320" height="200" rx="8" class="box-light" filter="url(#shadow)"/>
+  <rect x="290" y="80" width="320" height="28" rx="8" class="box-accent"/>
+  <rect x="290" y="100" width="320" height="8" class="box-accent"/>
+  <text x="450" y="98" text-anchor="middle" class="label-white">MEKONG IoT GATEWAY</text>
+  
+  <!-- Gateway Main Block -->
+  <rect x="350" y="130" width="200" height="130" rx="8" class="box-primary" filter="url(#shadow)"/>
+  
+  <!-- Gateway internals -->
+  <rect x="365" y="145" width="80" height="35" rx="4" fill="#1A3A5C"/>
+  <text x="405" y="160" text-anchor="middle" class="label-white" font-size="9">PROCESSOR</text>
+  <text x="405" y="173" text-anchor="middle" class="label-white" font-size="8">i.MX8M / Orin</text>
+  
+  <rect x="455" y="145" width="80" height="35" rx="4" fill="#1A3A5C"/>
+  <text x="495" y="160" text-anchor="middle" class="label-white" font-size="9">EDGE AI</text>
+  <text x="495" y="173" text-anchor="middle" class="label-white" font-size="8">2–40 TOPS</text>
+  
+  <rect x="365" y="190" width="80" height="30" rx="4" fill="#1A3A5C"/>
+  <text x="405" y="208" text-anchor="middle" class="label-white" font-size="9">PROTOCOL</text>
+  
+  <rect x="455" y="190" width="80" height="30" rx="4" fill="#1A3A5C"/>
+  <text x="495" y="208" text-anchor="middle" class="label-white" font-size="9">SECURITY</text>
+  
+  <rect x="365" y="228" width="170" height="22" rx="4" fill="#FF6B00"/>
+  <text x="450" y="243" text-anchor="middle" class="label-white" font-size="9">KX-200 | KX-300</text>
+  
+  <!-- Model indicators -->
+  <rect x="305" y="145" width="35" height="50" rx="4" class="box-white"/>
+  <text x="322" y="165" text-anchor="middle" class="label-sm">4×</text>
+  <text x="322" y="178" text-anchor="middle" class="label-sm">RS485</text>
+  <text x="322" y="190" text-anchor="middle" class="label-sm" fill="#0A2240">KX-200</text>
+  
+  <rect x="305" y="205" width="35" height="50" rx="4" class="box-white"/>
+  <text x="322" y="225" text-anchor="middle" class="label-sm">6×</text>
+  <text x="322" y="238" text-anchor="middle" class="label-sm">RS485</text>
+  <text x="322" y="250" text-anchor="middle" class="label-sm" fill="#FF6B00">KX-300</text>
+  
+  <!-- Connectivity -->
+  <rect x="560" y="145" width="35" height="25" rx="4" class="box-white"/>
+  <text x="577" y="161" text-anchor="middle" class="label-sm">GbE</text>
+  
+  <rect x="560" y="180" width="35" height="25" rx="4" class="box-white"/>
+  <text x="577" y="196" text-anchor="middle" class="label-sm">WiFi 6</text>
+  
+  <rect x="560" y="215" width="35" height="25" rx="4" class="box-white"/>
+  <text x="577" y="231" text-anchor="middle" class="label-sm">5G</text>
+  
+  <!-- CLOUD LAYER -->
+  <rect x="670" y="80" width="200" height="200" rx="8" class="box-light" filter="url(#shadow)"/>
+  <rect x="670" y="80" width="200" height="28" rx="8" class="cloud-tag"/>
+  <rect x="670" y="100" width="200" height="8" class="cloud-tag"/>
+  <text x="770" y="98" text-anchor="middle" class="label-white">CLOUD / SERVER</text>
+  
+  <!-- Cloud services -->
+  <rect x="690" y="125" width="160" height="40" rx="5" class="box-white" filter="url(#shadow)"/>
+  <text x="770" y="145" text-anchor="middle" class="label">KinexusBMS Platform</text>
+  <text x="770" y="158" text-anchor="middle" class="label-sm">Building Management</text>
+  
+  <rect x="690" y="175" width="160" height="40" rx="5" class="box-white" filter="url(#shadow)"/>
+  <text x="770" y="195" text-anchor="middle" class="label">KinexusSCADA</text>
+  <text x="770" y="208" text-anchor="middle" class="label-sm">Industrial Monitoring</text>
+  
+  <rect x="690" y="225" width="75" height="35" rx="5" class="box-white" filter="url(#shadow)"/>
+  <text x="727" y="247" text-anchor="middle" class="label-sm">AWS IoT</text>
+  
+  <rect x="775" y="225" width="75" height="35" rx="5" class="box-white" filter="url(#shadow)"/>
+  <text x="812" y="247" text-anchor="middle" class="label-sm">Azure IoT</text>
+  
+  <!-- Connectors Field → Gateway -->
+  <path d="M230 170 L280 170" class="connector" marker-end="url(#arrow)"/>
+  <path d="M230 210 L280 210" class="connector" marker-end="url(#arrow)"/>
+  
+  <!-- Connectors Gateway → Cloud -->
+  <path d="M610 170 L660 170" class="connector-data" marker-end="url(#arrow-orange)"/>
+  <path d="M610 195 L660 195" class="connector-data" marker-end="url(#arrow-orange)"/>
+  
+  <!-- DATA FLOW SECTION -->
+  <rect x="30" y="310" width="840" height="120" rx="8" class="box-light" filter="url(#shadow)"/>
+  <text x="450" y="335" text-anchor="middle" class="title" font-size="14">DATA PROCESSING PIPELINE</text>
+  
+  <!-- Flow boxes -->
+  <rect x="60" y="355" width="130" height="55" rx="6" class="box-primary"/>
+  <text x="125" y="377" text-anchor="middle" class="label-white">DATA COLLECTION</text>
+  <text x="125" y="393" text-anchor="middle" class="label-white" font-size="9">Polling / Event-based</text>
+  
+  <rect x="220" y="355" width="130" height="55" rx="6" class="box-primary"/>
+  <text x="285" y="377" text-anchor="middle" class="label-white">PROTOCOL CONVERT</text>
+  <text x="285" y="393" text-anchor="middle" class="label-white" font-size="9">Modbus → MQTT</text>
+  
+  <rect x="380" y="355" width="130" height="55" rx="6" class="box-accent"/>
+  <text x="445" y="377" text-anchor="middle" class="label-white">EDGE PROCESSING</text>
+  <text x="445" y="393" text-anchor="middle" class="label-white" font-size="9">Filter / Aggregate / AI</text>
+  
+  <rect x="540" y="355" width="130" height="55" rx="6" class="box-primary"/>
+  <text x="605" y="377" text-anchor="middle" class="label-white">SECURE TRANSMIT</text>
+  <text x="605" y="393" text-anchor="middle" class="label-white" font-size="9">TLS 1.3 / VPN</text>
+  
+  <rect x="700" y="355" width="130" height="55" rx="6" class="cloud-tag"/>
+  <text x="765" y="377" text-anchor="middle" class="label-white">CLOUD ANALYTICS</text>
+  <text x="765" y="393" text-anchor="middle" class="label-white" font-size="9">Dashboard / Alert</text>
+  
+  <!-- Flow arrows -->
+  <path d="M190 382 L210 382" class="connector" marker-end="url(#arrow)"/>
+  <path d="M350 382 L370 382" class="connector" marker-end="url(#arrow)"/>
+  <path d="M510 382 L530 382" class="connector-data" marker-end="url(#arrow-orange)"/>
+  <path d="M670 382 L690 382" class="connector-data" marker-end="url(#arrow-orange)"/>
+  
+  <!-- KEY FEATURES -->
+  <rect x="30" y="450" width="265" height="130" rx="8" class="box-white" filter="url(#shadow)"/>
+  <rect x="30" y="450" width="265" height="25" rx="8" class="box-primary"/>
+  <rect x="30" y="468" width="265" height="7" class="box-primary"/>
+  <text x="162" y="468" text-anchor="middle" class="label-white">KEY FEATURES</text>
+  
+  <text x="45" y="495" class="label">• Multi-protocol support (Modbus, BACnet, OPC UA)</text>
+  <text x="45" y="515" class="label">• Edge AI inference 2–40 TOPS</text>
+  <text x="45" y="535" class="label">• Industrial grade -40°C to +85°C</text>
+  <text x="45" y="555" class="label">• 5G/WiFi 6/Ethernet connectivity</text>
+  <text x="45" y="575" class="label">• OTA firmware update</text>
+  
+  <!-- SPECIFICATIONS -->
+  <rect x="320" y="450" width="265" height="130" rx="8" class="box-white" filter="url(#shadow)"/>
+  <rect x="320" y="450" width="265" height="25" rx="8" class="box-accent"/>
+  <rect x="320" y="468" width="265" height="7" class="box-accent"/>
+  <text x="452" y="468" text-anchor="middle" class="label-white">SPECIFICATIONS</text>
+  
+  <text x="335" y="495" class="label">KX-200: ARM i.MX8M, 4GB RAM, 4×RS485</text>
+  <text x="335" y="515" class="label">KX-300: Jetson Orin, 8GB RAM, 6×RS485</text>
+  <text x="335" y="535" class="label">Power: 12-48V DC, 15-35W max</text>
+  <text x="335" y="555" class="label">Protocols: MQTT, HTTP, Modbus TCP/RTU</text>
+  <text x="335" y="575" class="label">Security: TLS 1.3, TPM 2.0, Secure Boot</text>
+  
+  <!-- APPLICATIONS -->
+  <rect x="610" y="450" width="260" height="130" rx="8" class="box-white" filter="url(#shadow)"/>
+  <rect x="610" y="450" width="260" height="25" rx="8" class="cloud-tag"/>
+  <rect x="610" y="468" width="260" height="7" class="cloud-tag"/>
+  <text x="740" y="468" text-anchor="middle" class="label-white">APPLICATIONS</text>
+  
+  <text x="625" y="495" class="label">• Smart Building & BMS</text>
+  <text x="625" y="515" class="label">• Factory Automation & SCADA</text>
+  <text x="625" y="535" class="label">• Energy Management</text>
+  <text x="625" y="555" class="label">• Predictive Maintenance</text>
+  <text x="625" y="575" class="label">• Fleet & Asset Tracking</text>
+  
+</svg>

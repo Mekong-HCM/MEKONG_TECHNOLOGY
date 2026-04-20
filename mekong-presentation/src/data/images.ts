@@ -8,7 +8,7 @@ export interface ImageAsset {
     id: string;
     src: string;
     alt: string;
-    category: 'cnc' | 'iot' | 'dc' | 'location' | 'brand' | 'esg' | 'products' | 'robot' | 'dashboard' | 'factory';
+    category: 'cnc' | 'iot' | 'dc' | 'location' | 'brand' | 'esg' | 'products' | 'robot' | 'dashboard' | 'factory' | 'software' | 'diagram';
     color: string;
     width: number;
     height: number;
@@ -72,4 +72,74 @@ export const images: Record<string, ImageAsset> = {
 
     // Brand / Logo
     'kinexus-logo': { id: 'kinexus-logo', src: `${b}/images/brand/kinexus-logo.png`, alt: 'KINEXUS Technologies — logo ngang nền đen', category: 'brand', color: '#FFFFFF', width: 400, height: 100 },
+
+    // === DDC Controllers ===
+    'kx-ddc-24': { id: 'kx-ddc-24', src: `${b}/images/products/ddc/kx-ddc-24.png`, alt: 'KX-DDC-24 — Bộ điều khiển DDC 24 điểm', category: 'products', color: '#00BCD4', width: 800, height: 600 },
+    'kx-ddc-24-hero': { id: 'kx-ddc-24-hero', src: `${b}/images/products/ddc/kx-ddc-24-hero.png`, alt: 'KX-DDC-24 Hero — DDC 24 điểm góc nghiêng', category: 'products', color: '#00BCD4', width: 800, height: 600 },
+    'kx-ddc-32': { id: 'kx-ddc-32', src: `${b}/images/products/ddc/kx-ddc-32.png`, alt: 'KX-DDC-32 — Bộ điều khiển DDC 32 điểm', category: 'products', color: '#00BCD4', width: 800, height: 600 },
+    'kx-ddc-32-hero': { id: 'kx-ddc-32-hero', src: `${b}/images/products/ddc/kx-ddc-32-hero.png`, alt: 'KX-DDC-32 Hero — DDC 32 điểm góc nghiêng', category: 'products', color: '#00BCD4', width: 800, height: 600 },
+    'kx-ddc-64': { id: 'kx-ddc-64', src: `${b}/images/products/ddc/kx-ddc-64.png`, alt: 'KX-DDC-64 — Bộ điều khiển DDC 64 điểm', category: 'products', color: '#00BCD4', width: 800, height: 600 },
+    'ddc-system': { id: 'ddc-system', src: `${b}/images/products/ddc/ddc-system.png`, alt: 'Sơ đồ hệ thống DDC — kết nối BMS tổng quan', category: 'products', color: '#00BCD4', width: 1200, height: 800 },
+    'ddc-selection-guide': { id: 'ddc-selection-guide', src: `${b}/images/products/ddc/ddc-selection-guide.png`, alt: 'Hướng dẫn chọn DDC theo quy mô dự án', category: 'products', color: '#00BCD4', width: 1000, height: 700 },
+    'kx-ddc-24-wiring': { id: 'kx-ddc-24-wiring', src: `${b}/images/products/ddc/kx-ddc-24-wiring.png`, alt: 'Sơ đồ đấu nối KX-DDC-24', category: 'products', color: '#00BCD4', width: 1000, height: 700 },
+    'kx-ddc-32-wiring': { id: 'kx-ddc-32-wiring', src: `${b}/images/products/ddc/kx-ddc-32-wiring.png`, alt: 'Sơ đồ đấu nối KX-DDC-32', category: 'products', color: '#00BCD4', width: 1000, height: 700 },
+    'kx-ddc-64-wiring': { id: 'kx-ddc-64-wiring', src: `${b}/images/products/ddc/kx-ddc-64-wiring.png`, alt: 'Sơ đồ đấu nối KX-DDC-64', category: 'products', color: '#00BCD4', width: 1000, height: 700 },
+
+    // === Module I/O ===
+    'kx-eio-di16': { id: 'kx-eio-di16', src: `${b}/images/products/module-io/kx-eio-di16.png`, alt: 'KX-EIO-DI16 — Module 16 Digital Input', category: 'products', color: '#00BCD4', width: 800, height: 600 },
+    'kx-eio-di16-render': { id: 'kx-eio-di16-render', src: `${b}/images/products/module-io/kx-eio-di16-render.png`, alt: 'KX-EIO-DI16 render 3D chi tiết', category: 'products', color: '#00BCD4', width: 800, height: 600 },
+    'module-8di-8do': { id: 'module-8di-8do', src: `${b}/images/products/module-io/module-8di-8do.png`, alt: 'Module I/O 8DI + 8DO Modbus TCP', category: 'products', color: '#00BCD4', width: 800, height: 600 },
+    'ck-3083e': { id: 'ck-3083e', src: `${b}/images/products/module-io/ck-3083e.jpg`, alt: 'CK-3083E — Module I/O DIN-rail thực tế', category: 'products', color: '#00BCD4', width: 800, height: 600 },
+    'ck-3083r': { id: 'ck-3083r', src: `${b}/images/products/module-io/ck-3083r.jpg`, alt: 'CK-3083R — Module I/O DIN-rail RTU', category: 'products', color: '#00BCD4', width: 800, height: 600 },
+    'ck-7041r': { id: 'ck-7041r', src: `${b}/images/products/module-io/ck-7041r.jpg`, alt: 'CK-7041R — Module DI 4 kênh DIN-rail', category: 'products', color: '#00BCD4', width: 800, height: 600 },
+    'ck-7082r': { id: 'ck-7082r', src: `${b}/images/products/module-io/ck-7082r.jpg`, alt: 'CK-7082R — Module AI 8 kênh DIN-rail', category: 'products', color: '#00BCD4', width: 800, height: 600 },
+
+    // === Software — MekongBMS UI ===
+    'mekongbms-dashboard': { id: 'mekongbms-dashboard', src: `${b}/images/software/mekongbms/dashboard-overview.png`, alt: 'MekongBMS Dashboard — Tổng quan hệ thống BMS', category: 'software', color: '#FFD600', width: 1920, height: 1080 },
+    'mekongbms-alarm': { id: 'mekongbms-alarm', src: `${b}/images/software/mekongbms/alarm-center.png`, alt: 'MekongBMS Alarm Center — Trung tâm cảnh báo', category: 'software', color: '#FFD600', width: 1920, height: 1080 },
+    'mekongbms-energy': { id: 'mekongbms-energy', src: `${b}/images/software/mekongbms/energy-analytics.png`, alt: 'MekongBMS Energy Analytics — Phân tích năng lượng', category: 'software', color: '#FFD600', width: 1920, height: 1080 },
+    'mekongbms-equipment': { id: 'mekongbms-equipment', src: `${b}/images/software/mekongbms/equipment-control.png`, alt: 'MekongBMS Equipment Control — Điều khiển thiết bị', category: 'software', color: '#FFD600', width: 1920, height: 1080 },
+    'mekongbms-floorplan': { id: 'mekongbms-floorplan', src: `${b}/images/software/mekongbms/floor-plan.png`, alt: 'MekongBMS Floor Plan — Sơ đồ mặt bằng tương tác', category: 'software', color: '#FFD600', width: 1920, height: 1080 },
+
+    // === Software — MekongFleet UI ===
+    'mekongfleet-dashboard': { id: 'mekongfleet-dashboard', src: `${b}/images/software/mekongfleet/dashboard-overview.png`, alt: 'MekongFleet Dashboard — Tổng quan điều độ robot', category: 'software', color: '#E040FB', width: 1920, height: 1080 },
+    'mekongfleet-traffic': { id: 'mekongfleet-traffic', src: `${b}/images/software/mekongfleet/live-traffic-map.png`, alt: 'MekongFleet Traffic Map — Bản đồ giao thông thực', category: 'software', color: '#E040FB', width: 1920, height: 1080 },
+    'mekongfleet-robot': { id: 'mekongfleet-robot', src: `${b}/images/software/mekongfleet/robot-detail.png`, alt: 'MekongFleet Robot Detail — Chi tiết trạng thái robot', category: 'software', color: '#E040FB', width: 1920, height: 1080 },
+    'mekongfleet-list': { id: 'mekongfleet-list', src: `${b}/images/software/mekongfleet/fleet-list.png`, alt: 'MekongFleet List — Danh sách đội robot', category: 'software', color: '#E040FB', width: 1920, height: 1080 },
+    'mekongfleet-tasks': { id: 'mekongfleet-tasks', src: `${b}/images/software/mekongfleet/task-management.png`, alt: 'MekongFleet Task Management — Quản lý tác vụ', category: 'software', color: '#E040FB', width: 1920, height: 1080 },
+
+    // === Software — MekongStudio ===
+    'mekongstudio-fbd': { id: 'mekongstudio-fbd', src: `${b}/images/software/mekongstudio/fbd-editor.png`, alt: 'MekongStudio FBD Editor — Lập trình điều khiển FBD', category: 'software', color: '#FFD600', width: 1200, height: 800 },
+    'mekongstudio-hero': { id: 'mekongstudio-hero', src: `${b}/images/software/mekongstudio/studio-hero.png`, alt: 'MekongStudio Hero — IDE lập trình BMS/DDC', category: 'software', color: '#FFD600', width: 1200, height: 800 },
+
+    // === Robot AMR/AGV bổ sung ===
+    'amr-500-iso': { id: 'amr-500-iso', src: `${b}/images/robot/amr/amr-500-iso.png`, alt: 'AMR-500 góc isometric — tải trọng 500kg', category: 'robot', color: '#E040FB', width: 800, height: 600 },
+    'amr-1000-forklift': { id: 'amr-1000-forklift', src: `${b}/images/robot/amr/amr-1000-forklift.jpg`, alt: 'AMR-1000 Forklift — robot nâng tự hành 1000kg', category: 'robot', color: '#E040FB', width: 800, height: 600 },
+    'agv-500': { id: 'agv-500', src: `${b}/images/robot/agv/agv-500-undercarriage.jpg`, alt: 'AGV-500 Undercarriage — robot chui gầm kệ hàng', category: 'robot', color: '#E040FB', width: 800, height: 600 },
+    'amr-warehouse-undercarriage': { id: 'amr-warehouse-undercarriage', src: `${b}/images/robot/amr/amr-warehouse-undercarriage.png`, alt: 'AMR robot chui gầm trong nhà kho thực tế', category: 'robot', color: '#E040FB', width: 1200, height: 800 },
+    'amr-warehouse-lowprofile': { id: 'amr-warehouse-lowprofile', src: `${b}/images/robot/amr/amr-warehouse-lowprofile.png`, alt: 'AMR robot nền thấp trong nhà kho thực tế', category: 'robot', color: '#E040FB', width: 1200, height: 800 },
+    'amr-undercarriage-clean': { id: 'amr-undercarriage-clean', src: `${b}/images/robot/amr/amr-undercarriage-clean.png`, alt: 'AMR robot chui gầm — nền trắng sạch', category: 'robot', color: '#E040FB', width: 800, height: 600 },
+    'amr-lowprofile-clean': { id: 'amr-lowprofile-clean', src: `${b}/images/robot/amr/amr-lowprofile-clean.png`, alt: 'AMR robot nền thấp — nền trắng sạch', category: 'robot', color: '#E040FB', width: 800, height: 600 },
+
+    // === Gateway in-context ===
+    'kx200-gateway-context': { id: 'kx200-gateway-context', src: `${b}/images/products/kx200-gateway-context.png`, alt: 'KX-200 Gateway trong bối cảnh lắp đặt thực tế', category: 'products', color: '#00E5FF', width: 1200, height: 800 },
+    'kx300-gateway-context': { id: 'kx300-gateway-context', src: `${b}/images/products/kx300-gateway-context.png`, alt: 'KX-300 Gateway trong bối cảnh lắp đặt thực tế', category: 'products', color: '#00E5FF', width: 1200, height: 800 },
+
+    // === Architecture & System Diagrams (SVG) ===
+    'diag-iot-gateway-arch': { id: 'diag-iot-gateway-arch', src: `${b}/images/diagrams/architecture/iot-gateway-architecture.svg`, alt: 'Kiến trúc IoT Gateway — 5 tầng từ cảm biến đến đám mây', category: 'diagram', color: '#00E5FF', width: 1200, height: 800 },
+    'diag-bms-controller-arch': { id: 'diag-bms-controller-arch', src: `${b}/images/diagrams/architecture/bms-controller-architecture.svg`, alt: 'Kiến trúc BMS Controller — kết nối DDC/IO/Gateway', category: 'diagram', color: '#00BCD4', width: 1200, height: 800 },
+    'diag-kinexusbms-arch': { id: 'diag-kinexusbms-arch', src: `${b}/images/diagrams/architecture/kinexusbms-architecture.svg`, alt: 'Kiến trúc phần mềm KinexusBMS — các tầng server/edge/field', category: 'diagram', color: '#FFD600', width: 1200, height: 800 },
+    'diag-kinexusfleet-arch': { id: 'diag-kinexusfleet-arch', src: `${b}/images/diagrams/architecture/kinexusfleet-architecture.svg`, alt: 'Kiến trúc KinexusFleet — điều độ đội robot AMR/AGV', category: 'diagram', color: '#E040FB', width: 1200, height: 800 },
+    'diag-kinexusscada-arch': { id: 'diag-kinexusscada-arch', src: `${b}/images/diagrams/architecture/kinexusscada-architecture.svg`, alt: 'Kiến trúc KinexusSCADA — giám sát vận hành nhà máy', category: 'diagram', color: '#FFD600', width: 1200, height: 800 },
+    'diag-kx200-connection': { id: 'diag-kx200-connection', src: `${b}/images/diagrams/connection/kx200-connection.svg`, alt: 'Sơ đồ kết nối KX-200 Gateway', category: 'diagram', color: '#00E5FF', width: 1000, height: 700 },
+    'diag-kx300-connection': { id: 'diag-kx300-connection', src: `${b}/images/diagrams/connection/kx300-connection.svg`, alt: 'Sơ đồ kết nối KX-300 Gateway', category: 'diagram', color: '#00E5FF', width: 1000, height: 700 },
+    'diag-io-expansion': { id: 'diag-io-expansion', src: `${b}/images/diagrams/connection/io-expansion-modules.svg`, alt: 'Sơ đồ mở rộng Module I/O — EIO bus', category: 'diagram', color: '#00BCD4', width: 1000, height: 700 },
+    'diag-ddc64-wiring': { id: 'diag-ddc64-wiring', src: `${b}/images/diagrams/connection/ddc64-wiring.svg`, alt: 'Sơ đồ đấu nối DDC-64 chi tiết', category: 'diagram', color: '#00BCD4', width: 1000, height: 700 },
+    'diag-bms-control-loop': { id: 'diag-bms-control-loop', src: `${b}/images/diagrams/architecture/bms-control-loop.svg`, alt: 'Vòng điều khiển BMS — PID + Scheduling', category: 'diagram', color: '#FFD600', width: 1000, height: 700 },
+    'diag-amr-fleet-workflow': { id: 'diag-amr-fleet-workflow', src: `${b}/images/diagrams/architecture/amr-fleet-workflow.svg`, alt: 'Quy trình điều độ đội AMR — từ task đến thực thi', category: 'diagram', color: '#E040FB', width: 1000, height: 700 },
+
+    // === System overview diagrams (PNG) ===
+    'diag-iot-connectivity': { id: 'diag-iot-connectivity', src: `${b}/images/diagrams/iot-connectivity-diagram.png`, alt: 'Sơ đồ kết nối IoT từ thiết bị đến đám mây', category: 'diagram', color: '#00E5FF', width: 1200, height: 800 },
+    'diag-industrial-network': { id: 'diag-industrial-network', src: `${b}/images/diagrams/industrial-network-diagram.png`, alt: 'Sơ đồ mạng công nghiệp — cảm biến lên đám mây', category: 'diagram', color: '#00E5FF', width: 1200, height: 800 },
+    'diag-robot-ecosystem': { id: 'diag-robot-ecosystem', src: `${b}/images/diagrams/robot-ecosystem-diagram.png`, alt: 'Hệ sinh thái sản phẩm AMR/AGV/OHT', category: 'diagram', color: '#E040FB', width: 800, height: 600 },
 };

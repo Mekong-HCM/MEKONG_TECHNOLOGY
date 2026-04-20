@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <defs>
+    <style>
+      .title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 18px; font-weight: 600; fill: #0A2240; }
+      .subtitle { font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; fill: #555; }
+      .label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; fill: #333; }
+      .label-white { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; fill: #FFF; }
+      .label-sm { font-family: 'Segoe UI', Arial, sans-serif; font-size: 9px; fill: #666; }
+      .box-primary { fill: #0A2240; }
+      .box-accent { fill: #FF6B00; }
+      .box-light { fill: #E8EDF2; stroke: #B8C4D0; stroke-width: 1; }
+      .module { fill: #FFFFFF; stroke: #D0D8E0; stroke-width: 1.5; }
+      .robot-amr { fill: #4CAF50; }
+      .robot-agv { fill: #2196F3; }
+      .fleet-mgr { fill: #9C27B0; }
+      .connector { stroke: #0A2240; stroke-width: 2; fill: none; }
+      .connector-wifi { stroke: #4CAF50; stroke-width: 2; fill: none; stroke-dasharray: 6,3; }
+      .connector-data { stroke: #FF6B00; stroke-width: 2; fill: none; }
+    </style>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FAFBFC"/>
+      <stop offset="100%" style="stop-color:#EEF1F5"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#0A2240"/>
+    </marker>
+    <marker id="arrow-orange" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#FF6B00"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#4CAF50"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="600" fill="url(#bgGrad)"/>
+  
+  <!-- Title -->
+  <text x="450" y="32" text-anchor="middle" class="title">KinexusFleet ARCHITECTURE</text>
+  <text x="450" y="50" text-anchor="middle" class="subtitle">Autonomous Mobile Robot Fleet Management System</text>
+  
+  <!-- ============ ENTERPRISE LAYER ============ -->
+  <rect x="30" y="70" width="840" height="80" rx="8" class="box-light" filter="url(#shadow)"/>
+  <rect x="30" y="70" width="840" height="25" rx="8" fill="#673AB7"/>
+  <rect x="30" y="90" width="840" height="5" fill="#673AB7"/>
+  <text x="450" y="89" text-anchor="middle" class="label-white">ENTERPRISE INTEGRATION LAYER</text>
+  
+  <rect x="55" y="105" width="140" height="35" rx="5" class="module" filter="url(#shadow)"/>
+  <text x="125" y="127" text-anchor="middle" class="label">ERP (SAP/Oracle)</text>
+  
+  <rect x="215" y="105" width="140" height="35" rx="5" class="module" filter="url(#shadow)"/>
+  <text x="285" y="127" text-anchor="middle" class="label">WMS</text>
+  
+  <rect x="375" y="105" width="140" height="35" rx="5" class="module" filter="url(#shadow)"/>
+  <text x="445" y="127" text-anchor="middle" class="label">MES</text>
+  
+  <rect x="535" y="105" width="140" height="35" rx="5" class="module" filter="url(#shadow)"/>
+  <text x="605" y="127" text-anchor="middle" class="label">PLM</text>
+  
+  <rect x="695" y="105" width="155" height="35" rx="5" class="module" filter="url(#shadow)"/>
+  <text x="772" y="127" text-anchor="middle" class="label">BI / Analytics</text>
+  
+  <!-- ============ FLEET MANAGEMENT LAYER ============ -->
+  <rect x="30" y="165" width="840" height="150" rx="8" class="box-light" filter="url(#shadow)"/>
+  <rect x="30" y="165" width="840" height="25" rx="8" class="fleet-mgr"/>
+  <rect x="30" y="185" width="840" height="5" class="fleet-mgr"/>
+  <text x="450" y="184" text-anchor="middle" class="label-white">KinexusFleet — Fleet Management Platform</text>
+  
+  <!-- Core Modules -->
+  <rect x="45" y="200" width="160" height="100" rx="5" class="module" filter="url(#shadow)"/>
+  <rect x="45" y="200" width="160" height="20" rx="5" fill="#7B1FA2"/>
+  <text x="125" y="215" text-anchor="middle" class="label-white" font-size="9">MISSION PLANNER</text>
+  <text x="55" y="240" class="label-sm">• Task Scheduling</text>
+  <text x="55" y="255" class="label-sm">• Priority Queue</text>
+  <text x="55" y="270" class="label-sm">• Resource Allocation</text>
+  <text x="55" y="285" class="label-sm">• Multi-floor Support</text>
+  
+  <rect x="220" y="200" width="160" height="100" rx="5" class="module" filter="url(#shadow)"/>
+  <rect x="220" y="200" width="160" height="20" rx="5" fill="#7B1FA2"/>
+  <text x="300" y="215" text-anchor="middle" class="label-white" font-size="9">TRAFFIC CONTROLLER</text>
+  <text x="230" y="240" class="label-sm">• Dead-lock Prevention</text>
+  <text x="230" y="255" class="label-sm">• Zone Management</text>
+  <text x="230" y="270" class="label-sm">• Path Optimization</text>
+  <text x="230" y="285" class="label-sm">• Collision Avoidance</text>
+  
+  <rect x="395" y="200" width="160" height="100" rx="5" class="module" filter="url(#shadow)"/>
+  <rect x="395" y="200" width="160" height="20" rx="5" fill="#7B1FA2"/>
+  <text x="475" y="215" text-anchor="middle" class="label-white" font-size="9">ANALYTICS ENGINE</text>
+  <text x="405" y="240" class="label-sm">• Real-time Dashboard</text>
+  <text x="405" y="255" class="label-sm">• KPI Monitoring</text>
+  <text x="405" y="270" class="label-sm">• Predictive Maint.</text>
+  <text x="405" y="285" class="label-sm">• Energy Optimization</text>
+  
+  <rect x="570" y="200" width="145" height="100" rx="5" class="module" filter="url(#shadow)"/>
+  <rect x="570" y="200" width="145" height="20" rx="5" fill="#7B1FA2"/>
+  <text x="642" y="215" text-anchor="middle" class="label-white" font-size="9">MAP MANAGER</text>
+  <text x="580" y="240" class="label-sm">• HD Map Storage</text>
+  <text x="580" y="255" class="label-sm">• POI Management</text>
+  <text x="580" y="270" class="label-sm">• Zone Definition</text>
+  <text x="580" y="285" class="label-sm">• Live Updates</text>
+  
+  <rect x="730" y="200" width="125" height="100" rx="5" class="module" filter="url(#shadow)"/>
+  <rect x="730" y="200" width="125" height="20" rx="5" fill="#7B1FA2"/>
+  <text x="792" y="215" text-anchor="middle" class="label-white" font-size="9">SIMULATOR</text>
+  <text x="740" y="240" class="label-sm">• Digital Twin</text>
+  <text x="740" y="255" class="label-sm">• What-if Analysis</text>
+  <text x="740" y="270" class="label-sm">• Training Mode</text>
+  <text x="740" y="285" class="label-sm">• Commissioning</text>
+  
+  <!-- ============ COMMUNICATION LAYER ============ -->
+  <rect x="30" y="330" width="840" height="55" rx="8" class="box-light" filter="url(#shadow)"/>
+  <rect x="30" y="330" width="840" height="22" rx="8" class="box-accent"/>
+  <rect x="30" y="348" width="840" height="4" class="box-accent"/>
+  <text x="450" y="347" text-anchor="middle" class="label-white">COMMUNICATION LAYER — WiFi 6 / 5G / VDA 5050 Protocol</text>
+  
+  <rect x="55" y="360" width="100" height="20" rx="4" fill="#FF9800"/>
+  <text x="105" y="374" text-anchor="middle" class="label-white" font-size="8">VDA 5050</text>
+  
+  <rect x="170" y="360" width="100" height="20" rx="4" fill="#FF9800"/>
+  <text x="220" y="374" text-anchor="middle" class="label-white" font-size="8">REST API</text>
+  
+  <rect x="285" y="360" width="100" height="20" rx="4" fill="#FF9800"/>
+  <text x="335" y="374" text-anchor="middle" class="label-white" font-size="8">MQTT</text>
+  
+  <rect x="400" y="360" width="100" height="20" rx="4" fill="#FF9800"/>
+  <text x="450" y="374" text-anchor="middle" class="label-white" font-size="8">WebSocket</text>
+  
+  <rect x="515" y="360" width="100" height="20" rx="4" fill="#FF9800"/>
+  <text x="565" y="374" text-anchor="middle" class="label-white" font-size="8">OPC UA</text>
+  
+  <rect x="630" y="360" width="100" height="20" rx="4" fill="#FF9800"/>
+  <text x="680" y="374" text-anchor="middle" class="label-white" font-size="8">Modbus TCP</text>
+  
+  <rect x="745" y="360" width="110" height="20" rx="4" fill="#FF9800"/>
+  <text x="800" y="374" text-anchor="middle" class="label-white" font-size="8">PLC Interface</text>
+  
+  <!-- ============ ROBOT FLEET LAYER ============ -->
+  <rect x="30" y="400" width="840" height="180" rx="8" class="box-light" filter="url(#shadow)"/>
+  <rect x="30" y="400" width="840" height="25" rx="8" class="box-primary"/>
+  <rect x="30" y="420" width="840" height="5" class="box-primary"/>
+  <text x="450" y="418" text-anchor="middle" class="label-white">ROBOT FLEET — Mixed Fleet Support</text>
+  
+  <!-- AMR Section -->
+  <rect x="45" y="435" width="250" height="130" rx="6" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1"/>
+  <rect x="45" y="435" width="250" height="20" rx="6" class="robot-amr"/>
+  <text x="170" y="450" text-anchor="middle" class="label-white" font-size="10">AMR FLEET (SLAM Navigation)</text>
+  
+  <!-- AMR Robots -->
+  <g transform="translate(60, 465)">
+    <rect x="0" y="0" width="65" height="85" rx="5" class="module" filter="url(#shadow)"/>
+    <rect x="5" y="5" width="55" height="35" rx="3" fill="#4CAF50"/>
+    <text x="32" y="28" text-anchor="middle" fill="#FFF" font-size="9" font-weight="bold">AMR-500</text>
+    <text x="32" y="55" text-anchor="middle" class="label-sm">500 kg</text>
+    <text x="32" y="68" text-anchor="middle" class="label-sm">LiDAR 3D</text>
+    <text x="32" y="81" text-anchor="middle" class="label-sm">±10mm</text>
+  </g>
+  
+  <g transform="translate(135, 465)">
+    <rect x="0" y="0" width="65" height="85" rx="5" class="module" filter="url(#shadow)"/>
+    <rect x="5" y="5" width="55" height="35" rx="3" fill="#4CAF50"/>
+    <text x="32" y="28" text-anchor="middle" fill="#FFF" font-size="9" font-weight="bold">AMR-1000</text>
+    <text x="32" y="55" text-anchor="middle" class="label-sm">1000 kg</text>
+    <text x="32" y="68" text-anchor="middle" class="label-sm">Deep RL</text>
+    <text x="32" y="81" text-anchor="middle" class="label-sm">±10mm</text>
+  </g>
+  
+  <g transform="translate(210, 465)">
+    <rect x="0" y="0" width="65" height="85" rx="5" class="module" filter="url(#shadow)"/>
+    <rect x="5" y="5" width="55" height="35" rx="3" fill="#66BB6A"/>
+    <text x="32" y="28" text-anchor="middle" fill="#FFF" font-size="9" font-weight="bold">Forklift</text>
+    <text x="32" y="55" text-anchor="middle" class="label-sm">2000 kg</text>
+    <text x="32" y="68" text-anchor="middle" class="label-sm">Lift 3.5m</text>
+    <text x="32" y="81" text-anchor="middle" class="label-sm">SLAM</text>
+  </g>
+  
+  <!-- AGV Section -->
+  <rect x="315" y="435" width="250" height="130" rx="6" fill="#E3F2FD" stroke="#2196F3" stroke-width="1"/>
+  <rect x="315" y="435" width="250" height="20" rx="6" class="robot-agv"/>
+  <text x="440" y="450" text-anchor="middle" class="label-white" font-size="10">AGV FLEET (Guided Navigation)</text>
+  
+  <!-- AGV Robots -->
+  <g transform="translate(330, 465)">
+    <rect x="0" y="0" width="65" height="85" rx="5" class="module" filter="url(#shadow)"/>
+    <rect x="5" y="5" width="55" height="35" rx="3" fill="#2196F3"/>
+    <text x="32" y="28" text-anchor="middle" fill="#FFF" font-size="9" font-weight="bold">AGV-500</text>
+    <text x="32" y="55" text-anchor="middle" class="label-sm">500 kg</text>
+    <text x="32" y="68" text-anchor="middle" class="label-sm">Magnetic</text>
+    <text x="32" y="81" text-anchor="middle" class="label-sm">±15mm</text>
+  </g>
+  
+  <g transform="translate(405, 465)">
+    <rect x="0" y="0" width="65" height="85" rx="5" class="module" filter="url(#shadow)"/>
+    <rect x="5" y="5" width="55" height="35" rx="3" fill="#2196F3"/>
+    <text x="32" y="28" text-anchor="middle" fill="#FFF" font-size="9" font-weight="bold">AGV-Line</text>
+    <text x="32" y="55" text-anchor="middle" class="label-sm">300 kg</text>
+    <text x="32" y="68" text-anchor="middle" class="label-sm">QR Code</text>
+    <text x="32" y="81" text-anchor="middle" class="label-sm">±10mm</text>
+  </g>
+  
+  <g transform="translate(480, 465)">
+    <rect x="0" y="0" width="65" height="85" rx="5" class="module" filter="url(#shadow)"/>
+    <rect x="5" y="5" width="55" height="35" rx="3" fill="#42A5F5"/>
+    <text x="32" y="28" text-anchor="middle" fill="#FFF" font-size="9" font-weight="bold">Towing</text>
+    <text x="32" y="55" text-anchor="middle" class="label-sm">5000 kg</text>
+    <text x="32" y="68" text-anchor="middle" class="label-sm">Multi-cart</text>
+    <text x="32" y="81" text-anchor="middle" class="label-sm">±20mm</text>
+  </g>
+  
+  <!-- Charging & Infrastructure -->
+  <rect x="585" y="435" width="270" height="130" rx="6" fill="#FFF3E0" stroke="#FF9800" stroke-width="1"/>
+  <rect x="585" y="435" width="270" height="20" rx="6" fill="#FF9800"/>
+  <text x="720" y="450" text-anchor="middle" class="label-white" font-size="10">INFRASTRUCTURE</text>
+  
+  <g transform="translate(600, 465)">
+    <rect x="0" y="0" width="75" height="85" rx="5" class="module" filter="url(#shadow)"/>
+    <rect x="5" y="5" width="65" height="30" rx="3" fill="#FF9800"/>
+    <text x="37" y="25" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">Charger</text>
+    <text x="37" y="55" text-anchor="middle" class="label-sm">Auto-dock</text>
+    <text x="37" y="68" text-anchor="middle" class="label-sm">48V DC</text>
+    <text x="37" y="81" text-anchor="middle" class="label-sm">Fast 30min</text>
+  </g>
+  
+  <g transform="translate(685, 465)">
+    <rect x="0" y="0" width="75" height="85" rx="5" class="module" filter="url(#shadow)"/>
+    <rect x="5" y="5" width="65" height="30" rx="3" fill="#FF9800"/>
+    <text x="37" y="25" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">Elevator</text>
+    <text x="37" y="55" text-anchor="middle" class="label-sm">Multi-floor</text>
+    <text x="37" y="68" text-anchor="middle" class="label-sm">Auto-call</text>
+    <text x="37" y="81" text-anchor="middle" class="label-sm">Priority</text>
+  </g>
+  
+  <g transform="translate(770, 465)">
+    <rect x="0" y="0" width="75" height="85" rx="5" class="module" filter="url(#shadow)"/>
+    <rect x="5" y="5" width="65" height="30" rx="3" fill="#FF9800"/>
+    <text x="37" y="25" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold">Gate/Door</text>
+    <text x="37" y="55" text-anchor="middle" class="label-sm">Auto-open</text>
+    <text x="37" y="68" text-anchor="middle" class="label-sm">Safety</text>
+    <text x="37" y="81" text-anchor="middle" class="label-sm">Integration</text>
+  </g>
+  
+  <!-- Vertical Connectors -->
+  <line x1="125" y1="140" x2="125" y2="165" class="connector"/>
+  <line x1="285" y1="140" x2="285" y2="165" class="connector"/>
+  <line x1="445" y1="140" x2="445" y2="165" class="connector"/>
+  <line x1="605" y1="140" x2="605" y2="165" class="connector"/>
+  
+  <line x1="125" y1="300" x2="125" y2="330" class="connector"/>
+  <line x1="300" y1="300" x2="300" y2="330" class="connector"/>
+  <line x1="475" y1="300" x2="475" y2="330" class="connector"/>
+  <line x1="642" y1="300" x2="642" y2="330" class="connector"/>
+  
+  <line x1="170" y1="385" x2="170" y2="435" class="connector-wifi" marker-end="url(#arrow-green)"/>
+  <line x1="440" y1="385" x2="440" y2="435" class="connector-wifi" marker-end="url(#arrow-green)"/>
+  <line x1="720" y1="385" x2="720" y2="435" class="connector-data" marker-end="url(#arrow-orange)"/>
+  
+</svg>

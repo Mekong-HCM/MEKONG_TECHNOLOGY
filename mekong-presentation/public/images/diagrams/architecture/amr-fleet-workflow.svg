@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" width="900" height="650">
+  <defs>
+    <style>
+      .title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 18px; font-weight: 600; fill: #0A2240; }
+      .subtitle { font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; fill: #555; }
+      .label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; fill: #333; }
+      .label-white { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; fill: #FFF; }
+      .label-sm { font-family: 'Segoe UI', Arial, sans-serif; font-size: 9px; fill: #666; }
+      .box-primary { fill: #0A2240; }
+      .box-accent { fill: #FF6B00; }
+      .box-light { fill: #E8EDF2; stroke: #B8C4D0; stroke-width: 1; }
+      .box-white { fill: #FFFFFF; stroke: #D0D8E0; stroke-width: 1; }
+      .robot { fill: #0A2240; stroke: #FF6B00; stroke-width: 2; }
+      .path-main { stroke: #FF6B00; stroke-width: 3; fill: none; stroke-dasharray: 10,5; }
+      .path-return { stroke: #4CAF50; stroke-width: 2; fill: none; stroke-dasharray: 8,4; }
+      .zone { fill: none; stroke-width: 2; stroke-dasharray: 5,3; }
+    </style>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FAFBFC"/>
+      <stop offset="100%" style="stop-color:#EEF1F5"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrow-orange" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FF6B00"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4CAF50"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="650" fill="url(#bgGrad)"/>
+  
+  <!-- Title -->
+  <text x="450" y="32" text-anchor="middle" class="title">AMR FLEET WORKFLOW — WAREHOUSE AUTOMATION</text>
+  <text x="450" y="50" text-anchor="middle" class="subtitle">KinexusFleet — Autonomous Mobile Robot Fleet Management</text>
+  
+  <!-- WAREHOUSE LAYOUT -->
+  <rect x="30" y="70" width="550" height="450" rx="8" fill="#F5F5F5" stroke="#999" stroke-width="2" filter="url(#shadow)"/>
+  <text x="305" y="92" text-anchor="middle" class="label" fill="#666">WAREHOUSE FLOOR PLAN</text>
+  
+  <!-- Storage Zones -->
+  <rect x="50" y="110" width="140" height="180" rx="5" stroke="#2196F3" class="zone" fill="#E3F2FD"/>
+  <text x="120" y="130" text-anchor="middle" class="label" fill="#1565C0">ZONE A</text>
+  <text x="120" y="145" text-anchor="middle" class="label-sm">Raw Materials</text>
+  <!-- Shelves -->
+  <rect x="60" y="155" width="120" height="15" fill="#90CAF9"/>
+  <rect x="60" y="180" width="120" height="15" fill="#90CAF9"/>
+  <rect x="60" y="205" width="120" height="15" fill="#90CAF9"/>
+  <rect x="60" y="230" width="120" height="15" fill="#90CAF9"/>
+  <rect x="60" y="255" width="120" height="15" fill="#90CAF9"/>
+  
+  <rect x="50" y="310" width="140" height="180" rx="5" stroke="#4CAF50" class="zone" fill="#E8F5E9"/>
+  <text x="120" y="330" text-anchor="middle" class="label" fill="#2E7D32">ZONE B</text>
+  <text x="120" y="345" text-anchor="middle" class="label-sm">Finished Goods</text>
+  <rect x="60" y="355" width="120" height="15" fill="#A5D6A7"/>
+  <rect x="60" y="380" width="120" height="15" fill="#A5D6A7"/>
+  <rect x="60" y="405" width="120" height="15" fill="#A5D6A7"/>
+  <rect x="60" y="430" width="120" height="15" fill="#A5D6A7"/>
+  <rect x="60" y="455" width="120" height="15" fill="#A5D6A7"/>
+  
+  <!-- Production Area -->
+  <rect x="220" y="200" width="180" height="150" rx="5" stroke="#FF6B00" class="zone" fill="#FFF3E0"/>
+  <text x="310" y="225" text-anchor="middle" class="label" fill="#E65100">PRODUCTION</text>
+  <text x="310" y="245" text-anchor="middle" class="label-sm">Assembly Line</text>
+  <rect x="240" y="260" width="140" height="70" rx="4" fill="#FFCC80"/>
+  <text x="310" y="300" text-anchor="middle" class="label-sm">Workstation 1-4</text>
+  
+  <!-- Picking Station -->
+  <rect x="420" y="110" width="140" height="100" rx="5" stroke="#9C27B0" class="zone" fill="#F3E5F5"/>
+  <text x="490" y="135" text-anchor="middle" class="label" fill="#7B1FA2">PICKING</text>
+  <text x="490" y="155" text-anchor="middle" class="label-sm">Order Fulfillment</text>
+  <rect x="435" y="170" width="45" height="30" rx="3" fill="#CE93D8"/>
+  <rect x="500" y="170" width="45" height="30" rx="3" fill="#CE93D8"/>
+  
+  <!-- Shipping Dock -->
+  <rect x="420" y="380" width="140" height="100" rx="5" stroke="#F44336" class="zone" fill="#FFEBEE"/>
+  <text x="490" y="405" text-anchor="middle" class="label" fill="#C62828">SHIPPING</text>
+  <text x="490" y="425" text-anchor="middle" class="label-sm">Outbound Dock</text>
+  <rect x="435" y="440" width="110" height="30" rx="3" fill="#FFCDD2"/>
+  
+  <!-- Charging Station -->
+  <rect x="420" y="250" width="140" height="80" rx="5" fill="#E8EDF2" stroke="#0A2240" stroke-width="2"/>
+  <text x="490" y="275" text-anchor="middle" class="label" fill="#0A2240">CHARGING</text>
+  <text x="490" y="295" text-anchor="middle" class="label-sm">4 Stations</text>
+  <circle cx="445" cy="315" r="8" fill="#4CAF50"/>
+  <circle cx="470" cy="315" r="8" fill="#4CAF50"/>
+  <circle cx="495" cy="315" r="8" fill="#FFC107"/>
+  <circle cx="520" cy="315" r="8" fill="#F44336"/>
+  
+  <!-- AMR Robots -->
+  <!-- AMR-1 Moving -->
+  <g transform="translate(250, 140)">
+    <rect x="0" y="0" width="35" height="25" rx="4" class="robot"/>
+    <text x="17" y="16" text-anchor="middle" class="label-white" font-size="8">AMR-1</text>
+    <circle cx="8" cy="-5" r="4" fill="#4CAF50"/>
+  </g>
+  
+  <!-- AMR-2 At production -->
+  <g transform="translate(245, 305)">
+    <rect x="0" y="0" width="35" height="25" rx="4" class="robot"/>
+    <text x="17" y="16" text-anchor="middle" class="label-white" font-size="8">AMR-2</text>
+    <circle cx="8" cy="-5" r="4" fill="#FF6B00"/>
+  </g>
+  
+  <!-- AMR-3 At picking -->
+  <g transform="translate(375, 160)">
+    <rect x="0" y="0" width="35" height="25" rx="4" class="robot"/>
+    <text x="17" y="16" text-anchor="middle" class="label-white" font-size="8">AMR-3</text>
+    <circle cx="8" cy="-5" r="4" fill="#4CAF50"/>
+  </g>
+  
+  <!-- AMR-4 At shipping -->
+  <g transform="translate(375, 405)">
+    <rect x="0" y="0" width="35" height="25" rx="4" class="robot"/>
+    <text x="17" y="16" text-anchor="middle" class="label-white" font-size="8">AMR-4</text>
+    <circle cx="8" cy="-5" r="4" fill="#4CAF50"/>
+  </g>
+  
+  <!-- Navigation Paths -->
+  <path d="M190 200 L200 200 L200 150 L270 150" class="path-main" marker-end="url(#arrow-orange)"/>
+  <path d="M190 400 L210 400 L210 320 L240 320" class="path-main" marker-end="url(#arrow-orange)"/>
+  <path d="M290 330 L290 360 L370 360 L370 175" class="path-main" marker-end="url(#arrow-orange)"/>
+  <path d="M420 175 L350 175 L350 280 L350 420 L370 420" class="path-return" marker-end="url(#arrow-green)"/>
+  
+  <!-- FLEET MANAGEMENT PANEL -->
+  <rect x="600" y="70" width="280" height="450" rx="8" class="box-light" filter="url(#shadow)"/>
+  <rect x="600" y="70" width="280" height="35" rx="8" class="box-primary"/>
+  <rect x="600" y="97" width="280" height="8" class="box-primary"/>
+  <text x="740" y="94" text-anchor="middle" class="label-white" font-size="14">KinexusFleet Dashboard</text>
+  
+  <!-- Fleet Status -->
+  <rect x="615" y="120" width="250" height="90" rx="5" class="box-white" filter="url(#shadow)"/>
+  <text x="740" y="140" text-anchor="middle" class="label">FLEET STATUS</text>
+  
+  <rect x="625" y="150" width="55" height="50" rx="4" fill="#E8F5E9"/>
+  <text x="652" y="170" text-anchor="middle" class="label" fill="#2E7D32">4</text>
+  <text x="652" y="188" text-anchor="middle" class="label-sm" fill="#2E7D32">Active</text>
+  
+  <rect x="690" y="150" width="55" height="50" rx="4" fill="#FFF3E0"/>
+  <text x="717" y="170" text-anchor="middle" class="label" fill="#E65100">1</text>
+  <text x="717" y="188" text-anchor="middle" class="label-sm" fill="#E65100">Busy</text>
+  
+  <rect x="755" y="150" width="55" height="50" rx="4" fill="#FFF8E1"/>
+  <text x="782" y="170" text-anchor="middle" class="label" fill="#F9A825">1</text>
+  <text x="782" y="188" text-anchor="middle" class="label-sm" fill="#F9A825">Charging</text>
+  
+  <rect x="820" y="150" width="35" height="50" rx="4" fill="#FFEBEE"/>
+  <text x="837" y="170" text-anchor="middle" class="label" fill="#C62828">0</text>
+  <text x="837" y="188" text-anchor="middle" class="label-sm" fill="#C62828">Error</text>
+  
+  <!-- Task Queue -->
+  <rect x="615" y="220" width="250" height="130" rx="5" class="box-white" filter="url(#shadow)"/>
+  <text x="740" y="240" text-anchor="middle" class="label">TASK QUEUE</text>
+  
+  <rect x="625" y="250" width="230" height="22" rx="3" fill="#E8F5E9"/>
+  <text x="635" y="265" class="label-sm">✓ Task #127: Zone A → Production</text>
+  
+  <rect x="625" y="277" width="230" height="22" rx="3" fill="#FFF3E0"/>
+  <text x="635" y="292" class="label-sm">⟳ Task #128: Production → Picking</text>
+  
+  <rect x="625" y="304" width="230" height="22" rx="3" fill="#E3F2FD"/>
+  <text x="635" y="319" class="label-sm">○ Task #129: Picking → Shipping</text>
+  
+  <rect x="625" y="331" width="230" height="14" rx="2" fill="#F5F5F5"/>
+  <text x="740" y="342" text-anchor="middle" class="label-xs">+ 12 more tasks in queue</text>
+  
+  <!-- Battery Status -->
+  <rect x="615" y="360" width="250" height="75" rx="5" class="box-white" filter="url(#shadow)"/>
+  <text x="740" y="380" text-anchor="middle" class="label">BATTERY LEVELS</text>
+  
+  <g transform="translate(625, 395)">
+    <text x="0" y="0" class="label-sm">AMR-1</text>
+    <rect x="50" y="-10" width="100" height="12" rx="2" fill="#E0E0E0"/>
+    <rect x="50" y="-10" width="85" height="12" rx="2" fill="#4CAF50"/>
+    <text x="160" y="0" class="label-sm">85%</text>
+    
+    <text x="0" y="18" class="label-sm">AMR-2</text>
+    <rect x="50" y="8" width="100" height="12" rx="2" fill="#E0E0E0"/>
+    <rect x="50" y="8" width="72" height="12" rx="2" fill="#4CAF50"/>
+    <text x="160" y="18" class="label-sm">72%</text>
+    
+    <text x="0" y="36" class="label-sm">AMR-3</text>
+    <rect x="50" y="26" width="100" height="12" rx="2" fill="#E0E0E0"/>
+    <rect x="50" y="26" width="45" height="12" rx="2" fill="#FFC107"/>
+    <text x="160" y="36" class="label-sm">45%</text>
+  </g>
+  
+  <!-- KPIs -->
+  <rect x="615" y="445" width="250" height="65" rx="5" class="box-white" filter="url(#shadow)"/>
+  <text x="740" y="463" text-anchor="middle" class="label">TODAY'S KPIs</text>
+  
+  <text x="635" y="485" class="label-sm">Tasks Completed: 127</text>
+  <text x="635" y="500" class="label-sm">Avg. Cycle Time: 4.2 min</text>
+  <text x="780" y="485" class="label-sm">Uptime: 98.5%</text>
+  <text x="780" y="500" class="label-sm">Distance: 12.4 km</text>
+  
+  <!-- WORKFLOW STEPS -->
+  <rect x="30" y="530" width="840" height="100" rx="8" class="box-light" filter="url(#shadow)"/>
+  <text x="450" y="552" text-anchor="middle" class="label" font-weight="600">AUTONOMOUS WORKFLOW PROCESS</text>
+  
+  <rect x="55" y="565" width="120" height="50" rx="5" class="box-primary"/>
+  <text x="115" y="585" text-anchor="middle" class="label-white">1. Task Assign</text>
+  <text x="115" y="600" text-anchor="middle" class="label-white" font-size="8">WMS → Fleet</text>
+  
+  <path d="M175 590 L195 590" stroke="#FF6B00" stroke-width="2" marker-end="url(#arrow-orange)"/>
+  
+  <rect x="200" y="565" width="120" height="50" rx="5" class="box-accent"/>
+  <text x="260" y="585" text-anchor="middle" class="label-white">2. Path Plan</text>
+  <text x="260" y="600" text-anchor="middle" class="label-white" font-size="8">AI Navigation</text>
+  
+  <path d="M320 590 L340 590" stroke="#FF6B00" stroke-width="2" marker-end="url(#arrow-orange)"/>
+  
+  <rect x="345" y="565" width="120" height="50" rx="5" class="box-primary"/>
+  <text x="405" y="585" text-anchor="middle" class="label-white">3. Execute</text>
+  <text x="405" y="600" text-anchor="middle" class="label-white" font-size="8">Autonomous Drive</text>
+  
+  <path d="M465 590 L485 590" stroke="#FF6B00" stroke-width="2" marker-end="url(#arrow-orange)"/>
+  
+  <rect x="490" y="565" width="120" height="50" rx="5" class="box-accent"/>
+  <text x="550" y="585" text-anchor="middle" class="label-white">4. Pick/Drop</text>
+  <text x="550" y="600" text-anchor="middle" class="label-white" font-size="8">Load Transfer</text>
+  
+  <path d="M610 590 L630 590" stroke="#FF6B00" stroke-width="2" marker-end="url(#arrow-orange)"/>
+  
+  <rect x="635" y="565" width="120" height="50" rx="5" class="box-primary"/>
+  <text x="695" y="585" text-anchor="middle" class="label-white">5. Confirm</text>
+  <text x="695" y="600" text-anchor="middle" class="label-white" font-size="8">Task Complete</text>
+  
+  <path d="M755 590 L775 590" stroke="#4CAF50" stroke-width="2" marker-end="url(#arrow-green)"/>
+  
+  <rect x="780" y="565" width="70" height="50" rx="5" fill="#4CAF50"/>
+  <text x="815" y="585" text-anchor="middle" class="label-white">6. Next</text>
+  <text x="815" y="600" text-anchor="middle" class="label-white" font-size="8">or Charge</text>
+  
+</svg>

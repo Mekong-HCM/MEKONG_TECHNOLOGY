@@ -51,6 +51,22 @@ function OverviewTab() {
                 </GlassCard>
             </div>
 
+            {/* Product preview */}
+            <div className="grid grid-cols-4 gap-3">
+                <GlassCard className="p-0 overflow-hidden">
+                    <OptimizedImage {...images['kx200-gateway']} placeholderLabel="KX-200 Gateway" placeholderColor="#00E5FF" className="w-full h-24 object-contain bg-white/[0.03]" aspectRatio="4/3" />
+                </GlassCard>
+                <GlassCard className="p-0 overflow-hidden">
+                    <OptimizedImage {...images['ddc-family']} placeholderLabel="DDC Controllers" placeholderColor="#00BCD4" className="w-full h-24 object-contain bg-white/[0.03]" aspectRatio="4/3" />
+                </GlassCard>
+                <GlassCard className="p-0 overflow-hidden">
+                    <OptimizedImage {...images['amr-500-render']} placeholderLabel="AMR-500 Robot" placeholderColor="#E040FB" className="w-full h-24 object-contain bg-white/[0.03]" aspectRatio="4/3" />
+                </GlassCard>
+                <GlassCard className="p-0 overflow-hidden">
+                    <OptimizedImage {...images['kinexusbms-dashboard']} placeholderLabel="KinexusBMS" placeholderColor="#FFD600" className="w-full h-24 object-cover" aspectRatio="4/3" />
+                </GlassCard>
+            </div>
+
             {/* Synergy */}
             <GlassCard className="p-5">
                 <h4 className="text-sm font-bold text-white mb-3 flex items-center gap-2">
@@ -111,6 +127,39 @@ function BU1Tab() {
                     </GlassCard>
                 ))}
             </div>
+
+            {/* Product Hardware Gallery */}
+            <div className="grid grid-cols-4 gap-3">
+                <GlassCard className="p-0 overflow-hidden">
+                    <OptimizedImage {...images['kx-ddc-24-hero']} placeholderLabel="KX-DDC-24" placeholderColor="#00BCD4" className="w-full h-28 object-contain bg-white/[0.03]" aspectRatio="4/3" />
+                </GlassCard>
+                <GlassCard className="p-0 overflow-hidden">
+                    <OptimizedImage {...images['kx-eio-di16-render']} placeholderLabel="Module I/O DI16" placeholderColor="#00BCD4" className="w-full h-28 object-contain bg-white/[0.03]" aspectRatio="4/3" />
+                </GlassCard>
+                <GlassCard className="p-0 overflow-hidden">
+                    <OptimizedImage {...images['amr-500-iso']} placeholderLabel="AMR-500" placeholderColor="#E040FB" className="w-full h-28 object-contain bg-white/[0.03]" aspectRatio="4/3" />
+                </GlassCard>
+                <GlassCard className="p-0 overflow-hidden">
+                    <OptimizedImage {...images['amr-1000-forklift']} placeholderLabel="AMR-1000 Forklift" placeholderColor="#E040FB" className="w-full h-28 object-cover bg-white/[0.03]" aspectRatio="4/3" />
+                </GlassCard>
+            </div>
+
+            {/* Software Screenshots */}
+            <div className="grid grid-cols-3 gap-3">
+                <GlassCard className="p-0 overflow-hidden">
+                    <OptimizedImage {...images['mekongbms-dashboard']} placeholderLabel="MekongBMS Dashboard" placeholderColor="#FFD600" className="w-full h-32 object-cover" aspectRatio="16/9" />
+                    <div className="px-2 py-1.5 text-center text-[10px] font-semibold text-yellow-400">KinexusBMS — Giám sát BMS</div>
+                </GlassCard>
+                <GlassCard className="p-0 overflow-hidden">
+                    <OptimizedImage {...images['mekongfleet-dashboard']} placeholderLabel="MekongFleet Dashboard" placeholderColor="#E040FB" className="w-full h-32 object-cover" aspectRatio="16/9" />
+                    <div className="px-2 py-1.5 text-center text-[10px] font-semibold text-pink-400">KinexusFleet — Điều độ Robot</div>
+                </GlassCard>
+                <GlassCard className="p-0 overflow-hidden">
+                    <OptimizedImage {...images['mekongstudio-fbd']} placeholderLabel="MekongStudio FBD" placeholderColor="#FFD600" className="w-full h-32 object-cover" aspectRatio="16/9" />
+                    <div className="px-2 py-1.5 text-center text-[10px] font-semibold text-yellow-400">MekongStudio — Lập trình DDC</div>
+                </GlassCard>
+            </div>
+
             <GlassCard className="p-5">
                 <h4 className="text-base font-bold text-neon-cyan mb-3 flex items-center gap-2">
                     <Globe size={18} className="text-neon-cyan" /> KinexusOS Platform
@@ -295,6 +344,16 @@ function SynergyTab() {
                     ))}
                 </div>
             </GlassCard>
+
+            {/* Robot & System Diagrams */}
+            <div className="grid grid-cols-2 gap-4">
+                <GlassCard className="p-0 overflow-hidden">
+                    <OptimizedImage {...images['diag-robot-ecosystem']} placeholderLabel="Hệ sinh thái Robot AMR/AGV/OHT" placeholderColor="#E040FB" className="w-full h-40 object-contain bg-white/[0.03] p-2" aspectRatio="4/3" />
+                </GlassCard>
+                <GlassCard className="p-0 overflow-hidden">
+                    <OptimizedImage {...images['diag-iot-connectivity']} placeholderLabel="Sơ đồ kết nối IoT" placeholderColor="#00E5FF" className="w-full h-40 object-contain bg-white/[0.03] p-2" aspectRatio="4/3" />
+                </GlassCard>
+            </div>
 
             {/* 5-Layer Ecosystem */}
             <GlassCard className="p-5">

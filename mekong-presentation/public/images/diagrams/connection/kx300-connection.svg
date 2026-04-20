@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550" width="900" height="550">
+  <defs>
+    <style>
+      .title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 16px; font-weight: 600; fill: #0A2240; }
+      .subtitle { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; fill: #555; }
+      .label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 10px; fill: #333; }
+      .label-white { font-family: 'Segoe UI', Arial, sans-serif; font-size: 10px; fill: #FFF; }
+      .label-sm { font-family: 'Segoe UI', Arial, sans-serif; font-size: 8px; fill: #666; }
+      .port-label { font-family: Consolas, monospace; font-size: 8px; fill: #333; }
+      .box-primary { fill: #0A2240; }
+      .box-accent { fill: #FF6B00; }
+      .device { fill: #FFFFFF; stroke: #D0D8E0; stroke-width: 1.5; }
+      .port-rs485 { fill: #4CAF50; }
+      .port-rs232 { fill: #2196F3; }
+      .port-eth { fill: #FF9800; }
+      .port-5g { fill: #E91E63; }
+      .port-digital { fill: #9C27B0; }
+      .port-analog { fill: #00BCD4; }
+      .connector { stroke: #333; stroke-width: 1.5; fill: none; }
+      .connector-rs485 { stroke: #4CAF50; stroke-width: 2; fill: none; }
+      .connector-eth { stroke: #FF9800; stroke-width: 2; fill: none; }
+      .connector-5g { stroke: #E91E63; stroke-width: 2; fill: none; stroke-dasharray: 5,3; }
+      .connector-ai { stroke: #00BCD4; stroke-width: 1.5; fill: none; }
+    </style>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FAFBFC"/>
+      <stop offset="100%" style="stop-color:#EEF1F5"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrow" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0 0, 6 2, 0 4" fill="#333"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0 0, 6 2, 0 4" fill="#4CAF50"/>
+    </marker>
+    <marker id="arrow-orange" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0 0, 6 2, 0 4" fill="#FF9800"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="550" fill="url(#bgGrad)"/>
+  
+  <!-- Title -->
+  <text x="450" y="28" text-anchor="middle" class="title">KX-300 AI EDGE GATEWAY — CONNECTION DIAGRAM</text>
+  <text x="450" y="45" text-anchor="middle" class="subtitle">40 TOPS AI Processing • 5G/WiFi 6E • 6×RS-485 • Multi-Protocol Edge Computing</text>
+  
+  <!-- ============ CENTRAL GATEWAY ============ -->
+  <rect x="340" y="180" width="220" height="180" rx="10" class="device" filter="url(#shadow)"/>
+  <rect x="340" y="180" width="220" height="35" rx="10" class="box-primary"/>
+  <rect x="340" y="208" width="220" height="7" class="box-primary"/>
+  <text x="450" y="203" text-anchor="middle" class="label-white" font-size="13" font-weight="bold">KX-300</text>
+  
+  <!-- Orange accent line -->
+  <rect x="340" y="215" width="220" height="6" class="box-accent"/>
+  
+  <!-- Gateway Specs -->
+  <text x="360" y="245" class="label" font-weight="bold">Jetson Orin Nano</text>
+  <text x="360" y="262" class="label-sm">• 40 TOPS AI Performance</text>
+  <text x="360" y="277" class="label-sm">• 8GB LPDDR5</text>
+  <text x="360" y="292" class="label-sm">• Video Analytics Ready</text>
+  <text x="360" y="307" class="label-sm">• -40°C to +70°C</text>
+  
+  <!-- Status LEDs -->
+  <circle cx="525" cy="245" r="5" fill="#4CAF50"/>
+  <circle cx="525" cy="260" r="5" fill="#4CAF50"/>
+  <circle cx="525" cy="275" r="5" fill="#FFC107"/>
+  <circle cx="525" cy="290" r="5" fill="#2196F3"/>
+  <text x="535" y="248" class="label-sm">PWR</text>
+  <text x="535" y="263" class="label-sm">RUN</text>
+  <text x="535" y="278" class="label-sm">AI</text>
+  <text x="535" y="293" class="label-sm">5G</text>
+  
+  <!-- Port Labels on Gateway -->
+  <!-- Left side ports -->
+  <rect x="325" y="225" width="15" height="15" class="port-rs485"/>
+  <rect x="325" y="245" width="15" height="15" class="port-rs485"/>
+  <rect x="325" y="265" width="15" height="15" class="port-rs485"/>
+  <rect x="325" y="285" width="15" height="15" class="port-rs485"/>
+  <rect x="325" y="305" width="15" height="15" class="port-rs485"/>
+  <rect x="325" y="325" width="15" height="15" class="port-rs485"/>
+  
+  <!-- Right side ports -->
+  <rect x="560" y="225" width="15" height="15" class="port-eth"/>
+  <rect x="560" y="245" width="15" height="15" class="port-eth"/>
+  <rect x="560" y="270" width="15" height="15" class="port-digital"/>
+  <rect x="560" y="290" width="15" height="15" class="port-analog"/>
+  <rect x="560" y="315" width="15" height="15" class="port-5g"/>
+  <rect x="560" y="335" width="15" height="15" fill="#9E9E9E"/>
+  
+  <!-- Bottom ports -->
+  <rect x="400" y="360" width="40" height="12" class="port-rs232"/>
+  <rect x="460" y="360" width="40" height="12" fill="#9C27B0"/>
+  
+  <!-- ============ RS-485 DEVICES (LEFT) ============ -->
+  <text x="30" y="78" class="label" font-weight="bold">RS-485 MODBUS DEVICES (6 Bus)</text>
+  
+  <!-- Bus 1-2: Energy Meters -->
+  <rect x="30" y="90" width="130" height="55" rx="5" class="device" filter="url(#shadow)"/>
+  <rect x="30" y="90" width="130" height="18" rx="5" class="port-rs485"/>
+  <text x="95" y="104" text-anchor="middle" class="label-white" font-size="8">Bus 1: Energy Meters</text>
+  <text x="40" y="122" class="label-sm">• Acrel ×8</text>
+  <text x="40" y="135" class="label-sm">• Power Quality</text>
+  
+  <rect x="30" y="155" width="130" height="55" rx="5" class="device" filter="url(#shadow)"/>
+  <rect x="30" y="155" width="130" height="18" rx="5" class="port-rs485"/>
+  <text x="95" y="169" text-anchor="middle" class="label-white" font-size="8">Bus 2: Temp Sensors</text>
+  <text x="40" y="187" class="label-sm">• NTC ×32</text>
+  <text x="40" y="200" class="label-sm">• PT100 ×16</text>
+  
+  <rect x="30" y="220" width="130" height="55" rx="5" class="device" filter="url(#shadow)"/>
+  <rect x="30" y="220" width="130" height="18" rx="5" class="port-rs485"/>
+  <text x="95" y="234" text-anchor="middle" class="label-white" font-size="8">Bus 3: VFD Drives</text>
+  <text x="40" y="252" class="label-sm">• ABB ACS580 ×4</text>
+  <text x="40" y="265" class="label-sm">• Pump/Fan Control</text>
+  
+  <rect x="30" y="285" width="130" height="55" rx="5" class="device" filter="url(#shadow)"/>
+  <rect x="30" y="285" width="130" height="18" rx="5" class="port-rs485"/>
+  <text x="95" y="299" text-anchor="middle" class="label-white" font-size="8">Bus 4: BMS DDC</text>
+  <text x="40" y="317" class="label-sm">• KX-DDC ×8</text>
+  <text x="40" y="330" class="label-sm">• HVAC Zone</text>
+  
+  <rect x="30" y="350" width="130" height="55" rx="5" class="device" filter="url(#shadow)"/>
+  <rect x="30" y="350" width="130" height="18" rx="5" class="port-rs485"/>
+  <text x="95" y="364" text-anchor="middle" class="label-white" font-size="8">Bus 5: Fire System</text>
+  <text x="40" y="382" class="label-sm">• Smoke Detect ×24</text>
+  <text x="40" y="395" class="label-sm">• MCP/Siren</text>
+  
+  <rect x="30" y="415" width="130" height="55" rx="5" class="device" filter="url(#shadow)"/>
+  <rect x="30" y="415" width="130" height="18" rx="5" class="port-rs485"/>
+  <text x="95" y="429" text-anchor="middle" class="label-white" font-size="8">Bus 6: Access Control</text>
+  <text x="40" y="447" class="label-sm">• Card Reader ×12</text>
+  <text x="40" y="460" class="label-sm">• Door Lock</text>
+  
+  <!-- RS-485 Connections -->
+  <path d="M 160 118 L 260 118 L 260 232 L 325 232" class="connector-rs485"/>
+  <path d="M 160 183 L 275 183 L 275 252 L 325 252" class="connector-rs485"/>
+  <path d="M 160 248 L 290 248 L 290 272 L 325 272" class="connector-rs485"/>
+  <path d="M 160 313 L 290 313 L 290 292 L 325 292" class="connector-rs485"/>
+  <path d="M 160 378 L 275 378 L 275 312 L 325 312" class="connector-rs485"/>
+  <path d="M 160 443 L 260 443 L 260 332 L 325 332" class="connector-rs485"/>
+  
+  <!-- ============ ETHERNET & AI DEVICES (RIGHT) ============ -->
+  <text x="620" y="78" class="label" font-weight="bold">ETHERNET & AI DEVICES</text>
+  
+  <!-- Ethernet Switch -->
+  <rect x="620" y="90" width="140" height="60" rx="5" class="device" filter="url(#shadow)"/>
+  <rect x="620" y="90" width="140" height="20" rx="5" class="port-eth"/>
+  <text x="690" y="105" text-anchor="middle" class="label-white" font-size="9">GbE Switch</text>
+  <text x="630" y="125" class="label-sm">• PoE+ 30W ×8</text>
+  <text x="630" y="140" class="label-sm">• VLAN/QoS</text>
+  
+  <!-- IP Cameras -->
+  <rect x="780" y="90" width="100" height="60" rx="5" class="device" filter="url(#shadow)"/>
+  <rect x="780" y="90" width="100" height="20" rx="5" fill="#00BCD4"/>
+  <text x="830" y="105" text-anchor="middle" class="label-white" font-size="9">AI Cameras</text>
+  <text x="790" y="125" class="label-sm">• 4K ×8</text>
+  <text x="790" y="140" class="label-sm">• RTSP/ONVIF</text>
+  
+  <!-- PLC -->
+  <rect x="620" y="165" width="140" height="55" rx="5" class="device" filter="url(#shadow)"/>
+  <rect x="620" y="165" width="140" height="20" rx="5" fill="#607D8B"/>
+  <text x="690" y="180" text-anchor="middle" class="label-white" font-size="9">PLC (Modbus TCP)</text>
+  <text x="630" y="200" class="label-sm">• Siemens S7</text>
+  <text x="630" y="213" class="label-sm">• Production Line</text>
+  
+  <!-- 5G/Cloud -->
+  <rect x="620" y="310" width="140" height="70" rx="5" class="device" filter="url(#shadow)"/>
+  <rect x="620" y="310" width="140" height="20" rx="5" class="port-5g"/>
+  <text x="690" y="325" text-anchor="middle" class="label-white" font-size="9">5G / WiFi 6E</text>
+  <text x="630" y="345" class="label-sm">• Sub-6GHz 5G</text>
+  <text x="630" y="358" class="label-sm">• WiFi 6E 6GHz</text>
+  <text x="630" y="371" class="label-sm">• Dual SIM Failover</text>
+  
+  <!-- Cloud -->
+  <rect x="780" y="310" width="100" height="70" rx="20" fill="#E3F2FD" stroke="#2196F3" stroke-width="1" filter="url(#shadow)"/>
+  <text x="830" y="340" text-anchor="middle" class="label" fill="#2196F3" font-weight="bold">CLOUD</text>
+  <text x="830" y="355" text-anchor="middle" class="label-sm" fill="#1565C0">MQTT/HTTPS</text>
+  <text x="830" y="368" text-anchor="middle" class="label-sm" fill="#1565C0">KinexusSCADA</text>
+  
+  <!-- Ethernet Connections -->
+  <path d="M 575 232 L 590 232 L 590 120 L 620 120" class="connector-eth" marker-end="url(#arrow-orange)"/>
+  <path d="M 760 120 L 780 120" class="connector-eth"/>
+  <path d="M 575 252 L 605 252 L 605 190 L 620 190" class="connector-eth" marker-end="url(#arrow-orange)"/>
+  
+  <!-- 5G Connection -->
+  <path d="M 575 322 L 620 345" class="connector-5g"/>
+  <path d="M 760 345 L 780 345" class="connector-5g"/>
+  
+  <!-- ============ BOTTOM: I/O & SERIAL ============ -->
+  <text x="350" y="400" class="label" font-weight="bold">ADDITIONAL I/O</text>
+  
+  <!-- DI/DO -->
+  <rect x="350" y="410" width="100" height="50" rx="5" class="device" filter="url(#shadow)"/>
+  <rect x="350" y="410" width="100" height="15" rx="5" class="port-digital"/>
+  <text x="400" y="422" text-anchor="middle" class="label-white" font-size="8">Digital I/O</text>
+  <text x="360" y="440" class="label-sm">• 8 DI / 4 DO</text>
+  <text x="360" y="455" class="label-sm">• 24V Isolated</text>
+  
+  <!-- AI/AO -->
+  <rect x="470" y="410" width="100" height="50" rx="5" class="device" filter="url(#shadow)"/>
+  <rect x="470" y="410" width="100" height="15" rx="5" class="port-analog"/>
+  <text x="520" y="422" text-anchor="middle" class="label-white" font-size="8">Analog I/O</text>
+  <text x="480" y="440" class="label-sm">• 4 AI 0-10V</text>
+  <text x="480" y="455" class="label-sm">• 2 AO 4-20mA</text>
+  
+  <!-- RS-232 Serial -->
+  <rect x="200" y="410" width="120" height="50" rx="5" class="device" filter="url(#shadow)"/>
+  <rect x="200" y="410" width="120" height="15" rx="5" class="port-rs232"/>
+  <text x="260" y="422" text-anchor="middle" class="label-white" font-size="8">RS-232 Serial</text>
+  <text x="210" y="440" class="label-sm">• GPS Module</text>
+  <text x="210" y="455" class="label-sm">• Legacy Device</text>
+  
+  <!-- Connections to bottom ports -->
+  <path d="M 400 372 L 400 410" class="connector"/>
+  <path d="M 520 372 L 520 410" class="connector"/>
+  <path d="M 420 372 L 300 372 L 300 410" class="connector"/>
+  
+  <!-- Legend -->
+  <rect x="30" y="490" width="350" height="45" rx="5" fill="#F9F9F9" stroke="#DDD"/>
+  <text x="45" y="508" class="label" font-weight="bold">CONNECTION TYPE</text>
+  <rect x="45" y="515" width="40" height="12" class="port-rs485"/>
+  <text x="95" y="525" class="label-sm">RS-485 Modbus</text>
+  <rect x="155" y="515" width="40" height="12" class="port-eth"/>
+  <text x="205" y="525" class="label-sm">Ethernet GbE</text>
+  <rect x="265" y="515" width="40" height="12" class="port-5g"/>
+  <text x="315" y="525" class="label-sm">5G/WiFi</text>
+  
+  <!-- KINEXUS Logo -->
+  <rect x="760" y="490" width="120" height="45" fill="#0A2240" rx="5"/>
+  <text x="820" y="515" fill="#FFF" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">MEKONG</text>
+  <text x="820" y="528" fill="#FF6B00" font-family="Arial" font-size="8" text-anchor="middle">TECHNOLOGY</text>
+  
+</svg>

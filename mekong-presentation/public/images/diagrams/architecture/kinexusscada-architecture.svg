@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" width="900" height="650">
+  <defs>
+    <style>
+      .title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 18px; font-weight: 600; fill: #0A2240; }
+      .subtitle { font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; fill: #555; }
+      .label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; fill: #333; }
+      .label-white { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; fill: #FFF; }
+      .label-sm { font-family: 'Segoe UI', Arial, sans-serif; font-size: 9px; fill: #666; }
+      .box-primary { fill: #0A2240; }
+      .box-accent { fill: #FF6B00; }
+      .box-light { fill: #E8EDF2; stroke: #B8C4D0; stroke-width: 1; }
+      .module { fill: #FFFFFF; stroke: #D0D8E0; stroke-width: 1.5; }
+      .scada-green { fill: #4CAF50; }
+      .scada-blue { fill: #2196F3; }
+      .scada-orange { fill: #FF9800; }
+      .scada-purple { fill: #9C27B0; }
+      .connector { stroke: #0A2240; stroke-width: 2; fill: none; }
+      .connector-data { stroke: #FF6B00; stroke-width: 2; fill: none; stroke-dasharray: 6,3; }
+    </style>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FAFBFC"/>
+      <stop offset="100%" style="stop-color:#EEF1F5"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#0A2240"/>
+    </marker>
+    <marker id="arrow-orange" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#FF6B00"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="650" fill="url(#bgGrad)"/>
+  
+  <!-- Title -->
+  <text x="450" y="32" text-anchor="middle" class="title">KinexusSCADA PLATFORM ARCHITECTURE</text>
+  <text x="450" y="50" text-anchor="middle" class="subtitle">Industrial IoT Supervisory Control and Data Acquisition System</text>
+  
+  <!-- ============ VISUALIZATION LAYER ============ -->
+  <rect x="30" y="70" width="840" height="90" rx="8" class="box-light" filter="url(#shadow)"/>
+  <rect x="30" y="70" width="840" height="25" rx="8" class="scada-purple"/>
+  <rect x="30" y="90" width="840" height="5" class="scada-purple"/>
+  <text x="450" y="89" text-anchor="middle" class="label-white">VISUALIZATION & HMI LAYER</text>
+  
+  <!-- HMI Components -->
+  <rect x="45" y="105" width="130" height="45" rx="5" class="module" filter="url(#shadow)"/>
+  <text x="110" y="125" text-anchor="middle" class="label">Web SCADA HMI</text>
+  <text x="110" y="140" text-anchor="middle" class="label-sm">Real-time Graphics</text>
+  
+  <rect x="190" y="105" width="130" height="45" rx="5" class="module" filter="url(#shadow)"/>
+  <text x="255" y="125" text-anchor="middle" class="label">Mobile Dashboard</text>
+  <text x="255" y="140" text-anchor="middle" class="label-sm">iOS / Android</text>
+  
+  <rect x="335" y="105" width="130" height="45" rx="5" class="module" filter="url(#shadow)"/>
+  <text x="400" y="125" text-anchor="middle" class="label">Control Room</text>
+  <text x="400" y="140" text-anchor="middle" class="label-sm">Multi-monitor Wall</text>
+  
+  <rect x="480" y="105" width="130" height="45" rx="5" class="module" filter="url(#shadow)"/>
+  <text x="545" y="125" text-anchor="middle" class="label">Alarm Console</text>
+  <text x="545" y="140" text-anchor="middle" class="label-sm">Email/SMS/Push</text>
+  
+  <rect x="625" y="105" width="130" height="45" rx="5" class="module" filter="url(#shadow)"/>
+  <text x="690" y="125" text-anchor="middle" class="label">Report Generator</text>
+  <text x="690" y="140" text-anchor="middle" class="label-sm">PDF / Excel</text>
+  
+  <rect x="770" y="105" width="85" height="45" rx="5" class="module" filter="url(#shadow)"/>
+  <text x="812" y="125" text-anchor="middle" class="label">API</text>
+  <text x="812" y="140" text-anchor="middle" class="label-sm">REST/GraphQL</text>
+  
+  <!-- ============ APPLICATION LAYER ============ -->
+  <rect x="30" y="175" width="840" height="130" rx="8" class="box-light" filter="url(#shadow)"/>
+  <rect x="30" y="175" width="840" height="25" rx="8" class="scada-green"/>
+  <rect x="30" y="195" width="840" height="5" class="scada-green"/>
+  <text x="450" y="194" text-anchor="middle" class="label-white">APPLICATION & ANALYTICS LAYER — KinexusSCADA Core</text>
+  
+  <!-- Core Modules -->
+  <rect x="45" y="210" width="155" height="85" rx="5" class="module" filter="url(#shadow)"/>
+  <rect x="45" y="210" width="155" height="18" rx="5" fill="#66BB6A"/>
+  <text x="122" y="223" text-anchor="middle" class="label-white" font-size="9">DATA HISTORIAN</text>
+  <text x="55" y="245" class="label-sm">• Time-series Storage</text>
+  <text x="55" y="260" class="label-sm">• Compression 10:1</text>
+  <text x="55" y="275" class="label-sm">• Query Optimization</text>
+  <text x="55" y="290" class="label-sm">• Retention Policy</text>
+  
+  <rect x="215" y="210" width="155" height="85" rx="5" class="module" filter="url(#shadow)"/>
+  <rect x="215" y="210" width="155" height="18" rx="5" fill="#66BB6A"/>
+  <text x="292" y="223" text-anchor="middle" class="label-white" font-size="9">ALARM MANAGER</text>
+  <text x="225" y="245" class="label-sm">• Rule Engine</text>
+  <text x="225" y="260" class="label-sm">• Escalation Matrix</text>
+  <text x="225" y="275" class="label-sm">• Acknowledgment</text>
+  <text x="225" y="290" class="label-sm">• ISA-18.2 Compliant</text>
+  
+  <rect x="385" y="210" width="155" height="85" rx="5" class="module" filter="url(#shadow)"/>
+  <rect x="385" y="210" width="155" height="18" rx="5" fill="#66BB6A"/>
+  <text x="462" y="223" text-anchor="middle" class="label-white" font-size="9">ANALYTICS ENGINE</text>
+  <text x="395" y="245" class="label-sm">• Trend Analysis</text>
+  <text x="395" y="260" class="label-sm">• Anomaly Detection</text>
+  <text x="395" y="275" class="label-sm">• Predictive Maint.</text>
+  <text x="395" y="290" class="label-sm">• Energy Optimize</text>
+  
+  <rect x="555" y="210" width="155" height="85" rx="5" class="module" filter="url(#shadow)"/>
+  <rect x="555" y="210" width="155" height="18" rx="5" fill="#66BB6A"/>
+  <text x="632" y="223" text-anchor="middle" class="label-white" font-size="9">RECIPE MANAGER</text>
+  <text x="565" y="245" class="label-sm">• Batch Control</text>
+  <text x="565" y="260" class="label-sm">• Parameter Sets</text>
+  <text x="565" y="275" class="label-sm">• Version Control</text>
+  <text x="565" y="290" class="label-sm">• ISA-88 Batch</text>
+  
+  <rect x="725" y="210" width="130" height="85" rx="5" class="module" filter="url(#shadow)"/>
+  <rect x="725" y="210" width="130" height="18" rx="5" fill="#66BB6A"/>
+  <text x="790" y="223" text-anchor="middle" class="label-white" font-size="9">SECURITY</text>
+  <text x="735" y="245" class="label-sm">• Role-based Access</text>
+  <text x="735" y="260" class="label-sm">• Audit Trail</text>
+  <text x="735" y="275" class="label-sm">• SSL/TLS</text>
+  <text x="735" y="290" class="label-sm">• IEC 62443</text>
+  
+  <!-- ============ COMMUNICATION LAYER ============ -->
+  <rect x="30" y="320" width="840" height="70" rx="8" class="box-light" filter="url(#shadow)"/>
+  <rect x="30" y="320" width="840" height="25" rx="8" class="box-accent"/>
+  <rect x="30" y="340" width="840" height="5" class="box-accent"/>
+  <text x="450" y="339" text-anchor="middle" class="label-white">COMMUNICATION LAYER — Multi-Protocol Support</text>
+  
+  <!-- Protocols -->
+  <rect x="50" y="355" width="90" height="25" rx="4" fill="#FF9800"/>
+  <text x="95" y="372" text-anchor="middle" class="label-white" font-size="9">OPC UA</text>
+  
+  <rect x="155" y="355" width="90" height="25" rx="4" fill="#FF9800"/>
+  <text x="200" y="372" text-anchor="middle" class="label-white" font-size="9">Modbus TCP</text>
+  
+  <rect x="260" y="355" width="90" height="25" rx="4" fill="#FF9800"/>
+  <text x="305" y="372" text-anchor="middle" class="label-white" font-size="9">Modbus RTU</text>
+  
+  <rect x="365" y="355" width="90" height="25" rx="4" fill="#FF9800"/>
+  <text x="410" y="372" text-anchor="middle" class="label-white" font-size="9">BACnet</text>
+  
+  <rect x="470" y="355" width="90" height="25" rx="4" fill="#FF9800"/>
+  <text x="515" y="372" text-anchor="middle" class="label-white" font-size="9">MQTT</text>
+  
+  <rect x="575" y="355" width="90" height="25" rx="4" fill="#FF9800"/>
+  <text x="620" y="372" text-anchor="middle" class="label-white" font-size="9">S7 Siemens</text>
+  
+  <rect x="680" y="355" width="90" height="25" rx="4" fill="#FF9800"/>
+  <text x="725" y="372" text-anchor="middle" class="label-white" font-size="9">EtherNet/IP</text>
+  
+  <rect x="785" y="355" width="70" height="25" rx="4" fill="#FF9800"/>
+  <text x="820" y="372" text-anchor="middle" class="label-white" font-size="9">IEC 104</text>
+  
+  <!-- ============ FIELD DEVICES ============ -->
+  <rect x="30" y="410" width="840" height="220" rx="8" class="box-light" filter="url(#shadow)"/>
+  <rect x="30" y="410" width="840" height="25" rx="8" class="box-primary"/>
+  <rect x="30" y="430" width="840" height="5" class="box-primary"/>
+  <text x="450" y="428" text-anchor="middle" class="label-white">FIELD LAYER — Controllers, Gateways & Sensors</text>
+  
+  <!-- PLC/RTU Section -->
+  <rect x="45" y="445" width="200" height="170" rx="6" fill="#E3F2FD" stroke="#2196F3" stroke-width="1"/>
+  <rect x="45" y="445" width="200" height="20" rx="6" class="scada-blue"/>
+  <text x="145" y="460" text-anchor="middle" class="label-white" font-size="10">PLC / RTU</text>
+  
+  <rect x="55" y="475" width="85" height="60" rx="4" class="module" filter="url(#shadow)"/>
+  <rect x="55" y="475" width="85" height="15" rx="4" fill="#2196F3"/>
+  <text x="97" y="487" text-anchor="middle" class="label-white" font-size="7">Siemens S7</text>
+  <text x="65" y="505" class="label-sm">• S7-1200</text>
+  <text x="65" y="518" class="label-sm">• S7-1500</text>
+  <text x="65" y="531" class="label-sm">• ET200</text>
+  
+  <rect x="150" y="475" width="85" height="60" rx="4" class="module" filter="url(#shadow)"/>
+  <rect x="150" y="475" width="85" height="15" rx="4" fill="#2196F3"/>  
+  <text x="192" y="487" text-anchor="middle" class="label-white" font-size="7">Schneider</text>
+  <text x="160" y="505" class="label-sm">• M340</text>
+  <text x="160" y="518" class="label-sm">• M580</text>
+  <text x="160" y="531" class="label-sm">• Quantum</text>
+  
+  <rect x="55" y="545" width="180" height="55" rx="4" class="module" filter="url(#shadow)"/>
+  <rect x="55" y="545" width="180" height="15" rx="4" fill="#2196F3"/>
+  <text x="145" y="557" text-anchor="middle" class="label-white" font-size="7">Other PLCs</text>
+  <text x="65" y="575" class="label-sm">Allen-Bradley, Mitsubishi, Omron, Delta</text>
+  <text x="65" y="590" class="label-sm">ABB, Beckhoff, Keyence</text>
+  
+  <!-- KINEXUS Gateway Section -->
+  <rect x="260" y="445" width="200" height="170" rx="6" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1"/>
+  <rect x="260" y="445" width="200" height="20" rx="6" class="scada-green"/>
+  <text x="360" y="460" text-anchor="middle" class="label-white" font-size="10">MEKONG GATEWAYS</text>
+  
+  <rect x="270" y="475" width="85" height="60" rx="4" class="module" filter="url(#shadow)"/>
+  <rect x="270" y="475" width="85" height="15" rx="4" fill="#4CAF50"/>
+  <text x="312" y="487" text-anchor="middle" class="label-white" font-size="7">KX-100</text>
+  <text x="280" y="505" class="label-sm">• 4×RS-485</text>
+  <text x="280" y="518" class="label-sm">• WiFi/4G</text>
+  <text x="280" y="531" class="label-sm">• Basic IoT</text>
+  
+  <rect x="365" y="475" width="85" height="60" rx="4" class="module" filter="url(#shadow)"/>
+  <rect x="365" y="475" width="85" height="15" rx="4" fill="#4CAF50"/>
+  <text x="407" y="487" text-anchor="middle" class="label-white" font-size="7">KX-200</text>
+  <text x="375" y="505" class="label-sm">• 2 TOPS AI</text>
+  <text x="375" y="518" class="label-sm">• 4G/WiFi 6</text>
+  <text x="375" y="531" class="label-sm">• Edge ML</text>
+  
+  <rect x="270" y="545" width="85" height="55" rx="4" class="module" filter="url(#shadow)"/>
+  <rect x="270" y="545" width="85" height="15" rx="4" fill="#4CAF50"/>
+  <text x="312" y="557" text-anchor="middle" class="label-white" font-size="7">KX-300</text>
+  <text x="280" y="575" class="label-sm">• 40 TOPS</text>
+  <text x="280" y="590" class="label-sm">• 5G Ready</text>
+  
+  <rect x="365" y="545" width="85" height="55" rx="4" class="module" filter="url(#shadow)"/>
+  <rect x="365" y="545" width="85" height="15" rx="4" fill="#4CAF50"/>
+  <text x="407" y="557" text-anchor="middle" class="label-white" font-size="7">KX-500</text>
+  <text x="375" y="575" class="label-sm">• 200 TOPS</text>
+  <text x="375" y="590" class="label-sm">• Industrial AI</text>
+  
+  <!-- BMS/DDC Section -->
+  <rect x="475" y="445" width="185" height="170" rx="6" fill="#FFF3E0" stroke="#FF9800" stroke-width="1"/>
+  <rect x="475" y="445" width="185" height="20" rx="6" class="scada-orange"/>
+  <text x="567" y="460" text-anchor="middle" class="label-white" font-size="10">BMS CONTROLLERS</text>
+  
+  <rect x="485" y="475" width="80" height="55" rx="4" class="module" filter="url(#shadow)"/>
+  <rect x="485" y="475" width="80" height="15" rx="4" fill="#FF9800"/>
+  <text x="525" y="487" text-anchor="middle" class="label-white" font-size="7">DDC-24</text>
+  <text x="495" y="505" class="label-sm">• 24 I/O</text>
+  <text x="495" y="520" class="label-sm">• Small AHU</text>
+  
+  <rect x="570" y="475" width="80" height="55" rx="4" class="module" filter="url(#shadow)"/>
+  <rect x="570" y="475" width="80" height="15" rx="4" fill="#FF9800"/>
+  <text x="610" y="487" text-anchor="middle" class="label-white" font-size="7">DDC-64</text>
+  <text x="580" y="505" class="label-sm">• 64 I/O</text>
+  <text x="580" y="520" class="label-sm">• Chiller</text>
+  
+  <rect x="485" y="540" width="165" height="65" rx="4" class="module" filter="url(#shadow)"/>
+  <rect x="485" y="540" width="165" height="15" rx="4" fill="#FF9800"/>
+  <text x="567" y="552" text-anchor="middle" class="label-white" font-size="7">I/O EXPANSION</text>
+  <text x="495" y="572" class="label-sm">• KX-EIO-UI8: Universal Input</text>
+  <text x="495" y="587" class="label-sm">• KX-EIO-DO8: Relay Output</text>
+  <text x="495" y="602" class="label-sm">• KX-EIO-AO4: Analog Output</text>
+  
+  <!-- Sensors Section -->
+  <rect x="675" y="445" width="180" height="170" rx="6" fill="#F3E5F5" stroke="#9C27B0" stroke-width="1"/>
+  <rect x="675" y="445" width="180" height="20" rx="6" class="scada-purple"/>
+  <text x="765" y="460" text-anchor="middle" class="label-white" font-size="10">FIELD SENSORS</text>
+  
+  <text x="685" y="480" class="label-sm" font-weight="bold">Temperature:</text>
+  <text x="775" y="480" class="label-sm">PT100, NTC, Thermocouple</text>
+  
+  <text x="685" y="498" class="label-sm" font-weight="bold">Pressure:</text>
+  <text x="775" y="498" class="label-sm">0-10V, 4-20mA</text>
+  
+  <text x="685" y="516" class="label-sm" font-weight="bold">Flow:</text>
+  <text x="775" y="516" class="label-sm">Ultrasonic, Magnetic</text>
+  
+  <text x="685" y="534" class="label-sm" font-weight="bold">Level:</text>
+  <text x="775" y="534" class="label-sm">Capacitive, Radar</text>
+  
+  <text x="685" y="552" class="label-sm" font-weight="bold">Power:</text>
+  <text x="775" y="552" class="label-sm">3-phase Meter</text>
+  
+  <text x="685" y="570" class="label-sm" font-weight="bold">Environment:</text>
+  <text x="775" y="570" class="label-sm">CO2, Humidity, Air</text>
+  
+  <text x="685" y="588" class="label-sm" font-weight="bold">Motion:</text>
+  <text x="775" y="588" class="label-sm">Vibration, Proximity</text>
+  
+  <text x="685" y="606" class="label-sm" font-weight="bold">Vision:</text>
+  <text x="775" y="606" class="label-sm">IP Camera, AI Box</text>
+  
+  <!-- Vertical Connectors -->
+  <line x1="110" y1="150" x2="110" y2="175" class="connector"/>
+  <line x1="255" y1="150" x2="255" y2="175" class="connector"/>
+  <line x1="400" y1="150" x2="400" y2="175" class="connector"/>
+  <line x1="545" y1="150" x2="545" y2="175" class="connector"/>
+  <line x1="690" y1="150" x2="690" y2="175" class="connector"/>
+  
+  <line x1="122" y1="295" x2="122" y2="320" class="connector"/>
+  <line x1="292" y1="295" x2="292" y2="320" class="connector"/>
+  <line x1="462" y1="295" x2="462" y2="320" class="connector"/>
+  <line x1="632" y1="295" x2="632" y2="320" class="connector"/>
+  
+  <line x1="145" y1="390" x2="145" y2="445" class="connector"/>
+  <line x1="360" y1="390" x2="360" y2="445" class="connector"/>
+  <line x1="567" y1="390" x2="567" y2="445" class="connector"/>
+  <line x1="765" y1="390" x2="765" y2="445" class="connector"/>
+  
+</svg>
